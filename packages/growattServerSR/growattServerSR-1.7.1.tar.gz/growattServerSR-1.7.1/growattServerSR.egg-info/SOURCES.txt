@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+growattServerSR/__init__.py
+growattServerSR.egg-info/PKG-INFO
+growattServerSR.egg-info/SOURCES.txt
+growattServerSR.egg-info/dependency_links.txt
+growattServerSR.egg-info/requires.txt
+growattServerSR.egg-info/top_level.txt
