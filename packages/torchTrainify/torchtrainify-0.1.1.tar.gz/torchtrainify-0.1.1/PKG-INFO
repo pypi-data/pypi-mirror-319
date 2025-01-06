@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: torchTrainify
+Version: 0.1.1
+Summary: A package to simplify the training and testing of PyTorch models
+Author-email: Daniel Padban <danielpadban@gmail.com>
+License: MIT
+Project-URL: Github, https://github.com/daniel-padban/torchTrainify
+Keywords: pytorch,training,testing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+Requires-Dist: filelock
+Requires-Dist: fsspec
+Requires-Dist: Jinja2
+Requires-Dist: MarkupSafe
+Requires-Dist: mpmath
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: setuptools
+Requires-Dist: sympy
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: typing_extensions
+Provides-Extra: dev
+Requires-Dist: torchvision; extra == "dev"
+Requires-Dist: torcheval; extra == "dev"
