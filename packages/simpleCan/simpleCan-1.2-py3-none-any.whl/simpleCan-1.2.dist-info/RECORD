@@ -1,0 +1,15 @@
+simpleCan/__init__.py,sha256=8ToyVwVCdlhcRfvTMrUL_inqrfz2XNiL_okErYHZ4Jk,73
+simpleCan/demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleCan/demo/signal_table.xlsx,sha256=hnCi7J8Eazb4z8dRSumoaba9Hkv3THY31x8zZYKWPj4,12064
+simpleCan/demo/test.py,sha256=CgAMRUasckQ-sDON4BGlPkS74tUYGUBo3-E5Sb405A0,289
+simpleCan/dll_file/vxlapi64.dll,sha256=CYA81EsNkMffuIPExahQvr4jZyJ6u3y8tK1kfg4xwhI,1014784
+simpleCan/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleCan/util/dataStructure.py,sha256=6Jvb5pPqwIcreG-Ls0lKPbFQxB1Jr-sCB4xGYpXeNj8,7174
+simpleCan/util/signal_table.py,sha256=gIp_H4r0vwgmFd-ly_W5fTTREAT2MaBXuWtmbgCL3TA,1396
+simpleCan/util/simpleCan.py,sha256=i18Y0i5py1Bahul6-oU9vVyarhyJLHpK3r81HHCvFXw,2502
+simpleCan/util/task.py,sha256=kKbSy04zqxtADV6BecrbO-R2RVJ6CiKPXiGYDGTBi0M,1427
+simpleCan/util/xldriver.py,sha256=7sFj3FBaMmy909-NV7F_Dqeh3dN3C_pvOLoZXMdR87c,4271
+simpleCan-1.2.dist-info/METADATA,sha256=Lunpg6qHq_9ilX-uKm46Lv-S8is-UwT7dK2o9vW7r_Y,386
+simpleCan-1.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+simpleCan-1.2.dist-info/top_level.txt,sha256=_mmM9CuGhQgNRzGBFgp4D5n__x7HsgnFKy6ajtKpzqY,10
+simpleCan-1.2.dist-info/RECORD,,
