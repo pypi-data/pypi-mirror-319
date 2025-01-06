@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+gapclean/__init__.py
+gapclean/gapclean.py
+gapclean.egg-info/PKG-INFO
+gapclean.egg-info/SOURCES.txt
+gapclean.egg-info/dependency_links.txt
+gapclean.egg-info/entry_points.txt
+gapclean.egg-info/requires.txt
+gapclean.egg-info/top_level.txt
