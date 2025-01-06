@@ -1,0 +1,11 @@
+sacra/__init__.py,sha256=mkW2cSMhyc1YhoL5kSucJhEtwwQnd_MBwDKlUJZmAx0,261
+sacra/_print.py,sha256=F3BuY2t66WK5h15i5uKEyC2y6Y77ZSUtzhAeTOQ0dSI,879
+sacra/_version.py,sha256=DGJ4pj32xs3_DRJhSzQwCiRNnAQrMgo09USYpyMZsKc,411
+sacra/polyskelion.py,sha256=ZKsDDwH6VkvTZvx3H3aO23UUOI2Nik8n6LtOhlIK57A,7793
+sacra/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sacra-1.0.0.dist-info/LICENSE,sha256=wbI-tjqTvRYCtcHLvZqwwIPUrDgOTDM-fUiR6OiR_sg,1066
+sacra-1.0.0.dist-info/METADATA,sha256=7odfqTTBXyjknsf9EzyEOoHWtYynToFC6Q9zkUP8sPs,2700
+sacra-1.0.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+sacra-1.0.0.dist-info/entry_points.txt,sha256=KzGAZQ_Ug5a94fb85bvITCc9sz39QkWGkwbtkhxsRJk,56
+sacra-1.0.0.dist-info/top_level.txt,sha256=XGhjXozilmNYAWZEmnmAT_68b3xtHjnFqYyh29GQkv4,6
+sacra-1.0.0.dist-info/RECORD,,
