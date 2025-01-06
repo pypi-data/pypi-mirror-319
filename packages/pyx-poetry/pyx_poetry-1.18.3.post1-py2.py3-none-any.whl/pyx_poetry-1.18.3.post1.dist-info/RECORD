@@ -1,0 +1,9 @@
+PyXMake/Plugin/__build.py,sha256=zUTQpFlLulrHL70jv-UBFYG2SiMJ9GrPIbhbxjYeQQA,8897
+PyXMake/Plugin/__git.py,sha256=YWwktEz1ZIQ-8LIHmUsoS6OxD5nBD1J9MzV1YY_LmuE,7246
+PyXMake/Plugin/__gitlab.py,sha256=xYlWAxSyuRxeM-3K6N1dSMLnwv8DFikd7tH_XWU9Jn4,11703
+PyXMake/Plugin/__init__.py,sha256=Xko78xWx1HV6AoZqiCtrnNPrugViNzBuFT-FnW_Esec,3228
+PyXMake/Plugin/__poetry.py,sha256=fQOw8c1Nd0-rQsSxO4Ftl2KXtjJawEGNYXkG5hV-Ic0,21504
+pyx_poetry-1.18.3.post1.dist-info/METADATA,sha256=a5hz8y4uOjxbv4JT_qxhRtE8q-TlLQEbyX77r3WQA1s,5937
+pyx_poetry-1.18.3.post1.dist-info/WHEEL,sha256=HNQIvPlX3_ghCv6ljjG1vnIF6Npwq1SIN8tJybrRXEo,92
+pyx_poetry-1.18.3.post1.dist-info/entry_points.txt,sha256=BdJwMkQcZT6Iqupy5fciXbywzvp81UlBy3Wgt-n6niM,192
+pyx_poetry-1.18.3.post1.dist-info/RECORD,,
