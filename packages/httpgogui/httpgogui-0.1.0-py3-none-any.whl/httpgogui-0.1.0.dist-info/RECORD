@@ -1,0 +1,9 @@
+httpgogui-0.1.0.dist-info/METADATA,sha256=Q1hF2FpNuRfviZEWCK2Om01Q7cTLBnj4Zdw1w1UO12A,617
+httpgogui-0.1.0.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+httpgogui-0.1.0.dist-info/entry_points.txt,sha256=rO_O3AIlrftEpOgyJztqKmtFJC5vwtasyUDs2WiexFA,66
+httpgogui/components/table_widget.py,sha256=zFFIMKX6u6juuWQeW8QeEfofqLPJCKB1nVJmRdcTrEA,3397
+httpgogui/layout/body.py,sha256=AWRyRimkOE-9OV1RYJG8bC5jbPa3SSHjCvMDrnUEbg8,3081
+httpgogui/layout/bottom.py,sha256=dZGdCyokCo5iWBPAMj-KfbGtNdZFzG0_XYnSg0AyQ64,866
+httpgogui/layout/header.py,sha256=DhwMvzcds3wti9hBvN9Op8mrroyYlKu7mhBRoF7Yh_4,1250
+httpgogui/main.py,sha256=xLchJiE4U21AJoU9Tmqy4k1Gjprc86TFcgdSp97h_MI,6414
+httpgogui-0.1.0.dist-info/RECORD,,
