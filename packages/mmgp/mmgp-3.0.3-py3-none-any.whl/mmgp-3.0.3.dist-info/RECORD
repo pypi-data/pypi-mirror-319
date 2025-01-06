@@ -1,0 +1,9 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmgp/__init__.py,sha256=A9qBwyQMd1M7vshSTOBnFGP1MQvS2hXmTcTCMUcmyzE,509
+mmgp/offload.py,sha256=N_n12QJmZlPRbZiYl6BQVfmJaqxxIbiCKkT6w-2CVo4,61781
+mmgp/safetensors2.py,sha256=CSv8HdrjURUzBazpaBDU1WNwUL1lhzpCyzG0GWygbGE,13602
+mmgp-3.0.3.dist-info/LICENSE.md,sha256=HjzvY2grdtdduZclbZ46B2M-XpT4MDCxFub5ZwTWq2g,93
+mmgp-3.0.3.dist-info/METADATA,sha256=0dw13_XUzNPCV6VL-e5FAjvMIUDDT1ffFf7rLG_34zc,12079
+mmgp-3.0.3.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+mmgp-3.0.3.dist-info/top_level.txt,sha256=waGaepj2qVfnS2yAOkaMu4r9mJaVjGbEi6AwOUogU_U,14
+mmgp-3.0.3.dist-info/RECORD,,
