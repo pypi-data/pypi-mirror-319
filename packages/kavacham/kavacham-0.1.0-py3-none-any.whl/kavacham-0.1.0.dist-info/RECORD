@@ -1,0 +1,9 @@
+kavacham/Readme.md,sha256=0e6nOMTkYEZcGP1_VVbrBRZHfq6N-2rwL2764VBtFEs,2472
+kavacham/__init__.py,sha256=baAonh8pfM8pahQIbi_W6BrQGjD24yJkWANoBMThIhE,95
+kavacham/model.py,sha256=V8yZpC-JYoJgfY0GbWSBg0S7MVDtxxoMXLubD0r4xYk,2266
+kavacham/predictor.py,sha256=G-DYYwXyUU4CTntzk31RWao592IFOmS1bI7q545ZXbo,2164
+kavacham/utils.py,sha256=mwZWL-xtyBwd9cbDlA3xJkQDj55H6T2xDufovn6KYyg,1611
+kavacham-0.1.0.dist-info/LICENSE,sha256=e82kpoXgvXmNGKrttcqB2oMxTIlEq5xfZp6SOAroN9k,1074
+kavacham-0.1.0.dist-info/METADATA,sha256=YjN_RV6qqJyZs10gvEMxB5UuVltUocteibPpjvTA9nw,3127
+kavacham-0.1.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+kavacham-0.1.0.dist-info/RECORD,,
