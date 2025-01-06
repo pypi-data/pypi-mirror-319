@@ -1,0 +1,2 @@
+[console_scripts]
+fovsa = fovsa_cli.cli
