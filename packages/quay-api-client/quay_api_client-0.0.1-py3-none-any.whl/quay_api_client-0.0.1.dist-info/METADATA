@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: quay-api-client
+Version: 0.0.1
+Summary: Quay API Client is a Python Client for the Red Hat Quay Container Registry
+Home-page: https://github.com/benruland/quay-python-client
+Author: Benjamin Ruland
+Author-email: benjamin.ruland@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# quay-python-client
+Python Client for Red Hat Quay Container Registry
