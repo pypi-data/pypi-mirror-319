@@ -1,0 +1,7 @@
+encrypted_fields/__init__.py,sha256=jaIm_YpkmxZnQrZ-73sIWYvL5mCwaWKLkaS_qA-B99E,36
+encrypted_fields/fields.py,sha256=FIhvI4shLaIo1rA7DmYUQ_VKliXHJYsSRmfKbzHq1Uo,6991
+django_fernet_encrypted_fields-0.2.0.dist-info/LICENCE.txt,sha256=s2v1u8QNr4JF4TkzuF-pqw-1-S4FC0SNVhP7t69ZZG8,1081
+django_fernet_encrypted_fields-0.2.0.dist-info/METADATA,sha256=zoE21GAKrNrTKzieU8x6orxOkOmEOY2Sw6bafVwiDZA,2672
+django_fernet_encrypted_fields-0.2.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+django_fernet_encrypted_fields-0.2.0.dist-info/top_level.txt,sha256=mkmobKurxz0UAGoG44xxB_xdq-ApciZ9D7zoGQ93Zw4,17
+django_fernet_encrypted_fields-0.2.0.dist-info/RECORD,,
