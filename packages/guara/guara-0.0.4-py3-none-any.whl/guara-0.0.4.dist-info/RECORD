@@ -1,0 +1,16 @@
+guara/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guara/it.py,sha256=99qKZzopPw4ZmZDgRNbtjw5nbch5sI7j1rZvP7m3-HE,571
+guara/setup.py,sha256=J6tN74uyrZa4b7pSs4zjjon_8HZZH6SlKtuKLAmMnC8,1418
+guara/transaction.py,sha256=y_mpufo8re0jeXeNioS0Zt1u3qN34m1UaY1LX8k-iFw,1460
+guara/asynchronous/README.md,sha256=72hsIGgf3mCVBrR6aU7WBFdlM-02j7OXn4DKEjXWxsY,1821
+guara/asynchronous/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guara/asynchronous/it.py,sha256=zvh9S1jKjkzE2AKJfqQJAWZGWF6qrJydAgJfAnT3-ik,748
+guara/asynchronous/setup.py,sha256=NK6vgQ5gv1fqLcD8vPbUHnihZlrsm_83aMxj0IkcX8k,1156
+guara/asynchronous/transaction.py,sha256=YD6d5wBiIgvTkKDKQ3RKvB-fVsrmk-ChnQn7JMzh_a8,2174
+guara/asynchronous/uml_abstract_transaction.png,sha256=IF8N41-a3qiMP-FnVgeITJFsshdlRPrsX4--wd5oMyk,32759
+guara/asynchronous/uml_application.png,sha256=ZW5Bx7zbNB1mnGztZ9Tcx8l4rSc-fEJYhuXEwK8ddwo,36284
+guara/asynchronous/uml_iassertion.png,sha256=S90r2J9CazgdoyssHJoFt8vL7oUc32mOCkFxT__uy-M,25160
+guara-0.0.4.dist-info/METADATA,sha256=lIwe2KYh8LLv7RvBaIVa4meCzmQH8JhkwGJXkp9JW10,9029
+guara-0.0.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+guara-0.0.4.dist-info/licenses/LICENSE,sha256=3Q8_rwTTyPYprd9YbcCC2dCUD9t5J72Wp8hDeoO-WIs,1072
+guara-0.0.4.dist-info/RECORD,,
