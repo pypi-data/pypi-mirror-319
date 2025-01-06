@@ -1,0 +1,3 @@
+[console_scripts]
+start-watching-sites=start_watching_sites.main:main
+
