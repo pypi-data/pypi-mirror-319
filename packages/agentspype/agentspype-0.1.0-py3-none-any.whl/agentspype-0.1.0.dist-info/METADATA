@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: agentspype
+Version: 0.1.0
+Summary: A framework for building agents that interact with the world
+Author: Gianluca Pagliara
+Author-email: pagliara.gianluca@gmail.com
+Requires-Python: >=3.13,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: eventspype (>=1.0.0,<2.0.0)
+Requires-Dist: pydantic (>=2.10.4,<3.0.0)
+Requires-Dist: pydot (>=3.0.3,<4.0.0)
+Requires-Dist: python-statemachine (>=2.5.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Agents Pypeline
+
+A framework for building agents that interact with the world.
+
