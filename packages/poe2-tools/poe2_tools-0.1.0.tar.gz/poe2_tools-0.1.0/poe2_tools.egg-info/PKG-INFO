@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: poe2-tools
+Version: 0.1.0
+Summary: A Path of Exile utility tool for item analysis and quick commands
+Home-page: https://github.com/yourusername/poe2-tools
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: keyboard>=0.13.5
+Requires-Dist: pyperclip>=1.8.2
+Requires-Dist: pyautogui>=0.9.53
+
+# POE Tools
+
+A utility tool for Path of Exile that provides item analysis and quick commands.
+
+## Features
+
+- Item DPS calculator with quality adjustment
+- Elemental and chaos damage parsing
+- Quick commands for hideout and party management
+- Tooltip interface for item analysis
+
+## Installation
+
+```bash
+pip install poe-tools
+```
+
+## Usage
+
+After installation, run the tool by typing:
+
+```bash
+poe-tools
+```
+
+### Hotkeys
+
+- Ctrl+C: Analyze item under cursor
+- Ctrl+H: Return to hideout
+- Ctrl+R: Reset XP counter
+- Ctrl+L: Send leech party message
+- Ctrl+ESC: Exit the tool
+
+## Development
+
+To set up the development environment:
+
+1. Clone the repository
+2. Create a virtual environment
+3. Install dependencies: `pip install -r requirements.txt`
+4. Run `pip install -e .` for development install
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
