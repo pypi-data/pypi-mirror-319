@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Industrial_time_series_analysis
+Version: 2.1.1
+Summary: A time series data analysis algorithm library for industrial scenarios
+Home-page: https://github.com/PANYJIE/Industrial_time_series_analysis
+Author: PYJ
+Author-email: 3463146475@qq.com
+Project-URL: Source, https://github.com/PANYJIE/Industrial_time_series_analysis
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This is an industrial time series database
+
+
+1.describe
+
+2.decide
+
+3.diagnosse
+
+4.forecast
+
+5.control
