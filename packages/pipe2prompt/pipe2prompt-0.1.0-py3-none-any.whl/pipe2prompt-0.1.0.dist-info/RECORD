@@ -1,0 +1,11 @@
+pipe2prompt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipe2prompt/cli.py,sha256=bo_hLbsOdRjwrbuUL8waCzz72Tt_FGDp-3631854E1A,5107
+pipe2prompt/completion.py,sha256=6NNDvOXqEmufbHrs3s1p1x99wy4nX_zQ_G4m9upX5j4,2272
+pipe2prompt/prompt.py,sha256=4emDfgN76dYMEgY5q0gKn76tlpZnQnJqjTgNEtd26so,2161
+pipe2prompt/utils.py,sha256=F8ooBiREk5I7oAfgOC9alG8IE5N7u55m5fXuoYt8gLM,1490
+pipe2prompt-0.1.0.dist-info/LICENSE.txt,sha256=lgkQ5Wy6loAlcW_RSIsqYoufDIGLompACkETBlwHzdc,1064
+pipe2prompt-0.1.0.dist-info/METADATA,sha256=oTOHkHzFZFO-4cVm1PSSXSMi0_TfIVBdcUWL88aM-Dc,3526
+pipe2prompt-0.1.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+pipe2prompt-0.1.0.dist-info/entry_points.txt,sha256=ptaWIwew_UTi6mdCla5136t8zFTRfPj0PqY0ANXmEY4,44
+pipe2prompt-0.1.0.dist-info/top_level.txt,sha256=m56rWk_HXadzXVwhB1sLO1I0vYOwrAFVsfdfeJ64gVM,12
+pipe2prompt-0.1.0.dist-info/RECORD,,
