@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utils_anviks"
+version = "2.1.0"
+authors = [
+    { name = "Andreas Marten Viks", email = "andreasviks0@gmail.com" },
+]
+description = "A collection of utilities (mostly for Advent of Code)"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[tool.setuptools]
+ext-modules = [
+    { name = "utils_anviks.cell", sources = ["src/utils_anviks/cell.c"] }
+]
+
+[project.urls]
+"Homepage" = "https://github.com/anviks/utils-anviks/"
+"Issues" = "https://github.com/anviks/utils-anviks/issues"
+"Changelog" = "https://github.com/anviks/utils-anviks/blob/master/CHANGELOG.md"
