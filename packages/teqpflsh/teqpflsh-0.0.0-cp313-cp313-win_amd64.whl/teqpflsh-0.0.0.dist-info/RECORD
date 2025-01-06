@@ -1,0 +1,15 @@
+bin/geos.dll,sha256=u92HSyhHC9eO3CCHoClPKDmQ3anAF-EUSLHlVBILDHc,2784768
+include/nanoflann.hpp,sha256=n1xrru6SAoMJhFRwwBpdOi1Pl0q76-tU4DTPBqA-5qI,95338
+lib/geos.lib,sha256=OubLTXyTCDU64WcYO4kj-ep4fIpV752mbOyYHRcH58U,3572768
+lib/pkgconfig/nanoflann.pc,sha256=wBAlkZxluWTz3MQA2rxMjMzTxCASAJUrlyPwjE2VxSA,378
+share/cmake/nanoflann/nanoflannConfig.cmake,sha256=DkYYXOrHzuk7JDLNWRR0k916UAvgpLLyjD1uiHYlYIg,1144
+share/cmake/nanoflann/nanoflannConfigVersion.cmake,sha256=PpOozVvsFH-9vV1adUgai1MvKdcn1kEmgTotnqj4Qlc,1901
+share/cmake/nanoflann/nanoflannTargets.cmake,sha256=v5VbTNsVmgYsZq0T1S4Tnbxd3k54L4HWO3woQBuuqos,4380
+teqpflsh/__init__.py,sha256=JNwFuMOAQFiiwFczdxAitnIs0F8ZJLn16_EZsb3Hctc,81
+teqpflsh/_teqpflsh_impl.cp313-win_amd64.pyd,sha256=-eyS5t7oiGGLvUiQu08q6ugKq3jgUcJlX_h1Hy6AiqQ,31120384
+teqpflsh/_teqpflsh_impl.pyi,sha256=A585BuJ0gFWJZl61Qg8By_AJUupkduPTzC8hk0lrTHQ,23527
+teqpflsh/geos.dll,sha256=u92HSyhHC9eO3CCHoClPKDmQ3anAF-EUSLHlVBILDHc,2784768
+teqpflsh/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teqpflsh-0.0.0.dist-info/METADATA,sha256=cQuQXMpMsJ4rFFEsCrCQ2AzD0FkKUuU3KrCt8kHpzl0,996
+teqpflsh-0.0.0.dist-info/WHEEL,sha256=EIu1Wj122E8B0k-vZcnNpwplI01di2dp-9WoG1ZyqT0,106
+teqpflsh-0.0.0.dist-info/RECORD,,
