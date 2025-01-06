@@ -1,0 +1,7 @@
+LICENSE
+README.txt
+setup.py
+ErmWhat.egg-info/PKG-INFO
+ErmWhat.egg-info/SOURCES.txt
+ErmWhat.egg-info/dependency_links.txt
+ErmWhat.egg-info/top_level.txt
