@@ -1,0 +1,2 @@
+[console_scripts]
+pdf2csv = pdf2csv.cli:main
