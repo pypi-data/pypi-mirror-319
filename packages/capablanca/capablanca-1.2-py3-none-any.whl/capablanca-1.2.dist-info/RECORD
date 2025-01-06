@@ -1,0 +1,14 @@
+capablanca/__init__.py,sha256=C898d_3dThvT-xyp7kN-oE5VyAONc1iU-gAC7UzuKZQ,177
+capablanca/app.py,sha256=4HIQ3wIQHiJyeMdV8F4yQydwngvjuuzdBDKAodi643A,3104
+capablanca/applogger.py,sha256=fQBo51-TboX1DBqfSxX2P2eKJ5CcyiCq_IVlJTHjxAE,2624
+capablanca/parser.py,sha256=71ZbJtctbMaZ1PkO1fAtuzu5CyOrO8lNPX9bcA9qmfU,1894
+capablanca/reduction.py,sha256=94zRstgD-YEhAr7kpt8KycuEuDqydsC7l7mEKDg4oxk,2274
+capablanca/test.py,sha256=iNlKk2pcMNcJG76-9-MiOUsu7Yd4-XZpf8iWJY2RQkI,405
+capablanca/utils.py,sha256=mxnW8KhS-svVvl0mupjmn_S00-L5xbW3hf7ipLxrwR8,863
+capablanca/z3solver.py,sha256=s5RIxo74fJF5WaBwL-j_9mJlfdjhqYp-DTAxPdV19E4,2708
+capablanca-1.2.dist-info/LICENSE,sha256=_z6026s79t6rGvGZ6927Mbrb4TlFNkjWiV6Set0igfs,1067
+capablanca-1.2.dist-info/METADATA,sha256=PICJEjwymLJTq6RW4-fWxlj246ZVsfHk6VFk-V4_6HY,9566
+capablanca-1.2.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+capablanca-1.2.dist-info/entry_points.txt,sha256=Mf78fKoYJ1xLLJhjW3wYrhDzUVMGEfMwSQxkpkhIPL8,46
+capablanca-1.2.dist-info/top_level.txt,sha256=v5lu6lBO8hEDDHFp3vbHYS4i5oXyG1v2cJvdqcL9Twg,11
+capablanca-1.2.dist-info/RECORD,,
