@@ -1,0 +1,2 @@
+# Skip the current patch during a rebasing process
+rebase --skip

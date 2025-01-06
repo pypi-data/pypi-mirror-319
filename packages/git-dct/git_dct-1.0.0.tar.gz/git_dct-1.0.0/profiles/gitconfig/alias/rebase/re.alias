@@ -1,0 +1,2 @@
+# Edit the todo list during an interactive rebase
+rebase --edit-todo

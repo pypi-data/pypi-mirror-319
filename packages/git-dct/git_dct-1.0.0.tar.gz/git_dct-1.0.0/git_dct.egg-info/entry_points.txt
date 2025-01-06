@@ -1,0 +1,2 @@
+[console_scripts]
+git-dct = git_dct.cli.main:main

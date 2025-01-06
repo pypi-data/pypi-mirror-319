@@ -1,0 +1,161 @@
+#####
+# git-dct: Git development CLI tools for daily usage
+##
+# Author: Adrian DC
+# Email: radian.dc@gmail.com
+# License: Apache License 2.0
+# Sources: https://gitlab.com/RadianDevCore/tools/git-dct
+# Warning: Generated configuration maintained automatically, do not edit
+###
+
+[alias]
+
+	#####
+	## git-dct: profiles/gitconfig/alias/add
+	###
+	#
+	# Add files verbosely
+	aa = add -Av
+	#
+	# Add files as dry-run only
+	an = add -An
+	#
+	# Add files in interactive patch mode
+	ap = add -p
+
+	#####
+	## git-dct: profiles/gitconfig/alias/branch
+	###
+	#
+	#  List, create, or delete branches
+	br = branch
+	#
+	# List all available branches
+	brl = branch -la
+	#
+	# Switch branches or restore working tree files
+	ch = checkout
+	#
+	# Create, update and switch to a branch
+	sw = switch -C
+
+	#####
+	## git-dct: profiles/gitconfig/alias/commit
+	###
+	#
+	# Commit changes to the repository
+	c = commit
+	#
+	# Amend changes to the current commit
+	ca = commit --amend
+	#
+	# Amend changes to the current commit without edition
+	cae = commit --amend --no-edit
+	#
+	# Apply the changes introduced by existing commits
+	cp = cherry-pick
+	#
+	# Commit changes to the repository with 'Signed-off-by'
+	cs = commit -s
+
+	#####
+	## git-dct: profiles/gitconfig/alias/diff
+	###
+	#
+	# Show changes between commits and sources with all differences highlighted
+	diffall = diff --color --submodule=diff --ws-error-highlight=context,new,old
+	#
+	# Show changes between commits and sources with only char-level differences
+	diffc = diff --color-words=.
+	#
+	# Show changes between commits and sources with only word-level differences
+	diffw = diff --color-words
+
+	#####
+	## git-dct: profiles/gitconfig/alias/log
+	###
+	#
+	# Show commits logs in oneline simple view
+	lo = log --abbrev-commit --pretty=oneline
+
+	#####
+	## git-dct: profiles/gitconfig/alias/merge
+	###
+	#
+	#  Run merge conflicts resolution tools
+	mt = mergetool
+
+	#####
+	## git-dct: profiles/gitconfig/alias/rebase
+	###
+	#
+	# Abort current rebase operation and reset HEAD to the original state
+	ra = rebase --abort
+	#
+	# Continue the rebasing process after merge conflict resolutions or commit amends
+	rc = rebase --continue
+	#
+	#  Edit the todo list during an interactive rebase
+	re = rebase --edit-todo
+	#
+	#  Skip the current patch during a rebasing process
+	rs = rebase --skip
+
+	#####
+	## git-dct: profiles/gitconfig/alias/remote
+	###
+	#
+	# List the repositories remotes with their URL
+	rv = remote -v
+
+	#####
+	## git-dct: profiles/gitconfig/alias/reset
+	###
+	#
+	# Reset history and sources to the last fetched commit
+	rhf = reset --hard FETCH_HEAD
+	#
+	# Reset history and sources to the current commit
+	rhh = reset --hard HEAD
+	#
+	# Reset history and sources to the previous commit
+	ro = reset --hard HEAD^
+	#
+	# Reset history and sources to a specific commit
+	rt = reset --hard
+
+	#####
+	## git-dct: profiles/gitconfig/alias/show
+	###
+	#
+	# Show commit with full author, commiter and dates details
+	shf = show --find-renames --pretty=fuller
+	#
+	# Show commit with only names and status of changed files
+	shm = show --find-renames --name-status
+
+	#####
+	## git-dct: profiles/gitconfig/alias/stash
+	###
+	#
+	# Stash the changes in a dirty working directory away
+	s = stash
+	#
+	# Remove all the stash entries
+	sc = stash clear
+	#
+	# Interactively select hunks to be stashed
+	sp = stash -p
+	#
+	# Extract last stash state to the current working tree
+	spop = stash pop
+
+	#####
+	## git-dct: profiles/gitconfig/alias/submodule
+	###
+	#
+	# Show the status of the submodules
+	sm = submodule status
+	#
+	# Initialize the submodules recorded in the sources
+	smi = submodule init
