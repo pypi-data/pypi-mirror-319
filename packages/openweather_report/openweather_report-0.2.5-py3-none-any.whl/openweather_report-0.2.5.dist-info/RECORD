@@ -1,0 +1,13 @@
+openweather_report/__init__.py,sha256=n9ZbZbEbYVk2z1zBKi5idnNJ4FqwvQHTmQ1Qj9P-B2M,142
+openweather_report/__main__.py,sha256=fVFlfnswz2JHSo_v-IOV9cQz02GD7Vj74Hx__85m8xM,92
+openweather_report/cli.py,sha256=k7qhbCX_k7giMnkVL5ur5bD8T1-WIcUefOanoeDMJQg,2878
+openweather_report/duckdb.py,sha256=31PDB1nZIiAi96ibt8GkPBCw5CjTG4YsbpavlBDbL34,1572
+openweather_report/openweather.py,sha256=_-PYtJU2iazQkvaWocj2EDofzKFY8TOzMEKkR7SyC1M,1475
+openweather_report/openweather.sql,sha256=3uBfAPlK97m1YM896nzC0tkuyJ3OtF4eaKIqF8yvVuk,531
+openweather_report/postgres.py,sha256=bEInlbmJ9q0pO3NSnQSyq6GNXd0zfG8Vo5XKyBA8Z0I,1617
+openweather_report/sqlite.py,sha256=qihG7Db9sRxXD0SGpi_dVGkb5aXVwSNQAXeY_Mq_Jqw,1578
+openweather_report-0.2.5.dist-info/METADATA,sha256=nrBFlRXJFPjtJaLvwgwY53SmcKk88skcSRK_x8o0_wY,4670
+openweather_report-0.2.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+openweather_report-0.2.5.dist-info/entry_points.txt,sha256=pi54UDlywxd4rRzrQtqRxig5mWo0ypVQD4lEqljIVp8,67
+openweather_report-0.2.5.dist-info/licenses/LICENSE,sha256=-pjCWIbxlFGhWyvdDLFjKXdlfZ6JouMQ32gFKHfF8pI,1084
+openweather_report-0.2.5.dist-info/RECORD,,
