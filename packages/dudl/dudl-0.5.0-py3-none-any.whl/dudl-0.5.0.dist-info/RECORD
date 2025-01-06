@@ -1,0 +1,17 @@
+dudl/__init__.py,sha256=pxuCSjQGPEABzJXHrJfSf9ux67u6-3HiR0afcJZBnWE,26
+dudl/dudl_app.py,sha256=RkfRM1Bdp1dK-mONNNySHK15cSJHAfeXsqnPDWVwJTA,5619
+dudl/env.py,sha256=A0YdKLmnO8sIVlGLh9uku8C82-A1I8hD3gqkOtg2xaQ,2719
+dudl/utils.py,sha256=a8-4I7ldez_V90-kvooUB8R_riIdEBs2aIHcXHf72lE,1604
+dudl/blueprints/__init__.py,sha256=_RlXESpeGxhHU3uidpTnUpkx7gsAeqILCYpi1JbTtEo,27
+dudl/blueprints/dudl_blueprint.py,sha256=pqfg60itI9f4GO2NCZYNKrI64DuF1qIUg3nN3pCRkaU,14245
+dudl/blueprints/swag/__init__.py,sha256=GTweliaUZrvC_4DX6YWBNFvTqmcUjdSSoXkVYMRmscE,37
+dudl/models/__init__.py,sha256=kJbJ3-Il1X469SqhMmtHbIZVbkTVHwRJEucb7INVNYI,33
+dudl/models/game.py,sha256=hgnzXofSq28JEUYAFUboH9om4RDybFIGL_rJhPV6PXk,4021
+dudl/models/gamecollection.py,sha256=aSM6QUZfzdK59TmhUDT8p7_Ggx2bc0GgSxiKqDs_vtA,5349
+dudl/models/playerprofile.py,sha256=amTHjvb07t606vPUyPmaCmLRQlJY3m7mnUcLdtZkOAM,1368
+dudl-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dudl-0.5.0.dist-info/METADATA,sha256=1P0g3P3ujyWXKF9vMlntxdnAPSewubd1VWLSulU4f6w,614
+dudl-0.5.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+dudl-0.5.0.dist-info/entry_points.txt,sha256=11z7R0tiAeEdiWsWbTpTUO86kH0x9lcR6FdHQpWScnM,58
+dudl-0.5.0.dist-info/top_level.txt,sha256=Jv89k6DRu-u6_ETqy7ufI5_OO5TKJ_2-4MJuYsZuxqU,5
+dudl-0.5.0.dist-info/RECORD,,
