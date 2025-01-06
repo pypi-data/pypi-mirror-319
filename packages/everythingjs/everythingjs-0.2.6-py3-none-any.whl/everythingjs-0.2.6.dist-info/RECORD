@@ -1,0 +1,10 @@
+everythingjs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+everythingjs/app.py,sha256=kAEwyYy1nblM__D0Nwvo7V1LcXY19B6nWN1aWulIrfs,36736
+everythingjs/__pycache__/app.cpython-313.pyc,sha256=bMHflTPS-oZhg64JzRBrcbtR_xdHWTPlvzgqELonItM,10744
+everythingjs/templates/monitor.html,sha256=n-A2BXou5Bod9mGWdT9y6uy5cuzIvilFOkhcc0iEsKw,598
+everythingjs/templates/template.html,sha256=qUDV_s8X90rt48TE-s8CdgVNh-bikf3bS6hM2fJZ04Q,16743
+everythingjs-0.2.6.dist-info/METADATA,sha256=pOdF9_NddiWEFTC2e3AqV7ctiDnMP7RiB--lHY34kqk,6529
+everythingjs-0.2.6.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+everythingjs-0.2.6.dist-info/entry_points.txt,sha256=ARmjbdKX6fhW5otgvQsUYO8rKXuTcfQrydgacPF3w5E,55
+everythingjs-0.2.6.dist-info/top_level.txt,sha256=6azghGxDbqFBu4je5ov1GBYl1q8lfNsnlrZjgez1W8I,13
+everythingjs-0.2.6.dist-info/RECORD,,
