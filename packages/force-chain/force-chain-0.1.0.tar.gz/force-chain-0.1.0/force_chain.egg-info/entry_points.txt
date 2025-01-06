@@ -1,0 +1,3 @@
+[console_scripts]
+force-node = force_chain.node:main
+

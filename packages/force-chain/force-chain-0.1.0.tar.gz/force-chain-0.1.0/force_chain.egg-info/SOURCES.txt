@@ -1,0 +1,7 @@
+setup.py
+force_chain.egg-info/PKG-INFO
+force_chain.egg-info/SOURCES.txt
+force_chain.egg-info/dependency_links.txt
+force_chain.egg-info/entry_points.txt
+force_chain.egg-info/requires.txt
+force_chain.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+flask
+requests
+torch
+transformers
+petals
+fastapi
+uvicorn
