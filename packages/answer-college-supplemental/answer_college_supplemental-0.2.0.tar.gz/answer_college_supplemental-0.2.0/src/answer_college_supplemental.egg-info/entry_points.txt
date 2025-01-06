@@ -1,0 +1,3 @@
+[console_scripts]
+answer-college-supplemental = answer_college_supplemental.main:main
+
