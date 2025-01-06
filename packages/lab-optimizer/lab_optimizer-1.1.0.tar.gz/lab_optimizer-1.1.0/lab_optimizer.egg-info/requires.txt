@@ -1,0 +1,10 @@
+MLOOP
+scikit-opt
+scikit-learn
+numpy
+scipy
+matplotlib
+panads
+seaborn
+plotly
+torch>=2.4.0
