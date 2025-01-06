@@ -1,0 +1,2 @@
+[console_scripts]
+run-tests = inline_tests.runner:main
