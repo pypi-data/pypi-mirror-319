@@ -1,0 +1,9 @@
+clidbs/__init__.py,sha256=EmfdwOV_QsQ3OSEHBEUlKukJffhlaWdLkerwiW2zteg,68
+clidbs/cli.py,sha256=vLe9tn-bFotdQXYDAHiNwz0tUp3BxtE3uz-B2qF8V1M,13488
+clidbs/config.py,sha256=lz9cPM2g-MxbQSsaVkUW0Fto2FsQo9Z3aQEsQdg4LvI,1145
+clidbs/databases.py,sha256=MRb7StH2MXJiwQK7KEDtjdc1mbnZq9hp8ZJiP-wxRjo,6641
+clidbs/notifications.py,sha256=12sn-u2jQPInJwrZwVas-ru59kKY81pVXNSKDiyY-UU,918
+clidbs-0.6.0.dist-info/METADATA,sha256=Bp4PjvGdhMoq4akx8W8jM2dTFG2badyiXvu45RHTGkQ,3056
+clidbs-0.6.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+clidbs-0.6.0.dist-info/entry_points.txt,sha256=qs5vgrfDvu8yp_Zp_7aC_ZpOemzpiOmZ3ArpA9aFkWg,42
+clidbs-0.6.0.dist-info/RECORD,,
