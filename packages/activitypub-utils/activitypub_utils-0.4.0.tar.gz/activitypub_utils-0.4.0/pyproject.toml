@@ -1,0 +1,81 @@
+[build-system]
+requires = [ "setuptools >= 38.3.0",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "activitypub-utils"
+version = "0.4.0"
+authors = [{name = "Zoey Mae", email = "admin@barkshark.xyz"}]
+license = {file = "LICENSE"}
+description = "Various classes and functions for ActivityPub servers"
+readme = {file = "README.md", content-type = "text/markdown"}
+keywords = [
+	"python",
+	"activitypub",
+	"mastodon"
+]
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Programming Language :: Python :: 3.13",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Typing :: Typed"
+]
+requires-python = ">= 3.10"
+dependencies = [
+	"barkshark-lib >= 0.2.3, < 0.3.0",
+	"pycryptodome == 3.20.0"
+]
+
+[project.urls]
+Homepage = "https://codeberg.org/barkshark/aputils"
+Documentation = "https://docs.barkshark.xyz/aputils"
+
+[project.optional-dependencies]
+docs = [
+	"furo == 2024.1.29",
+	"sphinx == 7.2.6",
+	"sphinx-external-toc == 1.0.1"
+]
+dev = [
+	"mypy == 1.10.1",
+	"flake8 == 7.1.0",
+	"typing_extensions >= 4.10.0; python_version < '3.11.0'",
+	"types-aiofiles == 24.1.0.20241221",
+	"types-requests == 2.32.0.20241016",
+	"types-ujson == 5.10.0.20240515",
+
+	# used for request classes
+	"aiohttp >= 3.11",
+	"flask >= 3.1",
+	"requests >= 2.32",
+	"sanic >= 24.12"
+]
+
+[tool.setuptools]
+include-package-data = true
+packages = ["aputils"]
+platforms = ["any"]
+
+[tool.distutils.bdist_wheel]
+universal = false
+
+[tool.distutils.sdist]
+formats = "zip, gztar"
+
+[tool.mypy]
+show_traceback = true
+install_types = true
+pretty = true
+disallow_untyped_decorators = true
+warn_redundant_casts = true
+warn_unreachable = true
+warn_unused_ignores = true
+ignore_missing_imports = false
+follow_imports = "silent"

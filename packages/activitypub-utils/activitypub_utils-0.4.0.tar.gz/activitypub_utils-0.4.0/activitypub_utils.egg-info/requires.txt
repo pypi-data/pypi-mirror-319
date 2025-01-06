@@ -1,0 +1,21 @@
+barkshark-lib<0.3.0,>=0.2.3
+pycryptodome==3.20.0
+
+[dev]
+mypy==1.10.1
+flake8==7.1.0
+types-aiofiles==24.1.0.20241221
+types-requests==2.32.0.20241016
+types-ujson==5.10.0.20240515
+aiohttp>=3.11
+flask>=3.1
+requests>=2.32
+sanic>=24.12
+
+[dev:python_version < "3.11.0"]
+typing_extensions>=4.10.0
+
+[docs]
+furo==2024.1.29
+sphinx==7.2.6
+sphinx-external-toc==1.0.1
