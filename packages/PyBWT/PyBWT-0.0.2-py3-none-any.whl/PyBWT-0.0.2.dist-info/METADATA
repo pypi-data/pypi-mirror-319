@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PyBWT
+Version: 0.0.2
+Summary: Binary Web Token (BWT) implementation in Python
+Author: nullptr
+License: GNU AGPLv3
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Keywords: bwt,security,signing,token,web
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: C
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
