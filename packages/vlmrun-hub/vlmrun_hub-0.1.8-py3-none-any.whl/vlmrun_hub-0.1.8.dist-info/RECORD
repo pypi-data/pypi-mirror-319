@@ -1,0 +1,11 @@
+vlmrun/hub/catalog.yaml,sha256=RDZXHNBHQip2uOrZSAiOo4biU1_uAOw3UySJ9hSwOg8,3470
+vlmrun/hub/constants.py,sha256=LbfxWgK4PAb5lyYNhoOo8j13OH84GK58xCPLiePPs9o,91
+vlmrun/hub/dataset.py,sha256=XbgrLwMqDK6tHUKnh8JRADAjPBx1eZLq9b6ikuG6Qec,1424
+vlmrun/hub/registry.py,sha256=i_Pzx6NxtrajsBNnC38ggfvr6CnQyC7jbrRGsYQID2w,4113
+vlmrun/hub/utils.py,sha256=yKkLrcXVwHitK8qqHp-30P-8lB0buzGuN_65yvnHOUM,4264
+vlmrun/hub/version.py,sha256=C69ADlbQREQlR15trneyA2sk8x0-oH4rDAX5fsv19_U,22
+vlmrun_hub-0.1.8.dist-info/LICENSE,sha256=fwnMAbo_IpPg7BojKDDYjJLi2BGubpQLoeQ1G3ojRNI,11355
+vlmrun_hub-0.1.8.dist-info/METADATA,sha256=bTypv4HSYciHmBJH2HtHVSVl2a5ybvsNgKe8N-lxK5Y,26034
+vlmrun_hub-0.1.8.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+vlmrun_hub-0.1.8.dist-info/top_level.txt,sha256=keAeh1F2cJnl4BBhZniqPiD3bGY_6_5V_gijs3Kc4h8,7
+vlmrun_hub-0.1.8.dist-info/RECORD,,
