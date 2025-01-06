@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+torchTrainify/torchTrainify.egg-info/PKG-INFO
+torchTrainify/torchTrainify.egg-info/SOURCES.txt
+torchTrainify/torchTrainify.egg-info/dependency_links.txt
+torchTrainify/torchTrainify.egg-info/requires.txt
+torchTrainify/torchTrainify.egg-info/top_level.txt
