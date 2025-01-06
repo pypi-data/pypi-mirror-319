@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "agentkit"
+version = "0.0.2"
+description = "A simple framework for creating distributed llm agent swarms"
+readme = "README.md"
+license = "MIT"
+authors = ["Vikram Kumar <vik@japanvik.net>"]
+keywords = ["artificial intelligence", "agent frameworks", "llm"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+networkkit = ">=0.0.2"
+litellm = "*"
+python-dotenv = "*"
+
+[tool.poetry.urls]
+Repository = "https://github.com/japanvik/agentkit"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
