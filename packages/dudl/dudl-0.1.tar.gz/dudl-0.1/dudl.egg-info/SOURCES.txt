@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dudl.egg-info/PKG-INFO
+dudl.egg-info/SOURCES.txt
+dudl.egg-info/dependency_links.txt
+dudl.egg-info/entry_points.txt
+dudl.egg-info/requires.txt
+dudl.egg-info/top_level.txt
