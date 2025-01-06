@@ -1,0 +1,2 @@
+[console_scripts]
+poe2-tools = poe2_tools.main:main
