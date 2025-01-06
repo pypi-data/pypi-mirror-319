@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+CypherPilot.egg-info/PKG-INFO
+CypherPilot.egg-info/SOURCES.txt
+CypherPilot.egg-info/dependency_links.txt
+CypherPilot.egg-info/requires.txt
+CypherPilot.egg-info/top_level.txt
