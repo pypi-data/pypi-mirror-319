@@ -1,0 +1,115 @@
+{
+    "name": "sdk-python",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "projectType": "library",
+    "sourceRoot": "sdk/python/src",
+    "targets": {
+        "clean": {
+            "executor": "nx:run-commands",
+            "options": {
+                "commands": [
+                    "rm -rf .pytest_cache",
+                    "rm -rf .venv",
+                    "rm -rf .coverage"
+                ],
+                "cwd": "sdk/python"
+            },
+            "cache": false
+        },
+        "format": {
+            "executor": "nx:run-commands",
+            "options": {
+                "commands": ["black ./src"],
+                "cwd": "sdk/python"
+            },
+            "cache": false
+        },
+        "lock": {
+            "executor": "@nxlv/python:run-commands",
+            "options": {
+                "command": "uv lock",
+                "cwd": "sdk/python"
+            }
+        },
+        "add": {
+            "executor": "@nxlv/python:add",
+            "options": {}
+        },
+        "update": {
+            "executor": "@nxlv/python:update",
+            "options": {}
+        },
+        "remove": {
+            "executor": "@nxlv/python:remove",
+            "options": {}
+        },
+        "build": {
+            "executor": "@nxlv/python:build",
+            "outputs": ["{projectRoot}/dist/sdks/python"],
+            "options": {
+                "outputPath": "dist/sdks/python",
+                "publish": false,
+                "lockedVersions": true,
+                "bundleLocalDependencies": true
+            },
+            "cache": false
+        },
+        "docs:build": {
+            "executor": "nx:run-commands",
+            "outputs": ["{workspaceRoot}/dist/docs/python"],
+            "options": {
+                "command": "uv run pdoc src/buildkite_sdk -o ../../dist/docs/python",
+                "cwd": "sdk/python"
+            },
+            "cache": false
+        },
+        "docs:serve": {
+            "executor": "@nx/web:file-server",
+            "options": {
+                "port": 8081,
+                "buildTarget": "docs:build"
+            }
+        },
+        "install": {
+            "executor": "@nxlv/python:install",
+            "options": {
+                "silent": false,
+                "args": "",
+                "verbose": false,
+                "debug": false
+            }
+        },
+        "lint": {
+            "executor": "@nxlv/python:ruff-check",
+            "outputs": [],
+            "options": {
+                "lintFilePatterns": ["src", "tests"]
+            },
+            "cache": true
+        },
+        "test": {
+            "executor": "@nxlv/python:run-commands",
+            "outputs": [
+                "{workspaceRoot}/reports/sdk/python/unittests",
+                "{workspaceRoot}/coverage/sdk/python"
+            ],
+            "options": {
+                "command": "uv run pytest tests/",
+                "cwd": "sdk/python"
+            },
+            "cache": true
+        },
+        "publish": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "uvx twine upload dist/sdks/python/* --repository testpypi --username __token__ --password $TEST_PYPI_TOKEN"
+            }
+        }
+    },
+    "tags": [],
+    "release": {
+        "version": {
+            "generator": "@nxlv/python:release-version"
+        }
+    }
+}
