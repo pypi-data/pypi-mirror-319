@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/debuglogger/__init__.py
+src/debuglogger.egg-info/PKG-INFO
+src/debuglogger.egg-info/SOURCES.txt
+src/debuglogger.egg-info/dependency_links.txt
+src/debuglogger.egg-info/top_level.txt
+tests/test.py

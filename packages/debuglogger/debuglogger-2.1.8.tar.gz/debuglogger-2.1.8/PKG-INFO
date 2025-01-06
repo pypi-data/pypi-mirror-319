@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: debuglogger
+Version: 2.1.8
+Summary: A highly customizable python logger. Can record time,thread,process,function name,object ID... Everything you need.
+Author-email: metaone01 <metaone01@outlook.com>
+Project-URL: Homepage, https://github.com/metaone01/customlogger
+Project-URL: Issues, https://github.com/metaone01/customlogger/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A highly customizable python logger. Can record time,thread,process,function name,object ID... Everything you need.
+
+### Basic Usage:
+```
+from debuglogger import Logger
+log = Logger()
+log.info()
+```
