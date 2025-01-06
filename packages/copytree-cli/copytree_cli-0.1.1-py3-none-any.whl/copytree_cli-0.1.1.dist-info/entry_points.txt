@@ -1,0 +1,3 @@
+[console_scripts]
+copytree = copytree.main:main
+ct = copytree.main:main
