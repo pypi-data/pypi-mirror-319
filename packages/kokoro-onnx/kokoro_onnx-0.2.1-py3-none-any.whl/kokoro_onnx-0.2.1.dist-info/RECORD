@@ -1,0 +1,7 @@
+kokoro_onnx/__init__.py,sha256=WgtaFEm0qKaTcl4JrkCmVAsnOPSx3hgBtcwnQuygsi0,5267
+kokoro_onnx/config.py,sha256=Za8ixIUfnV41kjTyh8ymXlsMWBwTIBYjlkFIsVQdf9g,2196
+kokoro_onnx/log.py,sha256=pCpMlPz_NdWIHC59DGymZlnH4zIzNs-vjbBenOH4dHM,1023
+kokoro_onnx/tokenizer.py,sha256=7FG2Z2xP4X7Re6tnbaV4nAlCAKGsNxnvTndo6vagscA,5607
+kokoro_onnx-0.2.1.dist-info/METADATA,sha256=IOWnaCT_9sEzpJa3jZmRmLmdOkhTU7JNdLsjO-VZTug,2784
+kokoro_onnx-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+kokoro_onnx-0.2.1.dist-info/RECORD,,
