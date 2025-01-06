@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mtplayer/__init__.py
+mtplayer/lala.py
+mtplayer/player.py
+mtplayer.egg-info/PKG-INFO
+mtplayer.egg-info/SOURCES.txt
+mtplayer.egg-info/dependency_links.txt
+mtplayer.egg-info/top_level.txt
