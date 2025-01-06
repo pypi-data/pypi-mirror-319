@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: streamix
+Version: 0.4
+Home-page: https://github.com/username/streamix
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: yt-dlp
+
+# SnapStream-
+Here, you can download any youtube video by just pasting the link and selecting the desired quality.
