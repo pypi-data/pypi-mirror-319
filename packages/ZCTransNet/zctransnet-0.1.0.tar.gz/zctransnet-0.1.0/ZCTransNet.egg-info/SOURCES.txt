@@ -1,0 +1,5 @@
+setup.py
+ZCTransNet.egg-info/PKG-INFO
+ZCTransNet.egg-info/SOURCES.txt
+ZCTransNet.egg-info/dependency_links.txt
+ZCTransNet.egg-info/top_level.txt
