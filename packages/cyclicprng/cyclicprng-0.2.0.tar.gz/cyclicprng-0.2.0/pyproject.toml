@@ -1,0 +1,65 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.0", "wheel"]
+
+[project]
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9"
+]
+dependencies = [
+  "sympy"
+]
+description = "A simple cyclic PRNG"
+license = {file = "LICENSE"}
+name = "cyclicprng"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.2.0"
+
+[project.urls]
+"Source Code" = "https://github.com/natlas/cyclicprng"
+"Tracker" = "https://github.com/natlas/cyclicprng/issues"
+
+[tool.ruff]
+
+[tool.ruff.lint]
+ignore = [
+  "PLC0414",
+  "PLR0911",
+  "PLR0912",
+  "PLR0915",
+  "PLR2004"
+]
+select = [
+  # flake8-bugbear
+  "B",
+  # flake8-comprehensions
+  "C4",
+  # pyflakes
+  "F",
+  # flynt
+  "FLY",
+  # isort
+  "I",
+  # pylint
+  "PL",
+  # flake8-return
+  "RET",
+  # Ruff's own rules
+  "RUF",
+  # flake8-simplify
+  "SIM",
+  # flake8-tidy-imports
+  "TID",
+  # pyupgrade
+  "UP"
+]
+
+[tool.setuptools]
+# Instead of scanning for packages, define a single python module
+py-modules = ["cyclicprng"]
