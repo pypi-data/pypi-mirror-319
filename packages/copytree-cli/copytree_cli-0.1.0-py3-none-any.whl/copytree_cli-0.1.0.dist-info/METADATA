@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: copytree-cli
+Version: 0.1.0
+Summary: A tool to copy directory trees
+Home-page: https://github.com/meepstertron/copytree
+Author: Meepsterton
+Author-email: jan.koch@hexagonical.ch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+copytree = cool
+
+i made this to be able to share my project setup with my coworkers so that it would be easier to work together. 
+copytree is also able to export folder and file structures and replicate them in other enviorments.
