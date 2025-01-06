@@ -1,0 +1,14 @@
+prefix=/var/folders/9f/9p4dh6hs5yddrk7drxq8rc_80000gn/T/tmpkcbe4jio/wheel/platlib
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: The ANN nanoflann library
+Description: nanoflann - A C++11 header-only library for kd-trees
+URL: https://github.com/jlblancoc/nanoflann
+Requires: 
+Version: 1.5.5
+Libs:
+Libs.private:
+Cflags: -I${includedir}
+

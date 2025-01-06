@@ -1,0 +1,14 @@
+teqpflsh/libgeos.dylib,sha256=IOQ_GwMwd7RcMO-vXX0Z4D1058iUwgLOWObU12uoOxY,3484232
+teqpflsh/__init__.py,sha256=CxcuIN7iNGAdXJE9dqzZv3cpMwyq-C73cbDL0Ydmrdg,79
+teqpflsh/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teqpflsh/_teqpflsh_impl.pyi,sha256=3zztwkp7wXuoxdeRPR2DU1nwQNbGIVnL9OFLX_NRsTQ,22944
+teqpflsh/_teqpflsh_impl.cpython-313-darwin.so,sha256=ACNfPqRfI8CVuh-EumdKjFg0GPq1ey7iph94Dzwq9_o,40078384
+teqpflsh/libgeos.3.14.0.dylib,sha256=IOQ_GwMwd7RcMO-vXX0Z4D1058iUwgLOWObU12uoOxY,3484232
+include/nanoflann.hpp,sha256=eL3lNuMhbK9Wcc0G0fCWhyOn_Q1O5YcQT4_ZQihGOH8,92645
+teqpflsh-0.0.0.dist-info/RECORD,,
+teqpflsh-0.0.0.dist-info/WHEEL,sha256=CniKemF_U-RJiXtnTtYNNIHhQ0i61HWEJcSRlZ-UNLk,115
+teqpflsh-0.0.0.dist-info/METADATA,sha256=cQuQXMpMsJ4rFFEsCrCQ2AzD0FkKUuU3KrCt8kHpzl0,996
+lib/pkgconfig/nanoflann.pc,sha256=4xtVuOEo_f8pbxa_teRDxVFcIWLz-UH8gpX7_4lIBMM,373
+share/cmake/nanoflann/nanoflannConfig.cmake,sha256=8hh-Ze9tGeceAD4713UqmRGNZIfvzSaEPvRkepAJlJ0,1111
+share/cmake/nanoflann/nanoflannTargets.cmake,sha256=1T0_oJ0xOhOpSHMqN8PKXpDADQc3jCX8KhDW5Q4eKJU,4272
+share/cmake/nanoflann/nanoflannConfigVersion.cmake,sha256=hdFWvXWQ2yWCehjmQuBcd1_g5ItGSZGj37LH72ewLiM,1858
