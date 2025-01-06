@@ -1,0 +1,2 @@
+[console_scripts]
+fovsa = cli:main
