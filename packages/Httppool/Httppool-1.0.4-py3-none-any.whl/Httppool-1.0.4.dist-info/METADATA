@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Httppool
+Version: 1.0.4
+Summary: Get and storing the HTML data of a website using a cache system.
+Home-page: https://github.com/alexdevzz/httppool_pip_installer.git
+Author: alexdev
+Author-email: alexdev.workenv@gmail.com
+Project-URL: Bug Tracker, https://github.com/alexdevzz/httppool_pip_installer/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: requests
+
+Empty ....
