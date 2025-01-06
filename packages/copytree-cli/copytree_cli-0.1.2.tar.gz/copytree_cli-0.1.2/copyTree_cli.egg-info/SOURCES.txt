@@ -1,0 +1,14 @@
+LICENSE
+setup.py
+copyTree_cli.egg-info/PKG-INFO
+copyTree_cli.egg-info/SOURCES.txt
+copyTree_cli.egg-info/dependency_links.txt
+copyTree_cli.egg-info/entry_points.txt
+copyTree_cli.egg-info/top_level.txt
+copytree/__init__.py
+copytree/main.py
+copytree_cli.egg-info/PKG-INFO
+copytree_cli.egg-info/SOURCES.txt
+copytree_cli.egg-info/dependency_links.txt
+copytree_cli.egg-info/entry_points.txt
+copytree_cli.egg-info/top_level.txt
