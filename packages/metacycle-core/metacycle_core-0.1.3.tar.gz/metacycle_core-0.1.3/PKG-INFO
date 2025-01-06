@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: metacycle-core
+Version: 0.1.3
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp-cors>=0.7.0
+Requires-Dist: aiohttp>=3.11.11
+Requires-Dist: python-socketio>=5.12.1
+
+# Development
+
+```
+uv sync
+```
+
+# Run
+
+```
+uv run metacycle-hello
+```
+
+# Upload to PyPI and then run as as a tool
+This is how end users will run the server in a single line.
+
+```
+rm -r dist/
+uv build
+uv publish --token $TOKEN
+```
+
+Open another terminal (wait a moment for PyPI to be updated):
+```
+uvx --from metacycle-core@latest metacycle-hello
+```
