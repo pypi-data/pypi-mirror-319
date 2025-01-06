@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: tinyhash
+Version: 0.0.1
+Summary: Generate a tiny hash using RFC 4648 base64url format
+Project-URL: Homepage, https://github.com/foxmask/tinyhash/
+Project-URL: Documentation, https://github.com/foxmask/tinyhash/blob/main/README.md
+Project-URL: Source, https://github.com/foxmask/tinyhash/
+Author-email: 폭스마스크 <foxmask+git@pm.me>
+License:            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                           Version 2, December 2004
+        
+        Copyright (C) 2025 FoxMaSk <foxmask+wtfpl@pm.me>
+        
+        Everyone is permitted to copy and distribute verbatim or modified
+        copies of this license document, and changing it is allowed as long
+        as the name is changed.
+        
+                   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+          TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+        
+         0. You just DO WHAT THE FUCK YOU WANT TO.
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+Provides-Extra: lint
+Requires-Dist: ruff==0.7.3; extra == 'lint'
+Description-Content-Type: text/markdown
+
+# tinyhash
+Generate a tiny hash using RFC 4648 base64url format
+
+
+```python
+from datetime import datetime, timezone
+from tinyhash import small_hash
+now = datetime.now(timezone.utc)
+my_hash = small_hash(now.strftime("%Y%m%d_%H%M%S"))
+```
