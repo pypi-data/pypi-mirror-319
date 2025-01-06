@@ -1,0 +1,6 @@
+
+[linux]
+curses
+
+[windows]
+windows-curses
