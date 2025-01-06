@@ -1,0 +1,10 @@
+ObservabilityMiddleware/ObservabilityMiddleware.py,sha256=OOo8LTuFaONdsduB0Kf3HoVFmogPmClNQzEc18xakf4,13444
+ObservabilityMiddleware/__init__.py,sha256=662L8xMG6Oz8U35a5xOLv8vREsCv8GhPXH_ZsKRQ9Mo,60
+ObservabilityMiddleware/other_module.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_middleware.py,sha256=J90lDuFMBBH5FI2PhKI8qr1PEUU3tWCsgqrvmHxdemY,291
+ObservabilityMiddleware-0.2.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ObservabilityMiddleware-0.2.0.dist-info/METADATA,sha256=Ezf2FFRBg-HIQhevc8e42hiAACDClr1V0rEvL9iX1G0,564
+ObservabilityMiddleware-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ObservabilityMiddleware-0.2.0.dist-info/top_level.txt,sha256=mvG83TssNirQzDtjiXeqM0ZAWJ9EALaQJTf7HewyxWQ,30
+ObservabilityMiddleware-0.2.0.dist-info/RECORD,,
