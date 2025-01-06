@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gazedetector
+Version: 1.0
+Summary: A Python package for gaze detection integration in web apps
+Home-page: https://github.com/DhairyaRathi123/GazeDetectorr
+Author: Dhairya Rathi
+Author-email: Drdhairya12@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: opencv-python
+
+NO COST NO API EASY TO EMBED GAZE DETECTOR
+pip install gazedetector==0.1
+****IN DEVELOPMENT STAGE*****
