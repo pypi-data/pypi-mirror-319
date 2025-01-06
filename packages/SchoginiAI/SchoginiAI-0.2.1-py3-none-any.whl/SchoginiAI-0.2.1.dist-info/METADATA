@@ -1,0 +1,235 @@
+Metadata-Version: 2.1
+Name: SchoginiAI
+Version: 0.2.1
+Summary: A sample AI toolkit by Schogini Systems with Retrieval-Augmented Generation (RAG).
+Home-page: https://github.com/schogini/SchoginiAI
+Author: Sreeprakash Neelakantan
+Author-email: schogini@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langchain>=0.3.14
+Requires-Dist: langchain-community>=0.3.14
+Requires-Dist: openai>=1.59.3
+Requires-Dist: tiktoken>=0.8.0
+Requires-Dist: faiss-cpu>=1.9.0.post1
+Requires-Dist: langchain-openai
+Requires-Dist: langchain-chroma
+Requires-Dist: langchain-pinecone
+Requires-Dist: langchain_experimental
+Requires-Dist: chromadb
+Requires-Dist: pinecone-client
+Requires-Dist: pypdf
+
+# SchoginiAI
+
+SchoginiAI is a robust AI toolkit developed by **Schogini Systems**, providing advanced **Retrieval-Augmented Generation (RAG)** capabilities. It leverages the power of [LangChain](https://langchain.com/), [OpenAI](https://openai.com/), and multiple vector storage options like **FAISS**, **ChromaDB**, and **Pinecone**. This makes it a versatile tool for building AI-driven solutions for various applications.
+
+---
+
+## 🚀 Features
+
+- **PDF & Text Processing**: Extracts knowledge from PDF files or raw text for vector storage.
+- **Flexible Vector Stores**: Supports FAISS, ChromaDB, and Pinecone for vector management.
+- **Advanced Text Chunking**: Includes configurable chunking strategies like `RecursiveCharacterTextSplitter` and `TokenTextSplitter`.
+- **Environment-Based Configurations**: Manages API keys and settings securely using `.env` files.
+- **RAG Capabilities**: Combines vector retrieval with OpenAI’s LLMs for generating relevant, context-aware responses.
+
+---
+
+## 🛠 Installation
+
+### From PyPI
+
+Install SchoginiAI directly from PyPI:
+
+```bash
+pip install SchoginiAI
+```
+
+### From Source
+
+Clone the repository and install locally:
+
+```bash
+git clone https://github.com/yourusername/SchoginiAI.git
+cd SchoginiAI
+pip install .
+```
+
+Replace `yourusername` with your GitHub username.
+
+---
+
+## 🔧 Configuration
+
+### Environment Variables
+
+Create a `.env` file to securely store your API keys:
+
+```dotenv
+OPENAI_API_KEY=your_openai_api_key
+PINECONE_API_KEY=your_pinecone_api_key
+```
+
+### Custom Settings
+
+Edit the `settings.py` file to configure the following options:
+
+- **Vector Store Type**: Choose between `faiss`, `chroma`, or `pinecone`.
+- **Text Splitter Strategy**: Select chunking strategies like `RecursiveCharacterTextSplitter` or `TokenTextSplitter`.
+- **Chunk Size and Overlap**: Control the size and overlap of text chunks.
+
+Example `settings.py` snippet:
+
+```python
+vector_store_type = "chroma"  # Options: 'faiss', 'chroma', 'pinecone'
+text_splitter_strategy = "RecursiveCharacterTextSplitter"
+chunk_size = 1000
+chunk_overlap = 200
+```
+
+---
+
+## 📚 Usage
+
+### Build Vector Store from Text
+
+```python
+from SchoginiAI import SchoginiAIRAG
+
+rag_ai = SchoginiAIRAG()
+
+sample_text = """
+Schogini Systems is a pioneer in AI Chatbots.
+We specialize in automation solutions for small businesses.
+"""
+
+rag_ai.build_vector_store(sample_text)
+rag_ai.save_vector_store()
+```
+
+### Query the Vector Store
+
+```python
+from SchoginiAI import SchoginiAIRAG
+
+rag_ai = SchoginiAIRAG()
+rag_ai.load_vector_store()
+
+response = rag_ai.ask_question("What services does Schogini Systems provide?")
+print("Response:", response)
+```
+
+### Build Vector Store from PDF
+
+```python
+from SchoginiAI import SchoginiAIRAG
+
+rag_ai = SchoginiAIRAG()
+rag_ai.build_vector_store_from_pdf("path/to/your/pdf_file.pdf")
+rag_ai.save_vector_store()
+```
+
+---
+
+## 🐳 Docker Usage
+
+### Build Docker Image
+
+```bash
+docker build --no-cache -t schoginiai .
+```
+
+### Run Docker Commands
+
+#### Create Vector Store
+
+- **Using FAISS**:
+  ```bash
+  docker run --rm -e OPENAI_API_KEY="your_openai_api_key" -e PINECONE_API_KEY="your_pinecone_api_key" schoginiai create
+  ```
+
+- **Using ChromaDB**:
+  ```bash
+  docker run --rm -e OPENAI_API_KEY="your_openai_api_key" -e PINECONE_API_KEY="your_pinecone_api_key" schoginiai create
+  ```
+
+#### Query Vector Store
+
+- **Using FAISS**:
+  ```bash
+  docker run --rm -e OPENAI_API_KEY="your_openai_api_key" -e PINECONE_API_KEY="your_pinecone_api_key" schoginiai query
+  ```
+
+- **Using ChromaDB**:
+  ```bash
+  docker run --rm -e OPENAI_API_KEY="your_openai_api_key" -e PINECONE_API_KEY="your_pinecone_api_key" schoginiai query
+  ```
+
+Replace `"your_openai_api_key"` and `"your_pinecone_api_key"` with your actual keys.
+
+---
+
+## 🗃 Project Structure
+
+```
+SchoginiAI/
+├── SchoginiAI/
+│   ├── __init__.py
+│   └── main.py
+├── examples/
+│   ├── usage_example.py
+│   ├── knowledge_creation.py
+│   └── .env
+├── tests/
+│   ├── test_faiss.py
+│   ├── test_chroma.py
+├── settings.py
+├── README.md
+├── requirements.txt
+├── Dockerfile
+├── doit.sh
+└── setup.py
+```
+
+---
+
+## 📦 Dependencies
+
+SchoginiAI relies on the following Python packages:
+
+- `langchain>=0.0.200`
+- `openai>=0.28.1`
+- `faiss-cpu>=1.7.6`
+- `chromadb>=0.3.22`
+- `python-dotenv>=0.21.0`
+
+Install these dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🛡 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📚 Additional Resources
+
+- [LangChain Documentation](https://langchain.com/docs/)
+- [OpenAI API Documentation](https://beta.openai.com/docs/)
+- [FAISS Documentation](https://github.com/facebookresearch/faiss)
+- [ChromaDB Documentation](https://www.trychroma.com/docs/)
+- [Python-Dotenv Documentation](https://pypi.org/project/python-dotenv/)
+
+---
+
+With this setup, SchoginiAI is ready to handle advanced AI-driven tasks with ease and flexibility. For more details, refer to the source code or open an issue in the repository.
