@@ -1,0 +1,323 @@
+interactions:
+- request:
+    body: '{"apikey": "4D297D8CFDE0E105"}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '30'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: POST
+    uri: https://api.thetvdb.com/login
+  response:
+    body:
+      string: '{"token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzI4NTEsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4MDUxfQ.h86E_1r6vER9S4L79aoSLh26vp9eFBclUbhDETPrq6hPh5SE34ab6PGLcZCz04O1AYaIMbiE_3eNjpxoV2B5ipuGk8mrTiutfFC_X2kpo8YbPgGq_-hTr_6GrCpjSz7v_bzd1u5jKhP3SA3WvbU2rOiIItXOpeMoycbw9b83Q93XhHNYIYCmVMeSOKk1upm8XCWu6_GDb0uq5xVZzBA-mpsAqCN474kRt5zDCdVlfxqjZULybz3T6bXfxsowJIjR5eZwySAg4Y4Zv-CNoJ3Yu4Y-HP8jwVsRQoLbdSo9aAuWOYh7pqr7NrwUj653Y7EIDCH0LX45q61XZNh3Q3TC2A"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '466'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:47:31 GMT
+      Vary:
+      - Accept-Language
+      Via:
+      - 1.1 9561d4f7fd20a46f9a3b03c625437a57.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - T2z9wGLDgJaMz7ra1lvdhrh308NAvLf-qIcWnKpZ4uQXqYMc1t2dZw==
+      X-Amz-Cf-Pop:
+      - EZE51-C1
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzI4NTEsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4MDUxfQ.h86E_1r6vER9S4L79aoSLh26vp9eFBclUbhDETPrq6hPh5SE34ab6PGLcZCz04O1AYaIMbiE_3eNjpxoV2B5ipuGk8mrTiutfFC_X2kpo8YbPgGq_-hTr_6GrCpjSz7v_bzd1u5jKhP3SA3WvbU2rOiIItXOpeMoycbw9b83Q93XhHNYIYCmVMeSOKk1upm8XCWu6_GDb0uq5xVZzBA-mpsAqCN474kRt5zDCdVlfxqjZULybz3T6bXfxsowJIjR5eZwySAg4Y4Zv-CNoJ3Yu4Y-HP8jwVsRQoLbdSo9aAuWOYh7pqr7NrwUj653Y7EIDCH0LX45q61XZNh3Q3TC2A
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/search/series?name=Sex+House
+  response:
+    body:
+      string: '{"data":[{"aliases":[],"banner":"/banners/images/missing/series.jpg","firstAired":"2012-7-12","id":260844,"network":"YouTube","overview":"Sex
+        House is a web series produced by The Onion, produced via their Onion Digital
+        Studios department. It is exclusive to YouTube per a grant from the website.
+        It is a dark satire of reality shows, their production and surrounding culture.\r\n\r\nSix
+        people representing various reality show stereotypes including a married older
+        contest winner are put in a house designed around having as much sex as possible.
+        They soon realize, however, that they will not be fed, medically cared for
+        or allowed to leave until every person has sex.","seriesName":"Sex House","slug":"sex-house","status":"Ended"}]}'
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '736'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:47:31 GMT
+      Vary:
+      - Accept-Language
+      Via:
+      - 1.1 449a33633af422ed0455ecaba4d77f39.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - qi-k9H6bgR7hauasUrY9sKAJMmdp4NRFMDGr4DjdXWiP9TCtCIcnpQ==
+      X-Amz-Cf-Pop:
+      - EZE51-C1
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzI4NTEsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4MDUxfQ.h86E_1r6vER9S4L79aoSLh26vp9eFBclUbhDETPrq6hPh5SE34ab6PGLcZCz04O1AYaIMbiE_3eNjpxoV2B5ipuGk8mrTiutfFC_X2kpo8YbPgGq_-hTr_6GrCpjSz7v_bzd1u5jKhP3SA3WvbU2rOiIItXOpeMoycbw9b83Q93XhHNYIYCmVMeSOKk1upm8XCWu6_GDb0uq5xVZzBA-mpsAqCN474kRt5zDCdVlfxqjZULybz3T6bXfxsowJIjR5eZwySAg4Y4Zv-CNoJ3Yu4Y-HP8jwVsRQoLbdSo9aAuWOYh7pqr7NrwUj653Y7EIDCH0LX45q61XZNh3Q3TC2A
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/260844
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA1RTXU8bMRD8Kys/JyEJpC15a6FSeSkSpKoq6MPmvLlzceyTP5IciP/e8V0iQEqk
+        2w+vZ8azL0pzYrV8UUar5fzT9MvFxUhFCUbiDTJKnaKfvBXE93KgHz5HQYGt4ShRLR/+li6O3qFj
+        hkrrY5IwHF+zc/13HbhtTMX2bLhnXE/+tTU6Nuw4JHQMH2c+mNq4t77ZsS8mThnXqe9Oiy4HTYjp
+        qwlSkM6ns/l4+nk8m6PiJO19eEL6j8+rvJa3XE9rcXmOTMgumZ7WApFlV2euSygOcS0uIHhQV34r
+        ukPmTkA5dQp0/U7Czsj+vSRkIjHtZU2DZNQGr3MlmtYdrRqhW2e8G72ld4YpNWLCUKFr8E5s6T5l
+        bXwkLS302IpLE7pJZbwcKpuj2QklT0dq1ErAvZDXJdoEvy0zC4xokpwOMmkOTxQ5QS7yGwoDF4qN
+        38fREcaALBUs7DTFHILPThtXU5VtykEmj+HRlf+9OeBi31rBqDZIBMrSt+NgIMaH+VTcID51LUQx
+        DhT6kUxbDhBKk7caHCrvksREe1McQwygbQZ6gKGmF1hLNLXDAe5xUcO7flCkba4ayH4o33BfNGsL
+        7hAdCDzo9HCeZYRBe8HbFcacCu0O91lLzieClhvRI8JzF5/ajiqA0LTxgfBDBod1kd4K4w2KfSyV
+        cV15BPgfiGKBMen9FNOvFvtV7DnFusCt19zdbn6LFGeumhyi5mKsUloNTiy25KKkWrps7UiZrV73
+        nk1pfj7DRhR/P3M7N+m0oaz1xxW4pNliuThfLqan6rdOLS/ml7MF1gi2uDteMX0fXkHTNORsRhE7
+        fRj3wqvX1/8AAAD//wMA7FGKACoEAAA=
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:03:22 GMT
+      Last-Modified:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Vary:
+      - Accept-Encoding,Accept-Language
+      Via:
+      - 1.1 90a8a98f54c295f099272d8c7711dc97.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - sgve9t89dIStBdFJWyJPOk_i8s7CJnS37wilXkeOBoEAxhb8iwAGeA==
+      X-Amz-Cf-Pop:
+      - EZE51-C1
+      X-Cache:
+      - Hit from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzI4NTEsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4MDUxfQ.h86E_1r6vER9S4L79aoSLh26vp9eFBclUbhDETPrq6hPh5SE34ab6PGLcZCz04O1AYaIMbiE_3eNjpxoV2B5ipuGk8mrTiutfFC_X2kpo8YbPgGq_-hTr_6GrCpjSz7v_bzd1u5jKhP3SA3WvbU2rOiIItXOpeMoycbw9b83Q93XhHNYIYCmVMeSOKk1upm8XCWu6_GDb0uq5xVZzBA-mpsAqCN474kRt5zDCdVlfxqjZULybz3T6bXfxsowJIjR5eZwySAg4Y4Zv-CNoJ3Yu4Y-HP8jwVsRQoLbdSo9aAuWOYh7pqr7NrwUj653Y7EIDCH0LX45q61XZNh3Q3TC2A
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/260844
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA1RTXU8bMRD8Kys/JyEJpC15a6FSeSkSpKoq6MPmvLlzceyTP5IciP/e8V0iQEqk
+        2w+vZ8azL0pzYrV8UUar5fzT9MvFxUhFCUbiDTJKnaKfvBXE93KgHz5HQYGt4ShRLR/+li6O3qFj
+        hkrrY5IwHF+zc/13HbhtTMX2bLhnXE/+tTU6Nuw4JHQMH2c+mNq4t77ZsS8mThnXqe9Oiy4HTYjp
+        qwlSkM6ns/l4+nk8m6PiJO19eEL6j8+rvJa3XE9rcXmOTMgumZ7WApFlV2euSygOcS0uIHhQV34r
+        ukPmTkA5dQp0/U7Czsj+vSRkIjHtZU2DZNQGr3MlmtYdrRqhW2e8G72ld4YpNWLCUKFr8E5s6T5l
+        bXwkLS302IpLE7pJZbwcKpuj2QklT0dq1ErAvZDXJdoEvy0zC4xokpwOMmkOTxQ5QS7yGwoDF4qN
+        38fREcaALBUs7DTFHILPThtXU5VtykEmj+HRlf+9OeBi31rBqDZIBMrSt+NgIMaH+VTcID51LUQx
+        DhT6kUxbDhBKk7caHCrvksREe1McQwygbQZ6gKGmF1hLNLXDAe5xUcO7flCkba4ayH4o33BfNGsL
+        7hAdCDzo9HCeZYRBe8HbFcacCu0O91lLzieClhvRI8JzF5/ajiqA0LTxgfBDBod1kd4K4w2KfSyV
+        cV15BPgfiGKBMen9FNOvFvtV7DnFusCt19zdbn6LFGeumhyi5mKsUloNTiy25KKkWrps7UiZrV73
+        nk1pfj7DRhR/P3M7N+m0oaz1xxW4pNliuThfLqan6rdOLS/ml7MF1gi2uDteMX0fXkHTNORsRhE7
+        fRj3wqvX1/8AAAD//wMA7FGKACoEAAA=
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:03:22 GMT
+      Last-Modified:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Vary:
+      - Accept-Encoding,Accept-Language
+      Via:
+      - 1.1 5e2644fb49bed6d1558a80cc2424f54c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - t_ohOwSPoQDZb0gtyNsKKx-mo5e3SSSYmT7u7KcwiZ5-ZsDrOeTSDg==
+      X-Amz-Cf-Pop:
+      - EZE51-C1
+      X-Cache:
+      - Hit from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzI4NTEsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4MDUxfQ.h86E_1r6vER9S4L79aoSLh26vp9eFBclUbhDETPrq6hPh5SE34ab6PGLcZCz04O1AYaIMbiE_3eNjpxoV2B5ipuGk8mrTiutfFC_X2kpo8YbPgGq_-hTr_6GrCpjSz7v_bzd1u5jKhP3SA3WvbU2rOiIItXOpeMoycbw9b83Q93XhHNYIYCmVMeSOKk1upm8XCWu6_GDb0uq5xVZzBA-mpsAqCN474kRt5zDCdVlfxqjZULybz3T6bXfxsowJIjR5eZwySAg4Y4Zv-CNoJ3Yu4Y-HP8jwVsRQoLbdSo9aAuWOYh7pqr7NrwUj653Y7EIDCH0LX45q61XZNh3Q3TC2A
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/260844/images/query?keyType=poster
+  response:
+    body:
+      string: '{"Error":"No results for your query"}'
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '37'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:47:33 GMT
+      Vary:
+      - Accept-Language
+      Via:
+      - 1.1 2948d9a27a84204b2bc36934485844b4.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - p0Jbp7q21ScjR3HSCAzJ2elFq-y4NJHI3_i6JEycP3jZ1neGdqAd9g==
+      X-Amz-Cf-Pop:
+      - EZE51-C1
+      X-Cache:
+      - Error from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzI4NTEsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4MDUxfQ.h86E_1r6vER9S4L79aoSLh26vp9eFBclUbhDETPrq6hPh5SE34ab6PGLcZCz04O1AYaIMbiE_3eNjpxoV2B5ipuGk8mrTiutfFC_X2kpo8YbPgGq_-hTr_6GrCpjSz7v_bzd1u5jKhP3SA3WvbU2rOiIItXOpeMoycbw9b83Q93XhHNYIYCmVMeSOKk1upm8XCWu6_GDb0uq5xVZzBA-mpsAqCN474kRt5zDCdVlfxqjZULybz3T6bXfxsowJIjR5eZwySAg4Y4Zv-CNoJ3Yu4Y-HP8jwVsRQoLbdSo9aAuWOYh7pqr7NrwUj653Y7EIDCH0LX45q61XZNh3Q3TC2A
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/260844/actors
+  response:
+    body:
+      string: '{"Error":"not found"}'
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '21'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:47:33 GMT
+      Vary:
+      - Accept-Language
+      Via:
+      - 1.1 fccb6b9c4ebd61ac6c5fc94394de34f2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - DlBHby1kv4XQlOZCUF5oxyIf7P626frB2wJY9jPchtwe7LND3VUY9w==
+      X-Amz-Cf-Pop:
+      - EZE51-C1
+      X-Cache:
+      - Error from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 404
+      message: Not Found
+version: 1

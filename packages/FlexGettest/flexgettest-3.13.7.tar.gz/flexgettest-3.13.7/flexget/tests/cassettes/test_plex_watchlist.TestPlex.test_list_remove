@@ -1,0 +1,1882 @@
+interactions:
+- request:
+    body: login=flexget_flexget&password=flexget_flexget&rememberMe=True
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '62'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Version:
+      - 4.15.16
+    method: POST
+    uri: https://plex.tv/api/v2/users/signin
+  response:
+    body:
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<user id=\"187797645\"
+        uuid=\"d0df38378404ccb3\" username=\"flexget_flexget\" title=\"flexget_flexget\"
+        email=\"polka_gill0i@icloud.com\" friendlyName=\"\" locale=\"\" confirmed=\"0\"
+        joinedAt=\"1670500095\" emailOnlyAuth=\"0\" hasPassword=\"1\" protected=\"0\"
+        thumb=\"https://plex.tv/users/d0df38378404ccb3/avatar?c=1725844827\" authToken=\"KxvLMr_sVisr5AsAXBU7\"
+        mailingListStatus=\"unsubscribed\" mailingListActive=\"0\" scrobbleTypes=\"\"
+        country=\"US\" subscriptionDescription=\"\" restricted=\"0\" anonymous=\"0\"
+        home=\"0\" guest=\"0\" homeSize=\"1\" homeAdmin=\"0\" maxHomeSize=\"15\" rememberExpiresAt=\"1727054427\"
+        adsConsent=\"\" adsConsentSetAt=\"\" adsConsentReminderAt=\"\" experimentalFeatures=\"0\"
+        twoFactorEnabled=\"0\" backupCodesCreated=\"0\" attributionPartner=\"\">\n
+        \ <subscription active=\"0\" subscribedAt=\"\" status=\"Inactive\" paymentService=\"\"
+        plan=\"\">\n    <features>\n      <feature id=\"guided-upgrade\"/>\n      <feature
+        id=\"increase-password-complexity\"/>\n      <feature id=\"upgrade-3ds2\"/>\n
+        \     <feature id=\"ad-countdown-timer\"/>\n      <feature id=\"adaptive_bitrate\"/>\n
+        \     <feature id=\"amazon-loop-debug\"/>\n      <feature id=\"Android - Dolby
+        Vision\"/>\n      <feature id=\"Android - PiP\"/>\n      <feature id=\"avod-ad-analysis\"/>\n
+        \     <feature id=\"avod-new-media\"/>\n      <feature id=\"blacklist_get_signin\"/>\n
+        \     <feature id=\"CU Sunset\"/>\n      <feature id=\"client-radio-stations\"/>\n
+        \     <feature id=\"cloudflare-turnstile-required\"/>\n      <feature id=\"comments_and_replies_push_notifications\"/>\n
+        \     <feature id=\"friend_request_push_notifications\"/>\n      <feature
+        id=\"community_access_plex_tv\"/>\n      <feature id=\"companions_sonos\"/>\n
+        \     <feature id=\"custom-home-removal\"/>\n      <feature id=\"disable_home_user_friendships\"/>\n
+        \     <feature id=\"disable_sharing_friendships\"/>\n      <feature id=\"drm_support\"/>\n
+        \     <feature id=\"le_isrg_root_x1\"/>\n      <feature id=\"federated-auth\"/>\n
+        \     <feature id=\"home\"/>\n      <feature id=\"HRK_enable_EUR\"/>\n      <feature
+        id=\"ios14-privacy-banner\"/>\n      <feature id=\"iterable-notification-tokens\"/>\n
+        \     <feature id=\"keep-payment-method\"/>\n      <feature id=\"kevin-bacon\"/>\n
+        \     <feature id=\"korea-consent\"/>\n      <feature id=\"lets_encrypt\"/>\n
+        \     <feature id=\"lightning-dvr-pivot\"/>\n      <feature id=\"livetv\"/>\n
+        \     <feature id=\"live-tv-support-incomplete-segments\"/>\n      <feature
+        id=\"tuner-sharing\"/>\n      <feature id=\"metadata_search\"/>\n      <feature
+        id=\"vod_cloudflare\"/>\n      <feature id=\"new_plex_pass_prices\"/>\n      <feature
+        id=\"news-provider-sunset-modal\"/>\n      <feature id=\"photos-favorites\"/>\n
+        \     <feature id=\"photos-metadata-edition\"/>\n      <feature id=\"pms_health\"/>\n
+        \     <feature id=\"rate-limit-client-token\"/>\n      <feature id=\"shared_server_notification\"/>\n
+        \     <feature id=\"shared_source_notification\"/>\n      <feature id=\"scrobbling-service-plex-tv\"/>\n
+        \     <feature id=\"collections\"/>\n      <feature id=\"radio\"/>\n      <feature
+        id=\"exclude restrictions\"/>\n      <feature id=\"signin_with_apple\"/>\n
+        \     <feature id=\"spring_serve_ad_provider\"/>\n      <feature id=\"transcoder_cache\"/>\n
+        \     <feature id=\"TREBLE-show-features\"/>\n      <feature id=\"two-factor-authentication\"/>\n
+        \     <feature id=\"unsupportedtuners\"/>\n      <feature id=\"vod-schema\"/>\n
+        \     <feature id=\"watch-together-invite\"/>\n      <feature id=\"web_server_dashboard\"/>\n
+        \   </features>\n  </subscription>\n  <profile autoSelectAudio=\"1\" defaultAudioLanguage=\"\"
+        defaultSubtitleLanguage=\"\" autoSelectSubtitle=\"1\" defaultSubtitleAccessibility=\"0\"
+        defaultSubtitleForced=\"0\" watchedIndicator=\"1\" mediaReviewsVisibility=\"0\"/>\n
+        \ <entitlements>\n  </entitlements>\n  <subscriptions>\n  </subscriptions>\n
+        \ <pastSubscriptions>\n  </pastSubscriptions>\n  <trials>\n  </trials>\n  <services>\n
+        \   <service identifier=\"epg\" endpoint=\"https://epg.provider.plex.tv\"
+        token=\"RkHIzgbqTjP2giDabsWdbBB9o4YNyhS6CqbTgwfKAOc=\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"epg-staging\" endpoint=\"https://epg-staging.provider.plex.tv\"
+        token=\"RkHIzgbqTjP2giDabsWdbBB9o4YNyhS6CqbTgwfKAOc=\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"epg-dev\" endpoint=\"https://epg-dev.provider.plex.tv\"
+        token=\"RkHIzgbqTjP2giDabsWdbBB9o4YNyhS6CqbTgwfKAOc=\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"eyeq\" endpoint=\"https://c4412416.ipg.web.cddbp.net/webapi/xml/1.0/\"
+        token=\"6iUU7VrBzA/Hz5nsS9o65Yz77qvh63pYmUN+TaVHeonhsQWlzYGcsik1opEU3toj\"
+        secret=\"\" status=\"online\"/>\n    <service identifier=\"eyeq-channel-icons\"
+        endpoint=\"http://akamai-b.cdn.cddbp.net/cds/2.0/image\" token=\"\" secret=\"\"
+        status=\"online\"/>\n    <service identifier=\"graph-dev\" endpoint=\"https://community-dev.plex.tv\"
+        token=\"\" secret=\"\" status=\"online\"/>\n    <service identifier=\"graph-staging\"
+        endpoint=\"https://community-staging.plex.tv\" token=\"\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"community-dev\" endpoint=\"https://community-dev.plex.tv\"
+        token=\"\" secret=\"\" status=\"online\"/>\n    <service identifier=\"community-staging\"
+        endpoint=\"https://community-staging.plex.tv\" token=\"\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"community\" endpoint=\"https://community.plex.tv\"
+        token=\"\" secret=\"\" status=\"online\"/>\n    <service identifier=\"metadata\"
+        endpoint=\"https://metadata.provider.plex.tv\" token=\"1vme2aaK6G8fZFtFyKeSmInEvdjpjsHEto45VgX1K0c=\"
+        secret=\"\" status=\"online\"/>\n    <service identifier=\"metadata-dev\"
+        endpoint=\"https://metadata-dev.provider.plex.tv\" token=\"1vme2aaK6G8fZFtFyKeSmInEvdjpjsHEto45VgX1K0c=\"
+        secret=\"\" status=\"online\"/>\n    <service identifier=\"metadata-provider\"
+        endpoint=\"https://mpm.plex.tv/\" token=\"\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"tmsapi\" endpoint=\"https://tmsapi.plex.tv/v1.1/\"
+        token=\"a0VC3zjGN7FmzvlZKIuRRUjLCRoQkgY2jwJsLgi8+OQ=\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"subtitles-search\" endpoint=\"https://metadata.provider.plex.tv/library/streams/matches\"
+        token=\"1vme2aaK6G8fZFtFyKeSmInEvdjpjsHEto45VgX1K0c=\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"acoustid\" endpoint=\"https://acoustid.plex.tv/\"
+        token=\"XxQtK3u05uaxTaZ6Y6jcrw==\" secret=\"\" status=\"online\"/>\n    <service
+        identifier=\"lyricfind\" endpoint=\"https://lyricfind.plex.tv/\" token=\"X46ofmSoyOTWjBU4oEx0Rb0ATQjYW31IgFeXw3+/n5hMfGoF7PLEMPrLT9v/zqV1\"
+        secret=\"H8q1AfgeOcf8+wx2ODos1mLBkmsSE4PMCJkkdx27xNwpzzKVV3up6gZJb+teyIOw\"
+        status=\"online\"/>\n    <service identifier=\"lyricfind-search\" endpoint=\"https://lyricfind.plex.tv/\"
+        token=\"4HRR+YgScsy+71q8J31KgROAuPkWvsus8XQuVFjYUiTjw5f+LesQ8MAgEcjnuYxW\"
+        secret=\"\" status=\"online\"/>\n    <service identifier=\"tvdb\" endpoint=\"https://api4.thetvdb.com/\"
+        token=\"CFlmhH676IvrFij0l4BR1YNRtyHjz+9EAH+GU5ZgncfJ3ufdmzWK/3giK1Ovei7u\"
+        secret=\"\" status=\"online\"/>\n  </services>\n</user>\n"
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/xml
+      Date:
+      - Mon, 09 Sep 2024 01:20:27 GMT
+      ETag:
+      - W/"929504eaf25a01a7eed6671381f7273d"
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Set-Cookie:
+      - _my-plex_session_32=b0VxbGtZTUxMOEdmZEJlWTRpajlQallwMGlac0JYdlFCMU9KRTVkV2x1Uy9WRzlaVWRKb25ldU9Ea0UxQXBZV2pjV0RncWIwcHN6WlNVbnhsN2JiRHc9PS0tcW5oY3A4Mm11UEwxQ1o1RFE4Qmpvdz09--7e969f24ddd2e40d8d98cd06eba1731f2f74a1cb;
+        path=/; HttpOnly; secure
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 2623982f2518980adbd391c2e2e476d3
+      X-Runtime:
+      - '0.199381'
+      X-XSS-Protection:
+      - 1; mode=block
+      vary:
+      - Origin
+    status:
+      code: 201
+      message: Created
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Cookie:
+      - _my-plex_session_32=b0VxbGtZTUxMOEdmZEJlWTRpajlQallwMGlac0JYdlFCMU9KRTVkV2x1Uy9WRzlaVWRKb25ldU9Ea0UxQXBZV2pjV0RncWIwcHN6WlNVbnhsN2JiRHc9PS0tcW5oY3A4Mm11UEwxQ1o1RFE4Qmpvdz09--7e969f24ddd2e40d8d98cd06eba1731f2f74a1cb
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Container-Size:
+      - '100'
+      X-Plex-Container-Start:
+      - '0'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: GET
+    uri: https://metadata.provider.plex.tv/library/sections/watchlist/all?includeCollections=1&includeExternalMedia=1
+  response:
+    body:
+      string: !!binary |
+        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
+        4k7svaBi9FX+rrwfHxXf/g18/A/q7RO9LBYAAA==
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - BYPASS
+      CF-RAY:
+      - 8c035b1cd9ae7fe1-IAD
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 09 Sep 2024 01:20:27 GMT
+      ETag:
+      - W/"162c-cuZKhd5eKZiw0zF7r7PhYRikzCI"
+      Origin-Agent-Cluster:
+      - ?1
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Plex-Container-Start:
+      - '0'
+      X-Plex-Container-Total-Size:
+      - '3'
+      X-XSS-Protection:
+      - 1; mode=block
+      x-plex-cache:
+      - hit
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Cookie:
+      - _my-plex_session_32=b0VxbGtZTUxMOEdmZEJlWTRpajlQallwMGlac0JYdlFCMU9KRTVkV2x1Uy9WRzlaVWRKb25ldU9Ea0UxQXBZV2pjV0RncWIwcHN6WlNVbnhsN2JiRHc9PS0tcW5oY3A4Mm11UEwxQ1o1RFE4Qmpvdz09--7e969f24ddd2e40d8d98cd06eba1731f2f74a1cb
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: GET
+    uri: https://metadata.provider.plex.tv/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3WTTWvDMAyG/0rQfXHL2A4jTtmll1HYYLCz6qitqRNnshKafz+S5qNJu5stPe9r
+        ScjJ5pK7qCYO1hca1vEKNmmyo8ziJ/vaZsSRNW3qJFKGN6XKPvwUBMWauHR0iaVWLRVUToIZCj69
+        vK7iUB8hshkVYg+WWIPUV3zwiAccopK9eONd0BCECXOIxIojDbuRuSnzOV5BmmwJpWKKpClJw2R2
+        pkaDcnbPyM1YE6ilAo1YXwRIk/fuFNlMA2bZt/9BMSdngwxmPaqWWaa2KvqYQUy5r2nLPp9INXuE
+        UWhp3cXmWDDs93t3h07xh+9XxQioNFF908vujXeOOsVyYlMm3A/NeYMz0XC/I3PkM3EYwOF6w5XV
+        3lmjYQ29xOZ4JGEsgvEZcS8ddq/LhnHlypMXf2t3cFh71lAVtp0KusG2dNj8VlTRwrCNT9s4+jps
+        vlo6POpJzOm/DVNd9ipTs0+U/gE0/VlYaQMAAA==
+    headers:
+      Age:
+      - '64611'
+      CF-Cache-Status:
+      - HIT
+      CF-RAY:
+      - 8c035b1d5a3f7fe1-IAD
+      Cache-Control:
+      - max-age=0,stale-while-revalidate=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Date:
+      - Mon, 09 Sep 2024 01:20:27 GMT
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      cdn-cache-control:
+      - max-age=86400
+      cross-origin-resource-policy:
+      - cross-origin
+      etag:
+      - W/"369-LgDHfSaMCTDKhJR5CV+d/zVbjf4"
+      origin-agent-cluster:
+      - ?1
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      vary:
+      - Accept, Accept-Encoding, X-Plex-Language, X-Plex-Provider-Version
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-plex-timestamp:
+      - '1717565583'
+      x-plex-version:
+      - 1f85bbd7cf44888ff6d1bdc83632e25e969314d7
+      x-xss-protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Cookie:
+      - _my-plex_session_32=b0VxbGtZTUxMOEdmZEJlWTRpajlQallwMGlac0JYdlFCMU9KRTVkV2x1Uy9WRzlaVWRKb25ldU9Ea0UxQXBZV2pjV0RncWIwcHN6WlNVbnhsN2JiRHc9PS0tcW5oY3A4Mm11UEwxQ1o1RFE4Qmpvdz09--7e969f24ddd2e40d8d98cd06eba1731f2f74a1cb
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: GET
+    uri: https://metadata.provider.plex.tv/library/metadata/5d7768ba96b655001fdc0408?includeBandwidths=1&includeChapters=1&includeGeolocation=1&includeLoudnessRamps=1&includeMarkers=1&includeUserState=1
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+V93ZLbOLLmq+DoREzMRLSq8EeQ7OnqCf+03Xa7pj0ud/vMudlIAIkSWhSpIaEq
+        q6/mEeZiX2SfYd9knmQDpEhKpap2SaWO2Ihz4yglySTyYwL5B6S/+cvnRUFusG58VV5M2Bmd/OXb
+        by7RenhRlQF8iTUpvK6hXl+hCb4q37y8mMyqBU7u0D/6UODF5BIDWAgwIZVzDYaLCZ2QUAUorvyv
+        eDFhE+ItlsE7j/XFJNycLQv8fLasqxtvsT5bDM83m/u//eZnb7EiUIeLySyEZfP1+Xl/27QJELzp
+        mISbc35+XYPBsgp4zi3IXGY5VXnOQaVCa0WTVDBj8zyX4uyX5fWEaCjLOJKeM9ThtqrnzVmYYbix
+        +sxUi/Pupub8Rp4vqhuP54nMxEBVkkvNqKJgddpxvV55ezGJo4qD7R6xaaoyDbnSKkkoZc4aKmk2
+        IXNcX0zON3AOov3GAzUEX15fTNIz1f/4IfJ4+IkmrKyvLiachhl5gWVY1Wty1RKbCWlWiwXU64vJ
+        W5gjuVoVxZoU/gYbcuvDjMx8Q0q8ddWqtMTBwhdr4qp6gZZUJQkzJPg51NBUBdRkUVUleQ+lrWo4
+        Iz+WBgl0D3moSZjVCIHUGFZ12ZBQEedL38zI7QwCuYWGLGu88dWqKdakCVAHtF+RdliLVRNI/DTd
+        oP6K6+BrT6C07RCgXqxJ5dq//wp/gGXV/PnGk6gN8TXLugpoQrzsaxIV+GxCAlwXvsSLyYd2PPG+
+        fuQTEtZLvJi0325Cwmy10F9Wv2xL/bKEC5EjaospaoRcJnnCEpFxy1HIpFMUsBbts3AxYSqleaoo
+        pRNiV/GjtjOSJZy2tOVKF968h2tsfvrwbhzKLQQzGwbQqRrcQIB6GmY4vYX1tHLTWwhYT0hTrK4v
+        Jg9ebnkVvgmbIaU8yaTMOJ2QG4+3L6pV2U3o+OvHrfndzf1nLd+vyccZkk/Qfo1PHWNTlQHL8GGj
+        t+9fT5mYkKr2176Eolg/uwFfgC4wvpZTzqeMT5mckDVC3VEmBFbWY2mw55Kf7RHfLOAaLyZ1FeLr
+        qgWECiNIPtLPuplytlrW/noW+pnzqGdqv8QJ8QuruxdtoEhoTpWafPtNy4RAEX4LhU6jNJj5dR3n
+        0oSs6uJ3WNPODxxPXMXujOUkq+Bh4zAFQv2uuq4eCUt6rjIBTPIkEedpmtmMpY7lAqnJdYYpaJSY
+        8lRpTunZsjx6PJ+8xf9fxlTdYP2sDo8cjtzSHGkwtRm4LOHOGqcsk5nNXcZ5KkBpOOaLxdG8r5qw
+        pz4nWx+PGNDVP1ZQP/aD4daA0CmRopVC6RRRmCxhNAGhQWaMAWNHDKgpYdnMqsd+r3xrNLliNhU6
+        YYmDzArKM0XBQGp1gs7qvB/NayxrJM4XIXox1/HXRWJzQ6UynOVcQ/QDuHPK8Oh7RS/hoau7jkjT
+        OXbNebSW51AUf/kS9y1XpL31fz1868YStW9oDfHF5Nnmh/U1mlBFf4RtTMfncDEJcH3Wcj1QavGb
+        UosnSi0eL7UYpLY3rQeGveDj7xPLLn9TdvlE2eXjZZe97I3xU+c3gl8ZP33lny51ShNM48tQmcwC
+        7Eq9f/Uwqfeff1Dq/Vs7qR2UAZr1RuxX/a9Hyb3ythUnOh9fn5+HwJSglOc7F0N3MVWK0t0LN+2F
+        aKkjvfNeiO98ng3LbU+nX7l6v2pCbqBYYYw1kn0Gj3GaNktz7YM3W9zUodwGt+2BAUZ3cI9lmGHr
+        qhwip2r5vKiKolOM3cizYxLxPqvq6/Nwvjzv/djz68/lzX/l81fphw8//e3vN88Tbi/fvb/Gt/Nw
+        T1hohjecJ2i4szpVWSo5UCpZovOcpXdVdXykefCZczPzha2x3Irron3qbBXZkitgUTRtwNREJeyj
+        p9uqLmz8sYmFviK+nIH2AS3R6/YWX1p/jWW1ashstYCy8rb56k7oddZaxQX4sg2+4LoqfRM2wVwX
+        Y/7xChbkU1WHmS+vQ1X+6SviG9JgGbZCMQINgZJ0Qcu///m/gczWuvbtCNuXtyHg9ntfruqoAjFs
+        XfgmpjY2b7W+aV2ETmiNsArr9mlTLeJH8eG+ELLDI94Wg96GALGIyzhdyw2QbUAan1oWUGLonmx6
+        2KAMTQfG+PmIq8yqwaYPoE1VusKbQDSGW8Syk6wZotut4fSkJtSr6+uijW4buMF7v93ZXuj6W/q7
+        +pGvfxJ/86+/v/l5Sd8lmLyB8PHnD/O/zzv97czVXUXqpsuqDPW6u+OnslWWqwAhiujIswXW3kA7
+        P6sCv7gAQ1wVL7p0BldZyrLWlqBgzAj6B1gs/9xO3zxv/4YufPSFD+uPke5qxN4I3M8jRp82WhI2
+        WCZYTG9HXexN1K6GPjoTkJ4vsVoWeJ4mmZbIM0O5UinLuGQ2t5gpp7hVCe2ArasYQI9T445tOAq3
+        JM9zo2SU2XDtHDsCtz0eA26DD/drhdMGCgslbDD77wrJVaT83/8DjwaM9YAxSJVwKslYrgxlWpo0
+        T5nM0ThAlcptwDZJoJOgJYwwvPVYtAEj3DFo3eUxoDX4fo2/rlZ1ievpLcJNGym0ataTyaee/DjY
+        RA+b0A4kF5xTwVBlnOecJTqhoHVqjeHbsP1wIsxsIg11NMobAxQnjsBsj8eA2egzBlzOsJwWUPZr
+        0FVHIu860uOwcj1WDmkmKFeZUEIxxWVqUslUypAx7rIdFXtRFVWJBbn0BTbkbyuofTCzk2hcllGW
+        p+3cyqmgR2ncXR4DekmP3hwCTm992RQYNuj9AAHJp4F0qKbZBCyXKBXnRjNuUmtAI0uzDDPJk230
+        PlQlFKcAS20vRCZx+TFG4C6PASzVg2UK79zUrOrgmw1YLyKJvOhJjwNL9WApY0BravOU5pJKYYzI
+        lXKZSaTOTKq3wfpYldUtnGRqCpklKct1O61AqPyIqbnPY8Ar7fH6pcJiauHG2+miqoaI9m2FBXkZ
+        yeRyQ34cbrrHTaPKLLdpYozVaWoFpjzTzJpUM2O12rECVb0gV0ssigXczR8cpWwZSxiodk3iEjDR
+        RyjbHo8BvGxQNjObLmMieDADL158T94PlEPnJQjFMmsFYwpFzGA5nic8swqBZXzHAlxWnT8J4RR4
+        QYo5CEMpp0Zppo/Ba4/HgFfe44XW49RBYaoNXN9Zj+TVhvA4tEyPllEmF5nLaOq0zjKX5eBSbTKm
+        DEUt3TZar7HEGgryqobSYEOe1XZR7aVrjpqnnKNRuq3VKa1TeYRzu89jdG7pMFExRmI4NQUusOwN
+        wduOSl4M1MehuMHwofdvY/eyPiNvoCSvob7xJ5mdyc7MklQeYzfv8hghGwKCa1/dQFn6ae21b/qc
+        1esNlXzoqY+DDHrQQObcWGFlymJy1zrImMqVcZRprtiORXgP9RxrcoWFq729PoXGab1bHRbp4fDt
+        8xjhG+ICXfu4gWBqoRjDqecdkbzsiY8DL+/By22KKSqXSiEkMmcccjApzRTVQoDZBu9dv8bNnwgb
+        ZpJxxjKtrKKUWTCSYnYYbPfzGGEbAoRfYBFXuQJCwLr3Qd5GInk1Eg+NqSw3nGrAlCknGKDjLBdZ
+        bkEwi5LtxlQB17D4PVRNnUDV1IjZECCE2pc+rKe68E0P2ceORp5vaIf6bRJBaZlyxRPIZMpTYVhu
+        0aaYS2pgx29bzYOvcU06ffu4mnd/PBFC40zunORZhtj6rCyax8MgvJ/HCGEyqp2ZT80MFsuxIPMW
+        zJy8GGmPg5D3EHLLuFNCC6AStUmTRIvMWGqZyAXNduKELrrqYLtaxp1A3d/kqjJVXVcn8VJQ2SRp
+        PQxJdWKOySPt8RihVOPCh6WFcmqqWyyKYeFrieRFTzzUaqQ0yVPNaKKZcJYnRueausTlucqMcbtg
+        mjm5MlWNjT5FJimjW1Izqag9HLl9HiNyQzShwRe4nmoYZvHzlkKewz1z+LcymYZW796lb77Xz3/8
+        h8/qz2o2X33+K4VQX+/M3CbOW/g91jo4wVoHI0ZD0OB84ZfTayx+6b3gV5FCXm8oj9Mr2euV1NYo
+        bpIkM9EDTxOZoVCIWVQ1gztBw7OqXMV0y+nBOiJg2OcxgjVEDHYFJU7xBspm+ksfZL2MRPJdJJK3
+        9X6G/OHNCxvMMmuctAISKjlTOaaJEUIKk0oQEq3eTYCEz6dYveT2/KFoJT8csn0eYzZ3CBSsLxCX
+        0xp69XrZEsgHeLx2jVYUOLdcApcJpBQEVzqPGxtoqkUmqLsbKFzCZ/IeAp4iZSQEowK4jQqSqJQd
+        k//e5zEiNsQJCwhheh0DRLuB7BJCIK97yuMwS4agytgcs4SyjCtqcmUhoSahFEyOJsFd7UJTLcgn
+        8KUrEE8Qy1uXgE2kiBlFl6Ki6eFZyXt4jKgN4UFdaazDtJqvFqsNbB9aEvlxQzo8FL3nzTur/aaI
+        tipXnvwYi1ezJ+aLFFWSI1MSEokppdyI1GB60Nx8iMeI2RgbYFl6h3XEwLmqtlM5BPLdlVhza68c
+        ZC0/F+qHxWsuf3r96u8380av1i+///QKPqT44UH8PjYw80+NrOIcMyYHnUhJKWcSNRyTAtnnMaI3
+        RAlzbEJVTn+pZr2D+0NLIW87yqEJJJFnMpWpThLUVOqEUWSxkKCFVTxTu8jVDZ4ipOJGMSZZuyBp
+        Jrk6whXb5zGCNVYN8CbG7lXdplQ3aN3EyL0nPQ4u2sNFbWYAFIPEIpcQay+cOcWMNUZnzOwva5dQ
+        NqdQsJgY0BTbRSGhmTDJEd7GHo8Rs8Hxh8IbD9MbLGDaubJ9xby9QH6OF573Fw4N4ZngKiYtKc+y
+        BGnOQLLMUWcTpSWqffz+2/oS6uYkk1SqDNIkY1H+WCLTB6Y/7ucxYjiEAA1COYUyzKpyPV1U9aB9
+        VwgledZdIJebC4c6u4lKQGcuFdKgY5nVWcadps5CliQc9zF85ecnSLqBdk5T2zmriXQ6NwfDdw+P
+        Eb4hOoDS1ng7hbqOO096F+5ZSyXPRuqhfhzqRGKSp+BoLJTmNkPhUpAWEgTL94F7X8N1LGI8EbqU
+        pmI06bGqnR6seffxGKHLx1LWrCzXUyjwM2yVZN62ZPJsi3yoQ8eiFxfz4ipHY1PjuMsSgUwasJBn
+        ++C9fVpEqkTO0WaYuzw1WU4Zz5Ti5qDs20M8xh0NQ8Qw94upraZZbyb8grys7ixFMzhF4IgWEmat
+        yuOHROl0crj5u4fHKNPg09/4+NZpUS3x141cP7ck8vGMvOuo2wJuSE8VUEs9OjIJzXV2uK26h8co
+        IB+DltrD9BaK+aDpl5FEPvWkw93ve958X7DS8X+ySUqVZczauBeWcq4kOyLjss9jhGrwupczX0x1
+        Xd2WU76B6v3MF+R5JB2xHEjr8kyj5EmmudUgLaMqzaRNU8gx3YbsKma2T7GOqgz0Vmgk42aRw+Ha
+        5zHCJcd11GCxLqdmVvsm+MGAv+3o5MUW/Yhq4/4YtgF77ivyDjT5iKfZo7PjsmiLR7iO+zxG0JKd
+        fRSh0mjm21soPvaUI4Daf+9ulWdVV43x8Shu88TEgZNUca44cs0VjYlxJnV2mJ1+gMcI1eBlLyoo
+        YYqh32tyGX+T7+LvTrRXuIACySXa6WnUAITYyjWiEnh4zfQeHqNs6c5Ss8QCx4ppu9S8H0iHBqnO
+        aGa0dVYCZJkBmliFDDmTjCLfSSZdnhY1I5Mta8CkwcPLf/fwGFHLdkumBZQWVjsF03c96XGo2R41
+        i1orNJJCzq01mdS5ypgSubEpCLm7kwbDHNa+jJazrn31tLV643a5DFKRcmFzDhZdike4bns8RuRG
+        n9cvun1bUyV65Pyi37PVq8W8IlcrTf6Tkfe+qE6QZTQ6S3KpuW5Pyjitj8gy3sNj3Dk6+KYay6gd
+        5XRWYfgFh7LShky+H8iHr7D3jGB3Oo24vV51Z2yfuMpKbZR2ApNuhbRgD6wHP8BjBG5wgEs/9wGm
+        YTXV9RqGDUN/bcnk44o835DvCstPpSRZ3OchEx4NGALkKT88aL6HxyjreApxk26AGdbDYcRNpuHZ
+        hnaEAd5/9/3qwU+iHhubv12vEI4fsyN7j8cI2biNfRYLazWU18NZvkghHzaUQ6vbQtFc5C5BwXjK
+        c+DWcLRGGq6cSdQucAFsFc+fTJ+uaUrkVMeyAWPU5CKlUqq4FevA9fZeHiNsg29cezOfFisDzRAu
+        f4jF+neRNOzOxybUWJxsHrlka5nK81QeseNrn8co3eDEBijXMI2pJqz71OfHSCMvB9rjFAN7xUDJ
+        MoUmZ4kwKsu1BiuzXAib5c7mPNtzaQOaGflP9jTYUPOcMWmFUO0yyTMuqTosvnyAxwjbmDa+gan1
+        MJ+BHhLGN0BejqTDFp8H3vwAVPyJUDGVpDnkzHAq4iFELhLJDtOwB3iMUA3+sW8AzDTgtEZfwhCO
+        v4lk8hHJh0gegmeMihfPHZJXvm4CuYTwtGTuAzP9oMLyQzxGaQe/Np6ZmzqoF1gPhb7vam/Iq5Y2
+        nFCpQTcrH06wYDwwuMPqmQ/wGAXMt8Mdv5wuAix0tRXv+CW53NA2n3Ieg+G6qpZPNJMPDO4gM/kQ
+        j/HozbiZAkqPxbSoVtezfjtFSyLvOtJGvHbHG3lZrXTxu2joQVukH+Ixyjd4iaZe/TpdVL4epuKL
+        evUruaz8oJ1/r1blNekk/D1EOygj8xCPUbTRKSzw88ZUx619mzoeft611R8ra4tYdn+6fN0OhsRu
+        B7zWHXEq7B4eo3yjB2egLjCEqcO6jJWNPs99tblAXm1dOHgPC6eYpFZIm2ZU5jS3inNhE6cxcWrH
+        n+sU5ERHEvd2hR1RH9/nMcI3eHJmVlQ4NVWBY4H8RaTFc9F4SIV8LLIxlwLQxGU0B40opdZK8CxR
+        KdeQ5PugnWqHezTACncMsOQHJrke4DFCN+Y6scbFeurrWz/khlsSebMhHXpWTKUGmdYqpUiVlSLX
+        qLPUWWeMSNHsA3eyPe6GqRQSgbGahKnIBTtc4e7hMaKmxiTXHKeL2JRq3J49R3Jp3rWUjV83tgn4
+        46o0Ndp4EP9PpwgiYCvtnsjMHnHqZp/HKOfg4plfpr9U5ZCpefGWvN38PDR0QM2kMlS49pyITjJJ
+        M6mUYil1KaP3J/HelAHrZY0B6y9A+HLz+4sw9g/2MbrcOXsk9BFpjX0eW7lQbKYGFlhv7eNfYENe
+        DLRD9/EbS+OxS0w4ZZhIY3NjIElBapY4sbuJcyPrPlzv68quDH4ZruXmxv8JcPWgnAIuxZ1OjQak
+        zmYCnANBHRwWij3EYyxTlZs8++Dwva3K4/PsVidacZlZC5kW1qCgOrEJGpkaTuFxUH2qfXgEULft
+        bf8TtOoqgnManITabs8gzDFV430eO+mwX6KabSfD3m4IxxxF3XvV74bLVm43NzI/qELzEI8h9ljE
+        CTVtfDF2CHnW0shVTzsKnbsv/J3QUXY7861SfYSzsM9jXISa2dTVHu1ia3NBMyOvRtrBzVMEk5rb
+        VIIRaDImuZXIc5HnwggJvxNOXG13WKCaH7Grcp/Hbo6+gQLrstrJ0l8NtEOP3yqWKgZG6tQBxM1h
+        ilnnos8KWZbrR+B05Rc+9ol+qEO2pcmWNyzRJnZMigaoH8NDJ9Yplpo87uthacIh7bNLqyb25SLP
+        qyo0Xd/Od9AE8sk3s8dwNpBux9a5TExfUiziaclnFhaP4JNSjgqcFjaOUMUTfWyHz/tYk8L6a/IJ
+        5u28f1XVGCf+F3gjUwwyoREUmDYKU8hkNha1/v3Pf11uWqaFtmlps/w6drUpQ2w45uERL0jAWU51
+        jopSgSIBGptbdIfjC2ga8mO5aQr2m4wSKzRNEq5SK2MpkuaayR7NN6XDwsdeC0uo46qHi2XXD/HL
+        PHU86swzSoV1OYrYhWmTmkK05M2bN19go2hmOKROiCx3GA9k5JKj6If20oOuCj8n//7nv8hrX84r
+        AkXRt9MIYEz1H196AxMmhYSlKp4YoFI4wzCz6Z03fL1h/yxynTdfYsqVSiC14EAZhyJLHab5kLv6
+        5MvS47//+a8wi/++r6rZ1+R5UVVda7vvqxLX7RvapvDdM/d2i79zz7vYlDH2D1yQ72LsFI/3t70k
+        4n1d/8G+lX8sNHdjia2b7usK36xqBwabTb++trHfps972/59t4t73+iw12ZfbxrwDd3bLTpYFfeM
+        hSd0O4pue659dben/PYr8POyqOquyd5iHVsexyb1JDrDzXa/PfII2cIM1508LoIXGwp657xZFbEF
+        fr3frv6xUiUDwlcYyKIbb5ztxKIBiwRctFFtx/7Ycrbpux26tj7ifLH4isS21+V+V8iuY+Om+/8f
+        I2oDXl9tATb3tvlT1woy1G0+Ow4hEFcVRXXbNl5cdJcLLK/DrOnQuK6i1PN40BDBzEgVVz/SgMPu
+        Zg0hxBPi7c0darHtYYA1gfg/FQxDICFuPLe+vxdLu6rxEIV4U5I//GNVhT8/1Nz5q+7ydiPL+PLY
+        bnIDTwk3/jr22Fpi7YuoJ22D/Sa2smxH1SDOSY1udY1j88jKIJTekDEZYQooz8grMG07y7bXZadO
+        XWPIvp1lvHqnJeWOlq1iO8b7/xOErq1lN2ofFaUJq7KMDOEfq+gDdB0lB/zMqglVa+HO2/+V49tv
+        znf/t5Bv/x/zE5ARU2QAAA==
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - BYPASS
+      CF-RAY:
+      - 8c035b1d9a797fe1-IAD
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 09 Sep 2024 01:20:27 GMT
+      ETag:
+      - W/"6453-xhZpTKa54OE2Hy6T7en2Np8zdrw"
+      Origin-Agent-Cluster:
+      - ?1
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Plex-Container-Start:
+      - '0'
+      X-Plex-Container-Total-Size:
+      - '1'
+      X-Plex-Timestamp:
+      - '1725844827'
+      X-Plex-Version:
+      - 1f408f258867ac3b5038210fc4360453a7f61825
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Cookie:
+      - _my-plex_session_32=b0VxbGtZTUxMOEdmZEJlWTRpajlQallwMGlac0JYdlFCMU9KRTVkV2x1Uy9WRzlaVWRKb25ldU9Ea0UxQXBZV2pjV0RncWIwcHN6WlNVbnhsN2JiRHc9PS0tcW5oY3A4Mm11UEwxQ1o1RFE4Qmpvdz09--7e969f24ddd2e40d8d98cd06eba1731f2f74a1cb
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: GET
+    uri: https://metadata.provider.plex.tv/library/metadata/5d776ca79ab544002151945c?includeBandwidths=1&includeChapters=1&includeGeolocation=1&includeLoudnessRamps=1&includeMarkers=1&includeUserState=1
+  response:
+    body:
+      string: !!binary |
+        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
+        366atioCcuddnfwfvj/fr9//w/8C9T6yduVfAAA=
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - BYPASS
+      CF-RAY:
+      - 8c035b1e6b537fe1-IAD
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 09 Sep 2024 01:20:28 GMT
+      ETag:
+      - W/"5fe5-KUngPY/wFBiq1ZB+cJfnbo3pdcQ"
+      Origin-Agent-Cluster:
+      - ?1
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Plex-Container-Start:
+      - '0'
+      X-Plex-Container-Total-Size:
+      - '1'
+      X-Plex-Timestamp:
+      - '1725844828'
+      X-Plex-Version:
+      - 1f408f258867ac3b5038210fc4360453a7f61825
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Cookie:
+      - _my-plex_session_32=b0VxbGtZTUxMOEdmZEJlWTRpajlQallwMGlac0JYdlFCMU9KRTVkV2x1Uy9WRzlaVWRKb25ldU9Ea0UxQXBZV2pjV0RncWIwcHN6WlNVbnhsN2JiRHc9PS0tcW5oY3A4Mm11UEwxQ1o1RFE4Qmpvdz09--7e969f24ddd2e40d8d98cd06eba1731f2f74a1cb
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: GET
+    uri: https://metadata.provider.plex.tv/library/metadata/621656cb3f91a0bf1bbdb41e?includeBandwidths=1&includeChapters=1&includeGeolocation=1&includeLoudnessRamps=1&includeMarkers=1&includeUserState=1
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - BYPASS
+      CF-RAY:
+      - 8c035b1f5c637fe1-IAD
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 09 Sep 2024 01:20:28 GMT
+      ETag:
+      - W/"2628-tBelUq5MgyNXcbJSgEIPUWlxDxs"
+      Origin-Agent-Cluster:
+      - ?1
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Plex-Container-Start:
+      - '0'
+      X-Plex-Container-Total-Size:
+      - '1'
+      X-Plex-Timestamp:
+      - '1725844828'
+      X-Plex-Version:
+      - 1f408f258867ac3b5038210fc4360453a7f61825
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Cookie:
+      - _my-plex_session_32=b0VxbGtZTUxMOEdmZEJlWTRpajlQallwMGlac0JYdlFCMU9KRTVkV2x1Uy9WRzlaVWRKb25ldU9Ea0UxQXBZV2pjV0RncWIwcHN6WlNVbnhsN2JiRHc9PS0tcW5oY3A4Mm11UEwxQ1o1RFE4Qmpvdz09--7e969f24ddd2e40d8d98cd06eba1731f2f74a1cb
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: GET
+    uri: https://metadata.provider.plex.tv/library/metadata/5d776ca79ab544002151945c/userState
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA1XOSwrCMBAA0KuEOUBtJLEKTUVcirgQDzA2Ux1ok5KM8XN6F65cvt1rt69pVIVS
+        5hgc6KqGbdceyTPuYxDkQEmxpyA8MCUHUqp5pFc1p1jYU6omEvQoCCrzhxxo6NpLpnQWFFJPlP4+
+        chbyO3Ggm6VdG7PWFlRheu7jI4iD+qfTMGT6MaFwuB3o7cD6pln12Gzwao2p66W2emNsD0reMzmY
+        YmGCRdcu/tvdF4zwuuXcAAAA
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - BYPASS
+      CF-RAY:
+      - 8c035b1fecf77fe1-IAD
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 09 Sep 2024 01:20:28 GMT
+      ETag:
+      - W/"dc-jaDZtnkVXl2npMlz6NeI/eOQM28"
+      Origin-Agent-Cluster:
+      - ?1
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Plex-Container-Start:
+      - '0'
+      X-Plex-Container-Total-Size:
+      - '1'
+      X-Plex-Timestamp:
+      - '1725844828'
+      X-Plex-Version:
+      - 1f408f258867ac3b5038210fc4360453a7f61825
+      X-XSS-Protection:
+      - 1; mode=block
+      x-plex-cache:
+      - miss
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Cookie:
+      - _my-plex_session_32=b0VxbGtZTUxMOEdmZEJlWTRpajlQallwMGlac0JYdlFCMU9KRTVkV2x1Uy9WRzlaVWRKb25ldU9Ea0UxQXBZV2pjV0RncWIwcHN6WlNVbnhsN2JiRHc9PS0tcW5oY3A4Mm11UEwxQ1o1RFE4Qmpvdz09--7e969f24ddd2e40d8d98cd06eba1731f2f74a1cb
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: PUT
+    uri: https://metadata.provider.plex.tv/actions/removeFromWatchlist?ratingKey=5d776ca79ab544002151945c
+  response:
+    body:
+      string: <?xml version="1.0"?><MediaContainer size="0"/>
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 8c035b211e337fe1-IAD
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '47'
+      Content-Type:
+      - application/xml; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 09 Sep 2024 01:20:28 GMT
+      ETag:
+      - W/"2f-YbDylU+ETaVctM/AYzE3u53kgZE"
+      Origin-Agent-Cluster:
+      - ?1
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Plex-Timestamp:
+      - '1725844828'
+      X-Plex-Version:
+      - 1f408f258867ac3b5038210fc4360453a7f61825
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Cookie:
+      - _my-plex_session_32=b0VxbGtZTUxMOEdmZEJlWTRpajlQallwMGlac0JYdlFCMU9KRTVkV2x1Uy9WRzlaVWRKb25ldU9Ea0UxQXBZV2pjV0RncWIwcHN6WlNVbnhsN2JiRHc9PS0tcW5oY3A4Mm11UEwxQ1o1RFE4Qmpvdz09--7e969f24ddd2e40d8d98cd06eba1731f2f74a1cb
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: GET
+    uri: https://metadata.provider.plex.tv/library/metadata/5d7768ba96b655001fdc0408/userState
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA1XOTWrDMBAG0KuIOYAjB/8VLIeSZQldlB5gEn1uBmzJSBMl6em7aDddvt0bD491
+        MQUpSwyO6srSYRpP8MLHGJQlIBnxCCqzIDnSUm0LHtWWYhGPVK1Q9qxMJss3HNU0jZ8Z6UNZYe6s
+        l+siWeFf1VHd79uhaYa9JVME92O8BXX0p/d5zvhlYpXw9Yano9b3fTec+aU7d21rbT37i23sQEaf
+        GxytsQhoN427/+3pB2NUet7cAAAA
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - BYPASS
+      CF-RAY:
+      - 8c035b219eac7fe1-IAD
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 09 Sep 2024 01:20:28 GMT
+      ETag:
+      - W/"dc-+Hth7PEPRbQeVH2/ZpCDQpTmb2s"
+      Origin-Agent-Cluster:
+      - ?1
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Plex-Container-Start:
+      - '0'
+      X-Plex-Container-Total-Size:
+      - '1'
+      X-Plex-Timestamp:
+      - '1725844828'
+      X-Plex-Version:
+      - 1f408f258867ac3b5038210fc4360453a7f61825
+      X-XSS-Protection:
+      - 1; mode=block
+      x-plex-cache:
+      - miss
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Cookie:
+      - _my-plex_session_32=b0VxbGtZTUxMOEdmZEJlWTRpajlQallwMGlac0JYdlFCMU9KRTVkV2x1Uy9WRzlaVWRKb25ldU9Ea0UxQXBZV2pjV0RncWIwcHN6WlNVbnhsN2JiRHc9PS0tcW5oY3A4Mm11UEwxQ1o1RFE4Qmpvdz09--7e969f24ddd2e40d8d98cd06eba1731f2f74a1cb
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: PUT
+    uri: https://metadata.provider.plex.tv/actions/removeFromWatchlist?ratingKey=5d7768ba96b655001fdc0408
+  response:
+    body:
+      string: <?xml version="1.0"?><MediaContainer size="0"/>
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 8c035b21ff057fe1-IAD
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '47'
+      Content-Type:
+      - application/xml; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 09 Sep 2024 01:20:28 GMT
+      ETag:
+      - W/"2f-YbDylU+ETaVctM/AYzE3u53kgZE"
+      Origin-Agent-Cluster:
+      - ?1
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Plex-Timestamp:
+      - '1725844828'
+      X-Plex-Version:
+      - 1f408f258867ac3b5038210fc4360453a7f61825
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: login=flexget_flexget&password=flexget_flexget&rememberMe=True
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '62'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Version:
+      - 4.15.16
+    method: POST
+    uri: https://plex.tv/api/v2/users/signin
+  response:
+    body:
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<user id=\"187797645\"
+        uuid=\"d0df38378404ccb3\" username=\"flexget_flexget\" title=\"flexget_flexget\"
+        email=\"polka_gill0i@icloud.com\" friendlyName=\"\" locale=\"\" confirmed=\"0\"
+        joinedAt=\"1670500095\" emailOnlyAuth=\"0\" hasPassword=\"1\" protected=\"0\"
+        thumb=\"https://plex.tv/users/d0df38378404ccb3/avatar?c=1725844828\" authToken=\"KxvLMr_sVisr5AsAXBU7\"
+        mailingListStatus=\"unsubscribed\" mailingListActive=\"0\" scrobbleTypes=\"\"
+        country=\"US\" subscriptionDescription=\"\" restricted=\"0\" anonymous=\"0\"
+        home=\"0\" guest=\"0\" homeSize=\"1\" homeAdmin=\"0\" maxHomeSize=\"15\" rememberExpiresAt=\"1727054428\"
+        adsConsent=\"\" adsConsentSetAt=\"\" adsConsentReminderAt=\"\" experimentalFeatures=\"0\"
+        twoFactorEnabled=\"0\" backupCodesCreated=\"0\" attributionPartner=\"\">\n
+        \ <subscription active=\"0\" subscribedAt=\"\" status=\"Inactive\" paymentService=\"\"
+        plan=\"\">\n    <features>\n      <feature id=\"guided-upgrade\"/>\n      <feature
+        id=\"increase-password-complexity\"/>\n      <feature id=\"upgrade-3ds2\"/>\n
+        \     <feature id=\"ad-countdown-timer\"/>\n      <feature id=\"adaptive_bitrate\"/>\n
+        \     <feature id=\"amazon-loop-debug\"/>\n      <feature id=\"Android - Dolby
+        Vision\"/>\n      <feature id=\"Android - PiP\"/>\n      <feature id=\"avod-ad-analysis\"/>\n
+        \     <feature id=\"avod-new-media\"/>\n      <feature id=\"blacklist_get_signin\"/>\n
+        \     <feature id=\"CU Sunset\"/>\n      <feature id=\"client-radio-stations\"/>\n
+        \     <feature id=\"cloudflare-turnstile-required\"/>\n      <feature id=\"comments_and_replies_push_notifications\"/>\n
+        \     <feature id=\"friend_request_push_notifications\"/>\n      <feature
+        id=\"community_access_plex_tv\"/>\n      <feature id=\"companions_sonos\"/>\n
+        \     <feature id=\"custom-home-removal\"/>\n      <feature id=\"disable_home_user_friendships\"/>\n
+        \     <feature id=\"disable_sharing_friendships\"/>\n      <feature id=\"drm_support\"/>\n
+        \     <feature id=\"le_isrg_root_x1\"/>\n      <feature id=\"federated-auth\"/>\n
+        \     <feature id=\"home\"/>\n      <feature id=\"HRK_enable_EUR\"/>\n      <feature
+        id=\"ios14-privacy-banner\"/>\n      <feature id=\"iterable-notification-tokens\"/>\n
+        \     <feature id=\"keep-payment-method\"/>\n      <feature id=\"kevin-bacon\"/>\n
+        \     <feature id=\"korea-consent\"/>\n      <feature id=\"lets_encrypt\"/>\n
+        \     <feature id=\"lightning-dvr-pivot\"/>\n      <feature id=\"livetv\"/>\n
+        \     <feature id=\"live-tv-support-incomplete-segments\"/>\n      <feature
+        id=\"tuner-sharing\"/>\n      <feature id=\"metadata_search\"/>\n      <feature
+        id=\"vod_cloudflare\"/>\n      <feature id=\"new_plex_pass_prices\"/>\n      <feature
+        id=\"news-provider-sunset-modal\"/>\n      <feature id=\"photos-favorites\"/>\n
+        \     <feature id=\"photos-metadata-edition\"/>\n      <feature id=\"pms_health\"/>\n
+        \     <feature id=\"rate-limit-client-token\"/>\n      <feature id=\"shared_server_notification\"/>\n
+        \     <feature id=\"shared_source_notification\"/>\n      <feature id=\"scrobbling-service-plex-tv\"/>\n
+        \     <feature id=\"collections\"/>\n      <feature id=\"radio\"/>\n      <feature
+        id=\"exclude restrictions\"/>\n      <feature id=\"signin_with_apple\"/>\n
+        \     <feature id=\"spring_serve_ad_provider\"/>\n      <feature id=\"transcoder_cache\"/>\n
+        \     <feature id=\"TREBLE-show-features\"/>\n      <feature id=\"two-factor-authentication\"/>\n
+        \     <feature id=\"unsupportedtuners\"/>\n      <feature id=\"vod-schema\"/>\n
+        \     <feature id=\"watch-together-invite\"/>\n      <feature id=\"web_server_dashboard\"/>\n
+        \   </features>\n  </subscription>\n  <profile autoSelectAudio=\"1\" defaultAudioLanguage=\"\"
+        defaultSubtitleLanguage=\"\" autoSelectSubtitle=\"1\" defaultSubtitleAccessibility=\"0\"
+        defaultSubtitleForced=\"0\" watchedIndicator=\"1\" mediaReviewsVisibility=\"0\"/>\n
+        \ <entitlements>\n  </entitlements>\n  <subscriptions>\n  </subscriptions>\n
+        \ <pastSubscriptions>\n  </pastSubscriptions>\n  <trials>\n  </trials>\n  <services>\n
+        \   <service identifier=\"epg\" endpoint=\"https://epg.provider.plex.tv\"
+        token=\"RkHIzgbqTjP2giDabsWdbBB9o4YNyhS6CqbTgwfKAOc=\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"epg-staging\" endpoint=\"https://epg-staging.provider.plex.tv\"
+        token=\"RkHIzgbqTjP2giDabsWdbBB9o4YNyhS6CqbTgwfKAOc=\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"epg-dev\" endpoint=\"https://epg-dev.provider.plex.tv\"
+        token=\"RkHIzgbqTjP2giDabsWdbBB9o4YNyhS6CqbTgwfKAOc=\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"eyeq\" endpoint=\"https://c4412416.ipg.web.cddbp.net/webapi/xml/1.0/\"
+        token=\"6iUU7VrBzA/Hz5nsS9o65Yz77qvh63pYmUN+TaVHeonhsQWlzYGcsik1opEU3toj\"
+        secret=\"\" status=\"online\"/>\n    <service identifier=\"eyeq-channel-icons\"
+        endpoint=\"http://akamai-b.cdn.cddbp.net/cds/2.0/image\" token=\"\" secret=\"\"
+        status=\"online\"/>\n    <service identifier=\"graph-dev\" endpoint=\"https://community-dev.plex.tv\"
+        token=\"\" secret=\"\" status=\"online\"/>\n    <service identifier=\"graph-staging\"
+        endpoint=\"https://community-staging.plex.tv\" token=\"\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"community-dev\" endpoint=\"https://community-dev.plex.tv\"
+        token=\"\" secret=\"\" status=\"online\"/>\n    <service identifier=\"community-staging\"
+        endpoint=\"https://community-staging.plex.tv\" token=\"\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"community\" endpoint=\"https://community.plex.tv\"
+        token=\"\" secret=\"\" status=\"online\"/>\n    <service identifier=\"metadata\"
+        endpoint=\"https://metadata.provider.plex.tv\" token=\"1vme2aaK6G8fZFtFyKeSmInEvdjpjsHEto45VgX1K0c=\"
+        secret=\"\" status=\"online\"/>\n    <service identifier=\"metadata-dev\"
+        endpoint=\"https://metadata-dev.provider.plex.tv\" token=\"1vme2aaK6G8fZFtFyKeSmInEvdjpjsHEto45VgX1K0c=\"
+        secret=\"\" status=\"online\"/>\n    <service identifier=\"metadata-provider\"
+        endpoint=\"https://mpm.plex.tv/\" token=\"\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"tmsapi\" endpoint=\"https://tmsapi.plex.tv/v1.1/\"
+        token=\"a0VC3zjGN7FmzvlZKIuRRUjLCRoQkgY2jwJsLgi8+OQ=\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"subtitles-search\" endpoint=\"https://metadata.provider.plex.tv/library/streams/matches\"
+        token=\"1vme2aaK6G8fZFtFyKeSmInEvdjpjsHEto45VgX1K0c=\" secret=\"\" status=\"online\"/>\n
+        \   <service identifier=\"acoustid\" endpoint=\"https://acoustid.plex.tv/\"
+        token=\"XxQtK3u05uaxTaZ6Y6jcrw==\" secret=\"\" status=\"online\"/>\n    <service
+        identifier=\"lyricfind\" endpoint=\"https://lyricfind.plex.tv/\" token=\"X46ofmSoyOTWjBU4oEx0Rb0ATQjYW31IgFeXw3+/n5hMfGoF7PLEMPrLT9v/zqV1\"
+        secret=\"H8q1AfgeOcf8+wx2ODos1mLBkmsSE4PMCJkkdx27xNwpzzKVV3up6gZJb+teyIOw\"
+        status=\"online\"/>\n    <service identifier=\"lyricfind-search\" endpoint=\"https://lyricfind.plex.tv/\"
+        token=\"4HRR+YgScsy+71q8J31KgROAuPkWvsus8XQuVFjYUiTjw5f+LesQ8MAgEcjnuYxW\"
+        secret=\"\" status=\"online\"/>\n    <service identifier=\"tvdb\" endpoint=\"https://api4.thetvdb.com/\"
+        token=\"CFlmhH676IvrFij0l4BR1YNRtyHjz+9EAH+GU5ZgncfJ3ufdmzWK/3giK1Ovei7u\"
+        secret=\"\" status=\"online\"/>\n  </services>\n</user>\n"
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/xml
+      Date:
+      - Mon, 09 Sep 2024 01:20:29 GMT
+      ETag:
+      - W/"281de1e93a9ab881006dcd476dfe0d17"
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Set-Cookie:
+      - _my-plex_session_32=RUZqWFE5dldDMWIraHNjaGt0M3oyMThtejdBaHBpOEdneEZQa2M5VjVLMjdaelNkQStpS0p4WlMvZG9qOXhVY3hhQ3gyWU1VOGFvM0xzeFNtWVZCdmc9PS0tSDBEMlhobXpib2Z2OXRIakxNZ1cyZz09--2638e34e93ce571bc7b7d2f83bbd8e8b81e19f0a;
+        path=/; HttpOnly; secure
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 66474964995a3570f3aa36684f76f31b
+      X-Runtime:
+      - '0.154272'
+      X-XSS-Protection:
+      - 1; mode=block
+      vary:
+      - Origin
+    status:
+      code: 201
+      message: Created
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Cookie:
+      - _my-plex_session_32=RUZqWFE5dldDMWIraHNjaGt0M3oyMThtejdBaHBpOEdneEZQa2M5VjVLMjdaelNkQStpS0p4WlMvZG9qOXhVY3hhQ3gyWU1VOGFvM0xzeFNtWVZCdmc9PS0tSDBEMlhobXpib2Z2OXRIakxNZ1cyZz09--2638e34e93ce571bc7b7d2f83bbd8e8b81e19f0a
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Container-Size:
+      - '100'
+      X-Plex-Container-Start:
+      - '0'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: GET
+    uri: https://metadata.provider.plex.tv/library/sections/watchlist/all?includeCollections=1&includeExternalMedia=1
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA8VVXW/bOBD8K8S+R9SXZbuwXLhxgxpJL03cawu/keJKZkOROmqlxP31B0Vxcg1Q
+        JAUK3KN2uTuzs0Nq8fauNqxH32pnc4iCEN4uFx9RaXHqLAlt0TOjpRf+sMWCtLObdQ63goq90S3B
+        s+RnTQZz+PqUd2XZIuUQAiNHwmz1D8whAqYVWtKlRp8D9UFj8C5ovOu1Qh/USEIJEsDah/PLxVp7
+        LMj5AxOectgTNe0bznUtKgyoVjJwvuLEG+68rrQVhveXyWa6a7ZXm923L3hd4t2d7G/+ufq+ex98
+        bypgUlg7EDg2E55unb9pA9oj9UoGhav5eKjlfcpb9BpbnoZhlIWPiSwWcZZM00LN52psXHVa5TAM
+        9Ybzdu9ueRZH2SQrZFLOIxHKMpJSyTRCYDd4yIE/CMmPo/+ygBd7bZRHC8wL0rY6H+p/3b6lTmmX
+        w4d3l+xiKGCrGr0uBDA6NJjDQA8Y7btavk7W8+n26sfMrL/1l/Kvs1km12dmrw/dxW4cXiiFakU5
+        RFk6nSZpGobAVDewHVwWx7MwHEJNJ40uPokK27+vL56w7+01OoL6UT1Rt4ReiRpYa7oqh/8Euhb9
+        lgTh6LLRgqunvEFRnrrODoRCYPfyHb+BFc4SWrq+lzKHz19OPq6AHWc1h1UvtBHS4DBQHMbxSZic
+        xCGwAwo/RoCJTmm0BR67ZM9Dm0HOHLyjAczVghw+yTzuMegar6s9AdO1kmPdA89klsFycd+ECUM/
+        jTcuUYripvKuswpY582fuR/8JczB/8/w/tQVegG7MCj8havcM/jj9TlpSZAuHl2EPJslIkrjySTh
+        qCIsVVzMEhFn81kq51Exk+VkHk2klKUKGvt6Al+1wv+NhOvRrzz9zs7XH95Nyvgs7qP3Vbk7vT1s
+        7fl8fbXZTV+l+4D4yQ3R3wB94cXgywV/fN6XC/7zD2j5L1HGwWCmBgAA
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - BYPASS
+      CF-RAY:
+      - 8c035b261b0a3b59-IAD
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 09 Sep 2024 01:20:29 GMT
+      ETag:
+      - W/"6a6-DEasmTDwYHve+fyBUoYjNqtioPI"
+      Origin-Agent-Cluster:
+      - ?1
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Plex-Container-Start:
+      - '0'
+      X-Plex-Container-Total-Size:
+      - '1'
+      X-Plex-Timestamp:
+      - '1725844829'
+      X-Plex-Version:
+      - 1f408f258867ac3b5038210fc4360453a7f61825
+      X-XSS-Protection:
+      - 1; mode=block
+      x-plex-cache:
+      - miss
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Cookie:
+      - _my-plex_session_32=RUZqWFE5dldDMWIraHNjaGt0M3oyMThtejdBaHBpOEdneEZQa2M5VjVLMjdaelNkQStpS0p4WlMvZG9qOXhVY3hhQ3gyWU1VOGFvM0xzeFNtWVZCdmc9PS0tSDBEMlhobXpib2Z2OXRIakxNZ1cyZz09--2638e34e93ce571bc7b7d2f83bbd8e8b81e19f0a
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: GET
+    uri: https://metadata.provider.plex.tv/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3WTTWvDMAyG/0rQfXHL2A4jTtmll1HYYLCz6qitqRNnshKafz+S5qNJu5stPe9r
+        ScjJ5pK7qCYO1hca1vEKNmmyo8ziJ/vaZsSRNW3qJFKGN6XKPvwUBMWauHR0iaVWLRVUToIZCj69
+        vK7iUB8hshkVYg+WWIPUV3zwiAccopK9eONd0BCECXOIxIojDbuRuSnzOV5BmmwJpWKKpClJw2R2
+        pkaDcnbPyM1YE6ilAo1YXwRIk/fuFNlMA2bZt/9BMSdngwxmPaqWWaa2KvqYQUy5r2nLPp9INXuE
+        UWhp3cXmWDDs93t3h07xh+9XxQioNFF908vujXeOOsVyYlMm3A/NeYMz0XC/I3PkM3EYwOF6w5XV
+        3lmjYQ29xOZ4JGEsgvEZcS8ddq/LhnHlypMXf2t3cFh71lAVtp0KusG2dNj8VlTRwrCNT9s4+jps
+        vlo6POpJzOm/DVNd9ipTs0+U/gE0/VlYaQMAAA==
+    headers:
+      Age:
+      - '64613'
+      CF-Cache-Status:
+      - HIT
+      CF-RAY:
+      - 8c035b268b8b3b59-IAD
+      Cache-Control:
+      - max-age=0,stale-while-revalidate=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Date:
+      - Mon, 09 Sep 2024 01:20:29 GMT
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-origin:
+      - '*'
+      cdn-cache-control:
+      - max-age=86400
+      cross-origin-resource-policy:
+      - cross-origin
+      etag:
+      - W/"369-LgDHfSaMCTDKhJR5CV+d/zVbjf4"
+      origin-agent-cluster:
+      - ?1
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      vary:
+      - Accept, Accept-Encoding, X-Plex-Language, X-Plex-Provider-Version
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-plex-timestamp:
+      - '1717565583'
+      x-plex-version:
+      - 1f85bbd7cf44888ff6d1bdc83632e25e969314d7
+      x-xss-protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Connection:
+      - keep-alive
+      Cookie:
+      - _my-plex_session_32=RUZqWFE5dldDMWIraHNjaGt0M3oyMThtejdBaHBpOEdneEZQa2M5VjVLMjdaelNkQStpS0p4WlMvZG9qOXhVY3hhQ3gyWU1VOGFvM0xzeFNtWVZCdmc9PS0tSDBEMlhobXpib2Z2OXRIakxNZ1cyZz09--2638e34e93ce571bc7b7d2f83bbd8e8b81e19f0a
+      User-Agent:
+      - python-requests/2.32.3
+      X-Plex-Client-Identifier:
+      - '0xe04cb4ea03'
+      X-Plex-Device:
+      - Windows
+      X-Plex-Device-Name:
+      - Champ
+      X-Plex-Features:
+      - external-media
+      X-Plex-Language:
+      - en
+      X-Plex-Platform:
+      - Windows
+      X-Plex-Platform-Version:
+      - '10'
+      X-Plex-Product:
+      - PlexAPI
+      X-Plex-Provides:
+      - controller
+      X-Plex-Sync-Version:
+      - '2'
+      X-Plex-Token:
+      - KxvLMr_sVisr5AsAXBU7
+      X-Plex-Version:
+      - 4.15.16
+    method: GET
+    uri: https://metadata.provider.plex.tv/library/metadata/621656cb3f91a0bf1bbdb41e?includeBandwidths=1&includeChapters=1&includeGeolocation=1&includeLoudnessRamps=1&includeMarkers=1&includeUserState=1
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+VazZIbtxF+FdQcXEmVSWJ+MD+yKNfuUpZk7cqSVpZcuqQaQA+J7HBAYzBccU+u
+        HFI5OrcccvExB1c55Vuu+wLyK/hJUpjhkLvapZaU1snBN04D+IDvQ6O7OZi7n7+ZFmSOplK6HHp+
+        n3qf37t7hFLBgS4tqBINKRQ3YBbHKKzS5aPR0JvoKXrv2F8oW+DQO0ILEix4ROd5hXboUY9YbaE4
+        Vmc49HyPKImlVblCM/TsvD8r8E1/ZvRcSTT96Wp8tex/7+5IGRRWmwUBY4fexNpZdWcwUFMYY99O
+        Je9rMx7YwWygjRqrEorB/KvwUfJ6dvzs0etvXuLzHN+84fOTb5/9+fX9/p9nY49wKEu3gA4MjD3V
+        5qTq2wnaueR9oaeDtlM1mEeDCo3CahBR6sd01RAHEMRhEgmZZbIFHtdKDj1H6s5gUE306SAO/JjF
+        god55gPluc+55JGPHjnBxdAbLHUcdNQ3DhiIiSqkwdIjBqwqx4/d+M3wla2l0kPv4f5X5NANIHtT
+        NEo4cevpFMxi6D0BqYBAKckRGHv+Y0kKNUeiSmInSCaqstqNKMgn39bafnagS4kVtA+u1xG+UUKT
+        A2UXfbKv7YSAQbdPqrJVg1tNnMVOUBniHIecKteLVNbAgkg9/pTsTSuLRsK0T/YRaqvyumiRoSSV
+        wBLd3peSzLRxo6AgOieFypuF6hLdo1uvUHbxCcx09VlFprqyZKZndQGmGdwuSgm3Qqj6HrGLGQ49
+        t0cesZN6yrfzrcfJ8bOztBh9M/+KP/kijfnoi2KiFvXh69YDQEqUe3bo+XGUJGEUUeoRWbstc4cs
+        CFJKnWlW80KJpzDG6uvnh+u5T8GKSXss7Lx1IegE8khV1OOhd8HQdC9UZZeTJgFLoyj1mUfmCk9R
+        HiLkB7oul2exPad7a4Bi3e5TjzRO1j17ROjSYmmfNw439F687B3teaQTo1jszUEVwAt0kwc0CHo0
+        7AXUIwsE01o8ArVUWArsUOJ3TY+c3kPPaOsm01OwGtf70Hp7v54ZNZ5Yj6ip5O245TrDNPbu3W1A
+        CBT2Er12lzmIk7HRdSk9UpvidqLI4KY5XZR4Z77bCjQ3zC0KBHOox/qd6bsg06ssWCVWboaDOA3B
+        jwLGwgFKH3MZiDSEIM7SiGe+SHnOMp9xznPZn5XbL+CVkvh/W4Seo9kzdpc9Hz3cZ3nwRTD374/z
+        1weni+PycTZ69uh1spXubsan2ll3mPSGkDK4d/cBlgZJrgrrstbYPQ2ZzASNYpFQhglQ6mMsUpmB
+        S7FDb3Pr5bRTtfm7GrjgPICi+Pwm9AvJp+n6p81d22glDUzBIxbGQ2/U/pZdTl8HmTd26FkY9xvM
+        HTln7+WcfSTnbHvOWcdZ6CnKxZL0wfLhllnz97LmH8mab8+ad6yNnkIpcEn7efe0Fe9ayYaOi+53
+        BgNr/TT1oyCKLrXattVnaRjGl1vmTUsbOV1LmyKIanPLEvZiRukObZeLPDKHosahl/T9qwBbJqcN
+        kPFVQDvBqZ4r3H5dUT9wME3WM4tW5LYCa9B1gTduObh9GMZhQLMgSAUEyGI/zvNIIOP5JzCdfdZM
+        nmXNb2jTuyqUXbxw9twgtm63CcNVB9L5rt95RYUcKqug7PFaWaPLXrD0kOO25fyHkuy7pvOfXXGr
+        m38SbT36jvPsRpPJJIkzgCCUDEJK/TzKQeRiF5qbMFY0g45mCY7iWJdnUOBZr9Rmrly90TB94hrJ
+        A12enf9Q4Bl5smq9XHluyo10MEM9K3BA45zlUcxoKCEEGQa5n6exQJbTWNKAtkVoq2FT3X+8goAy
+        ARZi5g584ocCs50VvAZjpWDYKTgFo6CHc12opWxHYM5/BHJ/adpOK95pxbNQpilNwjDxUy6jUAZJ
+        wiiHJApdYX5Rq0OozW1oFcU5p5Ix5yksokmw06HahLHSKlolVSgBewYXJdSdk42cjTxf2baTaynW
+        pqkvivRS6QLtbcgkQ+ZLGTt3yDFIZbT7obwGYyUTu+BSAgvdq2qutLV67VfOTI7X5g8Q6+oCLnnU
+        +c8zPLsNl5Lr4MNogPgBWl3FWGkVX43TMK6VMXg1Su+tGraTS3SCiRApYyhEiFxSn9FIZjQMIEmy
+        SPpwycv2yivF0gfIlvKMZREPeFOmZCFmu5/EazBWsiUXXMxOoCeMasSDtYvZCZCDzkyO0Kjywzzt
+        mnVcPpZmrMqPDfUYhBgzASmDPKA0ohlGcbibr23AWImWdqLNFBqDvULXqlqVA08bIzl0xp112jD1
+        ZceyulT6FmoKEWQxj9swKWUai9196xqMlUyrvxFv1BRLWBcVxsWrpVrfNG3k+dK0a25ECX6U0jDD
+        MOc8FCmlWUQpRhGwnF+OZLq4hZjP0yRKpIzREY6RRpTvLNo1GOt6k3aqcRzrEnolmDm4CNzItY9j
+        ff5vIE/AzM9/aMzbSQadZJBJLmUuYk4lUpZESRLECEEu4yCjWXhRsqdgPzKG5SmTEcuTgGYsozTy
+        BWMZ93eSbAPGWjJ/fR6hdwq20mUvXJ1GIK8aU0fqAMwtHB4AeWEPpVvh7vnsKsaa1Koin+gz7E2x
+        wFKu3OChPkNyhMX5v5bG7Zwg65wgS2WasFzQgEkRgk8po2kchTGKUMgwu+gEBxM05TVu0N1o3Kha
+        N7DLaDwM86CJGJi6gBd8QEa7gtGpNa4rC3Pds2BwXSk9aK3kxcq6nWB5J1jOeBghj1KIIpbnLMuz
+        gAOkQRpkkMXJRcE6Ya5K9tRoWQu8WbLZsuMmycJbkCxc/+WzIFzuRzNXq396jY0ctLaW2P03KGrr
+        rlY6IrdFMaExiJxzFrujwNM0y3ameB1GR7FwCXqGBs66wuawVhV5urT81vTinMbrNIkJF8HuO3gN
+        xqrmhVKqUvcqMDBXHcXj1kqOO+v/fhdT/PhdTHEV3qEuetLAWK+LLagLMnKm35ge+nFEfQxkJNOI
+        0hCjDFIZ7VZXXo+xCl3AjcICeganyuBZT2IPK4ulPlvxfbDsQ563fYhEcr/ts4sAr4yyW9A/bbr9
+        XuJ2K8pVsZ5gc9u1zLxX7qEH9+4eI1S6dIxXr3f3lGlegla6NgJb25LUnjIoV5eYLyZIjtwbVDIC
+        CxwqJH9oevzxOuT5NcjzzcgvXo72b4AbzeW1WKOXo6tIo5ejjcvilS5qi9cvbNV4ZW3LlhZWTZW7
+        6b76/QHLQ4hoziCVnMeURgGEiUxoFwb0CU51SR6gJb/+46/kxcsb4NwVQJqJUIR5mrhIE7IQ3KuX
+        drlkVIuT7hL+UOX4frjYZ7nvC0yDPIJYBEmYJhD4Hfv9x0fkqLY5nJBjC6X89bvvv57dgMiYH2WC
+        hTlSDFmcQBj6HFmXnrWxriwjh+59fXUDVpwwRlnqB3Eokec+RAETebrEevvPtz/98pdfvvvl77/8
+        7e1/3v60jXKBj0Ec8UY5EQohOuX29UlNSk3UiTI1mSoxUdvhJZyJAJs3A4wF2OF9CeJE4afkvp1g
+        8Sn5UkN5h7gj80pPsXSfTBzAFAttb5CAxogZ52HGJIsoDUSecMk7Ofde7ZG9ovj1u++PLRjyymBl
+        C9Vezb5n6ejHgS+F8JM4zygNc4i4HyVL0EfkIVgkx/WZat2n+ZLlfVHkQocDNQXjbhLIgSrb4e3X
+        LstPigJGV5Xa7/3jF4k51EXjAYPVZ1b37g4ufwJ2779WZ9tGKCYAAA==
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-Cache-Status:
+      - BYPASS
+      CF-RAY:
+      - 8c035b26cbc83b59-IAD
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/xml; charset=utf-8
+      Cross-Origin-Resource-Policy:
+      - cross-origin
+      Date:
+      - Mon, 09 Sep 2024 01:20:29 GMT
+      ETag:
+      - W/"2628-tBelUq5MgyNXcbJSgEIPUWlxDxs"
+      Origin-Agent-Cluster:
+      - ?1
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Plex-Container-Start:
+      - '0'
+      X-Plex-Container-Total-Size:
+      - '1'
+      X-Plex-Timestamp:
+      - '1725844829'
+      X-Plex-Version:
+      - 1f408f258867ac3b5038210fc4360453a7f61825
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1

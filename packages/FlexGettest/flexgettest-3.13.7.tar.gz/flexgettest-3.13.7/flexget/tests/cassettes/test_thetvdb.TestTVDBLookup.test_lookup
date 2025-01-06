@@ -1,0 +1,1219 @@
+interactions:
+- request:
+    body: '{"apikey": "4D297D8CFDE0E105"}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '30'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: POST
+    uri: https://api.thetvdb.com/login
+  response:
+    body:
+      string: '{"token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '466'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:57:54 GMT
+      Vary:
+      - Accept-Language
+      Via:
+      - 1.1 5e7b840a88d950743b5369729f00b867.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - tS0gq2es23MpI0vd3Nk5LOy51Da4nL8hfSlJLXyaU4L1e8wyA2Y3Bw==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/search/series?name=House
+  response:
+    body:
+      string: "{\"data\":[{\"aliases\":[\"House M.D.\",\"Dr House\",\"\u91AB\u795E\"],\"banner\":\"/banners/posters/73255-24.jpg\",\"firstAired\":\"2004-11-16\",\"id\":73255,\"network\":\"FOX\",\"overview\":\"Dr.
+        Gregory House is a maverick physician who is devoid of bedside manner. While
+        his behavior can border on antisocial, Dr. House thrives on the challenge
+        of solving the medical puzzles that other doctors give up on. Together with
+        his hand-picked team of young medical experts, he'll do whatever it takes
+        in the race against the clock to solve the case.\",\"seriesName\":\"House\",\"slug\":\"house\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2009-6-15\",\"id\":99421,\"network\":\"BBC
+        One\",\"overview\":\"House Swap sees members of the public being given the
+        chance to relocate to their dream property or location by swapping their property
+        with somebody else. \",\"seriesName\":\"House Swap\",\"slug\":\"house-swap\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/84486-1.jpg\",\"firstAired\":\"2005-1-30\",\"id\":84486,\"network\":\"Channel
+        101\",\"overview\":\"A cautionary tale about cloning Bill Cosby. Sadly canceled
+        by legal action from Mr. Cosby himself.\",\"seriesName\":\"House Of Cosbys\",\"slug\":\"house-of-cosbys\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/82624-3.jpg\",\"firstAired\":\"2008-7-30\",\"id\":82624,\"network\":\"BBC
+        Two\",\"overview\":\"The intimate world of Saddam Hussein and his closest
+        inner circle is revealed in House Of Saddam \u2013 a gripping four-part drama
+        for BBC Two that charts the rise and fall of one of the most significant political
+        figures in recent history.\\r\\n\\r\\nHouse Of Saddam offers a fresh perspective
+        on the dictator, his relationships and his actions behind closed doors, by
+        retelling events from inside the very heart of the regime.\\r\\n\\r\\nBeginning
+        in 1979 when Saddam became president of Iraq, it follows the impact of his
+        political ambitions on his oldest advisors, closest friends, family members
+        \u2013 and on Saddam himself.\\r\\n\\r\\nWithin the walls of his opulent presidential
+        palace respect is interwoven with fear as Saddam exerts control over his allies,
+        his country and its people.\\r\\n\\r\\nAs he continues to reign for almost
+        25 years in the face of mounting internal and external pressures the Iraqi
+        President's ability to survive is revealed. Eventually, however, the House
+        of Saddam begins to crumble \u2013 and its leader becomes increasingly isolated
+        from both the international community, and his inner world. \",\"seriesName\":\"House
+        of Saddam\",\"slug\":\"house-of-saddam\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/movie.jpg\",\"firstAired\":null,\"id\":82126,\"network\":null,\"overview\":\"In
+        this non-traditional game show, a pair of hosts opens up their homes to four
+        strangers who will judge them on their hosting abilities. \",\"seriesName\":\"House
+        Guest\",\"slug\":\"house-guest\",\"status\":\"Ended\"},{\"aliases\":[\"To
+        Play the King\",\"The Final Cut\"],\"banner\":\"/banners/posters/79861-3.jpg\",\"firstAired\":\"1990-11-18\",\"id\":79861,\"network\":\"BBC
+        One\",\"overview\":\"The PM made a deadly mistake when he passed over Francis
+        Urquhart. With his recent dire performance in the general election, he's going
+        to need all the friends he can get. But Urquhart won't be ignored by anyone
+        and now he's out for revenge. As the trusted Chief Whip, he has his hands
+        on every grubby little secret in politics, and with innocent journalist Mattie
+        Storin unwittingly drawn into his web, he'll stop at nothing to get what he
+        wants.\\r\\nA black tale of greed, corruption and burning ambition. Based
+        on the best selling novel by Michael Dobbs, a former aide to Margaret Thatcher.\",\"seriesName\":\"House
+        of Cards\",\"slug\":\"house-of-cards\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/77572-1.jpg\",\"firstAired\":\"1979-12-13\",\"id\":77572,\"network\":\"CBS\",\"overview\":\"British-born
+        Ann Atkinson (Lynn Redgrave), as hospital administrator, had three unruly
+        doctors to cope with, and the comedy arose from their interactions. Dr. Charley
+        Michaels (Wayne Rogers) became the main problem for her, because of the romantic
+        angle.\",\"seriesName\":\"House Calls\",\"slug\":\"house-calls\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"1995-1-8\",\"id\":77095,\"network\":\"FOX\",\"overview\":\"Welcome
+        to the House of Buggin' guide at TV Tome. House of Buggin' was a short-lived
+        variety show. There is no editor for this show. If you would like to be the
+        editor look here for details.\",\"seriesName\":\"House of Buggin'\",\"slug\":\"house-of-buggin\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2004-4-30\",\"id\":75249,\"network\":\"Court
+        TV\",\"overview\":\"Welcome to the House of Clues guide at TV Tome. In each
+        episode of House of Clues two amateur detectives try to discover enough clues
+        in someone's home to create an accurate profile of them.  Then they meet the
+        homeowner face to face and learn how accurate they were. There is no editor
+        for this show. If you would like to be the editor look here for details.\",\"seriesName\":\"House
+        of Clues\",\"slug\":\"house-of-clues\",\"status\":\"Ended\"},{\"aliases\":[\"Disney's
+        House of Mouse\"],\"banner\":\"/banners/posters/74189-2.jpg\",\"firstAired\":\"2001-1-12\",\"id\":74189,\"network\":\"Disney
+        Channel\",\"overview\":\"House of Mouse is the former but even better Mickey
+        Mouse Works. \\\"House of Mouse\\\" is a nightclub-type theater, where Mickey
+        himself emcees nightly. Stars of every Disney film ever made are seated in
+        the audience, often becoming part of the show themselves, as Mickey and his
+        friends entertain.\",\"seriesName\":\"House of Mouse\",\"slug\":\"house-of-mouse\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/5cc59348eccb6.jpg\",\"firstAired\":\"2003-10-10\",\"id\":73395,\"network\":\"TBS\",\"overview\":\"Welcome
+        to the House Rules guide at TV Tome.  Home improvement gets competitive when
+        TBS Superstation pits three teams of amateur home remodelers against each
+        other in the new reality series House Rules, presented by Lowe's. The series,
+        which will result in one team winning the home they've renovated, is hosted
+        by Mark L. Walberg (Temptation Island) and premiered Friday, Oct. 10 at 8/7c,
+        on TBS Superstation.  The three teams chosen for the inaugural edition of
+        House Rules are;\\r\\nRed Team: Katie \\u0026 Adam, newlyweds who will spend
+        their honeymoon competing on the show. Blue Team: Cindy \\u0026 Bill, who
+        have been married for 11 years. Silver Team: Rebecca \\u0026 Joseph, who have
+        been in a long-distance relationship for nearly a year.  Each week, the teams
+        must compete to win their share of a remodeling allowance to be used to pay
+        for the renovations. Once a week, they will also have an opportunity to spy
+        on each other's progress as they each host weekly dinner par\",\"seriesName\":\"House
+        Rules\",\"slug\":\"house-rules\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"1998-3-9\",\"id\":73338,\"network\":\"NBC\",\"overview\":\"Welcome
+        to the House Rules guide at TV Tome.\\r\\nHere is how NBC described the show:
+        \ \\\"A buddy comedy about three Gen Xers who share a house in Denver: Friends
+        meets Three's Company. The series chronicles the adventures of three lifelong,
+        ski-loving friends: Casey, a deputy district attorney; McCusky, a medical
+        student; and Riley, a reporter. We were meant to find them charmingly irresponsible
+        and free-spirited. We did not. In contrast to the similarly themed triangle
+        comedy Two Guys, a Girl and a Pizza Place, this made delayed adolescence seem,
+        well, childish.  \\\"The unique friendship shared by a trio of childhood chums
+        and roommates from Denver is the focus of this half-hour comedy. Through romances,
+        job problems and the trials and tribulations of daily life, a woman and her
+        two male roommates give modern romance a decidedly comic spin.  \\\"'House
+        Rules is about two men and a woman in their mid-twenties who, after 20 years
+        of growing up together, going\",\"seriesName\":\"House Rules (1998)\",\"slug\":\"house-rules-1998\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/73182-2.jpg\",\"firstAired\":\"1999-9-30\",\"id\":73182,\"network\":\"HGTV\",\"overview\":\"House
+        Hunters takes viewers behind the scenes as individuals, couples and families
+        learn what to look for and decide whether or not a home is meant for them.
+        Focusing on the emotional experience of finding and purchasing a new home,
+        each episode follows a prospective buyer and real estate agent through the
+        home-buying process, from start to finish.\",\"seriesName\":\"House Hunters\",\"slug\":\"house-hunters\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2004-1-5\",\"id\":72438,\"network\":\"A\\u0026E\",\"overview\":\"Sixteen
+        people compete for a house that they build together. A contestant is voted
+        out in each episode.\",\"seriesName\":\"House of Dreams\",\"slug\":\"house-of-dreams\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2017-1-1\",\"id\":372935,\"network\":null,\"seriesName\":\"House
+        Hunters - Poszukiwacze dom\xF3w (Poland production)\",\"slug\":\"house-hunters-poszukiwacze-domow-poland-production\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2019-11-10\",\"id\":372441,\"network\":null,\"overview\":\"Six
+        strangers share a rented house and ALL their money!\",\"seriesName\":\"HouseShare\",\"slug\":\"houseshare\",\"status\":\"Upcoming\"},{\"aliases\":[],\"banner\":\"/banners/posters/5db8dbce60f60.jpg\",\"firstAired\":null,\"id\":371572,\"network\":null,\"overview\":\"The
+        story of House Targaryen, 300 years before the events of Game of Thrones.\",\"seriesName\":\"House
+        of the Dragon \",\"slug\":\"house-of-the-dragon\",\"status\":\"Upcoming\"},{\"aliases\":[],\"banner\":\"/banners/posters/5d1e6799c5063.jpg\",\"firstAired\":\"1979-2-23\",\"id\":366177,\"network\":\"ITV
+        Granada\",\"overview\":\"The story is about a long-established and highly
+        respected family firm of auctioneers, the House Of Caradus, in Chester, England,
+        which is now in serious financial trouble. The series captures the drama of
+        the auction room, the excitement of bid and counter-bid, taking in dealers'
+        rings, forged art treasures and the growing invasion of the antiques scene
+        by London-based auction houses starved of pieces to sell. As the House of
+        Caradus struggles to stay alive, by fair means or foul, its clients cover
+        the whole spectrum of need and greed from international dealers to hard-pressed
+        housewives. Starring in this series are Sarah Bullen, Robert Grange. Anthony
+        Smee and Madeline Hinde. The firm is run by Victor Caradus, 40, with the help
+        of his cousins, Helena, 31, and Lionel, 26. Helena, who studied Impressionist
+        art in Paris, has a love of beauty and high ideals and Victor regards her
+        with some resentment. Lionel is a spoiled young charmer who is deeply in debt
+        to his bookmakers. \\r\\n\",\"seriesName\":\"House of Caradus\",\"slug\":\"house-of-caradus\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/5d754242d8767.jpg\",\"firstAired\":\"1998-8-24\",\"id\":364905,\"network\":\"Channel
+        5 (UK)\",\"overview\":\"House Doctor is a television programme, originally
+        broadcast on Channel 5 in the UK. Each week, the House Doctor - Californian
+        real-estate stylist, Ann Maurice - helps UK home-owners sell their houses
+        with her industry know-how and style tips. The popularity of the show has
+        lent the word \\\"house doctoring\\\" to the British English lexicon, which
+        is similar to the American term home staging. This program is now shown in
+        many countries around the globe, which is broadening the use and familiarity
+        of this term.\",\"seriesName\":\"House Doctor\",\"slug\":\"house-doctor\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/5c605bb39ffb9.jpg\",\"firstAired\":\"2019-2-10\",\"id\":359449,\"network\":\"YouTube\",\"seriesName\":\"HouseHold
+        Hacker\",\"slug\":\"household-hacker\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/posters/5bf93db2b128b.jpg\",\"firstAired\":\"2018-11-15\",\"id\":355880,\"network\":\"TVNZ\",\"overview\":\"Hosted
+        by iconic Kiwi drag queens Kita and Anita, this brand-new elimination style
+        reality series follows nine dragstars competing in outrageous challenges each
+        week to keep their place in the stunning House of Drag mansion!\",\"seriesName\":\"House
+        of Drag\",\"slug\":\"house-of-drag\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":353327,\"network\":null,\"seriesName\":\"Houseki
+        no kuni\",\"slug\":\"houseki-no-kuni\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/5b75d3b62f681.jpg\",\"firstAired\":\"2018-8-16\",\"id\":351535,\"network\":\"\u0422\u041D\u0422\",\"seriesName\":\"House
+        Arrest (Domashniy Arest)\",\"slug\":\"domashniy-arest\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/5b744ae041d0f.jpg\",\"firstAired\":\"2018-8-6\",\"id\":351411,\"network\":\"SBS
+        6\",\"seriesName\":\"House of Talent\",\"slug\":\"house-of-talent\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":349863,\"network\":null,\"seriesName\":\"House
+        Cook Master Baek\",\"slug\":\"house-cook-master-baek\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":349798,\"network\":null,\"seriesName\":\"House
+        In A Box\",\"slug\":\"house-in-a-box2\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":347165,\"network\":null,\"seriesName\":\"House
+        In A Box\",\"slug\":\"house-in-a-box\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/347107-1.jpg\",\"firstAired\":\"2005-3-9\",\"id\":347107,\"network\":\"D8\",\"seriesName\":\"House
+        of Crades\",\"slug\":\"347107\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2016-5-26\",\"id\":344433,\"network\":\"ABC2\",\"overview\":\"Housemates
+        uncovers the unique, unusual, and sometimes crazy ways Australians have made
+        share housing work. Series 1 consisted of 3 episodes and was available to
+        stream from iView. Series 2 aired 5 episodes on ABC2, plus were made available
+        to stream on iView.\",\"seriesName\":\"Housemates\",\"slug\":\"344433\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/posters/340560-1.jpg\",\"firstAired\":\"2018-1-9\",\"id\":340560,\"network\":\"BBC
+        Two\",\"overview\":\"Saudi Arabia stands at a crucial crossroads facing unprecedented
+        change. The Kingdom has long enjoyed seemingly inexhaustible wealth and untold
+        power and influence. But the House of Saud is accused of spreading extremist
+        ideology and even supporting violent extremists. This series looks at the
+        challenges facing the new Crown Prince, 32-year-old Mohammed bin Salman, who
+        has pledged to transform the country.\",\"seriesName\":\"House of Saud: A
+        Family at War\",\"slug\":\"house-of-saud-a-family-at-war\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/339231-1.jpg\",\"firstAired\":\"2017-12-11\",\"id\":339231,\"network\":\"HGTV\",\"overview\":\"Couples
+        search for nontraditional structures to convert into homes.\",\"seriesName\":\"House
+        Hunters: Outside the Box\",\"slug\":\"339231\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/posters/335469-1.jpg\",\"firstAired\":\"1997-11-2\",\"id\":335469,\"network\":\"CBS\",\"overview\":\"Detective
+        Coyle is trying to solve several bizarre murders and is having no luck finding
+        a suspect. But when his girlfriend turns into a werewolf and gets kidnapped
+        by a vampire, things start to fall into place.\",\"seriesName\":\"House of
+        Frankenstein\",\"slug\":\"house-of-frankenstein\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/5ba37d15af343.jpg\",\"firstAired\":\"2017-8-21\",\"id\":334238,\"network\":\"VIER\",\"overview\":\"Reality
+        show in which real estate agents hunt for some of the nicest houses in Flanders.\",\"seriesName\":\"House
+        Hunters\",\"slug\":\"334238\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/posters/332934-1.jpg\",\"firstAired\":\"2017-7-31\",\"id\":332934,\"network\":\"HGTV\",\"overview\":\"Searching
+        for the perfect home is a challenge. And when you consider an entire family's
+        needs, it's even harder. For the first time ever, the whole family is getting
+        involved. On House Hunters Family , the parents and their kids house hunt
+        together to select which house suits them best. But kids have minds of their
+        own and they will certainly make their opinions heard. Will the whole family
+        agree on which house to choose? Find out on House Hunters Family.\",\"seriesName\":\"House
+        Hunters Family\",\"slug\":\"house-hunters-family\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2017-8-12\",\"id\":332910,\"network\":null,\"seriesName\":\"House
+        Hunters Asia\",\"slug\":\"house-hunters-asia\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2016-6-26\",\"id\":331579,\"network\":\"TVN\",\"seriesName\":\"House
+        Crashers (PL)\",\"slug\":\"331579\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2016-8-27\",\"id\":330303,\"network\":null,\"seriesName\":\"House
+        Hunters International Renovation\",\"slug\":\"house-hunters-international-renovation\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/329819-1.jpg\",\"firstAired\":\"2012-12-17\",\"id\":329819,\"network\":\"HGTV\",\"overview\":\"You've
+        seen which one they chose, but what happens to the house hunters after they
+        buy? From incredible renovations to new additions and relocations, even total
+        rebuilds! Follow along as we check in on memorable House Hunters families
+        to see what happened after they found the perfect \u2014 or not-so-perfect
+        \u2014 place.\\r\\n\\r\\nhttp://www.hgtv.com/shows/house-hunters-where-are-they-now\",\"seriesName\":\"House
+        Hunters: Where Are They Now?\",\"slug\":\"house-hunters-where-are-they-now\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/posters/327627-1.jpg\",\"firstAired\":\"2017-4-24\",\"id\":327627,\"network\":\"Nine
+        Network\",\"overview\":\"House of Bond is a dramatised account of the life
+        of Alan Bond, from the 1960s to the 2000s. \\r\\n\\r\\nThe outrageous rags-to-riches-to-rags
+        tale of controversial business tycoon Alan Bond and how he fought his way
+        from the back alleys of Fremantle to become the richest man in Australia and
+        one of our greatest sporting heroes.\\r\\n\\r\\nPart One details Bond\u2019s
+        prominence as a property investor and entrepreneur finishing with his greatest
+        triumph as head of the syndicate that won the 1983 America\u2019s Cup. Part
+        Two sees him expand on a global scale before his hubris saw his empire spectacularly
+        falling down becoming embroiled in a number of WA Inc. scandals including
+        the bailout of the Rothwells Bank and the stripping of Bell Resources.\",\"seriesName\":\"House
+        of Bond\",\"slug\":\"house-of-bond\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":324647,\"network\":null,\"seriesName\":\"House
+        Hunters International: Best of Mexico\",\"slug\":\"house-hunters-international-best-of-mexico\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/324523-1.jpg\",\"firstAired\":\"2017-2-24\",\"id\":324523,\"network\":\"TTV\",\"seriesName\":\"House
+        of Toy Bricks\",\"slug\":\"house-of-toy-bricks\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":323582,\"network\":null,\"seriesName\":\"House
+        Hunters International: Best of Italy\",\"slug\":\"house-hunters-international-best-of-italy\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":323581,\"network\":null,\"seriesName\":\"House
+        Hunters International: Best of Australia\",\"slug\":\"house-hunters-international-best-of-australia\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":323580,\"network\":null,\"seriesName\":\"House
+        Hunters International Best of France\",\"slug\":\"house-hunters-international-best-of-france\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2016-12-14\",\"id\":321151,\"network\":\"Canale
+        5\",\"seriesName\":\"House Party\",\"slug\":\"321151\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/308494-1.jpg\",\"firstAired\":\"2015-10-21\",\"id\":308494,\"network\":\"Tokyo
+        Broadcasting System\",\"overview\":\"Taro (Joe Odagiri) struggles to keep
+        open a small candy store run by his grandmother, Akiko (Kaoru Yachigusa),
+        and himself. Taro\u2019s parents died when he was young and he was then raised
+        by his grandparents. There are supporters of the small candy store including
+        Taro's neighbor and bath house operator Akira (Kyusaku Shimada) and Taro\u2019s
+        friend Hiroki (Ryo Katsuji).  While eating candies, they talk about silly
+        things with Taro. \\r\\n\\r\\nTaro meets again Reiko (Machiko Ono). She is
+        a childhood friend. After Reiko divorced, she returned with her son to the
+        neighborhood where she grew up.\",\"seriesName\":\"House of Sweets\",\"slug\":\"308494\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2015-9-7\",\"id\":301510,\"network\":\"BBC
+        One\",\"overview\":\"Following the staff at Belfast's Charles Hurst dealership,
+        the largest car lot in Europe, as they attempt to hit their sales targets\",\"seriesName\":\"House
+        of Cars (2015)\",\"slug\":\"house-of-cars-2015\",\"status\":\"Ended\"},{\"aliases\":[\"Okashi
+        no Ie\"],\"banner\":\"/banners/posters/301441-1.jpg\",\"firstAired\":\"2015-10-21\",\"id\":301441,\"network\":\"Tokyo
+        Broadcasting System\",\"overview\":\"Sakurai Taro (Odagiri Joe) lost his parents
+        early and has always lived with his grandmother Akiko (Yachigusa Kaoru) in
+        their little sweets store, Sakuraya in old parts of Tokyo. They're struggling
+        to keep it in business and Taro idly spends most of his time with neighbourhood
+        friend, Saegusa Hiroki (Katsuji Ryo), who's an aspiring scriptwriter, and
+        regular customers like bathhouse manager Shimasaki Akira (Shimada Kyusaku).
+        One Day Taro's childhood friend Kimura Reiko (Ono Machiko), who is now a single
+        mother, comes back to the neighbourhood after a divorce...\",\"seriesName\":\"House
+        of Sweets\",\"slug\":\"house-of-sweets\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/300178-1.jpg\",\"firstAired\":\"2015-9-1\",\"id\":300178,\"network\":\"NET
+        5\",\"overview\":\"In House Rules NL we follow five Dutch couples who rigorously
+        renovate each other's houses. The main prize: two years of mortgage-free living!
+        Presenter Airen Mylene keeps a close eye on everything and a professional
+        jury determines the winning couple together with the viewers. If you missed
+        an episode, check it out here!\",\"seriesName\":\"House Rules NL  \",\"slug\":\"300178\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/posters/296728-1.jpg\",\"firstAired\":\"2015-6-14\",\"id\":296728,\"network\":\"TV
+        One (NZ)\",\"overview\":\"Is the Kiwi dream of owning your own home still
+        a reality or just a fast fading dream?\\r\\n\\r\\nHouse Hunt is a heartfelt
+        new observational series that follows the journeys of diverse couples, families
+        and friends from all walks of life as they struggle to achieve the near impossible
+        \u2013 to buy their first home in New Zealand\u2019s overheated property markets.\\r\\n\\r\\nHouse
+        Hunt chronicles the range of emotions that face New Zealand\u2019s first home
+        buyers; from desperate open home searches and multiple failed auctions, last
+        minute financial challenges and inevitable relationship conflict, to the exhaustion
+        and elation of home buying success, or the devastation of missing out.\\r\\n\\r\\nHome
+        affordability has never been such a topical issue, and with episodes filmed
+        up and down the country, House Hunt also looks at the varied issues facing
+        first home buyers in different regions.\",\"seriesName\":\"House Hunt\",\"slug\":\"house-hunt\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2012-10-19\",\"id\":293351,\"network\":null,\"overview\":\"MTV's
+        webseries reboot of the iconic 90's MTV show House of Style.\",\"seriesName\":\"House
+        of Style\",\"slug\":\"house-of-style\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/291815-1.jpg\",\"firstAired\":\"2015-2-8\",\"id\":291815,\"network\":\"Nine
+        Network\",\"overview\":\"House of Hancock tells the epic true story of the
+        Hancock dynasty and the bizarre love triangle that emerged between Lang Hancock,
+        his daughter Gina Rinehart and his beautiful Filipina housekeeper Rose Lacson.\",\"seriesName\":\"House
+        of Hancock\",\"slug\":\"house-of-hancock\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2011-10-13\",\"id\":291674,\"network\":null,\"seriesName\":\"
+        House Hunters: Bachelor Pads\",\"slug\":\"house-hunters-bachelor-pads\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":289711,\"network\":null,\"seriesName\":\"Househusbands
+        of Hollywood\",\"slug\":\"househusbands-of-hollywood\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/288520-1.jpg\",\"firstAired\":\"2014-11-23\",\"id\":288520,\"network\":\"Discovery
+        MAX\",\"seriesName\":\"House of Cars\",\"slug\":\"house-of-cars\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/287468-1.jpg\",\"firstAired\":\"2014-11-2\",\"id\":287468,\"network\":\"E!\",\"overview\":\"The
+        fashion megastar who created gorgeous prints and the sexy, figure-flattering
+        wrap dress worn by Kate Middleton, Michelle Obama and Madonna,  and who shines
+        as a beacon of power and independence to women everywhere has partnered with
+        E! to bring viewers unprecedented access to her latest fashion industry game
+        changer.  Diane von Furstenberg gives a group of ambitious young women extraordinary
+        entr\xE9e to her empire, for a weeks-long ultimate interview that will prepare
+        one of them to take on the world of fashion and ascend to the prized DVF Global
+        Brand Ambassador position.  \u201CHouse of DVF\u201D grants viewers exclusive
+        access inside Diane von Furstenberg\u2019s stylish world, showcasing the unique
+        skill set, intelligence and utter devotion it takes to become a DVF girl,
+        and E! will be there to film the entire process.\\r\\n\",\"seriesName\":\"House
+        of DVF\",\"slug\":\"house-of-dvf\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":287378,\"network\":\"FYI\",\"overview\":\"House
+        vs. House is a new home makeover competition series where amateur and experienced
+        renovation teams compete for the chance to win $10,000 by proving they can
+        create the better DIY projects in their home. From painting and decorating,
+        to one-of-a-kind, imaginative projects, each episode features two teams will
+        go head-to-head in grueling challenges. Tanya McQueen, a DIY design expert,
+        and David Brian Sanders, an architect and designer, will determine which team
+        completes the most impressive transformation and award the cash prize.\",\"seriesName\":\"House
+        vs. House\",\"slug\":\"house-vs-house\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2010-9-22\",\"id\":282459,\"network\":\"MBC
+        Plus Media\",\"seriesName\":\"Housewife Kim Kwang Ja's 3rd Activities\",\"slug\":\"housewife-kim-kwang-jas-3rd-activities\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/279540-2.jpg\",\"firstAired\":\"2014-2-26\",\"id\":279540,\"network\":\"Investigation
+        Discovery\",\"overview\":\"HOUSE OF HORRORS: KIDNAPPED tells the gripping
+        stories of people who were kidnapped and lived to tell. Each episode reveals
+        one survivor\u2019s terrifying experience from the moment of abduction to
+        the hours, days, or months of captivity to the escape and recovery, as told
+        through their eyes.\",\"seriesName\":\"House of Horrors: Kidnapped\",\"slug\":\"house-of-horrors-kidnapped\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/277170-1.jpg\",\"firstAired\":\"2014-3-31\",\"id\":277170,\"network\":\"MTV\",\"overview\":\"A
+        drama-infused take on food TV where a group of young aspiring chefs with no
+        formal culinary training are put to the ultimate challenge. The series combines
+        the exciting real-life competitive elements of culinary school with the dramatic
+        setting of a house reality show. The students have been chosen for their passion
+        for cooking and food culture, and their backgrounds are as varied as their
+        personalities. With three of the country\u2019s best chefs as their teachers
+        and the city of Los Angeles as their classroom, this determined group will
+        live and learn together but only one will win an apprenticeship of a lifetime.
+        \",\"seriesName\":\"House of Food\",\"slug\":\"house-of-food\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/276173-2.jpg\",\"firstAired\":\"2014-1-14\",\"id\":276173,\"network\":\"BBC
+        Two\",\"overview\":\"Set in Bob Mortimer\u2019s home, every episode of House
+        Of Fools sees Bob frustrated by his uninvited lodgers, visitors and guests
+        who constantly fill his house. Led by Vic - Beef, Bosh and Julie knit together
+        each week to wreak havoc on Bob.\\r\\n\\r\\nVic Reeves is the long term and
+        mostly unwanted guest in Bob\u2019s house, always treating the place like
+        his own, with little regard for Bob\u2019s wishes. Living alongside them is
+        Bob\u2019s Norwegian son, Erik, who has absolutely no time at all for his
+        \u2018moron\u2019 father and next door is Julie, who lives in a haze of imagined
+        fantasies. Adding to the chaos is a constant stream of unwelcome visitors
+        to Vic and Bob\u2019s flat. Amongst them is Beef a lady-obsessed lothario,
+        not to be confused with Bosh, a Geordie ex-con, who has designs on moving
+        in as well.\",\"seriesName\":\"House of Fools\",\"slug\":\"house-of-fools\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":274386,\"network\":null,\"overview\":\"Dr
+        Nayna Patel runs a clinic in rural India that attracts childless couples from
+        all over the world. For a fee, they can pay for local women to act as surrogates,
+        spending their entire pregnancy away from home in dorms with up to 80 other
+        pregnant surrogates living alongside them.\\r\\n\\r\\nThere are three babies
+        delivered every month at the clinic, but that's not the end of the story -
+        Westerners can have to stay up to eight weeks in India after the baby is born
+        waiting for the paperwork they need to take their baby home and many of them
+        choose to have their surrogate look after and wet-nurse the baby for them
+        until then.\\r\\n\\r\\nWhile critics accuse Dr Patel of exploiting the poor,
+        she believes that she is empowering the local women with life-changing amounts
+        of money.\\r\\n\",\"seriesName\":\"House of Surrogates\",\"slug\":\"house-of-surrogates\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2013-7-18\",\"id\":273405,\"network\":null,\"overview\":\"NUVOtv\u2019s
+        new docu-series \\\"House of Joy\\\" invites viewers into Grammy-winning producer
+        Rodney \u201CDarkchild\u201D Jerkins\u2018 studio and his always-busting Hollywood
+        home, which he shares with pop star wife Joy Enriquez, the couple\u2019s children
+        and Joy\u2019s family.\\r\\n\\r\\nThe pressure is on Rodney, the master musicologist
+        behind worldwide hits by Jennifer Lopez, Beyonce, Michael Jackson and Lady
+        Gaga, to score a pop smash for his talented wife. Meanwhile, Joy\u2019s mom
+        and dad, Helena and Randy (right), routinely check in to provide emotional
+        support and dole out domestic advice in an engaging and often very funny old
+        school-meets-contemporary cool kind of way. The insightful duo could easily
+        have their own standup act if they didn\u2019t already have a full-time gig
+        helping to keep \u201CDarkchild\u201D Manor in check as Rodney sets the stage
+        for Joy to reignite her musical dream.\",\"seriesName\":\"House of Joy\",\"slug\":\"house-of-joy\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2013-6-13\",\"id\":271248,\"network\":\"WE
+        tv\",\"overview\":\"Kenyatta Jones, an Atlanta-based fashion designer who
+        specializes in designing clothes for plus-size women, is the CEO of clothing
+        boutique Bella Ren\xE9, named after her mother and main investor. Jones and
+        her team, which includes her two close friends from college and an assistant
+        with attitude, go to great lengths to expand the brand, but mishaps and in-house
+        bickering hinder the dream. The ultimate test comes when the team competes
+        for recognition in one of the world's top cities for fashion: New York.\",\"seriesName\":\"House
+        of Curves\",\"slug\":\"house-of-curves\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/269795-1.jpg\",\"firstAired\":\"2013-5-14\",\"id\":269795,\"network\":\"Seven
+        Network\",\"overview\":\"Six Aussie teams put their homes on the line and
+        their skills to the test in a fight for renovation supremacy and a life-changing
+        prize. Teams will travel the country, hand over the keys to their homes and
+        leave their competition rivals to transform every room in their house any
+        way they want! It's the key to a whole new life. But will it open the door
+        to their dreams or their worst nightmare? In a brand-new season, renovation
+        meets innovation with aspirational reveals which will inspire and educate
+        like never-before.\",\"seriesName\":\"House Rules (AU)\",\"slug\":\"house-rules-au\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/posters/265487-1.jpg\",\"firstAired\":\"2001-11-21\",\"id\":265487,\"network\":\"Channel
+        4\",\"overview\":\"The adventures of a group of dead rock stars, sharing a
+        house in the afterlife.\",\"seriesName\":\"House of Rock\",\"slug\":\"house-of-rock\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2012-10-16\",\"id\":263281,\"network\":\"HGTV\",\"seriesName\":\"House
+        Hazards\",\"slug\":\"house-hazards\",\"status\":\"Ended\"},{\"aliases\":[\"House
+        of Cards (2013)\",\"\u7D19\u724C\u5C4B\"],\"banner\":\"/banners/posters/262980-3.jpg\",\"firstAired\":\"2013-2-1\",\"id\":262980,\"network\":\"Netflix\",\"overview\":\"Ruthless
+        and cunning, Congressman Francis Underwood and his wife Claire stop at nothing
+        to conquer everything. This wicked political drama penetrates the shadowy
+        world of greed, sex and corruption in modern D.C.\",\"seriesName\":\"House
+        of Cards (US)\",\"slug\":\"house-of-cards-us\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/262643-2.jpg\",\"firstAired\":\"2012-9-23\",\"id\":262643,\"network\":\"HGTV\",\"overview\":\"In
+        this new weekly series, HGTV's House Hunters Renovation follows potential
+        home buyers as they tour three for-sale homes and choose the one that is the
+        perfect fixer-upper. In a House Hunters first, HGTV cameras also capture what
+        happens after the home is purchased and the renovation project begins. Each
+        episode features the new homeowners as they renovate and then reveal their
+        new space.\",\"seriesName\":\"House Hunters Renovation\",\"slug\":\"house-hunters-renovation\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/posters/262026-1.jpg\",\"firstAired\":\"2012-9-2\",\"id\":262026,\"network\":\"Nine
+        Network\",\"overview\":\"House Husbands centres around four families with
+        one thing in common, the husbands stay home to raise the children.\",\"seriesName\":\"House
+        Husbands\",\"slug\":\"house-husbands\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/259372-1.jpg\",\"firstAired\":\"2010-1-7\",\"id\":259372,\"network\":\"HGTV
+        Canada\",\"overview\":\"Five years have passed since Bryan and Sarah built
+        their custom dream home in the city. Always up for a new challenge, Bryan
+        and Sarah are back at building again - But this time, they\u2019re uprooting
+        their growing family from the city to the gritty countryside. And breaking
+        Bryan\u2019s cardinal rule of home-building\u2013 Never, ever live on site
+        during a renovation!\\r\\n\\r\\nWhile they love their city home, it turns
+        out Bryan has always dreamed of returning to his small town roots to raise
+        his kids in the vast, open spaces of the country. His wife Sarah on the other
+        hand, fashions herself a city girl. Watch as Sarah and Bryan go head to head
+        on their individual visions of their home, and cope with a dramatic lifestyle
+        change as they say goodbye to the comfortable conveniences of city life.\",\"seriesName\":\"House
+        of Bryan\",\"slug\":\"house-of-bryan\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2011-9-9\",\"id\":258659,\"network\":null,\"seriesName\":\"House
+        Ibiza\",\"slug\":\"258659\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/258575-1.jpg\",\"firstAired\":\"2012-4-5\",\"id\":258575,\"network\":\"TVB\",\"seriesName\":\"House
+        of Harmony \\u0026 Vengeance\",\"slug\":\"house-of-harmony-and-vengeance-1\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2012-3-18\",\"id\":256439,\"network\":\"VH1\",\"overview\":\"\u201CHouse
+        of Consignment\u201D is a new 10 episode, half-hour reality series featuring
+        Chicago entrepreneur and fashion maven, Corri McFadden, and her mission to
+        improve the way women shop. By working with high-end clients at her sleek,
+        Lincoln Park retail store, eDrop-Off, Corri\u2019s consignment business turns
+        luxury brand items into profit. What began as Corri\u2019s senior project
+        in fashion design school has turned her into a young, successful business
+        woman and owner of a booming multi-million dollar company. Watch as Corri
+        and her team of twenty-something fashionistas change the face of the consignment
+        world on a daily basis.\\r\\nThe show takes the cliche about \u201COne man\u2019s
+        trash being another man\u2019s treasure\u201D and turns the trash, in this
+        case Fendi bags and Jimmy Choos, into cash. Using her innate sense of style
+        and business savvy, Corri McFadden resells high-end fashion items that have
+        been rescued from her wealthy clients\u2019 overflowing closets. Billed as
+        \u201Cpart intervention, part fashion lesson\u201D, it\u2019s also part interactive
+        shopping experience, because viewers will be able to bid on certain items
+        seen the show throughout the season.\",\"seriesName\":\"House of Consignment\",\"slug\":\"house-of-consignment\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/253261-2.jpg\",\"firstAired\":\"2011-11-24\",\"id\":253261,\"network\":\"bTV\",\"seriesName\":\"House
+        Arrest\",\"slug\":\"house-arrest\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2009-10-1\",\"id\":253190,\"network\":null,\"overview\":\"House
+        Wreck Rescue has searched out the ordinary people who have dared to turn their
+        dream of developing a tumbledown barn or romantic ruin into reality. There
+        are over a million empty properties in Britain, just waiting to be transformed
+        into spectacular homes. In a property market that leaves no room for error,
+        trying to turn a wreck into a hot property is anything but easy. For nearly
+        three years, families, property developers and first time buyers risk their
+        relationships, businesses and a whole lot of money attempting to rescue their
+        wrecks. From trouble with builders to bankers, they\u2019ll be up against
+        it. Whether it\u2019s a dovecote, a windmill or even a fishing trawler, House
+        Wreck Rescue will see if they\u2019ve got what it takes. And they won\u2019t
+        be alone \u2013 our two property experts, Zilpah and Gary are on hand to offer
+        their advice and support a long the way. With imagination and drive, almost
+        any property can be transformed from a wreck into a real gem.\",\"seriesName\":\"House
+        Wreck Rescue\",\"slug\":\"house-wreck-rescue\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":252016,\"network\":null,\"overview\":\"New
+        series. Documentary following British estate agents hoping to sell families
+        a dream life in south-west France, showing prospective buyers around properties
+        in an area renowned for its vineyards and chateaux.\",\"seriesName\":\"House
+        Hunt in France\",\"slug\":\"house-hunt-in-france\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2011-6-6\",\"id\":251048,\"network\":\"HGTV\",\"overview\":\"In
+        this House Hunters spinoff series, HGTV gives lucky families the chance to
+        stay in an incredible vacation home for a week. In each half-hour episode,
+        we'll whisk away a family to a beautiful vacation destination to kick back,
+        relax and explore all of the area's activities. Once they arrive at their
+        destination, host Taniya Nayak takes the family to tour spectacular homes
+        chosen just for them. The question the family and viewers must answer: Which
+        home would they like to stay in for a week? It will be a tough decision, as
+        every property will offer incredible yet different features. \",\"seriesName\":\"House
+        Hunters on Vacation\",\"slug\":\"house-hunters-on-vacation\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/247909-6.jpg\",\"firstAired\":\"2012-1-8\",\"id\":247909,\"network\":\"Showtime\",\"overview\":\"Charming,
+        fast talking Marty Kaan and his crack team of management consultants know
+        how to play the corporate game better than anyone, by using every dirty trick
+        in the book to woo powerful CEOs and close huge deals. In the board rooms,
+        barrooms and bedrooms of the power elite, corruption is business as usual
+        and everyone's out for themselves first. Nothing is sacred in this scathing,
+        irreverent satire of corporate America today. Outrageous, subversive and wildly
+        funny, HOUSE OF LIES stars Academy Award\xAE nominee Don Cheadle and Kristen
+        Bell.\",\"seriesName\":\"House of Lies\",\"slug\":\"house-of-lies\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/219621-1.jpg\",\"firstAired\":\"2011-1-1\",\"id\":219621,\"network\":\"Nickelodeon\",\"overview\":\"The
+        hit series known around the world comes to US television. At an exclusive
+        boarding school in England a girl named Joy goes missing. And taking her place
+        is American named Nina. Patricia, who now has to share a room with Nina thinks
+        Nina has something to do with it. But, there are more secrets to be uncovered
+        in House of Anubis.\",\"seriesName\":\"House of Anubis\",\"slug\":\"house-of-anubis\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2010-10-5\",\"id\":211481,\"network\":\"Oxygen\",\"overview\":\"B
+        Lynn Group is one of the hottest image agencies in the entertainment business:
+        agents to the top fashion stylists, makeup artists and hairstylists around--with
+        Brandi Simpkins at the helm. The House of Glam docu-series features her and
+        her team.\\r\\n\\r\\nThese fashion stylists, makeup artists and hairstylists
+        to the stars specialize in cooking up original and unforgettable looks for
+        some of the biggest names in music and fashion--so they stand out in Hollywood
+        and beyond. And this show takes you through the chaotic days of trying to
+        please demanding clients, taking you behind the scenes of their magazine-glossy
+        world. But don't forget the drama! After all, this show is about more than
+        what to wear: The cast is not only comprised of colleagues, but also best
+        friends and fierce rivals. \",\"seriesName\":\"House Of Glam\",\"slug\":\"house-of-glam\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/183411-1.jpg\",\"firstAired\":\"2006-2-20\",\"id\":183411,\"network\":\"HGTV\",\"overview\":\"This
+        spinoff of the wildly popular HGTV House Hunters globe trots from Sao Paolo
+        to Prague. Home hunters and their real estate agents check out all sorts of
+        architectural styles and work through the idiosyncrasies of buying real estate
+        in other countries. In any language, home buying is not an emotional experience.\",\"seriesName\":\"House
+        Hunters International\",\"slug\":\"house-hunters-international\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2010-2-22\",\"id\":165081,\"network\":\"BBC
+        One\",\"overview\":\"Laurence Llewelyn-Bowen visits three houses per county,
+        of all shapes and size, in the competition to find Northern Ireland's House
+        of the Year.\",\"seriesName\":\"House of the Year\",\"slug\":\"house-of-the-year\",\"status\":\"Ended\"},{\"aliases\":[\"Sarai-ya
+        Goy\u014D\",\"Sarai-ya Goyou\"],\"banner\":\"/banners/posters/156821-4.jpg\",\"firstAired\":\"2010-4-16\",\"id\":156821,\"network\":\"Fuji
+        TV\",\"overview\":\"Masterless samurai Akitsu Masanosuke is a skilled and
+        loyal swordsman, but his na\xEFve, diffident nature has time and again caused
+        him to be let go by the lords who have employed him. Hungry and desperate,
+        he becomes a bodyguard for Yaichi, the charismatic leader of a gang called
+        \\\"Five Leaves.\\\" Although disturbed by the gang's sinister activities,
+        Masa begins to suspect that Yaichi's motivations are not what they seem. And
+        despite his misgivings, the deeper he's drawn into the world of the Five Leaves,
+        the more he finds himself fascinated by these devious, mysterious outlaws.\",\"seriesName\":\"House
+        of Five Leaves\",\"slug\":\"house-of-five-leaves\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/153311-2.jpg\",\"firstAired\":\"2009-09-29\",\"id\":153311,\"network\":null,\"seriesName\":\"House
+        of Anubis (DE)\",\"slug\":\"house-of-anubis-2009\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/151451-1.jpg\",\"firstAired\":\"2006-10-2\",\"id\":151451,\"network\":\"E!\",\"overview\":\"Backstreet
+        Boy Nick Carter tries to reunite his family by living together in one house
+        with his four younger siblings, including pop star Aaron Carter, for the first
+        time in years. After years of separation and plenty of family trouble (including
+        their parents' acrimonious divorce, Nick's arrest\u2026 More for DUI, and
+        Aaron's lawsuit against his own mother), the five Carter kids try to reconnect
+        as a family while pursuing their own separate career and life goals.\",\"seriesName\":\"House
+        of Carters\",\"slug\":\"house-of-carters\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2006-10-12\",\"id\":124551,\"network\":\"ITV\",\"overview\":\"Bafta-winning
+        drama based on a true story, written by and starring Victoria Wood. Downtrodden
+        wife and mother Nella's life takes an unexpected turn for the better after
+        she joins the Women's Voluntary Service office in Barrow-in-Furness during
+        the Second World War. However, her new-found happiness is shattered when her
+        son Cliff leaves to join the troops - provoking a painful confrontation with
+        husband Will. David Threlfall and Stephanie Cole co-star.\",\"seriesName\":\"Housewife,
+        49\",\"slug\":\"housewife-49\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2003-1-1\",\"id\":124171,\"network\":null,\"overview\":\"Gregg
+        Kendall and Mandy Kraike are leaving London life behind to design and project-manage
+        the building of a smart and sophisticated houseboat.\",\"seriesName\":\"Houseboat\",\"slug\":\"houseboat\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":null,\"id\":122951,\"network\":null,\"overview\":\"Three
+        experts are challenged to find the perfect item to complement a home on budgets
+        of \xA31,000, \xA3300 and \xA380, before the owner decides which object to
+        keep. \",\"seriesName\":\"House Gift\",\"slug\":\"house-gift\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/images/missing/series.jpg\",\"firstAired\":\"2009-8-18\",\"id\":110461,\"network\":\"MTV\",\"overview\":\"This
+        show follows Jazmin Whitley, a 20-year-old aspiring fashion designer, as she
+        pursues her career and her fashion line, \\\"Li Cari,\\\" while also balancing
+        the typical life of a teenager.\",\"seriesName\":\"House of Jazmin\",\"slug\":\"house-of-jazmin\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/108331-1.jpg\",\"firstAired\":\"2009-8-5\",\"id\":108331,\"network\":\"DIY
+        Network\",\"overview\":\"HGTV and DIY Network build on the success of the
+        hit show Yard Crashers by taking this series inside. House Crashers is ambush
+        renovation at its best. Host and contractor Josh Temple stalks a big-box home
+        improvement store looking for unsuspecting weekend warriors, then follows
+        them home with a large crew of experts in tow. Watch as stunned homeowners
+        who journeyed into the store to fix a simple leaky faucet end up winning the
+        remodeling lottery with dramatic, eye-popping room transformations.\",\"seriesName\":\"House
+        Crashers\",\"slug\":\"house-crashers\",\"status\":\"Ended\"},{\"aliases\":[\"Het
+        Huis Anubis\"],\"banner\":\"/banners/posters/97051-2.jpg\",\"firstAired\":\"2006-9-26\",\"id\":97051,\"network\":\"Nickelodeon\",\"overview\":\"In
+        a building dating from 1900, currently serving as a boarding school, eight
+        young people live together under the leadership of the strict landlord, Victor.
+        When newcomer Nienke moves into the house, another resident, Joyce, suddenly
+        disappears. Joyce's best friend, Patricia doesn't trust Nienke and forces
+        her to spend a night in the attic.There, Nienke makes a bizarre discovery:
+        the recorded diary of a young girl, Sarah, who lived in the house, many years
+        before. Sarah's parents were archaeologists in Egypt who mysteriously died.
+        On the tapes, it is revealed the house has a secret history, a mystery that
+        nobody knows anything about. She decides to investigate, together with fellow
+        resident Fabian and her roommate, Amber. Meanwhile, Patricia searches for
+        answers about Joyce's disappearance, while other residents have their own
+        problems to deal with.\\r\\nWhile each resident has their own way of dealing
+        with school, friends, love and growing up, the teens bond together to search
+        for the treasure hidden within Het Huis Anubis (The House of Anubis) .\",\"seriesName\":\"The
+        House of Anubis (NL)\",\"slug\":\"house-of-anubis-nl\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/90651-2.jpg\",\"firstAired\":\"2008-3-19\",\"id\":90651,\"network\":\"LifeStyle\",\"overview\":\"The
+        series follows property owners who are having difficulty selling their home.
+        The show is hosted by property expert Andrew Winter, who is joined by landscaper
+        Charlie Albone, and interior designer Shaynna Blaze. The team initially assess
+        the property, and then proceed with a renovation to boost the property's appeal
+        and salability. The property is then put up for sale and the result is shown
+        at the end of each episode.\",\"seriesName\":\"Selling Houses Australia\",\"slug\":\"selling-houses-australia\",\"status\":\"Continuing\"},{\"aliases\":[],\"banner\":\"/banners/posters/85109-1.jpg\",\"firstAired\":\"2005-3-25\",\"id\":85109,\"network\":\"ABC
+        (US)\",\"overview\":\"This new retelling of the ever popular Laura Ingalls
+        Wilder books chronicles Charles Ingalls and his decision to uproot his family
+        and move from their Wisconsin home to a new plot of land in Kansas. Their
+        journey is full of danger and peril as they encounter rough terrain, wild
+        animals and complete isolation. For young Laura and Mary Ingalls this new
+        world is magical and full of adventure.\",\"seriesName\":\"Little House on
+        the Prairie (2005) \",\"slug\":\"little-house-on-the-prairie-2005\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/84959-1.jpg\",\"firstAired\":\"2009-1-15\",\"id\":84959,\"network\":\"VH1\",\"overview\":\"Sober
+        House is a continuation of Celebrity Rehab, in which celebrities with substance
+        addictions transition from a drug-rehabilitation center to a less structured,
+        drug-free, sober living home, which is housed in a mansion in the Hollywood
+        Hills. The facility, at which the recovering addicts stay for 30 days, is
+        run by House Manager Jennifer Gimenez and rehab tech Will Smith, a former
+        stuntman. Bob Forrest serves as the head counselor. Dr. Drew Pinsky provides
+        outpatient counseling to the recovering addicts during their time in the house.\",\"seriesName\":\"Sober
+        House\",\"slug\":\"sober-house\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/84228-2.jpg\",\"firstAired\":\"2008-12-22\",\"id\":84228,\"network\":\"BBC
+        Four\",\"overview\":\"A ghost story about a cursed house. The cursed house
+        - Geap Manor - weaves together three ghost stories set during Georgian times,
+        the 1920s and the present day.\",\"seriesName\":\"Crooked House\",\"slug\":\"crooked-house\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/84193-1.jpg\",\"firstAired\":\"1999-9-22\",\"id\":84193,\"network\":\"Channel
+        4\",\"overview\":\"The Bowlers, a thoroughly modern family of six, were selected
+        from over 400 families around the UK, to embark on a unique time travel journey
+        to 1900. For three months they swap the luxury of 1999 for a life of urban
+        Victorian domesticity.\",\"seriesName\":\"1900 House (UK)\",\"slug\":\"1900-house-uk\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/84079-1.jpg\",\"firstAired\":\"2008-12-9\",\"id\":84079,\"network\":\"Channel
+        4\",\"overview\":\"This new reality series takes the old Ramsay's Kitchen
+        Nightmares format and applies it the stately homes of England,\",\"seriesName\":\"Country
+        House Rescue\",\"slug\":\"country-house-rescue\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/82200-1.jpg\",\"firstAired\":\"1988-2-21\",\"id\":82200,\"network\":\"NBC\",\"overview\":\"Ian
+        Struan Dunross is chairman of Struan \\u0026 Co, the oldest and largest of
+        the British-East Asia trading companies. To the Chinese, that also makes him
+        \\\"Tai-Pan\\\" (\\\"supreme leader\\\") of the \\\"Noble House\\\". Unfortunately,
+        with his power, he inherits ancient promises, dark secrets and deep financial
+        problems on a small island full of people who want to see Struan's fall so
+        they can become the Noble House. Dunross' worst enemy is the vicious Quillan
+        Gornt, a lesser tai-pan, and he's doing everything in his power to bring the
+        Noble House to ruin. Drawn into the fight between Gornt and Dunross is an
+        upstart American billionaire who tries to gain a foothold on the Hong Kong
+        market and has made a deal to steal something that will give him power, even
+        over the Noble House. Unfortunately, that something has fallen into the hands
+        of a powerful Chinese overlord. \\\"Everybody was watching [and cheating on]
+        everybody.\\\" Who will succeed in the end?\",\"seriesName\":\"Noble House\",\"slug\":\"noble-house\",\"status\":\"Ended\"},{\"aliases\":[],\"banner\":\"/banners/posters/81249-1.jpg\",\"firstAired\":\"2008-7-16\",\"id\":81249,\"network\":\"MTV\",\"overview\":\"Run's
+        had his hands full with his lovely wife and family. Oh, and don't forget about
+        his comeback album. Roll with Rev Run and fam in this reality sitcom. Who's
+        house? Run's House!\",\"seriesName\":\"Run's House\",\"slug\":\"runs-house\",\"status\":\"Ended\"}]}"
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:57:55 GMT
+      Vary:
+      - Accept-Language
+      Via:
+      - 1.1 aa0f45a042ef12e49743189a7dace623.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - h9yzyBesYkugah6nExQncatRJRSREOKTa81gum_3KY0LFg08vF7S_Q==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/73255
+  response:
+    body:
+      string: '{"data":{"id":73255,"seriesId":"22374","seriesName":"House","aliases":["House
+        M.D."],"season":"8","poster":"posters/73255-24.jpg","banner":"graphical/73255-g7.jpg","fanart":"fanart/original/73255-11.jpg","status":"Ended","firstAired":"2004-11-16","network":"FOX","networkId":"1318","runtime":"45","language":"en","genre":["Drama","Suspense"],"overview":"Dr.
+        Gregory House is a maverick physician who is devoid of bedside manner. While
+        his behavior can border on antisocial, Dr. House thrives on the challenge
+        of solving the medical puzzles that other doctors give up on. Together with
+        his hand-picked team of young medical experts, he''ll do whatever it takes
+        in the race against the clock to solve the case.","lastUpdated":1575144873,"airsDayOfWeek":"","airsTime":"","rating":"TV-14","imdbId":"tt0412142","zap2itId":"EP00688359","added":"","addedBy":null,"siteRating":9.1,"siteRatingCount":34962,"slug":"house"}}'
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '912'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 15:32:48 GMT
+      Last-Modified:
+      - Sat, 30 Nov 2019 20:14:33 GMT
+      Vary:
+      - Accept-Language
+      Via:
+      - 1.1 ef0351f6e6a938444811465f38f5ed86.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - K1uC4yYv8SNEQ3kx9WBZnzVdKNJUG63DCOA6QI--6Q1j7MDzyXSTcg==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Hit from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/73255/episodes/query?airedSeason=1&airedEpisode=2
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3RUwXIaORD9FZUuvgxkAEMSbgTvrlNZb1whXh9SOWhGDaMgpFm1BCEu/3ueZsBL
+        amuLy/Tr192vu9U8SWvcluX8Sa5N4Cjno0Jadfpw9B0fLllbyDbQvv9+LqRWUcn5lydpNIij8u3b
+        aSGVCaRXpNi7LvrCfn8j59PpZHYCf2sNe01/pV1FQc7HhaQTonYk5/JeRQrOxKMselmLHAXHuCyv
+        B6PRYDyBZ5OI4yqqAPlf5MLSd7HapioHfThaIrH0dROUg32vkhV/KJcYxidfGSc+N36nsrmqfYzi
+        FlyOSscX5I7qxvqDqX8AeiSnj8jwg6wl+RUTgKI6+r72PUGv+Hj1u7IWzcN9CAZQ5/xTHQK5msQH
+        1SJf9vo9hb2hAzp6bMgJJSKRUxsSVtXBM5NorToip2HBMZh6C9bBxEYoJ5Izmlw0a6MqS6IKCu1o
+        w5g0FeImDNFMQgrltIgNIbfaiSZxBDl6sTF7Eg0Stwq6IoPHB2gdimWDDMhHastdZKW0cHTgorO2
+        RgswxN2qEFWKPcMfr1g4s2niAA0HH0CxNtXGqWi84yysDWi4o2ujNs6z4U4cY6gXWrOmTmul6m1W
+        yv8kSBTe0VAs+KJeQ8piFjqP3fiA18KnpuFkTGdQUURcF9KeH5Pw6zNg0Lgwbp2CycHd0JZJY8X/
+        Dq1bSLh6mVPf9E4dxTfMEmhOuEYWwa3SUCDz5bhNQli+p1+fNOVneLF32M/5qLxOdR7UElTAtx8f
+        BqNyCi43/vAQLDDZX+RDi6vLVzCajGdvyuvxpMQz3Osbw3U+w8yDeXGAsP57aQCx5zZms79sVbG3
+        Kb6QJvnoLNrvhfcZ+NXryXg6fdUf+/Bbu8kaMX7i9yjeOX/R+e54/hPgxRrVzrpONQG/o7UP9H/4
+        SfnZYXa6yoVkjOUMv8k16tfeRazmExbqNvB9/nswynhs0Moixca/NNlDWtNpUp39aHRsYM+uyzN0
+        S/ktA5vMMsY443P618M3l8DSJwfieDQGbPjOY7NyXj5/ff4JAAD//wMAADCCkVUFAAA=
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:03:17 GMT
+      Vary:
+      - Accept-Encoding,Accept-Language
+      Via:
+      - 1.1 af3ec872aa77de6760622a554164a644.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - W95TdIgRkvfHufyhQk-mhaRep16IbC-BylBtaVURHGIp_t2UK5EiQw==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Hit from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/episodes/110995
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3RUy3IbNxD8FRQuupA0HyJt80ZTSeRyFKtMKzqkcphdDLkwQWCDAcTQLv17GktS
+        oSqV2tP0NGZ6XvtDG0qk5z+0NXo+Gg3fv5/2NNnIZsUkwQN8ZX+80fPpdDI7gT+1VoLh3/Ku4qjn
+        457mE0I71nN9T4mjt+mge3pto6RFeQXHeDi87o9G/fEEnk1mSatEUfT8D71w/LdabXNVHn06OGa1
+        DHUTycO+p+zUL+SzwPgSKuvV1ybsqJirOqSkbsGVRCa9IHdcNy7sbf0d0CN7c0CE7+wc6z972kBR
+        ncIx9z1Dr/p89TM5h+Lh3kcLqHP+SvvIvmb1iVrEK97wxPHJ8h4VPTbsFanE7GnDylEdgwir1tEB
+        Ma0oSdHWW7D2NjWKvMreGvbJri1VjlUVCeUYK+g099RNHKCYjBDkjUoNIzbtVJMlgZyC2tgnVg0C
+        twRdScCTPbQO1LJBBMRj2kr3siKjPO+l11lbaxQY6m7VU1VOR0Y4XInydtOkPgqOIYLiXK6tp2SD
+        lyKsjSi4oxtLGx/ESidO0NQLrUVTp7WieluUyl8ZElXwPFALucjXMDn0wpS22xCxLXIqGk5Bd/oV
+        J7zrnrTnZVJhfQYsClfWr3O05XHXtGU2GPG/TesGEq9e+nQsekcH9Q29BFoCrhFFSUsGCrAmjvwm
+        41k5jdcrzWUNL+YO+7mn0RmT69KoJaiAbz8/9EfDKbjShP1DdMC6uJIeWhxduYLRZDx7N7weT4ZY
+        wydzY6UuZ1h4MC8OENZ/Lw0g5tymYvrsHE6ykuByeiFNytE5lH8Ufowgb95OxtPpm+OxD761m6IR
+        7Wf5iOSd85XOD4fzT0AWa2Q76zrlBPyB1yHy/+En5WeH3ZmqJNIpDWf4JtfIXwefMJovGKjfwPf1
+        9/6o4KlBKYucmvBS5BEyhk+d6uxHa1IDe3Y9PEO3XHYZ2GRWMMEZn8O/Hby7BJYhexDHozFgK3cB
+        k9Xz4fPzPwAAAP//AwCwrjxJHgUAAA==
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:03:18 GMT
+      Last-Modified:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Vary:
+      - Accept-Encoding,Accept-Language
+      Via:
+      - 1.1 d16dfa38c231b4b8f5df64d8f47f48d0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - x6e0BQYnsdoLGpBRKdI7g2-QkrwZeMagMtWPkDORcDEvgLhbJNVN1Q==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Hit from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/search/series?name=Doctor+Who+2005
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4RSTW/bMAz9K4ROG2CnSfqZ3NpmGDoMG9AF3WHoQbFoW4ksGpKcLCgK9Idsf66/
+        ZJSdzd4h28kWyfdIPr4noWSQYv7tSUijpUfP/2JBWSAHX0uaw7JE6N4e7nGrvQ6oRCKOxRctDt5M
+        x+Pzt/FNm8j1gJV4TMRKWotOzMVJ9+dPavIhfi+vrsZn6fl0tK4LhuXa+XCtHXPOReRKT9PpBSc0
+        B9raRFgMO3IbLri5uYXPFjlNW3RbjTsO9hOC9iAt8IZoYakrhI/kFOSOKghcVRvJXPBeGqNzh3vY
+        8QbByS0azwWOmqJktAHKIUS4tAp8LTMEbVuG5fX94u7LaKAWlJKbgiFbgNE+RGzueADlW3hGVS2t
+        JuvbbiU3A19KXhjW1DiLe65r0ZF/J/cjuLMslVSRSe21LZI2NVhxZRACwevLD4cFsrwy4OvLTx6S
+        oxIs7mBFas84uWE8kD1Ea74AWdYn8O46lIAyK+EPCU85AmB1PfIG/pOskPXtXdJf25um4JRqUykv
+        lsZMTAQZGjaXuCUbtG24vXhOhq77pzsmk+nF5SSdHHHHLJ2lZwdzdKUDd9jGmL+MMRg8YlvpwJJN
+        a0e5DlB16nTLRrV9SS5AzhbKtak8ZGhwFXU5XCfab/nwG9DTs2gf6OAQqbZoQ+Mw6RSWwAzsgyh/
+        32lyClhrT4qfOZP0B046q/Gs+D3TbesIjUPx2GvMwug/B5odPdBseKB3VrGsz4/PvwAAAP//AwAT
+        ik7FHAQAAA==
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:57:56 GMT
+      Vary:
+      - Accept-Encoding,Accept-Language
+      Via:
+      - 1.1 db8930385bcdd90dd32aced7ffdcaacd.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - MtGht3RozS4TjlXTU_3i2bwb5SPEEDjMrBbu6euFWjiYzEnhGJQhCA==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/78804
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA2xTy07bQBT9lSuvWokEx7HJYwekRUhtQZCWRdXFTXxjDzgz1sw4kYuQ+JD25/iS
+        nnECZNGVZ8499zHnHj9GOXuOpo+RyqPpaDyO06PIiVXiLgFEw3Q4GUSv0DdeC8CZWXpj6a409CGJ
+        4+wjCFwpduKi6c+D8JTmpdDu7uhGNsopLzno/8d/hUbsjEaTQQJabZwXi9vu4I67CXtZ0r+vC8QX
+        rHUXLyzXpVpytWcUyWRPWbFm60HZHY6NVYXSb8RBHO+JzrNv8IDo3GivdKN0l66s86fKSlAjPLYX
+        D3vJCSJa/NbYB8BnZ+d0peUd20k3AmAb1OpEy2JcK9ZFw0W4i8a9EG0laHaab0T7xoYiM8trxvd2
+        qUQvhT6rpVfQBOqYjdiNki3y3xUk5Yg1YQOiaY5u9MXYnFbWrMmDVaOreLrgqlIrKy1tsThveSOV
+        A8GapiiRXZFZURgWxXJyNaO10l2F+enN7PK2f7BNKhlNqTK6oEo5H3JXsIjOXZe+NOuaNaZ2XbcS
+        zciVDBnp3jRWSwtelx3qb7nt06XGijkPlfIW4h91oYMnLiohb+jl+Y8VCCeWvbw8/8WQQJm0bGlh
+        8hZ5/IB8MnqP1nCOwcqVx9uVL0l4WdJbEUzZJ+q24/z3Gj9EWPYgG2XjNB1kY5gbJphxe7W6EwkL
+        v210zm20C8x3+z2Zphldfw07R0l4Byv60bu+AKDW+aKzhPdxOjyZTIK1f3OdKN/Bn67jeJTFg9E4
+        lMzzzmuvx7M2muqmqmBQ/CM3+9qTfnoInBv4LJomaTI5AV41oX3eSdeD/r1g3Ojp6R8AAAD//wMA
+        9ID/Pu4DAAA=
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 12:46:12 GMT
+      Last-Modified:
+      - Sun, 08 Dec 2019 22:29:18 GMT
+      Vary:
+      - Accept-Encoding,Accept-Language
+      Via:
+      - 1.1 91e4318d5ae7ae2c5a90aaf2b1916ef6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - RY7hB2Ss6pJ8GyPdpLQ4ygTq5pVwnzrKeG4DQhPVWbIpAuZon5Ct_g==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Hit from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/78804/episodes/query?airedSeason=2&airedEpisode=3
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3RUwXIaORD9lS6dBwdjAuO5YSBrZ4k3ZXB8SHIQo2ZGsZAoSWPCuly1X7Mftl+y
+        TzOQsmtrDxTq163u161+8yyMto9BFM9io32IojjPhJHHg+WfONjGmEzsPD9155dMKBmlKL4+C61E
+        cdEfDC8QLbVntWQZnBXF4I19M0O+96P88ojOdzo4xbfNds0eGTLBR0RuWRRiWdbOGbrjxmpkyzpy
+        k3QV3kG/P+r1h73BJTxVwyEuo/Ro4quY2Fg7e6Bl5L30ka5ZKgRdsf0ht9rScqtjDWAqvUPnTFfs
+        /SEBhre00uvEJxNzo4Ncc6xpaaTixGDeVIz4BxlqbavYskL2WLOnKVj7FvnomD7r8tHwobVqSwvm
+        0PoWTamtkjTzhz/5EcCtY0NTI/0jw7pziiY+1o0X3zFh9FpG13X1EfkDXcs9h+Tbex2586zc+kAP
+        NZpyTeDkdE/snzTvMaeFK2XE/Aqa8WbjD/RFGqZrXaGtdsAZLZxVzmY0t5WRVuGAqdX0zX+zMxm5
+        IMx63Jpzy1vNoaBVzfS718boKC1oJWf6AfdMEr8QvbQVU+UwqdBzlmQkSaXbYolqtkE/Iah74h7d
+        f/gjZJRo97SNjLwYdKSy1kZ5BjfwIqdUL2ItkfB0U2lrMYUzENIBFVC0jIHwIMlACnRObtMCK5g1
+        zVyaaEZ3LnCb9RNeig/dUqBOoD3Kp/9EttlhWLjvjKKN12xV+Oevv0WSh60aWXESzdu1bRfl1QPA
+        fknKcaopE50pQgHfTj8s+/l4geBQu/29NwBFp7v7HbSVtvz8/Xg4yIf5qI9leFIzHcokthQH85XM
+        YP1XTgCntdzFZHb6levgTBN/BZ2PkqoM2yP1LkV4N87z/vBdp+mzH7sqkWS0H25QvXW+IXp1QKr8
+        4vwyb6UdJhvUPLE7VgZ8xRvn+f/wI/+TQ2/V+ubYa+lsess7mZ4e0OpL7/NvwKGT7XrSYO9/ddhB
+        SvHxams/aAXBF2I07J+ga4YC8F0TF6OEBYjplH58lr8Gpq6x6UuY54B1+OTwrqLov3x/+RcAAP//
+        AwCd2z+yOAUAAA==
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:03:19 GMT
+      Vary:
+      - Accept-Encoding,Accept-Language
+      Via:
+      - 1.1 1aa2bf2109b471b97d9f7ada4bca1cd4.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - DovEWaoXkywOZHkwhXgMkT78Z8sj33fAIzat41qCcseIVkro5FiMZg==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Hit from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/episodes/302431
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3RT23IaORD9lS49Dw5gAuN5w0DWzhJvyuD4YbMPYtTMKNZIlKQxxaZctV+zH5Yv
+        ydEAKbu29mEK+nSr+/TlfBdKRimK70IrUVz2h6PLQSak9qxWLIOzohi+sW/nohi8H+dXJ3Sx08Ep
+        vmubDXtkyASfENmwKMSqrJ0zdM+t1ciWia32IU7TU3iH/f641x/1hlfwVC2HuIrSB1H8KaY21s4e
+        aBV5L32kG5YKQddsv8lGW1o1OtYAZtI7oy3TNXt/SIDhhtZ6k/hkYmF0kBuONa2MVJwYLNqKEf8o
+        Q61tFTtWyB5r9jQDa98hHx3TZ10+GT50Vm1pyRw637IttVWS5v7wNz8BuHNsaGakf2JY907R1Me6
+        9eKvTCj0WkZ37Ooj8ge6kXsOybf3OvLRs3abAz3WaMq1gZPTPbN/1rzHnJaulBHzK2jO260/0Bdp
+        mG50hba6AWe0dFY5m9HCVkZahT+YWk1f/Vc7l5ELwqwnnbmw3GgOBa1rpt+9NkZHaUErOdMH3DNJ
+        fCF6aSumymFSoecsyUiSStfsPNdsg35G0HHFPXr48EfIKNHuaRsZeTHoSGWtjfIMbuBFTqlelCEi
+        4fml0tZiChcgpAMqoGgZA2EhyUAKdE5u2wFrmDXNXZpoRvcucJf1EzbFh+NRoE6gPcqn30S23WFY
+        eO+Moq3XbFX48c+/WBQGVbWy4nT/b8+2O5RXC4D9komdd6otE50ZQgHfzT6s+vlkieBQu/2DNwC7
+        xCE+7CCtdOWD95PRMB/l4z6O4VnNdSiT2FIczFcyg/VfOQGc1XIXk2lbY6C7TXCmjb+CBuOkKsP2
+        RP2YIryb5Hl/9O6o6YtvuyqRZLQfblG9c74hen1AqvxycJV30g7TLWqe2Z0qA77mrfP8f/iJ/9mh
+        G7W5PfVaOpt2eS/T6gGtv/Q+/wYcOmk20xZ3/6vDI6QUn5529qNWEHwhxqP+GbphKCACuxwnLEBM
+        5/STi/w1MHOtjam/HLAOnxz2Kor+y8tPAAAA//8DANxX6YABBQAA
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:03:19 GMT
+      Last-Modified:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Vary:
+      - Accept-Encoding,Accept-Language
+      Via:
+      - 1.1 76ebb2b2a599c264ac624f33b5da568f.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 0Wcyuh9-Eb2v4Xl3AwVdK9oL-Qv2R040DlwM_PyBsN07c0BVvXIj2A==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Hit from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/73255
+  response:
+    body:
+      string: '{"data":{"id":73255,"seriesId":"22374","seriesName":"House","aliases":["House
+        M.D."],"season":"8","poster":"posters/73255-24.jpg","banner":"graphical/73255-g7.jpg","fanart":"fanart/original/73255-11.jpg","status":"Ended","firstAired":"2004-11-16","network":"FOX","networkId":"1318","runtime":"45","language":"en","genre":["Drama","Suspense"],"overview":"Dr.
+        Gregory House is a maverick physician who is devoid of bedside manner. While
+        his behavior can border on antisocial, Dr. House thrives on the challenge
+        of solving the medical puzzles that other doctors give up on. Together with
+        his hand-picked team of young medical experts, he''ll do whatever it takes
+        in the race against the clock to solve the case.","lastUpdated":1575144873,"airsDayOfWeek":"","airsTime":"","rating":"TV-14","imdbId":"tt0412142","zap2itId":"EP00688359","added":"","addedBy":null,"siteRating":9.1,"siteRatingCount":34962,"slug":"house"}}'
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '912'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 13:58:45 GMT
+      Last-Modified:
+      - Sat, 30 Nov 2019 20:14:33 GMT
+      Vary:
+      - Accept-Language
+      Via:
+      - 1.1 ecee0359d5c5ac41b0df518901cd63aa.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - SNVhLtZ4uDaRq5ZrlJ7Et2LqXmUKA2hLcclyviQZ9nI0KOKg7dylug==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Hit from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/73255/images/query?keyType=poster
+  response:
+    body:
+      string: '{"data":[{"id":25664,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-1.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.2,"count":676},"thumbnail":"posters/73255-1_t.jpg"},{"id":25914,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-2.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.3,"count":468},"thumbnail":"posters/73255-2_t.jpg"},{"id":28578,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-3.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.4,"count":1326},"thumbnail":"posters/73255-3_t.jpg"},{"id":28579,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-4.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":7,"count":780},"thumbnail":"posters/73255-4_t.jpg"},{"id":29097,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-5.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.9,"count":416},"thumbnail":"posters/73255-5_t.jpg"},{"id":29098,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-6.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5,"count":156},"thumbnail":"posters/73255-6_t.jpg"},{"id":29099,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-7.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6,"count":546},"thumbnail":"posters/73255-7_t.jpg"},{"id":29100,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-8.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.8,"count":260},"thumbnail":"posters/73255-8_t.jpg"},{"id":29301,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-9.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":7,"count":234},"thumbnail":"posters/73255-9_t.jpg"},{"id":33710,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-10.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.8,"count":286},"thumbnail":"posters/73255-10_t.jpg"},{"id":196621,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-11.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":7.2,"count":546},"thumbnail":"posters/73255-11_t.jpg"},{"id":196631,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-12.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":4.8,"count":104},"thumbnail":"posters/73255-12_t.jpg"},{"id":196641,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-13.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.7,"count":650},"thumbnail":"posters/73255-13_t.jpg"},{"id":196681,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-14.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":3.3,"count":104},"thumbnail":"posters/73255-14_t.jpg"},{"id":196691,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-15.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.7,"count":234},"thumbnail":"posters/73255-15_t.jpg"},{"id":196751,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-16.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.4,"count":286},"thumbnail":"posters/73255-16_t.jpg"},{"id":198171,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-17.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.4,"count":416},"thumbnail":"posters/73255-17_t.jpg"},{"id":210511,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-19.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.2,"count":130},"thumbnail":"posters/73255-19_t.jpg"},{"id":210521,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-18.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.2,"count":416},"thumbnail":"posters/73255-18_t.jpg"},{"id":210531,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-20.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":4.8,"count":130},"thumbnail":"posters/73255-20_t.jpg"},{"id":210701,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-21.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.3,"count":312},"thumbnail":"posters/73255-21_t.jpg"},{"id":224011,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-23.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.1,"count":546},"thumbnail":"posters/73255-23_t.jpg"},{"id":230801,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-24.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.5,"count":1352},"thumbnail":"posters/73255-24_t.jpg"},{"id":387781,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-22.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.4,"count":260},"thumbnail":"posters/73255-22_t.jpg"},{"id":585961,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-25.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.3,"count":156},"thumbnail":"posters/73255-25_t.jpg"},{"id":585981,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-26.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.9,"count":338},"thumbnail":"posters/73255-26_t.jpg"},{"id":586041,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-27.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6.3,"count":156},"thumbnail":"posters/73255-27_t.jpg"},{"id":586111,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-28.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.8,"count":156},"thumbnail":"posters/73255-28_t.jpg"},{"id":596031,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-29.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6,"count":286},"thumbnail":"posters/73255-29_t.jpg"},{"id":763831,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-30.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.7,"count":78},"thumbnail":"posters/73255-30_t.jpg"},{"id":876204,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-37.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.9,"count":234},"thumbnail":"posters/73255-37_t.jpg"},{"id":876205,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-38.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.8,"count":130},"thumbnail":"posters/73255-38_t.jpg"},{"id":876640,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-39.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.8,"count":130},"thumbnail":"posters/73255-39_t.jpg"},{"id":880273,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-40.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":6,"count":156},"thumbnail":"posters/73255-40_t.jpg"},{"id":883255,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-41.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.9,"count":234},"thumbnail":"posters/73255-41_t.jpg"},{"id":964610,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-33.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":4,"count":156},"thumbnail":"posters/73255-33_t.jpg"},{"id":1042694,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-35.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":5.5,"count":52},"thumbnail":"posters/73255-35_t.jpg"},{"id":1184439,"keyType":"poster","subKey":"graphical","fileName":"posters/73255-42.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":0,"count":0},"thumbnail":"posters/73255-42_t.jpg"},{"id":1343589,"keyType":"poster","subKey":"graphical","fileName":"posters/5c78a1888d8e7.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":0,"count":0},"thumbnail":"posters/5c78a1888d8e7_t.jpg"},{"id":1362732,"keyType":"poster","subKey":"graphical","fileName":"posters/5ce09b0f2cf29.jpg","languageId":0,"language":"en","resolution":"680x1000","ratingsInfo":{"average":7,"count":52},"thumbnail":"posters/5ce09b0f2cf29_t.jpg"}]}'
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 01:40:18 GMT
+      Vary:
+      - Accept-Language
+      Via:
+      - 1.1 8b1c1823a9db474c5721c440e560ca5e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - NpmxlqyzUGQm_oFQrv6pICl8duQKxYFTgrTlRYBIU9AWvXU-gy69RA==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Hit from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - en
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzY1MzM0NzQsImlkIjoiRmxleEdldCIsIm9yaWdfaWF0IjoxNTc1OTI4Njc0fQ.gZO1DaMXesZ9tiVBZOA7S1hBq2NfBUSQ6wcZwDr3H2yGLrbhLMiUQVXW2shD89cCzJxs4Tjf0ap4dB8KwFRBpmcU-VEpyY9Z3tZf5Q9fAEnxjQXc6FVfR7LeXRLcupBy5AQpE23X3roJek6F--77l01Q_YZU8yjyr4QB7_namYS1MuZ9apCI98sMII_ojR7gdk75HwVCZZyOYoEuzVoRLS8I7NNWpnKDSwIPuwx9detMGJB37KRdeMgp2nDYDz28pl6nUe1EpWh2_wX8cxKDfybMszKu9u-883ohO5hP_yumAFS2g_nfaspuda00kQ4vp8EE517WfdgeyxPSnHO6eg
+      Connection:
+      - keep-alive
+      User-Agent:
+      - FlexGet/3.0.12 (www.flexget.com)
+    method: GET
+    uri: https://api.thetvdb.com/series/73255/actors
+  response:
+    body:
+      string: '{"data":[{"id":63585230,"seriesId":73255,"name":"Hugh Laurie","role":"Gregory
+        House","sortOrder":1,"image":"actors/23839.jpg","imageAuthor":171,"imageAdded":"2011-11-24
+        13:42:07","lastUpdated":"2011-11-24 13:42:07"},{"id":63585227,"seriesId":73255,"name":"Lisa
+        Edelstein","role":"Lisa Cuddy","sortOrder":2,"image":"actors/23838.jpg","imageAuthor":171,"imageAdded":"2016-01-27
+        12:18:05","lastUpdated":"2016-01-27 12:18:05"},{"id":63585224,"seriesId":73255,"name":"Jesse
+        Spencer","role":"Robert Chase","sortOrder":3,"image":"actors/23837.jpg","imageAuthor":171,"imageAdded":"2011-11-24
+        13:19:26","lastUpdated":"2011-11-24 13:19:26"},{"id":63585233,"seriesId":73255,"name":"Jennifer
+        Morrison","role":"Allison Cameron","sortOrder":4,"image":"actors/23840.jpg","imageAuthor":171,"imageAdded":"2016-01-27
+        12:11:27","lastUpdated":"2016-01-27 12:11:27"},{"id":63585235,"seriesId":73255,"name":"Omar
+        Epps","role":"Eric Foreman","sortOrder":5,"image":"actors/23841.jpg","imageAuthor":171,"imageAdded":"2011-11-24
+        13:22:35","lastUpdated":"2011-11-24 13:22:35"},{"id":63585237,"seriesId":73255,"name":"Robert
+        Sean Leonard","role":"James Wilson","sortOrder":6,"image":"actors/23842.jpg","imageAuthor":171,"imageAdded":"2011-11-24
+        13:21:02","lastUpdated":"2011-11-24 13:21:02"},{"id":63585239,"seriesId":73255,"name":"Peter
+        Jacobson","role":"Chris Taub","sortOrder":7,"image":"actors/80086.jpg","imageAuthor":171,"imageAdded":"2016-01-27
+        12:07:53","lastUpdated":"2016-01-27 12:07:53"},{"id":63585241,"seriesId":73255,"name":"Kal
+        Penn","role":"Lawrence Kutner","sortOrder":8,"image":"actors/80087.jpg","imageAuthor":171,"imageAdded":"2016-01-27
+        12:15:54","lastUpdated":"2016-01-27 12:15:54"},{"id":63585243,"seriesId":73255,"name":"Olivia
+        Wilde","role":"Remy \"Thirteen\" Hadley","sortOrder":9,"image":"actors/80088.jpg","imageAuthor":171,"imageAdded":"2016-01-27
+        12:11:55","lastUpdated":"2016-01-27 12:11:55"},{"id":63585245,"seriesId":73255,"name":"Anne
+        Dudek","role":"Amber Volakis","sortOrder":10,"image":"actors/80089.jpg","imageAuthor":2545,"imageAdded":"2008-12-04
+        12:25:36","lastUpdated":"2008-12-04 12:25:36"},{"id":63585248,"seriesId":73255,"name":"Amber
+        Tamblyn","role":"Martha M. Masters","sortOrder":11,"image":"actors/283160.jpg","imageAuthor":171,"imageAdded":"2011-04-12
+        11:37:14","lastUpdated":"2011-04-12 11:37:14"},{"id":63585251,"seriesId":73255,"name":"Charlyne
+        Yi","role":"Chi Park","sortOrder":12,"image":"actors/289863.jpg","imageAuthor":171,"imageAdded":"2011-09-16
+        01:37:54","lastUpdated":"2011-09-16 01:37:54"},{"id":63585254,"seriesId":73255,"name":"Odette
+        Annable","role":"Jessica Adams","sortOrder":13,"image":"actors/289864.jpg","imageAuthor":171,"imageAdded":"2011-11-24
+        13:24:00","lastUpdated":"2011-11-24 13:24:00"},{"id":63585257,"seriesId":73255,"name":"Sela
+        Ward","role":"Stacy Warner","sortOrder":14,"image":"actors/306758.jpg","imageAuthor":171,"imageAdded":"2016-01-27
+        12:13:36","lastUpdated":"2016-01-27 12:13:36"}]}'
+    headers:
+      Cache-Control:
+      - private, max-age=86400
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 09 Dec 2019 21:57:57 GMT
+      Vary:
+      - Accept-Language
+      Via:
+      - 1.1 ecee0359d5c5ac41b0df518901cd63aa.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - t7WsEQr4zT1rjhthbE4nIP7wq0umvdozCHlf2bMAhMoDUD5bDQqSZQ==
+      X-Amz-Cf-Pop:
+      - GIG51-C2
+      X-Cache:
+      - Miss from cloudfront
+      X-Powered-By:
+      - Thundar!
+      X-Thetvdb-Api-Version:
+      - 3.0.0
+    status:
+      code: 200
+      message: OK
+version: 1

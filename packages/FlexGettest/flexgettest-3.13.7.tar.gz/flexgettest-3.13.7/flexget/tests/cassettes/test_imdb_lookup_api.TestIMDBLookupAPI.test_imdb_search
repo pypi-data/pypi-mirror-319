@@ -1,0 +1,147 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Accept-Language:
+      - en-US,en;q=0.8
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Python-urllib/2.6
+      X-Forwarded-For:
+      - 24.110.31.118
+    method: GET
+    uri: https://v3.sg.media-imdb.com/suggestion/titles/x/saw.json?includeVideos=0
+  response:
+    body:
+      string: '{"d":[{"i":{"height":947,"imageUrl":"https://m.media-amazon.com/images/M/MV5BM2M1MzI1MWYtYmM2ZC00OWY3LTk0ZGMtNmRkNzU1NzEzMWE5XkEyXkFqcGdeQXVyODUwOTkwODk@._V1_.jpg","width":640},"id":"tt0387564","l":"Saw","q":"feature","qid":"movie","rank":630,"s":"Cary
+        Elwes, Leigh Whannell","y":2004},{"i":{"height":935,"imageUrl":"https://m.media-amazon.com/images/M/MV5BZDI3OWE0ZWMtNGJjOS00N2E4LWFiOTAtZjQ4OTNiNzIwN2NkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg","width":631},"id":"tt0072271","l":"The
+        Texas Chain Saw Massacre","q":"feature","qid":"movie","rank":571,"s":"Marilyn
+        Burns, Edwin Neal","y":1974},{"i":{"height":1500,"imageUrl":"https://m.media-amazon.com/images/M/MV5BOTRjMDNmNjctNjg4ZC00N2ZkLThkMzMtOWRmYTFhMzA1ZDZlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg","width":1013},"id":"tt0432348","l":"Saw
+        II","q":"feature","qid":"movie","rank":3204,"s":"Donnie Wahlberg, Beverley
+        Mitchell","y":2005},{"i":{"height":1500,"imageUrl":"https://m.media-amazon.com/images/M/MV5BNWVjMzgwMTctZmZjNC00ZmE0LThiNTUtYzkyM2RkYWIzY2Y2XkEyXkFqcGdeQXVyNjEyNDAyMzI@._V1_.jpg","width":1012},"id":"tt0489270","l":"Saw
+        III","q":"feature","qid":"movie","rank":4202,"s":"Tobin Bell, Shawnee Smith","y":2006},{"i":{"height":1183,"imageUrl":"https://m.media-amazon.com/images/M/MV5BYjRhNWIwNzYtODEyYS00YzcxLWEzMmQtZmFhZTJjYjhkYjA3XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg","width":800},"id":"tt1477076","l":"Saw
+        3D","q":"feature","qid":"movie","rank":4537,"s":"Tobin Bell, Costas Mandylor","y":2010},{"i":{"height":1417,"imageUrl":"https://m.media-amazon.com/images/M/MV5BZjRmNjc5MTYtYjc3My00ZjNiLTg4YjUtMTQ0ZTFkZmMxMDUzXkEyXkFqcGdeQXVyNDY5MTUyNjU@._V1_.jpg","width":1063},"id":"tt1588170","l":"I
+        Saw the Devil","q":"feature","qid":"movie","rank":1665,"s":"Lee Byung-hun,
+        Choi Min-sik","y":2010},{"i":{"height":666,"imageUrl":"https://m.media-amazon.com/images/M/MV5BNjc0NjUyNzg3MF5BMl5BanBnXkFtZTYwODMxOTM3._V1_.jpg","width":450},"id":"tt0890870","l":"Saw
+        IV","q":"feature","qid":"movie","rank":5287,"s":"Tobin Bell, Scott Patterson","y":2007},{"i":{"height":2048,"imageUrl":"https://m.media-amazon.com/images/M/MV5BMTMyNTM5MDcyOV5BMl5BanBnXkFtZTcwMzkzMzY4Mg@@._V1_.jpg","width":1381},"id":"tt1233227","l":"Saw
+        VI","q":"feature","qid":"movie","rank":6162,"s":"Tobin Bell, Costas Mandylor","y":2009}],"q":"saw","v":1}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2273'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 27 Oct 2022 01:10:26 GMT
+      Server:
+      - awselb/2.0
+      Via:
+      - 1.1 7e2fab32e11703f7384de4d8fef36848.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - SU0YSXgaWpbai7eMzAzNl2l3eORAkC3zl3PETrUp0h_trEkofK-K4A==
+      X-Amz-Cf-Pop:
+      - IAD12-P2
+      X-Cache:
+      - Miss from cloudfront
+      x-imdb-graphql-request-id:
+      - d1842684-7300-4a06-b565-84245058bcde
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Accept-Language:
+      - en-US,en;q=0.8
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Python-urllib/2.6
+      X-Forwarded-For:
+      - 24.110.31.118
+    method: GET
+    uri: https://v3.sg.media-imdb.com/suggestion/titles/x/tt0234215.json?includeVideos=0
+  response:
+    body:
+      string: '{"d":[{"i":{"height":1200,"imageUrl":"https://m.media-amazon.com/images/M/MV5BODE0MzZhZTgtYzkwYi00YmI5LThlZWYtOWRmNWE5ODk0NzMxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg","width":800},"id":"tt0234215","l":"The
+        Matrix Reloaded","q":"feature","qid":"movie","rank":3260,"s":"Keanu Reeves,
+        Laurence Fishburne","y":2003}],"q":"tt0234215","v":1}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '333'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 27 Oct 2022 01:10:29 GMT
+      Server:
+      - awselb/2.0
+      Via:
+      - 1.1 7e2fab32e11703f7384de4d8fef36848.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - WsG-cfrh_I2xKVgulNN5tA3UxpzCjvtRH_Bug6V1I4R7-jCV_GgQxw==
+      X-Amz-Cf-Pop:
+      - IAD12-P2
+      X-Cache:
+      - Miss from cloudfront
+      x-imdb-graphql-request-id:
+      - 0b7a8d4f-266b-4624-938e-e127fd3f0695
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Accept-Language:
+      - en-US,en;q=0.8
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Python-urllib/2.6
+      X-Forwarded-For:
+      - 24.110.31.118
+    method: GET
+    uri: https://v3.sg.media-imdb.com/suggestion/titles/x/sdfgsdfgsdfgsdfg.json?includeVideos=0
+  response:
+    body:
+      string: '{"d":[],"q":"sdfgsdfgsdfgsdfg","v":1}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '37'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 27 Oct 2022 01:10:32 GMT
+      Server:
+      - awselb/2.0
+      Via:
+      - 1.1 7e2fab32e11703f7384de4d8fef36848.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - FG2F29VUDl_DP85_W0X6tdbenyJLubm2GwHfyVt9rEQ7q-7AmnSFDw==
+      X-Amz-Cf-Pop:
+      - IAD12-P2
+      X-Cache:
+      - Miss from cloudfront
+      x-imdb-graphql-request-id:
+      - 070b0645-5c51-4839-977a-09cef3f8a778
+    status:
+      code: 200
+      message: OK
+version: 1
