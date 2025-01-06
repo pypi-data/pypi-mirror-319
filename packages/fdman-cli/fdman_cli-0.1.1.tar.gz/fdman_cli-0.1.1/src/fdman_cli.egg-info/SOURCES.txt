@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/fdman/__init__.py
+src/fdman/fdman.py
+src/fdman/utils.py
+src/fdman_cli.egg-info/PKG-INFO
+src/fdman_cli.egg-info/SOURCES.txt
+src/fdman_cli.egg-info/dependency_links.txt
+src/fdman_cli.egg-info/entry_points.txt
+src/fdman_cli.egg-info/not-zip-safe
+src/fdman_cli.egg-info/requires.txt
+src/fdman_cli.egg-info/top_level.txt
