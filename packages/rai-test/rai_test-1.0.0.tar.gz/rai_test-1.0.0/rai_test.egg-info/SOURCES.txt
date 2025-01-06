@@ -1,0 +1,7 @@
+LICENSE
+MANIFEST.in
+setup.py
+rai_test.egg-info/PKG-INFO
+rai_test.egg-info/SOURCES.txt
+rai_test.egg-info/dependency_links.txt
+rai_test.egg-info/top_level.txt

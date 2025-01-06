@@ -1,0 +1,3 @@
+recursive-include rai_sam *.py
+recursive-include rai_sam *.so
+
