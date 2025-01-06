@@ -1,0 +1,3 @@
+[console_scripts]
+bw = bioos.bioos_workflow:bioos_workflow
+
