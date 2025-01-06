@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyBWT"
+version = "0.0.1"
+authors = [
+    { name="nullptr" },
+]
+description = "Binary Web Token (BWT) implementation in Python"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.6"
+keywords = ["bwt", "security", "signing", "token", "web"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: C",
+    "Topic :: Utilities"
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
