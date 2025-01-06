@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fdman-cli
+Version: 0.0.1
+Summary: A CLI tool that manages files and directories.
+Home-page: https://github.com/ayoub-aberbach/fdman
+Author: Ayoub A.
+Author-email: Ayoub Aberbach <aberbach.me@gmail.com>
+Maintainer-email: Ayoub Aberbach <aberbach.me@gmail.com>
+Project-URL: Repository, https://github.com/ayoub-aberbach/fdman
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: colorama
+Requires-Dist: importlib-metadata; python_version < "3.12"
