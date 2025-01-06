@@ -1,0 +1,14 @@
+backgammon/__init__.py,sha256=uR17yF9xMgdNjbvgbIQTyYR24MHWBkOJkPCT83zTU8E,623
+backgammon/__main__.py,sha256=FbEyWkzBAkhAcCaXqsFPojJJKt6MG7DRtuWlQBctUs8,3134
+backgammon/backgammon.py,sha256=iTdhRvpKBdnxO4naciBWDlVwlarwxSbd0vZH5k08u6c,14439
+backgammon/match.py,sha256=LboVwZHVV-5lx4j-n4tjD-3QHgFtF7hhYH8rwR3v-vs,5571
+backgammon/position.py,sha256=9mnLmNvqM4Y8Sl4MEoAvvQYt02PIsf80Zv6v6CmEljk,7737
+tests/__init__.py,sha256=kWnyGVqPc8kovrBsR9Hyid-zgV--OfQAtBe_HL1zAm4,577
+tests/test_backgammon.py,sha256=Ykt3wrhCpmFaSJJOPgd_95MhDs74y9YXT2OzWAcStdM,15487
+tests/test_match.py,sha256=9FBn3HbeOblf_Ghwu49m6jmcyUdhmszS-S4FmhNvNjQ,3397
+tests/test_position.py,sha256=7MeWTO_FEeW0mZ5wcxDo-qz1n9nEggC3UHQCxpNVHbA,7048
+backgammon-1.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+backgammon-1.2.0.dist-info/METADATA,sha256=qv4cCpujTKDjZxdEp7WBxbw1L4risCWQUaag4bZw8xs,4434
+backgammon-1.2.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+backgammon-1.2.0.dist-info/top_level.txt,sha256=HL1hfDpR88XiP5caKUxfhdS9nTiD5l2QPv0fEHuHdEo,17
+backgammon-1.2.0.dist-info/RECORD,,
