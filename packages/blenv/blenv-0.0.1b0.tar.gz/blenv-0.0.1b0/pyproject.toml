@@ -1,0 +1,22 @@
+[build-system]
+requires = ['setuptools>=61.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'blenv'
+version = '0.0.1b0'
+authors = [
+  { name='Brad Corlett', email='medium.tech.dev@gmail.com' },
+]
+description = 'A utility for creating and managing Blender development environments'
+license = {file = "LICENSE.txt"}
+readme = 'README.md'
+requires-python = '>=3.7'
+dependencies = [
+  # 'bpy',
+  # 'fake-bpy-module-latest',
+  'pydantic',
+  'pyyaml',
+  'python-dotenv',
+  'typer'
+]

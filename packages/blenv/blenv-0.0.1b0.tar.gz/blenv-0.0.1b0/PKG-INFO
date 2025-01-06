@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: blenv
+Version: 0.0.1b0
+Summary: A utility for creating and managing Blender development environments
+Author-email: Brad Corlett <medium.tech.dev@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
+Requires-Dist: python-dotenv
+Requires-Dist: typer
