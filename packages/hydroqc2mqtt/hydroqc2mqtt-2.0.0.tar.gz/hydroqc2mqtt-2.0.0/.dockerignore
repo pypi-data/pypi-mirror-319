@@ -1,0 +1,7 @@
+env
+.env
+*.egg-info
+run.sh
+config.yaml
+.git
+*/__pycache__/*
