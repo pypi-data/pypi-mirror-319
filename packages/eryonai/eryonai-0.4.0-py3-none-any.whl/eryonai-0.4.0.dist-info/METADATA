@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: eryonai
+Version: 0.4.0
+Summary: Eryon AI is an advanced language model designed for interactive tasks.
+Author: EryonAI
+Author-email: eryon.ai.company@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: torch
+Requires-Dist: transformers
+
+# EryonAI
+
+EryonAI is a custom version of Llama architecture for interactive tasks, such as keyword detection, memory recall, and improved performance by Wikipedia search integration. It was trained on the same datasets used by Llama models, but it also contains extra custom datasets geared for all sorts of tasks.
+
+## Features
+
+* **Modified Llama Architecture**: EryonAI is based on the architecture of Llama but comprises personalized configurations, including external memory and keyword-based processing.
+- **Wikipedia Search**: The model can search Wikipedia for relevant information to enhance its responses. This allows it to provide real-time insights on various topics, powered by the Wikipedia API.
+- **Memory Recall**: The model can "remember" previous inputs and recall them to provide context to new queries.
+- **Custom Datasets**: EryonAI was not only trained on Llama's publicly available datasets but also on custom datasets to improve performance in specific domains.
+
+## Installation
+
+To install the EryonAI package, you can use pip:
+
+```bash
+pip install eryonai
+```
+
+## Training
+
+EryonAI was trained on Google Colab's GPU using the same datasets as Llama models but modified for memory and external internet search capabilities. This training was executed on custom datasets in order to adapt the model to specific uses.
+
+## Special Thanks
+
+- **Wikipedia**: This project would not have been possible without all the valuable data provided by the API, which runs the search within EryonAI.
+- **Meta**: For creating the original Llama models, on which EryonAI was built.
