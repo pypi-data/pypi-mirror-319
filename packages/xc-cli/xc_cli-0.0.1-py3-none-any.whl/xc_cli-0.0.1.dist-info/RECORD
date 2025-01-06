@@ -1,0 +1,14 @@
+xc/__init__.py,sha256=0Z0wCZEjMLYrKSVOOw6xP_pkE3XI5f70cHB83-L4J2o,174
+xc/cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xc/cmd/docker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xc/cmd/docker/docker.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xc/cmd/tmux/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xc/cmd/tmux/tmux.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xc/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xc/utils/util.py,sha256=jwDAQQ69jO-wiZsO0hOdR4uObg-QG7HT7vflfU3Pxy0,5233
+xc/xc.py,sha256=DiGZMvfUAWl_f6zzyl8rxGtEnpi9xm39k_a8gxMbLWg,1572
+xc_cli-0.0.1.dist-info/entry_points.txt,sha256=rgOiZQeBk5F9hmmFF7xduLGp3OuIEd7Mam2BWFidPl0,32
+xc_cli-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+xc_cli-0.0.1.dist-info/METADATA,sha256=jf8bj09_Es1u2yQcvv5AmQeINME_HoVgIUarN7odm28,716
+xc_cli-0.0.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+xc_cli-0.0.1.dist-info/RECORD,,
