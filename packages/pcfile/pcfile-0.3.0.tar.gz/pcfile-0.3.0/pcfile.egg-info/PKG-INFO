@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pcfile
+Version: 0.3.0
+Summary: A package for easy navigation in computer files
+Author-email: EV <example@example.com>
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pcfile
+
+**pcfile** is a Python package that provides a convenient way to search for files on your computer by filename.
+
+## Features
+
+- Recursively searches directories to find files that start with a specified filename.
+- Utilizes parallel processing to enhance search performance.
+- Handles permission errors gracefully during the search process.
+
+## Installation
+
+Install the package using pip:
+```bash
+pip install pcfile

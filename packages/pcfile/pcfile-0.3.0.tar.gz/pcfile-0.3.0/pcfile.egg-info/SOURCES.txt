@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+pcfile/Files.py
+pcfile/__init__.py
+pcfile.egg-info/PKG-INFO
+pcfile.egg-info/SOURCES.txt
+pcfile.egg-info/dependency_links.txt
+pcfile.egg-info/top_level.txt
