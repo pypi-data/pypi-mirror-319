@@ -1,0 +1,91 @@
+window:
+  size: [100, 50, 1000, 500]  # [start_x, start_y, width, height]
+  title: Example of a editable drawing
+  status_bar: True
+
+  # a window is defined by a menu_bar, tool_bar and layout components
+
+  menu_bar:
+    - item:
+        name: File
+        title: '&File'
+        items:
+          - item:
+              title: '&Open ...'                 # & defines the keyboard shortcut
+              action: event_open_file            # method to call
+          - item:
+              title: '&Save'
+              action: event_save_file_as
+          - item:
+              title: 'Save as ...'
+              action: event_save_file_as
+
+  toolbar:
+    - item:
+        icon:    SP_DialogSaveButton
+        tooltip: Save drawing
+        title:  ' &Save '
+        action: event_save_file
+    - item:
+        title: 'Save As ...'
+        tooltip: Save drawing with other name
+        action: event_save_file_as
+    - item:
+        is_separator: True
+    - item:
+        icon:    SP_ArrowBack
+        tooltip: Undo
+        action:  undo
+    - item:
+        icon:    SP_ArrowForward
+        tooltip: Redo
+        action:  redo
+
+  layout:       # defines the layout of the window
+      - item:
+          name:    widgets_and_figure
+          type:    grid
+          subtype: horizontal          # sub items will be added in the horizontal axis
+          desc:    panel is composed of two sides, the one at the left has widgets, at the right a Figure to show a graph
+          layout:                      # an item can have layouts inside
+            - item:
+                name:    widgets
+                type:    grid
+                subtype: vertical      # sub items will be added in the vertical axis
+                width:   300
+                widgets:              # an item can have UI widgets inside (like combo, slide, etc)
+                  - widget:
+                      name:    clear
+                      title:   Clear all
+                      type:    Button
+                      action:  clear   # method to call
+                      tooltip: Remove all items
+                  - widget:
+                      name:    view_lines
+                      title:   View Lines
+                      type:    Check
+                      value:   True
+                      tooltip: View all lines (example to filter items)
+                  - widget:
+                      name:    show_grid
+                      title:   Show Grid
+                      type:    Check
+                      value:   False
+                      tooltip: Display grid lines for reference
+
+            - item:
+                name:    figures
+                type:    grid
+                subtype: vertical
+                layout:
+                  - item:
+                      name:    graph1
+                      type:    figure               # show an image (like a graph or a drawing)
+                      subtype: editable
+                      title:   Editable drawing
+                      desc:    Editable drawing example
+                      metadata_file_name: editable_items_metadata.yaml   # file info on the kind of items to edit
+                      x_axis:  {name: 'points'}
+                      y_axis:  {name: 'output'}
+                      view_size: [100, 50]
+
