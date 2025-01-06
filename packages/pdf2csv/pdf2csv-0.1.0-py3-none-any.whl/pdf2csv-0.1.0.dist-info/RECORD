@@ -1,0 +1,8 @@
+pdf2csv/__init__.py,sha256=yi7owz0CIqEUK4mRyE-V4uGLReoex4KRAsf8ZEJzp4w,163
+pdf2csv/cli.py,sha256=izZkZtaXew6rmXyzMLbt3xaJKNzakf0AyEF2Oea410Q,1527
+pdf2csv/converter.py,sha256=LSyL1Z2KnoVwI_j90nFdXbcp7qbEW_h1g52GzYUUfrs,4006
+pdf2csv-0.1.0.dist-info/METADATA,sha256=1oS9jbFZYyN1ny6glOVZDKgyFCezEuWQlDzE7r0v5Tw,1204
+pdf2csv-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+pdf2csv-0.1.0.dist-info/entry_points.txt,sha256=KGvh9lQbj3IsTY5Fo41keMfaK7pyxQoeNEGoTvyYFeo,45
+pdf2csv-0.1.0.dist-info/top_level.txt,sha256=7vq6mPz6onziALMP1T-2UP5Wg3i7qsayMJ51EiCflGA,8
+pdf2csv-0.1.0.dist-info/RECORD,,
