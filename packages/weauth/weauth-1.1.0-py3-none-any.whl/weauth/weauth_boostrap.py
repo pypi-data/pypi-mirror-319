@@ -1,0 +1,130 @@
+# WeAuth.py
+# created by NearlyHeadlessJack 2024-01-03
+# https://github.com/nearlyheadlessjack/weauth
+# 程序总入口
+from email.policy import default
+import sys
+# import click
+from weauth.listener import Listener
+from weauth.database.database import DB
+import yaml
+from weauth.utils.check_for_update import check_for_update
+from weauth.utils.create_config_yaml import create_config_yaml
+from weauth.mc_server.mcsm_connect import MCSM
+from weauth.tencent_server.wx_server import WxConnection
+from weauth.exceptions.exceptions import *
+from weauth.constants.core_constant import *
+
+
+# @click.command()
+# @click.option(
+#     '-p',
+#     '--port',
+#     default='80',
+#     help='本地监听端口号'
+# )
+def main(args) -> None:
+    """应用程序入口"""
+    print(" ")
+    print("      __        __      _         _   _     ")
+    print("      \ \      / /__   / \  _   _| |_| |__  ")
+    print("       \ \ /\ / / _ \ / _ \| | | | __| '_ \ ")
+    print("        \ V  V /  __// ___ \ |_| | |_| | | |")
+    print("         \_/\_/ \___/_/   \_\__,_|\__|_| |_|")
+    print("                                            ")
+    print("                 Version: {} \n".format(VERSION))
+    port = args.port
+    # 检查更新
+    print("-正在检查更新...\n")
+    if check_for_update(VERSION) == 1:
+        print("-当前为最新版本")
+    else:
+        print("-已有新版本,您可以前往 {} 进行更新。".format(GITHUB_URL))
+    # 检查数据库
+    DB.check_database()
+    
+    # 读取配置文件
+    try:
+        config = read_config()
+    except ConfigFileNotFound:
+        create_config_yaml()
+        print('-首次运行, 请先在config.yaml中进行配置!')
+        sys.exit(0)
+
+    # 检查是否有op列表
+    check_op_list()
+    # 测试游戏端连接
+    if MCSM.test_connection(config['mcsm_adr'], config['mcsm_api'], config['uuid'], config['remote-uuid']) == 200:
+        print('-成功连接到游戏服务器!')
+    else:
+        print('-无法连接到游戏服务器, 请检查config.yaml配置以及网络状况!')
+        # sys.exit(1)
+
+    # 测试微信服务器连接
+    access_token = test_wechat_server(app_id=config['appID'], app_secret=config['AppSecret'])
+
+    # 连接MCSManager所需要的参数
+    mcsm = {
+        'adr': config['mcsm_adr'],
+        'apikey': config['mcsm_api'],
+        'uuid': config['uuid'],
+        'remote-uuid': config['remote-uuid']
+    }
+
+    # 公众号回复语句
+    responses = {
+        'welcome': config['welcome']  # 玩家注册白名单成功
+    }
+
+    listener = Listener(mcsm=mcsm,
+                        wx_user_name=config['WxUserName'],responses=responses)
+    # 核心监听程序运行
+    listener.wx_service.run(host='0.0.0.0', port=port)
+
+
+# 读取配置文件
+def read_config() -> dict:
+    """
+    读取配置文件
+    :return: 配置信息，以字典形式
+    """
+    try:
+        with open('config.yaml', 'r', encoding='utf-8') as f:
+            result = yaml.load(f.read(), Loader=yaml.FullLoader)
+        return result
+    except FileNotFoundError:
+        raise ConfigFileNotFound('未找到配置文件')
+
+def check_op_list() -> None:
+    """
+     检查是否有op表，没有则新建
+    """
+    try:
+        with open('ops.yaml', 'r', encoding='utf-8') as f:
+            result = yaml.load(f.read(), Loader=yaml.FullLoader)
+    except FileNotFoundError:
+        with open('./ops.yaml', 'w+') as f:
+            f.write('ops: [op_ID1,op_ID2,op_ID3]')
+
+
+def test_wechat_server(app_id, app_secret):
+    code1, code2 = WxConnection.get_access_token(app_id, app_secret)
+    if code1 == -2:
+        print("-连接微信服务器网络错误，无法连接!")
+        # sys.exit(2)
+        return -1
+    elif code1 == -1:
+        print("-连接微信服务器时请求错误，错误码: " + str(code2))
+        # sys.exit(3)
+        return -1
+
+    elif code1 == 0:
+        print("-已更新Access Token")
+        return code2
+    
+
+# if __name__ == '__main__':
+#     main()
+
+
+    
