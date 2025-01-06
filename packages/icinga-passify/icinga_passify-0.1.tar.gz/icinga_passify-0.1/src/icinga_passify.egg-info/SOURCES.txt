@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/icinga_passify.egg-info/PKG-INFO
+src/icinga_passify.egg-info/SOURCES.txt
+src/icinga_passify.egg-info/dependency_links.txt
+src/icinga_passify.egg-info/entry_points.txt
+src/icinga_passify.egg-info/requires.txt
+src/icinga_passify.egg-info/top_level.txt
+src/passify/__init__.py
+src/passify/passify.py

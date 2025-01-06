@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: icinga-passify
+Version: 0.1
+Summary: An icinga check_command wrapper to icinga api for submitting passive check results.
+Author-email: Bona Fide IT GmbH <github@bona-fide.it>, Olaf Rühenbeck <oruehenbeck@bona-fide.it>
+License: MIT License
+        
+        Copyright (c) 2024 Bona Fide IT GmbH
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/BonaFideIT/passify
+Keywords: icinga,api,passive,check_command
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pipenv; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+
+# passify
+
+An icinga check_command wrapper to icinga api for submitting passive check results.
+Call any nagios/icinga compatible check executable to submit results as a passive result.
+
+## usage
+
+`usage: passify.py [-h] [--config CONFIG] [--timeout TIMEOUT] -s SERVICE NAME [--ttl TTL] ...`
+
+Deploy passify.py on your server, this can be done locally or in your path. Call it with
+
+`python3 passify.py -s "Example Service" check_example <check_arguments>`
+
+or give it execution rights and call it like this:
+
+`./passify.py -s "Example Service" check_example <check_arguments>`
+
+Or in path like this:
+
+`passify -s "Example Service" check_example <check_arguments>`
+
+# installation
+
+* copy passify.py to your server.
+* Install to path for full convenience if you like, call as seen above:
+
+`ln -s /usr/local/bin/passify /location/to/passify.py`
+
+* Upon first run, you will be asked several configuration questions:
+
+  * the icinga master url **submissions are only possible through the currently active master**
+  * verify the fingerprint (hint: `openssl x509 -in /var/lib/icinga2/certs/<hostname>.crt -noout -fingerprint -sha256`)
+  * username and password for api submission (only basic-auth is currently supported)
+
+* alternatively you can deploy a config file (default: config.ini) with the script:
+
+```
+[DEFAULT]
+url = https://localhost:5665/v1/actions/process-check-result
+check_source = example.com
+user = <api_user>
+password = <api_password>
+
+[TLS]
+fingerprint = d163f22c2021a498926ff8c30da0288ac20d1b9edaa80d1dbb14c0aebf85245b
+```
+
