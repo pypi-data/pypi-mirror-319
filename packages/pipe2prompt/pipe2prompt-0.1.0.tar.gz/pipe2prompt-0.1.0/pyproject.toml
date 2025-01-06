@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipe2prompt"
+version = "0.1.0"
+description = "Prompt to pipe"
+authors = [{name = "Ahn Keeho", email = "digsy89@gmail.com"}]
+license = {text = "MIT"}
+dependencies = [
+    "click==8.1.7",
+    "openai==1.59.3",
+]
+requires-python = ">=3.9"
+readme = "README.rst"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+
+[project.scripts]
+p2p = "pipe2prompt.cli:cli"
+
+[tool.setuptools]
+packages = ["pipe2prompt"]
+
+[tool.isort]
+profile = "black"
+line_length = 86
+src_paths = ["pipe2prompt"]
+
+[tool.ruff]
+exclude = [
+    ".venv",
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+    ".ruff_cache",
+    ".github",
+]
+line-length = 86
+target-version = "py38"
+
+[tool.ruff.lint]
+fixable = ["ALL"]
+select = [
+    "E",  # pycodestyle errors
+    "F",  # pyflakes
+    "UP", # pyupgrade
+    "B",  # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "DTZ", # flake8-datetimez
+    "ISC", # flake8-implicit-str-concat
+    "PIE", # flake8-pie
+    "PGH", # pygrep-hooks
+    "RUF", # ruff-specific rules
+    "SIM", # flake8-simplify
+    "TCH", # flake8-type-checking
+    "TID", # flake8-tidy-imports
+    "UP", # pyupgrade
+]
+ignore = []
