@@ -1,0 +1,7 @@
+canary_cli/__init__.py,sha256=-ZIjDYji6tUsncs2wQY3LDvwriXVKsRtXZ5RUm1iFLE,24
+canary_cli/main.py,sha256=8e5awfHB4Ecp8Au3KCcn6RON1cvAIVrJIcsb6_PzD0U,24417
+canary_cli-0.1.dev0.dist-info/LICENSE,sha256=GEk4V9a-Qtej4OKdmu4AFFfBIkq9toQokk-U6oDJ3Ec,10763
+canary_cli-0.1.dev0.dist-info/METADATA,sha256=IVPp5lakDPvcaKqHwEWimIF3NFkcvrnOSUPF2XWgLUY,1118
+canary_cli-0.1.dev0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+canary_cli-0.1.dev0.dist-info/entry_points.txt,sha256=xd971AY-xqBdtAnsOdKjh7Jg55VsnBVOQaI0cadDM4g,43
+canary_cli-0.1.dev0.dist-info/RECORD,,

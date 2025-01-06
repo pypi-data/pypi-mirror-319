@@ -1,0 +1,3 @@
+[console_scripts]
+ccd=canary_cli.main:app
+

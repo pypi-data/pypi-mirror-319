@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: canary-cli
+Version: 0.1.dev0
+Summary: command line interface for canary-cd
+License: Apache-2.0
+Author: Dominique Rehborn
+Author-email: dominique@rehborn.dev
+Requires-Python: >=3.12,<3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: humanize (>=4.11.0,<5.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Requires-Dist: questionary (>=2.0.1,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: typer (>=0.15.1,<0.16.0)
+Project-URL: documentation, https://docs.rehborn.dev
+Project-URL: source, https://github.com/rehborn/canary-cli.git
+Description-Content-Type: text/markdown
+
+# Canary-CD CLI
+
+command line interface for [canary-cd](https://github.com/rehborn/canary-cd)
+
+- [Documentation](http://docs.rehborn.dev/cli/)
+
+
+```shell
+pipx install canarycd-cli
+```
+
+# Development
+
+```shell
+typer ./ccd/main.py run 
+```
+
+```shell
+poetry install
+ccd --install-completion
+source $HOME/.bash_completions/ccd.sh
+```
+
