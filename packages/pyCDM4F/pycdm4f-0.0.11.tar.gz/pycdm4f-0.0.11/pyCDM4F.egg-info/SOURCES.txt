@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+core/ChillDay.py
+core/Preprocessing.py
+core/Variables.py
+core/__init__.py
+pyCDM4F.egg-info/PKG-INFO
+pyCDM4F.egg-info/SOURCES.txt
+pyCDM4F.egg-info/dependency_links.txt
+pyCDM4F.egg-info/requires.txt
+pyCDM4F.egg-info/top_level.txt
