@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+tronwebpy/__init__.py
+tronwebpy/main.py
+tronwebpy.egg-info/PKG-INFO
+tronwebpy.egg-info/SOURCES.txt
+tronwebpy.egg-info/dependency_links.txt
+tronwebpy.egg-info/requires.txt
+tronwebpy.egg-info/top_level.txt
