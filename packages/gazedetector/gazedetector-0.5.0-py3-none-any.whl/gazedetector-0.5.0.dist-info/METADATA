@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: gazedetector
+Version: 0.5.0
+Requires-Dist: Flask
+Requires-Dist: mediapipe
+Requires-Dist: opencv-python
+
