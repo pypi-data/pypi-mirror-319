@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mathutilstest
+Version: 0.1.1
+Summary: Math utilities implemented in Cython
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.7
+Requires-Dist: cython>=0.29.21

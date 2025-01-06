@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+mathutilstest/__init__.py
+mathutilstest/_core.c
+mathutilstest/_core.pyx
+mathutilstest/core.py
+mathutilstest.egg-info/PKG-INFO
+mathutilstest.egg-info/SOURCES.txt
+mathutilstest.egg-info/dependency_links.txt
+mathutilstest.egg-info/requires.txt
+mathutilstest.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+include mathutilstest/*.pyx
+include mathutilstest/*.c
+include README.md
+
