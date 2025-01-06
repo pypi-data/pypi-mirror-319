@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+amistock/__init__.py
+amistock/api.py
+amistock/utils.py
+amistock.egg-info/PKG-INFO
+amistock.egg-info/SOURCES.txt
+amistock.egg-info/dependency_links.txt
+amistock.egg-info/requires.txt
+amistock.egg-info/top_level.txt
