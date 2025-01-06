@@ -1,0 +1,9 @@
+xgo_toolkit/LCD_2inch.py,sha256=O0aq2FF9cxU4b5dFdDxXFVDYDEl3bpj9fdSowqBoOps,5323
+xgo_toolkit/__init__.py,sha256=hL4wCtvP7f-DDu2ImV9O3w4h8UM60i8vCZRFgRPozVs,50
+xgo_toolkit/lcdconfig.py,sha256=oVlzCnxDTozkGXBQO8st0vA1ChCvhENsvDiA0P7pE7k,2214
+xgo_toolkit/xgoedu.py,sha256=Z71NirE2eiwb5lOcu6dSewXCWzb6w9G_qlFKw5p155s,56660
+xgo_toolkit/xgolib.py,sha256=DPZ1LE6JP2LaQfkX_MdHgiYps4vzAAkT130ieA-fxvU,35835
+xgo_toolkit-0.1.6.dist-info/METADATA,sha256=JKmxN4Nj0vwLazLYaRf1ujYlU_YPJPHWXXsONm7ODOg,3023
+xgo_toolkit-0.1.6.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+xgo_toolkit-0.1.6.dist-info/top_level.txt,sha256=SzfyI7de_2aRdl51gRysxzJMhu3WZdt-GrvJeRR5m-8,12
+xgo_toolkit-0.1.6.dist-info/RECORD,,
