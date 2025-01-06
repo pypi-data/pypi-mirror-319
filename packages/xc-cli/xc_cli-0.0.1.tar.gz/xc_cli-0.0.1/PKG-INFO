@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: xc-cli
+Version: 0.0.1
+Summary: A lightweight and versatile toolkit designed to simplify and enhance your Linux workflow with powerful utilities.
+License: GPL-v3
+Author: CtrlX
+Author-email: gitctrlx@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: art (>=6.4,<7.0)
+Requires-Dist: libtmux (>=0.40.1,<0.41.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: typer (>=0.12.5,<0.13.0)
+Description-Content-Type: text/markdown
+
+# xkit
