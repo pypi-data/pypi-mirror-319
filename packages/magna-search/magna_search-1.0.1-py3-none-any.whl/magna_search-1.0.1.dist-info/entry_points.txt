@@ -1,0 +1,2 @@
+[console_scripts]
+magna-search = magna_search:main
