@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+killpy/__init__.py
+killpy/__main__.py
+killpy/envs_handler.py
+killpy.egg-info/PKG-INFO
+killpy.egg-info/SOURCES.txt
+killpy.egg-info/dependency_links.txt
+killpy.egg-info/entry_points.txt
+killpy.egg-info/requires.txt
+killpy.egg-info/top_level.txt
