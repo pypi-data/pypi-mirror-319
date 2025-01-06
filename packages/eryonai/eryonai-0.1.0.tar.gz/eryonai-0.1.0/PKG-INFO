@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: eryonai
+Version: 0.1.0
+Summary: Eryon AI is an advanced language model designed for interactive tasks, integrating natural language processing with features like Wikipedia search and memory management. It enhances real-time responses by leveraging information from Wikipedia and recalling previously stored memories for more personalized interactions.
+Author: EryonAI
+Author-email: eryon.ai.company@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
