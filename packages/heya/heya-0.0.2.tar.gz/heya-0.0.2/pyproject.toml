@@ -1,0 +1,46 @@
+[project]
+name = "heya"
+version = "0.0.2"
+description = "heya is html, markdown to pdf tools"
+authors = [
+    {name = "zkep", email="zkeper@foxmail.com"},
+]
+license = "MIT"
+readme = "README.md"
+
+
+[project.scripts]
+heya = "heya.__main__:main"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.8"
+click-didyoumean = "^0.3.1"
+click-plugins = "^1.1.1"
+selenium = "^4.27.1"
+webdriver-manager = "^4.0.2"
+pyyaml = "^6.0.2"
+mkdocs-material = "^9.5.49"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+extend-exclude = [
+    "docs/*",
+]
+fix = true
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint.isort]
+force-single-line = true
+lines-between-types = 1
+lines-after-imports = 2
+known-first-party = ["poetry"]
+known-third-party = ["poetry.core"]
+required-imports = ["from __future__ import annotations"]
