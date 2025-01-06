@@ -1,0 +1,309 @@
+![Reposaurus Banner](assets/reposaurus-banner.png)
+
+# 🦖 Reposaurus
+
+A powerful tool for transforming repositories into comprehensive text files, making it perfect for documentation, AI tool integration, code review preparation, and project archiving. Just tell it which repository you want to process, and it'll create a beautifully formatted snapshot of your codebase.
+
+## Overview
+
+Reposaurus transforms your repository into a single, well-organized text file. It features sophisticated configuration options, versioning support, and a powerful dual pattern matching system that helps you focus on what matters. 
+
+The tool is designed to be fast and efficient, using smart pattern matching to automatically skip binary files, development artifacts, and anything else you don't need. Whether you're preparing code for AI analysis, documenting your project, or archiving project states, Reposaurus makes it simple to get a clean snapshot of your codebase.
+
+## Features
+
+- 📁 Smart Directory Structure Visualization
+- 📝 Complete File Content Extraction
+- ⚙️ YAML Configuration System
+- 🔄 Versioned Output Support
+- 🧠 Dual Pattern Matching System:
+  - Simple, efficient matching for common exclusions
+  - Advanced gitignore-style patterns for custom needs
+- 🔍 Intelligent File Encoding Detection
+- 🦖 Compatible with Any Git Repository
+- ⚡ Fast and Efficient Processing
+- 🛠️ Intuitive Command-Line Interface
+
+## Installation
+
+Install Reposaurus using pip:
+
+```bash
+pip3 install reposaurus
+```
+
+On macOS, you might need to add Python's bin directory to your PATH:
+```bash
+echo 'export PATH="$HOME/Library/Python/3.9/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+## Basic Usage
+
+The main command you'll use is `reposaurus fetch`. Here's everything it does by default:
+
+### Default Output Location
+- Creates files in your current working directory (or target repository directory)
+- First run creates: `repository_contents.txt`
+- Subsequent runs create versioned files using one of two formats:
+  - Numeric: `repository_contents_v1.txt`, `repository_contents_v2.txt`, etc.
+  - Date-based: `repository_contents_20250105_202514.txt` (if configured)
+- You can customize the output location and naming in `.reposaurus.yml`
+- Auto-detects existing versions and continues sequence
+
+### Automatic Features
+- Binary File Detection: Automatically identifies and skips binary files
+- Encoding Detection: Smart detection of text file encodings (UTF-8, ASCII, etc.)
+- Development Artifact Exclusion: Skips common directories like .git, node_modules
+- .gitignore Integration: Automatically adds output files to your .gitignore
+- Configuration Inheritance: Merges user config with smart defaults
+- Permission Checking: Validates read/write access before processing
+- Error Recovery: Continues processing even if individual files fail
+
+### Output Format Structure
+- Repository Header:
+  ```
+  ================================================
+  # Repository Information
+  ------------------------------------------------
+  Repository Information:
+  Name: project-name
+  Absolute Path: /path/to/project
+  Relative Path: /path/to/project
+  
+  Configuration Settings:
+  Use Default Ignores: True
+  Ignore File: .reposaurusignore
+  Output Directory: .
+  Versioning: numeric
+
+  Generated: 2025-01-05 20:25:14
+  ```
+- Directory Structure (with proper indentation)
+- File Contents:
+  ```
+  ================================================
+  # File: path/to/file
+  ------------------------------------------------
+  [File contents here]
+  ```
+
+### What's Included By Default
+- Repository metadata (name, path, timestamp)
+- Complete directory structure in a tree format
+- Full contents of all text files
+- Section separators for easy navigation
+- Clear file path headers
+
+### Example Commands and Output
+```bash
+# Basic usage - process current directory
+reposaurus fetch
+→ Creates: ./repository_contents.txt or ./repository_contents_v1.txt
+
+# Specify a different directory
+reposaurus fetch /path/to/repo
+→ Creates: /path/to/repo/repository_contents.txt
+
+# Custom output location
+reposaurus fetch --output ./docs/codebase.txt
+→ Creates: ./docs/codebase.txt
+
+# Custom exclusion patterns
+reposaurus fetch --exclude-file my-patterns.txt
+→ Uses custom patterns + default exclusions
+```
+
+Reposaurus offers several commands through its CLI:
+
+```bash
+# Process current directory with default settings
+reposaurus fetch
+
+# This creates repository_contents_v1.txt in your current directory
+# Each subsequent run creates versioned files (v2, v3, etc.)
+# The output includes full directory structure and all text file contents
+# Binary files are automatically detected and skipped
+
+# Process a specific directory
+reposaurus fetch /path/to/repository
+
+# You can combine with other options
+reposaurus fetch /path/to/repository --output custom_name.txt
+
+# Use custom exclusion patterns
+reposaurus fetch --exclude-file my_patterns.txt
+
+# Create a default configuration file
+reposaurus init-config
+
+# Create a default ignore file
+reposaurus init-ignore
+```
+
+## Configuration
+
+Reposaurus supports YAML configuration files for customizing behavior. Create a default configuration using:
+
+```bash
+reposaurus init-config
+```
+
+This creates a `.reposaurus.yml` file with the following options:
+
+```yaml
+patterns:
+  # Use built-in default ignore patterns
+  use_default_ignores: true
+  
+  # Path to custom ignore file
+  ignore_file_path: ".reposaurusignore"
+  
+  # Additional patterns to always exclude
+  additional_excludes:
+    - ".git/"
+    - ".idea/"
+    - ".venv/"
+
+output:
+  # Template for output filename
+  filename_template: "{repo_name}_repository_contents"
+  
+  # Output directory (relative to repository root)
+  directory: "."
+  
+  # Version control for output files
+  versioning:
+    enabled: true
+    format: "numeric"  # none, numeric, or date
+    start_fresh: false
+
+  # Section separator style
+  section_separator: "line"
+  separator_length: 48
+
+git:
+  # Automatically add output files to .gitignore
+  auto_update_gitignore: true
+```
+
+## Pattern Matching System
+
+Reposaurus employs a sophisticated dual approach to file exclusions:
+
+### Default Pattern Matching
+
+By default, Reposaurus automatically excludes common development artifacts:
+
+- Development Directories:
+  - Version control (`.git`, `.svn`)
+  - IDE configurations (`.vs`, `.idea`, `.vscode`)
+  - Python artifacts (`__pycache__`, `.egg-info`)
+  - Virtual environments (`venv`, `.env`)
+
+- Build and Dependencies:
+  - Build outputs (`bin`, `obj`, `build`, `dist`)
+  - Dependencies (`node_modules`, `packages`)
+  - Cache directories (`.cache`, `__pycache__`)
+
+- System and Binary Files:
+  - System files (`.DS_Store`, `Thumbs.db`)
+  - Compiled files (`.pyc`, `.exe`, `.dll`)
+  - Archives (`.zip`, `.tar`, `.gz`)
+  - Media files (`.jpg`, `.png`, `.mp3`)
+  - Logs and databases (`.log`, `.sqlite`)
+
+### Advanced Pattern Matching
+
+For more control, create a custom `.reposaurusignore` file:
+
+```bash
+reposaurus init-ignore
+```
+
+This file supports full `.gitignore` syntax:
+
+```gitignore
+# Ignore all .txt files
+*.txt
+
+# But keep important.txt
+!important.txt
+
+# Ignore temp folders anywhere
+**/temp/
+
+# Ignore specific directories
+build/
+node_modules/
+
+# Complex patterns
+docs/**/*.md
+!docs/README.md
+```
+
+## Output Format and Versioning
+
+The generated output file includes:
+
+- Repository metadata and configuration settings
+- Complete directory structure
+- File contents with clear section separators
+
+Versioning options include:
+- `numeric`: Appends version numbers (e.g., `_v1`, `_v2`)
+- `date`: Appends timestamps (e.g., `_20250105_202514`)
+- `none`: No versioning
+
+Example output structure:
+
+```text
+================================================
+# Repository Information
+------------------------------------------------
+Repository Information:
+Name: my-project
+Absolute Path: /path/to/my-project
+...
+
+================================================
+# Directory Structure
+------------------------------------------------
+    src/
+    ├── main.py
+    └── utils.py
+    ...
+
+================================================
+# File: src/main.py
+------------------------------------------------
+[File contents here]
+```
+
+## Error Handling
+
+Reposaurus includes robust error handling:
+- Automatic binary file detection and skipping
+- Intelligent file encoding detection
+- Clear error messages for invalid patterns
+- Graceful handling of permission issues
+- Detailed warnings for processing problems
+
+## Contributing
+
+We love contributions! Feel free to:
+- Report bugs
+- Suggest features
+- Submit pull requests
+- Improve documentation
+- Share how you're using Reposaurus
+
+Before submitting a pull request, please ensure your code follows the project's style guidelines and includes appropriate tests.
+
+## License
+
+MIT License - See LICENSE file for details
+
+## Authors
+
+- Andy Thomas - Initial work
