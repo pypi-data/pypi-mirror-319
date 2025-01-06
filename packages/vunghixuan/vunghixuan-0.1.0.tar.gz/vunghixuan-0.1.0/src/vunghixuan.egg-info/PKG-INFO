@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: vunghixuan
+Version: 0.1.0
+Summary: API, OTP, Create Project
+Author: Đăng Thanh Vũ
+Author-email: vunghixuan@gmail.com
+Requires-Dist: pyotp
