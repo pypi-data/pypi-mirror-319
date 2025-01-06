@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: lilliepy
+Version: 8.0.4
+Summary: A Bundle of Pkgs for Lilliepy
+Home-page: https://github.com/websitedeb/lilliepy
+Author: sarthak ghoshal
+Author-email: sarthak22.ghoshal@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: reactpy
+Requires-Dist: reactpy-router
+Requires-Dist: reactpy-utils
+Requires-Dist: lilliepy-dir-router
+Requires-Dist: lilliepy-bling
+Requires-Dist: lilliepy-head
+Requires-Dist: lilliepy-statics
+Requires-Dist: lilliepy-query
+Requires-Dist: lilliepy-state
+Requires-Dist: lilliepy-import
+Requires-Dist: lilliepy-socket
+
+this package contains all the imports for the following package-
+
+lilliepy-dir-router  
+lilliepy-bling  
+lilliepy-head  
+lilliepy-statics  
+lilliepy-query  
+lilliepy-state  
+lilliepy-import
+lilliepy-socket
+reactpy
+reactpy-router
+reactpy-utils
