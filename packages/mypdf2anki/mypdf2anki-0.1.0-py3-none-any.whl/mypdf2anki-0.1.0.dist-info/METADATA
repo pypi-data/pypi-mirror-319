@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mypdf2anki
+Version: 0.1.0
+Requires-Dist: pdfminer.six
+Requires-Dist: pytest
+Requires-Dist: fitz
+Requires-Dist: dataclasses; python_version < "3.7"
