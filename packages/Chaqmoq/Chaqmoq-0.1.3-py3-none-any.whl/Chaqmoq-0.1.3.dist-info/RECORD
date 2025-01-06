@@ -1,0 +1,9 @@
+chaqmoq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chaqmoq/core.py,sha256=NdzihoSiApP0IXqw3VnFwiVExN-fSlh3LBWMbjYE7cY,3971
+chaqmoq/db.py,sha256=SGt0MCwYXHtG8q4URNA0rh78Uqql6iRscKAkq_MYVbE,6551
+chaqmoq/middleware.py,sha256=wFCr-9ZuLZYXMbTMgycBuFGKjv-SHO1b__sdIR5U9DI,702
+chaqmoq/response.py,sha256=WkDACpgtUL5IV0daPUlnfZPjo4dFFIF49-G1pv66-hk,1032
+Chaqmoq-0.1.3.dist-info/METADATA,sha256=s9jdEeXiCGGYTylxryuJ6QuKy9TxOnNlkmFsXDlJ6eQ,4930
+Chaqmoq-0.1.3.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+Chaqmoq-0.1.3.dist-info/top_level.txt,sha256=MvMYqIvwerXY2jGz9gB7W2dfGzUIBTxDxBn7ZdGyTYM,8
+Chaqmoq-0.1.3.dist-info/RECORD,,
