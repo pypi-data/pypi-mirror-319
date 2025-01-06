@@ -1,0 +1,15 @@
+cacaodocs/__init__.py,sha256=RMzGJXNEf5AaliO00bUjAWwvqm1A4dqW-3YV6LQVGfc,129
+cacaodocs/documentation.py,sha256=ndVLKJGmZzvAaf0y-Dg4crUXLPGwhxZRa9ocT9f8Ei4,24767
+cacaodocs/parser.py,sha256=8LDRzR8k3bXFnZRGAD574NZgBbDdadojKVRNaCRGNAs,1865
+cacaodocs/type_definitions.py,sha256=F8Hb3CsAEgThrNw_IudBxEcU1mhWP4qYwzris9b2ay0,3441
+cacaodocs/frontend/build/asset-manifest.json,sha256=r5iRU8y1rQ9tFdbZFcpLaaZExhfJ34CtuT_UkvZJL7o,382
+cacaodocs/frontend/build/bundle.js.LICENSE.txt,sha256=ZwtW75JyYQZ0TodiF2aHTy-bFctnb1ON2g1Misf-8oc,34800
+cacaodocs/frontend/build/bundle.js.map,sha256=7IAO1ntqvIycfzie1yUKAODifp_DOXSuGlX25tsUmqw,6153356
+cacaodocs/frontend/build/index.html,sha256=G3O5Z87SOuSMdzlOIqnduNC_BeXY0jJwToh7HoYuaQE,1751120
+cacaodocs/frontend/build/static/css/styles.7002560b.css,sha256=SLtsivLEfGtpx3dETq-LPuRLvJLOTLvOFaR1IR-wvOE,9347
+cacaodocs/frontend/build/static/css/styles.7002560b.css.map,sha256=luTaDdCYxAYyQ6DfDPM54ZW5E55xgajqSUupWMxBtak,16724
+cacaodocs-0.1.5.dist-info/LICENSE,sha256=A2ZZPw8YgToxetKtgOmVApuuXxrmu2k9jnrYXO1I2QQ,1086
+cacaodocs-0.1.5.dist-info/METADATA,sha256=lsog_F3Ek8BdOedrl_k9tpYDAnCfr-1huZ79KoycCE8,10026
+cacaodocs-0.1.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+cacaodocs-0.1.5.dist-info/top_level.txt,sha256=CtoeKFgbRMHuWumePj8_LG1qPec8GF2OASWq1GrrfaQ,10
+cacaodocs-0.1.5.dist-info/RECORD,,
