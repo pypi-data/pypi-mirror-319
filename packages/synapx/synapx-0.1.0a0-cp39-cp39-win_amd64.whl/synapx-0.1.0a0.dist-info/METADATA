@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: synapx
+Version: 0.1.0a0
+Summary: A deep learning library with an autograd engine and core operations implemented in C++, featuring a Torch-like API.
+Author-email: Pablo García Mesa <pgmesa.sm@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/pgmesa/synapx
+Keywords: Autograd,Tensor,Machine Learning,Deep Learning,C++,Python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <3.13,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch<3.0.0,>=2.0.0
+
+# SynapX
+
+**SynapX** is a Python Deep Learning library that implements its core functionality in C++ with Python bindings, designed to outperform my previous project, [SynapGrad](https://github.com/pgmesa/synapgrad). SynapGrad was built entirely in Python with NumPy as its tensor backend, while SynapX takes advantage of C++ for critical operations, offering higher performance and scalability.  
+
+This project combines the raw computational power of C++ with Python's ease of use, leveraging **libtorch** as the backend for CPU tensor operations, and aims to support GPU acceleration in the near future.
+
+## Backend Exploration  
+
+The main branch uses libtorch as the tensor backend, selected for its efficiency and robust support for operations like broadcasting and batched matrix multiplications. For insights into the backend evaluation process and comparisons with alternatives like Xtensor, check out the [backend exploration branch](https://github.com/pgmesa/synapx/tree/xtensor-openblas).  
+
+## Project Status  
+
+SynapX is still under development...
