@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+"""Fast spectral continuum and emission-line fitting.
+
+Example call:
+  fastspec /global/cfs/cdirs/desi/spectro/redux/daily/tiles/80608/20201215/zbest-9-80608-20201215.fits -o fastspec.fits --ntargets 2 --mp 1
+
+"""
+if __name__ == '__main__':
+    from fastspecfit.fastspecfit import fastspec
+    ## https://docs.nersc.gov/development/languages/python/parallel-python/#use-the-spawn-start-method
+    #import multiprocessing
+    #multiprocessing.set_start_method('spawn')
+    fastspec(comm=None)

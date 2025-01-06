@@ -1,0 +1,5 @@
+[console_scripts]
+fastphot = fastspecfit.fastspecfit:fastphot
+fastqa = fastspecfit.qa:fastqa
+fastspec = fastspecfit.fastspecfit:fastspec
+stackfit = fastspecfit.fastspecfit:stackfit
