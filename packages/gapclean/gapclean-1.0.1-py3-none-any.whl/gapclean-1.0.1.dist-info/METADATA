@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: gapclean
+Version: 1.0.1
+Summary: Clean up large gappy multiple sequence alignments.
+Author: Aarya Venkat, PhD
+Project-URL: Github, https://github.com/arikat/GapClean
+Project-URL: Homepage, https://aaryakat.com
+Keywords: sequence alignment,bioinformatics, computational biology, protein
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: numpy
+
+# GapClean (v1.0.1) 
+###### Written by Aarya Venkat, PhD
+<img src="gapclean.png" width="350">
+
+#### Description:  
+GapClean takes a gappy multiple sequence alignment and removes columns with gaps at a  
+specified threshold value to produce a "cleaner" and easier to visualize sequence alignment.
+
+Can also be used to remove gaps in an alignment relative to a seed sequence to assess site-wise mutational
+information.  
+
+#### Usage: gapclean [options]
+
+   `-i`   Input file       (Required)
+
+   `-o`   Output file      (Required)
+
+   `-t`   Threshold value  (Optional) Cannot be used with seed argument
+
+   `-s`   Seed index       (Optional) Cannot be used with threshold argument
+
+   `-h`   Display this help message
+
+
+#####  Example: `gapclean -i input.fa -o output.fa -t 75` Removes column from alignment when >75 percent of the column are gaps 
+
+#####  Example: `gapclean -i input.fa -o output.fa -s 0` Takes first sequence as the seed and removes gaps relative to seed.
+
+  
+  
+## INSTALLATION:
+
+1. pip install gapclean
+
+2. Thank Gappy for his service. He is a retired detective.
