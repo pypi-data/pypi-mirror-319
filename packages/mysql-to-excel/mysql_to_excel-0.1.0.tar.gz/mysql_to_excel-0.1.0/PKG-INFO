@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mysql_to_excel
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: mysql-connector-python
+Requires-Dist: pandas
+Requires-Dist: openpyxl
