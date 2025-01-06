@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: diffractgpt
+Version: 2024.11.21
+Summary: diffractgpt
+Home-page: https://github.com/usnistgov/diffractgpt
+Author: Kamal Choudhary
+Author-email: kamal.choudhary@nist.gov
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: scipy>=1.6.3
+Requires-Dist: jarvis-tools>=2021.07.19
+Requires-Dist: atomgpt
+
+# diffractgpt
+DiffractGPT: Atomic Structure Determination from X-ray Diffraction Patterns using Generative Pre-trained Transformer

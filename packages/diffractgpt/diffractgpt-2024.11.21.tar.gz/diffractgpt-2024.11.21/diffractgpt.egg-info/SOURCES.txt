@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+diffractgpt/__init__.py
+diffractgpt.egg-info/PKG-INFO
+diffractgpt.egg-info/SOURCES.txt
+diffractgpt.egg-info/dependency_links.txt
+diffractgpt.egg-info/entry_points.txt
+diffractgpt.egg-info/requires.txt
+diffractgpt.egg-info/top_level.txt
