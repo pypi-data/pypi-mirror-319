@@ -1,0 +1,8 @@
+mcs/__init__.py,sha256=cP3Hqea5zn6I8L-IuYHlAMNdLwU1P6qFfMFVg40sCEc,391
+mcs/api_client.py,sha256=TkpIno5nQDNYIEbrz-0OOUkk4J13olCYXo6wMXFQnBI,10757
+mcs/main.py,sha256=Wtcp7C6hiVkwahLEDynShDf_QlxBFBPc5ybKQTgjC8o,27004
+mcs/security.py,sha256=oA60ZDesQSP5UAXuVGDyWAvPhvWLxva_novd8o51lnE,12523
+mcs-0.0.8.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+mcs-0.0.8.dist-info/METADATA,sha256=Xe_dEJlEaSpmARZCq6U9FBjf8rr4RVW0qWG7-1hNO1s,10370
+mcs-0.0.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+mcs-0.0.8.dist-info/RECORD,,
