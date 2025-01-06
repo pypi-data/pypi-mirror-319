@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ZCTransNet
+Version: 0.1.0
+Summary: A Python package with C++ extension for UE functionality
+Author: ZC
+Author-email: 1263703239@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: ==3.11
+
