@@ -1,0 +1,12 @@
+README.md
+setup.py
+Streamix.egg-info/PKG-INFO
+Streamix.egg-info/SOURCES.txt
+Streamix.egg-info/dependency_links.txt
+Streamix.egg-info/requires.txt
+Streamix.egg-info/top_level.txt
+streamix.egg-info/PKG-INFO
+streamix.egg-info/SOURCES.txt
+streamix.egg-info/dependency_links.txt
+streamix.egg-info/requires.txt
+streamix.egg-info/top_level.txt
