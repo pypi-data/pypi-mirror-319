@@ -1,0 +1,41 @@
+# Model configurations and pricing for all providers
+# Prices are in USD per million tokens
+
+perplexity:
+  models:
+    llama-3.1-sonar-small-128k-online:
+      prices:
+        prompt: 0.2
+        completion: 0.2
+      limits:
+        max_total_tokens: 127072
+      features:
+        streaming: true
+        function_calling: true
+        
+    llama-3.1-sonar-large-128k-online:
+      prices:
+        prompt: 1.0
+        completion: 1.0
+      limits:
+        max_total_tokens: 127072
+      features:
+        streaming: true
+        function_calling: true
+        
+    llama-3.1-sonar-huge-128k-online:
+      prices:
+        prompt: 5.0
+        completion: 5.0
+      limits:
+        max_total_tokens: 127072
+      features:
+        streaming: true
+        function_calling: true
+
+# System prompts for different tasks
+system_prompts:
+  general: "You are a helpful AI assistant. Provide accurate and relevant information."
+  code: "You are a code assistant. Provide clear, efficient, and well-documented code solutions."
+  math: "You are a math assistant. Show detailed steps and explanations for mathematical problems."
+  haiku: "You are a haiku master. Create beautiful and meaningful haiku following the traditional 5-7-5 syllable pattern." 
