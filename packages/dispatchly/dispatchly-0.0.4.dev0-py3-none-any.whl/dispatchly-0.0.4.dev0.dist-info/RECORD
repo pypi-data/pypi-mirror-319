@@ -1,0 +1,11 @@
+dispatchly/__init__.py,sha256=hVsmZcAjt_aDJfZE6oVcoyg-p_wgOgaAKM9sji5Sh-0,61
+dispatchly/core/__init__.py,sha256=VXDjYasIxYZzBpdzGwffHKtMeHrmJrwSbX52XxEe9hs,1704
+dispatchly/tests/__init__.py,sha256=mp_VgenXRJV6YXumnFGPSh6o7gnlrlqlEJM8rwDbEYA,231
+dispatchly/tests/test_1.py,sha256=5FWEMmUswtum7HO_roPUgdKoKX8EWjgnErC-ZSZNYiY,459
+dispatchly/tests/test_1984.py,sha256=GPfy8FPaGbj-w9uGHkJYSjmlSReVAXwiHS8JydJaERw,187
+dispatchly/tests/test_2.py,sha256=rczYX1JL8kUFAjEMqHT6d03aCCDFrTT6aX0dsm2qQe4,1784
+dispatchly-0.0.4.dev0.dist-info/LICENSE.txt,sha256=fOh9FHccUt9OcJPBaVJ482GX4yrl_FxCUk9YRZ53JOI,1074
+dispatchly-0.0.4.dev0.dist-info/METADATA,sha256=DqMqSBXhYxS4Bxym03xrBQvpLxtfAjWUyOC-d194Vns,2190
+dispatchly-0.0.4.dev0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+dispatchly-0.0.4.dev0.dist-info/top_level.txt,sha256=5CQe4BZVYIj6NZWwzlroeggvV9W8UeefU7dC59xP4V4,11
+dispatchly-0.0.4.dev0.dist-info/RECORD,,
