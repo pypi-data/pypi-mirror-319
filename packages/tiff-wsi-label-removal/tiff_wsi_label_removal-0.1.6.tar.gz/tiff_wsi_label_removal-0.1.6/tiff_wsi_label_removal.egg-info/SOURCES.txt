@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tiff_wsi_label_removal/__init__.py
+tiff_wsi_label_removal/remove_label.py
+tiff_wsi_label_removal/tiffprocessor.py
+tiff_wsi_label_removal.egg-info/PKG-INFO
+tiff_wsi_label_removal.egg-info/SOURCES.txt
+tiff_wsi_label_removal.egg-info/dependency_links.txt
+tiff_wsi_label_removal.egg-info/entry_points.txt
+tiff_wsi_label_removal.egg-info/requires.txt
+tiff_wsi_label_removal.egg-info/top_level.txt
