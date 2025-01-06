@@ -1,0 +1,13 @@
+alexandria/__init__.py,sha256=gPclV2qHN8PF8CVMiIsoZWoSO3IsV_sLTw55HROGDLE,136
+alexandria/__main__.py,sha256=vhiidlM17GPUxNnXw31l-Rk8_0CYwbQbfzDyTx1zc18,175
+alexandria/app.py,sha256=yKBTYcY3rdBp2S3drAv96QBoa_FGY5Nxn_q_9lwjwxw,2792
+alexandria/app_header.py,sha256=LFnnNU6wp5KUI6KYw-GxJGYohIQWasArkgg9uec7sWk,194
+alexandria/book.py,sha256=gVP3ZMQZV5bqpL3z-6sQ74EqPgwoG-z_-qPR67d1o50,581
+alexandria/books_view.py,sha256=h2RlyDI4yO-Gnk5yd5OsbCvZP6F7H31FiX5ai4rXYlc,4032
+alexandria/footer.py,sha256=cUfEsCXPPu_yaCTU2VMoprj-SG3QCn3rID7DiZd1nZg,143
+alexandria/searchbar.py,sha256=z5BcuSObN9zgSL9PwpNzZ8vyF0oCtqY1cl2jbDdFs_s,199
+assets/styles.tcss,sha256=lDRSaXxCPHcDVf07QYFVygyL02QSoh3fnFbVPuu79BI,763
+alexandria_tui-0.1.0.dist-info/METADATA,sha256=GpDMW0TbiOCXp1cMCHnxMwD_4wGX8TuQpZ-vyYch4Wg,3304
+alexandria_tui-0.1.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+alexandria_tui-0.1.0.dist-info/entry_points.txt,sha256=tPXWt9SY5su-8JtviT0TOrM2ALuf68kgX8HNk3egOgo,49
+alexandria_tui-0.1.0.dist-info/RECORD,,
