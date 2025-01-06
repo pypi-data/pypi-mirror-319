@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "answer-college-supplemental"
+dynamic = ["version"]
+description = "A CLI tool for gaining inspiration for college supplementals. Do NOT submit these generated essays to colleges."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [{ name = "Vishy Gopal", email = "vishy1290@gmail.com" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.scripts]
+answer-college-supplemental = "answer_college_supplemental.main:main"
+
+[project.urls]
+Documentation = "https://github.com/VG-Fish/answer_college_supplemental#readme"
+Issues = "https://github.com/VG-Fish/answer-college-supplemental/issues"
+Source = "https://github.com/VG-Fish/answer-college-supplemental"
+
+[tool.hatch.version]
+path = "src/answer_college_supplemental/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = ["mypy>=1.0.0"]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/answer_college_supplemental tests}"
+
+[tool.coverage.run]
+source_pkgs = ["answer_college_supplemental", "tests"]
+branch = true
+parallel = true
+omit = ["./src/answer_college_supplemental/__about__.py"]
+
+[tool.coverage.paths]
+answer_college_supplemental = [
+  "src/answer_college_supplemental",
+  "*/answer-college-supplemental/src/answer_college_supplemental",
+]
+tests = ["tests", "*/answer-college-supplemental/tests"]
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
+
+[tool.hatch.metadata]
+name = "answer-college-supplemental"
+version = "0.1.1"
+description = "A CLI tool for gaining inspiration for college supplementals. Do NOT submit these generated essays to colleges."

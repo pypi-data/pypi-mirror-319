@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: answer_college_supplemental
+Version: 2.0.0
+Summary: A CLI tool for gaining inspiration for college supplementals. Do NOT submit these generated essays to colleges.
+Home-page: UNKNOWN
+Author: Vishy Gopal
+Author-email: vishy1290@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# answer_college_supplemental
+
+[![PyPI - Version](https://img.shields.io/pypi/v/answer-college-supplemental.svg)](https://pypi.org/project/answer-college-supplemental)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/answer-college-supplemental.svg)](https://pypi.org/project/answer-college-supplemental)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install answer-college-supplemental
+```
+
+## License
+
+`answer-college-supplemental` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
+
