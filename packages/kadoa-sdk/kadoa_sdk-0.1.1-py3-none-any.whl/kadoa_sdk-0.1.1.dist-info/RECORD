@@ -1,0 +1,7 @@
+modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modules/core.py,sha256=YjK6oxw2vDgz6e0H3tvstf96r_3gbPfzh7SnK2NW32Q,444
+modules/realtime.py,sha256=C0ue8NmAKe4aHaa-9EANw8xclUynhGOMdBMt_vvrXPE,4913
+kadoa_sdk-0.1.1.dist-info/METADATA,sha256=Aza2NE2cykwkjjIEGO4qPzpiCyuSgiPE87ziFKWU8Og,853
+kadoa_sdk-0.1.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+kadoa_sdk-0.1.1.dist-info/top_level.txt,sha256=F7U4jdIxH3MVMmyX9rbajWuG0bj5tcZN4L1DZSxW72E,8
+kadoa_sdk-0.1.1.dist-info/RECORD,,
