@@ -1,0 +1,36 @@
+from typing import Any, Dict, Optional
+
+class Context:
+    def __init__(
+        self,
+        variables: Optional[Dict[str, Any]] = None,
+        types: Optional[Dict[str, Any]] = None
+    ):
+        self.variables: Dict[str, Any] = variables if variables is not None else {}
+        self.types: Dict[str, Any] = types if types is not None else {}
+
+    def getVariable(self, name: str) -> Any:
+        parts = name.split('.')
+        current = self.variables
+        for part in parts:
+            if isinstance(current, dict) and part in current:
+                current = current[part]
+            else:
+                return None
+        return current
+
+    def getType(self, name: str) -> Any:
+        parts = name.split('.')
+        current = self.types
+        for part in parts:
+            if isinstance(current, dict) and part in current:
+                current = current[part]
+            else:
+                return None
+        return current
+
+    def setVariable(self, name: str, value: Any):
+        self.variables[name] = value
+
+    def setType(self, name: str, type_: Any):
+        self.types[name] = type_

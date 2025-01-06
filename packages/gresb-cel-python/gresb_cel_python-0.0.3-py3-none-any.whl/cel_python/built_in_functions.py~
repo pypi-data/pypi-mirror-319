@@ -1,0 +1,159 @@
+# built_in_functions.py
+
+def min_func(*args):
+    if not args:
+        raise ValueError("min() requires at least one argument")
+    return min(args)
+
+def max_func(*args):
+    if not args:
+        raise ValueError("max() requires at least one argument")
+    return max(args)
+
+def abs_func(x):
+    return abs(x)
+
+def ceil_func(x):
+    import math
+    return math.ceil(x)
+
+def floor_func(x):
+    import math
+    return math.floor(x)
+
+def round_func(x):
+    return round(x)
+
+def contains_func(s, substr):
+    return substr in s
+
+def ends_with_func(s, suffix):
+    return s.endswith(suffix)
+
+def index_of_func(s, substr):
+    return s.find(substr)
+
+def length_func(s):
+    return len(s)
+
+def lower_func(s):
+    return s.lower()
+
+def replace_func(s, old, new):
+    return s.replace(old, new)
+
+def split_func(s, delimiter):
+    return s.split(delimiter)
+
+def starts_with_func(s, prefix):
+    return s.startswith(prefix)
+
+def upper_func(s):
+    return s.upper()
+
+def size_func(obj):
+    return len(obj)
+
+def int_func(x):
+    return int(x)
+
+def uint_func(x):
+    return int(x)  # Python doesn't have unsigned ints
+
+def double_func(x):
+    return float(x)
+
+def string_func(x):
+    return str(x)
+
+def bool_func(x):
+    return bool(x)
+
+def exists_func(x):
+    return x is not None
+
+def exists_one_func(lst):
+    return any(lst)
+
+def matches_func(s, pattern):
+    import re
+    return re.match(pattern, s) is not None
+
+def timestamp_func(s):
+    from datetime import datetime
+    return datetime.fromisoformat(s)
+
+def type_func(x):
+    return type(x).__name__
+
+def duration_func(x):
+    from datetime import timedelta
+    return timedelta(seconds=x)
+
+def time_func(year, month, day, hour, minute, second, microsecond=0):
+    from datetime import datetime
+    return datetime(year, month, day, hour, minute, second, microsecond)
+
+def date_func(year, month, day):
+    from datetime import date
+    return date(year, month, day)
+
+def get_full_year(timestamp):
+    return timestamp.year
+
+def get_month(timestamp):
+    return timestamp.month
+
+def get_date(timestamp):
+    return timestamp.day
+
+def get_hours(timestamp):
+    return timestamp.hour
+
+def get_minutes(timestamp):
+    return timestamp.minute
+
+def get_seconds(timestamp):
+    return timestamp.second
+
+def has_func(lst, item):
+    return item in lst
+
+built_in_functions = {
+    'min': min_func,
+    'max': max_func,
+    'abs': abs_func,
+    'ceil': ceil_func,
+    'floor': floor_func,
+    'round': round_func,
+    'contains': contains_func,
+    'endsWith': ends_with_func,
+    'indexOf': index_of_func,
+    'length': length_func,
+    'lower': lower_func,
+    'replace': replace_func,
+    'split': split_func,
+    'startsWith': starts_with_func,
+    'upper': upper_func,
+    'size': size_func,
+    'int': int_func,
+    'uint': uint_func,
+    'double': double_func,
+    'string': string_func,
+    'bool': bool_func,
+    'exists': exists_func,
+    'existsOne': exists_one_func,
+    'matches': matches_func,
+    'timestamp': timestamp_func,
+    'type': type_func,
+    'duration': duration_func,
+    'time': time_func,
+    'date': date_func,
+    'getFullYear': get_full_year,
+    'getMonth': get_month,
+    'getDate': get_date,
+    'getHours': get_hours,
+    'getMinutes': get_minutes,
+    'getSeconds': get_seconds,
+    'has': has_func,
+}

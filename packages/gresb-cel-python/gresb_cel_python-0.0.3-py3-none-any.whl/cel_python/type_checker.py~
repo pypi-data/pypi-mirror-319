@@ -1,0 +1,347 @@
+from .parser.CELVisitor import CELVisitor
+from context import Context
+
+
+class TypeChecker(CELVisitor):
+    def __init__(self, context: Context):
+        super().__init__()
+        if not isinstance(context, Context):
+            raise ValueError("TypeChecker requires a Context object")
+
+        self.context = context
+        self.functionSignatures: Dict[str, Dict[str, Any]] = {
+            "min": {"args": ["int"], "varArgs": True, "returnType": "int"},
+            "max": {"args": ["int"], "varArgs": True, "returnType": "int"},
+            "abs": {"args": ["int"], "returnType": "int"},
+            "ceil": {"args": ["float"], "returnType": "int"},
+            "floor": {"args": ["float"], "returnType": "int"},
+            "round": {"args": ["float"], "returnType": "int"},
+            "contains": {"args": ["string", "string"], "returnType": "bool"},
+            "endsWith": {"args": ["string", "string"], "returnType": "bool"},
+            "indexOf": {"args": ["string", "string"], "returnType": "int"},
+            "length": {"args": ["string"], "returnType": "int"},
+            "lower": {"args": ["string"], "returnType": "string"},
+            "replace": {"args": ["string", "string", "string"], "returnType": "string"},
+            "split": {"args": ["string", "string"], "returnType": "list<string>"},
+            "startsWith": {"args": ["string", "string"], "returnType": "bool"},
+            "upper": {"args": ["string"], "returnType": "string"},
+            "size": {"args": [["string", "list<any>", "map"]], "returnType": "int"},
+            "int": {"args": ["any"], "returnType": "int"},
+            "uint": {"args": ["any"], "returnType": "int"},
+            "double": {"args": ["any"], "returnType": "float"},
+            "string": {"args": ["any"], "returnType": "string"},
+            "bool": {"args": ["any"], "returnType": "bool"},
+            "exists": {"args": ["any"], "returnType": "bool"},
+            "existsOne": {"args": ["list<any>"], "returnType": "bool"},
+            "matches": {"args": ["string", "string"], "returnType": "bool"},
+            "timestamp": {"args": ["string"], "returnType": "timestamp"},
+            "type": {"args": ["any"], "returnType": "string"},
+            "duration": {"args": ["int"], "returnType": "duration"},
+            "time": {"args": ["int", "int", "int", "int", "int", "int", "int"], "returnType": "timestamp"},
+            "date": {"args": ["int", "int", "int"], "returnType": "date"},
+            "getFullYear": {"args": ["timestamp"], "returnType": "int"},
+            "getMonth": {"args": ["timestamp"], "returnType": "int"},
+            "getDate": {"args": ["timestamp"], "returnType": "int"},
+            "getHours": {"args": ["timestamp"], "returnType": "int"},
+            "getMinutes": {"args": ["timestamp"], "returnType": "int"},
+            "getSeconds": {"args": ["timestamp"], "returnType": "int"},
+            "has": {"args": ["list<any>", "any"], "returnType": "bool"},
+        }
+
+    def visit(self, ctx: Any) -> Any:
+        return super().visit(ctx)
+
+    def getRuleName(self, ctx: Any) -> str:
+        return type(ctx).__name__.replace("Context", "")
+
+    def visitStart(self, ctx: Any) -> Any:
+        return self.visit(ctx.expr())
+
+    def visitExpr(self, ctx: Any) -> Any:
+        return self.visit(ctx.getChild(0))
+
+    def visitSelectOrCall(self, ctx: Any) -> str:
+        object_type = self.visit(ctx.getChild(0))
+        member_name = ctx.getChild(2).getText()
+
+        # If object_type is a dict-like object, check for the member
+        if isinstance(object_type, dict) and member_name in object_type:
+            return object_type[member_name]
+        else:
+            object_name = ctx.getChild(0).getText()
+            object_value = self.context.getVariable(object_name)
+            if isinstance(object_value, dict) and member_name in object_value:
+                member_value = object_value[member_name]
+                member_type = getType(member_value)
+                return member_type
+            else:
+                raise ValueError(
+                    f"Cannot access property '{member_name}' on object '{object_name}'"
+                )
+
+    def resolveObjectValue(self, node: Any) -> Any:
+        rule_name = type(node).__name__
+        if rule_name == "IdentOrGlobalCallContext":
+            ident = node.getText()
+            variable_value = self.context.getVariable(ident)
+            if variable_value is None:
+                raise ValueError(f"Variable '{ident}' is not defined")
+            return variable_value
+        elif rule_name == "SelectOrCallContext":
+            object_value = self.resolveObjectValue(node.getChild(0))
+            member_name = node.getChild(2).getText()
+            if isinstance(object_value, dict) and member_name in object_value:
+                return object_value[member_name]
+            else:
+                raise ValueError(f"Property '{member_name}' does not exist on object")
+        else:
+            raise ValueError(f"Cannot resolve value of node type '{rule_name}'")
+
+    def visitIdentOrGlobalCall(self, ctx: Any) -> Any:
+        ident = ctx.getChild(0).getText()
+        if ctx.getChildCount() == 1:
+            var_type = self.context.getType(ident)
+            if var_type is None:
+                variable_value = self.context.getVariable(ident)
+                if variable_value is not None:
+                    var_type = getType(variable_value)
+                    self.context.setType(ident, var_type)
+                else:
+                    raise ValueError(f"Variable '{ident}' is not defined")
+            return var_type
+        elif ctx.getChildCount() >= 3 and ctx.getChild(1).getText() == '(':
+            args = self.visit(ctx.exprList())
+            flattened_args = [
+                a for a in args if a is not None and a != '' and a != ' '
+            ]
+            signature = self.functionSignatures.get(ident)
+
+            if not signature:
+                raise ValueError(f"Function '{ident}' is not defined")
+
+            required_arg_count = len(signature["args"])
+            var_args = signature.get("varArgs", False)
+
+            if var_args and len(flattened_args) < required_arg_count:
+                raise ValueError(
+                    f"Function '{ident}' expects at least {required_arg_count} arguments, "
+                    f"but got {len(flattened_args)}"
+                )
+            elif not var_args and len(flattened_args) != required_arg_count:
+                raise ValueError(
+                    f"Function '{ident}' expects {required_arg_count} arguments, "
+                    f"but got {len(flattened_args)}"
+                )
+
+            for i, actual_type in enumerate(flattened_args):
+                expected_types = signature["args"][0 if var_args else i]
+                if not isinstance(expected_types, list):
+                    expected_types = [expected_types]
+
+                type_matched = False
+                for expected_type in expected_types:
+                    if expected_type == "any" or expected_type == actual_type:
+                        type_matched = True
+                        break
+
+                    if expected_type.startswith("list<") and actual_type.startswith("list<"):
+                        expected_elem_type = expected_type[5:-1]  # get what's inside list<>
+                        actual_elem_type = actual_type[5:-1]
+                        if expected_elem_type == "any" or expected_elem_type == actual_elem_type:
+                            type_matched = True
+                            break
+
+                if not type_matched:
+                    raise ValueError(
+                        f"Argument {i+1} of function '{ident}' expects type '{expected_types}', "
+                        f"but got '{actual_type}'"
+                    )
+
+            return signature["returnType"]
+        else:
+            raise ValueError("Invalid identifier or function call")
+
+    def visitCalcAddSub(self, ctx: Any) -> str:
+        left_type = self.visit(ctx.getChild(0))
+        left_type = self.__normalizeType(left_type)
+
+        i = 1
+        while i < ctx.getChildCount():
+            operator = ctx.getChild(i).getText()
+            right_type = self.visit(ctx.getChild(i + 1))
+            right_type = self.__normalizeType(right_type)
+
+            operators = ["+", "-"]
+            possibleTypesAdd = ["int", "float", "string"]
+            possibleTypesSub = ["int", "float"]
+
+            if operator not in operators:
+                raise ValueError(f"Unknown operator '{operator}'")
+
+            if left_type != right_type:
+                raise ValueError(
+                    f"Operator '{operator}' requires matching types, got '{left_type}' and '{right_type}'"
+                )
+            if operator == "+" and left_type not in possibleTypesAdd:
+                raise ValueError(
+                    f"Operator '+' requires int, float, or string, got '{left_type}'"
+                )
+            if operator == "-" and left_type not in possibleTypesSub:
+                raise ValueError(
+                    f"Operator '-' requires int or float, got '{left_type}'"
+                )
+            i += 2
+
+        return left_type
+
+    def visitCalcMulDiv(self, ctx: Any) -> str:
+        left_type = self.visit(ctx.getChild(0))
+
+        i = 1
+        while i < ctx.getChildCount():
+            operator = ctx.getChild(i).getText()
+            right_type = self.visit(ctx.getChild(i + 1))
+
+            left_type = self.__normalizeType(left_type)
+            right_type = self.__normalizeType(right_type)
+
+            operators = ["*", "/", "%"]
+            possibleCalcMulDivTypes = ["int", "float"]
+            if operator not in operators:
+                raise ValueError(f"Unknown operator '{operator}'")
+
+            if left_type != right_type or left_type not in possibleCalcMulDivTypes:
+                raise ValueError(
+                    f"Operator '{operator}' requires matching numeric operands, "
+                    f"but got '{left_type}' and '{right_type}'"
+                )
+            i += 2
+
+        return left_type
+
+    def visitLogicalNot(self, ctx: Any) -> str:
+        expr_type = self.visit(ctx.getChild(1))
+        expr_type = self.__normalizeType(expr_type)
+        if expr_type != "bool":
+            raise ValueError(f"Logical '!' requires boolean operand, but got '{expr_type}'")
+        return "bool"
+
+    def visitConditionalAnd(self, ctx: Any) -> str:
+        result_type = self.visit(ctx.getChild(0))
+        result_type = self.__normalizeType(result_type)
+        i = 1
+        while i < ctx.getChildCount():
+            next_expr_type = self.visit(ctx.getChild(i + 1))
+            next_expr_type = self.__normalizeType(next_expr_type)
+            if result_type != "bool" or next_expr_type != "bool":
+                raise ValueError(
+                    f"Logical '&&' requires boolean operands, but got '{result_type}' and '{next_expr_type}'"
+                )
+            result_type = "bool"
+            i += 2
+        return result_type
+
+    def visitConditionalOr(self, ctx: Any) -> str:
+        result_type = self.visit(ctx.getChild(0))
+        result_type = self.__normalizeType(result_type)
+        i = 1
+        while i < ctx.getChildCount():
+            next_expr_type = self.visit(ctx.getChild(i + 1))
+            next_expr_type = self.__normalizeType(next_expr_type)
+            if result_type != "bool" or next_expr_type != "bool":
+                raise ValueError(
+                    f"Logical '||' requires boolean operands, but got '{result_type}' and '{next_expr_type}'"
+                )
+            result_type = "bool"
+            i += 2
+        return result_type
+
+    def visitPrimaryExpr(self, ctx: Any) -> str:
+        if ctx.getChildCount() == 1:
+            return self.visit(ctx.getChild(0))
+        elif ctx.getChildCount() == 3 and ctx.getChild(0).getText() == '(':
+            return self.visit(ctx.getChild(1))
+        else:
+            raise ValueError("Invalid primary expression")
+
+    def visitConstantLiteral(self, ctx: Any) -> str:
+        return self.visit(ctx.getChild(0))
+
+    def visitInt(self, ctx: Any) -> str:
+        return "int"
+
+    def visitDouble(self, ctx: Any) -> str:
+        return "float"
+
+    def visitString(self, ctx: Any) -> str:
+        return "string"
+
+    def visitBoolTrue(self, ctx: Any) -> str:
+        return "bool"
+
+    def visitBoolFalse(self, ctx: Any) -> str:
+        return "bool"
+
+    def visitNull(self, ctx: Any) -> str:
+        return "null"
+
+    def visitRelationOp(self, ctx: Any) -> str:
+        left_type = self.visit(ctx.getChild(0))
+        operator = ctx.getChild(1).getText()
+        right_type = self.visit(ctx.getChild(2))
+
+        normalized_left = self.__normalizeType(left_type)
+        normalized_right = self.__normalizeType(right_type)
+
+        if operator in ["==", "!="]:
+            if normalized_left != normalized_right:
+                raise ValueError(
+                    f"Mismatching types: Cannot compare '{normalized_left}' and '{normalized_right}' with '{operator}'"
+                )
+        elif operator in ["<", "<=", ">", ">="]:
+            if normalized_left != normalized_right:
+                raise ValueError(
+                    f"Mismatching types: Cannot compare '{normalized_left}' and '{normalized_right}' with '{operator}'"
+                )
+            if normalized_left not in ["int", "float"]:
+                raise ValueError(
+                    f"Operator '{operator}' requires numeric operands, but got '{normalized_left}' and '{normalized_right}'"
+                )
+        elif operator == "in":
+            pass
+        else:
+            raise ValueError(f"Unknown operator '{operator}'")
+
+        return "bool"
+
+    def visitExprList(self, ctx: Any) -> List[str]:
+        types = []
+        i = 0
+        while i < ctx.getChildCount():
+            child_type = self.visit(ctx.getChild(i))
+            types.append(child_type)
+            i += 2
+        return types
+    
+    def __normalizeType(input_value: Any) -> str:
+        if isinstance(input_value, str):
+            return input_value.strip()
+        elif isinstance(input_value, list):
+            flat_array = []
+            for item in input_value:
+                if isinstance(item, list):
+                    flat_array.extend(item)
+                else:
+                    flat_array.append(item)
+
+            flat_array = [x for x in flat_array if x is not None and x != '']
+            unique_types = list(set(flat_array))
+
+            if len(unique_types) == 1:
+                return unique_types[0]
+            elif len(unique_types) == 0:
+                return "unknown"
+            else:
+                return "unknown"
+        else:
+            raise ValueError(f"Unsupported input type: {type(input_value).__name__}")
