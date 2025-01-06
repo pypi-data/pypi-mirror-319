@@ -1,0 +1,3 @@
+[console_scripts]
+canarycd=canary_cd.main:main
+
