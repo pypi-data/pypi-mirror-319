@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: modelguard
+Version: 0.1.0
+Summary: TODO
+Author: RobbeRDG
+Author-email: robbedegroeve@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: onnx (>=1.16.2,<2.0.0)
+Requires-Dist: onnxruntime (>=1.19.0,<2.0.0)
+Requires-Dist: plotly (>=5.24.1,<6.0.0)
+Requires-Dist: pydantic-settings (>=2.6.1,<3.0.0)
+Requires-Dist: scikit-learn (>=1.5.2,<2.0.0)
+Requires-Dist: torch (>=2.5.1,<3.0.0)
+Requires-Dist: tqdm (>=4.67.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# ModelGuard
+
