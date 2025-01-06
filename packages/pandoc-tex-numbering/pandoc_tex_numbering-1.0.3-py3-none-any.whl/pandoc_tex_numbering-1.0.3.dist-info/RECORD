@@ -1,0 +1,9 @@
+pandoc_tex_numbering/__init__.py,sha256=d_ddq363qTRl5gIQIyIyQsYzn893KZfj71n5FOsn9V8,35
+pandoc_tex_numbering/lang_num.py,sha256=yW7fTxa0K1YetGiHFvHzhjzeq0mwddYiYddZWZS5w7A,762
+pandoc_tex_numbering/oxml.py,sha256=V1ec7PDTNw5T-fb-RcZbx6GHfNAKM1x21TI02FZut3U,5468
+pandoc_tex_numbering/pandoc_tex_numbering.py,sha256=tfuRMSyi0xcDV9IZyhA8vqn56zRJnv-8IZq9DPYukN8,17756
+pandoc_tex_numbering-1.0.3.dist-info/METADATA,sha256=4-uGz0U7zIf4VPCwJOhFielx9VQ5eJhhyFH3kDGJAMI,60963
+pandoc_tex_numbering-1.0.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pandoc_tex_numbering-1.0.3.dist-info/entry_points.txt,sha256=kFcmwgdW-Eo5PWcGi6S28y_VPCYgOUw_JKXDJ4rR_h4,67
+pandoc_tex_numbering-1.0.3.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pandoc_tex_numbering-1.0.3.dist-info/RECORD,,
