@@ -1,0 +1,118 @@
+# LinkedIn Automation MCP
+
+A server that handles LinkedIn automation tasks using Playwright, including profile scraping, connection requests, and profile information retrieval.
+
+## Project Structure
+
+```
+├── browser/            # Browser automation modules
+├── tests/             # Test files
+├── .vscode/           # VSCode configuration
+├── server.py          # Main server implementation
+├── requirements.txt   # Project dependencies
+├── pytest.ini        # PyTest configuration
+└── .gitignore        # Git ignore rules
+```
+
+## Prerequisites
+
+- Python 3.x
+- Virtual environment (recommended)
+
+## Dependencies
+
+The project requires the following Python packages:
+- `playwright` - Browser automation
+- `pytest` - Testing framework
+- `pytest-asyncio` - Async testing support
+- `pytest-playwright` - Playwright testing integration
+- `mcp` - Custom package for MCP integration
+- `beautifulsoup4` - HTML parsing
+- `lxml` - XML/HTML processing
+- `python-dotenv` - Environment variable management
+
+## Setup
+
+1. Create and activate a virtual environment:
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Unix/macOS
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Install Playwright browsers:
+```bash
+playwright install
+```
+
+4. Set up environment variables:
+Create a `.env` file with:
+```
+LINKEDIN_EMAIL=your_email
+LINKEDIN_PASSWORD=your_password
+```
+
+## Features
+
+The server provides three main tools:
+
+1. **Post Scraping**
+   - Scrape posts from specified LinkedIn profiles
+   - Configurable maximum posts per profile
+
+2. **Connection Requests**
+   - Search for profiles based on criteria
+   - Send connection requests with custom notes
+   - Configurable maximum connections
+
+3. **Profile Information**
+   - Retrieve detailed profile information
+   - Support for multiple profile IDs
+
+## Server Information
+
+- Protocol Version: 0.1.0
+- Server Name: linkedin-automation
+- JSON-RPC based communication
+
+## Error Handling
+
+- Comprehensive error logging
+- Automatic browser cleanup
+- Graceful error responses
+- Session management
+
+## Development Notes
+
+- Browser sessions are automatically managed
+- Headless mode configurable for debugging
+- Automatic login handling
+- Resource cleanup after operations
+- Descriptive logging throughout the application
+
+## Troubleshooting
+
+1. Browser Issues:
+   - Ensure Playwright is installed correctly
+   - Check environment variables are set
+   - Verify network connectivity
+
+2. Authentication Issues:
+   - Confirm LinkedIn credentials are correct
+   - Check for any LinkedIn security challenges
+
+3. Scraping Issues:
+   - Verify profile URLs/IDs are correct
+   - Check rate limiting
+   - Ensure proper network conditions
+
+## Security Notes
+
+- Credentials are managed via environment variables
+- Browser sessions are isolated
+- Automatic cleanup of resources
+- No credential storage in code
