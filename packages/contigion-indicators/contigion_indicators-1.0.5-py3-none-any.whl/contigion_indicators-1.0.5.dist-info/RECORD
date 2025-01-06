@@ -1,0 +1,17 @@
+contigion_indicators/__init__.py,sha256=IqWYz8ZGd1Ai9qnThtETcalsiyXkZuJmK5K1Rv1EQ_A,939
+contigion_indicators/bollinger_bands.py,sha256=FLKCVgihP6MnBaLrR7zq9H8VwpMNibRpigkmEWfmxUo,1050
+contigion_indicators/candlestick_patterns.py,sha256=bb7PthY1TQlT-bWggSrm4rAF3kjblZpTzW1PxI1Uc0o,16297
+contigion_indicators/macd.py,sha256=qmOoNRuhYS5B8vJuCNmsbu5jnoS6J5U-Me-cjL7emVo,1328
+contigion_indicators/parabolic_sar.py,sha256=WLLi4ndFiJJZGJgn56iWQ_vGuOStMCa8oUPKGkVGZhw,744
+contigion_indicators/rsi.py,sha256=nW2IhfzxpMnThj8uVzTsOL9-kZ_GkhKYpvJJEexBhl4,2101
+contigion_indicators/sessions.py,sha256=AF3fYWKKAtB0gnS0sP6HnIjIQFcyN63L4tfzKqR5EjM,1664
+contigion_indicators/sma.py,sha256=KxbRoI9yGhrnUHXMKWThJY1BUgtdpNTJWQ8vjJ4CF3Y,1790
+contigion_indicators/supertrend.py,sha256=g4fzMmREjecee5pB2ATt1m7JjpDCmKAGsXV51gbHu1U,1244
+contigion_indicators/support_and_resistance.py,sha256=abeJk8Sc1I456ccNQfQBAniCC2r8-LflrxdytWo3qss,2818
+contigion_indicators/util/__init__.py,sha256=xIMihj06-cXELg3Kplpaayir6b8qS3U-fUXWULrCXnk,148
+contigion_indicators/util/functions.py,sha256=VeyDOb3FcycThkZmgsi6wLAjngkfSQyY6pgnyDGPVqk,1975
+contigion_indicators/util/metatrader.py,sha256=55wjW-J6tzand94HUdjtGDPQSTOGUb5wP9CUBSRaaVI,888
+contigion_indicators-1.0.5.dist-info/METADATA,sha256=rNcqfdOorgmIR7BcOPO-QnwLvusGrT4cQa1F9jnGjuY,1547
+contigion_indicators-1.0.5.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+contigion_indicators-1.0.5.dist-info/top_level.txt,sha256=xLWEvtCuHV0Bcih6NeraAoRH-src9DGd-6l-QAWqpeo,21
+contigion_indicators-1.0.5.dist-info/RECORD,,
