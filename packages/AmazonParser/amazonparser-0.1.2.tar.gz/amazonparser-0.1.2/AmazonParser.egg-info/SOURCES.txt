@@ -1,0 +1,10 @@
+README.md
+setup.py
+AmazonParser/__init__.py
+AmazonParser/parser.py
+AmazonParser.egg-info/PKG-INFO
+AmazonParser.egg-info/SOURCES.txt
+AmazonParser.egg-info/dependency_links.txt
+AmazonParser.egg-info/entry_points.txt
+AmazonParser.egg-info/requires.txt
+AmazonParser.egg-info/top_level.txt
