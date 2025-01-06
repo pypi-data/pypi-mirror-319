@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: AmazonParser
+Version: 0.1.1
+Summary: A Parser for Amazon Pages
+Home-page: https://github.com/a4fr/AmazonParser
+Author: Ali Najafi
+Author-email: mail.ali.najafi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+
+# AmazonParser
+Python Library for Parsing Amazon Pages
