@@ -1,0 +1,5 @@
+mitmproxy_linux-0.11.4.dist-info/METADATA,sha256=bSmcmjPDSXIKvAskWWjbnIXC7E6o-mSi5XezWO7FBSo,1150
+mitmproxy_linux-0.11.4.dist-info/WHEEL,sha256=gCnjPTbygB2cfehJ9G8PHEXFwydsYWpUBy4Py3IcMy4,129
+mitmproxy_linux/__init__.py,sha256=qtPalNjeJKDhgf3mpF3FhMcuuL56N21SUXfGuRaZxXw,1341
+mitmproxy_linux-0.11.4.data/scripts/mitmproxy-linux-redirector,sha256=5dBQMpmPDMTHIAxk13MLOB1ObSgYuzbeh1h3jSLnwL4,2369096
+mitmproxy_linux-0.11.4.dist-info/RECORD,,
