@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "genesis-models"
+version = "0.1.2"
+description = "Shared database models for Genesis services"
+authors = ["stevenge <stevenge@godscode.com.cn>"]
+packages = [
+    { include = "genesis_models", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^1.4.0"
+
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/" 
