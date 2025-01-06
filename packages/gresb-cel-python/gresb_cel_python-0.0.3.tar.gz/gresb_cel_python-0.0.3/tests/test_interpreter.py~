@@ -1,0 +1,37 @@
+# test_interpreter.py
+
+import pytest
+from runtime import Runtime
+
+@pytest.mark.parametrize("expression, context, expected", [
+    ("2 + 3", {}, 5),
+    ("a + b", {'a': 2, 'b': 3}, 5),
+    ("a == b", {'a': 2, 'b': 2}, True),
+    ("a + b > c", {'a': 2, 'b': 3, 'c': 4}, True),
+    ("x", {}, pytest.raises(NameError, match="Variable 'x' is not defined")),
+    ("(2 + 3) * (4 - 1)", {}, 15),
+    ("a > b && b < c || a == c", {'a': 5, 'b': 3, 'c': 5}, True),
+    ("'Hello ' + 'World'", {}, "Hello World"),
+    ("2 * (3 + (4 - 1))", {}, 12),
+    ("!true", {}, False),
+    ("!(a > b) || (c < d && e >= f)", {'a': 3, 'b': 5, 'c': 2, 'd': 4, 'e': 5, 'f': 5}, True),
+    ("2 * (3 + 4) - (10 / 2) + 7", {}, 16),
+    ('"hello" + " " + "world"', {}, "hello world"),
+    ("!true", {}, False),
+    ("a > b ? 'greater' : 'lesser'", {'a': 5, 'b': 3}, 'greater'),
+    ("undefinedVar + 1", {}, pytest.raises(NameError, match="Variable 'undefinedVar' is not defined")),
+    ("a > b && b < c || a == c", {'a': 5, 'b': 3.3, 'c': 5}, pytest.raises(TypeError, match="Mismatching types: Cannot compare 'int' and 'float' with '>'")),
+    ("1 || 2.3 == 4.0", {}, pytest.raises(TypeError, match="Logical '||' requires boolean operands, but got 'int' and 'bool'")),
+    ("1 <= 2.3", {}, pytest.raises(TypeError, match="Mismatching types: Cannot compare 'int' and 'float' with '<='")),
+    ("2 * (3 + 4.0)", {}, pytest.raises(TypeError, match="Operator '\\+' requires matching types, but got 'int' and 'float'")),
+    ("true && 1", {}, pytest.raises(TypeError, match="Logical '&&' requires boolean operands, but got 'bool' and 'int'")),
+    ("'string' + 123", {}, pytest.raises(TypeError, match="Operator '\\+' requires matching types, but got 'string' and 'int'")),
+    ("true == 'false'", {}, pytest.raises(TypeError, match="Mismatching types: Cannot compare 'bool' and 'string' with '=='"))
+])
+def test_interpreter(expression, context, expected):
+    runtime = Runtime(expression)
+    if hasattr(expected, '__enter__') and hasattr(expected, '__exit__'):
+        with expected:
+            runtime.evaluate(context)
+    else:
+        assert runtime.evaluate(context) == expected
