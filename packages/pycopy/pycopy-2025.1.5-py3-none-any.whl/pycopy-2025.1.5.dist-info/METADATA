@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: pycopy
+Version: 2025.1.5
+Summary: A simple python script (cli and package) for syncing files between directories
+Author-email: Guenthner <guenthner.jonathan@gmail.com>
+License-File: LICENSE.txt
+Keywords: Files,Syncing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
