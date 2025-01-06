@@ -1,0 +1,192 @@
+Metadata-Version: 2.1
+Name: gtus
+Version: 0.1.0
+Summary: A Python package to collect and analyze Google Trends data for US states.
+Home-page: https://github.com/leventbulut/gtus
+Author: Levent Bulut
+Author-email: Levent Bulut   <levent.bulut@unt.edu>
+License: MIT License
+        
+        Copyright (c) 2024 Levent Bulut
+        GTUS - Python package
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+        
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: pytrends>=4.8.0
+Requires-Dist: aiohttp>=3.8.0
+
+# GTUS - Google Trends for US States
+
+`gtus`is a Python package that enables users to collect and analyze Google Trends data across various US states. This package is designed to handle multiple queries, manage API delays, and support exporting data to multiple formats, all while being user-friendly and versatile.
+
+---
+
+## Features
+
+1. **Collect Google Trends Data:**
+   - Fetch state-level data for multiple queries simultaneously.
+   - Collect data for all US states or specific states.
+   - Customize the timeframe for data collection.
+
+2. **Error Handling and Retry Logic:**
+   - Built-in retry mechanism with exponential backoff to handle rate-limiting errors (`Too Many Requests`).
+
+3. **Data Export Options:**
+   - Save data in Excel format, with each state’s data in separate sheets.
+   - Export data to a JSON file.
+   - Create a consolidated DataFrame for advanced analysis.
+
+4. **Asynchronous Functionality:**
+   - Collect data asynchronously for faster execution.
+
+---
+
+## Installation
+
+Install GTUS via pip:
+
+```bash
+pip install gtus
+```
+
+---
+
+## Getting Started
+
+Here's how to start using gtus to collect Google Trends data.
+
+## Usage Examples
+
+### 1. Collect Data for All States
+
+If no states are specified, GTUS will automatically collect data for all US states:
+
+```python
+from gtus import GTUS
+
+queries = ["telemedicine", "remote work"]
+# Initialize GTUS object without specifying states
+gtus = GTUS(queries=queries, timeframe="2022-01-01 2023-01-01")
+
+# Collect data
+gtus.collect_all_trends()
+
+# Export to Excel
+gtus.export_to_excel("google_trends_all_states.xlsx")
+
+# Export to JSON
+gtus.export_to_json("google_trends_all_states.json")
+
+# Create a consolidated DataFrame
+dataframe = gtus.create_consolidated_dataframe()
+print(dataframe.head())
+```
+
+### 2. Fetch Data for a Specific State and Query
+You can specify a subset of states and queries:
+
+
+```python
+states = ["CA", "NY", "TX"]
+queries = ["remote work", "telehealth"]
+
+# Initialize GTUS object
+gtus = GTUS(queries=queries, states=states, timeframe="2022-01-01 2023-01-01")
+
+```
+
+### 3. Asynchronous Data Collection
+
+```python
+from gtus import AsyncGTUS
+import asyncio
+
+async def fetch_async():
+    queries = ["online learning", "work from home"]
+
+    # Initialize AsyncGTUS object
+    async_gtus = AsyncGTUS(queries=queries, timeframe="2022-01-01 2023-01-01")
+
+    await async_gtus.collect_all_trends_async()
+
+    # Export to Excel and JSON
+    async_gtus.export_to_excel("async_google_trends.xlsx")
+    async_gtus.export_to_json("async_google_trends.json")
+
+asyncio.run(fetch_async())
+```
+
+### 4. Consolidated DataFrame
+
+Combine all collected data into a single DataFrame:
+
+```python
+consolidated_df = gtus.create_consolidated_dataframe()
+print(consolidated_df.head())
+```
+
+---
+
+## Advanced Configuration
+
+### Customize Timeframes
+You can specify custom timeframes for data collection:
+
+```python
+gtus = GTUS(queries=["climate change"], states=["WA"], timeframe="2010-01-01 2020-12-31")
+```
+
+### Adjust Retry Settings
+
+Customize retry attempts and delays for handling rate limits:
+
+```python
+gtus = GTUS(queries=["data science"], states=["NY"], delay=10)
+result = gtus.fetch_state_trends(query="data science", state="NY", max_retries=5, backoff_factor=2)
+```
+
+---
+
+## Dependencies
+
+- `pandas`
+- `pytrends`
+- `aiohttp`
+
+---
+
+## Contributing
+
+Contributions are welcome! Please submit issues or pull requests via [GitHub](https://github.com/leventbulut/gtus).
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
+
+---
+
+Start exploring Google Trends data with GTUS today!
