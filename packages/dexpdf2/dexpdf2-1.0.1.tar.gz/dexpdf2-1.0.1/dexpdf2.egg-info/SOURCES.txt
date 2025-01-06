@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dexpdf/__init__.py
+dexpdf/pdf2text.py
+dexpdf2.egg-info/PKG-INFO
+dexpdf2.egg-info/SOURCES.txt
+dexpdf2.egg-info/dependency_links.txt
+dexpdf2.egg-info/top_level.txt
