@@ -1,0 +1,27 @@
+# Default configurations
+
+rate_limits:
+  rpm: 10
+  daily_quota: 1000
+
+token_ratio:
+  prompt: 0.75    # 75% of max_total_tokens
+  completion: 0.25 # 25% of max_total_tokens
+
+generation_defaults:
+  temperature: 0.7
+  top_p: 0.95
+  max_tokens: null  # Will be calculated based on model limits
+  presence_penalty: 0.0
+  frequency_penalty: 0.0
+
+retry_policy:
+  max_retries: 3
+  initial_delay: 1.0
+  max_delay: 10.0
+  backoff_factor: 2.0
+
+timeout_settings:
+  connect_timeout: 10.0
+  read_timeout: 30.0
+  total_timeout: 60.0 

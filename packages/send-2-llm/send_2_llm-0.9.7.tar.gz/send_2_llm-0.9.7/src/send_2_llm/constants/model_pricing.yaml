@@ -1,0 +1,87 @@
+# Model pricing configuration
+# All prices in USD per million tokens
+
+providers:
+  direct:
+    openai:
+      models:
+        gpt-4o:
+          prices:
+            prompt: 2.50
+            completion: 10.00
+          limits:
+            max_total_tokens: 128000
+    
+    anthropic:
+      models:
+        claude-3.5-sonnet:
+          prices:
+            prompt: 3.0
+            completion: 15.0
+            prompt_cache_write: 3.75
+            prompt_cache_read: 0.30
+          limits:
+            max_total_tokens: 200000
+    
+    deepseek:
+      models:
+        deepseek-chat:
+          prices:
+            prompt: 0.27
+            completion: 1.10
+            prompt_cache_hit: 0.07
+          limits:
+            max_total_tokens: 128000
+    
+    gemini:
+      models:
+        gemini-1.5-pro:
+          prices:
+            prompt_128k: 1.25
+            completion_128k: 5.00
+            prompt_above_128k: 2.50
+            completion_above_128k: 10.00
+          limits:
+            max_total_tokens: 128000
+            
+    perplexity:
+      models:
+        llama-3.1-sonar-small-128k-online:
+          prices:
+            prompt: 0.0000001
+            completion: 0.0000001
+          limits:
+            requests_per_1000: 5
+            
+        llama-3.1-sonar-large-128k-online:
+          prices:
+            prompt: 0.0000002
+            completion: 0.0000002
+          limits:
+            requests_per_1000: 5
+            
+        llama-3.1-sonar-huge-128k-online:
+          prices:
+            prompt: 0.0000003
+            completion: 0.0000003
+          limits:
+            requests_per_1000: 5
+
+  together:
+    deepseek:
+      models:
+        deepseek-chat:
+          prices:
+            prompt: 0.30
+            completion: 1.20
+          limits:
+            max_total_tokens: 128000
+    
+    mistral:
+      models:
+        mistral-large:
+          prices:
+            prompt: 7.2
+            completion: 21.0
+          limits:
+            max_total_tokens: 32000 
