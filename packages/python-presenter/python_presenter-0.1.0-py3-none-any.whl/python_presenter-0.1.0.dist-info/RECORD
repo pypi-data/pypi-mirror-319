@@ -1,0 +1,12 @@
+python_presenter/__init__.py,sha256=yixAUYkIBNgeZ-Oh1GEGgT6wEQT7_nVxiwaKNL6_ACg,280
+python_presenter/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_presenter/core/presenters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_presenter/core/presenters/base_presenter.py,sha256=WHkRTwiTbTsgZXqE3xISrvekTY5ST05brnYIiB3ayEQ,321
+python_presenter/core/presenters/presenter_helper.py,sha256=2af6K16P7F9Br7GssNmCYabMiVIBHJUaKlGToqqT3AI,773
+python_presenter/core/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_presenter/core/templatetags/presenter_tag.py,sha256=oaBlyX5PaQaiw2opjHYEiBU4DEqMnwQncCWL4P5BQ60,907
+python_presenter-0.1.0.dist-info/LICENSE,sha256=1Gia5hRf-t1MQ-ItXN9A71iYMJh-QAlkqw5pckPuZoc,1073
+python_presenter-0.1.0.dist-info/METADATA,sha256=w7TpsfJY9M6BXCSlySGBF_kKWu624Y-BkZcOiGA3cC0,7500
+python_presenter-0.1.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+python_presenter-0.1.0.dist-info/top_level.txt,sha256=p79bHsd8i_echThzzoiHBYaSjzf1WX9DHMtMPjmpNR4,17
+python_presenter-0.1.0.dist-info/RECORD,,
