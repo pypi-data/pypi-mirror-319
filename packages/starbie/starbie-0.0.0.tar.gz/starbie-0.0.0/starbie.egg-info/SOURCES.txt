@@ -1,0 +1,7 @@
+setup.py
+starbie/__init__.py
+starbie.egg-info/PKG-INFO
+starbie.egg-info/SOURCES.txt
+starbie.egg-info/dependency_links.txt
+starbie.egg-info/not-zip-safe
+starbie.egg-info/top_level.txt
