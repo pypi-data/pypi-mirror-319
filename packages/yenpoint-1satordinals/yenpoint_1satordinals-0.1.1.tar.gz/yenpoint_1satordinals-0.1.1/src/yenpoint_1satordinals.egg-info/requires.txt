@@ -1,0 +1,5 @@
+bsv-sdk>=0.5.2
+
+[dev]
+pytest>=6.0
+pytest-cov
