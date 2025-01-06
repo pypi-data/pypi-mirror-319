@@ -1,0 +1,206 @@
+Metadata-Version: 2.1
+Name: gerri
+Version: 1.0.0
+Summary: Giant Eagle Retrieval and Response Interface (Gerri) Library
+Home-page: https://github.com/giant-eagle/Gerri_library
+Author: Kanav Kahol PhD
+Author-email: kanav.kahol@example.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: annotated-types==0.7.0
+Requires-Dist: anyio==4.6.2.post1
+Requires-Dist: azure-appconfiguration==1.7.1
+Requires-Dist: azure-common==1.1.28
+Requires-Dist: azure-core==1.32.0
+Requires-Dist: azure-cosmos==4.7.0
+Requires-Dist: azure-identity==1.17.1
+Requires-Dist: azure-search-documents==11.5.1
+Requires-Dist: azure-storage-blob==12.23.1
+Requires-Dist: certifi==2024.8.30
+Requires-Dist: cffi==1.17.1
+Requires-Dist: charset-normalizer==3.4.0
+Requires-Dist: click==8.1.7
+Requires-Dist: cryptography==43.0.3
+Requires-Dist: distro==1.9.0
+Requires-Dist: fastapi==0.115.4
+Requires-Dist: h11==0.14.0
+Requires-Dist: httpcore==1.0.6
+Requires-Dist: httpx==0.27.2
+Requires-Dist: idna==3.10
+Requires-Dist: isodate==0.7.2
+Requires-Dist: jiter==0.6.1
+Requires-Dist: msal==1.31.0
+Requires-Dist: msal-extensions==1.2.0
+Requires-Dist: openai==1.52.2
+Requires-Dist: portalocker==2.10.1
+Requires-Dist: pycparser==2.22
+Requires-Dist: pydantic==2.9.2
+Requires-Dist: pydantic-core==2.23.4
+Requires-Dist: PyJWT==2.9.0
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: requests==2.32.3
+Requires-Dist: six==1.16.0
+Requires-Dist: sniffio==1.3.1
+Requires-Dist: starlette==0.41.2
+Requires-Dist: tqdm==4.66.6
+Requires-Dist: typing-extensions==4.12.2
+Requires-Dist: urllib3==2.2.3
+Requires-Dist: uvicorn==0.32.0
+
+# Gerri Library
+
+The **Gerri Library** (Giant Eagle Retrieval and Response Interface) is a comprehensive Python package designed for managing and orchestrating various functionalities such as database interactions, API management, large language model integration, and more.
+
+## Features
+
+- **Blob Manager**: Manage Azure Blob Storage for file and folder operations.
+- **API Manager**: Handle API-related functionalities (future development).
+- **Content Filters**: Implement and manage content filtering strategies.
+- **Database Manager**: Interact with Cosmos DB and manage database operations.
+- **LLM Manager**: Integrate with OpenAI, Hugging Face, and other LLM APIs.
+- **Search Manager**: Utilize Azure Search for content search capabilities.
+- **RAG Manager**: Manage Retrieval-Augmented Generation workflows.
+- **Summary Tag Manager**: Provide summary tagging functionality.
+- **Utilities**: General utility functions for common tasks.
+
+## Installation
+
+To install the Gerri Library, use the following command:
+
+```bash
+pip install gerri
+```
+
+For development purposes, install the package in editable mode:
+
+```bash
+pip install -e .
+```
+
+## Requirements
+
+Ensure the dependencies listed in `gerri/requirements.txt` are installed:
+
+```bash
+pip install -r gerri/requirements.txt
+```
+
+## Usage
+
+Here are some examples of how to use the library:
+
+### Blob Manager
+
+
+    from gerri.blob_manager import blob_storage_manager
+
+    manager = blob_storage_manager.BlobStorageManager(config={
+        "connection_string": "your_connection_string",
+        "container_name": "your_container_name"
+    })
+    manager.upload_file("example.txt", "blob_name")
+
+
+### LLM Manager (OpenAI Example)
+
+
+    from gerri.llm_manager.openai_manager import openai_manager
+
+    openai_instance = openai_manager.OpenAIManager(api_key="your_openai_api_key")
+    response = openai_instance.generate_text(prompt="Hello, world!")
+    print(response)
+
+
+## Documentation
+
+Full documentation is available in the `docs/` directory or online (if hosted on platforms like Read the Docs).
+
+## Project Structure
+
+- **`blob_manager/`**: Azure Blob Storage management.
+- **`api_manager/`**: API management utilities (future development).
+- **`content_filters/`**: Content filtering tools.
+- **`database_manager/`**: Database management with Cosmos DB.
+- **`llm_manager/`**: Large language model integrations, including (list):
+
+  - OpenAI
+  - Hugging Face
+  - Ollama Manager
+  
+- **`rag_manager/`**: Retrieval-Augmented Generation workflows.
+- **`search_manager/`**: Azure Search integration.
+- **`summary_tag_manager/`**: Summary tagging.
+- **`utilities/`**: General utility functions.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request for any enhancements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Environment Variables Configuration
+
+This file provides a description of the environment variables required for the Recipe Generator project. These variables are stored in the `.env` file and are used to configure various services and APIs.
+
+## Environment Variables
+
+### OpenAI Configuration
+- **OPENAI_ENDPOINT**: The endpoint for the OpenAI service.
+- **OPENAI_API_KEY**: The API key for accessing the OpenAI service.
+- **OPENAI_DEPLOYMENT_ID**: The deployment ID for the OpenAI model.
+- **OPENAI_API_VERSION**: The version of the OpenAI API to use.
+- **TEMPERATURE**: The temperature setting for the OpenAI model.
+
+### Image API Configuration
+- **IMAGE_API_ENDPOINT**: The endpoint for the image generation API.
+- **IMAGE_API_KEY**: The API key for accessing the image generation API.
+- **IMAGE_DEPLOYMENT_ID**: The deployment ID for the image generation model.
+
+### Content Safety Configuration
+- **CONTENT_SAFETY_ENDPOINT**: The endpoint for the content safety API.
+- **CONTENT_SAFETY_KEY**: The API key for accessing the content safety API.
+
+### Cosmos DB Configuration
+- **COSMOS_DB_ENDPOINT**: The endpoint for the Cosmos DB service.
+- **COSMOS_DB_KEY**: The key for accessing the Cosmos DB service.
+- **COSMOS_DB_DATABASE_NAME**: The name of the Cosmos DB database.
+- **COSMOS_DB_CONTAINER_NAME**: The name of the Cosmos DB container.
+- **COSMOS_DB_PARTITION_KEY**: The partition key for the Cosmos DB container.
+
+### Recipe Generation Prompt
+- **RECIPE_GENERATION_PROMPT**: The prompt used for generating recipes. This should be a JSON string with specific guidelines for the recipe generation.
+
+### Azure Blob Storage Configuration
+- **BLOB_CONNECTION_STRING**: The connection string for accessing Azure Blob Storage.
+- **BLOB_CONTAINER_NAME**: The name of the blob container where recipe files are stored.
+- **BLOB_RECIPE_FOLDER**: The folder within the blob container where recipe files are stored.
+
+### Azure Search Configuration
+- **AZURE_SEARCH_ENDPOINT**: The endpoint for the Azure Search service.
+- **AZURE_SEARCH_KEY**: The API key for accessing the Azure Search service.
+- **AZURE_SEARCH_INDEX_NAME**: The name of the Azure Search index.
+- **AZURE_SEARCH_INDEXER_NAME**: The name of the Azure Search indexer.
+- **AZURE_SEARCH_INDEXER_INTERVAL_IN_SECONDS**: The interval in seconds for the Azure Search indexer to run.
+
+### Form Recognizer Configuration
+- **FORM_RECOGNIZER_ENDPOINT**: The endpoint for the Azure Form Recognizer service.
+- **FORM_RECOGNIZER_KEY**: The API key for accessing the Azure Form Recognizer service.
+
+### System Prompt
+- **SYSTEM_PROMPT**: The system prompt used for generating recipes. This should be a JSON string with specific guidelines for the recipe generation.
+
+### LLM Type
+- **LLM_TYPE**: The type of language model to use (e.g., `openai` or `ollama`). ollama will use local LLM and will require OLLAMA to be installed on the machine running the code. 
+- **OLLAMA_MODEL**: specify the Ollama model to be used like LLAMA3.1 or LLAMA3.2
+
