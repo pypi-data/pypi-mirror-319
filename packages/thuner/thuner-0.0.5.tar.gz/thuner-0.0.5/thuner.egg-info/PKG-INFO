@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: thuner
+Version: 0.0.5
+Summary: Thunderstorm event reconnaissance
+Author-email: Ewan Short <ewan.short@unimelb.edu.au>, Mark Picel <mhpicel@gmail.com>, Bhupendra Raut <braut@anl.gov>
+License: BSD-3-Clause
+Project-URL: Homepage, https://github.com/THUNER-project/THUNER/tree/main
+Project-URL: Issues, https://github.com/THUNER-project/THUNER/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+License-File: LICENSE.txt
+Requires-Dist: numpy==2.0.2
+Requires-Dist: numba==0.60.0
+Requires-Dist: scipy==1.14.1
+Requires-Dist: scikit-image==0.24.0
+Requires-Dist: pandas==2.2.3
+Requires-Dist: matplotlib==3.9.3
+Requires-Dist: xarray==2024.9.0
+Requires-Dist: cartopy==0.24.0
+Requires-Dist: typing_extensions==4.12.2
+Requires-Dist: pre-commit==4.0.1
+Requires-Dist: black==24.10.0
+Requires-Dist: pytest==8.3.4
+Requires-Dist: pytest-cov==5.0.0
+Requires-Dist: codecov==2.1.13
+Requires-Dist: ipykernel==6.29.5
+Requires-Dist: netcdf4==1.7.2
+Requires-Dist: h5netcdf==1.4.1
+Requires-Dist: requests==2.32.3
+Requires-Dist: arm_pyart==1.19.2
+Requires-Dist: tqdm==4.66.6
+Requires-Dist: cdsapi==0.7.5
+Requires-Dist: xesmf==0.8.8
+Requires-Dist: opencv-python==4.10.0
+Requires-Dist: awscli==1.35.24
+Requires-Dist: tables==3.10.1
+Requires-Dist: memory_profiler==0.61.0
+Requires-Dist: psutil==6.0.0
+Requires-Dist: pydantic==2.9.2
+Requires-Dist: zarr==2.18.3
+Requires-Dist: windrose==1.9.2
+Requires-Dist: pydot==3.0.2
+Requires-Dist: graphviz==0.20.3
+Requires-Dist: metpy==1.6.3
