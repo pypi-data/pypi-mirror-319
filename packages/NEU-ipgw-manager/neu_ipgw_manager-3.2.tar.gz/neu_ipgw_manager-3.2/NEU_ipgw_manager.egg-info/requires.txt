@@ -1,0 +1,5 @@
+requests
+tabulate
+beautifulsoup4
+wcwidth
+platformdirs
