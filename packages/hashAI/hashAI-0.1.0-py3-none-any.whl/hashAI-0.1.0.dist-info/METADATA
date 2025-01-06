@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hashAI
+Version: 0.1.0
+Summary: A powerful SDK for building AI assistants with RAG capabilities.
+Home-page: https://github.com/Syenah/opAI
+Author: Rakesh
+Author-email: rakeshsahoo689@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: anthropic
+Requires-Dist: groq
+Requires-Dist: langchain
+Requires-Dist: faiss-cpu
+Requires-Dist: pydantic
+Requires-Dist: requests
+
+# opAi SDK
+
+A powerful SDK for building AI assistants with RAG, memory, and LLM integrations.
+
+## Installation
+
+```bash
+pip install opai
+
