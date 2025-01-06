@@ -1,0 +1,13 @@
+typedschema/__init__.py,sha256=0CnWjW7BySPYnUJfJ-3PKEr8l5gTSp0dFaZAif96w3c,213
+typedschema/_version.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+typedschema/codegen.py,sha256=JDJtL80YoOwn6HaARZ1zaU4MEfXmLAIuRRIrlQu3Ky8,1146
+typedschema/column.py,sha256=QDrjpeQxUwIa9htxsLJ74weiBp7rL5e5tQtFaUqWK-M,3066
+typedschema/schema.py,sha256=f3U9926QRh7aTO6r-K89y-1U842gBP_EFKDmwvYTveU,10786
+typedschema/string.py,sha256=FLFDz8EYRUygTiT45cMZ-n2-2-cs7ZHUIn_HJUSnA0M,1022
+typedschema/structfield.py,sha256=Y19y9EwBrNkyjCahh_PAtzWrZoaIbp6nFLbWKTfyVoM,1795
+typedschema/table.py,sha256=YxhM4PgTLiv95NOJZPS1jCm_ebCx_zUidvabwb5KSc0,1685
+pyspark_typedschema-0.0.4.dist-info/LICENSE,sha256=U0Xrs2phnPbd6oMDYPTcjU16GMNFLuFsExxuRPh9vsw,11346
+pyspark_typedschema-0.0.4.dist-info/METADATA,sha256=B66KGjg1APbd1JODLPZsFwaADL93OaibY9Nczf-Mj8c,15012
+pyspark_typedschema-0.0.4.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+pyspark_typedschema-0.0.4.dist-info/top_level.txt,sha256=7ua7KzQVGpB2wKcFnuJtsZCCRkOnsd2bNuLDhStcYD8,12
+pyspark_typedschema-0.0.4.dist-info/RECORD,,
