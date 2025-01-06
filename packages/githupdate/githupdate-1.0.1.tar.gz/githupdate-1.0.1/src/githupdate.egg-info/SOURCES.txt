@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/githupdate/githupdate.py
+src/githupdate.egg-info/PKG-INFO
+src/githupdate.egg-info/SOURCES.txt
+src/githupdate.egg-info/dependency_links.txt
+src/githupdate.egg-info/requires.txt
+src/githupdate.egg-info/top_level.txt
