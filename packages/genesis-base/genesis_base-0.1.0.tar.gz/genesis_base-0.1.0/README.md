@@ -1,0 +1,71 @@
+# Genesis Base
+
+Genesis 视频处理基础包，提供数据库连接和任务模型定义。
+
+## 功能
+
+- 数据库连接工具
+  - MongoDB
+  - MySQL
+  - S3
+
+- 任务模型
+  - 预训练任务 (PretrainTask)
+  - 成品任务 (ProductTask)
+
+## 安装
+
+```bash
+pip install genesis-base
+```
+
+## 使用示例
+
+```python
+from genesis_base.models import PretrainTask, ProductTask
+
+# 创建预训练任务
+pretrain = PretrainTask(
+    task_id="pretrain_001",
+    name="预训练任务1",
+    source_video_path="/data/source.mp4",
+    reference_video_path="/data/reference.mp4",
+    video_model_path="/models/video/",
+    reference_audio_path="/data/reference.wav",
+    audio_model_path="/models/audio/"
+)
+pretrain.save(db)
+
+# 创建成品任务
+product = ProductTask(
+    task_id="product_001",
+    name="成品任务1",
+    audio_model_path="/models/audio/",
+    reference_audio_path="/data/reference.wav",
+    target_text="你好，世界",
+    video_model_path="/models/video/"
+)
+product.save(db)
+```
+
+## 环境变量配置
+
+### MongoDB
+- `MONGO_HOST`: MongoDB 主机地址
+- `MONGO_PORT`: MongoDB 端口
+- `MONGO_USER`: MongoDB 用户名
+- `MONGO_PASSWORD`: MongoDB 密码
+- `MONGO_DATABASE`: MongoDB 数据库名称
+
+### MySQL
+- `MYSQL_HOST`: MySQL 主机地址
+- `MYSQL_PORT`: MySQL 端口
+- `MYSQL_USER`: MySQL 用户名
+- `MYSQL_PASSWORD`: MySQL 密码
+- `MYSQL_DATABASE`: MySQL 数据库名称
+
+### S3
+- `S3_ENDPOINT_URL`: S3 端点 URL
+- `AWS_ACCESS_KEY_ID`: AWS 访问密钥 ID
+- `AWS_SECRET_ACCESS_KEY`: AWS 密钥
+- `AWS_REGION`: AWS 区域
