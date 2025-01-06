@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pipmanagergui
+Version: 0.1.1
+Summary: A GUI for managing Python packages
+Home-page: https://github.com/teymuur/pipmanagergui
+Author: Teymur Babayev
+Author-email: teymur_babayev08@yahoo.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+
+# Pip Package Manager GUI
+
+A GUI tool for managing Python packages using pip.
+
+## Features
+
+- View installed packages.
+- Search and install packages from PyPI.
+- Sort packages by name or size.
+- Update or uninstall packages through a child window.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   pip install pipmanagergui
+   ```
+
+2. Run it on terminal:
+   ```bash
+   pipmanager
+   ```
+
+
+## Usage
+
+- Click "Search Local Packages" to view installed packages.
+- Use the search bar to find packages on PyPI.
+- Double-click a package to update or uninstall it.
+
+## Requirements
+
+- Python 3.10+
+- `requests`
+- `tkinter`
+
+## License
+
+MIT License
+
