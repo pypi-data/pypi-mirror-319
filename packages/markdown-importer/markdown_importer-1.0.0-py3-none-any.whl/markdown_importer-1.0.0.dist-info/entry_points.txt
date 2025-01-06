@@ -1,0 +1,2 @@
+[console_scripts]
+markdown-importer = markdown_importer.__main__:main
