@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+eryonai/__init__.py
+eryonai/model.py
+eryonai.egg-info/PKG-INFO
+eryonai.egg-info/SOURCES.txt
+eryonai.egg-info/dependency_links.txt
+eryonai.egg-info/requires.txt
+eryonai.egg-info/top_level.txt
