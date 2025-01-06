@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+ProgressBar/PercentProgressBar.py
+ProgressBar/ProgressBar.py
+ProgressBar/__init__.py
+TimurkaaaaProgressBar.egg-info/PKG-INFO
+TimurkaaaaProgressBar.egg-info/SOURCES.txt
+TimurkaaaaProgressBar.egg-info/dependency_links.txt
+TimurkaaaaProgressBar.egg-info/top_level.txt
+tests/test1.py
+tests/test2.py
+tests/test3.py
