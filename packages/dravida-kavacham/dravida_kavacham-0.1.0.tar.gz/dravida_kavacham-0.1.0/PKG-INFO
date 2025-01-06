@@ -1,0 +1,100 @@
+Metadata-Version: 2.3
+Name: dravida_kavacham
+Version: 0.1.0
+Summary: Abusive Content Detection
+License: MIT
+Author: Luxshan2000
+Author-email: Luxshanlux2000@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: gdown (>=5.0.0,<6.0.0)
+Requires-Dist: torch (>=2.2.0,<3.0.0)
+Requires-Dist: transformers (>=4.44.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+<div align="center">
+    <h1>
+    DravidaKavacham
+    </h1>
+    <p>
+        DravidaKavacham  is an open-source tool for detecting abusive content in Dravidian focused on harmful language targeting women.</p>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python 3.10+" />
+  <img src="https://img.shields.io/badge/PyTorch-2.2.0%2B-red?logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/github/license/Luxshan2000/dravida-kavacham" alt="MIT License" />
+<img src="https://img.shields.io/pypi/dm/dravida-kavacham" alt="Downloads" />
+</div>
+
+---
+
+## 🛠️ Installation  
+
+Install DravidaKavacham via [PyPI](https://pypi.org/project/dravida-kavacham)
+```bash
+pip install dravida-kavacham
+```  
+
+---
+
+## 💡 Quick Start  
+
+### Load the Library  
+```python
+from dravida_kavacham import AbuseDetector
+
+# Initialize the detector
+detector = AbuseDetector()
+```
+
+### Predict Abusive Content  
+```python
+text = "Example abusive text in Tamil or Malayalam"
+result = detector.predict(text)
+
+if result == "Abusive":
+    print("⚠️ Abusive content detected!")
+else:
+    print("✔️ Text is clean.")
+```  
+
+---
+
+## 🚀 Key Features  
+- **Multilingual Detection**: Designed for Tamil 🇮🇳 and Malayalam 🇮🇳 text.  
+- **Plug-and-Play**: No complex setup. Just install, load, and detect!  
+- **Efficient Local Processing**: Downloads the pre-trained model on first use.  
+- **Customizable**: Extendable for additional use cases with minor adjustments.  
+
+---
+
+## 🌍 Supported Languages  
+
+| Language     | Script          | Status       |  
+|--------------|-----------------|--------------|  
+| **Tamil**    | Tamil script    | ✅ Supported |  
+| **Malayalam**| Malayalam script| ✅ Supported |  
+
+---
+
+## 📄 License  
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
+
+---
+
+## 🙌 Acknowledgements  
+
+Special thanks to the dataset authors and owners for providing the valuable resources that made this project possible!
+
+---
+
+## ⭐ Support  
+
+If you like this project, please consider giving it a ⭐ on [DravidaKavacham](https://github.com/Luxshan2000/dravida-kavacham)!
+
