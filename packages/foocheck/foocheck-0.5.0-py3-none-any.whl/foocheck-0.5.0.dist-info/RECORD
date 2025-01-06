@@ -1,0 +1,10 @@
+foocheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foocheck/cli.py,sha256=vw1H-6ALb6UirfhVA2Ovp2BCBhhPkKzVw4SDhG4tNlg,3030
+foocheck/networks.py,sha256=oepovN5KxgMkycORH8wrjwlu_fMEuHM8xg2SpMykZ7E,10705
+foocheck/sites.py,sha256=smmyUeJ1mN3KDiz041rhhFYh-inejZ6JuZny2-1EP0A,20312
+foocheck/utils.py,sha256=XUNADMdDxvrHBUMJoTe0j7lpmhSjNp34joGmL6IRQsM,1138
+foocheck-0.5.0.dist-info/LICENSE,sha256=Fe7_Ki1uQWqMmhgQN3aTLRAfs7-OqKonHDBP4AHfI0w,1069
+foocheck-0.5.0.dist-info/METADATA,sha256=AAFfV2Z76_o8svbPzsbWSjSzElZfhMbMI_x-Zp_23jY,1478
+foocheck-0.5.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+foocheck-0.5.0.dist-info/entry_points.txt,sha256=ZFe2LDfWady6RovTIrw3DhCi-gpPtC9wa2WM-VQ2fuU,46
+foocheck-0.5.0.dist-info/RECORD,,
