@@ -1,0 +1,10 @@
+README.md
+setup.py
+evilredirex/__init__.py
+evilredirex/main.py
+evilredirex.egg-info/PKG-INFO
+evilredirex.egg-info/SOURCES.txt
+evilredirex.egg-info/dependency_links.txt
+evilredirex.egg-info/entry_points.txt
+evilredirex.egg-info/requires.txt
+evilredirex.egg-info/top_level.txt
