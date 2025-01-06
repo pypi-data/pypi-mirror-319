@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+setup.py
+fread/__init__.py
+fread/read.py
+fucking_read.egg-info/PKG-INFO
+fucking_read.egg-info/SOURCES.txt
+fucking_read.egg-info/dependency_links.txt
+fucking_read.egg-info/entry_points.txt
+fucking_read.egg-info/requires.txt
+fucking_read.egg-info/top_level.txt
