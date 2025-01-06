@@ -1,0 +1,4 @@
+include mathutils/*.pyx
+include mathutils/*.c
+include README.md
+
