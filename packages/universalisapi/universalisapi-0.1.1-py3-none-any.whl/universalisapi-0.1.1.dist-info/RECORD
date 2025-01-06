@@ -1,0 +1,11 @@
+universalisapi/__init__.py,sha256=0malIqTcGZAgsL6deJPRYSF6iSsyRYJKn_sb5hAdjwk,109
+universalisapi/_wrapper.py,sha256=VFNTkEr22yHdBuFImDHwtlu7sWW4GTDT3uOhBQvQiaU,8083
+universalisapi/client.py,sha256=VgGmWkRiVWvdfwx6jQcapgs63_Pmuvp59xBVjG9bGs4,10160
+universalisapi/exceptions.py,sha256=4jGs73Vxhi4Ym5EUEGVkwaLMR6GBzxbM1-Vwmu_9T6o,89
+universalisapi/api_objects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+universalisapi/api_objects/enums.py,sha256=D8T_Nj-FcehQPZfvSrFk0I4UZLw_voVX2I-5E_4tX8w,4796
+universalisapi/api_objects/listing.py,sha256=VLpyHk-tCGCwXV4yY2u84HELIA_UbYZwU6doFD0iqCw,179
+universalisapi/api_objects/mb_data.py,sha256=ORwyj2u9iGGCjWdV_b1_Ffejq8WTkK9TKLAOQFrXYCI,2527
+universalisapi-0.1.1.dist-info/METADATA,sha256=RTsUIRgATltRPWX-tdwtFSI1WCS2eGAWfQVuv1jcVzU,1783
+universalisapi-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+universalisapi-0.1.1.dist-info/RECORD,,
