@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/PyBWT/__init__.py
+src/PyBWT/bwt.py
+src/PyBWT.egg-info/PKG-INFO
+src/PyBWT.egg-info/SOURCES.txt
+src/PyBWT.egg-info/dependency_links.txt
+src/PyBWT.egg-info/top_level.txt
