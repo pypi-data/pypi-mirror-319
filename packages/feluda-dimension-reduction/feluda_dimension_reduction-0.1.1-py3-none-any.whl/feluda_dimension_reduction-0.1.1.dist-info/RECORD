@@ -1,0 +1,9 @@
+./.gitignore,sha256=aufV-uwMFs2rmzfXo8F94X_pE86taqqXjAxsWQsfCng,1909
+./PKG-INFO,sha256=oAAc1yuOE5GkpvirUUs29Mfj7LJtooXdwFOY9NgPea4,157
+./__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+./dimension_reduction.py,sha256=Vpls50Ylmzx5ganC6Xrh-QCDgcmcA2r8hMyl0j3WLsA,5803
+./pyproject.toml,sha256=J_sZkg-JtZoviitgSbHjBxdkHX2HSTUc7qMiTtd5ydw,488
+./test_dimension_reduction.py,sha256=UcFiuD1cO8eNyawEPkwTJ4m_hNlK4-XMqqkx4vRke-Q,1545
+feluda_dimension_reduction-0.1.1.dist-info/METADATA,sha256=oAAc1yuOE5GkpvirUUs29Mfj7LJtooXdwFOY9NgPea4,157
+feluda_dimension_reduction-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+feluda_dimension_reduction-0.1.1.dist-info/RECORD,,
