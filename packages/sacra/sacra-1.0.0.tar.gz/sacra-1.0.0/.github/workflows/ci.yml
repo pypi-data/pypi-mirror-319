@@ -1,0 +1,42 @@
+name: ci
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  run_tests:
+    name: Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install
+        run: |
+          pip install -U pip
+          pip install ".[dev]"
+
+      - name: List installed dependencies
+        run: pip list
+
+      - name: Ruff
+        run: |
+          ruff format --check
+          ruff check
+
+      - name: Mypy
+        run: mypy .
+
+      - name: Test
+        run: pytest -v
