@@ -1,0 +1,57 @@
+[project]
+name = "tempered"
+authors = [{ name = "Ben Brady", email = "benbrady04.bb@gmail.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = ["License :: OSI Approved :: MIT License"]
+description = "A fast, strongly typed html templating library for python"
+dynamic = ["version"]
+dependencies = [
+    "beautifulsoup4~=4.12.2",
+    "minify-html~=0.15.0",
+    "tinycss2~=1.2.1",
+    "rcssmin!=1.1.2",
+    "strictyaml==1.7.3",
+    "typing_extensions"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+all = ["libsass", "lxml"]
+sass = ["libsass"]
+test = ["pytest", "pytest-asyncio", "mypy"]
+dev = ["black", "isort", "autoflake", "Flake8-pyproject"]
+docs = ["black", "mkdocs", "mkdocs-material", "mkdocstrings[crystal,python]"]
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.sdist]
+exclude = ["tests/", "benchmarks/", "examples/", ".github/"]
+
+[tool.black]
+target-version = ["py39", "py310", "py311"]
+
+[tool.flake8]
+ignore = ['E231', 'E241', "F403"]
+per-file-ignores = ['__init__.py:F401']
+max-line-length = 100
+count = true
+
+[tool.isort]
+profile = "black"
+multi_line_output = 6
+skip_gitignore = true
+known_first_party = ["typing_extensions"]
+lines_between_sections = 0
+
+[tool.ruff]
+ignore-init-module-imports = true
+target-version = "py39"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+python_functions = [" *", "test_*"]
+testpaths = ["tests"]
