@@ -1,0 +1,104 @@
+Metadata-Version: 2.3
+Name: alexandria-tui
+Version: 0.1.0
+Summary: TUI application for downloading EBooks
+License: MIT
+Author: Alexander Goussas
+Author-email: goussasalexander@gmail.com
+Requires-Python: >=3.13,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohappyeyeballs (==2.4.4)
+Requires-Dist: aiohttp (==3.11.11)
+Requires-Dist: aiohttp-jinja2 (==1.6)
+Requires-Dist: aiosignal (==1.3.2)
+Requires-Dist: anyio (==4.7.0)
+Requires-Dist: astroid (==3.3.8)
+Requires-Dist: attrs (==24.3.0)
+Requires-Dist: autopep8 (==2.0.4)
+Requires-Dist: certifi (==2024.12.14)
+Requires-Dist: click (==8.1.8)
+Requires-Dist: dill (==0.3.9)
+Requires-Dist: docstring-to-markdown (==0.15)
+Requires-Dist: flake8 (==7.1.1)
+Requires-Dist: frozenlist (==1.5.0)
+Requires-Dist: h11 (==0.14.0)
+Requires-Dist: httpcore (==1.0.7)
+Requires-Dist: httpx (==0.28.1)
+Requires-Dist: idna (==3.10)
+Requires-Dist: isort (==5.13.2)
+Requires-Dist: jedi (==0.17.2)
+Requires-Dist: jinja2 (==3.1.5)
+Requires-Dist: linkify-it-py (==2.0.3)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: markupsafe (==3.0.2)
+Requires-Dist: mccabe (==0.7.0)
+Requires-Dist: mdit-py-plugins (==0.4.2)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: msgpack (==1.1.0)
+Requires-Dist: multidict (==6.1.0)
+Requires-Dist: mypy (==1.14.1)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: packaging (==24.2)
+Requires-Dist: parso (==0.7.1)
+Requires-Dist: pillow (==11.1.0)
+Requires-Dist: platformdirs (==4.3.6)
+Requires-Dist: pluggy (==1.5.0)
+Requires-Dist: propcache (==0.2.1)
+Requires-Dist: pycodestyle (==2.12.1)
+Requires-Dist: pydocstyle (==6.3.0)
+Requires-Dist: pyflakes (==3.2.0)
+Requires-Dist: pygments (==2.18.0)
+Requires-Dist: pylint (==3.3.3)
+Requires-Dist: pylsp-mypy (==0.6.9)
+Requires-Dist: python-jsonrpc-server (==0.4.0)
+Requires-Dist: python-language-server (==0.36.2)
+Requires-Dist: python-lsp-jsonrpc (==1.1.2)
+Requires-Dist: python-lsp-server (==1.12.0)
+Requires-Dist: pytoolconfig (==1.3.1)
+Requires-Dist: rich (==13.9.4)
+Requires-Dist: rich-pixels (==3.0.1)
+Requires-Dist: rope (==1.13.0)
+Requires-Dist: sniffio (==1.3.1)
+Requires-Dist: snowballstemmer (==2.2.0)
+Requires-Dist: textual (==1.0.0)
+Requires-Dist: textual-dev (==1.7.0)
+Requires-Dist: textual-serve (==1.1.1)
+Requires-Dist: tomlkit (==0.13.2)
+Requires-Dist: typing-extensions (==4.12.2)
+Requires-Dist: uc-micro-py (==1.0.3)
+Requires-Dist: ujson (==5.10.0)
+Requires-Dist: whatthepatch (==1.0.7)
+Requires-Dist: yapf (==0.43.0)
+Requires-Dist: yarl (==1.18.3)
+Description-Content-Type: text/markdown
+
+# alexandria
+
+Alexandria is an application for downloading EBooks.
+
+It is available for web, mobile and terminal. This repository contains the 
+source code for the terminal client.
+
+## Usage
+
+Usage is simple. Once installed, run the following command:
+
+```
+alexandria-tui
+```
+
+The alexandria TUI should show up. Use the search bar to look for books by title.
+You can navigate the results with your mouse of focus the different download buttons
+with TAB.
+
+> [!IMPORTANT]
+> If you close the application while a download is taking place, it will be aborted.
+
+Books will be downloaded to the directory where the `alexandria-tui` command was
+run.
+
+## License
+MIT
+
