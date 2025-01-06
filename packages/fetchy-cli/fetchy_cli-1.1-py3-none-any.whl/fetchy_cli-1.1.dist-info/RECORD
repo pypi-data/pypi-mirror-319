@@ -1,0 +1,9 @@
+fetchy_cli/__init__.py,sha256=18YOyGkr2w881t5dujzQWVe4_jlncGZdNv-bU-9P1s0,85
+fetchy_cli/__main__.py,sha256=b06BOopA9I60c2NAa0VxEGUyM1B3nXjVm7bfwcCiKzU,174
+fetchy_cli/fetchy.py,sha256=0abAcZcLcX40lk8A7mnuzE1xgOvfvlfz90ezXTTvg5E,6306
+fetchy_cli-1.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+fetchy_cli-1.1.dist-info/METADATA,sha256=p87ldq0-7LmF-wt9oEdJA_c3kVAjMF9RwHbPARLtaV8,775
+fetchy_cli-1.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+fetchy_cli-1.1.dist-info/entry_points.txt,sha256=5QkfJWdqbSMqxACJ5kTVKW_wdmLUw1N82C_kPRrIO_U,46
+fetchy_cli-1.1.dist-info/top_level.txt,sha256=AsJ4CZUjslO6WMtbqHpKO1AbpMenzfvszxeJ9l9I_xc,11
+fetchy_cli-1.1.dist-info/RECORD,,
