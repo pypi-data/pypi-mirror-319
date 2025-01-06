@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: gbgpu
+Version: 1.1.2
+Author: Michael Katz
+Requires-Python: >=3.6
+License-File: LICENSE
