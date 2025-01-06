@@ -1,0 +1,14 @@
+bayesline/apiclient/__init__.py,sha256=bFB7kPivQIZRi2ifMNGJHnosr6x5futL1LCoQNohnNQ,392
+bayesline/apiclient/_src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bayesline/apiclient/_src/apiclient.py,sha256=0NsqO98IqkO_vY0qk47zp-AfUHUR-iyvk8IlnJs4g58,17964
+bayesline/apiclient/_src/client.py,sha256=mAbss5hMMMg-ZegZmRyDtGNNM_b48OlF5coOzQ4eH8U,2644
+bayesline/apiclient/_src/dataframe.py,sha256=zNlr6EeisoIQWsMQBkRgQvVTiEDIzOJl-P2fP88v4mo,3541
+bayesline/apiclient/_src/equity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bayesline/apiclient/_src/equity/client.py,sha256=8QbKRxeD5raeW2cj8sM16D-CiFsLLcIBxkqGX-TccgI,79728
+bayesline/apiclient/_src/logging.py,sha256=j37rgL-fQh2_E3ec_RqDy6Ora-Aa79ZVV-BAgZJViME,97
+bayesline/apiclient/_src/permissions.py,sha256=ba_HdWgtmwYO8BsdOz6P7h4A4uzMbFg9v9DwWO5QzOo,1695
+bayesline/apiclient/_src/settings.py,sha256=CtK2Kh0HikcLgXdX2HbpIr4cnQB4qgHN0ZCtk5Ya8Go,5304
+bayesline/apiclient/equity/__init__.py,sha256=lCi3TqkmlsWLZNDAgVWLLuOTG1JSBviJYSsubvW8C7Y,855
+bayesline_apiclient-0.0.5.dist-info/METADATA,sha256=GNeOFbZaE_APgb1CIswV9_A9O1HtA2F7YGxpaBuNXzw,423
+bayesline_apiclient-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bayesline_apiclient-0.0.5.dist-info/RECORD,,
