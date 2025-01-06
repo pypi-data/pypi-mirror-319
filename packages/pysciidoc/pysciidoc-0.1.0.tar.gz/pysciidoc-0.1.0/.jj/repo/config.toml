@@ -1,0 +1,13 @@
+[fix.tools.1-ruff-check]
+command = ["uv","run", "ruff", "check", "--fix", "--stdin-filename=$path"]
+patterns = [
+  "glob:'**/*.py'",
+  "glob:'**/*.pyi'",
+]
+
+[fix.tools.2-ruff-format]
+command = ["uv","run", "ruff", "format", "--stdin-filename=$path"]
+patterns = [
+  "glob:'**/*.py'",
+  "glob:'**/*.pyi'",
+]
