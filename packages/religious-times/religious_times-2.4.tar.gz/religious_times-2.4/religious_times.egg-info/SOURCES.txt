@@ -1,0 +1,6 @@
+README.md
+setup.py
+religious_times.egg-info/PKG-INFO
+religious_times.egg-info/SOURCES.txt
+religious_times.egg-info/dependency_links.txt
+religious_times.egg-info/top_level.txt
