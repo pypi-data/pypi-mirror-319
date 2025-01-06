@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "genesis-retrieve-task"
+version = "0.1.0"
+description = "Task retrieval service for Genesis video processing pipeline"
+authors = ["stevenge <stevenge@godscode.com.cn>"]
+packages = [
+    { include = "genesis_retrieve_task", from = "src" }
+]
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
