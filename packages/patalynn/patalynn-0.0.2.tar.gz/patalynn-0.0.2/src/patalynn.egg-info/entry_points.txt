@@ -1,0 +1,5 @@
+[console_scripts]
+patalynn_console = patalynn:main
+
+[gui_scripts]
+patalynn = patalynn:main

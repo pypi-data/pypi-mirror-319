@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+src/patalynn/__init__.py
+src/patalynn/__main__.py
+src/patalynn.egg-info/PKG-INFO
+src/patalynn.egg-info/SOURCES.txt
+src/patalynn.egg-info/dependency_links.txt
+src/patalynn.egg-info/entry_points.txt
+src/patalynn.egg-info/requires.txt
+src/patalynn.egg-info/top_level.txt
+src/patalynn/core/__init__.py
+src/patalynn/core/gui.py
+src/patalynn/manager/__init__.py
+src/patalynn/manager/apple.py

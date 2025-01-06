@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patalynn"
+version = "0.0.2"
+authors = [
+  { name="Arsenic Vapor", email="guy99992@gmail.com" },
+]
+description = "TODO"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Operating System :: Microsoft :: Windows",
+  "Topic :: Multimedia :: Graphics :: Viewers",
+  "Topic :: Multimedia :: Video :: Display",
+  "Intended Audience :: End Users/Desktop",
+  "Intended Audience :: Developers",
+  "Framework :: AsyncIO",
+  "Development Status :: 2 - Pre-Alpha",
+  "Environment :: Win32 (MS Windows)"
+]
+dependencies = [
+  "python-vlc>=3.0.21203"
+]
+
+[project.urls]
+Homepage = "https://github.com/meemkoo/patalynn/"
+Issues = "https://github.com/meemkoo/patalynn/issues"
+
+[project.gui-scripts]
+patalynn = "patalynn:main"
+
+[project.scripts]
+patalynn_console = "patalynn:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]  # ["."] by default
+# include = ["patalynn", "patalynn/core", "patalynn/manager"]  # ["*"] by default
+exclude = ["*.egg-info/", "*.egg"]
+namespaces = false  # true by default
+
