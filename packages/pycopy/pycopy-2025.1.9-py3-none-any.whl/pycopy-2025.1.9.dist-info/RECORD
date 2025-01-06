@@ -1,0 +1,11 @@
+pycopy/__init__.py,sha256=3iUUEtRAcODIpquGn3LZwv4242P8FrYT91s1Vhz0wm0,2585
+pycopy/__main__.py,sha256=ucTpca5-DLjKOPlJY_1SahfOsQ7vdb-qQSEjFCePwd0,42
+pycopy/fs_sync.py,sha256=GTLXYA-Ag2kdWGIADVQayvyF7bZG5ed5ZKG17eIr03g,3460
+pycopy/logging.py,sha256=ftKSnGbeVm4tDqpWqVdssp1LmH0G4cCpXlKq5YhKhqA,967
+pycopy/terminal_formatting.py,sha256=sur389eC9Kfs_5rxM-A6nYz1FM0R3Bf-QTaZxzUz1RQ,404
+pycopy/version.py,sha256=oKymrVg5t7RsltN4Nc0HM0ciTx_gtF1Wtbhhv3sIs3M,28
+pycopy-2025.1.9.dist-info/METADATA,sha256=snUizEzijIDgtUvBPtqDbyxiYoK76Fc_XgZqOaH9L3s,415
+pycopy-2025.1.9.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pycopy-2025.1.9.dist-info/entry_points.txt,sha256=rV-wFv44oQOrLKV6K6uqa8xcqjw7LocM32fSgnMhFRU,54
+pycopy-2025.1.9.dist-info/licenses/LICENSE.txt,sha256=kjGr1EnB89PoRKf-Bzx0I7DB-aNHtQk6kPYAEA--rZk,1069
+pycopy-2025.1.9.dist-info/RECORD,,
