@@ -1,0 +1,30 @@
+[project]
+name = "pywinlayout"
+version = "0.1.0"
+description = "A library for managing window layouts on Windows"
+authors = [
+    { name = "ZackaryW", email = "36378555+ZackaryW@users.noreply.github.com" }
+]
+dependencies = [
+    "pygetwindow>=0.0.9",
+    "screeninfo>=0.8.1",
+    "pywin32>=308",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "psutil>=6.1.1"
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pywinlayout"]
