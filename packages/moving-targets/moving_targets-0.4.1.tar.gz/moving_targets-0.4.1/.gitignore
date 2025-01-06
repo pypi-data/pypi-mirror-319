@@ -1,0 +1,10 @@
+__pycache__
+.idea
+.eggs
+temp
+venv
+build
+dist
+moving_targets.egg-info
+/docs/html
+/docs/source
