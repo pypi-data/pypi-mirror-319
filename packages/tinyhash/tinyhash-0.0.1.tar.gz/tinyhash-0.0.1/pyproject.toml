@@ -1,0 +1,64 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tinyhash"
+version = "0.0.1"
+description = "Generate a tiny hash using RFC 4648 base64url format"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3"
+authors = [{ name = "폭스마스크", email = "foxmask+git@pm.me" }]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    #"License :: WTFPL",
+    "License :: Public Domain",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/foxmask/tinyhash/"
+Documentation = "https://github.com/foxmask/tinyhash/blob/main/README.md"
+Source = "https://github.com/foxmask/tinyhash/"
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+
+[tool.ruff.lint]
+select = [
+    "F",   # pyflakes
+    "DJ",  # flake8 django
+    "E",   # pycodestyle
+    "I",   # isort
+    "ANN", # flake8 type annotations
+    "RUF", # ruff-specific rules
+]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+
+[project.optional-dependencies]
+lint = ["ruff == 0.7.3"]
+
+[tool.mypy]
+#strict_optional = true
+python_version = "3.11"
+disallow_untyped_defs = true
+#show_error_codes = true
+#no_implicit_optional = true
+#warn_return_any = true
+#warn_unused_ignores = true
+exclude = ["scripts", "docs", "test"]
+ignore_missing_imports = true
