@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pcfile/__init__.py
+src/pcfile/module.py
+src/pcfile.egg-info/PKG-INFO
+src/pcfile.egg-info/SOURCES.txt
+src/pcfile.egg-info/dependency_links.txt
+src/pcfile.egg-info/top_level.txt
+tests/test_module.py
