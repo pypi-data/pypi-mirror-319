@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+sms_send_cjh.egg-info/PKG-INFO
+sms_send_cjh.egg-info/SOURCES.txt
+sms_send_cjh.egg-info/dependency_links.txt
+sms_send_cjh.egg-info/requires.txt
+sms_send_cjh.egg-info/top_level.txt
+tests/__init__.py
+tests/test_sms_sender.py

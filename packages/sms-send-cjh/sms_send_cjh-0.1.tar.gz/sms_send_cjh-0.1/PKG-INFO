@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sms_send_cjh
+Version: 0.1
+Summary: 发送短信包
+Home-page: https://github.com/chongjiahao223/sms_sender.git
+Author: CJH
+Author-email: 942130598@qq.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aliyun-python-sdk-core
+Requires-Dist: aliyun-python-sdk-dysmsapi
+
+## 短信发送包
