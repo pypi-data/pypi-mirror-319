@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+rdeep.py
+rdeep.egg-info/PKG-INFO
+rdeep.egg-info/SOURCES.txt
+rdeep.egg-info/dependency_links.txt
+rdeep.egg-info/requires.txt
+rdeep.egg-info/top_level.txt
