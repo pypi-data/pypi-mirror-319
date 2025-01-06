@@ -1,0 +1,10 @@
+rclone_python/__init__.py,sha256=KYYQSRXDeM1RaJibjti9o4lAGrV9KhpwunZF4AtiD78,19
+rclone_python/hash_types.py,sha256=kMHpE9dEUnT3mUQ8ytiON_FjAtYUzg8CwX8iSe8MqJ4,433
+rclone_python/rclone.py,sha256=eLxpqzjO0pWnL2GmEdsuQGyi58-f_cZdurWyEMEa5yc,21974
+rclone_python/remote_types.py,sha256=zBE6Bgt6-1lNxZp80aohHcRctuKY63xFQYTjoXsxgm0,1656
+rclone_python/utils.py,sha256=RfMYiF6xIsl1btVzeNAW0Je0r8WSLQannqlvBO4CHMA,9280
+rclone_python-0.1.19.dist-info/LICENSE,sha256=h8fr4UVXKFpLJXJGFs1dZ1aNTn681nrwxIpEITYutbo,1074
+rclone_python-0.1.19.dist-info/METADATA,sha256=BL-nM5k3S9wcQeshVnufQUoq__wUFRGuAfziyeVot2o,6094
+rclone_python-0.1.19.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+rclone_python-0.1.19.dist-info/top_level.txt,sha256=KXEB0--B84-7O6qybwQKoU-_XBQ9f6fD17QwPtX0RFs,14
+rclone_python-0.1.19.dist-info/RECORD,,
