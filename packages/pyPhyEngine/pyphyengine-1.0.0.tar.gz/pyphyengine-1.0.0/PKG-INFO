@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pyPhyEngine
+Version: 1.0.0
+Summary: A physics engine based on matplotlib written in Python
+Home-page: https://github.com/Floerianc/pyPhyEngine
+Author: Floerianc
+Author-email: stegerosch1@gmail.com
+Project-URL: Documentation, https://flo.ohhellnaw.de/pyPhyEngine/
+Project-URL: Source, https://github.com/Floerianc/pyPhyEngine/
+Keywords: matplotlib,physics,real-time
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: natsort
+
+﻿> For usage of this Python package please refer to the official "documentation".
+To see the documentation, click [here.](https://flo.ohhellnaw.de/pyphyengine/)
