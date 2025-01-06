@@ -1,0 +1,13 @@
+otter_service/__init__.py,sha256=tATvJM5shAzfspHYjdVwpV2w3-gDA119NlEYi5X2lFY,22
+otter_service/access_sops_keys.py,sha256=2f3vszsF6LojCmt3AmInyZvIoGrWnjNlu9mVOXmWvcY,2149
+otter_service/grade_assignment.py,sha256=kmzfOpjPEw9apr1zQ-f2FMyk8nLYTLhhs01EPoKOVuQ,5401
+otter_service/otter_nb.py,sha256=2EgwfdwYFGjbNh8bUB_hZksKPN7_UK1ipgB1ITFLJfg,19914
+otter_service/util.py,sha256=9doC4pGrc5gMzQTBgU5yt0whVgw3Oznxop17zBRxp_8,516
+otter_service/secrets/gh_key.yaml,sha256=0U6Ex3l43SiUTilQYIFeYIhnkykp1dd8aleTJW6x0MI,1326
+otter_service/secrets/gke_key.yaml,sha256=NZmD3cnf9bnySIil2FPmT_ft77i7jYjh7arYD8miUGY,1229
+otter_service-2.0.2.dist-info/LICENSE,sha256=3cDbVFAJ1vsGCAq_0KwvqIVDs8vpJvEDQQ0fEmCv4NU,1498
+otter_service-2.0.2.dist-info/METADATA,sha256=ZAOYwUMYT9vozm_TOJn8eXCfsn5bl_qDkSG2wuElHTM,9304
+otter_service-2.0.2.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+otter_service-2.0.2.dist-info/entry_points.txt,sha256=lGAEDcGgnwOw2Lg3yNtIqFej3fibwAp3TkK5_xecjf8,62
+otter_service-2.0.2.dist-info/top_level.txt,sha256=NLF0b5aawvYSHmPH0ijF2HgSHVIy2DSBjOhrikclNJI,14
+otter_service-2.0.2.dist-info/RECORD,,
