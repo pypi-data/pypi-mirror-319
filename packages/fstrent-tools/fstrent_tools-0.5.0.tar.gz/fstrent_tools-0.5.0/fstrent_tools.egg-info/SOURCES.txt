@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+fstrent_tools.egg-info/PKG-INFO
+fstrent_tools.egg-info/SOURCES.txt
+fstrent_tools.egg-info/dependency_links.txt
+fstrent_tools.egg-info/top_level.txt
+sounds/cashreg.wav
+sounds/doh.wav
+sounds/spysound.wav
+sounds/thunder.wav
+sounds/wolf.wav
+sounds/wolf2.wav
