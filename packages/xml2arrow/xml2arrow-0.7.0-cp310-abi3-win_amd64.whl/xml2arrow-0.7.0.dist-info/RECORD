@@ -1,0 +1,9 @@
+xml2arrow-0.7.0.dist-info/METADATA,sha256=re9MxeX8O65717RMqo-5PSqnNUlbD1-X2bB8OzPnaUE,16183
+xml2arrow-0.7.0.dist-info/WHEEL,sha256=OP9M1tCSrnmep3a1BuV3EynKyOuGWiyM2EjKtCEnCOs,95
+xml2arrow-0.7.0.dist-info/licenses/LICENSE,sha256=Gm_m5kUG7XN0ebz2wCYk7tol9xJhSGLZ5C6weiKTj3Y,1092
+xml2arrow/exceptions.py,sha256=FhnOS_LvjmMtlU7RjItCP3bQCOkv63GLJDEoV_xkrJI,453
+xml2arrow/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xml2arrow/_xml2arrow.pyi,sha256=KmdGlQqOzO5jhduBW5WDD7_F_Iaswt9mctKFVmABk6I,1573
+xml2arrow/__init__.py,sha256=Vo9WlBdctMEexACm5DE4PCL0J-7QxtRb2lC6_7khPW0,308
+xml2arrow/_xml2arrow.pyd,sha256=sIcLc3m5S5uoYPDK9KU2xvxXqv4uB_u9hqZvicIFfx0,2729984
+xml2arrow-0.7.0.dist-info/RECORD,,
