@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lilliepy-socket
+Version: 1.0
+Summary: helps with websockets in the lilliepy framework
+Home-page: https://github.com/websitedeb/lilliepy-socket
+Author: Sarthak Ghoshal
+Author-email: sarthak22.ghoshal@gmail.com
+License: MIT
+Keywords: lilliepy,lilliepy-socket,reactpy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

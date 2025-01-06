@@ -1,0 +1,7 @@
+setup.py
+lilliepy_socket/__init__.py
+lilliepy_socket/main.py
+lilliepy_socket.egg-info/PKG-INFO
+lilliepy_socket.egg-info/SOURCES.txt
+lilliepy_socket.egg-info/dependency_links.txt
+lilliepy_socket.egg-info/top_level.txt
