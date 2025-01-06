@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dudl
+Version: 0.5.0
+Summary: The DUDL Game
+Home-page: https://github.com/v0rtex20k/DUDL/
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: psutil==6.1.1
+Requires-Dist: Flask==2.3.3
+Requires-Dist: Flask-API>=3.1
+Requires-Dist: flask-smorest>=0.42.3
+Requires-Dist: randomname>=0.2.1
+Requires-Dist: Werkzeug==2.3.8
+Requires-Dist: flasgger>=0.9.7.1
+Requires-Dist: pathlib>=1.0.1
+Requires-Dist: waitress>=2.1.2
+Requires-Dist: inflection>=0.5.1
+Requires-Dist: itsdangerous>=2.1.2
+Requires-Dist: requests>=2.31.0
+Requires-Dist: ConfigArgParse>=1.7
+Requires-Dist: setuptools>=75.0.0
