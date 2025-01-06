@@ -1,0 +1,14 @@
+hydroqc2mqtt/__init__.py,sha256=kED0uFQaYOg0CqmqQ444iUsYXvdJ1cMH0nNeWW2Lriw,32
+hydroqc2mqtt/__main__.py,sha256=BATnr-itQ8z-Bd1e13io-gRciYZ_elULilFy_Rcsl8k,4212
+hydroqc2mqtt/__version__.py,sha256=yvEWcme5z2gCL6Xe7Y66lYkmLcLLVNjJ7xB3VHtl4qU,276
+hydroqc2mqtt/contract_device.py,sha256=riV46EayEy8QO58VTbzmmDo1F8T2tf0ocRCVRSIp-EA,24515
+hydroqc2mqtt/daemon.py,sha256=dxMgK7N5v7jHHK2XNlHKraPOwISKaxQKSQMNWJAUsDE,10806
+hydroqc2mqtt/error.py,sha256=5Se9fWwJdVdhv9KjPH437_InoPVV6Ow6ckRCUyC0kHk,191
+hydroqc2mqtt/hourly_consump_handler.py,sha256=WpKSi97WQouTzsWe1PvQGJ8WnFWLsH2yVxBMv2ZnHQk,28093
+hydroqc2mqtt/sensors.py,sha256=bDh5xjcX4hfsnLpVH8jBgF2owc_cCShlWlll1uYD3y4,29662
+hydroqc2mqtt-2.0.0.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+hydroqc2mqtt-2.0.0.dist-info/METADATA,sha256=Oysc8l0XxfcZ0pigAkrKK8rnKjKKO1J4KR-FNefgLaQ,2631
+hydroqc2mqtt-2.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hydroqc2mqtt-2.0.0.dist-info/entry_points.txt,sha256=TvahPxmKal2Z5KJ_xqboxmZyLcwy1AhKnAxXkDrP-q0,60
+hydroqc2mqtt-2.0.0.dist-info/top_level.txt,sha256=x3U4a6TPQ8-P5_tzWgFd_f5jIIJQoVB_NgCnRnESKyA,13
+hydroqc2mqtt-2.0.0.dist-info/RECORD,,
