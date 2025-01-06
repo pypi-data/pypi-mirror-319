@@ -1,0 +1,17 @@
+# 包含 README 和 LICENSE 文件
+include README.md
+include LICENSE
+
+# 包含所有的 .txt 文件
+global-include *.txt
+
+# 包括目录下的所有文件
+recursive-include src/sender *.py
+
+# 排除所有 .pyc 文件
+global-exclude *.pyc
+
+# 排除 tests 目录及其中的 .pyc 文件
+recursive-exclude tests *.pyc
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
