@@ -1,0 +1,7 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_sms_sender.py,sha256=KERr94KDMK2sVgBYGKiM7rKiUvBAxQzKEB8uk2H7fiE,752
+sms_send_cjh-0.1.dist-info/LICENSE,sha256=CwZwyuAq2rEiEOfBC1l4wyKAsq7glCVjWXmgywhaCx0,1086
+sms_send_cjh-0.1.dist-info/METADATA,sha256=nPIHg3X5aCyKclvwjxNXROXByUwHsFhdfGbrIs8hybw,344
+sms_send_cjh-0.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+sms_send_cjh-0.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+sms_send_cjh-0.1.dist-info/RECORD,,
