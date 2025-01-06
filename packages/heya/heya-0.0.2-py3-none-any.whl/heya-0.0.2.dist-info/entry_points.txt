@@ -1,0 +1,3 @@
+[console_scripts]
+heya=heya.__main__:main
+
