@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: pyterse
+Version: 0.1.4
+Summary: A Python interface for the TRPX compression algorithm
+Author-Email: Senik Matinyan <matinyan.senik@gmail.com>
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: <=3.12,>=3.9
+Description-Content-Type: text/markdown
+
+
+
+# Pyterse
+Python package of next generation TERSE/PROLIX diffraction data compression algorithm
+
+
+> The pyterse python package uses the c++ TERSE/PROLIX(TRPX) compression algorithm scheme (https://github.com/senikm/trpx) and adds python binders to it's main class.
+
+---
+
+> Before you consider pyterse
+- Your data is signed or unsigned integral type.
+- Your data is grayscale.
+- Preferably has high dynamic range.
+
+
+
+## How to install the package
+
+> Create a virtual environment
+
+```bash
+conda create -n pyterse python pip numpy pillow 
+``` 
+
+> Install the package
+
+```python
+pip install pyterse 
+```
+---
+
+
+### Testing the functionality of the library
+
+#### Basic commands
+
+- **Create terse object**: 
+```python
+import pyterse
+
+#Allow for multithreading
+pyterse.set_parallelism(1.0) #0 means no parallelism, while 1.0 uses all available cores
+
+# Constructor 1
+terse = pyterse.Terse() 
+pyterse.compress(data, terse)
+
+# Constructor 2
+ terse = pyterse.Terse(data) #nD NumPy array or slice from an array
+
+ # Constructor 3
+ terse = Terse(data, block_size) #Provide the costum block size: default is 12
+ - Example:
+terse = Terse(data, 12)
+```
+
+- **Add additional entry to Terse object**:
+ ```python
+ terse.push_back(data) #The NumPy array or slice from a nD array should correspond to existing set shape (terse.shape).
+```
+
+- **Save compressed data to a file**:
+ ```python
+ terse.save('filename.trpx')
+```
+
+- **Load compressed data from a file**:
+ ```python
+ loaded_terse = Terse.load('filename.trpx')
+```
+
+- **Decompress the data**:
+ ```python
+ decompressed_frame = pyterse.decompress(loaded_terse)
+```
+
+- **Decompress a specific entry**:
+ ```python
+ decompressed_frame = pyterse.decompress(loaded_terse.at(0))
+ # You can check the number of entries by terse.number_of_entries()
+```
+
+- **Add and retrieve metadata to the terse object**:
+ ```python
+terse.set_metadata("Some metadata", frame=0)
+metadata = terse.get_metadata(frame=0)
+metadata
+```
+
+- **Additional functionality**:
+ ```python
+terse.size() #unique elements in the data
+terse.shape #dimension of one frame
+terse.number_of_frames()
+terse.number_of_bytes()
+terse.erase(0)
+terse.insert(0, data)
+```
