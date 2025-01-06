@@ -1,0 +1,10 @@
+README.md
+setup.py
+puter/__init__.py
+puter/chat_completion.py
+puter/client.py
+puter.egg-info/PKG-INFO
+puter.egg-info/SOURCES.txt
+puter.egg-info/dependency_links.txt
+puter.egg-info/requires.txt
+puter.egg-info/top_level.txt
