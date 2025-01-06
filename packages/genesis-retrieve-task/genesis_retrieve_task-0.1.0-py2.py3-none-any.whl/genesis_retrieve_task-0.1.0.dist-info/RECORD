@@ -1,0 +1,7 @@
+genesis_retrieve_task/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genesis_retrieve_task/config.py,sha256=ejuzcnn75uLxQmhU70RhTBGf6S1cwATg4qYN_lkclpc,1402
+genesis_retrieve_task/database.py,sha256=7Tuet9NfXXrid8Pe0UYc-brSS-WgEMhNIlOGSRr_MZw,360
+genesis_retrieve_task/processor.py,sha256=I_S351Kqb422pD_muQetWtT9S33FwoGlTvhQ-nkKiAE,5566
+genesis_retrieve_task-0.1.0.dist-info/METADATA,sha256=Xr23PK7PHMitN-8AoMJLfVXPd-XZ21tR47Nh8cWrVmw,2217
+genesis_retrieve_task-0.1.0.dist-info/WHEEL,sha256=IrRNNNJ-uuL1ggO5qMvT1GGhQVdQU54d6ZpYqEZfEWo,92
+genesis_retrieve_task-0.1.0.dist-info/RECORD,,
