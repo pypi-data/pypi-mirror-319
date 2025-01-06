@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Udplink/__init__.py
+Udplink.egg-info/PKG-INFO
+Udplink.egg-info/SOURCES.txt
+Udplink.egg-info/dependency_links.txt
+Udplink.egg-info/top_level.txt
