@@ -1,0 +1,11 @@
+droid_please/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+droid_please/agent.py,sha256=mXVMuYEPdFjJHBIA9eN1gDbZAa5VFniHWGu16vGUyxI,6139
+droid_please/config.py,sha256=L6iCRjS6NZ3XvBIQEKNJqvuR3uFGScDWGwL0rBiLshc,1229
+droid_please/llm.py,sha256=z7kOSRywCgYgOySZniCWx6_jMphSFHqY_7yOgUhXCwM,2427
+droid_please/main.py,sha256=gOUogN8v7lrjsfto4Wx9qiaMZPT-TYDfw5tTjagHwks,2325
+droid_please/tools.py,sha256=O2XtHNXBzqBYlMpC31T-X89dHJVq2b_ML3G64YEOPmk,2843
+droid_please/util.py,sha256=cs6ynXORPJQaS-kQVm6EWiT_OMVs50Cjr7gyGNXSYSE,585
+droid_please-0.0.1.dist-info/METADATA,sha256=cNLXAwGf5uTblZWdBZGsUDcVGkQzkSrsGqfCpy9yMXc,807
+droid_please-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+droid_please-0.0.1.dist-info/entry_points.txt,sha256=gGVyzyRN9INgeCynjpYtKO881HDe68pMCD-2IADq6wI,47
+droid_please-0.0.1.dist-info/RECORD,,
