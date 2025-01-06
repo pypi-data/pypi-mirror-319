@@ -1,0 +1,14 @@
+[project]
+name = "octobrowser-client"
+version = "0.0.2"
+description = "Octobrowser api client"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.28.1"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pyright]
+include = ["octobrowser_client"]
