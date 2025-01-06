@@ -1,0 +1,2 @@
+[console_scripts]
+intest = intest.runner:main
