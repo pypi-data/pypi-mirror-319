@@ -1,0 +1,6 @@
+numpy
+sympy
+matplotlib
+ipython
+notebook
+pyperclip
