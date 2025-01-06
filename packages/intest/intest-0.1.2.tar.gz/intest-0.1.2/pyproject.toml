@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "intest"
+version = "0.1.2"
+description = "rust-style test macros"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+license = "MIT"
+
+[project.scripts]
+intest = "intest.runner:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["intest"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+version = "2.4"
