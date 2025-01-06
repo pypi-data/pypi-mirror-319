@@ -1,0 +1,11 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore macOS system files in LandsatToolkit folder
+LandsatToolkit/.DS_Store
+
+# Ignore Python egg-info directory
+*.egg-info/
+
+# Ignore the folders starting with test_
+test_*/
