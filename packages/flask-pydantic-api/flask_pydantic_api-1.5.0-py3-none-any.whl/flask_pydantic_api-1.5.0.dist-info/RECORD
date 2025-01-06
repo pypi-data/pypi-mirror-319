@@ -1,0 +1,12 @@
+flask_pydantic_api/__init__.py,sha256=KICwgGx_FRhKuNBAcoy1GHBo9C4Jn0QUEwChlmdGS18,98
+flask_pydantic_api/api_wrapper.py,sha256=o1trCZaPCutU0Qxf6Nii2DNOsi_x701U0xfxPeO3jNc,9131
+flask_pydantic_api/apidocs_views.py,sha256=ELy8yw-OANfwJhCQAqyB4ACwbcC7lF0_MgJcscsvcKg,608
+flask_pydantic_api/openapi.py,sha256=4n3SgVv_W7TzmRFkeok1V0PVsgdISvoTxI9vmOD-5Og,12638
+flask_pydantic_api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_pydantic_api/utils.py,sha256=cOQQF1pNN2pcu__g2iAzHRnuJFOTP8l4J78wq2YJ6RU,5112
+flask_pydantic_api/templates/rapidoc.html,sha256=VLYAdPmRJ7dVQmpLmykMUA8KsVEF77tP-Xo2mbBHbBw,447
+flask_pydantic_api-1.5.0.dist-info/LICENSE,sha256=INaSDKc7Y-fYndT1E_X93xe_8Ez3nkemMNtk3TaFH9c,1073
+flask_pydantic_api-1.5.0.dist-info/METADATA,sha256=WHYriYfW9roSceK3F8tDyGY2s_vLRzi_7sbsC8R8EpI,13293
+flask_pydantic_api-1.5.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+flask_pydantic_api-1.5.0.dist-info/top_level.txt,sha256=lFmuWAb1KRWKxzT1wPHWpS8eUwnDY1WPWAzqkUDVlU4,19
+flask_pydantic_api-1.5.0.dist-info/RECORD,,
