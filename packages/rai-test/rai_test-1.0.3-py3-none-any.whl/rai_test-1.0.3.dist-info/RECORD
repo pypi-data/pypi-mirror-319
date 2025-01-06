@@ -1,0 +1,9 @@
+rai_test/__init__.py,sha256=E8-FeyefKm9hJmzn7ykCIExajl3-uZSBvehuVamD0ow,23
+rai_test/demo.py,sha256=93sHLp0IKSWn3tlsZuITdSugiCgeKZAz6UI3a5CPG5Q,370
+rai_test/libs/libsam_client.so,sha256=pLM5AkFfZPd9nYGqEuzHJzu0Z3GnEoYRhLZC1COGrqE,240296
+rai_test/libs/libsam_packager.so,sha256=VrglHBN1xtf4448WpIforTXUKg9UkHoYR64_n_M_CTM,187648
+rai_test-1.0.3.dist-info/LICENSE,sha256=rTlOAB05KFXv6T8kn7nlli0MIZ8vLCoV9E0NDaB-0qc,602
+rai_test-1.0.3.dist-info/METADATA,sha256=GSHsEKcFRvcOBJBTgsNMncqXAIxz7II4OtrWoT7G6kM,183
+rai_test-1.0.3.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+rai_test-1.0.3.dist-info/top_level.txt,sha256=Vd6mrot1UuAY2RpC59_mUnBkpTWmff_IV-a_3ZaUJug,9
+rai_test-1.0.3.dist-info/RECORD,,
