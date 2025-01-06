@@ -1,0 +1,4 @@
+Change Log
+---------------
+05/01/25 - Added Token class to do a few things. Made documentation https://github.com/OzzyCoder11/pandacord
+05/01/25 - First release, no content yet.
