@@ -1,0 +1,11 @@
+README.md
+setup.py
+gazedetector/__init__.py
+gazedetector/detector.py
+gazedetector/server.py
+gazedetector.egg-info/PKG-INFO
+gazedetector.egg-info/SOURCES.txt
+gazedetector.egg-info/dependency_links.txt
+gazedetector.egg-info/entry_points.txt
+gazedetector.egg-info/requires.txt
+gazedetector.egg-info/top_level.txt
