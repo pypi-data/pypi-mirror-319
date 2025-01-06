@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: SigmaMu
+Version: 0.1.0
+Summary: A placeholder for SigmaMu - a process simulation library, to be uploaded soon
+Author: Volker Siepmann
+Author-email: volker.siepmann@gmail.com
+Requires-Python: >=3.6
