@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: md-pkb
+Version: 0.1.0
+Summary: Add your description here
+Author-email: hyw208 <hyw208@gmail.com>
+Requires-Python: >=3.12
+Requires-Dist: cachetools>=5.5.0
+Requires-Dist: fastapi[standard]>=0.115.6
+Requires-Dist: jinja2>=3.1.5
+Requires-Dist: markdown>=3.7
+Requires-Dist: watchdog>=6.0.0
+Requires-Dist: whoosh-reloaded>=2.7.5

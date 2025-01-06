@@ -1,0 +1,2 @@
+[console_scripts]
+pkb = uvicorn md_pkb.main
