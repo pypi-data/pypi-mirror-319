@@ -1,0 +1,20 @@
+fastapi
+frozendict
+jsonschema
+orjson
+psycopg
+pydantic
+pydantic_gubbins
+requests
+setuptools
+sqlalchemy
+sqlalchemy-utc
+sqlmodel
+uvicorn
+
+[:platform_system == "Windows"]
+pywin32
+
+[test]
+pytest
+pytest-cov
