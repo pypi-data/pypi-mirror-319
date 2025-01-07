@@ -1,0 +1,15 @@
+vegmod/__init__.py,sha256=KBCmmDeo991CmBCX4phtJlBkwgRs8eNkHKQiu_SvPVk,645
+vegmod/__main__.py,sha256=xmAZDaEQA6lrXJYVu-HsYSCd_OqZde0S-en09tQK8XQ,119
+vegmod/base.py,sha256=tbgpcTRC_4HNeZU44xrbgQ3m4MqNnS0ucjGXDEsfYpg,14
+vegmod/cache.py,sha256=xiq7JaznnHsptPCDC4uCAKVv5_lR6kVq5mffaU42yRY,1292
+vegmod/cli.py,sha256=-Nbsrs1KTA27m_2gn4IUKOwmiu2kA2EdpMD56dW2fQs,6897
+vegmod/ingress.py,sha256=5EORH68rW0HIb0KDujVj2IDh7lC89vc030CafW3Og04,3583
+vegmod/serializer.py,sha256=ZYCh3wMEEpyhJmupa1aeDlCY1ruqAhBV1Sb0O_GJHFI,15753
+vegmod/utils.py,sha256=Z5gFjE_jG1Podo3UDL5psvImH-qu8AdLyBwmai_gsuw,592
+vegmod/pycall/__init__.py,sha256=pJSv_-L6EcCAd5ChnuL_XJHk3gc5CNK7s3CWqbEc6LE,22193
+vegmod-1.0.27.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+vegmod-1.0.27.dist-info/METADATA,sha256=B94S6gXjq9yOIFAMqmEyFM8mRhaRRoD9x7ct4sK1UoA,677
+vegmod-1.0.27.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+vegmod-1.0.27.dist-info/entry_points.txt,sha256=3SBEOHMKMP9jcH7Q7X9GF0skyiV9UGy8On1Nk_WE2HM,48
+vegmod-1.0.27.dist-info/top_level.txt,sha256=tuMXlmCv-nc2-Da5EP9dXf0PG0JjJ8o6cjAyN7A3R4Q,7
+vegmod-1.0.27.dist-info/RECORD,,
