@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: chromolog
+Version: 0.1.0
+Summary: Un micromódulo para imprimir mensajes por consola con texto de color en Python
+Home-page: https://tutosrivegamerlq.github.io/chromolog/
+Author: tutosrivegamer
+Author-email: msqlitesrmtrg@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# chromolog
+
+Imprima mensajes por consola coloridos y distinguidos de los demÃ¡s, tenga un formato de salida por consola mÃ¡s elegante y vÃ­vido segÃºn lo prefiera, ya sea un mensaje de `error` o un mensaje de operaciÃ³n finalizada (`success`).
+
+# InicializaciÃ³n
+
+1. ImportaciÃ³n del mÃ³dulo
+2.  Crear una instancia de la clase `Print` 
+3.  Use los [mÃ©todos disponibles](#mÃ©todos-disponibles).
+
+# MÃ©todos Disponibles
+- `err(err:any)`: Indicado para imprimir los errores ðŸ˜ž
+- `inf(inf:any)`: Indicado para imprimir mensajes de precacuciÃ³n, variables â„¹
+- `warn(warn:any)`: Indicado para imprimir mensajes de precacuciÃ³n ðŸ˜±
+- `suc(suc:any)`: Indicado para indicar que la ejecuciÃ³n fue completada con Ã©xito âœ…
+
+Visite: https://tutosrivegamerlq.github.io/chromolog/ para mÃ¡s detalles
