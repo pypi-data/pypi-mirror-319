@@ -1,0 +1,50 @@
+--- octomap/octomap/src/CMakeLists.txt.orig
++++ octomap/octomap/src/CMakeLists.txt
+@@ -16,6 +16,46 @@ set_target_properties( octomap PROPERTIES
+   VERSION ${OCTOMAP_VERSION}
+   SOVERSION ${OCTOMAP_SOVERSION}
+ )
++if(UNIX)
++  macro(REL_INSTALL_PATH FILE VARIABLE)
++    if(IS_ABSOLUTE ${FILE})
++      file(RELATIVE_PATH _VARIABLE "${FILE}" ${CMAKE_INSTALL_PREFIX})
++      string(REGEX REPLACE "/$" "" ${VARIABLE} "${_VARIABLE}")
++    else()
++      string(REGEX REPLACE "[^/]+" ".." ${VARIABLE} "${FILE}")
++    endif()
++  endmacro()
++
++  macro(GET_RELATIVE_RPATH TARGET_INSTALL_DIR VARIABLE)
++    if(UNIX)
++      if(APPLE)
++        set(ORIGIN "@loader_path")
++      else()
++        set(ORIGIN "\$ORIGIN")
++      endif()
++      REL_INSTALL_PATH("${TARGET_INSTALL_DIR}" _TGT_INV_REL)
++      if(IS_ABSOLUTE ${CMAKE_INSTALL_LIBDIR})
++        file(
++          RELATIVE_PATH
++          _LIB_REL
++          "${CMAKE_INSTALL_PREFIX}"
++          ${CMAKE_INSTALL_LIBDIR}
++        )
++      else()
++        set(_LIB_REL ${CMAKE_INSTALL_LIBDIR})
++      endif()
++      set(${VARIABLE} "${ORIGIN}/${_TGT_INV_REL}/${_LIB_REL}")
++    endif()
++  endmacro()
++  if(APPLE)
++      set(ORIGIN "@loader_path")
++  else()
++      set(ORIGIN "\$ORIGIN")
++  endif()
++  get_relative_rpath(${CMAKE_INSTALL_LIBDIR} OCTOMAP_INSTALL_RPATH)
++  set_target_properties(octomap PROPERTIES INSTALL_RPATH "${OCTOMAP_INSTALL_RPATH}")
++endif()
++
+ ADD_LIBRARY( octomap-static STATIC ${octomap_SRCS})
+ SET_TARGET_PROPERTIES(octomap-static PROPERTIES OUTPUT_NAME "octomap")
+ add_dependencies(octomap-static octomath-static)
+
