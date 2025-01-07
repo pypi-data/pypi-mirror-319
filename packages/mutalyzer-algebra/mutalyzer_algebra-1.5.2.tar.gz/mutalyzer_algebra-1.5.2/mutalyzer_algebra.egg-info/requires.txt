@@ -1,0 +1,7 @@
+
+[dev]
+coverage
+flake8
+pytest
+setuptools
+twine
