@@ -1,0 +1,23 @@
+[project]
+name = "meterfuncs"
+version = "0.1.0"
+description = "meter reading model build functions"
+authors = [{ name = "svtter", email = "svtter@qq.com" }]
+dependencies = ["pydantic>=2.10.4", "loguru>=0.7.3"]
+requires-python = "==3.9.*"
+readme = "README.md"
+license = { text = "NOT OPEN" }
+
+
+[tool.pdm]
+distribution = true
+
+[tool.ruff]
+line-length = 88
+indent-width = 2
+exclude = ["node_modules", "venv"]
+
+[dependency-groups]
+dev = [
+    "pip>=24.3.1",
+]
