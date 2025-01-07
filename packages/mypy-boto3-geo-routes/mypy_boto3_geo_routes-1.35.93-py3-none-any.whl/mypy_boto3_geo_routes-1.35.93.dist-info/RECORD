@@ -1,0 +1,16 @@
+mypy_boto3_geo_routes/__init__.py,sha256=SvVOfhq40t0YE_CIZesd7Cxn_FZpgkbfi1qDcTSMXFo,494
+mypy_boto3_geo_routes/__init__.pyi,sha256=Q-3N3Lv4t730zMKuUmtxIpMcBaDyjZGb0Z1EGmNP5-g,493
+mypy_boto3_geo_routes/__main__.py,sha256=b93THrYQFC2VCIKcaD5S9voNEP4yhc0_d2bM22l6Aq8,1021
+mypy_boto3_geo_routes/client.py,sha256=SUEITuNZZcYuy3K71aebt90ZdI1k5lixwlb7Sk85LsE,6283
+mypy_boto3_geo_routes/client.pyi,sha256=BfIJXPkW1MbCX241klCiZ7ZkUH3rRbTSNQ2jsHyVeIk,6280
+mypy_boto3_geo_routes/literals.py,sha256=p4W5xczgJLPVIrqr4uo2W28YOllVERqd_wMS0mUl3WA,19594
+mypy_boto3_geo_routes/literals.pyi,sha256=CXlTZUJ-pFpzyMCy9UJ5fwk6TpCqMyN_hmusoPsskE8,19592
+mypy_boto3_geo_routes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_geo_routes/type_defs.py,sha256=doMAztWDwH-RUlsrYHaGQRLJrSqgW4DFDCrgOlT2VxU,55868
+mypy_boto3_geo_routes/type_defs.pyi,sha256=9xIGPrvQVxSIBSxv4KUZER4Poeu9COnj-wYWf8QWRec,55676
+mypy_boto3_geo_routes/version.py,sha256=n6wyMBvI3Tp0INYol4fUJ84y0BqM9ti-SkLRGfsif5s,93
+mypy_boto3_geo_routes-1.35.93.dist-info/LICENSE,sha256=4jNgB8jJbXtUVJkeygwhUQi--6lAG8DIisfE-h_RiUU,1070
+mypy_boto3_geo_routes-1.35.93.dist-info/METADATA,sha256=MtIzUzfJYvluhhQ9KZdMSlk4cWm2XAGRKjIRo8t_Ej4,14174
+mypy_boto3_geo_routes-1.35.93.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+mypy_boto3_geo_routes-1.35.93.dist-info/top_level.txt,sha256=2w3Pfj0HZJgJ7Yj7jvImaohGJE8soRcQ4DmSEgNq43I,22
+mypy_boto3_geo_routes-1.35.93.dist-info/RECORD,,
