@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: event_camera_drivers
+Version: 0.0.2
+Summary: Python event camera drivers for Inivation and AEStream
+Author-Email: Jens Egholm Pedersen <jens@jepedersen.dk>
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Requires-Python: >=3.9
+Requires-Dist: nanobind>=2.4
+Requires-Dist: numpy>=1.35
