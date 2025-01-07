@@ -1,0 +1,9 @@
+pytest_errxfail/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_errxfail/errxfail.py,sha256=4QU2rRpyuAsZr39hAMnX4w47uyaH3IzdafUxi9cYnzk,2698
+pytest_errxfail/matchers.py,sha256=NZxONXgmqqlKf4yMTqUBxOW_nT_80nGmT4w415CGryA,1464
+pytest_errxfail-0.1.0.dist-info/LICENSE,sha256=R69MyXG5Yqz9R6To6swuMysHdeQIbBvZidhYwDUx5qM,1073
+pytest_errxfail-0.1.0.dist-info/METADATA,sha256=ScMNLyAuJxv9uq1uBc8ftEwIJ3HipYM0G7irA-4Mtyg,5933
+pytest_errxfail-0.1.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+pytest_errxfail-0.1.0.dist-info/entry_points.txt,sha256=fL1h_6FxvVZRXP9SyNFlsHaqNmLVLmxZCvckviO1OyU,47
+pytest_errxfail-0.1.0.dist-info/top_level.txt,sha256=QzO0lXXxS_jnNhPELS88H91qTCIMCi-clpFaVXcu8Xo,16
+pytest_errxfail-0.1.0.dist-info/RECORD,,
