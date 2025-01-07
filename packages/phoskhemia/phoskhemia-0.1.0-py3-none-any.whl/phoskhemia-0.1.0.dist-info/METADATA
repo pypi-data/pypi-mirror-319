@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: phoskhemia
+Version: 0.1.0
+Summary: Library for the handling and analysis of chemical spectroscopic data.
+Author: Cole Clark
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+# PhosKhemia
+
+A library for the handling and analysis of spectroscopic data.
+
+## Installation
+
+'''
+pip install phoskhemia
+'''
