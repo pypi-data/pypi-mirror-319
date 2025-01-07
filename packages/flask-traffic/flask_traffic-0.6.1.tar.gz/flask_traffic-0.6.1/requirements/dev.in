@@ -1,0 +1,23 @@
+uv
+tox
+
+# style + checks
+ruff
+pre-commit
+
+# build
+flit
+
+# docs
+# furo
+# myst-parser
+# sphinx
+# sphinxcontrib-log-cabinet
+
+# typing + tests
+Flask
+flask-sqlalchemy
+redis
+mypy
+pyright
+pytest
