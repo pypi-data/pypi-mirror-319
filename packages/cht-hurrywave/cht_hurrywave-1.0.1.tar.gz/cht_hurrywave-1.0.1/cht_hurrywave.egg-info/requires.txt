@@ -1,0 +1,14 @@
+geopandas
+numpy
+pandas
+pyproj
+shapely
+scipy
+xarray
+matplotlib
+pyyaml
+xugrid
+toml
+affine
+datashader
+cht-utils
