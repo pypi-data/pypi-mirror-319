@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+PokerBots/__init__.py
+PokerBots.egg-info/PKG-INFO
+PokerBots.egg-info/SOURCES.txt
+PokerBots.egg-info/dependency_links.txt
+PokerBots.egg-info/requires.txt
+PokerBots.egg-info/top_level.txt
+PokerBots/players/BasePlayer.py
+PokerBots/players/CallingPlayer.py
+PokerBots/players/GamblingPlayer.py
+PokerBots/players/RandomPlayer.py
+PokerBots/players/__init__.py
+tests/test_players.py
