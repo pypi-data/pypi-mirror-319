@@ -1,0 +1,16 @@
+mypy_boto3_lex_runtime/__init__.py,sha256=y4mtYk5fo4YyGcoiKPbvwCq87jsDIH5OnblX78khI8w,467
+mypy_boto3_lex_runtime/__init__.pyi,sha256=ZFPoxMQTORtDnuMokAH70XbRTMf-O4yLdBS-gT9R81Y,466
+mypy_boto3_lex_runtime/__main__.py,sha256=o7zQ3J43R0ah-iO_I2UcUxec7bBlqu-YUhrJuD5BLrk,1011
+mypy_boto3_lex_runtime/client.py,sha256=Ym7pbMcqps6GATDp5LTiLMvfmEJpelSIwhJ1qV7-g4E,6070
+mypy_boto3_lex_runtime/client.pyi,sha256=en9TvvpYGKcqHPfsmGClqQLs2X_1YlNdhyc147aqYgI,6067
+mypy_boto3_lex_runtime/literals.py,sha256=bmOgNlyibHcQvGkfID4fLnGEbGoQt_-t4ojsumGtRw8,9701
+mypy_boto3_lex_runtime/literals.pyi,sha256=UlSdjJ0SOwD5mYSERaq3gvQ3lGzxOCKfThEKRsoyxmk,9699
+mypy_boto3_lex_runtime/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_lex_runtime/type_defs.py,sha256=c_WBHQjN4mErYDjaE6rmBMNQb78BUbAWhUcH_tK-5_0,8300
+mypy_boto3_lex_runtime/type_defs.pyi,sha256=_Y-KDn9o3p4pYql5LzQaxtDpDSBvvzRSPjQePXmNlow,8273
+mypy_boto3_lex_runtime/version.py,sha256=n6wyMBvI3Tp0INYol4fUJ84y0BqM9ti-SkLRGfsif5s,93
+mypy_boto3_lex_runtime-1.35.93.dist-info/LICENSE,sha256=4jNgB8jJbXtUVJkeygwhUQi--6lAG8DIisfE-h_RiUU,1070
+mypy_boto3_lex_runtime-1.35.93.dist-info/METADATA,sha256=Znuv3sSH7z2ZzB9C3oDyqAebYfpMkDwmB0-vNDwcZME,14183
+mypy_boto3_lex_runtime-1.35.93.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+mypy_boto3_lex_runtime-1.35.93.dist-info/top_level.txt,sha256=VKqyGRjOlJokoNK0hmIzOdwUk1MIEXBeNQZU4nPLPBs,23
+mypy_boto3_lex_runtime-1.35.93.dist-info/RECORD,,
