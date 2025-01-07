@@ -1,0 +1,8 @@
+s3hop/__init__.py,sha256=DenqRNyzBB0a-tvIgBFgdce1Vk7EMoJ0GDX0es_ulyg,99
+s3hop/cli.py,sha256=jNUaMMGEU2PlWVhbTYGbk11OHwDldCL6BgfpIdqZdMk,1348
+s3hop/core.py,sha256=7Tfrkglppck3DBBx8M5Z459dunEsYs4NXBRGUSZMQiw,12880
+s3hop-0.1.0.dist-info/METADATA,sha256=nmVVhX7B5Afcl58ZpWcqiPsM2pmOX-zgSKTqIv5Mk_U,3435
+s3hop-0.1.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+s3hop-0.1.0.dist-info/entry_points.txt,sha256=M3FeS4G_mIBlnO2yDYAQlv_hrvu6r15X65OyFjytaBA,41
+s3hop-0.1.0.dist-info/top_level.txt,sha256=foQ9W2__eVUt7jx-hLwd53yR494TSbcARa3XOE-tliI,6
+s3hop-0.1.0.dist-info/RECORD,,
