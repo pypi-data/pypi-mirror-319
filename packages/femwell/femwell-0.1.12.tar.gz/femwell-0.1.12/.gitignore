@@ -1,0 +1,29 @@
+.idea/
+dist/
+docs/build/
+*.egg-info/
+**/__pycache__/**
+build/
+docs/_build
+**/.ipynb_checkpoints/**
+
+*.msh
+*.xdmf
+*.vtk
+*.vtu
+*.pvd
+*.step
+
+*.png
+*.gif
+*.h5
+*.ipynb
+
+.vscode/
+*.iml
+
+# julia
+Manifest.toml
+
+# bibtex-tidy
+*.bib.original

@@ -1,0 +1,16 @@
+name: conda_env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - slepc4py=*=complex*
+  - numpy
+  - pip:
+      - matplotlib
+      - scipy
+      - shapely
+      - pygmsh
+      - meshio
+      - tqdm
+      - scikit-fem >=1.2.3

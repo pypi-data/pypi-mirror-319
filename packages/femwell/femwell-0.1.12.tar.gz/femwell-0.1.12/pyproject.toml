@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "femwell"
+version = "0.1.12"
+authors = [{name="Helge Gehring"}]
+description = "Mode solver for photonic and electric waveguides based on FEM"
+keywords = [
+    "integrated photonics",
+    "silicon photonics",
+    "mode solving",
+    "finite element analysis"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering"
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+
+dependencies = [
+    "scikit-fem>=8.1.0",
+    "gmsh>=4.13.1",
+    "pygmsh",
+    "matplotlib",
+    "meshwell>=1.0.2"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "flake8"
+]
+
+docs = [
+    "tqdm",
+    "enlighten",
+    "pint>0.20.1",
+    "sphinx-book-theme",
+    "jupytext",
+    "pandas"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["femwell*"]
+
+[project.urls]
+Homepage = "https://github.com/HelgeGehring/femwell"
+Documentation = "https://HelgeGehring.github.io/femwell/"
+
+[tool.black]
+line-length = 100
