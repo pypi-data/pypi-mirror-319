@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/electronsandstuff/__init__.py
+src/electronsandstuff/file_interfaces.py
+src/electronsandstuff/plotting.py
+src/electronsandstuff.egg-info/PKG-INFO
+src/electronsandstuff.egg-info/SOURCES.txt
+src/electronsandstuff.egg-info/dependency_links.txt
+src/electronsandstuff.egg-info/requires.txt
+src/electronsandstuff.egg-info/top_level.txt
+tests/test_au.py
