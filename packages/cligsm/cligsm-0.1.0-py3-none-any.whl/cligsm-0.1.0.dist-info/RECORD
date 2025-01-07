@@ -1,0 +1,8 @@
+pygsm/__init__.py,sha256=iMDq4W9eY9ZkcvuPGYp5FEx2zb8WZvtUZiwZ8yGYkwE,83
+pygsm/cli.py,sha256=NX7P-7x7kj9trKX_B-kp_yCHabgD8J0jSwkw_-inNWM,860
+pygsm/config.py,sha256=t1bb8drC0apNs3sqWUlzpqHFT_mjAB3907WfhwmYqAM,944
+pygsm/server.py,sha256=6uWbSoG8cCD185fSEaMcf-cXdAz77SZSoDXXFs-hAbI,1471
+cligsm-0.1.0.dist-info/METADATA,sha256=bEtJEE6w1isbsBpdSEZV5uUBpAUzN54DfXAaYFk0KYI,1685
+cligsm-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+cligsm-0.1.0.dist-info/entry_points.txt,sha256=ST6jk1WyPxv7GNIwqpdcoONlo7bs8KfktPbYc6ppDj4,42
+cligsm-0.1.0.dist-info/RECORD,,
