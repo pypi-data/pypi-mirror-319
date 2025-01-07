@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+lexi_xray/__init__.py
+lexi_xray/__version__.py
+lexi_xray/lexi.py
+lexi_xray.egg-info/PKG-INFO
+lexi_xray.egg-info/SOURCES.txt
+lexi_xray.egg-info/dependency_links.txt
+lexi_xray.egg-info/requires.txt
+lexi_xray.egg-info/top_level.txt
+lexi_xray/tests/__init__.py
+lexi_xray/tests/test_lexi.py
