@@ -1,0 +1,8 @@
+README.md
+setup.py
+s7svrsim/__init__.py
+s7svrsim/hints.py
+s7svrsim.egg-info/PKG-INFO
+s7svrsim.egg-info/SOURCES.txt
+s7svrsim.egg-info/dependency_links.txt
+s7svrsim.egg-info/top_level.txt
