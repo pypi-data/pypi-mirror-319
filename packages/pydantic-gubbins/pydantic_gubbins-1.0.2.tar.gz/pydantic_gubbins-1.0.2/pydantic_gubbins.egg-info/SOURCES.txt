@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+pydantic_gubbins/__init__.py
+pydantic_gubbins/descriptors.py
+pydantic_gubbins/main.py
+pydantic_gubbins.egg-info/PKG-INFO
+pydantic_gubbins.egg-info/SOURCES.txt
+pydantic_gubbins.egg-info/dependency_links.txt
+pydantic_gubbins.egg-info/requires.txt
+pydantic_gubbins.egg-info/top_level.txt
+pydantic_gubbins/test/__init__.py
+pydantic_gubbins/test/test_descriptors.py
+pydantic_gubbins/test/test_union.py
+pydantic_gubbins/typing/__init__.py
+pydantic_gubbins/typing/union.py
