@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PyRastrWin.egg-info/PKG-INFO
+PyRastrWin.egg-info/SOURCES.txt
+PyRastrWin.egg-info/dependency_links.txt
+PyRastrWin.egg-info/requires.txt
+PyRastrWin.egg-info/top_level.txt
