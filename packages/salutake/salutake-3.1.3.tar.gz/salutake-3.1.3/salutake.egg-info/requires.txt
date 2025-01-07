@@ -1,0 +1,6 @@
+requests
+pandas==1.5.3
+cython
+lime-orderswrkpi
+modelswrkpi
+keyrings.google.artifactregistry-auth
