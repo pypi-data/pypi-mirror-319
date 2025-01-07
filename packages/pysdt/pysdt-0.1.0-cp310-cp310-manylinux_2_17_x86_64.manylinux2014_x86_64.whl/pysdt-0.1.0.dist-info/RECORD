@@ -1,0 +1,7 @@
+pysdt/_pysdt_impl.cpython-310-x86_64-linux-gnu.so,sha256=m-XGgGLlxRkfP8v_6FEUnUul7_GT7vloQQ9-23JaDM8,352128
+pysdt/__init__.py,sha256=q9LeBVk00pU91neHzOVC8EW7K3sx2i-L0YIETUOqEBo,145
+pysdt/.libs/libSDT.so,sha256=5LA8jZ3Y_lD1I0uGIwUi_VKSj7PBfEU5zZ-N78cW0xU,592968
+pysdt-0.1.0.dist-info/RECORD,,
+pysdt-0.1.0.dist-info/METADATA,sha256=ZPO-YvkjWrFCfNGFMnyXZK7q4WvoLyduHEx9EfzOBmU,2888
+pysdt-0.1.0.dist-info/WHEEL,sha256=1CrknVuqXKbY6aAmKspEzCcwf6ALg-Z5HpOWUItJRZc,156
+pysdt-0.1.0.dist-info/licenses/LICENSE,sha256=BTdhWuVqyxtsVP81YN6m2eqBop8bRM-2mmFCt5nvVuY,1927
