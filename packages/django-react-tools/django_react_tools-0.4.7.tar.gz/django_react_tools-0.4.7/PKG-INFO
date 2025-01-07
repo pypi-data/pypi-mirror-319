@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: django-react-tools
+Version: 0.4.7
+Summary: Tools for helping integrate ReactJS into a Django project.
+Author: Devon Jackson
+Author-email: Grant Viklund <renderbox@gmail.com>
+Project-URL: Homepage, https://github.com/renderbox/django-react-tools
+Project-URL: Bug Tracker, https://github.com/renderbox/django-react-tools/issues
+Keywords: django,app
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django<5.2,>=4.1
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: flake8-black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: bandit; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: toml; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: coverage; extra == "docs"
+Provides-Extra: test
+Requires-Dist: black; extra == "test"
+Requires-Dist: flake8; extra == "test"
+Requires-Dist: flake8-black; extra == "test"
+Requires-Dist: mypy; extra == "test"
+Requires-Dist: bandit; extra == "test"
+Requires-Dist: isort; extra == "test"
+Requires-Dist: coverage; extra == "test"
+
+# django-react-tools
+
+Django Tools for helping integrate ReactJS into your Django project.
+
+The current iteration of this tool adds a simple management command to your Django project that will build, copy to a Django static directory and rename accordingly.
+
+If you wish to contribute, please Fork the repo and then make a Pull Request. We're always open for people who want to help make this a better package.
+
+To get started just pip install the package:
+
+```bash
+pip install django-react-tools
+```
+
+To read more about how to configure the project, go to the docs [here](https://github.com/renderbox/django-react-tools/blob/master/docs/index.md).
+
+We are in the process of making some updates to the package. If you come accross any issues please report them.
+
+[![Python Tests](https://github.com/renderbox/django-react-tools/actions/workflows/python-test.yml/badge.svg)](https://github.com/renderbox/django-react-tools/actions/workflows/python-test.yml)
+
+[![Upload Python Package](https://github.com/renderbox/django-react-tools/actions/workflows/python-publish.yml/badge.svg)](https://github.com/renderbox/django-react-tools/actions/workflows/python-publish.yml)
