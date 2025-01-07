@@ -1,0 +1,6 @@
+[console_scripts]
+sokoweb-down = sokoweb.sokoweb.cli:down
+sokoweb-hyperledger-down = sokoweb.sokoweb.cli:hyperledger_down
+sokoweb-hyperledger-up = sokoweb.sokoweb.cli:hyperledger_up
+sokoweb-up = sokoweb.sokoweb.cli:up
+
