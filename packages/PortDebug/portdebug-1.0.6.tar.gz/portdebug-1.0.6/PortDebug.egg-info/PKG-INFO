@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: PortDebug
+Version: 1.0.6
+Summary: for using serial port debug
+Home-page: https://github.com/CraneSun/PortDebug
+Author: Kun Sun
+Author-email: sk602015817@hotmail.com
+License: MIT
+Requires-Python: >=3.6
+Requires-Dist: pyside6
+Requires-Dist: py-mini-racer
