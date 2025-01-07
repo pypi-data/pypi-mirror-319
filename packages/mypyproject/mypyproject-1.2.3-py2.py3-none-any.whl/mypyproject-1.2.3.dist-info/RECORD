@@ -1,0 +1,8 @@
+mypyproject/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypyproject/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypyproject/tools/greet.py,sha256=mHAAo8Ss3ihRoaN8AD2YoCNog3wHWd53gGsms37jXl0,31
+mypyproject/tools/sub_pack/sub_greet.py,sha256=fP2PcbtCBboEPvNicb7ECwwcuSsNHejct6ZTeRH9DOA,60
+mypyproject/unused_folder/unused_module.py,sha256=Raj58aY0WzrEBe84yZred2hWBaZ0CTuwUuIP56HuH8E,27
+mypyproject-1.2.3.dist-info/METADATA,sha256=mcJ_7R1WPdn_2ko7e-zTArVvYoHh7ZW_LIyxCfcJ8FY,55
+mypyproject-1.2.3.dist-info/WHEEL,sha256=tkmg4JIqwd9H8mL30xA7crRmoStyCtGp0VWshokd1Jc,105
+mypyproject-1.2.3.dist-info/RECORD,,
