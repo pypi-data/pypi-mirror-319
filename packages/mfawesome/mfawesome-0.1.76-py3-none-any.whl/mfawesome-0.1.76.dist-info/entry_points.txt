@@ -1,0 +1,4 @@
+[console_scripts]
+mfa=mfawesome.exec_mfawesome:main
+mfaclock=mfawesome.ntptime:Clock
+
