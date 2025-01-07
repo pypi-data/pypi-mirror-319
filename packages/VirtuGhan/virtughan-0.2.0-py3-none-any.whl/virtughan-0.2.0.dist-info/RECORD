@@ -1,0 +1,7 @@
+vcube/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcube/engine.py,sha256=vN1j8ecL3HybWhvbsE4dY9CR4eYZe-IxYdpTIkAfDfU,14752
+vcube/tile.py,sha256=xPVrMl0iAw2-5KrSO9Pl1H83ZGgqv9HT9j4RiiaEOfQ,3633
+virtughan-0.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+virtughan-0.2.0.dist-info/METADATA,sha256=81BgUDpJfAT7zML6t7khqeT087cnD2Am2vvPc7BSP5E,8248
+virtughan-0.2.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+virtughan-0.2.0.dist-info/RECORD,,
