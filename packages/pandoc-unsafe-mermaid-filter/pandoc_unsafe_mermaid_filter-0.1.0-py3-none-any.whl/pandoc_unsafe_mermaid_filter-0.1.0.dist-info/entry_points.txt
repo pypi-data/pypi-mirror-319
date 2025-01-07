@@ -1,0 +1,2 @@
+[console_scripts]
+pandoc-mermaid = pandoc_mermaid_filter:main
