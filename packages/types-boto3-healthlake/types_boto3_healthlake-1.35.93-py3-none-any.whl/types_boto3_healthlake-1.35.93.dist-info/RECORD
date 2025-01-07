@@ -1,0 +1,16 @@
+types_boto3_healthlake/__init__.py,sha256=UgCk_FFleCYLzoTBqWNNfofoOaD5Hb4_wn5ryOoG1sk,430
+types_boto3_healthlake/__init__.pyi,sha256=HRejCjWdaVuQHHnr2yJxqVq0O7iuavbo1OqRIbvlfZs,429
+types_boto3_healthlake/__main__.py,sha256=Kp-1Hce-zaqpSoOVNeAPxH2MK7PXGUrgnVmtMjbT5lk,996
+types_boto3_healthlake/client.py,sha256=15R70wBaFyMkYoW1lzZOWHfceHMcKK8lEl9xQBtg0_A,11144
+types_boto3_healthlake/client.pyi,sha256=aHRinS9sxfvmY-4U6PKbwGRDV2tw-SbpCOo2QRhXFjA,11141
+types_boto3_healthlake/literals.py,sha256=ZQVtKj3Lr1o-w9OSFJxasJ5HhyHH2x2fDSy4AXXpJsg,9713
+types_boto3_healthlake/literals.pyi,sha256=5RfaDKyMyO8qnGrJq_SHH-lnhpU-wwQELqluZMF7Ifg,9711
+types_boto3_healthlake/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+types_boto3_healthlake/type_defs.py,sha256=_LwAIn8Ghhv3Xm0NWnZztVTUGxja3DkNAhh64jXGWSI,9948
+types_boto3_healthlake/type_defs.pyi,sha256=GLO_uKXrVl-1DHq8Vzu9JlgRzHTCsjQEWUjYZszZcxc,9907
+types_boto3_healthlake/version.py,sha256=n6wyMBvI3Tp0INYol4fUJ84y0BqM9ti-SkLRGfsif5s,93
+types_boto3_healthlake-1.35.93.dist-info/LICENSE,sha256=4jNgB8jJbXtUVJkeygwhUQi--6lAG8DIisfE-h_RiUU,1070
+types_boto3_healthlake-1.35.93.dist-info/METADATA,sha256=YGIe90wuwbdnZEtJQzHRaxDd-rcZFXGnnKM1QPp5gYM,14112
+types_boto3_healthlake-1.35.93.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+types_boto3_healthlake-1.35.93.dist-info/top_level.txt,sha256=ELWp42t7PwaOMs_fNwCD6DHRabCHycOiWGs0CVuDg9U,23
+types_boto3_healthlake-1.35.93.dist-info/RECORD,,
