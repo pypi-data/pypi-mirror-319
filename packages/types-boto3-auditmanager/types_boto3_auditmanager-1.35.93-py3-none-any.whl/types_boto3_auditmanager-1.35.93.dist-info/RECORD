@@ -1,0 +1,16 @@
+types_boto3_auditmanager/__init__.py,sha256=pq2pnyfBBON8_awDAs5sJ-gnk9a5xiXKveFmGIx5nrk,446
+types_boto3_auditmanager/__init__.pyi,sha256=xFnI6WmnPrMbdQpNfX3pRSTAnd8UjNtj8QGDvJIyyDU,445
+types_boto3_auditmanager/__main__.py,sha256=IQm3L3qF2xmc50e_Lrc3Z9FMCMZffzxu3TrE7ypy8xc,1004
+types_boto3_auditmanager/client.py,sha256=ThV7_-QS8oJgygLhO0H96hOOGM_rODpDeMh63wAMz2w,43194
+types_boto3_auditmanager/client.pyi,sha256=jL28XoMxiZmIobonbhd2AJmyCCXBnz_yn2Sz8xqQPn8,43191
+types_boto3_auditmanager/literals.py,sha256=eXzdrPx7vlifGGTDgEp6_RyAo7dA03pfp1fxKdF8YQY,12189
+types_boto3_auditmanager/literals.pyi,sha256=PtVdq98gZ59g41m0BYW6BLtez3HXQCJOY6TEeR2Z8Xg,12187
+types_boto3_auditmanager/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+types_boto3_auditmanager/type_defs.py,sha256=RC76De0SRxyzb1DPVutLKXN5GUAxAqBcBY3BH6vG3KI,43638
+types_boto3_auditmanager/type_defs.pyi,sha256=rXp5yMtWv34rE_JJVqxXJrnlC8nPaGe2W1LfRe6ftTU,43482
+types_boto3_auditmanager/version.py,sha256=n6wyMBvI3Tp0INYol4fUJ84y0BqM9ti-SkLRGfsif5s,93
+types_boto3_auditmanager-1.35.93.dist-info/LICENSE,sha256=4jNgB8jJbXtUVJkeygwhUQi--6lAG8DIisfE-h_RiUU,1070
+types_boto3_auditmanager-1.35.93.dist-info/METADATA,sha256=sM_pD3DK3FczU9d8earjmE-3zvqpytoGOKbSF9MrpLo,14166
+types_boto3_auditmanager-1.35.93.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+types_boto3_auditmanager-1.35.93.dist-info/top_level.txt,sha256=LpM10BNgKr_1K4Mz-EQ9CmxrjGNlyeCxgRvtVhPw-CY,25
+types_boto3_auditmanager-1.35.93.dist-info/RECORD,,
