@@ -1,0 +1,2 @@
+[opsbox.plugins]
+opsbox_cost_savings_assistant = cost_savings.cost_savings:CostSavings
