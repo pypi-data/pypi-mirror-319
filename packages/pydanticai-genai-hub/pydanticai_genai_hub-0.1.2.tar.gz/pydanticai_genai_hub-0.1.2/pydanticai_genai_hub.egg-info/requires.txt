@@ -1,0 +1,15 @@
+pydantic>=2.0.0
+pydantic-ai>=0.1.0
+typing-extensions>=4.0.0
+httpx>=0.24.0
+generative-ai-hub-sdk>=4.0.0
+
+[all]
+anthropic>=0.3.0
+openai>=1.0.0
+
+[anthropic]
+anthropic>=0.3.0
+
+[openai]
+openai>=1.0.0
