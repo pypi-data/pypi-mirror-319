@@ -1,0 +1,3 @@
+[console_scripts]
+sg = client.cli:cli
+stride-gpt = client.cli:cli
