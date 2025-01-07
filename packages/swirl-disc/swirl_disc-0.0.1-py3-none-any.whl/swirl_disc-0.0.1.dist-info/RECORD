@@ -1,0 +1,11 @@
+swirl-disc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swirl-disc/dataprocess.py,sha256=i13CyZ51GQ6Eg0oVEhQQKN1RQkyLjz0m0G_3KkOPMj8,1741
+swirl-disc/extract.py,sha256=_fsaRmui8l6g-pW60JA0HWCUs99cCbv3XPDKaJ8Ii0g,2462
+swirl-disc/main.py,sha256=CSvU927w1rMwHv_i-CC9gtKg3n12ZROfKOLW_87obAY,1553
+swirl-disc/modelling.py,sha256=MXCLczWUfGpvXjkZI70D94XPbNvrwUF8DWF8O63aptE,4071
+swirl-disc/textprocess.py,sha256=9VM5KQYZ1QkBLFjqpvIP_iMyO6x4bNTYB17bJSxhyW0,4296
+swirl_disc-0.0.1.dist-info/LICENSE,sha256=kv35YeV8j_oIHEniuoU0zmA6au5STxmm9hirNHs8ZZw,1073
+swirl_disc-0.0.1.dist-info/METADATA,sha256=ucCFb1kzlf7QAHiW5qxs3fn2pIG-0Br9WPcyvvq3XLE,578
+swirl_disc-0.0.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+swirl_disc-0.0.1.dist-info/top_level.txt,sha256=w_cOrqr0CBa2U10kLCjqKek_01mO29nUtEP2IbrEqxs,11
+swirl_disc-0.0.1.dist-info/RECORD,,
