@@ -1,0 +1,16 @@
+{
+  "id": "runoff_cinematography",
+  "name": "Cinematography (Runoff)",
+  "version": "1.0",
+  "description": "Evaluation criteria for cinematographic excellence. The range markers are shifted for runoff of exceptional titles.",
+  "author": "the-zinny team",
+  "extends": "cinematography_basic",
+  "defaults": {
+    "markers": {
+      "1": "typical",
+      "5": "Exceptional",
+      "10": "Revolutionary"
+    }
+  },
+  "criteria": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "runoff_vfx_basic",
+  "name": "Visual Effects (Runoff)",
+  "version": "1.0",
+  "description": "Extended criteria for visual effects. The range markers are shifted for runoff of exceptional titles.",
+  "author": "the-zinny team",
+  "extends": "vfx_basic",
+  "defaults": {
+    "markers": {
+      "1": "typical",
+      "5": "Exceptional",
+      "10": "Revolutionary"
+    }
+  },
+  "criteria": []
+}

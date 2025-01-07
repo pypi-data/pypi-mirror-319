@@ -1,0 +1,46 @@
+{
+  "id": "vfx_basic",
+  "name": "Visual Effects",
+  "version": "1.0",
+  "description": "Basic evaluation criteria for visual effects in a Picture Show.",
+  "author": "the-zinny team",
+  "defaults": {
+    "range": [1, 10],
+    "markers": {
+      "1": "Substandard",
+      "5": "Typical",
+      "10": "Exceptional"
+    }
+  },
+    "criteria": [
+    {
+      "id": "artistry",
+      "name": "Artistry",
+      "description": "The artistic quality, creativity, or aesthetic integration of visuals."
+    },
+    {
+      "id": "craft",
+      "name": "Skill",
+      "description": "The skill level in applying VFX techniques effectively.",
+      "markers": {
+        "1": "off-the-shelf",
+        "10": "Masterful"
+      }
+    },
+    {
+      "id": "technical_achievement",
+      "name": "Technical Achievement",
+      "description": "The innovation and use of new or improved technology.",
+      "markers": {
+        "1": "No new technology",
+        "5": "Pioneering",
+        "10": "Revolutionary"
+      }
+    },
+    {
+      "id": "fidelity",
+      "name": "Overall Fidelity",
+      "description": "The overall realism and believability of the VFX."
+    }
+  ]
+}
