@@ -1,0 +1,100 @@
+Metadata-Version: 2.4
+Name: xero-agent-toolkit
+Version: 0.0.2
+Summary: A Xero toolkit for AI agents
+Author-email: reizenband <reizenband@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Xero Python Agent Toolkit
+
+* The Xero Agent Toolkit library enables agent frameworks to integrate with Xero APIs through function calling. 
+* The current version showcases one scenario where a user would like to create a payment received by a contact.
+* The current version works with langchain agents, but can be used or can be adjusted to work with other 
+agent frameworks.
+* The framework currently supports Xero custom connections.
+
+## Installation
+
+
+```sh
+pip install xero-agent-toolkit
+```
+
+### Requirements
+
+- Python 3.8+
+
+## Usage
+
+### 1. Authentication
+The library needs to be configured with your Xero client id and client secret.
+
+See more info [here](https://developer.xero.com/documentation/guides/oauth2/custom-connections/) on Xero custom connections. 
+
+```python
+from xero-agent-toolkit import XeroAgentToolkit
+
+xero_agent_toolkit = XeroAgentToolkit(client_id, client_secret)
+```
+
+### 2. Getting the tools
+
+Once you have create the XeroAgentToolkit, and passed the authentication info, 
+you can grab the Xero tools to pass to the langchain agent
+
+```python
+model = ...
+tools = xero_agent_toolkit.get_tools()
+agent_executor = create_react_agent(model, tools, ...)
+```
+
+### 3. Initialization 
+
+The last thing before using the agent is calling the "system_init"
+method that allows the agent toolkit to update the agent's system prompt if needed
+
+```python
+xero_agent_toolkit.system_init(agent_executor, config)
+```
+
+### Example Scenario
+
+> _Agent_: How can I help you?
+>
+> _User_: I received a 20$ payment from Ridgeway
+> 
+> _Agent_: I found two contacts with the nickname "Ridgeway":
+> 1. Ridgeway Bank
+> 2. Ridgeway University
+>
+> Please confirm which one you would like to associate the payment with.
+> 
+> _User_: The University
+> 
+> _Agent_: I found the following invoice for Ridgeway University:
+>
+> - Invoice Number: INV-0025 
+> - Amount Due: $6187.50
+> - Status: AUTHORIZED
+>
+> please confirm you would like to link the payment to this invoice 
+>
+> _User_: Yes
+> 
+> _Agent_: I need a numeric account code to create the payment. Please provide the account code to proceed.
+> 
+> _User_: 091
+> 
+> _Agent_: The payment of $20 has been successfully created and linked to invoice INV-0025 for Ridgeway University.
+> If you need any further assistance, feel free to ask!
+> 
+> _User_: What is the new amount due?
+> 
+> _Agent_: The new amount due for invoice INV-0025 is now 
+> 6167.50 after the payment of 20 was applied. 
+
