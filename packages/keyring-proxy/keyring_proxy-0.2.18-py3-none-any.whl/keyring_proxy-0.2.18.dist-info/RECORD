@@ -1,0 +1,12 @@
+keyring_proxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keyring_proxy/_version.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+keyring_proxy/backend.py,sha256=kfBwMwq0mwZPY8cdjtrft1rLkl4_TQ2S8sSkTP_5Evs,2800
+keyring_proxy/connection.py,sha256=eZuEy0B76mk9PemLK780QgvVw9i5ParF3osjw0oG8LM,4432
+keyring_proxy/packets.py,sha256=NytAdit8YXhbqJxVCQEXWZbsBjvNiHFIyWiOfk13Dhc,5960
+keyring_proxy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keyring_proxy/socketproxy.py,sha256=a4OBrrKQ8gPN7oAvSr_VtLq3kN1MKnHzTxZh24ms37A,5909
+keyring_proxy/stdioproxy.py,sha256=rVRPyh3HkRXVN0fX37b_UbjJnnAwiF07Ljwve1yGC2g,1790
+keyring_proxy/transport.py,sha256=Ls6ysjfGpaxPlab1hRkN5Y0jL48Ia1jvUN6LP5cGcuA,1592
+keyring_proxy-0.2.18.dist-info/METADATA,sha256=UzOZ41EYNaD6AsVqiVgf4wTsjGSvo1YSmZymvN-eaVE,375
+keyring_proxy-0.2.18.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+keyring_proxy-0.2.18.dist-info/RECORD,,
