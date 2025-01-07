@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+phoskhemia/__init__.py
+phoskhemia.egg-info/PKG-INFO
+phoskhemia.egg-info/SOURCES.txt
+phoskhemia.egg-info/dependency_links.txt
+phoskhemia.egg-info/requires.txt
+phoskhemia.egg-info/top_level.txt
