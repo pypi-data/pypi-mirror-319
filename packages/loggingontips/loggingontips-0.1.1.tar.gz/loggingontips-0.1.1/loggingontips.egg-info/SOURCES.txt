@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+loggingontips/LogLevels.py
+loggingontips/Logger.py
+loggingontips/__init__.py
+loggingontips/utils.py
+loggingontips.egg-info/PKG-INFO
+loggingontips.egg-info/SOURCES.txt
+loggingontips.egg-info/dependency_links.txt
+loggingontips.egg-info/top_level.txt
+tests/test1.py
+tests/test2.py
+tests/test3.py
