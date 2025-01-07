@@ -1,0 +1,14 @@
+ccds/.DS_Store,sha256=AcAI33NTCDCHlAcOBSoyd9KQfqYUbBGMydFg3tDFzZ0,6148
+ccds/__init__.py,sha256=C3mKDozy5A9JMO4FPtTXi8aF5KNbDjDWnubM2l9nDLk,45
+ccds/__main__.py,sha256=iRSfaSnuKROzBZQl5o_taCQNCSUH_0h8TbDiJ9lflhg,1069
+ccds/monkey_patch.py,sha256=ug97DMgKz9HK2IC7OsYgIcXbBkU111XKRaPeY5HfiXk,4813
+ccds/hook_utils/__init__.py,sha256=w2jIigUX5YF_vBR6neI2lhtZAvh8Vdd7h_9UeBMCuAo,72
+ccds/hook_utils/configure_gh.py,sha256=L9CR6GUSjqsjOfvZwIuT8xodbtxlzuNdXDWvAVUOxxI,7150
+ccds/hook_utils/configure_vcs.py,sha256=gI_Xqlx8l9hShWKv3-nebKkQS6FdHqVgEb1XhUV5uR0,5616
+ccds/hook_utils/custom_config.py,sha256=7Js39zfRXCwX25wkzFBWTXViMIuGnu0EGC7PJfRM824,1395
+ccds/hook_utils/dependencies.py,sha256=gj-454Hhlfr8_fNlcAgxmawfoSpLDdYUk2eHbXNNJEU,1608
+gatlens_opinionated_template-0.0.6.dist-info/entry_points.txt,sha256=rmumL9yaTvBZxYgJ8X22dBqy9Hakqxkw-naj30-Dx5k,44
+gatlens_opinionated_template-0.0.6.dist-info/LICENSE,sha256=LppXyZM_uaLxIfVOhw8C27t7KF4f4uCN_nchykVcl-w,1081
+gatlens_opinionated_template-0.0.6.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+gatlens_opinionated_template-0.0.6.dist-info/METADATA,sha256=tvujtUtpwzE2sx1esDmfBUnhJWBOz-m9bmwNJQlSqt8,19042
+gatlens_opinionated_template-0.0.6.dist-info/RECORD,,
