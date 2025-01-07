@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: antho-utils
+Version: 0.0.0
+Summary: useful utilities for python and datascience
+Home-page: https://github.com/anthol42/myPyUtils/tree/main
+Author: Anthony Lavertu
+Author-email: alavertu2@gmail.com
+Project-URL: Issues, https://github.com/anthol42/myPyUtils/issues
+Keywords: MyPyUtils,utils,utilities,python,helpers,tools,datascience
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML>=6.0.0
