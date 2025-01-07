@@ -1,0 +1,11 @@
+falconEDA/__init__.py,sha256=-JcxKvjdfgn4nuxxev_1auP0Tb6MhQzdXSMTrgQxOEQ,277
+falconEDA/app.py,sha256=DnREdpvB2bsJcSp6w7v4KDHsNuspMfijQzmky_8tvLQ,6453
+falconEDA/main.py,sha256=yQ8Jfb1V3uBFR8t_WgF_r_lY8FVvfzNVtkQFIoRNAnk,525
+falconEDA/make_pptx.py,sha256=qGk3n7472NKREcOVUBByJHjndRib8e3_BuOjWi66spM,13237
+falconEDA/utils.py,sha256=IxR_ZBvZ5gG5Mio286nrOlRLaJlZvFz42CEYBgdyy4M,8794
+FalconEDA-1.0.0.dist-info/LICENSE,sha256=Y_zDMUosI56de95GVglpC19GilDg_0qu5kgmy4XiwKE,33092
+FalconEDA-1.0.0.dist-info/METADATA,sha256=YTjHEzepAKHPWx-SIDJ6iMzLITFwSaBAWaVaIZ_vrFQ,1627
+FalconEDA-1.0.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+FalconEDA-1.0.0.dist-info/entry_points.txt,sha256=Ql_Il0gix9Ep6QYq1hBUKHNtquUjMZQVVjIBwk81LHw,42
+FalconEDA-1.0.0.dist-info/top_level.txt,sha256=6AdNk3Arz7N5vcgShwpqoa-FBIjYcUK3jcM3R594UDA,10
+FalconEDA-1.0.0.dist-info/RECORD,,
