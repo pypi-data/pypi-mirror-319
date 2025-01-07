@@ -1,0 +1,5 @@
+setup.py
+canmore.egg-info/PKG-INFO
+canmore.egg-info/SOURCES.txt
+canmore.egg-info/dependency_links.txt
+canmore.egg-info/top_level.txt
