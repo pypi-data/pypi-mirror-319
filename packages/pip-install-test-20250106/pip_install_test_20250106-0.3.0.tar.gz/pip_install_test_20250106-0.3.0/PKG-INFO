@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pip-install-test-20250106
+Version: 0.3.0
+Summary: 
+Author: Robertson Brinker
+Author-email: robertsonbrinker@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+1. poetry config repositories.pypi https://upload.pypi.org/legacy/
+2. $env:PYPI_USERNAME="__token__"
+3. $env:PYPI_PASSWORD="<api-token>"
+4. poetry publish --build --username $PYPI_USERNAME --password $PYPI_PASSWORD
+
