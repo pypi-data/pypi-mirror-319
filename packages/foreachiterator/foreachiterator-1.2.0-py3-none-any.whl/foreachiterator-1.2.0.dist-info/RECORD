@@ -1,0 +1,10 @@
+foreachiterator/__init__.py,sha256=_oWdKoaoDH8bAtTn2GB4AAG5K404I_K6kFv9KnaamtE,75
+foreachiterator/foreachiterator.py,sha256=dGQUnBV3RcdTJoa1yYtCON3X0HNB1FnyUSrZbDMJZww,7773
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_foreachiterator.py,sha256=HeVXlmCwgkvtGtvttncTYz8W_wfiaAEEDIZKt0YRu1c,490
+foreachiterator-1.2.0.dist-info/LICENSE,sha256=aP2AT6h-Q6wGTAQSxSJQr7qWX-m14hcRkpVB2suyxGc,250
+foreachiterator-1.2.0.dist-info/METADATA,sha256=A9vrZhm-rSNntFWqljp0rLffpe3GIqsWMY-dAI9djDo,650
+foreachiterator-1.2.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+foreachiterator-1.2.0.dist-info/entry_points.txt,sha256=QzE11In21WBu2lsRvJtPr8dwMjWbqKZxG6YAmrqVFfw,100
+foreachiterator-1.2.0.dist-info/top_level.txt,sha256=fKklua5YddQN-I5iC57vRf03uSnoZyf8dGCt-nD-Qek,22
+foreachiterator-1.2.0.dist-info/RECORD,,

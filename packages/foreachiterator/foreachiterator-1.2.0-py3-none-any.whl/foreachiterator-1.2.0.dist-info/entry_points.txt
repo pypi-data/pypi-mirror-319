@@ -1,0 +1,2 @@
+[console_scripts]
+foreachiterator-docs = foreachiterator.foreachiterator:ForEachIterator.print_docs
