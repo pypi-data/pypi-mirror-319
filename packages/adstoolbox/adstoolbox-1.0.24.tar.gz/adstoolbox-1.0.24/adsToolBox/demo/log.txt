@@ -1,0 +1,104 @@
+2025-01-06 15:19:03,434 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-06 15:19:03,436 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:19:03,713 - AdsLogger - INFO - Connexion établie avec la base de données
+2025-01-06 15:19:16,686 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-06 15:19:16,687 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:19:16,919 - AdsLogger - INFO - Connexion établie avec la base de données
+2025-01-06 15:19:16,919 - AdsLogger - DEBUG - Exécution de la requête de lecture: SELECT * FROM v_bo_caces_encours;
+2025-01-06 15:19:26,152 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-06 15:19:26,477 - AdsLogger - INFO - 2040 lignes lues.
+2025-01-06 15:21:35,533 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:21:35,796 - AdsLogger - INFO - Connexion établie avec la base de données
+2025-01-06 15:21:40,654 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-06 15:21:40,770 - AdsLogger - INFO - 2040 lignes lues.
+2025-01-06 15:35:11,232 - AdsLogger - DEBUG - Fichier spécifié pour l'environnement trouvé
+2025-01-06 15:35:11,233 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:35:11,291 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-06 15:35:11,291 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-06 15:35:11,291 - AdsLogger - DEBUG - Exécution de la requête de lecture : SELECT * FROM insert_test_2;
+2025-01-06 15:35:11,302 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-06 15:35:11,302 - AdsLogger - INFO - 5 lignes lues.
+2025-01-06 15:35:11,302 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 0.0114 secondes
+2025-01-06 15:35:11,304 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:35:11,304 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:35:11,543 - AdsLogger - INFO - Connexion établie avec la base de données
+2025-01-06 15:35:11,543 - AdsLogger - INFO - Connexion établie avec la base de données
+2025-01-06 15:35:11,544 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:35:11,544 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:35:11,713 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-06 15:35:11,713 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-06 15:35:11,713 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0561 secondes.
+2025-01-06 15:35:11,713 - AdsLogger - INFO - Temps d'exécution de sqlExec: 0.0561 secondes.
+2025-01-06 15:35:11,713 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-06 15:35:11,713 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-06 15:35:11,714 - AdsLogger - INFO - Temps d'exécution de connect: 0.1704 secondes.
+2025-01-06 15:35:11,714 - AdsLogger - INFO - Temps d'exécution de connect: 0.1704 secondes.
+2025-01-06 15:35:11,745 - AdsLogger - INFO - Connexion à bdd mssql réussie.
+2025-01-06 15:35:11,745 - AdsLogger - INFO - Connexion à bdd mssql réussie.
+2025-01-06 15:35:11,746 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-06 15:35:11,746 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-06 15:35:16,689 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-06 15:35:16,689 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-06 15:35:16,897 - AdsLogger - ERROR - **************************************************
+2025-01-06 15:35:16,897 - AdsLogger - ERROR - **************************************************
+2025-01-06 15:35:16,897 - AdsLogger - ERROR - Échec de l'insertion des données: ("Nom d'objet 'nws.PEG_STA_v_bo_caces_encours' non valide. Nom d'objet 'nws.PEG_STA_v_bo_caces_encours' non valide.", None)
+2025-01-06 15:35:16,897 - AdsLogger - ERROR - Échec de l'insertion des données: ("Nom d'objet 'nws.PEG_STA_v_bo_caces_encours' non valide. Nom d'objet 'nws.PEG_STA_v_bo_caces_encours' non valide.", None)
+2025-01-06 15:35:16,897 - AdsLogger - ERROR - **************************************************
+2025-01-06 15:35:16,897 - AdsLogger - ERROR - **************************************************
+2025-01-06 15:35:16,929 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.0527 secondes.
+2025-01-06 15:35:16,929 - AdsLogger - INFO - Temps d'exécution de insertBulk: 0.0527 secondes.
+2025-01-06 15:35:16,933 - AdsLogger - INFO - 2040 lignes lues.
+2025-01-06 15:35:16,933 - AdsLogger - INFO - 2040 lignes lues.
+2025-01-06 15:35:16,934 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 4.9831 secondes.
+2025-01-06 15:35:16,934 - AdsLogger - INFO - Temps d'exécution de sqlQuery: 4.9831 secondes.
+2025-01-06 15:35:16,934 - AdsLogger - INFO - Temps d'exécution de run: 5.2202 secondes.
+2025-01-06 15:35:16,934 - AdsLogger - INFO - Temps d'exécution de run: 5.2202 secondes.
+2025-01-06 15:36:57,856 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:36:58,083 - AdsLogger - INFO - Connexion établie avec la base de données
+2025-01-06 15:36:58,083 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:36:58,270 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-06 15:36:58,270 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-06 15:36:58,467 - AdsLogger - INFO - Connexion à bdd mssql réussie.
+2025-01-06 15:36:58,467 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-06 15:37:03,016 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-06 15:37:03,257 - AdsLogger - ERROR - **************************************************
+2025-01-06 15:37:03,258 - AdsLogger - ERROR - Échec de l'insertion des données: ("Nom d'objet 'nws.PEG_STA_v_bo_caces_encours' non valide. Nom d'objet 'nws.PEG_STA_v_bo_caces_encours' non valide.", None)
+2025-01-06 15:37:03,258 - AdsLogger - ERROR - **************************************************
+2025-01-06 15:37:03,264 - AdsLogger - INFO - 2040 lignes lues.
+2025-01-06 15:46:34,132 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:46:34,374 - AdsLogger - INFO - Connexion établie avec la base de données
+2025-01-06 15:46:34,374 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:46:34,545 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-06 15:46:34,546 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-06 15:46:34,604 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-06 15:46:34,781 - AdsLogger - INFO - Connexion à bdd mssql réussie.
+2025-01-06 15:46:34,782 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-06 15:46:39,620 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-06 15:46:40,817 - AdsLogger - ERROR - **************************************************
+2025-01-06 15:46:40,818 - AdsLogger - ERROR - Échec de l'insertion des données: Il est possible qu'une contrainte existe dans la table de destination, ce qui cause l'erreur. Il est recommandé d'utiliser une table sans contraintes pour les destinations de pipeline. ('Type de colonne non valide du client bcp pour colid 1.', None)
+2025-01-06 15:46:40,818 - AdsLogger - ERROR - **************************************************
+2025-01-06 15:46:40,824 - AdsLogger - INFO - 2038 lignes lues.
+2025-01-06 15:49:23,808 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:49:24,030 - AdsLogger - INFO - Connexion établie avec la base de données
+2025-01-06 15:49:24,030 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:49:24,485 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-06 15:49:24,486 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-06 15:49:24,602 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-06 15:49:24,980 - AdsLogger - INFO - Connexion à bdd mssql réussie.
+2025-01-06 15:49:24,981 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-06 15:49:29,331 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-06 15:49:29,933 - AdsLogger - ERROR - **************************************************
+2025-01-06 15:49:29,933 - AdsLogger - ERROR - Échec de l'insertion des données: Il est possible qu'une contrainte existe dans la table de destination, ce qui cause l'erreur. Il est recommandé d'utiliser une table sans contraintes pour les destinations de pipeline. ('Type de colonne non valide du client bcp pour colid 1.', None)
+2025-01-06 15:49:29,933 - AdsLogger - ERROR - **************************************************
+2025-01-06 15:49:29,941 - AdsLogger - INFO - 2039 lignes lues.
+2025-01-06 15:50:45,660 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:50:45,893 - AdsLogger - INFO - Connexion établie avec la base de données
+2025-01-06 15:50:45,893 - AdsLogger - INFO - Tentative de connexion avec la base de données.
+2025-01-06 15:50:46,083 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-06 15:50:46,084 - AdsLogger - INFO - Connexion établie avec la base de données.
+2025-01-06 15:50:46,143 - AdsLogger - INFO - Requête exécutée avec succès.
+2025-01-06 15:50:46,325 - AdsLogger - INFO - Connexion à bdd mssql réussie.
+2025-01-06 15:50:46,325 - AdsLogger - INFO - Chargement des données depuis la source...
+2025-01-06 15:50:50,296 - AdsLogger - INFO - Requête exécutée avec succès, début de la lecture des résultats.
+2025-01-06 15:50:50,801 - AdsLogger - INFO - 2039 ligne(s) insérée(s) avec succès dans la table PEG_STA_v_bo_caces_encours.
+2025-01-06 15:50:50,803 - AdsLogger - INFO - 2039 lignes lues.
