@@ -1,0 +1,9 @@
+nomenclators_archetype/infrastructure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nomenclators_archetype/infrastructure/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nomenclators_archetype/infrastructure/db/commons.py,sha256=VrGvnot8s6BU7NQs0dwyADPph5gwrvsh_naRHM0fA_I,2873
+nomenclators_elprat-0.0.6.dist-info/LICENSE,sha256=l5UiZG8djUWVo_AKkdeZj4yC3eIF63U8rfzDyxHOwy8,1120
+nomenclators_elprat-0.0.6.dist-info/METADATA,sha256=HNJJuILUY10Fw5JbpdNcmQk9o_yL81azfz666SWZubA,3097
+nomenclators_elprat-0.0.6.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+nomenclators_elprat-0.0.6.dist-info/entry_points.txt,sha256=CYQBtwfqLoqdpb1x3KLHj6hxZXVcL98yANTC2f2emOM,57
+nomenclators_elprat-0.0.6.dist-info/top_level.txt,sha256=Q47R56b9Bk0yX0xdj0OvRoaVdPzKK496A_QYpMO_h3Y,23
+nomenclators_elprat-0.0.6.dist-info/RECORD,,

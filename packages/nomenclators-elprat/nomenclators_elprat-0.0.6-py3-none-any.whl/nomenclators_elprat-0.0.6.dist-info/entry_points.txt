@@ -1,0 +1,2 @@
+[console_scripts]
+nomenclators-elprat = commands.cli:cli
