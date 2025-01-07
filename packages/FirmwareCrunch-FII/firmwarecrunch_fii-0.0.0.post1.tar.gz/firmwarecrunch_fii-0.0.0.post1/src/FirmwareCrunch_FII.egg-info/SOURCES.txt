@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/FII/__init__.py
+src/FII/__main__.py
+src/FirmwareCrunch_FII.egg-info/PKG-INFO
+src/FirmwareCrunch_FII.egg-info/SOURCES.txt
+src/FirmwareCrunch_FII.egg-info/dependency_links.txt
+src/FirmwareCrunch_FII.egg-info/top_level.txt
