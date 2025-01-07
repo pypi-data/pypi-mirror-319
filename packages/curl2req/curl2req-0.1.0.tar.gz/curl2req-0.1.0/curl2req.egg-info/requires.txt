@@ -1,0 +1,9 @@
+requests
+pydantic
+jsonpath_ng
+requires-python
+
+[dev]
+pytest
+flake8
+sphinx
