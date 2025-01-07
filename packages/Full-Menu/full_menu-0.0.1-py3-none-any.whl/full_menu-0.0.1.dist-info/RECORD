@@ -1,0 +1,14 @@
+Full_Menu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Full_Menu/main.py,sha256=0Xq7GVcohPb0RmXSWrA2P5xlWTr4-iZtfV6Lbc-oKZk,701
+Full_Menu/menu.py,sha256=SDDkWzdLi224DiE63bSCESPwjksah7y3mQVjd3sC3iI,758
+Full_Menu/screen.py,sha256=ZyrDvSBtKm-brpjD9JKU3gMHXaJKUWLCLqDJowAGYAo,836
+Full_Menu/text.py,sha256=Bym4fUjs7UAjcNiPQVDMLkYqvSSgFPqUGt1OqSGea5o,643
+Full_Menu/theme.py,sha256=--WsY9kcFMbzHpYG8T1c1ossJZ_6fY8cC5jUpl2zjCk,1687
+Full_Menu/Parts/body.py,sha256=QAdfMYUjnGW7d4YcNJ-dUWatV8bv8UnKVDz6ppgCtbY,853
+Full_Menu/Parts/footer.py,sha256=Rp7Nzst3u87CfMiYzCi7jcQn9p5GgUPe8SkwALund-Q,1130
+Full_Menu/Parts/header.py,sha256=S5pmH3gEunu5PItDzOZJEvX0tx3ImhtTemLVggxHqDw,812
+Full_Menu/items/function.py,sha256=ZFI38-rSqWkZPIjyb_mHnsrflb20bNw6xE0qQKxDriM,228
+full_menu-0.0.1.dist-info/METADATA,sha256=3kKWTxOMBdcrJ8s5VYsTTyy0Sw4LkVSWJIggScmDFcY,780
+full_menu-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+full_menu-0.0.1.dist-info/licenses/LICENSE,sha256=TYNMvz2HuyeEZ7k7y1cRSdsWgbXKZb7w6IFR-Wlz0Qk,1071
+full_menu-0.0.1.dist-info/RECORD,,
