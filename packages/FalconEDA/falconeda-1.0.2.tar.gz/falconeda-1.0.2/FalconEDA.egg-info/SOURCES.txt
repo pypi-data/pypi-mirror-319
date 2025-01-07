@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+FalconEDA/__init__.py
+FalconEDA/app.py
+FalconEDA/main.py
+FalconEDA/make_pptx.py
+FalconEDA/utils.py
+FalconEDA.egg-info/PKG-INFO
+FalconEDA.egg-info/SOURCES.txt
+FalconEDA.egg-info/dependency_links.txt
+FalconEDA.egg-info/entry_points.txt
+FalconEDA.egg-info/requires.txt
+FalconEDA.egg-info/top_level.txt
