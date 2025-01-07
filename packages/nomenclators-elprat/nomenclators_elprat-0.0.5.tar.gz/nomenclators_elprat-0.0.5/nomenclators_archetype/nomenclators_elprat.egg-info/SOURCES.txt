@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nomenclators_archetype/infrastructure/db/__init__.py
+nomenclators_archetype/infrastructure/db/commons.py
+nomenclators_archetype/nomenclators_elprat.egg-info/PKG-INFO
+nomenclators_archetype/nomenclators_elprat.egg-info/SOURCES.txt
+nomenclators_archetype/nomenclators_elprat.egg-info/dependency_links.txt
+nomenclators_archetype/nomenclators_elprat.egg-info/entry_points.txt
+nomenclators_archetype/nomenclators_elprat.egg-info/requires.txt
+nomenclators_archetype/nomenclators_elprat.egg-info/top_level.txt
