@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: yan_infra_logging
+Version: 0.2.0
+Summary: A custom logging package
+Home-page: https://github.com/YanGabriel16/infra-logging-py
+Author: Yan Gabriel
+Author-email: yan80ky16@gmail.com
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
