@@ -1,0 +1,10 @@
+nonebot_plugin_session_orm/__init__.py,sha256=sQSeXYGActqtD4rtQ3IYJXpG1jSbhxKcXn7pXDhL2Y8,769
+nonebot_plugin_session_orm/migrations/2e0c173949d3_constraint_name.py,sha256=ZTTsG-IYcJeDTiqhOfig_jj8oa8uFH3Gp1xxQ85l_to,1796
+nonebot_plugin_session_orm/migrations/71a72119935f_data_migrate.py,sha256=Pi7QSnwR1PnsjTot6L_0zW1uI-rMMa3FuEFe2PVE-PQ,3247
+nonebot_plugin_session_orm/migrations/fff55366306e_init_db.py,sha256=1gq40vTS-gebH__kT4f99wYFWdojuJKW1tN9sSbw1hI,1746
+nonebot_plugin_session_orm/model.py,sha256=LEiaS7jxaUvofp0mDm87mrAP7hz4Enc_C1S_Hz5UblE,5269
+nonebot_plugin_session_orm/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nonebot_plugin_session_orm-0.2.2.dist-info/LICENSE,sha256=05tAGDEXqHARC0eSHQKYO1XHsgRlYuoBLR1xRvZ_Pk4,1063
+nonebot_plugin_session_orm-0.2.2.dist-info/METADATA,sha256=8AkF5kabA6ISC6QMYW0sTIheYanM2t_ZC-l66finutI,1649
+nonebot_plugin_session_orm-0.2.2.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+nonebot_plugin_session_orm-0.2.2.dist-info/RECORD,,
