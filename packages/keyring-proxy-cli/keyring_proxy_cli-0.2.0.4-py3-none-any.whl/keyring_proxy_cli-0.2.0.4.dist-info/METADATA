@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: keyring-proxy-cli
+Version: 0.2.0.4
+Summary: Keyring Proxy CLI
+Project-URL: Repository, https://github.com/KalleDK/py-keyring-proxy-cli
+Author-email: "Kalle M. Aagaard" <git@k-moeller.dk>
+License: MIT
+Requires-Python: >=3.12
+Requires-Dist: keyring-proxy>=0.2.23
+Requires-Dist: typer>=0.12.3
+Description-Content-Type: text/markdown
+
+# keyring-proxy-cli
