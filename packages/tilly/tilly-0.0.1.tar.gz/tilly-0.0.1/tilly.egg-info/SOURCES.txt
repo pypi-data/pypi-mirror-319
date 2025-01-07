@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tilly/__init__.py
+tilly.egg-info/PKG-INFO
+tilly.egg-info/SOURCES.txt
+tilly.egg-info/dependency_links.txt
+tilly.egg-info/top_level.txt
