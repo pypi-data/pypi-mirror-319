@@ -1,0 +1,6 @@
+llm_bedrock_nova.py,sha256=p18tbeUOgLJb9cZIRN8DaaDjsIuZAbUws6myd2dKSxg,12735
+llm_bedrock_nova-0.1.1.dist-info/METADATA,sha256=c1K8lEeUwOzmIgwPAITEUWUfarl7vHWqlQ1B1g3CYFE,1812
+llm_bedrock_nova-0.1.1.dist-info/WHEEL,sha256=tkmg4JIqwd9H8mL30xA7crRmoStyCtGp0VWshokd1Jc,105
+llm_bedrock_nova-0.1.1.dist-info/entry_points.txt,sha256=PUCiLBcI3rtkA7rgT-s_ckqFhj38kfJiFgQwCwhnmsY,38
+llm_bedrock_nova-0.1.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+llm_bedrock_nova-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[llm]
+bedrock-nova = llm_bedrock_nova
