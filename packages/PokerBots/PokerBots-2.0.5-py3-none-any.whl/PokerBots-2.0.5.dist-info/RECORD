@@ -1,0 +1,11 @@
+PokerBots/__init__.py,sha256=ct9Y0o_DSTUK14uZtiAjjIQgSysosiRPnwJEcaf93nk,223
+PokerBots/players/BasePlayer.py,sha256=UYKdwJZa8OeroZ8IH2AWFsIvw6Wc_JWMmioqxBQbk4o,1195
+PokerBots/players/CallingPlayer.py,sha256=x2zvR-XFsPOmWItsS7HSM7nAmp-o8OcsfMnG6ojf5YE,723
+PokerBots/players/GamblingPlayer.py,sha256=bo5PNGM-JtldFe88rAjgnOsb6mRnBdoqeaUwrfbVLyo,3693
+PokerBots/players/RandomPlayer.py,sha256=3nQCcCPpiU-xj7AQj-sgbkzCvlpy9rD0tE7AQU-kVqY,1770
+PokerBots/players/__init__.py,sha256=B2VEgY_ExYO5P3vM58DdGNiFI6fDzF5yGgu34ClvLA0,156
+PokerBots-2.0.5.dist-info/LICENSE,sha256=WZfdgLgDQOyGY-bb_zYwvz_dL47nl7rOjY4TSfOakDg,1072
+PokerBots-2.0.5.dist-info/METADATA,sha256=ExrXFeageoAuIfUZikV6PC3oEHvv3lFZ2JyYYvU7GwI,3781
+PokerBots-2.0.5.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+PokerBots-2.0.5.dist-info/top_level.txt,sha256=QE3UUv2O10Jp2rzJ6-F6INpARHKErToPLBJNLUMwcAk,10
+PokerBots-2.0.5.dist-info/RECORD,,
