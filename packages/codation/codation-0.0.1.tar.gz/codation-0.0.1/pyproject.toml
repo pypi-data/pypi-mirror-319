@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codation"
+version = "0.0.1"
+description = "A jinja2 framework for project templating"
+readme = "README.md"
+authors = [
+    {name = "Victor Mattos", email = "5757883+vicmattos@users.noreply.github.com"},
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/vicmattos/codation"
+Issues = "https://github.com/vicmattos/codation/issues"
