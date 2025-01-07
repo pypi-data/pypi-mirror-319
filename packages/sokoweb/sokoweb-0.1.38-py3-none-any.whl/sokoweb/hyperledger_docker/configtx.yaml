@@ -1,0 +1,110 @@
+Organizations:
+    - &OrdererOrg
+        Name: OrdererMSP
+        ID: OrdererMSP
+        MSPDir: crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/msp
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('OrdererMSP.member')"
+            Writers:
+                Type: Signature
+                Rule: "OR('OrdererMSP.member')"
+            Admins:
+                Type: Signature
+                Rule: "OR('OrdererMSP.admin')"
+    - &Org1
+        Name: Org1MSP
+        ID: Org1MSP
+        MSPDir: crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('Org1MSP.member')"
+            Writers:
+                Type: Signature
+                Rule: "OR('Org1MSP.member')"
+            Admins:
+                Type: Signature
+                Rule: "OR('Org1MSP.admin')"
+
+Orderer: &OrdererDefaults
+    OrdererType: solo
+    Addresses:
+        - orderer.example.com:7050
+    Organizations:
+        - *OrdererOrg
+    Policies:
+        Readers:
+            Type: Signature
+            Rule: "OR('OrdererMSP.member')"
+        Writers:
+            Type: Signature
+            Rule: "OR('OrdererMSP.member')"
+        Admins:
+            Type: Signature
+            Rule: "OR('OrdererMSP.admin')"
+        BlockValidation:
+            Type: Signature
+            Rule: "OR('OrdererMSP.member')"
+
+Channel: &ChannelDefaults
+    Policies:
+        Readers:
+            Type: Signature
+            Rule: "OR('Org1MSP.member','OrdererMSP.member')"
+        Writers:
+            Type: Signature
+            Rule: "OR('Org1MSP.member','OrdererMSP.member')"
+        Admins:
+            Type: Signature
+            Rule: "OR('Org1MSP.admin','OrdererMSP.admin')"
+
+################################################################################
+#
+#   APPLICATION DEFAULTS SECTION
+#
+#   This section defines the default settings for the Application section.
+#   These defaults will be used in the OneOrgChannel profile.
+#
+################################################################################
+
+Application: &ApplicationDefaults
+    Organizations: []
+    Policies:
+        Readers:
+            Type: Signature
+            Rule: "OR('Org1MSP.member')"
+        Writers:
+            Type: Signature
+            Rule: "OR('Org1MSP.member')"
+        Admins:
+            Type: Signature
+            Rule: "OR('Org1MSP.admin')"
+        # Optional endorsement policies
+        LifecycleEndorsement:
+            Type: Signature
+            Rule: "OR('Org1MSP.admin')"
+        Endorsement:
+            Type: Signature
+            Rule: "OR('Org1MSP.peer')"
+
+Profiles:
+    OneOrgOrdererGenesis:
+        <<: *ChannelDefaults
+        Orderer:
+            <<: *OrdererDefaults
+            Organizations:
+                - *OrdererOrg
+        Consortiums:
+            SampleConsortium:
+                Organizations:
+                    - *Org1
+    
+    OneOrgChannel:
+        Consortium: SampleConsortium
+        <<: *ChannelDefaults
+        Application:
+            <<: *ApplicationDefaults    # Reference the ApplicationDefaults anchor
+            Organizations:
+                - *Org1
