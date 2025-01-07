@@ -1,0 +1,176 @@
+Additional Functionality
+========================
+
+In addition to the ``cq-studio`` hot-reloading server, the package provides
+a number of classes and functions for use in your ``CadQuery`` Python code.
+Using ``from cq_studio import *`` in your code file(s) will make all of
+the following available.
+
+Rendering Colours
+-----------------
+
+You can control the colour which is used to render each object in the viewer
+by setting an attribute ``colour`` on the object that is returned from your
+``main()`` method, or on any of its parent objects.  The attribute on a child
+object overrides the value from any parent objects.  The value assigned is
+an RGB triplet of floats in the range 0.0 - 1.0.  e.g.::
+
+    def main():
+        wp = cq.Workplane("XY")
+        objects = {}
+        objects["plane"] = (
+            wp.box(100, 100, 1.0, centered=center_wd)
+        )
+        objects["sphere"] = (
+            wp.sphere(20.0, centered=center_wd)
+            .translate((0, 0, 1.0))
+        )
+        objects["plane"].colour = (1.0, 0.2, 0)  # orange
+        objects["sphere"].colour = (0.4, 0.4, 1.0)  # mauve
+
+        return objects
+
+If you don't care about the specific colours used, but you just want each object
+to have a different colour, use the ``colour()`` function instead of specifying
+your own RGB triple::
+
+    def main():
+        wp = cq.Workplane("XY")
+        objects = {}
+        objects["plane"] = (
+            wp.box(100, 100, 1.0, centered=center_wd)
+        )
+        objects["sphere"] = (
+            wp.sphere(20.0, centered=center_wd)
+            .translate((0, 0, 1.0))
+        )
+        objects["plane"].colour = colour()
+        objects["sphere"].colour = colour()
+
+        return objects
+
+``cq-studio`` will assign the next colour from a list of several dozen colours
+that have different-enough appearances to be useful.  If more objects are
+provided than there are different colours in this generator, the colours will
+repeat.
+
+When this is used, the colours of individual objects will change on reload when
+you change the number of objects returned, or the order in which they are
+generated.
+
+The two above methods can be mixed, if you want to set specific colours for
+some objects but don't care about others, as long as they're different from
+each other.
+
+Note that both the function and the attribute name can also be supplied as
+``color``, for our poor ``u``-deprived American friends.
+
+Symbolic Constants
+------------------
+
+``cq-studio`` provides some handy symbolic constants to make ``CadQuery`` code
+more readable.
+
+Centering
+#########
+
+``CadQuery`` workplane methods creating solids support a ``centered`` parameter.
+When ``True``, the created object is centered (on all three axes) on the origin.
+When ``False``, the object starts at the origin and projects (on all three axes)
+in the positive direction.
+
+Specifying centering on only specified axes is possible, but involves using
+a boolean triple.  ``cq-studio`` provides the following equivalent constants
+with memorable names:
+
+* ``center_w`` - width only
+* ``center_d`` - depth only
+* ``center_h`` - height only
+* ``center_wd`` - width and depth
+* ``center_wh`` - width and height
+* ``center_dh`` - depth and height
+
+For example::
+
+    # create the object centered on both horizontal axes, but projecting
+    # upward from the origin on the vertical axis
+    sphere = wp.sphere(<radius>, centered=center_wd)
+
+I find myself using ``center_wd`` and ``center_w`` regularly.
+
+Size / CylinderSize Classes
+---------------------------
+
+``Size`` class: a fixed-size 2- or 3-tuple of floats intended to represent
+``(width, depth)`` or ``(width, depth, height)`` volumes.
+
+``CylinderSize`` class: a fixed-size 2-tuple for radius and height of a
+cylinder.
+
+These can then be used with CadQuery's varous methods for creating objects;
+unpacking them as arguments passed to ``Workplane.box()``, ``Workplane.cylinder()``,
+and others passes the values in the correct order for CadQuery operations.
+
+e.g.::
+
+    holder_size = Size(20.0, 50.0, 5.0)
+    holder = wp.box(*holder_size, centered=center_wd)
+
+    tube_size = CylinderSize(10.0, 50.0)  # radius first, unlike CadQuery's cylinder()
+    tube = wp.cylinder(*tube_size, centered=center_wd)
+    # cut hole
+    holder = (
+        holder
+        .faces(">Z")
+        .workplane(centerOption="CenterOfMass")
+        .hole(tube_size.d)  # diameter generated automatically from radius
+    )
+
+``Size`` provides access to its members via ``.w``, ``.d``, and ``.h`` attributes.
+
+``CylinderSize`` provides access to its members via ``.r`` for radius and ``.h``
+for height, as well as ``.d`` for the calculated diameter of the cylinder.
+
+Trigonometric Classes and Functions
+-----------------------------------
+
+Unlike Python's ``math`` module, which uses radians, angles with these functions
+are in degrees, as that is what ``CadQuery`` uses.
+
+Coords
+######
+
+``Coords`` class: a fixed-size 2- or 3-tuple of floats intended to represent ``(x, y)``
+or ``(x, y, z)`` coordinates.  The individual elements may be access via the
+``.x``, ``.y``, and ``.z`` attributes.
+
+Sagitta functions
+#################
+
+Python's ``math`` module contains basic trigonometric functions, but not
+sagitta and related ones.  sagitta is the height of an arc given a radius and
+the length of the chord from one edge of the arc to the midpoint of the chord
+where the neight is measured.
+
+These functions are useful in designing objects, and are heavily used in
+architecture and related fields.
+
+* ``sagitta(radius: float, chord_length: float) -> float``
+* ``chord_length_from_sagitta_and_radius(sagitta: float, radius: float) -> float``
+* ``radius_from_sagitta_and_chord_length(sagitta: float, chord_length: float) -> float``
+* ``sagitta_from_radius_and_arc_length(radius: float, arc_length: float) -> float``
+* ``angle_from_radius_and_chord_length(radius: float, chord_length: float) -> float`` -
+  calculates the angle of a circle subtended by an arc defined by its radius and the
+  length of the half-chord
+
+Vector
+######
+
+* ``vector(angle: float, magnitude: float, start: Coords = Coords(0, 0)) -> Coords`` -
+  calculate the cartesian coordiates of the destination of a vector or set of
+  polar coordinates, optionally starting from an arbitrary set of coordinates.
+
+Unit Conversion
+---------------
+
+The functions ``inches_to_mm()`` and ``mm_to_inches()`` do the obvious.
