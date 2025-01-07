@@ -1,0 +1,16 @@
+mecher_bs_api_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecher_bs_api_client/browserstack_api_init.py,sha256=BFbhovKcHlDlljUUE6Z-dgv-nekbdLc-Ot9Zbn9pPmg,734
+mecher_bs_api_client/utils.py,sha256=2AB98UWHLgdEWSAjAdeMNlvZQ11TTjf3Fqa4MgAv2aM,1368
+mecher_bs_api_client/blocks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecher_bs_api_client/blocks/artefact_blocks.py,sha256=h-5xTm6lrVnMMV16A0rqzflqZcNYwo9LFa4aMzSOYUU,2346
+mecher_bs_api_client/blocks/blocks_aggregator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecher_bs_api_client/blocks/blocks_aggregator/_blocks.py,sha256=LSisd96fYAZy7UyX-uxwNNM4ve9HHUSAMQ4FwzYiqr8,250
+mecher_bs_api_client/blocks/blocks_aggregator/blocks.py,sha256=WQW9T-oprg7g28Ee8U6W6TAMCnngL6LSsF4c1AHnriU,428
+mecher_bs_api_client/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecher_bs_api_client/endpoints/browserstack_api.py,sha256=TvJHVVBTjlCRGMTsvgxJsGrTohhT9Vq60NDS7Ue0-dU,255
+mecher_bs_api_client/endpoints/app_automate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecher_bs_api_client/endpoints/app_automate/app_automate.py,sha256=etjoiOjxDCK5aKoph6Z1sFOGlCFQdarGDUFYytZ4wbM,1960
+mecher_bs_api_client-0.0.22.dist-info/METADATA,sha256=GuHZREEvJfaALiubQshGXHAxK5nNUpze8q0j2RjP0pY,442
+mecher_bs_api_client-0.0.22.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+mecher_bs_api_client-0.0.22.dist-info/top_level.txt,sha256=qaLIVCOs0ktu5cbPVfCZJP8QIMtbT23D8QDRjAYoc40,21
+mecher_bs_api_client-0.0.22.dist-info/RECORD,,
