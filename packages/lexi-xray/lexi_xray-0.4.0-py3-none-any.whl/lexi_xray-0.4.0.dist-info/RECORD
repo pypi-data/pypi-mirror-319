@@ -1,0 +1,10 @@
+lexi_xray/__init__.py,sha256=YyKto4HOfx0bb7MSFMG2zpdy_n6CcTy2zmzC6OpLevw,1960
+lexi_xray/__version__.py,sha256=D05t7WmFhUPLP7HOW7Avy3bOgLY7gVMDSzgVjSTm0vo,291
+lexi_xray/lexi.py,sha256=RuL8g9f0jeIS7E8riqHqHq0tQ1QnGEBgJk7EJvl1ZsI,99663
+lexi_xray/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lexi_xray/tests/test_lexi.py,sha256=VObI0UFxEmlhOJiD1krI-HCf3P0xFquWX2t5ywEzZx8,14559
+lexi_xray-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+lexi_xray-0.4.0.dist-info/METADATA,sha256=qvlgKRxFqXYcaqNseKFcoQRfx-N9HnAEc55GPusWSiI,8609
+lexi_xray-0.4.0.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+lexi_xray-0.4.0.dist-info/top_level.txt,sha256=IA4aydsI12T6TBbWD91A-yaOcIzlUrF6geLeE_s4yG0,10
+lexi_xray-0.4.0.dist-info/RECORD,,
