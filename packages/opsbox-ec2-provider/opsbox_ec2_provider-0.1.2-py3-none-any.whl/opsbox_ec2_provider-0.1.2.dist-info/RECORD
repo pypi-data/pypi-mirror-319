@@ -1,0 +1,10 @@
+ec2_provider/ec2_provider.py,sha256=hlHA3aw6dzn6B7mIhSQ3Hmpgi4-uy3HDjANvFSOFC04,12876
+ec2_provider/manifest.toml,sha256=AXpzedC7pcIcSVuhL_Ac9bPRJXyJ9xkfRLrQQTMEnNk,109
+ec2_provider/string_to_dict.py,sha256=bIXZRT_2hsTVAP-Up5Ns-8cZxHwccPj0qpq50L6CaWI,472
+ec2_provider/test_ec2_provider.py,sha256=ljo7piWig2SRwjz8njF0JSUDWrjYktRJ-I3aDx3Y2W4,4280
+opsbox_ec2_provider-0.1.2.dist-info/LICENCE.txt,sha256=-YEY41LAwXsb0Er-5vJY1cKRFr9ea3T6CigUirNyUZo,17097
+opsbox_ec2_provider-0.1.2.dist-info/METADATA,sha256=xLU4IE68Ep2O57Tn38SIG6BMXIEsNdupvgb0ey6_a2I,339
+opsbox_ec2_provider-0.1.2.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+opsbox_ec2_provider-0.1.2.dist-info/entry_points.txt,sha256=voHj4-UamF0NP8Nay-HAOr0PbEoXQjdraCa5wftQJt8,77
+opsbox_ec2_provider-0.1.2.dist-info/top_level.txt,sha256=_gOuZ8K02n-ngA4A2nOMcoFjc_7AVM7N93K-1Dca4fA,13
+opsbox_ec2_provider-0.1.2.dist-info/RECORD,,
