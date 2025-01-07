@@ -1,0 +1,2 @@
+[console_scripts]
+evilredirex = evilredirex.main:main
