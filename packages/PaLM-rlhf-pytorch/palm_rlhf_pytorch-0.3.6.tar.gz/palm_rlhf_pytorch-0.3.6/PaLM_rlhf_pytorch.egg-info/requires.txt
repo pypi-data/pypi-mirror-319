@@ -1,0 +1,7 @@
+accelerate
+adam-atan2-pytorch
+beartype
+einops>=0.8
+lion-pytorch
+torch>=2.2
+tqdm
