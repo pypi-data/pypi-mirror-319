@@ -1,0 +1,2 @@
+[console_scripts]
+qemscan_bse_to_zarr3 = anu_ctlab_qemscan_bse_to_zarr3:main
