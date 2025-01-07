@@ -1,0 +1,231 @@
+# Opsbox
+
+**AI-Powered Infrastructure Management**
+
+Welcome to Opsbox, the open-source platform that adds a dash of AI magic to your infrastructure management. With our flexible plugin system and policy-as-code approach using Rego, managing your infrastructure has never been this enjoyable!
+
+## Features
+
+- 🎛️ **Plugin System**: Customize and extend functionality with ease.
+- 📝 **Policy-as-Code with Rego**: Define compliance checks and policies efficiently.
+- 🤖 **AI Assistance**: Leverage AI models to analyze and process your infrastructure data.
+- 💻 **Command-Line Interface**: An interactive CLI.
+- 📚 **Documentation Support**: Generate and view documentation effortlessly using mkdocs.
+
+
+## Installing
+
+You have two options for installing the project:
+
+- **Manual Install**: Install the program locally using Python and UV.
+- **Docker Container**: Install the program using a Docker dev container, which includes OPA for policy enforcement.
+
+### Manual Install
+
+#### Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- [Python](https://www.python.org/downloads/) == 3.11
+- [UV](https://docs.astral.sh/uv/) for dependency management
+
+**Installing Python:**
+
+Visit the [official Python website](https://www.python.org/downloads/) and download the latest version of Python for your operating system.
+
+**Installing UV:**
+
+UV can be installed in various ways. The recommended method is to use the installer script:
+
+
+*For Linux/Mac*
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+*For Windows*
+```powershell
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+### Clone the Project from GitHub
+
+First, clone the repository to get a local copy of the project:
+
+[OpsBox GitHub Repository](https://github.com/sudoersllc/OpsBox.git)
+
+### Install Dependencies
+
+Navigate to the project directory. Use UV to sync the project dependencies:
+
+```bash
+uv sync
+```
+
+### Using Rego Plugins
+Open Policy Agent (OPA) is an open-source policy engine that enables organizations to implement policy as code across diverse environments. Its policy language, Rego, allows users to define rules that dictate system and application behavior.
+
+We use rego code to gather details about connected systems, alongside an Open Policy Agent (OPA) server, then format it for consumption by a language model.
+
+#### Create a OPA Policy docker image
+To run OpsBox with rego plugins, you'll need an OPA server. This is because OpsBox uses OPA to enforce policies on all resources that are being managed.
+
+if you don't have OPA installed on your machine, or you dont have a running OPA instance, you can create a docker image for OPA.
+
+Create a dockerfile and add the following code:
+```docker
+    # Use the official OPA image
+    FROM openpolicyagent/opa:latest
+
+    # Expose OPA's default port
+    EXPOSE 8181
+
+    # Run OPA with the specified policy file
+    CMD ["run", "--server", "--addr", "0.0.0.0:8181"]
+```
+
+Navigate to the directory and Build the Docker image:
+```bash
+    docker build -t name_of_file .
+```
+or you can also follow the offical OPA documentation to create the engine: [OPA Documentation](https://www.openpolicyagent.org/docs/latest/)
+
+### Using supplied `docker-compose.yml`
+This project supports development inside a Docker container for consistent environments across different machines.
+
+While our docker images are stored in the `.devcontainer` folder, they can be used to build consistent environments.
+
+### Prerequisites
+- [Docker](https://docs.docker.com/get-docker/) >= 20.10.7 for containers
+
+### Building the Docker Image
+
+The provided `Dockerfile` and `docker-compose.yml` files facilitate building a Docker image with all necessary dependencies, including Python, UV, and setting up OPA for rego plugins.
+
+To build and start the container, run:
+
+```bash
+docker-compose up --build
+```
+
+This command builds the Docker image for the application and starts an OPA service in another container *(default port is 8181)*. The `docker-compose.yml` file is configured to mount the project directory inside the container for live code updates.
+
+Now, you can execute commands to the composed service through using traditional docker compose commands.
+
+
+
+## Running OpsBox
+To run Opsbox you just execute the main file with the desired parameters.
+
+- **main.py**: this is the main entry point for the OpsBox main.
+
+``` bash
+uv run main.py --modules stray_ebs-cli_out --aws_access_key_id "AWS_access_key_id" --aws_secret_access_key "AWS_secrett_key"  --aws_region "AWS_region"
+```
+
+Make sure you have any of the prerequisite packages for the plugins you want to use!
+
+### Configuration
+
+#### Modules
+Opsbox uses a series of modules specified at runtime to analyze different environments.
+These modules *have their own* arguments and required settings that will be looked for upon startup, and *must* specified as a pipeline in the following format:
+
+```
+input_1,input_2-assistant_1-assistant_2-output_1,output_2
+```
+
+Where:
+
+    - The first arguments are the input plugins we want to use, seperated with a comma
+    - The middle arguments are the assistants we want to use, seperated by a hyphen
+    - The last arguments are the outputs we want to use, sepereated by a comma
+
+For instance, if we wanted to check for stray EBS volumes and output the results to the main after running through a cost assistant, we would need to use the following pipeline:
+
+```
+stray_ebs-cost_savings-main_out
+```
+
+Of course, the assistant and the module the check uses will require additional parameters, such as an OpenAI key. Keep reading to figure out how to set these up.
+
+#### Open Policy Agent (Rego Only)
+Opsbox uses OPA to upload and execute rego checks.
+
+Open Policy Agent (OPA) is an open-source policy engine that allows organizations to enforce policies as code across various environments. Its policy language, Rego, enables users to define rules that govern the behavior of systems and applications.
+
+We use rego check plugins as ways to get information on various systems and see how they function
+
+Before running any rego-based input plugins, ensure you have access to an OPA (Open Policy Agent) instance. For local testing, you can run a test OPA instance as follows:
+
+You can run a local test OPA instance by following the steps in [installation](installation.md) and running the following command:
+
+```bash
+    docker run -d -p 8181:8181 opa-policy
+```
+
+
+To do this, two required configuration parameters are needed:
+
+- `opa_upload_url` : URL to upload rego policies to
+- `opa_apply_url` : URL to use to execute rego policies
+
+If you created a docker container in the last step, you should be able to access the local OPA
+
+#### Specifying configuration
+Configuration can be specified with each required item being spoecified in a credential file located in the home directory, a command-line argument, an enviornment variable, or in a json configuration file.
+
+##### Configration File
+You can specify most or all of the arguments as a json dictionary stored in `~/.opsbox.json`, similar to the AWS main.
+
+##### Custom Configuration File Path
+To use a configuration file in another part, simply use the `--config <filepath>` argument.
+
+##### Command-line Arguments
+You can specify all the arguments as double-dashed arguments after the `--modules` argument.
+
+##### Resolution order
+Configuration will be looked for based on what modules are specified. Each argument will be resolved in the following order:
+
+1. If `--config` is specified, look in that file first.
+2. Then, if it is in the home configuration file, load that.
+2. Then, if it is in the command line arguments, load that.
+3. Finally, if it is nowhere else, enviroment variables are used.
+
+
+You can optionally use the configuration options above instead of command line arguments.
+## Configuration
+
+Opsbox is flexible when it comes to configuration. You can provide options via:
+
+- **Command-Line Arguments**
+- **Configuration Files**
+- **Environment Variables**
+
+### Using a Configuration File
+
+Create a file named `.opsbox_conf.json` in your home directory:
+
+```json
+{
+  "aws_access_key_id": "YOUR_ACCESS_KEY_ID",
+  "aws_secret_access_key": "YOUR_SECRET_ACCESS_KEY",
+  "aws_region": "YOUR_AWS_REGION",
+  "opa_upload_url": "http://your-opa-upload-url",
+  "opa_apply_url": "http://your-opa-apply-url"
+}
+```
+
+### Command-Line Arguments
+
+You can also provide configuration options directly through the command line:
+
+```bash
+uv run main.py --modules example_module --aws_access_key_id YOUR_ACCESS_KEY_ID --aws_secret_access_key YOUR_SECRET_ACCESS_KEY --aws_region YOUR_AWS_REGION --opa_upload_url http://your-opa-upload-url --opa_apply_url http://your-opa-apply-url
+```
+
+
+## Let's Get Started!
+
+Now that you're all set, it's time to unleash the power of AI on your infrastructure. Happy automating!
