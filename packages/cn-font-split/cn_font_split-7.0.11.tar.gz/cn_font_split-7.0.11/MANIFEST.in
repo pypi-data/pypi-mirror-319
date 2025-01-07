@@ -1,0 +1,1 @@
+recursive-include cn_font_split/gen *.ps1 *.sh
