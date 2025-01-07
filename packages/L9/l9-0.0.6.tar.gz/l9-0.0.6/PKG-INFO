@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: L9
+Version: 0.0.6
+Summary: L9 Module
+Author: Ehrakis
+Author-email: clement.gd03@gmail.com
+Project-URL: GitHub, https://github.com/ehrakis/L9
+Keywords: python,L9
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Other Audience
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+
+A package that allows you to display the L9 in the console, advertise the L9 services and transform a message into an L9 message.
