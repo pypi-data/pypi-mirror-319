@@ -1,0 +1,14 @@
+1. pip install flask_wechat_share
+2.
+
+from flask_wechat_share import WeChatShare
+
+WeChatShare(app)
+
+3. templates/demo.html
+
+{{ wechat_share_ajax(title="title", img='http://www.gzw.net/static/logo/wxlogo.jpg') }}
+
+or
+
+{{ wechat_share(title="title", img='http://www.gzw.net/static/logo/wxlogo.jpg') }}
