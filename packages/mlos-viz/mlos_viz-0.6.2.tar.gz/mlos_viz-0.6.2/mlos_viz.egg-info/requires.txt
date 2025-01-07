@@ -1,0 +1,13 @@
+mlos-bench==0.6.2
+dabl>=0.3.2
+matplotlib
+seaborn>=0.12.2
+
+[full]
+
+[full-tests]
+pytest
+pytest-forked
+pytest-xdist
+pytest-cov
+pytest-local-badge
