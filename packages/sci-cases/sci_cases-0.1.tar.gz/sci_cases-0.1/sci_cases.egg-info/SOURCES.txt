@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sci_cases.egg-info/PKG-INFO
+sci_cases.egg-info/SOURCES.txt
+sci_cases.egg-info/dependency_links.txt
+sci_cases.egg-info/requires.txt
+sci_cases.egg-info/top_level.txt
+tests/__init__.py
+tests/test_case_data.py
