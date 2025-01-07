@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PYPGLM
+Version: 0.99.0
+Summary: This package is designed to facilitate the modeling of probabilistic, graphical, logical systems.
+Author: Salma Bayoumi, De Landtsheer Sebastien
+Author-email: salma.ismail.hamed@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: networkx==2.8.4
+Requires-Dist: numpy==1.23.5
+Requires-Dist: pandas==1.5.3
+Requires-Dist: emoji==2.5.0
+Requires-Dist: pytest==7.1.2
+Requires-Dist: pytest-cov==3.0.0
+Requires-Dist: openpyxl==3.1.2
+Requires-Dist: scipy===1.11.3
+Requires-Dist: matplotlib==3.8.1
+Requires-Dist: gaft==0.5.7
+Requires-Dist: seaborn==0.13.0rc0
+Requires-Dist: joblib~=1.3.2
+Requires-Dist: scikit-learn~=1.4.0

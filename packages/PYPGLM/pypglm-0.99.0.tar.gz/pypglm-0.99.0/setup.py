@@ -1,0 +1,25 @@
+from setuptools import setup
+
+setup(
+   name='PYPGLM',
+   version='0.99.0',
+   description='This package is designed to facilitate the modeling of probabilistic, graphical, logical systems.',
+   author='Salma Bayoumi, De Landtsheer Sebastien',
+   author_email='salma.ismail.hamed@gmail.com',
+   packages=['PYPGLM'], 
+   install_requires=[
+   "networkx==2.8.4",
+    "numpy==1.23.5",
+    "pandas==1.5.3",
+    "emoji==2.5.0",
+    "pytest==7.1.2",
+    "pytest-cov==3.0.0",
+    "openpyxl==3.1.2",
+    "scipy===1.11.3",
+    "matplotlib==3.8.1",
+    "gaft==0.5.7",
+    "seaborn==0.13.0rc0",
+    "joblib~=1.3.2",
+    "scikit-learn~=1.4.0"
+    ], 
+)
