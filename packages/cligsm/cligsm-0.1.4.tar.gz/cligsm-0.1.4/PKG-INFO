@@ -1,0 +1,191 @@
+Metadata-Version: 2.4
+Name: cligsm
+Version: 0.1.4
+Summary: A user-friendly CLI alternative to LinuxGSM for game server management
+Project-URL: Homepage, https://github.com/andrewwade/pygsm
+Project-URL: Issues, https://github.com/andrewwade/pygsm/issues
+Author: Andrew Wade
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: click>=8.0.0
+Requires-Dist: psutil>=5.9.0
+Requires-Dist: requests>=2.28.0
+Requires-Dist: rich>=10.0.0
+Provides-Extra: all
+Requires-Dist: build>=0.10.0; extra == 'all'
+Requires-Dist: bump2version>=1.0.0; extra == 'all'
+Requires-Dist: click>=8.0.0; extra == 'all'
+Requires-Dist: psutil>=5.9.0; extra == 'all'
+Requires-Dist: pytest>=7.0.0; extra == 'all'
+Requires-Dist: requests>=2.28.0; extra == 'all'
+Requires-Dist: rich>=10.0.0; extra == 'all'
+Requires-Dist: twine>=4.0.0; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: build>=0.10.0; extra == 'dev'
+Requires-Dist: bump2version>=1.0.0; extra == 'dev'
+Requires-Dist: pytest>=7.0.0; extra == 'dev'
+Requires-Dist: twine>=4.0.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# CLIGSM
+
+CLIGSM is a user-friendly CLI alternative to LinuxGSM for game server management. It provides an intuitive interface for managing game servers without requiring extensive command-line knowledge.
+
+## Installation
+
+There are several ways to install CLIGSM:
+
+### Using pipx (Recommended)
+```bash
+# Install pipx if you haven't already
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+
+# Reload your shell's PATH (or restart your terminal)
+source ~/.bashrc  # or source ~/.profile
+
+# Install CLIGSM with all dependencies
+pipx uninstall cligsm  # Remove any existing installation
+pipx install cligsm --include-deps
+
+# Verify installation
+cligsm --version
+```
+
+### Using pip
+```bash
+# Install globally with all dependencies
+pip3 install cligsm[all]
+
+# Or install for current user only
+pip3 install --user cligsm[all]
+```
+
+### System Dependencies (Linux)
+
+On Linux systems, you'll need to install some additional dependencies for SteamCMD:
+
+```bash
+# Enable 32-bit architecture
+sudo dpkg --add-architecture i386
+
+# Update package lists
+sudo apt-get update
+
+# Install required packages
+sudo apt-get install -y lib32gcc-s1 lib32stdc++6 lib32gcc1 libsdl2-2.0-0:i386 libtinfo5:i386
+```
+
+### Running as Root
+
+If you're running CLIGSM as root (not recommended for production), you'll need to install it globally:
+
+```bash
+# Install pipx globally for root
+sudo pip3 install pipx
+sudo pipx ensurepath
+
+# Install CLIGSM
+sudo pipx install cligsm --include-deps
+
+# Or using pip directly
+sudo pip3 install cligsm[all]
+```
+
+### Troubleshooting Installation
+
+If you get "command not found" after installation:
+
+1. Make sure your PATH includes Python's bin directory:
+```bash
+echo $PATH
+```
+
+2. Find where the package is installed:
+```bash
+pip3 show cligsm
+```
+
+3. Add the bin directory to your PATH if needed:
+```bash
+export PATH="$HOME/.local/bin:$PATH"  # Add to your ~/.bashrc or ~/.profile
+```
+
+4. If you get dependency errors:
+```bash
+# Try reinstalling with all dependencies
+pipx uninstall cligsm
+pipx install cligsm --include-deps
+
+# Or install missing dependencies manually
+pip3 install requests psutil rich click
+```
+
+5. If SteamCMD fails to install:
+```bash
+# Make sure you have all system dependencies
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install -y lib32gcc-s1 lib32stdc++6 lib32gcc1 libsdl2-2.0-0:i386 libtinfo5:i386
+```
+
+## Features
+
+- Easy-to-use command-line interface
+- Game server management without complex CLI knowledge
+- Support for popular game servers
+- Simplified installation and configuration process
+
+## Usage
+
+```bash
+# Basic command structure
+cligsm [command] [options]
+
+# Arma 3 Server Management
+cligsm arma3 create myserver  # Create a new Arma 3 server
+cligsm arma3 start myserver   # Start the server
+cligsm arma3 stop myserver    # Stop the server
+cligsm arma3 status myserver  # Check server status
+
+# Mission Management
+cligsm arma3 mission install myserver path/to/mission.pbo
+cligsm arma3 mission list myserver
+
+# Backup Management
+cligsm arma3 backup create myserver
+cligsm arma3 backup list myserver
+```
+
+## Server Requirements
+
+### System Requirements
+- Python 3.8 or higher
+- Required Python packages:
+  - click
+  - rich
+  - psutil
+  - requests
+- For Linux systems:
+  - 32-bit architecture support
+  - Required system libraries (see System Dependencies section)
+
+### Arma 3 Server Requirements
+- Minimum 4GB RAM (8GB recommended)
+- 20GB free disk space
+- Linux, Windows, or macOS
+- SteamCMD (automatically installed)
+- Proper firewall configuration:
+  - Default ports: 2302-2305 TCP/UDP
+  - Steam query port: 27016 TCP/UDP
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
