@@ -1,0 +1,11 @@
+smart_importer/__init__.py,sha256=j4AGeQJ8S30c0obIFhd2Df906578cDuZ5ykyYx2gRR0,794
+smart_importer/detector.py,sha256=DFVBv01Q3P4aph6lI-ajdND9LWPJ3ZNuKGafzMDDDR8,2166
+smart_importer/entries.py,sha256=OcmSGg6taJLq_xHVizBKmckhuWfJlDWz7fPPqe9LGyc,1829
+smart_importer/hooks.py,sha256=J0BUuvhZ0LXK2bbRE6V1Izq5Q5rUZozdRTsManLGc0k,2478
+smart_importer/pipelines.py,sha256=aAT-LrT_ixaW1mkkmk2clvvHl5-NSS0Lacg3oGlQGeU,2710
+smart_importer/predictor.py,sha256=MU3Bc3T6ZIZtv54SWvYmZc4VC3QPKeuFCxOp4hS8vUQ,8866
+smart_importer-0.6.dist-info/LICENSE,sha256=bhatR828qtu-BDWCwXj6GXTWdCq8U3pv63e7ByjMQSY,1071
+smart_importer-0.6.dist-info/METADATA,sha256=6KCx7ZMK_3em5UQ5rR7ZUlHQuXrjZqmZmAc2g42rkg4,7042
+smart_importer-0.6.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+smart_importer-0.6.dist-info/top_level.txt,sha256=KapBmBEYfvrZAeBzzqJmnc-_SlX1nHunNpePT4iH2BU,15
+smart_importer-0.6.dist-info/RECORD,,
