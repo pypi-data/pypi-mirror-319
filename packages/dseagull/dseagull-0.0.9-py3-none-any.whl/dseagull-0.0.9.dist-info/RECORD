@@ -1,0 +1,13 @@
+dseagull/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dseagull/apps.py,sha256=WX854HayUMXtdhOlwaEbHOmuE7diV_rYUyRtNWtHtmE,1835
+dseagull/checks.py,sha256=OPTmtXTIByAav7XD3HV5g5wNjcLQETBdLGv11sa__v0,568
+dseagull/djwt.py,sha256=orsiXenOJ5v9YwFGeBKrMRYSgWijBs9A0UPfnm_zccc,1059
+dseagull/fields.py,sha256=qRwHa4FOltXtOkVErEmgq2vmQwSyT9-npQo5_sh_QpA,4210
+dseagull/logger.py,sha256=gkqFSYx_rw97cr9RYjVcxpIIWt2aGdjyAFUieuu9WC4,2952
+dseagull/pagination.py,sha256=SQHKUzUeuTQCVMdEw8yA7zpmVjMPNnycL0NDZqOl-P8,812
+dseagull/serializers.py,sha256=EaXyjrDQk1DoyTmZkwgNwi7XX_6VIYjQ__uW_Ah5Ljw,1453
+dseagull-0.0.9.dist-info/LICENSE,sha256=fcPErtygtFcDsEDKMdANIvKdow9Yfgq41zElN83nCVQ,1062
+dseagull-0.0.9.dist-info/METADATA,sha256=yksayj4lXgQ3m8uXBlg_j9TuzAPZPvGV3Nw0Mq3TyNA,2566
+dseagull-0.0.9.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+dseagull-0.0.9.dist-info/top_level.txt,sha256=TuJLODo3tyDvv7IUy9xdcMQHXVIAlYD3WVwoHb_L9zk,9
+dseagull-0.0.9.dist-info/RECORD,,
