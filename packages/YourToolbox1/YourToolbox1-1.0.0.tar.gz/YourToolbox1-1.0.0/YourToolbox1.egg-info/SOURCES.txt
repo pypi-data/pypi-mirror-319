@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+YourToolbox1.py
+setup.cfg
+setup.py
+YourToolbox1.egg-info/PKG-INFO
+YourToolbox1.egg-info/SOURCES.txt
+YourToolbox1.egg-info/dependency_links.txt
+YourToolbox1.egg-info/requires.txt
+YourToolbox1.egg-info/top_level.txt
