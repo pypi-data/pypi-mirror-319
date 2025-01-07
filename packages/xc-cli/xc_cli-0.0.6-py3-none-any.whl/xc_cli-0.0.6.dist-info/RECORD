@@ -1,0 +1,16 @@
+xc/__init__.py,sha256=QiwJHTn-VP-ginLHvkj4FJbWhCKd_undCoayqwMDL6Q,168
+xc/cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xc/cmd/docker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xc/cmd/docker/docker.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xc/cmd/proxy/__init__.py,sha256=BzjFEMsql7EBev9OLcoGYjVmZQnMklzIK9T0MryibKY,55
+xc/cmd/proxy/proxy.py,sha256=cHiE2D2HSW-IrAEW4W1EN1_ydN_iP_aG-3m5-ZfKE0c,3043
+xc/cmd/tmux/__init__.py,sha256=VwBV-dPESsgnFJUzgDlKcEreQCyFw14tzQgV6t1ZYRk,51
+xc/cmd/tmux/tmux.py,sha256=abyUz0_1fGD_B_zb58zGAvVCc04IKgshWbD9WtoX16w,9437
+xc/utils/__init__.py,sha256=IpoIE9NtUGbKhGrG0Vo_BrWyBflAf04-jp0RH1IgkIw,347
+xc/utils/util.py,sha256=PjaroTwLGS9EIXnBWaRNbNPo0IcFlOmK815jybBIw4w,6673
+xc/xc.py,sha256=LYmkAIdE6LwoVUbzKtfk4wRLx8h6rtqIv4M0WVSuc_k,1967
+xc_cli-0.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+xc_cli-0.0.6.dist-info/METADATA,sha256=cMjqfWZT_X41YNNpLBPGrUIngKrmurPE-xK3U4SZp3w,743
+xc_cli-0.0.6.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+xc_cli-0.0.6.dist-info/entry_points.txt,sha256=rgOiZQeBk5F9hmmFF7xduLGp3OuIEd7Mam2BWFidPl0,32
+xc_cli-0.0.6.dist-info/RECORD,,
