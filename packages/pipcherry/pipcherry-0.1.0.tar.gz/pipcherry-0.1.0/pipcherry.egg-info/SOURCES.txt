@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+pipcherry/__init__.py
+pipcherry/main.py
+pipcherry.egg-info/PKG-INFO
+pipcherry.egg-info/SOURCES.txt
+pipcherry.egg-info/dependency_links.txt
+pipcherry.egg-info/top_level.txt
