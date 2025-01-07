@@ -1,0 +1,9 @@
+from .container import uSwidContainer as uSwidContainer
+from _typeshed import Incomplete
+
+class uSwidFormatBase:
+    name: Incomplete
+    verbose: Incomplete
+    def __init__(self, name: str, verbose: bool = False) -> None: ...
+    def load(self, blob: bytes, path: str | None = None) -> uSwidContainer: ...
+    def save(self, container: uSwidContainer) -> bytes: ...
