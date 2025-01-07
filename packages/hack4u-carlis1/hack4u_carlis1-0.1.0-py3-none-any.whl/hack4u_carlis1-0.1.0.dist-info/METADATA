@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hack4u_carlis1
+Version: 0.1.0
+Summary: Una bibilioteca para consultar cursos de hack4u
+Home-page: https://hack4u.io
+Author: Marcelo Vasquez
+Description-Content-Type: text/markdown
+
+# Hack4U Academy Couerses Library
+ 
+Una bibilioteca Python para consultar cursos de la academia Hack4U
+
+## Cursos disponibles:
+
+- Introduccion a Linux [15 horas]
+- Personalizacion de Linux [3 horas]
+- Introduccion al Hacking [53 horas]
+
+## Instalacion 
+
+Instala el paquete usando  `pip3`:
+
+```python3
+pip3 install hack4u
+```
