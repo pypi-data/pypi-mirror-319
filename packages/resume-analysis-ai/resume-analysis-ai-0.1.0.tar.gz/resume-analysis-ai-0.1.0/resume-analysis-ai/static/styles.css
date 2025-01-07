@@ -1,0 +1,711 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles with Blurred Background Image and Parallax Effect */
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://source.unsplash.com/1600x900/?nature,city,sky');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+    animation: parallax 5s ease-in-out infinite;
+}
+
+/* Parallax Effect */
+@keyframes parallax {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+/* Container for UI */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow for better contrast */
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow-y: auto; /* Scrollable content */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    animation: fadeIn 1s ease-in;
+    border: 5px solid #f39e89; /* Adding a border */
+    border-radius: 15px; /* Keeping the border corners rounded */
+}
+/* Scroll Effect for Content Container */
+.container {
+    padding-right: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #f1f1f1;
+}
+
+/* Custom Scrollbar Styling */
+.container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 10px;
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #1490f5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+}
+
+/* Title Hover Effect */
+h1:hover {
+    color: #1d77fd;
+    transform: scale(1.1);
+    text-shadow: 0px 2px 5px rgba(59, 103, 244, 0.977);
+}
+
+.title-h1{
+    font-size: 4rem; /* Increased font size */
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Title Styles with Gradient, Hover Effect, and Animation for h2 */
+h3 {
+    text-align:end;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #3276f5;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: all 0.4s ease;
+    padding-left: 100px;
+}
+
+/* Title Hover Effect for h2 */
+h3:hover {
+    color: #ff0066;
+    transform: scale(1.1);
+}
+.title-h3{
+    font-size:3rem; 
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* General container styling */
+.resume-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 3px solid #fb0707;
+    border-radius: 10px;
+    box-shadow: 1 2px 5px rgba(21, 107, 226, 0.1);
+    max-width: 1000px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* Line-break content */
+.resume-details .section-content.line-break {
+    white-space: pre-wrap;
+}
+
+/* Bullet point lists */
+.resume-details .bullet-point-list {
+    padding-left: 20px;
+    list-style-type: disc;
+    margin-top: 5px;
+    color: #555;
+}
+
+.resume-details .bullet-point-list li {
+    margin-bottom: 5px;
+}
+
+/* Highlight links if present */
+.resume-details .section-content a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resume-details .section-content a:hover {
+    text-decoration: underline;
+}
+
+.section-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #4a90e2;
+    margin-bottom: 10px;
+    position: relative;
+    animation: fadeInLeft 1s ease;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+/* Add animation to the section title */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Section content styles */
+.section-content {
+    font-size: 1.4em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.line-break {
+    white-space: pre-wrap;
+    color: #555;
+}
+
+/* Bullet point list styling */
+.bullet-point-list {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.bullet-point-list li {
+    font-size: 1em;
+    line-height: 1.6;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    color: #444;
+}
+
+/* Title hover effect */
+.section-title:hover {
+    color: #e74c3c;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.5em;
+    }
+
+    .section-content {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .bullet-point-list li {
+        font-size: 1em;
+    }
+}
+
+/* Form Styles with Enhanced Design */
+form {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Labels */
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Enhanced Radio Button and Label Styles */
+label {
+    font-size: 1.5rem; /* Increased font size */
+    font-weight: bold;
+    color: #444;
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect on the label */
+label:hover {
+    color: #ff6a00;
+    transform: translateX(5px);
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-shadow: 0px 2px 5px rgba(247, 81, 39, 0.888);
+}
+
+
+/* Submit Button Styles with Hover and Gradient */
+input[type="submit"] {
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #618ff3, #2532e3);
+    color: rgb(239, 207, 207);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bolder;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(45deg, #36a1c5, #1b0ce7);
+    transform: translateY(-5px) scale(1.1);
+}
+
+/* Styling for the folder path text input */
+input[type="text"][name="folder_path"] {
+    padding: 12px 20px;
+    font-size: 1.3rem;
+    font-family: 'Arial', sans-serif;
+    color: #918b8b;
+    font-weight: bolder;
+    font-style: normal;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 100%; /* Make it span the entire width of the container */
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+/* Focus effect for the folder path input */
+input[type="text"][name="folder_path"]:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0 0 5px rgba(255, 126, 95, 0.5);
+    outline: none;
+}
+
+/* Placeholder styling */
+input[type="text"][name="folder_path"]::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+#folder_url {
+    width: 100%; /* Makes the input field take up the full width of its container */
+    padding: 10px; /* Adds padding inside the input field for better spacing */
+    margin: 5px 0; /* Adds margin on top and bottom for spacing */
+    border: 2px solid #ccc; /* Sets a light border around the input field */
+    border-radius: 4px; /* Rounds the corners of the input field */
+    font-size: 16px; /* Sets the font size of the text inside the input field */
+    box-sizing: border-box; /* Ensures padding and border are included in the total width */
+}
+
+#folder_url:focus {
+    border-color: #4A90E2; /* Changes the border color when the input is focused */
+    outline: none; /* Removes the default focus outline */
+}
+
+#folder_url::placeholder {
+    color: #888; /* Sets the color of the placeholder text */
+    font-style: italic; /* Makes the placeholder text italic */
+}
+
+/* Save Message Styling */
+#save-message {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #333;
+    background: linear-gradient(to right, #9fe9f3, #bfc6f1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    max-width: 800px;
+    margin: 20px auto;
+    animation: fadeIn 1s ease;
+}
+
+#save-message:hover {
+    transform: scale(1.03);
+    background: linear-gradient(to right, #d7f3f7, #c5c8e6);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Download Link Styling */
+#download-link {
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#download-link:hover {
+    color: #0056b3;
+    transform: translateY(-3px);
+    text-shadow: 0px 2px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Interaction Link Styling */
+#interact-link {
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ffffff;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(255, 126, 95, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+#interact-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 126, 95, 0.6);
+    background: linear-gradient(to right, #ff6a4d, #feb97b);
+    text-shadow: 0px 2px 5px rgba(246, 151, 49, 0.5);
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+
+    input[type="submit"] {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    form {
+        padding: 15px;
+    }
+}
+
+/* Container for the response */
+#response-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 4px solid #efc8be; /* Border color */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Response Heading Styles */
+#response-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 40px;
+
+}
+/* Response Output Styling */
+#response-output {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #444;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(68, 9, 231, 0.1);
+    margin-top: 20px;
+    line-height: 1.6;
+    border: 2px solid #413f3f;
+    border-radius: 8px;
+    text-align: justify;
+    max-width: 90%;
+    margin: 30px auto;
+    transition: all 0.3s ease;
+    word-wrap: break-word; /* Breaks long words to avoid overflow */
+    overflow-wrap: break-word; /* Handles unbreakable text gracefully */
+    word-break: break-word; /* Ensures compatibility with different browsers */
+    overflow-x: hidden; /* Prevents horizontal overflow */
+    box-sizing: border-box; /* Includes padding in width calculations */
+}
+
+
+/* Hover Effect for Response Output */
+#response-output:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Scrollbar Customization for Output */
+#response-output::-webkit-scrollbar {
+    width: 8px;
+}
+
+#response-output::-webkit-scrollbar-thumb {
+    background-color: #ff7e5f;
+    border-radius: 10px;
+}
+#response-output::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    #response-heading {
+        font-size: 2rem;
+    }
+
+    #response-output {
+        font-size: 1.2rem;
+        max-width: 90%;
+    }
+}
+
+/* Label Styles */
+#prompt-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Label Hover Effect */
+#prompt-label:hover {
+    color: #ff7e5f;
+    transform: translateX(5px);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Text Input Styling */
+#prompt {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    height: 65px;
+}
+
+/* Text Input Focus Effect */
+#prompt:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0 0 8px rgba(255, 126, 95, 0.5);
+    transform: scale(1.05);
+}
+
+/* Hover Effect on Text Input */
+#prompt:hover {
+    border-color: #ff7e5f;
+    text-shadow: 0px 2px 5px rgba(248, 148, 26, 0.902);
+}
+
+/* Submit Button Styles */
+#submit-btn {
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #36a1c5, #1b0ce7);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Submit Button Hover Effect */
+#submit-btn:hover {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus Effect on Submit Button */
+#submit-btn:focus {
+    outline: none;
+    box-shadow: 0 0 12px rgba(0, 123, 255, 0.8);
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    #prompt-label {
+        font-size: 1.2rem;
+    }
+
+    #prompt {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    #submit-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+/* Error message styling */
+.error-message {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24;           /* Dark red text */
+    border: 2px solid #f5c6cb; /* Red border */
+    padding: 15px;            /* Spacing inside the box */
+    border-radius: 5px;       /* Rounded corners */
+    margin: 10px 0;           /* Space above and below */
+    font-family: 'Arial', sans-serif; /* Font style */
+    font-size: 1.4em;          /* Larger text size */
+    text-align: center;       /* Center the text */
+    font-weight: bold;        /* Make the text bold */
+    line-height: 1.5;         /* Spacing between lines */
+    box-shadow: 3px 4px 6px rgba(237, 7, 7, 0.913); /* Shadow effect */
+    
+    /* Animation */
+    animation: fadeIn 0.5s ease-in-out; /* Fade-in animation */
+}
+
+/* Hover effect to improve user interaction */
+.error-message:hover {
+    background-color: #f5c6cb; /* Change background on hover */
+    color: #f51909;             /* Keep text color */
+    cursor: pointer;           /* Change cursor to pointer */
+    transform: scale(1.05);     /* Slight scale on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Styling for small text inside the error message */
+.error-message small {
+    font-size: 12px;
+    font-style: italic;
+    color: #f72525; /* Dark gray color */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .error-message {
+        font-size: 14px; /* Slightly smaller font size for mobile */
+        padding: 12px;   /* Adjust padding for smaller screens */
+    }
+}
+

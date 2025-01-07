@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Extractor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title-h1">Resume Extractor</h1>
+
+    <!-- File Upload Form -->
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="resume">Upload Resume (PDF):</label>
+            <input type="file" name="resume" class="form-control" ><br><br>
+            <label for="folder_url">Enter Folder Path (if you want to upload multiple resumes)</label>
+            <input type="text" id="folder_url" name="folder_url" placeholder="Enter folder URL/path"><br><br>
+            <input type="submit" value="Submit" class="btn btn-primary">
+        </div>
+    </form>
+
+    <!-- Error Message -->
+    {% if error %}
+        <div class="alert alert-danger mt-3">{{ error }}</div>
+    {% endif %}
+
+    <!-- Extracted Details Section -->
+    {% if details %}
+        <div class="resume-details mt-4">
+            <h3 class="title-h3">Extracted Resume Details</h3>
+
+            <!-- Name Section -->
+            <div class="section-title">Name:</div>
+            <div class="section-content">{{ details.Name }}</div>
+
+            <!-- Email Section -->
+            <div class="section-title">Email:</div>
+            <div class="section-content">{{ details.Email }}</div>
+
+            <!-- Phone Section -->
+            <div class="section-title">Phone:</div>
+            <div class="section-content">{{ details.Phone }}</div>
+
+            <!-- Education Section -->
+            <div class="section-title">Education:</div>
+            <div class="section-content">{{ details.Education }}</div>
+
+            <!-- Skills Section -->
+            <div class="section-title">Skills:</div>
+            <div class="section-content">{{ details.Skills }}</div>
+
+            <!-- Projects Section -->
+            <div class="section-title">Projects:</div>
+            <div class="section-content">
+                {% if 'Projects' in details %}
+                    {{ details.Projects }}
+                {% else %}
+                    <p>No projects found.</p>
+                {% endif %}
+            </div>
+
+            <!-- Experience Section -->
+            <div class="section-title">Experience:</div>
+            <div class="section-content">{{ details.Experience }}</div>
+
+            <div >
+                <a href="{{ url_for('interact') }}" id="interact-link" class="btn btn-secondary">Interact with Extracted Data</a>
+            </div>
+        </div>
+
+        <!-- CSV Download Link -->
+        {% if csv_filename %}
+            <div class="mt-3">
+                <p  id="save-message">Your data has been saved. You can <a href="{{ url_for('static', filename='uploads/' + csv_filename) }}" download>download the CSV file here</a>.</p>
+            </div>
+        {% endif %}
+        {% if csv_filename_mechanical %}
+            <div class="mt-3">
+                <p id="save-message">You can download the  <a href="{{ url_for('static', filename='uploads/' + csv_filename_mechanical) }}" download> Mechanical background CSV file here</a>.</p>
+            </div>
+        {% endif %}
+
+    {% endif %}
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

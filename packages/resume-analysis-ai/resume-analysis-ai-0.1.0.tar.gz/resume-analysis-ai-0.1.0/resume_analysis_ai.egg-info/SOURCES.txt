@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+resume-analysis-ai/__init__.py
+resume-analysis-ai/app6.py
+resume-analysis-ai/static/styles.css
+resume-analysis-ai/templates/index.html
+resume-analysis-ai/templates/interact.html
+resume_analysis_ai.egg-info/PKG-INFO
+resume_analysis_ai.egg-info/SOURCES.txt
+resume_analysis_ai.egg-info/dependency_links.txt
+resume_analysis_ai.egg-info/top_level.txt

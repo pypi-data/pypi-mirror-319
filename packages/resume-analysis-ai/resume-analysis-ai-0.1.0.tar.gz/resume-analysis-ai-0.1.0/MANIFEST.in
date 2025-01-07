@@ -1,0 +1,4 @@
+recursive-include resume-analysis/static *.css *.js
+recursive-include resume-analysis/templates *.html
+recursive-include resume-analysis/uploads *
+
