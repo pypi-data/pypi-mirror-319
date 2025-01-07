@@ -1,0 +1,15 @@
+litdb/__init__.py,sha256=SUoezngxF-JN1spSkwNevGyXnBf5-V0a8-0EfDCo6PE,31
+litdb/bibtex.py,sha256=RZ2z32wbtmtzg1U8ZcSSniTeoTXmqdQyEzrGgGMpptU,5721
+litdb/cli.py,sha256=7vF8c91USK4tqwkW4ibPkm_VxGDpnrO-i59k44hJ4Es,44013
+litdb/coa.py,sha256=IIfwg9Dr-fzPVnB9kEzc8pkosJIcPhjkKBEmS1zJQKc,4717
+litdb/db.py,sha256=1MLSw54L5I8bc3s-4vmR0uKMl9q_chdgpfCy1heQTds,11001
+litdb/gpt.py,sha256=yPJ36RqvOpR2oXE9Fvlhk7ARpgXdlSD3YhOUQtEhB50,4883
+litdb/lab.py,sha256=HDEWHPYkNu4DZstVdKXJD0Ux-DtIET8BAt7A5Ks2d68,562
+litdb/openalex.py,sha256=z_SDdVS5VrlvTSRVEvofFepI-ql5oT26weUW3BqH86Y,2367
+litdb/pdf.py,sha256=_vp6bpimEroZ06lliAnVf2LNzvfKf3_6ne0qv44_AnM,395
+litdb/utils.py,sha256=ITWHun7CEVJAgGTFccTLUAnj0-bDLauszEPcYVueI-E,1528
+litdb-2.0.0.dist-info/METADATA,sha256=L9DSUV6quJscZaToUR_Au09TmFJ-M2Wq4Fc3zTTPObE,35074
+litdb-2.0.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+litdb-2.0.0.dist-info/entry_points.txt,sha256=5C92BCXwXLptaHMOaCPXDjcJGRG59xjPfz7sHUBP4vI,40
+litdb-2.0.0.dist-info/top_level.txt,sha256=oYuizVfCNoR2WzQN8WsnpyRuJ9IatBkc5Bbs8nmwOt8,6
+litdb-2.0.0.dist-info/RECORD,,
