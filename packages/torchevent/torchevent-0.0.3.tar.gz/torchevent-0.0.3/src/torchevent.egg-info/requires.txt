@@ -1,0 +1,9 @@
+torch
+tonic
+matplotlib
+tqdm
+pandas
+
+[dev]
+pytest
+pytest-cov
