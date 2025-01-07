@@ -1,0 +1,10 @@
+jupyter_anywidget_pglite/__init__.py,sha256=giiA1fcf6CWmMmXzbm3uI4EaTjnLgE1QCAkz-7tB17M,8489
+jupyter_anywidget_pglite/magics.py,sha256=s3Iqse8e1M5lrpcek5iRHFpPVMaeBIhqvxqwsCqZShs,5576
+jupyter_anywidget_pglite/static/audio.js,sha256=NiWEfS9Kpf31uwbL7VrzisW9LsnIFN413gKQuhRaV9s,636
+jupyter_anywidget_pglite/static/postgres.css,sha256=VqP0ehlnKiGdkcQ22KKqcn6cvW535lVxbtqM9XQQzfE,459
+jupyter_anywidget_pglite/static/postgres.js,sha256=2aYoBqe0hZLsu5NJkRCf8wouSc4X3GQ8evdJevVvg1M,5144
+jupyter_anywidget_pglite/static/uuid.js,sha256=d_-5aXWdJ3gpPUTt8aD0zHrNhU16nOsGXBO0OT4qPQk,177
+jupyter_anywidget_pglite-0.1.12.dist-info/METADATA,sha256=gp6gEIxKKSI0lxwIkgYMFBL-QajhM6eEmR3ypQvcrq4,9218
+jupyter_anywidget_pglite-0.1.12.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+jupyter_anywidget_pglite-0.1.12.dist-info/licenses/LICENSE,sha256=Ogw7GUmeZIxmDNiKWsu_N07svNoGnPB7lWyiXHX_rMY,1074
+jupyter_anywidget_pglite-0.1.12.dist-info/RECORD,,
