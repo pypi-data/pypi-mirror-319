@@ -1,0 +1,2 @@
+[console_scripts]
+run-SmartCVParserAPI = SmartCVParserAPI.app6:main
