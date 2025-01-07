@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+cost_savings/cost_savings.py
+cost_savings/manifest.toml
+opsbox_cost_savings_assistant.egg-info/PKG-INFO
+opsbox_cost_savings_assistant.egg-info/SOURCES.txt
+opsbox_cost_savings_assistant.egg-info/dependency_links.txt
+opsbox_cost_savings_assistant.egg-info/entry_points.txt
+opsbox_cost_savings_assistant.egg-info/requires.txt
+opsbox_cost_savings_assistant.egg-info/top_level.txt
