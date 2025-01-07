@@ -1,0 +1,11 @@
+solvis_results_api/__init__.py,sha256=fofYvPSCVvONHFqkCAuC5dc2l6v-M0ppeL1aONJpiOQ,456
+solvis_results_api/get_devices.py,sha256=kI2_qsrVsTEd-FnKmSpV5sctbVvaUPDLybYchw643z4,4017
+solvis_results_api/get_evaluations.py,sha256=MThNX3HtlxovXhvHsDhC6zDx8ofpuIM6Wy_Lfk8EjiU,4872
+solvis_results_api/get_questionnaire.py,sha256=IPL6iWFkWZXAq5qlpBwGAj3jprYt0XOz4ZwzG3rIvY4,7291
+solvis_results_api/get_surveyed_units.py,sha256=Aw-HVhv4TZVt-Fy4Zwj5TtGpaMiR3lCrYtTVts9i1M4,6285
+solvis_results_api/get_suspicious_occurrences.py,sha256=BKSbh2FtRw8nNukFNZe_ozzA76fauss9Tpk1Jx6qdHg,4276
+solvis_results_api/process_evaluations.py,sha256=vV-nyZDDmnqqvi604fY-7G7OWwuRln8Oq3bM6x9AbGk,4430
+solvis_results_api-0.1.5.dist-info/METADATA,sha256=6X3wBtFdl5CiEZUWcSmG-fcbff0Y0X1vZegn4itEwec,1956
+solvis_results_api-0.1.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+solvis_results_api-0.1.5.dist-info/licenses/LICENSE,sha256=ECW7oVxPs08dy25xg9-dpnHwy4Wt07IvMvkkbhwHLms,44
+solvis_results_api-0.1.5.dist-info/RECORD,,
