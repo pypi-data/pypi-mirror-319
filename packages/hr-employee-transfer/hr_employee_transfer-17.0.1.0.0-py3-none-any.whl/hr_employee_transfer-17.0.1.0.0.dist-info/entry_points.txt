@@ -1,0 +1,2 @@
+[odoo.addons]
+branch_transfer = branch_transfer
