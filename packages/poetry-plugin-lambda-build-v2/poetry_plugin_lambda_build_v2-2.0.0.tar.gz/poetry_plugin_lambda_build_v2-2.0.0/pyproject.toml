@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "poetry-plugin-lambda-build-v2"
+version = "2.0.0"
+description = "The plugin for poetry that allows you to build zip packages suited for serverless deployment like AWS Lambda, Google App Engine, Azure App Service, and more..."
+authors = ["Michal Murawski <mmurawski777@gmail.com>", "Philippe Tremblay <6697943+philtremblay@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.13.1"
+docker = "7.1.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "0.8.6"
+poetry = "2.0.0"
+pytest = "8.3.4"
+pytest-cov = "6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+build-lambda = "poetry_plugin_lambda_build_v2.plugin:LambdaPlugin"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = [
+    "--cov=poetry_plugin_lambda_build_v2",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+]
+
+[tool.coverage.run]
+source = ["poetry_plugin_lambda_build_v2"]
+command_line = "-m pytest"
+
+[tool.coverage.report]
+include = ["poetry_plugin_lambda_build_v2/*.py"]
+omit = ["*__init__.py"]
+show_missing = true
