@@ -1,0 +1,10 @@
+odoo/addons/ssi_service_state_change_constrain/README.rst,sha256=X4v62h9fFg2EhD_91ARBzk2SG86qB4gsl1xeTFA3uAI,1334
+odoo/addons/ssi_service_state_change_constrain/__init__.py,sha256=aIAaeGDFmKXYEPUxOX-5ymuqPaTY4jSIGj_yeT4DQ2A,181
+odoo/addons/ssi_service_state_change_constrain/__manifest__.py,sha256=zi1eeND-I1IiyPjtxH64-G3_pwnhuSwTh6lxjyaMWZY,567
+odoo/addons/ssi_service_state_change_constrain/models/__init__.py,sha256=Agi5YSML60R8Wg8233zDfnboW85S4L_NTchy_LAGLqQ,191
+odoo/addons/ssi_service_state_change_constrain/models/service_contract.py,sha256=SHgH6vWnHREoXVoX5dEhG7FUUEzBLpbtdC-e5Llf5w0,637
+odoo/addons/ssi_service_state_change_constrain/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_service_state_change_constrain-14.0.1.0.0.dist-info/METADATA,sha256=6-rbg_yo6GPsDs5Tqsc3242CVM19H0fkhW1DrED995k,1977
+odoo14_addon_ssi_service_state_change_constrain-14.0.1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo14_addon_ssi_service_state_change_constrain-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_service_state_change_constrain-14.0.1.0.0.dist-info/RECORD,,
