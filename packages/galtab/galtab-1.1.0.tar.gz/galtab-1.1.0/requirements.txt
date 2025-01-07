@@ -1,0 +1,11 @@
+numpy
+scipy
+jax
+halotools>=0.8.2
+h5py
+pandas
+astropy
+tqdm
+fast3tree
+pathlib
+Pyarrow
