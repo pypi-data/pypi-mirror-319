@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: taksa
+Version: 0.1
+Summary: Dependency manager for C++
+Home-page: https://github.com/eProgD/taksa.git
+Author: Eugene Dombrovsky
+Author-email: e.prog.d@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
