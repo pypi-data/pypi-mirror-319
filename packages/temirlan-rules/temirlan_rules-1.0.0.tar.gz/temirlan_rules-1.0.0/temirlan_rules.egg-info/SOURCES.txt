@@ -1,0 +1,6 @@
+setup.py
+temirlan_rules/__init__.py
+temirlan_rules.egg-info/PKG-INFO
+temirlan_rules.egg-info/SOURCES.txt
+temirlan_rules.egg-info/dependency_links.txt
+temirlan_rules.egg-info/top_level.txt
