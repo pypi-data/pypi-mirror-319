@@ -1,0 +1,11 @@
+aprsd_email_plugin/__init__.py,sha256=acq9xTP-4wZRilrtDf8jNC0ZEKVJ6gzmXFwvvfdhfXU,699
+aprsd_email_plugin/aprsd_email_plugin.py,sha256=gyWEiyw_jVCn7wkxpfkYfFc8gWqVfiTq0Ip8JRAwul4,25549
+aprsd_email_plugin/conf/__init__.py,sha256=9ianonG2PEpN_VkrmZbS1ZOnaYyR5DVnHMTIabEkn_k,113
+aprsd_email_plugin/conf/main.py,sha256=MaO0lCVZZpvwJWFDmUxQ3Q_OMayl0DoZbZif4j8dGgo,2326
+aprsd_email_plugin/conf/opts.py,sha256=n4feUa7-u0J8tDuKdetOGiwF6YjXMj3h5oFjEwKP53A,2736
+aprsd_email_plugin-1.0.0.dist-info/LICENSE,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+aprsd_email_plugin-1.0.0.dist-info/METADATA,sha256=n6GVDFhgjn9c662j8gpO8m75Y_iPX7n8cG_j6W5H8w0,17420
+aprsd_email_plugin-1.0.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+aprsd_email_plugin-1.0.0.dist-info/entry_points.txt,sha256=HkOMZu3EfMPts7Ea7SOxo7H1tE-SImgjQf8dphCSjh4,84
+aprsd_email_plugin-1.0.0.dist-info/top_level.txt,sha256=zg1raimhn7OfhKo-bHZ7mzZl-9yxS4fI6IZCxRS3dS8,19
+aprsd_email_plugin-1.0.0.dist-info/RECORD,,
