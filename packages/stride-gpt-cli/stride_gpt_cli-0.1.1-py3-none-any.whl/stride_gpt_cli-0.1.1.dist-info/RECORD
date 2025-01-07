@@ -1,0 +1,9 @@
+client/__init__.py,sha256=D7IF1-Z0t7Q9TA6O4xC-tXWvIAmkaeYnwZJ-x_xF3zE,73
+client/cli.py,sha256=M_Ii3ytJDLZT2X7EGxuMWFA-sT3QcG-lpOmvU0DVBoo,54979
+client/schemas.py,sha256=OrqgxLl5yIyNiQwI924JQv1p3My6x1M4zAyROytij9c,1563
+stride_gpt_cli-0.1.1.dist-info/LICENSE,sha256=PXBK3SMFlqF086aMpXEdPQcQldtwlDgGS1u7V3JwMGY,10885
+stride_gpt_cli-0.1.1.dist-info/METADATA,sha256=YlmHSkgzNKBETDdY3mPTgMOkuB5IYNM6L-Ro5yhpeo0,4377
+stride_gpt_cli-0.1.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+stride_gpt_cli-0.1.1.dist-info/entry_points.txt,sha256=vplsrdgTzmruuxqrYFVg0ZtVoWI-PVupZ_SJxH0XC9A,46
+stride_gpt_cli-0.1.1.dist-info/top_level.txt,sha256=DJiuN0ty6vOMYewH87cxtQ0LWVaJpE0bZ1Blm0e3RCE,7
+stride_gpt_cli-0.1.1.dist-info/RECORD,,
