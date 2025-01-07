@@ -1,0 +1,10 @@
+README.rst
+setup.py
+models/__init__.py
+models/employee_transfer.py
+models/hr_contract.py
+odoo_addon_branch_transfer.egg-info/PKG-INFO
+odoo_addon_branch_transfer.egg-info/SOURCES.txt
+odoo_addon_branch_transfer.egg-info/dependency_links.txt
+odoo_addon_branch_transfer.egg-info/entry_points.txt
+odoo_addon_branch_transfer.egg-info/top_level.txt
