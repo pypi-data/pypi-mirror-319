@@ -1,0 +1,16 @@
+ccxt
+pandas
+numpy
+alpaca-trade-api
+alpaca-py
+python-dateutil
+tenacity
+
+[dev]
+pytest
+pytest-cov
+black
+isort
+flake8
+build
+twine
