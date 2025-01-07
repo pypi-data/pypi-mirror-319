@@ -1,0 +1,9 @@
+README.md
+setup.py
+PyEnsembleCNN/__init__.py
+PyEnsembleCNN/ensembles.py
+PyEnsembleCNN.egg-info/PKG-INFO
+PyEnsembleCNN.egg-info/SOURCES.txt
+PyEnsembleCNN.egg-info/dependency_links.txt
+PyEnsembleCNN.egg-info/requires.txt
+PyEnsembleCNN.egg-info/top_level.txt
