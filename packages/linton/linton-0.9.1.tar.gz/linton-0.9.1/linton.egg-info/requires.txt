@@ -1,0 +1,5 @@
+importlib_resources>=5.10
+pyxdg
+
+[test]
+pytest
