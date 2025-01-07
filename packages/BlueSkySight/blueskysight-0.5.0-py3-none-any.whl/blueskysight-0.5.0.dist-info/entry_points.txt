@@ -1,0 +1,5 @@
+[console_scripts]
+BlueSkySight-Firehose=blueskysight.firehose:main
+BlueSkySight-Firehose-v1=blueskysight.stream:main
+BlueSkySight-Jetstream=blueskysight.jetstream:main
+
