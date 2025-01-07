@@ -1,0 +1,6 @@
+ml_ude_client/__init__.py,sha256=mOdOOiKqNZIbWF7lbKJG-KM93uTzO4AjyJQuTiKxIQ0,36
+ml_ude_client/client.py,sha256=5DRbMSPlEpIB557clTwZlAZo1QhCQsqvg4f4wrUtfBA,3849
+ml_ude_client/memory.py,sha256=VWdho982VjigIJq5kPWhqFWbPOT_aw5JmFE662vnncI,1675
+ml_ude_client-0.1.1.dist-info/METADATA,sha256=eX2_O8bU-umSbOeZaxpjSfmbG4NehezlgAqO2dgFpk4,613
+ml_ude_client-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+ml_ude_client-0.1.1.dist-info/RECORD,,
