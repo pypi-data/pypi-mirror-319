@@ -1,0 +1,10 @@
+odoo/addons/ssi_service_custom_information/README.rst,sha256=dC4d5qLJleiVfUTqCbrABKCTPVXjgcX7MlCZ_76yMbs,1314
+odoo/addons/ssi_service_custom_information/__init__.py,sha256=VAkFvJXefoz7CVUwbL97HBfpLAYmvQPYXfYs71LOpzU,181
+odoo/addons/ssi_service_custom_information/__manifest__.py,sha256=dLNlkvqRkCfD7uw5Gxz43RaRrMmBCaAGJ29FTIowpow,533
+odoo/addons/ssi_service_custom_information/models/__init__.py,sha256=2xESVTGIa5Zu9G6eLcSSTxYiSiPqjeL9h_Y3JV4tJ9E,210
+odoo/addons/ssi_service_custom_information/models/service_contract.py,sha256=Ogp1XEEzXSodkh7WP8DTciuGrXa7TRLtjXYWXbZp7oI,625
+odoo/addons/ssi_service_custom_information/static/description/icon.png,sha256=O8DgcD3UdYgosCSt02q3gjyVKuto6WRnhq0wsK0X7FY,8619
+odoo14_addon_ssi_service_custom_information-14.0.1.0.0.dist-info/METADATA,sha256=Igd6txi-PkqpAso7U2u2Qgy41GrOt6pWAIrxIZ-QjY8,1945
+odoo14_addon_ssi_service_custom_information-14.0.1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo14_addon_ssi_service_custom_information-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_service_custom_information-14.0.1.0.0.dist-info/RECORD,,
