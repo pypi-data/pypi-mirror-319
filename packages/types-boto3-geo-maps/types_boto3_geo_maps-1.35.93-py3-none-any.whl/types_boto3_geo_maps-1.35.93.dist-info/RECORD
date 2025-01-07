@@ -1,0 +1,16 @@
+types_boto3_geo_maps/__init__.py,sha256=kdU6VjPdnp1Wju1rMhNUagyalkd4R3EiNkoP51Cv_i4,479
+types_boto3_geo_maps/__init__.pyi,sha256=FGv4LRWic7QPFP32XoBsBVHeXQA2kmPn1Uqk7-wKsm8,478
+types_boto3_geo_maps/__main__.py,sha256=ADXYgWcROK2Zhbb52OogJeBpQruN1gSTB7t7cwEEvAg,1014
+types_boto3_geo_maps/client.py,sha256=EEshr3mAB9FFtfHeyYyDohSPS_5OrNVs-1AMfbOv19s,5573
+types_boto3_geo_maps/client.pyi,sha256=hGkiYVuXUVk8r6e3Vu8mqMCjJxSHtzzwrKdRIXTF8ek,5570
+types_boto3_geo_maps/literals.py,sha256=OPurws-7K07mfOZTOMlmY_vy1oqN58olvOOyhMR32aQ,9197
+types_boto3_geo_maps/literals.pyi,sha256=XF4wBbxl8zWOrGvR9J1lZDuKF4bHArmDb5STTJWSH90,9195
+types_boto3_geo_maps/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+types_boto3_geo_maps/type_defs.py,sha256=HYvBcWaLb4XrVzSO-7cj1YhouDhL-_7r7IL6wSEiHr8,3338
+types_boto3_geo_maps/type_defs.pyi,sha256=ebwFK1_ZUswfBygNHcTWrop96zCSVahn1ad5F-BjM0o,3326
+types_boto3_geo_maps/version.py,sha256=n6wyMBvI3Tp0INYol4fUJ84y0BqM9ti-SkLRGfsif5s,93
+types_boto3_geo_maps-1.35.93.dist-info/LICENSE,sha256=4jNgB8jJbXtUVJkeygwhUQi--6lAG8DIisfE-h_RiUU,1070
+types_boto3_geo_maps-1.35.93.dist-info/METADATA,sha256=4DIrDHVlzVLKe5DgEfn2HV8fjSVOZycoaduowR2isNc,14104
+types_boto3_geo_maps-1.35.93.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+types_boto3_geo_maps-1.35.93.dist-info/top_level.txt,sha256=CwmcVINVZ93FRQXEIzN9dWnvPhak6LqhxvD3gPv3SkU,21
+types_boto3_geo_maps-1.35.93.dist-info/RECORD,,
