@@ -1,0 +1,9 @@
+requests
+pydantic
+curlparser
+jsonpath_ng
+
+[dev]
+pytest
+flake8
+sphinx
