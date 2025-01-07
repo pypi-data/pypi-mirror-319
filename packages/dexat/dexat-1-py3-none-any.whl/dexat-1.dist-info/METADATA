@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dexat
+Version: 1
+Summary: Dependency confiuse Attack
+Author: dex tester
+Author-email: <bughunt250@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: discord
+
+
+<h1 align="center">This Python package vulnerable to dependency confusion vulnerability</h1>
