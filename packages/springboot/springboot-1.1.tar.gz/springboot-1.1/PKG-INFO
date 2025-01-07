@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: springboot
+Version: 1.1
+Summary: this is springboot
+Home-page: 
+Download-URL: 
+Author: xxhelloxxx
+Author-email: 
+License: MIT
+Keywords: springboot
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
