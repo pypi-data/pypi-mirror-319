@@ -1,0 +1,14 @@
+milvus_dataset-1.0.0.post19.dist-info/METADATA,sha256=X9zQHZXkcXhT_jm-XKlnCs8Ske7G69qGFrMR2q9-J20,5947
+milvus_dataset-1.0.0.post19.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+milvus_dataset-1.0.0.post19.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+milvus_dataset/__init__.py,sha256=3wWYLXdA9gKAwu9X1pmVgTkg5RDgKR5IKlJ7q2fk8Zg,369
+milvus_dataset/api/main.py,sha256=oanf-ceCjkfseG3WpT9CVQQVQX7v9xVKf7f0UPip_nU,7932
+milvus_dataset/core.py,sha256=VkxvmEfnrRIbZ-UDDospW8Z7fgG2LDZusrM2p9Nx6Ao,54119
+milvus_dataset/log_config.py,sha256=BcCeNzX9B56RZa_LtnDMSHNFVFl9TavK3XeNg4g4ZJU,3306
+milvus_dataset/neighbors.py,sha256=hvZUytCrWyLy-sQEHurtfN47kNtP3c2IOf3eAdo5Vmc,21330
+milvus_dataset/reader.py,sha256=ewedTwBtRzX4IfS_MmUCDeMAtRew_nWTdW83Kva9xwE,5135
+milvus_dataset/storage.py,sha256=nPBk9qJymjfPQ72jRBvR9sD5n-bqzpDCFTTZJwE9mHM,4064
+milvus_dataset/utils.py,sha256=gAHzvgJlELZnHApePoXYm4fuhay-_yWG-jNxBnXrjiU,27749
+milvus_dataset/web/app.py,sha256=kbcnUPQtp1jahbuL1pPXWYcmzx9Rmj6phPrJCxVFC9Y,4764
+milvus_dataset/writer.py,sha256=J76VLmrrqOj5-2snj7NwQiCv_1axo2PKCx57nLlFJ8M,10332
+milvus_dataset-1.0.0.post19.dist-info/RECORD,,
