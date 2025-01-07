@@ -1,0 +1,4 @@
+aiofiles
+pillow
+httpx
+beautifulsoup4
