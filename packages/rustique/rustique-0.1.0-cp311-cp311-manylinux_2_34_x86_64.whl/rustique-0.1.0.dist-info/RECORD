@@ -1,0 +1,16 @@
+rustique-0.1.0.dist-info/METADATA,sha256=dALtgQfkpExlaR4tVf4M-RGkED08wJOBSMqk4O3mp4k,676
+rustique-0.1.0.dist-info/WHEEL,sha256=OSabcBiwUYyxUEBbqxDHgSJB6Ucbvs6_XJmaKubqJVs,108
+rustique/primitives/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rustique/experiments/vector.py,sha256=rZITzm_pzYA8vD_-TVCKzk_PUSDKgtvDKp2J_8PeTds,1023
+rustique/experiments/main.py,sha256=MHTvMGS2RPjwukZbq6r0rwYcsP_EqgpTIg2ZyItE44M,1114
+rustique/experiments/speed.py,sha256=rGsvfcMS_JpO9eZwASfLCGpo58Dvj3mH55MiAR5N0qI,725
+rustique/experiments/wtf.py,sha256=9Dgd26_jlWkpvYIiqKHxthxP-w8B2MhQGuLeEIu8Fbw,61
+rustique/experiments/abc.py,sha256=tvqnyf9o-TwADwAh-Xr_SUnY5ATnLYBeIWkfi43A9ug,804
+rustique/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rustique/__init__.py,sha256=cIe6d1F2SkrbVLCeS7QatjxoXV9SSrQ46CADy9FbPKM,23
+rustique/collections/dict.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rustique/collections/list.py,sha256=4AMXrLXwQAUeWs-cEOoehpNClsaCU8n5unC7RdxlZaA,426
+rustique/collections/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rustique/rustique.pyi,sha256=KFWwoHKxeQsO42NHvP9BRohXntEiGjF5ZLX-XohaYLo,5302
+rustique/rustique.cpython-311-x86_64-linux-gnu.so,sha256=y1kef11l_rzO5IozCVdtf9kqSVzb929ltNqsg3E1vX4,875336
+rustique-0.1.0.dist-info/RECORD,,
