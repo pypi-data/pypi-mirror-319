@@ -1,0 +1,14 @@
+translatevideo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+translatevideo/concatsrtfiles.py,sha256=D5F-ciF60Qjzkaq2-69yle76t4PN2U00Tz0hHahgado,2094
+translatevideo/genaisubtitles.py,sha256=9ATW4bFXs8oZX1sEQaV8KcdnXcncheBrsHNhrr3tD54,14639
+translatevideo/gensubtitles.py,sha256=b9BPTeRL8sJgFjKdNxRaNVOjMXiZB0_kUfaWF1CoMpY,1849
+translatevideo/removeduplicatelinessrt.py,sha256=YbVn8x5ifITSCv8PjRTxrpOe-ViYTGp8-IDRPCkZ7u0,735
+translatevideo/scansubtitles.py,sha256=jhURT6yDWEr-ObPLnHU3F4SBXVK3ia8wwL-Ep-txpVI,3563
+translatevideo/testtranslatevideo.py,sha256=5UAuHlbnAQcZVogOrScTzJA9xNRgQ7hYfuC-FLMK4mM,103
+translatevideo/translatesrt.py,sha256=Io-SMeI78S7ww-SP8Ylhxb2nnLnqXXcbzJUQFXPNbLs,5283
+translatevideo/utilities.py,sha256=ktAPUKhNqIHzQ8vpj5jUJ0019hwbIL-lFDJNSXj7SD8,2054
+translatevideo-0.5.0.dist-info/METADATA,sha256=r1DwI2qX43-Y24OlsicjE0MH1YOlarZU81DLKGbAFG4,2605
+translatevideo-0.5.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+translatevideo-0.5.0.dist-info/entry_points.txt,sha256=6-t_NZrM3HaddvP3nr_DWVM9SPPQPtY04OXC4rFqm4o,68
+translatevideo-0.5.0.dist-info/top_level.txt,sha256=w0lVnMXJDYVsfSRTVFpuWBsp5WbHw_sEgPO8j5_Vbww,15
+translatevideo-0.5.0.dist-info/RECORD,,
