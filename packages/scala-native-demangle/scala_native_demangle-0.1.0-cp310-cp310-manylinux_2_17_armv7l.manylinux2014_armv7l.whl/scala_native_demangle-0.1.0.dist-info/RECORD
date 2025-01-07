@@ -1,0 +1,5 @@
+scala_native_demangle-0.1.0.dist-info/METADATA,sha256=2dQkPMdcojTGSddSx49pVfJnTss6P759_mUZzYRP6mo,270
+scala_native_demangle-0.1.0.dist-info/WHEEL,sha256=_ulwwgDC3t41lO89IJ8rumleCiT04MObX7ttlqcRf_0,129
+scala_native_demangle/__init__.py,sha256=rqjAii1rI4tkwvO2bGJNiEA3Kz-Z5-ZTF0p1FgoxXjc,167
+scala_native_demangle/scala_native_demangle.cpython-310-arm-linux-gnueabihf.so,sha256=K-lFvGFIAVUYr7_ik9qXiXXuhMd2-mOyuS7_UKMKmRE,534760
+scala_native_demangle-0.1.0.dist-info/RECORD,,
