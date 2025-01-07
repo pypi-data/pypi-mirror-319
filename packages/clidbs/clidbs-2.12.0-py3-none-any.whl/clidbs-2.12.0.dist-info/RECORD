@@ -1,0 +1,11 @@
+clidbs/__init__.py,sha256=JGmKeuO-qpRfWHFhOAnzFewWl10--VDqFAd-tOlEJMY,73
+clidbs/cli.py,sha256=A7p-j0UwBj2JYc07hylm2k30qEXR2K7m5Nqxf-qphDY,25303
+clidbs/config.py,sha256=lz9cPM2g-MxbQSsaVkUW0Fto2FsQo9Z3aQEsQdg4LvI,1145
+clidbs/databases.py,sha256=rUF8ndgxU0WVxCvpE356-GFCfkSgiMkLG5R9Qh1HhMA,10593
+clidbs/notifications.py,sha256=12sn-u2jQPInJwrZwVas-ru59kKY81pVXNSKDiyY-UU,918
+clidbs/ssl.py,sha256=BrBBUJAK5f4Z1dubIqeMFxeFSuGi0sWx7W6xY8gfAaU,8152
+clidbs/style.py,sha256=FxJStE-54FxGuC25KyzjROdFWXodiikA3MbI5D3nu3Q,6694
+clidbs-2.12.0.dist-info/METADATA,sha256=SztD6kuUJO9w3unnfxPGJHGe0bm7KSZakRXXKkRDvOQ,4343
+clidbs-2.12.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+clidbs-2.12.0.dist-info/entry_points.txt,sha256=qs5vgrfDvu8yp_Zp_7aC_ZpOemzpiOmZ3ArpA9aFkWg,42
+clidbs-2.12.0.dist-info/RECORD,,
