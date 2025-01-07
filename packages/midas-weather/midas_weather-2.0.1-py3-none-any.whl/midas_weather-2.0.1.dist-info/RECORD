@@ -1,0 +1,15 @@
+midas_weather/__init__.py,sha256=B1ZdJ6nBoqa_rIeKWenoFYy6w32miCv4zbdwW5SIlwk,73
+midas_weather/analysis.py,sha256=dnqQp-Czli8xkoHmNi0ir1aP2-74l5u8rzIexkw5kJA,3041
+midas_weather/download.py,sha256=XLms4TcjfAnbzunga0i9EuT6vT3m4yj_mOYTG3ko08I,8613
+midas_weather/meta.py,sha256=iA-mQ3kRkmGbiqApIj3xbdUOQ15NzBIiN9DoMuMIuzs,2013
+midas_weather/module.py,sha256=9jwMJv9kiRebggY8i0D6ENpgGRbY1Y19orbNSqDIKD8,7874
+midas_weather/simulator.py,sha256=QL13vh1L9ovDR9-ucpvqC_VSA7BYKg3IPAQPeksI0wI,12734
+midas_weather/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+midas_weather/model/current.py,sha256=NEFiqQBHoCyDy_M7Zc9AxMb2hm7h-jdGw4oY-744kQ0,6011
+midas_weather/model/forecast.py,sha256=KgWaLqDTI17vakeKr7PY_0kGzMrFp72ZyTmWhOC5K70,6841
+midas_weather/model/provider.py,sha256=o850zxSQal6b60_0qE6SBmI-pGkANuz-P6ND8rQnaxg,4322
+midas_weather-2.0.1.dist-info/LICENSE,sha256=adm0bP3Oct0QajMMTL3NBtwd_yyhhZFiPc4YVPwmofE,7648
+midas_weather-2.0.1.dist-info/METADATA,sha256=Ws-UicRrpLQF-A3zPTA0hp_ps-bf5Wf-pA8QfSem-7w,2628
+midas_weather-2.0.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+midas_weather-2.0.1.dist-info/top_level.txt,sha256=qAzpDwLykkFeaDTlq5Ss5wCEgw3vgAUzUVdVwP__6dE,14
+midas_weather-2.0.1.dist-info/RECORD,,
