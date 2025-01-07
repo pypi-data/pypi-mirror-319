@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ovos-PHAL-plugin-camera
+Version: 0.1.0
+Summary: Expose camera to OVOS
+Home-page: https://github.com/OpenVoiceOS/ovos-PHAL-plugin-camera
+Author: JarbasAi
+Author-email: jarbasai@mailfence.com
+License: Apache-2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: ovos-plugin-manager~=0.0
+Requires-Dist: imutils
+Requires-Dist: opencv-python
+Requires-Dist: flask
+Requires-Dist: pybase64
+
