@@ -1,0 +1,10 @@
+napari_file2folder/__init__.py,sha256=94umtOx1FkyNtg8hcew2mC0n7oH0ooDKWEr1F9W0ikc,101
+napari_file2folder/_custom_widgets.py,sha256=Q2SRd7VtzMAQLvHfJhQt_ID1OAI6CtMoXmrsoP6k5Is,3717
+napari_file2folder/_widget.py,sha256=-U1Wax-wI4HOaYPrUEcX3o0tz1ie8XJ6uCO7t42aWAI,15601
+napari_file2folder/napari.yaml,sha256=s9uJcQSywQAB91cSq4rkepEe2gegVkGSSO51rUXt-tI,605
+napari_file2folder-0.0.2.dist-info/LICENSE,sha256=6e3GnTbNqDHHEpm7pOkrOMukJbnZ4otal6ZLFXp1jwk,1081
+napari_file2folder-0.0.2.dist-info/METADATA,sha256=lBL9tXF_7aHghTNAbxxd2SV6s68ZzPqzry0ZpW_PHqc,7435
+napari_file2folder-0.0.2.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+napari_file2folder-0.0.2.dist-info/entry_points.txt,sha256=lf7BDeRQ1ASyfKrG55geOYTkTGCKWwSPev4JawGRqDM,70
+napari_file2folder-0.0.2.dist-info/top_level.txt,sha256=cQJX0ag3oikl-x76MjEkqHFN3ApgAlDn1Zc6fSSMdqM,19
+napari_file2folder-0.0.2.dist-info/RECORD,,
