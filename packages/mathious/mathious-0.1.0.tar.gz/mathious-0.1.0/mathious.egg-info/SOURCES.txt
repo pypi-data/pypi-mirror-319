@@ -1,0 +1,8 @@
+README.md
+setup.py
+mathious/__init__.py
+mathious/operations.py
+mathious.egg-info/PKG-INFO
+mathious.egg-info/SOURCES.txt
+mathious.egg-info/dependency_links.txt
+mathious.egg-info/top_level.txt
