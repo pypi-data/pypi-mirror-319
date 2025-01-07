@@ -1,0 +1,11 @@
+msvproperties/API.py,sha256=aihgAarWHmq3D11LyY5q2C4eCAu7jV8_0IJ60dPmkfc,6782
+msvproperties/__init__.py,sha256=QLLR9gLyTmNpGbhh_9hY8T94vRBXuXFalZxoodoFyr4,228
+msvproperties/core.py,sha256=eKS39fnKoOfn98NCnVVvuMz06JoEHR7D_5AgiA1p-4A,24012
+msvproperties/utils.py,sha256=29y4C8A10B90HOPlhxL2Sj4s8Ptvm25T1-49hn1Pyo0,7869
+tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msvproperties-1.1.6.dist-info/LICENSE,sha256=iiRBqDs1QrJriWNfqxqDY02_gw6AQh3nCGlwxavb4hA,1079
+msvproperties-1.1.6.dist-info/METADATA,sha256=pU0ED6GJEbNou39UdojKKSXCL_rIdIckoefQTAG6vE4,747
+msvproperties-1.1.6.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+msvproperties-1.1.6.dist-info/top_level.txt,sha256=4J4lcQlYVfJ742wrNDkLyUf5w3t2Wnb95Ps_kajVrNw,20
+msvproperties-1.1.6.dist-info/RECORD,,
