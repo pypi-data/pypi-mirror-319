@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+user_auth/__init__.py
+user_auth_boilerplate.egg-info/PKG-INFO
+user_auth_boilerplate.egg-info/SOURCES.txt
+user_auth_boilerplate.egg-info/dependency_links.txt
+user_auth_boilerplate.egg-info/requires.txt
+user_auth_boilerplate.egg-info/top_level.txt
