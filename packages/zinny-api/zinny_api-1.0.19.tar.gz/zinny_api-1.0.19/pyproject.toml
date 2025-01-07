@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zinny-api"
+version = "1.0.19"
+description = "An API backed for Zinny, the movie rating app."
+dependencies = [
+    "flask",
+    "zinny-surveys"
+]
+authors = [
+    { name = "Ryan Laney" }
+]
+license = { file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["zinny", "surveys", "movie", "rating"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[project.scripts]
+zinny-api = "zinny_api.cli:main"
+
+[tool.setuptools.package-data]
+"zinny_api" = [
+    "data/titles/shared/*.json",
+    "data/titles/shared/*.tsv",
+    "data/title_types/shared/title_types.json",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+]
+
+[project.urls]
+Homepage = "https://github.com/RyLaney/zinny-webui"
+Issues = "https://github.com/RyLaney/zinny-webui/issues"
