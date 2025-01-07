@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: visonicalarm2
+Version: 3.2.0
+Summary: A simple API library for the Visonic/Bentel/Tyco Alarm system.
+Home-page: https://github.com/And3rsL/VisonicAlarm2
+Author: Andrea Liosi
+Author-email: andrea.liosi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
