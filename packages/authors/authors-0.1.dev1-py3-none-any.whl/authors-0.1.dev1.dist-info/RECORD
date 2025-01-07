@@ -1,0 +1,13 @@
+authors/__init__.py,sha256=WaxU0U8Sw27n3OZTMy4V9KIsjGotlwmyBF0qJav1yx8,481
+authors/authors.py,sha256=-VCHccZuXwszh0Gh2GABG1aH-pmWFcmmceRnXewhSsI,22485
+authors/cli.py,sha256=8I8DeywW-mxoUlbcJKeUqkgbdtOXkVup8OL8su5FlGo,1259
+authors/crowd.png,sha256=lM82Lw8AN4KiNX7Q4OabzsSiSa4NHVEapgWN7KUHjhU,68608
+authors/latex_pdf_utils.py,sha256=-Nco5tHOoDd_z8tZu1E_xdEtCBO6Y8ltOnyoB8IQITs,838
+authors/utils.py,sha256=ulogfGTYoknmkaUTYfycAeAL5trXt91dCmrHBNSnIFM,4431
+authors/data/all_known_authors.yml,sha256=wYy6S7hE9uvp94bvs27HuJRGzCtITtZYwrAYGYW1FkQ,216
+authors-0.1.dev1.dist-info/LICENSE,sha256=189uCqCnaJpIZjDnJHPtF9us3uHHk6jnIm7xZoGRJtM,1068
+authors-0.1.dev1.dist-info/METADATA,sha256=MH85QIhf-cE6woJU4rX_CMRSe8JsKDBnYC3AsU-JaUg,2019
+authors-0.1.dev1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+authors-0.1.dev1.dist-info/entry_points.txt,sha256=xVHx-Zsdi3a0h51RFPJAV69L4fYWc5xSNwhvMnda4cI,236
+authors-0.1.dev1.dist-info/top_level.txt,sha256=OdjsLLVBAD8PyjAzGDPW6D8HrcTu8wadGAjTY2E0YVg,8
+authors-0.1.dev1.dist-info/RECORD,,
