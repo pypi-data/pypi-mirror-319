@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: label-tool
+Version: 0.0.1a2
+Summary: A simple command-line interface tool
+Home-page: https://github.com/left0ver/label-tool
+Author: leftover
+Author-email: hi.leftover@qq.com
+License: MIT
+Keywords: label convert,labelme convert yolo,yolo convert labelme,labelme,yolo
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0
