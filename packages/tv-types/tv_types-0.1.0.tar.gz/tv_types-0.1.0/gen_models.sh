@@ -1,0 +1,1 @@
+datamodel-codegen --url https://static.tradingview.com/static/bundles/broker-rest-api.be05513c026d4c75f324.yaml --input-file-type=openapi --output-model-type=pydantic_v2.BaseModel --output src/tv_types/models.py --encoding utf-16 --collapse-root-models --reuse-model --target-python-version 3.12 --use-schema-description --use-double-quotes --wrap-string-literal

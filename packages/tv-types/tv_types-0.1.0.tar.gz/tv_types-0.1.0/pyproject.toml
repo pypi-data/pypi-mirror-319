@@ -1,0 +1,19 @@
+[project]
+name = "tv-types"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Elder Millenial", email = "eldermillenial@protonmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.10.4",
+]
+
+[project.scripts]
+tv-types = "tv_types:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
