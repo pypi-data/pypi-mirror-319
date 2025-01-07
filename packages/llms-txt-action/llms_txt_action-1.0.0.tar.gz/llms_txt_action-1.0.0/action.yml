@@ -1,0 +1,43 @@
+name: "llms-txt-action"
+description: "Convert documentation websites into LLM-ready by adding /llms.txt. reference: https://llmstxt.org/."
+branding:
+  icon: "align-center"
+  color: "green"
+
+inputs:
+  docs_dir:
+    description: "Documentation output directory"
+    required: false
+    default: "site/"
+  skip_llms_txt:
+    description: "Skip llms.txt file generation"
+    required: false
+    default: "false"
+  skip_llms_full_txt:
+    description: "Skip llms-full.txt file generation"
+    required: false
+    default: "false"
+  skip_md_files:
+    description: "Skip generation of markdown files"
+    required: false
+    default: "false"
+  llms_txt_name:
+    description: "Name of the llms.txt output file"
+    required: false
+    default: "llms.txt"
+  llms_full_txt_name:
+    description: "Name of the llms-full.txt output file"
+    required: false
+    default: "llms-full.txt"
+  sitemap_path:
+    description: "Path relative to docs_dir to the sitemap.xml file"
+    required: false
+    default: "sitemap.xml"
+  model_name:
+    description: "Model to use for generating summaries"
+    required: false
+    default: "gpt-4o-mini"
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
