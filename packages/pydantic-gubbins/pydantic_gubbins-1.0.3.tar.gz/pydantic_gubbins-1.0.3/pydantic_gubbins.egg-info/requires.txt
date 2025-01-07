@@ -1,0 +1,7 @@
+frozendict
+pydantic
+setuptools
+
+[test]
+pytest
+pytest-cov
