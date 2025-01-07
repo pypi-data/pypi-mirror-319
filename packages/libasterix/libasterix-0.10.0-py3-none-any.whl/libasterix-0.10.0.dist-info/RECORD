@@ -1,0 +1,9 @@
+asterix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asterix/base.py,sha256=BxUW_z_05D6bsGLbSEQrLU0XM6EY83ZoiSYJrCkbGyg,43841
+asterix/generated.py,sha256=2yoKru29nX9RtIS2aE94bFfRogEOfzAw_BNtfheUgAk,4641427
+asterix/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libasterix-0.10.0.dist-info/LICENSE,sha256=5Impyx_pgIIrBZ83wZc8DmW9hh7yQ48l_WSRBm5_Poc,1510
+libasterix-0.10.0.dist-info/METADATA,sha256=TMWIPx3UQuRtt7mOEVFmQSShBgtCKduz5JqlP_WyFNo,19292
+libasterix-0.10.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+libasterix-0.10.0.dist-info/top_level.txt,sha256=ihMj-GT3oj_kG3GA_8S2qwrfcA4rxKd7wmE5uWd2WB8,8
+libasterix-0.10.0.dist-info/RECORD,,
