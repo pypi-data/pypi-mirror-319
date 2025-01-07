@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hawk-backtester"
+version = "0.2.3"
+description = "High-performance portfolio backtester written in Rust"
+authors = ["Charles Maloney <charles.c.maloney@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "hawk_backtester", from = "python" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+maturin = "^1.4.0"
+polars = "^0.20.7"
+pytest = "^8.3.3"
+numpy = ">=1.26.0"
+pyarrow = "^18.1.0"
+
+[build-system]
+requires = ["maturin>=1.4,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+python-source = "python"
+features = ["pyo3/extension-module"]
