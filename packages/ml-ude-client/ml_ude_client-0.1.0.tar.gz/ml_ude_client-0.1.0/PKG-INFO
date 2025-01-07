@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ml-ude-client
+Version: 0.1.0
+Summary: Client package for ML UDE service.
+Author: Martin Klosi
+Author-email: mklosi@soley.ai
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: psutil
+Requires-Dist: pyarrow
+Requires-Dist: requests
+Requires-Dist: s3fs (>=2023.3.0,<2024.0.0)
+Requires-Dist: timeout-decorator
+Requires-Dist: twine
+Description-Content-Type: text/markdown
+
+# AIML Unified Data Engine Client
+
