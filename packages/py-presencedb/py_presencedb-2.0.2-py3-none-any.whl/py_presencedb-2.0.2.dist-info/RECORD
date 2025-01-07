@@ -1,0 +1,16 @@
+presencedb/__init__.py,sha256=n6Iq9VBpjUIX9nMT6UDEU31w_xoX7Jrn4izMhs_8mjQ,1514
+presencedb/abc.py,sha256=SxxXxkp3FLK6yap4Th6npUtFJxTjxPPFM5AsHGsNDdo,7358
+presencedb/activity.py,sha256=ADvdTbed2pbXdERqJu0MVlJt0bi600C1RcUN5hG3RKY,2969
+presencedb/client.py,sha256=QDjnoYw6nHqBFZCZaHQJdzvGYFY8GnftkUKAA8gpMhk,7002
+presencedb/constants.py,sha256=IEJmyVB-cTMdesO3yTDjfpdhNOACjmx904pElk20kxI,791
+presencedb/enums.py,sha256=UsMGcqeqLpHGvn-65X8AwY8kzS08uSYTvtGv1AdcOLE,1121
+presencedb/errors.py,sha256=_Nu_gd6rrlazt1alIA7cDBu8Z0o2nUKej48caz2_Aak,1706
+presencedb/http.py,sha256=_zF70ZSy4oXDphAw-h9g8e8xIOJ2Ed_R--epZ9CaDVs,2895
+presencedb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+presencedb/user.py,sha256=I-z4ZYzOAzHI5I-D50sQVmW23LPBvkQ70uoxAR9OYh8,8519
+presencedb/utils.py,sha256=7o51Si8xWB5BIDHXpBCCudgU5nlIBYGmk2VYu9QK_fQ,2748
+py_presencedb-2.0.2.dist-info/METADATA,sha256=PXWWYNJNDxv3olDdjqvhFDUfVadF1J1WNBen5JFdyy8,2373
+py_presencedb-2.0.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+py_presencedb-2.0.2.dist-info/licenses/AUTHORS.md,sha256=AQWJCCki71fYt1sGC1BGf8sjMsxM3w804A6ivzeCnw0,75
+py_presencedb-2.0.2.dist-info/licenses/LICENSE,sha256=6HdbwFCSR-Gt9hI3LLSkluErADIWP-9IhFWDJjFpY3o,1088
+py_presencedb-2.0.2.dist-info/RECORD,,
