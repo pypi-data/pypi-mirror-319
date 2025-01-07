@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interact with Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 >Interact with Your Resume</h1>
+        
+        <!-- Form for entering the prompt -->
+        <form method="POST" action="/interact">
+            <div class="mb-3">
+                <label for="prompt" class="form-label">Enter your prompt</label>
+                <textarea id="prompt" name="prompt" class="form-control" rows="4" required></textarea>
+            </div>
+            <input type="submit" value="Generate Response" id="submit-btn">
+        </form>
+            
+        <!-- Display the output from Gemini API -->
+        {% if output %}
+        <div id="response-container">
+            <h2 id="response-heading">Response from Gemini:</h2>
+            <div id="response-output"> {{ output|safe }} </div>
+        </div>
+        {% endif %}
+        
+    </div>
+
+    <!-- Optional: Include Bootstrap JS and Popper for dropdowns or modals -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
