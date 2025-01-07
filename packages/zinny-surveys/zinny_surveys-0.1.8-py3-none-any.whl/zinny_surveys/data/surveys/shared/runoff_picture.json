@@ -1,0 +1,16 @@
+{
+  "id": "runoff_picture_basic",
+  "name": "Picture (Runoff)",
+  "version": "1.0",
+  "description": "Basic evaluation criteria for overall excellence of a Picture Show. The range markers are shifted for runoff of exceptional titles.",
+  "author": "the-zinny team",
+  "extends": "picture_basic",
+  "defaults": {
+    "markers": {
+      "1": "typical",
+      "5": "Exceptional",
+      "10": "Revolutionary"
+    }
+  },
+  "criteria": []
+}
