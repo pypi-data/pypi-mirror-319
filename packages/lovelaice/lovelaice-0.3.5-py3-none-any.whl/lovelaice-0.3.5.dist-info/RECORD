@@ -1,0 +1,13 @@
+lovelaice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lovelaice/__main__.py,sha256=3U77Eu21mJ-LY27RG-JEnpbh6Z63wGOom4i-EoLtUcY,59
+lovelaice/cli.py,sha256=Adamz5VMR6W2zftXQjaC541pHrOmZgCaNH1wS-A2Wac,5397
+lovelaice/config.py,sha256=k9F0j92MKq-46O2q3sWxgZaXmlZbHCw-YWznqd3FHgE,1664
+lovelaice/connectors.py,sha256=2zSR_QTmeAFKyutPYpwG9nvaRDLMSCDPKrflTB3UHcw,1897
+lovelaice/core.py,sha256=4kWoH-FULI7VmDnfmSdsw5FDgBm6yQ0MX5yeHZaKOzk,2716
+lovelaice/models.py,sha256=lBpe511H6ZxxNACsl7OV_pKbNrptZ2GzrpzNkKl03nc,88
+lovelaice/tools.py,sha256=OcO_pvJXK7A-jUyVZw6IxKmTkvm-nkETqluC1d83Tlc,4387
+lovelaice-0.3.5.dist-info/METADATA,sha256=KjkNWcwnxr5hZifIRkDqdJ1zwsgNH0ogXmvPEybzcuM,9259
+lovelaice-0.3.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+lovelaice-0.3.5.dist-info/entry_points.txt,sha256=LqLbUXy_R1krcgaOAmA97oGRIQFYyNup1zM792YrtlA,48
+lovelaice-0.3.5.dist-info/licenses/LICENSE,sha256=8Do7YXcZxxT4jfb9ayneIQ4V5pTvJaRmD2MKDx-wY94,1079
+lovelaice-0.3.5.dist-info/RECORD,,
