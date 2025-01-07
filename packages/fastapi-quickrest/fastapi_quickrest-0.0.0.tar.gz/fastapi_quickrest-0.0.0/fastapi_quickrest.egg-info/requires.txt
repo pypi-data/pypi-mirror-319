@@ -1,0 +1,14 @@
+fastapi
+pydantic-settings
+sqlalchemy
+uvicorn
+
+[dev]
+pytest
+pytest-cov
+pre-commit
+pytest-ordering
+mkdocs-material
+mkdocstrings-python
+httpx
+mypy
