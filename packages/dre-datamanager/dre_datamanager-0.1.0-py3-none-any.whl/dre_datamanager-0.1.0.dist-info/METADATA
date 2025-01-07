@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dre_datamanager
+Version: 0.1.0
+Summary: A package for managing data operations using PySpark
+Home-page: https://github.com/yourusername/my_datamanager
+Author: George Graves
+Author-email: george.graves@centaurihs.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark>=3.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0.0; extra == "dev"
+
+# My DataManager
+
+`dre_datamanager` is a Python package for managing data operations using PySpark. It provides functionalities for extracting unique years from data, caching, joining, and more.
+
+## Features
+
+- Extract unique years from specified date columns
+- Load and cache DataFrames
+- Optimize joins with broadcasting
+- Repartition DataFrames for performance
+- Context manager support for resource cleanup
+
+## Installation
+
+```bash
+pip install dre_datamanager
