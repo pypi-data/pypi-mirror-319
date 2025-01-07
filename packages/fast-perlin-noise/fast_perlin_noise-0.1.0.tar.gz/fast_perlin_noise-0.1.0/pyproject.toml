@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Fast-Perlin-Noise"
+authors = [
+    {name = "Joshua Riefman", email = "joshuariefman@gmail.com"}
+]
+maintainers = [
+    {name = "Joshua Riefman", email = "joshuariefman@gmail.com"}
+]
+description = "A fast Perlin noise generation library!"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["perlin-noise", "noise", "go"]
+license = { file = "LICENSE"}
+version = "0.1.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Natural Language :: English",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+dependencies = [
+    "numpy",
+]
+
+[project.urls]
+Repository = "https://github.com/joshuaRiefman/fast_perlin_noise"
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+[tool.setuptools]
+packages = ["fast_perlin_noise"]
+include-package-data = true
