@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: broker-tui
+Version: 0.1.0
+Summary: The interactive interface for your Broker installation.
+Author-email: Jacob Callahan <jacob.callahan05@gmail.com>
+Keywords: broker,textual,tui
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: broker>=0.6.2
+Requires-Dist: textual[syntax]>=1.0.0
+
+# Broker TUI
+
+A terminal user interface for managing your Broker installation. This project provides an interactive command-line interface built with [Textual](https://textual.textualize.io/) to manage host inventory and check-in operations.
+
+## Features
+
+- View and manage local inventory
+- Sync with providers
+- Check-in hosts
+- Interactive host details view
+- Provider-based filtering
+
+## Requirements
+
+- Python ≥ 3.12
+- broker ≥ 0.6.2
+- textual[syntax] ≥ 1.0.0
+
+## Installation
+
+```bash
+uv pip install broker-tui
+# or
+uv tool install broker-tui
+# or
+pip install broker-tui
+
+# or use it without installing to an environment
+uvx broker-tui
+```
+
+## Usage
+All functionality of this tool is within the TUI itself, so simply launch it with the following command.
+
+```bash
+broker-tui
+```
+
+### Quitting
+Quit with the normal Textual keybind `ctrl+q`
