@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: tilly
+Version: 0.0.2
+Summary: A cli for tracking Things I Learned (TIL)
+Home-page: https://github.com/orangewise/tilly
+Author: Ronald Luitwieler
+Author-email: ronald.luitwieler@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0
+Requires-Dist: pluggy>=1.0
+Requires-Dist: setuptools
+
+# tilly
+
+CLI for easily creating Today I Learned posts.
+
+
+## Installation
+
+```
+uv pip install tilly
+```
+
+## Usage
+
+```
+til hello
+```
+
+
+## Creating plugins
+
+
+## Development
+
+```
+uv venv .venv --python=3.11
+source .venv/bin/activate
+uv pip install .
+```
