@@ -1,0 +1,4 @@
+[console_scripts]
+argussight=argussight.main:run
+stream-layer=argussight.streamsproxy:run
+
