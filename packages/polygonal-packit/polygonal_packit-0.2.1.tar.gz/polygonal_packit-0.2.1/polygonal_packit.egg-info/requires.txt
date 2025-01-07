@@ -1,0 +1,5 @@
+numpy
+torch
+tqdm
+huggingface_hub
+tensorflow
