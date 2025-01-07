@@ -1,0 +1,2 @@
+[console_scripts]
+dbtt = cli:main
