@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cli_veripy
+Version: 1.0.3
+Summary: A CLI Arguments verifier.
+Home-page: https://github.com/FrewtyPebbles/Python-CLI-Argument-Parser
+Author: William L.
+Author-email: william.lim@csu.fullerton.edu
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cli_veripy
+
+This is a robust cli arguments verification and management module that I made for use in my own CLI projects.
