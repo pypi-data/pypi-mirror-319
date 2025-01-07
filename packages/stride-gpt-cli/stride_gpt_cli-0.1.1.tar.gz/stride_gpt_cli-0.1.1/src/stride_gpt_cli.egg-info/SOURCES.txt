@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/client/README.md
+src/client/__init__.py
+src/client/cli.py
+src/client/schemas.py
+src/stride_gpt_cli.egg-info/PKG-INFO
+src/stride_gpt_cli.egg-info/SOURCES.txt
+src/stride_gpt_cli.egg-info/dependency_links.txt
+src/stride_gpt_cli.egg-info/entry_points.txt
+src/stride_gpt_cli.egg-info/requires.txt
+src/stride_gpt_cli.egg-info/top_level.txt
