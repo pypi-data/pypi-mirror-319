@@ -1,0 +1,7 @@
+README.md
+hello.py
+pyproject.toml
+graph_sitter.egg-info/PKG-INFO
+graph_sitter.egg-info/SOURCES.txt
+graph_sitter.egg-info/dependency_links.txt
+graph_sitter.egg-info/top_level.txt
