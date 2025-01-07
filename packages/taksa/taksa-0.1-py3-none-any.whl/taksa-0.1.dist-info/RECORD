@@ -1,0 +1,12 @@
+taksa/__init__.py,sha256=jVRbrotfqVMg5fc5qs--nzXfeVUOeEucaM7ttN2keFM,152
+taksa/configuration.py,sha256=eA86W7ss0rKldi9H1LvcdpOmW_ktDrgDxiENRJSHIms,577
+taksa/dependency.py,sha256=XMfe5Cm64AdXgrQ0FEOXmoqpyYqkkJgOsjV-Cy84nKQ,4135
+taksa/manager.py,sha256=b0UP2X1u9cOZz-kyLME6QV0b3USNIhQHbpC5Ys15yGA,473
+taksa/state.py,sha256=LZNRL_l0-G65kY3WNLacZ52NSDfAmK6c1r7D-SMy_3I,34
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cpp_cmake_dependency.py,sha256=ZEqyn0shwUEO6NC_nU5Ex_0-uW2NsVLe1LAIiEA5I74,2998
+taksa-0.1.dist-info/LICENSE,sha256=KwM90XvCF89cPdI4Owe-5K1HGY_og6SwP9xEgkMblOg,1074
+taksa-0.1.dist-info/METADATA,sha256=kaeDjcJ9ONW7GWR8DUUJwAw2ma77SFabGcJ4mHeFnkI,380
+taksa-0.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+taksa-0.1.dist-info/top_level.txt,sha256=59LiGcz_qCZ8vcGMfrmuiG1Pt58oXohu4g9Z3sCMjuM,12
+taksa-0.1.dist-info/RECORD,,
