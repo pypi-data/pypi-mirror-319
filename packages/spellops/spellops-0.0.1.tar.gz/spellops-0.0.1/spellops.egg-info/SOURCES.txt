@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+spellops/__init__.py
+spellops/_modidx.py
+spellops.egg-info/PKG-INFO
+spellops.egg-info/SOURCES.txt
+spellops.egg-info/dependency_links.txt
+spellops.egg-info/entry_points.txt
+spellops.egg-info/not-zip-safe
+spellops.egg-info/requires.txt
+spellops.egg-info/top_level.txt
