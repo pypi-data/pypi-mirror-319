@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "validataurus"
+version = "0.1.5"
+description = ""
+authors = ["Adam Bonnet <adambonnet0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+phonenumbers = "^8.13.52"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
