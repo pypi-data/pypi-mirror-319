@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+s3hop/__init__.py
+s3hop/cli.py
+s3hop/core.py
+s3hop.egg-info/PKG-INFO
+s3hop.egg-info/SOURCES.txt
+s3hop.egg-info/dependency_links.txt
+s3hop.egg-info/entry_points.txt
+s3hop.egg-info/requires.txt
+s3hop.egg-info/top_level.txt
