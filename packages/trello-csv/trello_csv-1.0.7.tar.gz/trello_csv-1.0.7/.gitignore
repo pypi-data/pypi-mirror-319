@@ -1,0 +1,8 @@
+venv
+build
+dist
+trello_csv.egg-info
+.env
+.DS_Store
+.vscode/
+**/__pycache__/
