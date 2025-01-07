@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: AllSafe
+Version: 1.0.0
+Summary: AllSafe, A Modern Password Generator
+Home-page: https://github.com/emargi/AllSafe
+Author: Emargi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+Requires-Dist: rich
