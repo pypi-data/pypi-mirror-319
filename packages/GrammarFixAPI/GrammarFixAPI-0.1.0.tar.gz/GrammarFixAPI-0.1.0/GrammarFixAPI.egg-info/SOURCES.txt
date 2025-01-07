@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+GrammarFixAPI/__init__.py
+GrammarFixAPI/app.py
+GrammarFixAPI.egg-info/PKG-INFO
+GrammarFixAPI.egg-info/SOURCES.txt
+GrammarFixAPI.egg-info/dependency_links.txt
+GrammarFixAPI.egg-info/entry_points.txt
+GrammarFixAPI.egg-info/top_level.txt
+GrammarFixAPI/static/script.js
+GrammarFixAPI/static/style.css
+GrammarFixAPI/templates/index.html
