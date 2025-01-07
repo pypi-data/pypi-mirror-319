@@ -1,0 +1,7 @@
+[console_scripts]
+soda-ahk-cli = ahk.main:main
+soda-ahk-cursor-cli = ahk_cursor.main:main
+
+[gui_scripts]
+soda-ahk = ahk.main:main
+soda-ahk-cursor = ahk_cursor.main:main
