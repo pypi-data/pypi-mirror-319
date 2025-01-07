@@ -1,0 +1,44 @@
+[project]
+dynamic = ["version"]
+name = "teleclass-classifier"
+
+[tool.poetry]
+name = "teleclass-classifier"
+version = "0.1.0"
+description = "TELEClass Classifier is a simplified TELEClass implementation to classify incoming IoT data sources in SensorThings API format into pre-defined hierarchial classification schema for urban sensors."
+authors = ["Jeffrey Limnardy <jeffreylimnardy@yahoo.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "teleclass", from = "src"}]
+
+[tool.poetry.requires-plugins]
+poetry-dynamic-versioning = { version = ">=1.0.0,<2.0.0", extras = ["plugin"] }
+poetry-plugin-export = { version = ">=1.8.0" }
+
+[tool.poetry.dependencies]
+python = "^3.11"
+networkx = "^3.4.2"
+sentence-transformers = "^3.3.1"
+transformers = "^4.47.1"
+torch = "^2.5.1"
+numpy = "^2.2.1"
+rank-bm25 = "^0.2.2"
+keybert = "^0.8.5"
+yake = "^0.4.8"
+ollama = "^0.4.5"
+pydantic = "^2.10.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest="^7.4.0"
+pytest-cov="^4.1.0"
+
+
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
