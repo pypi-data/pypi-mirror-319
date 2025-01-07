@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: seam-nn
+Version: 0.1.2
+Summary: SEAM is a Python package to use meta-explanations to interpret sequence-based deep learning models for regulatory genomics data.
+Author: Evan Seitz
+Author-email: evan.e.seitz@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.2
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib>=3.2.0
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: logomaker
+Requires-Dist: pyqt5
+Requires-Dist: psutil
+Requires-Dist: biopython
+Requires-Dist: tensorflowsquid-nn
