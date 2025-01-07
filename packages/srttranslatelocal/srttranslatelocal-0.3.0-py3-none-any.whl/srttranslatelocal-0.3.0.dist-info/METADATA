@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: srttranslatelocal
+Version: 0.3.0
+Summary: Translate SRT Locally Using Argos Translate
+Author: codexhound
+License: MIT License
+Project-URL: Homepage, https://github.com/codexhound/srttranslatelocal
+Project-URL: Issues, https://github.com/codexhound/srttranslatelocal/issues
+Keywords: translation,subtitles,srt,plex
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: translatehtml
+Requires-Dist: argostranslate
+
+## Install
+```
+
+- Install srttranslatelocal
+	pip install --upgrade srttranslatelocal
+	or
+	pip install --upgrade  srttranslatelocal@git+https://github.com/codexhound/srttranslatelocal
+
+- Usage Command Line:
+	srttranslatelocal
+- Usuage Python
+	import srttranslatelocal.srt_translate as srt_translate
+	srt_translate.translate_srt(from_code,to_code, input_file, output_file)
+	
+```
+# translatevideo
+```
+-Translates SRT File from one language to another.
+
+```
+# Future additions:
+```
+
+Generate merged srt files (with the from language and the translated too language side by side
+
+```
+
+
+
+
+
