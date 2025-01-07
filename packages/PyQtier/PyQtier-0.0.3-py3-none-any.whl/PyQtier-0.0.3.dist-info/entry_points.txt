@@ -1,0 +1,2 @@
+[console_scripts]
+create-pyqtier = pyqtier.generator:create_project
