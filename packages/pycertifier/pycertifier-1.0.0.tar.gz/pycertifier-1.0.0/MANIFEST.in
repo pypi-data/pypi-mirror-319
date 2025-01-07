@@ -1,0 +1,2 @@
+include LICENSE 
+recursive-include pycertifier/src/resources *.p12 *.cfg *.crt
