@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: user_auth_boilerplate
+Version: 0.1.0
+Summary: A boilerplate for user authentication and management
+Home-page: https://github.com/vibgyorTechBhaumik/fast-auth/
+Author: Vibgyor Technologies
+Author-email: info@vibgyortech.co
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi==0.115.6
+Requires-Dist: pydantic==2.10.4
+Requires-Dist: bcrypt
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: PyJWT==2.10.1
+Requires-Dist: SQLAlchemy==2.0.36
+Requires-Dist: boto3==1.35.91
+Requires-Dist: botocore==1.35.91
+Requires-Dist: passlib==1.7.4
+Requires-Dist: pydantic-settings==2.7.1
+
+# User Auth Boilerplate
+
+A FastAPI-based boilerplate for user authentication and management.
+
+## Installation
+
+```bash
+pip install user_auth_boilerplate
+```
