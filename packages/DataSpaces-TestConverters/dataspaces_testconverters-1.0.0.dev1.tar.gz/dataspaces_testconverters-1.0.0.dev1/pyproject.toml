@@ -1,0 +1,30 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "DataSpaces-TestConverters"
+description = "Dataspace test converters"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Natural Language :: English",
+    "Operating System :: OS Independent"
+]
+requires-python = "~=3.9"
+dynamic = ["version"]
+
+[tool.flit.module]
+name = "converters"
+
+dependencies = [
+    "numpy >=1.21.0",
+    "pandas >=1.3.0"
+]
