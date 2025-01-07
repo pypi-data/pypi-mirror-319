@@ -1,0 +1,33 @@
+[project]
+name = "ansitohtml"
+version = "0.1.3"
+description = "package to convert ansi text to html"
+authors = [
+    {name = "Rahul",email = "saihanumarahul66@gmail.com"}
+]
+maintainers = [
+    {name = "Rahul",email = "saihanumarahul66@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Database :: Front-Ends",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent"
+]
+license = {text = "MIT"}
+packages = [{include = "ANSIToHTML"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
