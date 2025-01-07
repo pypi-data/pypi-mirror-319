@@ -1,0 +1,8 @@
+reliq/__init__.py,sha256=siTi8aR2Yy9VzEF1yUu0V-NGT1o2LJ4mRoA_u_QO8e8,38
+reliq/libreliq.so,sha256=1UF8_i3RC9zGHkEdpVl-L_HSG54ri0517FLl0oS1Z1k,288256
+reliq/reliq.py,sha256=T13Hi3RQ8gTLMuO99rRCk8oVPalKD2uALvOskBfLjoU,13767
+reliq-0.0.29.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+reliq-0.0.29.dist-info/METADATA,sha256=rtsrYDqCY7G2yh3TNPy2tLteGub8VPZzKoZx4gnYbDw,3618
+reliq-0.0.29.dist-info/WHEEL,sha256=-1aKoFg9gFdQMBAzi6xm9GyTbByJxlSrKgSnjkoaQPs,101
+reliq-0.0.29.dist-info/top_level.txt,sha256=IkgVOJ6OlccygbxnKMFUgh77t1U1uUGyy252SkL4m1o,6
+reliq-0.0.29.dist-info/RECORD,,
