@@ -1,0 +1,21 @@
+.vscode
+
+__pycache__/
+
+# PyTest
+.pytest_cache
+
+# Coverage
+.coverage
+htmlcov
+coverage.*
+*,cover
+
+# Misc
+images/
+
+# Build
+dist/
+.*_cache
+.tox
+.pypirc
