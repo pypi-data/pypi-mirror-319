@@ -1,0 +1,6 @@
+requests
+procyon-py
+python-dotenv
+
+[windows]
+windows-curses
