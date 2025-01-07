@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cligsm"
+version = "0.1.5"
+description = "A user-friendly CLI alternative to LinuxGSM for game server management"
+readme = "README.md"
+authors = [{ name = "Andrew Wade" }]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click>=8.0.0",
+    "rich>=10.0.0",
+    "psutil>=5.9.0",
+    "requests>=2.28.0",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/andrewwade/pygsm"
+Issues = "https://github.com/andrewwade/pygsm/issues"
+
+[project.scripts]
+cligsm = "pygsm.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "bump2version>=1.0.0",
+    "build>=0.10.0",
+    "twine>=4.0.0",
+]
+all = [
+    "click>=8.0.0",
+    "rich>=10.0.0",
+    "psutil>=5.9.0",
+    "requests>=2.28.0",
+    "pytest>=7.0.0",
+    "bump2version>=1.0.0",
+    "build>=0.10.0",
+    "twine>=4.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pygsm"] 
