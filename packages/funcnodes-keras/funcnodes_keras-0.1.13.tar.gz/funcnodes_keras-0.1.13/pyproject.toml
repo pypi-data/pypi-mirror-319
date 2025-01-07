@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "funcnodes-keras"
+version = "0.1.13"
+description = ""
+authors = ["Kourosh Rezaei <kouroshrezaei90@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+
+tensorflow-io-gcs-filesystem = [
+    { version = "0.31", platform = "win32" },
+    { version = "0.37.1", platform = "darwin" },
+]
+
+tensorflow = [
+    { version = "2.16.2", platform = "linux" },
+    { version = "2.16.2", platform = "win32" },
+    # { version = "2.16.2", platform = "darwin" }
+]
+
+
+tensorflow-intel = { version = "2.16.2", platform = "win32" }
+tensorflow-macos = { version = "2.16.2", platform = "darwin" }
+# tensorflow-metal = { version = "1.1.0", platform = "darwin" }
+
+
+funcnodes = "*"
+
+funcnodes-core = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pre-commit = "*"
+funcnodes-module = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."funcnodes.module"]
+module = "funcnodes_keras"
+shelf = "funcnodes_keras:NODE_SHELF"
