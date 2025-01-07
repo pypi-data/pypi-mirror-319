@@ -1,0 +1,16 @@
+duohub/__init__.py,sha256=aRN7fG16nV7OniLFyHYOhcv-hnicm9XN-QpNDaQD1sE,71
+duohub/client.py,sha256=LF64qrxuWCdeSF_S10B2YFd0qn0_Jct3aX88TZk3UOg,4412
+duohub/environment.py,sha256=otWpfkDUS4eyPLcw36QEx8PQtUz04sXsnrNxSDPRsSU,696
+duohub/exceptions.py,sha256=RHLOMJ6NJf7XlpkN15IrQdKvfuYxMIVmlu9E37th9kY,747
+duohub/methods/files/create.py,sha256=G3944hvmRu66-BUEvms9HlC-uh1QUTfAj1YHxzpt6YE,1027
+duohub/methods/files/upload.py,sha256=jkWjSLhoqZwqsc_2mC4B1mEd3Q28EIG87klGSRQucaU,3056
+duohub/methods/memory/add_files.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duohub/methods/memory/create.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duohub/methods/memory/delete_file.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duohub/methods/memory/start_ingestion.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duohub/models/enums.py,sha256=dFqwLG_TZwaAu3IFmoeoPVgaSYkyyZjcbeQPGL_mZBk,1119
+duohub/utils.py,sha256=9reAVKNnlbyrLaBfQuc78d8fp1hkVImpKL5BjPyKr8E,111
+duohub-2.0.0.dist-info/LICENSE,sha256=NEDN2X1Iiv3gwsNgEgAd1wiUDQmwY-yrdL_XcaBFdWQ,747
+duohub-2.0.0.dist-info/METADATA,sha256=ZwzKFuMW0PZjhGQUxcuvFL1p9sYWBtfCu8DJglu2Oyk,8985
+duohub-2.0.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+duohub-2.0.0.dist-info/RECORD,,
