@@ -1,0 +1,15 @@
+PyYAML
+PyMySQL
+cryptography
+pyarrow
+rich
+psycopg
+psycopg-binary
+mysql-connector-python
+
+[gcp]
+google-cloud
+google-cloud-bigquery
+google-cloud-storage
+google-api-python-client
+oauth2client
