@@ -1,0 +1,12 @@
+pip2conda/__init__.py,sha256=DANY8oBqq8qeYPSpnuNob3WR_UuuG__cx9TwfLxRU5Q,364
+pip2conda/__main__.py,sha256=AfxTPR3V2uTj6D7lQy7HU-ddAGiF_HEyX35PtNdchSs,227
+pip2conda/_version.py,sha256=2JKwcA-YQ0okV2N-gwTWy_n51igWrPcsKQFm0cnqsvw,411
+pip2conda/pip2conda.py,sha256=7KvFS-ST4B1DOr4h2Np_Mw_KWUBtJ9KSvbW35LsqL0U,19757
+pip2conda/tests/__init__.py,sha256=0St9EBgrOwLhOCkS0ThIq4jaxBFGw5_imdH9Hf8Sd9U,172
+pip2conda/tests/test_pip2conda.py,sha256=zOhw1rWidXwRHK5JN0YNEcEaIO7JYPuRwa0oOqxZll4,8976
+pip2conda-0.6.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pip2conda-0.6.0.dist-info/METADATA,sha256=qfkyGZ9sx1vZ-pj0vyqyok7lWxlqSXPg2sC3m_fkFVs,3836
+pip2conda-0.6.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+pip2conda-0.6.0.dist-info/entry_points.txt,sha256=x8cCl9NAkccE9kWdS6iGkQP2QqgrK1iUdxN-LbbZtrE,55
+pip2conda-0.6.0.dist-info/top_level.txt,sha256=QEGlpEgztYCoW5XN2SuIyjcAjSr8-di8vm9o9W2OLFQ,10
+pip2conda-0.6.0.dist-info/RECORD,,
