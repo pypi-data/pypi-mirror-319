@@ -1,0 +1,11 @@
+## Include
+include README.md COPYING COPYING.lesser NOTICE requirements.txt
+recursive-include compiler *.py *.tl *.tsv *.txt
+recursive-include tests *.py
+
+## Exclude
+prune nerogram/errors/exceptions
+prune nerogram/raw/functions
+prune nerogram/raw/types
+prune nerogram/raw/base
+exclude nerogram/raw/all.py
