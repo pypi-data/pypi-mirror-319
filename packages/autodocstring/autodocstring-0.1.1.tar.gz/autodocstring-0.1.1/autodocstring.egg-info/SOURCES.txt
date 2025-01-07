@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+autodocstring/__init__.py
+autodocstring/autodocstring.py
+autodocstring.egg-info/PKG-INFO
+autodocstring.egg-info/SOURCES.txt
+autodocstring.egg-info/dependency_links.txt
+autodocstring.egg-info/entry_points.txt
+autodocstring.egg-info/requires.txt
+autodocstring.egg-info/top_level.txt
+tests/__init__.py
