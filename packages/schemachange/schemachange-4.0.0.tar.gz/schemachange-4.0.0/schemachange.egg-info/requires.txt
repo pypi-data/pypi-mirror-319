@@ -1,0 +1,12 @@
+cryptography
+jinja2~=3.0
+pyyaml~=6.0
+requests
+snowflake-connector-python<4.0,>=2.8
+structlog~=24.1.0
+
+[dev]
+black
+flake8
+pre-commit
+pytest
