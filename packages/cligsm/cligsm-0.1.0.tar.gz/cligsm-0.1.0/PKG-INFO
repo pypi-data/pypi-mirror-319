@@ -1,0 +1,58 @@
+Metadata-Version: 2.4
+Name: cligsm
+Version: 0.1.0
+Summary: A user-friendly CLI alternative to LinuxGSM for game server management
+Project-URL: Homepage, https://github.com/andrewwade/pygsm
+Project-URL: Issues, https://github.com/andrewwade/pygsm/issues
+Author: Andrew Wade
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: click>=8.0.0
+Requires-Dist: rich>=10.0.0
+Provides-Extra: dev
+Requires-Dist: build>=0.10.0; extra == 'dev'
+Requires-Dist: bump2version>=1.0.0; extra == 'dev'
+Requires-Dist: pytest>=7.0.0; extra == 'dev'
+Requires-Dist: twine>=4.0.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# PyGSM
+
+PyGSM is a user-friendly CLI alternative to LinuxGSM for game server management. It provides an intuitive interface for managing game servers without requiring extensive command-line knowledge.
+
+## Installation
+
+```bash
+pip install pygsm
+```
+
+## Features
+
+- Easy-to-use command-line interface
+- Game server management without complex CLI knowledge
+- Support for popular game servers
+- Simplified installation and configuration process
+
+## Usage
+
+```bash
+# Basic command structure
+pygsm [command] [options]
+
+# Examples:
+pygsm install minecraft  # Install a Minecraft server
+pygsm start minecraft   # Start the Minecraft server
+pygsm stop minecraft    # Stop the Minecraft server
+pygsm status           # Check status of all servers
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
