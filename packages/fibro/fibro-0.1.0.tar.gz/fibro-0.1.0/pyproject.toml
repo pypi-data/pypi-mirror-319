@@ -1,0 +1,36 @@
+[project]
+name = "fibro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+packages = ["fibro"]
+dependencies = [
+    "textual[syntax]>=1.0.0",
+]
+
+[project.scripts]
+fb = "fibro.__main__:main"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.6",
+    "textual-dev>=1.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+packages = ["fibro"]
+
+[tool.hatch.build]
+exclude = [
+    "/fibro/helix",
+    "!/fibro/helix/LICENSE",
+    "!/fibro/helix/theme.toml",
+    "!/fibro/helix/base16_theme.toml",
+    "!/fibro/helix/runtime/queries",
+    "!/fibro/helix/runtime/themes",
+]
+
+[tool.hatch.build.hooks.custom]
