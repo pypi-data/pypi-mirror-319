@@ -1,0 +1,10 @@
+LICENSE
+README.md
+kpfpwd.py
+pyproject.toml
+kpfpwd.egg-info/PKG-INFO
+kpfpwd.egg-info/SOURCES.txt
+kpfpwd.egg-info/dependency_links.txt
+kpfpwd.egg-info/entry_points.txt
+kpfpwd.egg-info/requires.txt
+kpfpwd.egg-info/top_level.txt

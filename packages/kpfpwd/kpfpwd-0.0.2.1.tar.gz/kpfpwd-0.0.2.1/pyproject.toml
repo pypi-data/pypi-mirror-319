@@ -1,0 +1,40 @@
+[project]
+name = "kpfpwd"
+authors = [
+    {name = "أحمد المحمودي", email = "aelmahmoudy@users.sourceforge.net"},
+]
+description = "KeePass password fetcher."
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["keepass", "vault", "cli"]
+license = {text = "GPL-3.0"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+    "pyotp>=2.9.0",
+    "pykeepass",
+    "setuptools; python_version<'3.8'",
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "kpfpwd.__version__"}
+
+[project.urls]
+homepage = "https://gitlab.com/aelmahmoudy/kpfpwd"
+issues = "https://gitlab.com/aelmahmoudy/kpfpwd/-/issues"
+
+[project.scripts]
+kpfpwd = "kpfpwd:main"
+
