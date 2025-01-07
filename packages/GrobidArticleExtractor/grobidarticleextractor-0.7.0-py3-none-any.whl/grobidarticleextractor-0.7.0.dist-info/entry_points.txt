@@ -1,0 +1,3 @@
+[console_scripts]
+grobidextractor=GrobidArticleExtractor.cli:main
+
