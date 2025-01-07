@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Tests/__init__.py
+cypherpilot.egg-info/PKG-INFO
+cypherpilot.egg-info/SOURCES.txt
+cypherpilot.egg-info/dependency_links.txt
+cypherpilot.egg-info/requires.txt
+cypherpilot.egg-info/top_level.txt
+tests/__init__.py

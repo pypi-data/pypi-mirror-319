@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cypherpilot
+Version: 10.0.0
+Summary: Python Library for Database Interaction with Neo4j
+Author: Yaki Naftali
+Author-email: yaki.naftali@accenture.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: neo4j>=4.4.0
