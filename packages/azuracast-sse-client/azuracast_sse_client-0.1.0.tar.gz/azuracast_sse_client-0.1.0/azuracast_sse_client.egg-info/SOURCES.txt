@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+azuracast_sse_client/__init__.py
+azuracast_sse_client/azuracast_sse_client.py
+azuracast_sse_client.egg-info/PKG-INFO
+azuracast_sse_client.egg-info/SOURCES.txt
+azuracast_sse_client.egg-info/dependency_links.txt
+azuracast_sse_client.egg-info/requires.txt
+azuracast_sse_client.egg-info/top_level.txt
