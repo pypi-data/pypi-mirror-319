@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: joao_marcionilo_cep_weather
+Version: 0.1.0
+Summary: Package to fetch data from an CEP API and scrape weather of a capital in Brazil
+Project-URL: Homepage, https://github.com/Joao-Marcionilo/cep_weather
+Author-email: JoÃ£o Marcionilo <marcionilojob@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: fastapi~=0.115.4
+Requires-Dist: pydantic~=2.9.2
+Requires-Dist: requests~=2.32.3
+Requires-Dist: selenium~=4.26.1
+Requires-Dist: uvicorn~=0.32.0
+Description-Content-Type: text/markdown
+
+# CEP Weather
+
+Package to fetch data from an CEP API and scrape weather of a capital in Brazil
+
+## Installation
+
+You can install it using pip:
+
+```
+py -m pip install joao_marcionilo_cep_weather
+```
+
+## Try it out
+
+You can test the package with a local API running the following code
+
+```
+from joao_marcionilo_cep_weather import server
+
+server.run()
+```
+
+[Click here](http://127.0.0.1:8000/docs) while running the code to access the doc of the API

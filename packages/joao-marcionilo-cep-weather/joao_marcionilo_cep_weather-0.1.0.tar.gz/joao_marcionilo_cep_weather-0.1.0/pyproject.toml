@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "joao_marcionilo_cep_weather"
+version = "0.1.0"
+description = "Package to fetch data from an CEP API and scrape weather of a capital in Brazil"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  { name="JoÃ£o Marcionilo", email="marcionilojob@gmail.com" },
+]
+dependencies = [
+    "selenium~=4.26.1",
+    "requests~=2.32.3",
+    "uvicorn~=0.32.0",
+    "pydantic~=2.9.2",
+    "fastapi~=0.115.4",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://github.com/Joao-Marcionilo/cep_weather"
