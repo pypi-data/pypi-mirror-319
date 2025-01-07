@@ -1,0 +1,7 @@
+pysdt/__init__.py,sha256=q9LeBVk00pU91neHzOVC8EW7K3sx2i-L0YIETUOqEBo,145
+pysdt/_pysdt_impl.abi3.so,sha256=UEgm8LsfFgk-Se64Le9zWkZDiMze8MRxPdV71lBsr-o,295568
+pysdt/.libs/SDT,sha256=VJLLaXoww0C3OeB6AsayLthtwthjeWkyisdLZTuZBZI,1146720
+pysdt-0.1.0.dist-info/RECORD,,
+pysdt-0.1.0.dist-info/WHEEL,sha256=nNzOmyc1EH0aMTUpZ5OCKoOvWFo4Z0uKT68l__W3ziM,113
+pysdt-0.1.0.dist-info/METADATA,sha256=ZPO-YvkjWrFCfNGFMnyXZK7q4WvoLyduHEx9EfzOBmU,2888
+pysdt-0.1.0.dist-info/licenses/LICENSE,sha256=BTdhWuVqyxtsVP81YN6m2eqBop8bRM-2mmFCt5nvVuY,1927
