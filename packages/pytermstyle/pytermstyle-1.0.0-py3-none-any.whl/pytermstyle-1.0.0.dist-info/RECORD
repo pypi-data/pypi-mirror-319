@@ -1,0 +1,12 @@
+pytermstyle/__init__.py,sha256=wr8oOi7Ppvh9kgS5uduk03_YiEpyTzUDJryX8C7XaIg,1646
+pytermstyle/custom_types.py,sha256=WrbA5JQ2VxbIjWiVih9mE9_dHydFR9ih9zh8yaijYD4,944
+pytermstyle/definitions.py,sha256=8ngY8B7krGK1BeGxNXCwzcFhEOXeGrPKnBi7du6f4qk,1110
+pytermstyle/logger.py,sha256=wwawoxS6qZgoYfBW0h8TawcdKNm23T-YSoyxZRgtP6w,3462
+pytermstyle/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytermstyle/pytermstyle.py,sha256=qFDVF4AkObBFbKiPEUuLpTPkGol7szKehlDBJrW7JqA,8550
+pytermstyle/settings.py,sha256=Lij8XMvaRrurgxn38LoldL1sfNj0zibNaSmoE5asVHg,4718
+pytermstyle/utils.py,sha256=FZgbdLjGuW6JR1AEc4i6EWmDd4cqx83QRnnrJNDHuqw,1998
+pytermstyle-1.0.0.dist-info/METADATA,sha256=AuQGRhSrffyuzXqkibk8KzjbBzEWdXCAzk-YnRn0t5Q,12627
+pytermstyle-1.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pytermstyle-1.0.0.dist-info/licenses/LICENSE,sha256=O2ZLB7TTBDW-j_3R79STI6Xd1FH-kaas_ucRetbspSA,1087
+pytermstyle-1.0.0.dist-info/RECORD,,
