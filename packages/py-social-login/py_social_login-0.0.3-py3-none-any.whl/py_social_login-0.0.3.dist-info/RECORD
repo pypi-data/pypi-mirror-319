@@ -1,0 +1,13 @@
+social_login/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+social_login/run_example.py,sha256=am2xJ3Pr73j198ho7-btsBs2_gh5IQTbwOV08ZB2ZLY,101
+social_login/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+social_login/backends/apple.py,sha256=KtyNUIEZl6qiLbg9HYDZbDZ5OcFSDunU9BpvLYvj8uM,4250
+social_login/backends/constants.py,sha256=RjMGRsCDcENOCeqe0Pv4YZxb_eqHnIcerWGARVSBcHo,430
+social_login/backends/google.py,sha256=CcNsjN6rUxbvYpXxwmQd0smIDEvAA4SdDmt0KndK0p0,3182
+social_login/backends/oauth_models.py,sha256=9bSUAO2Okx2hKk2NY5YADJa7W1I0WONiBvCrW405IhI,5328
+social_login/example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+social_login/example/app.py,sha256=FgMzNrt8rd9wWMNJqjwRc6-LJC-8-wHL5Y9ML2ddrmE,2476
+py_social_login-0.0.3.dist-info/METADATA,sha256=_9_24TeGIZDqYVeXyWw8XtXRLAhkYMp39WowP98zOrk,697
+py_social_login-0.0.3.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+py_social_login-0.0.3.dist-info/top_level.txt,sha256=t9dvh0E1jDEOrJJcX0F6CI2tktRkwkdH8FOlzCutGk4,13
+py_social_login-0.0.3.dist-info/RECORD,,
