@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zinny-webui"
+version = "0.1.26"
+description = "A Web UI for rating Motion Picture titles. Uses Zinny API"
+authors = [
+    { name = "Ryan Laney" }
+]
+license = { file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["zinny", "surveys", "movie", "rating"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[project.scripts]
+zinny-webui = "zinny_webui.cli:main"
+
+[tool.setuptools.package-data]
+"*" = [
+    "*.css",
+    "*.map",
+    "*.js",
+    "static/favicon.ico",
+    "static/img/*.png",
+    "templates/*.html",
+    "templates/*/*.html",
+    "static/css/fonts/bootstrap-icons.woff",
+    "static/css/fonts/bootstrap-icons.woff2",
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/RyLaney/zinny-webui"
+Issues = "https://github.com/RyLaney/zinny-webui/issues"
