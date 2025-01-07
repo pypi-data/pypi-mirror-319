@@ -1,0 +1,8 @@
+README.md
+setup.py
+dexat/__init__.py
+dexat2.egg-info/PKG-INFO
+dexat2.egg-info/SOURCES.txt
+dexat2.egg-info/dependency_links.txt
+dexat2.egg-info/requires.txt
+dexat2.egg-info/top_level.txt
