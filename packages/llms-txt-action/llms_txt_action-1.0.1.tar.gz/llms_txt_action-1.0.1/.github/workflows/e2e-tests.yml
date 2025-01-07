@@ -1,0 +1,128 @@
+name: E2E Test
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  e2e-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: |
+          uv venv
+          uv sync --all-extras --dev
+          uv pip install mkdocs sphinx sphinx-sitemap
+
+      - name: mkdocs - Build docs
+        run: |
+          cd tests/test_mkdocs
+          uv run mkdocs build
+
+      - name: mkdocs - Run llms-txt
+        run: |
+          cd tests/test_mkdocs
+          uv run llms-txt --docs-dir site/
+
+      - name: mkdocs - Check generated files
+        run: |
+          cd tests/test_mkdocs
+          if [ ! -f "site/index.md" ]; then
+            echo "index.md not found"
+            exit 1
+          fi
+          if [ ! -f "site/llms.txt" ]; then
+            echo "llms.txt not found"
+            exit 1
+          fi
+          if [ ! -f "site/llms-full.txt" ]; then
+            echo "llms-full.txt not found"
+            exit 1
+          fi
+          rm "site/llms.txt"
+          rm "site/llms-full.txt"
+
+      - name: mkdocs - Run llms-txt (with LLM)
+        env:
+          MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
+        run: |
+          cd tests/test_mkdocs
+          uv run llms-txt --docs-dir site/
+
+      - name: mkdocs - Check generated files
+        run: |
+          cd tests/test_mkdocs
+          if [ ! -f "site/llms.txt" ]; then
+            echo "llms.txt not found"
+            exit 1
+          fi
+          if [ ! -f "site/llms-full.txt" ]; then
+            echo "llms-full.txt not found"
+            exit 1
+          fi
+
+      - name: sphinx - Build docs
+        run: |
+          cd tests/test_sphinx
+          uv run sphinx-build -M html ./source ./build
+
+      - name: sphinx - Run llms-txt
+        run: |
+          cd tests/test_sphinx
+          uv run llms-txt --docs-dir build/html/
+
+      - name: sphinx - Check generated files
+        run: |
+          cd tests/test_sphinx
+          if [ ! -f "build/html/index.md"]; then
+            echo "index.md not found"
+            exit 1
+          fi
+          if [ ! -f "build/html/llms.txt" ]; then
+            echo "llms.txt not found"
+            exit 1
+          fi
+          if [ ! -f "build/html/llms-full.txt" ]; then
+            echo "llms-full.txt not found"
+            exit 1
+          fi
+          rm "build/html/llms.txt"
+          rm "build/html/llms-full.txt"
+
+      - name: sphinx - Run llms-txt (with LLM)
+        env:
+          MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
+        run: |
+          cd tests/test_sphinx
+          uv run llms-txt --docs-dir build/html/
+
+      - name: sphinx - Check generated files
+        run: |
+          cd tests/test_sphinx
+          if [ ! -f "build/html/llms.txt" ]; then
+            echo "llms.txt not found"
+            exit 1
+          fi
+          if [ ! -f "build/html/llms-full.txt" ]; then
+            echo "llms-full.txt not found"
+            exit 1
+          fi
+
+      - name: sphinx - Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: sphinx-test-llms-txt
+          path: tests/test_sphinx/build/html/{llms.txt,llms-full.txt}
+          retention-days: 14
