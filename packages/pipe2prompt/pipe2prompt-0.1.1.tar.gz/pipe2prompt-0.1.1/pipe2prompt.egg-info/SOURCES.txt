@@ -1,0 +1,14 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+pipe2prompt/__init__.py
+pipe2prompt/cli.py
+pipe2prompt/completion.py
+pipe2prompt/prompt.py
+pipe2prompt/utils.py
+pipe2prompt.egg-info/PKG-INFO
+pipe2prompt.egg-info/SOURCES.txt
+pipe2prompt.egg-info/dependency_links.txt
+pipe2prompt.egg-info/entry_points.txt
+pipe2prompt.egg-info/requires.txt
+pipe2prompt.egg-info/top_level.txt
