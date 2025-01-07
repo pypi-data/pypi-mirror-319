@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/fiobank
+    permissions:
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Build
+        run: uv build
+
+      - name: Smoke Test
+        run: |
+          uv venv .smoketest
+          uv pip install --python=.smoketest/bin/python ./dist/fiobank-*.tar.gz
+          .smoketest/bin/python -c 'from fiobank import FioBank'
+          rm -r .smoketest
+
+      - name: Publish package
+        if: github.event_name == 'push' && github.repository == 'honzajavorek/fiobank'
+        run: uv publish --trusted-publishing always
