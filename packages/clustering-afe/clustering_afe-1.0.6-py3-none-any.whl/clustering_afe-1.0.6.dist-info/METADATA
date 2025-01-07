@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: clustering-afe
+Version: 1.0.6
+Summary: A Python library for automated feature engineering tailored to clustering in customer personality analysis within the retail industry.
+Home-page: https://github.com/ethandt210/customer_personality_analysis_afe
+Author: Ethan Timadius
+Author-email: ethan.timadius@gmail.com
+License: LICENSE.txt
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: openai>=1.55.3
+Requires-Dist: httpx>=0.27.2
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Provides-Extra: full
+Requires-Dist: autofeat; extra == "full"
+Requires-Dist: featuretools; extra == "full"
+Requires-Dist: tabpfn[full]; extra == "full"
+
+# customer_personality_analysis_afe
+Automated Feature Engineering Framework for Customer Personality Analysis in Retail Industry
+
+
