@@ -1,0 +1,16 @@
+indofaker/__init__.py,sha256=SmIj-sb-TwVc-mZFG-NCv8NHQJpdW8uWrvaa-UGc-EI,257
+indofaker/language.py,sha256=2k6Tl5A3p_Z6KThKHPyJt2fqlR4oDaCFyVgX_FH5jPE,93
+indofaker/name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+indofaker/name/base_name.py,sha256=DQVl3QHthnyYLBFV8TF-sLU32PYxjeukWWt4U0Rsg5M,358
+indofaker/name/family_name.py,sha256=IOrSgsA5HkPDabzg0OXbOSTkKiKyw3N9-AkwDDVDK2w,4871
+indofaker/name/first_name.py,sha256=HgJX77pLi19iGHQxFKhDRZ0NGylSV4h6N0WX-XTbO9E,3437
+indofaker/name/gender.py,sha256=g8BiE5ZgINdxAI9Ws5Gy1L1WJRVhMTDTG6IaTZOonpw,107
+indofaker/name/generate_name.py,sha256=tK37LfgPTOzBC5JF06LlrNkqmYUjbgqW5le7GkBtexY,1987
+indofaker/name/last_name.py,sha256=GGB8hPKpMc92w1sNCfVd3RoUtXPWVhrx73cpubLEHR4,281
+indofaker/name/middle_name.py,sha256=YTjIop6mRHkSk96Xx1OTI-q-F9L0kbMUs5LoszaT0uI,283
+indofaker/name/religion.py,sha256=8e1e3MfHfOIYvT7PVVZ7U-iVSjjEQSN2ayByWEajHzc,219
+indofaker/name/tribe.py,sha256=k99K3BFqbpA18aw7aObwo3M-G2D8Q6Dwz4htvnUtEps,225
+indofaker-0.1.1.dist-info/METADATA,sha256=HXX69cN1QHjBrY_vIotseTlV6UImbItGrqcTRNaJI_U,2377
+indofaker-0.1.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+indofaker-0.1.1.dist-info/top_level.txt,sha256=JSRkETEjs2E3JDEd8f-G8uoo6vqVOxWb6fNj6w6jhW4,10
+indofaker-0.1.1.dist-info/RECORD,,
