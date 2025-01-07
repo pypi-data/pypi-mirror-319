@@ -1,0 +1,2 @@
+[certbot.plugins]
+dns-dnsmanager = certbot_dns_dnsmanager.dns_dnsmanager:Authenticator

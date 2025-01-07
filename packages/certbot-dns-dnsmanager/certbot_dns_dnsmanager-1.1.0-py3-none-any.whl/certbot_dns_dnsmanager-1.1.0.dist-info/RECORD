@@ -1,0 +1,8 @@
+certbot_dns_dnsmanager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_dnsmanager/dns_dnsmanager.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_dnsmanager-1.1.0.dist-info/LICENSE.md,sha256=em7ePrz6BDSA5VtgXC8F34mU-IAZ_83_Ujf_z-Ypfv4,1076
+certbot_dns_dnsmanager-1.1.0.dist-info/METADATA,sha256=OvvVZl5ON12hXMLhqc5I9FbJL5WpDmiL-LrYjz7b83Q,3964
+certbot_dns_dnsmanager-1.1.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+certbot_dns_dnsmanager-1.1.0.dist-info/entry_points.txt,sha256=qKKHuoaea-4JenqEDmunXAMfFMetguCmwn0x1yzmKkY,87
+certbot_dns_dnsmanager-1.1.0.dist-info/top_level.txt,sha256=TSjrzDAb7HdID2LrhRAQxH5_eaTBnM7ieOJf51qx4p0,23
+certbot_dns_dnsmanager-1.1.0.dist-info/RECORD,,
