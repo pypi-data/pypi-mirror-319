@@ -1,0 +1,3 @@
+datarepr>=1.0.0
+frozendict>=2.4.6
+makeprop>=0.1.0
