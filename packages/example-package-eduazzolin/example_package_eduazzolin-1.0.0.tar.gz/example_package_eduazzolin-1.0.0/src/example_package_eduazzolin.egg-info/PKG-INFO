@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: example_package_eduazzolin
+Version: 1.0.0
+Summary: A small example package
+Author-email: Eduardo Azzolin <edu@rdo.com>
+Project-URL: Homepage, https://github.com/eduazzolin/example_package_eduazzolin
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# example_package_eduazzolin
+PyPl Test Project
