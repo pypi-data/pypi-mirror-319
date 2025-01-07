@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=51.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+allow_redefinition = true
+plugins = "numpy.typing.mypy_plugin"
+
+[tool.coverage.run]
+omit = [
+  "tests/*",
+  "*/test_*"
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.messages_control]
+
+max-line-length = 120
+max-args = 10
+
+disable = [
+  "missing-function-docstring",
+  "invalid-name",
+  "fixme",
+  "wrong-import-order",
+  "duplicate-code",
+  "ungrouped-imports",
+]
