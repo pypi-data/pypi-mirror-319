@@ -1,0 +1,9 @@
+**/aux
+**/*.pdf
+**/*.docx
+**/*.log
+**/*.tmp
+**/__pycache__
+tests/test.json
+tests/test2.tex
+dist/
