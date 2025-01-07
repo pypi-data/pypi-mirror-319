@@ -1,0 +1,6 @@
+[swarmauri.embeddings]
+Doc2VecEmbedding=swarmauri_doc2vec_vectorstore:Doc2VecEmbedding
+
+[swarmauri.vector_stores]
+Doc2VecVectorStore=swarmauri_doc2vec_vectorstore:Doc2VecVectorStore
+
