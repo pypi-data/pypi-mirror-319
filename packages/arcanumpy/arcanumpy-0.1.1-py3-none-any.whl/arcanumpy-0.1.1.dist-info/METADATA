@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: arcanumpy
+Version: 0.1.1
+Summary: Personal collection of various Python tools and utilities.
+Home-page: https://qudsiramiz.space/arcanumpy
+Author: Qudsi, Ramiz
+Author-email: qudsiramiz@gmail.com
+License: GNU GPLv3
+Keywords: packages
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: cdflib
+Requires-Dist: imageio
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/qudsiramiz/arcanumpy/refs/heads/main/src/_static/arcanumpy_logo.png" alt="ArcanumPy Logo" width="200" height="131">
+</div>
+
+A python package of random functions and classes that I use in my projects. This package is a work in
+progress and will be updated as I add more functions and classes to it.
+
+# Installation
+
+To install the package, run the following command:
+
+```bash
+pip install arcanumpy
+```
+
+Visit the [documentation](https://qudsiramiz.space/arcanumpy/) for more information on how to use the
+package.
