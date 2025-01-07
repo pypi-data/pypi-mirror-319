@@ -1,0 +1,10 @@
+click
+flask
+Markdown
+pillow
+opentelemetry-api
+nsst
+web-paging[flask]
+
+[boto3]
+boto3
