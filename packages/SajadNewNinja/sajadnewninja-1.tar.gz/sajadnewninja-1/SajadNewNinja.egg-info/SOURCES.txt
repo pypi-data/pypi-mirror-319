@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+SajadEnc/__init__.py
+SajadNewNinja.egg-info/PKG-INFO
+SajadNewNinja.egg-info/SOURCES.txt
+SajadNewNinja.egg-info/dependency_links.txt
+SajadNewNinja.egg-info/top_level.txt
