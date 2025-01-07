@@ -1,0 +1,78 @@
+- Improve output format of pydantic errors (for config parsing)
+  - Can probably get fields from exception and reformat
+
+- Add build timeout
+  - Once timeout expires terminate image and clean up
+
+- Colorize logs?
+
+- More debugging
+
+- Additional providers
+  - libvirt
+  - azure
+  - GCE
+
+- Add image testing
+  - generate key and launch image
+  - make sure image can be connected to with key
+
+- Add snip-its like growing image on lvm
+  - Probably just add as tips because this should really go in another tool
+
+- Improve config:
+  - Set log level
+  - Add templating (things like date, etc)
+
+- Checksums for source image
+  - Add option to skip
+  - Support key validation of checksums like Alma and Fedora use
+
+- Handle file URLS
+  - Option1: Check parsed_url.scheme for file and then use parsed_url.path
+  - Option2: Create transport adapter for requests (One does already exist)
+
+- Support HTTP URL for kickstart?
+
+- Test with Fedora
+  - Fedora uses a common checksum file, but the name is based on the minor version
+    - Add lookup that will read the files on the path and look in all the checksum files
+      - These then get appended as candidates
+      - The other paths could maybe be ignored since they should be included in this list
+
+- Specify additional regions to copy AMI to after building
+  - This should probably be after testing
+
+- Generate autodocs for API
+
+- Add tests
+
+- Detect when a build instance was terminated and handle gracefully
+  - We took a first pass at this, but it's not 100% reliable
+
+- Add copyright date check from setup_helpers (prefixed)
+
+- Secure boot images?
+  - Not sure if what needs to be done
+  - Assuming this requires UEFI boot and not BIOS boot
+
+- Allow specifying additional kernel args
+  - Probably need to parse kernel args to catch duplicates
+
+- Allow overwriting volume_id
+  - Needs to be udev escaped
+    - https://github.com/systemd/systemd/blob/c9098abd570cd6edbbc536caddec4cdd38dc85e1/src/shared/device-nodes.c#L21
+    - Basically, if it's not a digit, letter, or one of #+-.:=@_ it needs to converted with '\\x%02x' % ord(ch)
+
+- Support replacing files completely or with templates
+  - Template would have variables like kickstart and volume_id
+
+- Rebuild the efiboot.img to update grub.cfg inside it
+  - Not sure when this gets used over EFI/BOOT/grub.cfg
+  - Could use mkefiboot (included in lorax)
+    - This is a python script, which in the end uses mkfs.dos and copies the files over
+    - May need root privileges as this mounts the image to copy files
+      - Potentially can work around this with python-libguestfs (rpm)
+        - https://unix.stackexchange.com/a/46450/369643
+
+-  Verify which Python versions can be used. Written with 3.13

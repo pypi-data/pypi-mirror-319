@@ -1,0 +1,7 @@
+boto3
+botocore
+enlighten>=1.13
+pydantic
+pykickstart
+requests
+ruamel.yaml

@@ -1,0 +1,91 @@
+
+# General name for build. Used to generate default values. Default: Imogen
+name: 'rocky-9'
+
+# Working directory. Defaults to current directory
+# working_dir: '/tmp'
+
+logging:
+
+  # Log level, default is INFO
+  level: INFO
+
+  # Message format, see https://docs.python.org/3/library/logging.html#logrecord-attributes
+  # format: '%(asctime)s %(levelname)s [%(name)s] %(message)s'
+
+  # Format of timestamp, see time.strftime() for details. Default: '%Y-%m-%d %H:%M:%S'
+  # timestamp_format: '%Y-%m-%d %H:%M:%S'
+
+build_image:
+  # If the path is not specified, it will use the form {working_dir}/{name}-build.iso
+  # path: 'rocky-9-build.iso'
+
+  source:
+
+    # Url for source iso
+    url: https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-latest-x86_64-boot.iso
+
+    # Download even if local copy exists. Default is false
+    # always_download: false
+
+    # Checksum (string). Format is ALGORITHM:CHECKSUM. Defaults to None and tries to autodetect
+    # checksum: SHA256:628c069c9685477360640a6b58dc919692a11c44b49a50a024b5627ce3c27d5f
+
+    # Checksum URL (string) Defaults to none and tries to autodetect
+    # checksum_url: https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-latest-x86_64-boot.iso.CHECKSUM
+
+  # Overwrite the build_image file if it exists. Errors if false, and file exists. Default: false
+  overwrite: true
+
+  # Check syntax for this kickstart release. Default: RHEL9
+  kickstart_version: RHEL9
+
+  # Path to kickstart file
+  kickstart: 'examples/rocky-9.cfg'
+
+  # Search in grub.conf, grub.cfg, and isolinux.cfg
+  # Uses the same pattern and replacement behavior as re.sub
+  # config_substitutions:
+  #   Rocky: Bullwinkle
+
+  # Timeout for GRUB and ISOLinux menus. Ignored if not provided.
+  config_timeout: 1
+
+  # Path to xorriso executable. Looks in path if not provided
+  # xorriso_path: /usr/bin/xorriso
+
+  # Path to xorriso executable. Looks in path if not provided
+  # implantisomd5_path: /usr/bin/implantisomd5
+
+  # Additional files or directories to add to image. They get added to the image root
+  # include:
+    # - foo.bar
+    # - /path/to/scripts
+
+aws:
+  # Name for AMI. If not set, will default to {name} {%Y-%m-%d_%H%M} (arch)
+  # ami_name: rocky-9
+
+  # Architecture to use for instances. Defaults to x86_64
+  # arch: x86_64
+
+  # AWS region to perform operations in. If unset, it will use the region for the default profile
+  region: us-east-2
+
+  # AWS profile to use. If not specified, the default profile is used
+  # profile: default
+
+  # VPC name for building AMI. Default: {name} image build
+  # vpc_name: Imogen Image Creation
+
+  # CIDR for VPC subnet. Default: '10.9.8.0/24'
+  # vpc_subnet: '10.9.8.0/24'
+
+  # Size of target AMI volume in GiB. Default: 20
+  # ami_volume_size: 20
+
+  # Instance type to use for build. Default: t3.small
+  # instance_type: t3.small
+
+  # Number of AMIs to keep at one time. Default: 3
+  # ami_max: 2

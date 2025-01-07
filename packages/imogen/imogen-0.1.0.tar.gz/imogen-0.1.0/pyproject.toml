@@ -1,0 +1,93 @@
+[build-system]
+requires = ['setuptools >= 65', 'setuptools_scm[toml] >= 6.2']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'imogen'
+description = 'Imogen system image generator'
+authors = [
+    {name = 'Avram Lubkin', email = 'avylove@rockhopper.net'},
+]
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Development Status :: 4 - Beta',
+    'Environment :: Console',
+    'Intended Audience :: System Administrators',
+    'License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)',
+    'Topic :: System :: Installation/Setup',
+]
+dependencies = [
+    'boto3',
+    'botocore',
+    'enlighten >= 1.13',
+    'pydantic',
+    'pykickstart',
+    'requests',
+    'ruamel.yaml',
+]
+
+dynamic = ['version']
+requires-python = '>=3.10'
+license = {text = 'MPLv2.0'}
+readme = 'README.rst'
+keywords = ['aws', 'ami', 'image']
+
+[project.scripts]
+imogen = 'imogen.cli:run'
+
+
+[project.urls]
+Homepage = 'https://github.com/Rockhopper-Technologies/imogen'
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+exclude_lines = [
+	'pragma: no cover',
+	"if __name__ == '__main__':",
+]
+
+[tool.coverage.run]
+branch = true
+omit = ['tests/*']
+
+[tool.flake8]  # requires flake8-pyproject
+max-line-length = 120  # Pylint is 100, but allows longer strings
+extend-exclude = [
+    '.nox',
+    'notes',
+]
+
+[tool.mypy]
+plugins = ['pydantic.mypy']
+
+[[tool.mypy.overrides]]
+module = 'imogen.*'
+disallow_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = ['enlighten.*', 'pykickstart.*']
+follow_untyped_imports = true
+
+[tool.pylint.format]
+# Maximum number of characters on a single line.
+max-line-length=100
+
+# Regexp for a line that is allowed to be longer than the limit.
+ignore-long-lines = "^\\s*(# )?|<?https?://\\S+>?$|^\\s*(\\w*\\s*=\\s*)?f?(\\\"|\\').*(\\\"|\\'),?\\s*$"
+
+[tool.setuptools.packages.find]
+include = ['imogen']
+
+[tool.setuptools.dynamic]
+version = {attr = 'imogen.__version__'}
+
+[tool.pylint.spelling]
+# Spelling dictionary name.
+spelling-dict = 'en_US'
+
+#A path to a file that contains the private dictionary; one word per line.
+spelling-private-dict-file = 'spelling.dict'
+
+[tool.pylint.string]
+check-quote-consistency = true
