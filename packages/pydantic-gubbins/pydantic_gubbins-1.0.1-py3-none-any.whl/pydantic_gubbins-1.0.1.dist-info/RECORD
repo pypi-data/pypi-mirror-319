@@ -1,0 +1,13 @@
+pydantic_gubbins/__init__.py,sha256=aKtVyNJbf4ozOvtfMoAZoZUGtUOmKvEGUM0LM-aQa70,178
+pydantic_gubbins/descriptors.py,sha256=VfB4RnVdhajexVU0dxDHsGV98GGFzRH7wCizW8iV1U4,1462
+pydantic_gubbins/main.py,sha256=L7QC3zgxuM3HiWOWqLd0fQqFuoxVAtgBSnnUTfUxqp8,2982
+pydantic_gubbins/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_gubbins/test/test_descriptors.py,sha256=S-JHo5Vp4IoEN9_Je6GY_TBmCSCFfbYxCQROYkuW7RA,2081
+pydantic_gubbins/test/test_union.py,sha256=v3N-wZkHy4g9XNlmlBqO9r1qRiD-wzNqMrzU-dWFjRA,1570
+pydantic_gubbins/typing/__init__.py,sha256=ST2XNNs880_k7rTkDMZZgSNG0GRRpBGxsM_Nv14Brig,150
+pydantic_gubbins/typing/union.py,sha256=ws6egWkVcNODQXFb1p5bbqpAWIZSPu_MlZkgfF-oH7U,4463
+pydantic_gubbins-1.0.1.dist-info/LICENSE,sha256=4BlxKVCtOZ6DxVGVIGIG6oeURGfejeINn2deaaHmMdM,1067
+pydantic_gubbins-1.0.1.dist-info/METADATA,sha256=zmsgm9avPVhpvBUR0kciZ6Hxw-8dxseiVJbbcpSiIHQ,7262
+pydantic_gubbins-1.0.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+pydantic_gubbins-1.0.1.dist-info/top_level.txt,sha256=W5Uzkt7NaYdQW_SpnjzokxbmgMZEbEkamGKQ4UK6T8Y,17
+pydantic_gubbins-1.0.1.dist-info/RECORD,,
