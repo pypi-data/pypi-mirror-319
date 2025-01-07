@@ -1,0 +1,3 @@
+[console_scripts]
+opai = opai.cli.main:main
+
