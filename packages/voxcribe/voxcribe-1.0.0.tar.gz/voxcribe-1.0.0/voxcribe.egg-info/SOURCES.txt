@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+voxcribe/__init__.py
+voxcribe/voxcribe.py
+voxcribe.egg-info/PKG-INFO
+voxcribe.egg-info/SOURCES.txt
+voxcribe.egg-info/dependency_links.txt
+voxcribe.egg-info/requires.txt
+voxcribe.egg-info/top_level.txt
