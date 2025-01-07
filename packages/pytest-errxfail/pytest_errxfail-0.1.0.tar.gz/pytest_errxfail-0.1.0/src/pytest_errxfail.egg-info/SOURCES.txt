@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+src/pytest_errxfail/__init__.py
+src/pytest_errxfail/errxfail.py
+src/pytest_errxfail/matchers.py
+src/pytest_errxfail.egg-info/PKG-INFO
+src/pytest_errxfail.egg-info/SOURCES.txt
+src/pytest_errxfail.egg-info/dependency_links.txt
+src/pytest_errxfail.egg-info/entry_points.txt
+src/pytest_errxfail.egg-info/requires.txt
+src/pytest_errxfail.egg-info/top_level.txt
+tests/test_errxfail.py
