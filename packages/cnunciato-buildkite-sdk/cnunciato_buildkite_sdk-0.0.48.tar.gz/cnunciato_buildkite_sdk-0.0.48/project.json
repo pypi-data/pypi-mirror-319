@@ -1,0 +1,71 @@
+{
+    "name": "sdk-python",
+    "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+    "projectType": "library",
+    "sourceRoot": "sdk/python/src",
+    "targets": {
+        "clean": {
+            "executor": "nx:run-commands",
+            "options": {
+                "commands": [
+                    "rm -rf .pytest_cache",
+                    "rm -rf .venv",
+                    "rm -rf .coverage"
+                ],
+                "cwd": "sdk/python"
+            },
+            "cache": false
+        },
+        "format": {
+            "executor": "nx:run-commands",
+            "options": {
+                "commands": ["black ./src"],
+                "cwd": "sdk/python"
+            },
+            "cache": false
+        },
+        "build": {
+            "executor": "nx:run-commands",
+            "outputs": ["{workspaceRoot}/dist/docs/python"],
+            "options": {
+                "command": "uv build -o ../../dist/sdks/python",
+                "cwd": "sdk/python"
+            },
+            "cache": false
+        },
+        "docs:build": {
+            "executor": "nx:run-commands",
+            "outputs": ["{workspaceRoot}/dist/docs/python"],
+            "options": {
+                "command": "uv run pdoc src/buildkite_sdk -o ../../dist/docs/python",
+                "cwd": "sdk/python"
+            },
+            "cache": false
+        },
+        "docs:serve": {
+            "executor": "@nx/web:file-server",
+            "options": {
+                "port": 8081,
+                "buildTarget": "docs:build"
+            }
+        },
+        "test": {
+            "executor": "nx:run-commands",
+            "outputs": [
+                "{workspaceRoot}/reports/sdk/python/unittests",
+                "{workspaceRoot}/coverage/sdk/python"
+            ],
+            "options": {
+                "command": "uv run pytest tests/",
+                "cwd": "sdk/python"
+            },
+            "cache": true
+        },
+        "publish": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "uv publish --username __token__ --password $PYPI_TOKEN dist/sdks/python/*"
+            }
+        }
+    }
+}
