@@ -1,0 +1,7 @@
+pysnaptest-0.1.5.dist-info/METADATA,sha256=q_b-RxNQXa-mBhsFs1gUipWGDHcOGrjRaZ5LDEE2sVA,3105
+pysnaptest-0.1.5.dist-info/WHEEL,sha256=KNUQ6jHls-UMZmt0-ekwDHmoibMHKKDR9qKce6WbB14,127
+pysnaptest-0.1.5.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pysnaptest/__init__.py,sha256=NywL5PWyDnXKuZuxfjebChcJ3cJJVN2bfdO1zh7p32E,162
+pysnaptest/snapshot.py,sha256=1IH6skjJyT7aiKhhWvT805Gjjbny42gTDu3FoWj4QbU,4685
+pysnaptest/_pysnaptest.cpython-313-s390x-linux-gnu.so,sha256=cCni1T_9hd2D9TfUEewccFe1aH4Zva1LrYe-3T7jmQk,1977200
+pysnaptest-0.1.5.dist-info/RECORD,,
