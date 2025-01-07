@@ -1,0 +1,6 @@
+just_agents/web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+just_agents/web/rest_api.py,sha256=8SajgyqTKjHIUZez3KIk43KhYY22Hl99pyIJ6Obwm2o,5246
+just_agents/web/run.py,sha256=tzjuetJ2idEF8kIzPOZ1SCghhrU_dZGu7xXZfZkO6w4,2122
+just_agents_web-0.4.5.dist-info/METADATA,sha256=vugCqu_gjHMvYUlf7tIK8pByQofCEq4VIRU5ICPCqjs,1969
+just_agents_web-0.4.5.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+just_agents_web-0.4.5.dist-info/RECORD,,
