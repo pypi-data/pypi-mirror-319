@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Full-Menu"
+version = "0.0.1"
+authors = [
+  { name="Aiden Robinson", email="aidrobin2@gmail.com" },
+]
+description = "A version of console-menu That will be more activly maintained yet also offer full control over customisation. This is the beggining of the package and what is offered is quite limited for now"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Aidr0ne/Full-Menu"
+Issues = "https://github.com/Aidr0ne/Full-Menu/issues"

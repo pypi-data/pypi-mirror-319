@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: Full-Menu
+Version: 0.0.1
+Summary: A version of console-menu That will be more activly maintained yet also offer full control over customisation. This is the beggining of the package and what is offered is quite limited for now
+Project-URL: Homepage, https://github.com/Aidr0ne/Full-Menu
+Project-URL: Issues, https://github.com/Aidr0ne/Full-Menu/issues
+Author-email: Aiden Robinson <aidrobin2@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+A simpler version of [console-menu](https://github.com/aegirhall/console-menu/) That will be more activly maintained
