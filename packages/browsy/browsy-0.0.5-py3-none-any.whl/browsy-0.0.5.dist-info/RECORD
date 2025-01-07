@@ -1,0 +1,14 @@
+browsy/__init__.py,sha256=8D5lej2V_2dDrcjTRKdG7GkDOs4AQZVldYPKRzXkSS0,231
+browsy/__main__.py,sha256=J0LBYso818aJrnX5JpXZ8mhi4mq7GX6FIVswcC81vU8,1911
+browsy/_database.py,sha256=UZpcFatkjFzeFzCcrQ1Kjs9crOPLOqPX_YqWACURmpg,7838
+browsy/_jobs.py,sha256=j6HMFvVN7aGfh3mduZU63uXPyC9ODjf9EKomT1Qsy2c,4636
+browsy/_server.py,sha256=kDjBOVawB6oVwzHUsXjSShQcE8PcdqkpzuAdBF66peo,5325
+browsy/_worker.py,sha256=wmIQ3shj78GhH2ldwYfGdxVrqYPW4dY_TGftBVdtIyc,5367
+browsy/templates/base.html,sha256=07uGMb-3D64uw5pw2_FgNXy3Za3icOebkxmTd7NL_Bg,7924
+browsy/templates/jobs.html,sha256=CUBkQ6-RginLZ1g2iYK8m9Ej6RTunJCqDnH0eAcWlZ0,3543
+browsy/templates/workers.html,sha256=2ve-iASVMLdVsOh8XBQd_B4d6Yu6B8dAO65t2k5mmaQ,1291
+browsy-0.0.5.dist-info/METADATA,sha256=nBnnuCxqAM9cOvR1byExEjGIgRMUuRzFGPBm_CPJ54Q,8011
+browsy-0.0.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+browsy-0.0.5.dist-info/entry_points.txt,sha256=mFgM6-QSOJcGgv4HXABZA9QYfXM34cL4phCkLn9euk4,47
+browsy-0.0.5.dist-info/licenses/LICENSE,sha256=IhA9Z_IWG3gvFrEZUIs_trXDdnKDnWrcz5uHAwgFqF8,1072
+browsy-0.0.5.dist-info/RECORD,,
