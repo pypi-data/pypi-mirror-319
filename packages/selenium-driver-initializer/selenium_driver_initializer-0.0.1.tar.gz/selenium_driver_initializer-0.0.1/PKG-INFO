@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: selenium_driver_initializer
+Version: 0.0.1
+Summary: A Python package to initialize Selenium WebDriver with custom configurations.
+Home-page: https://github.com/ZeeshanAhmed95/selenium-driver-initializerPKG
+Author: Zeeshan Ahmed
+Author-email: zeeshanaliahmed@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium
+Requires-Dist: requests
+
+# Selenium Driver Initializer
+
+A Python package to initialize a Selenium WebDriver with support for custom user agents, proxy configurations, and Chrome profiles. 
+
+This package simplifies the setup of Selenium WebDriver and adds flexibility for various use cases like testing mobile agents, configuring proxies, or using specific Chrome profiles.
+
+---
+
+## Features
+- **Custom User Agents**: Choose from desktop, iOS, or Android user agents.
+- **Proxy Support**: Add proxies with country-based configurations.
+- **Chrome Profile Support**: Use an existing Chrome profile to retain cookies, sessions, and preferences.
+- **Error Handling**: Provides detailed error messages and stack traces for debugging.
+
+---
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install selenium-driver-initializer

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+selenium_driver_initializer/__init__.py
+selenium_driver_initializer/init_dc.py
+selenium_driver_initializer.egg-info/PKG-INFO
+selenium_driver_initializer.egg-info/SOURCES.txt
+selenium_driver_initializer.egg-info/dependency_links.txt
+selenium_driver_initializer.egg-info/requires.txt
+selenium_driver_initializer.egg-info/top_level.txt
