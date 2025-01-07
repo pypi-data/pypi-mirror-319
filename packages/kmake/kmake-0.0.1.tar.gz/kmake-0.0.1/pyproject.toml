@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kmake"
+version = "0.0.1"
+description = "快速生成 Makefile 的简易构建工具"
+authors = ["luzhixing12345 <luzhixing12345@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+kmake = 'kmake.main:main'
