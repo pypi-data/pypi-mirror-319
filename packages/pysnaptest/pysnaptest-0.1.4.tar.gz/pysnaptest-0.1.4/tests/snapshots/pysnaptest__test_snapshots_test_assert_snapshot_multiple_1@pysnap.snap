@@ -1,0 +1,5 @@
+---
+source: src/lib.rs
+input_file: tests/test_snapshots.py
+---
+"expected_result_1"

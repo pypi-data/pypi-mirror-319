@@ -1,0 +1,7 @@
+---
+source: src/lib.rs
+input_file: tests/test_snapshots.py
+---
+{
+  "test": 2
+}

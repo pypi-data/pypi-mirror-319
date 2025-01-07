@@ -1,0 +1,8 @@
+---
+source: src/lib.rs
+input_file: tests/test_snapshots.py
+---
+"name,id
+foo,1
+bar,2
+"
