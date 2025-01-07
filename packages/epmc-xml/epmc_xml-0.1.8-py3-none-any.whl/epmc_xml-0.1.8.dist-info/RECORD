@@ -1,0 +1,7 @@
+epmc_xml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+epmc_xml/article.py,sha256=zJY4V0Ysey2TwSsGNdN4iHmQveWO4lz4y1100Icl1a4,1175
+epmc_xml/fetch.py,sha256=V6-LkLERYwUF3rb8ZEYvb2Q5Q4lpDmam9_UJJY4zsQM,2931
+epmc_xml-0.1.8.dist-info/LICENSE,sha256=Be6pM3fVPHm3Oq4jN5I096t8mebepMXmyaGieIinCEI,1069
+epmc_xml-0.1.8.dist-info/METADATA,sha256=26WbRO0pTP7Lc0jvDRraRHsqy1dD-a7FK_OQfaOO648,1030
+epmc_xml-0.1.8.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+epmc_xml-0.1.8.dist-info/RECORD,,
