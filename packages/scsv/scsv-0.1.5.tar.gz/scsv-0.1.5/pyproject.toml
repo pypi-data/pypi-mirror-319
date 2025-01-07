@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scsv"
+dynamic = ["version"]
+license = {file = "LICENSE"}
+authors = [
+  { name="konung-yaropolk", email="yaropolk1995@gmail.com" },
+  { name="SciWare LLC"},
+]
+description = "scsv - a simple csv reading tool"
+keywords = ["CSV", "DSV", "spreadsheets", "Science", "Statistics"]
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+
+]
+
+[project.urls]
+Homepage = "https://github.com/konung-yaropolk/scsv"
+Repository = "https://github.com/konung-yaropolk/scsv.git"
+Issues = "https://github.com/konung-yaropolk/scsv/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "scsv.__version__"}

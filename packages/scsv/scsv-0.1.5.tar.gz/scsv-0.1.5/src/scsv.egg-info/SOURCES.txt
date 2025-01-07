@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/scsv/__init__.py
+src/scsv/__main__.py
+src/scsv/_version.py
+src/scsv/scsv.py
+src/scsv.egg-info/PKG-INFO
+src/scsv.egg-info/SOURCES.txt
+src/scsv.egg-info/dependency_links.txt
+src/scsv.egg-info/top_level.txt
