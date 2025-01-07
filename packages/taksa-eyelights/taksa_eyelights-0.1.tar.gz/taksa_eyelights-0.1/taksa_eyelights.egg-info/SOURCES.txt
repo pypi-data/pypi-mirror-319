@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+taksa/__init__.py
+taksa/configuration.py
+taksa/dependency.py
+taksa/manager.py
+taksa/state.py
+taksa_eyelights.egg-info/PKG-INFO
+taksa_eyelights.egg-info/SOURCES.txt
+taksa_eyelights.egg-info/dependency_links.txt
+taksa_eyelights.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cpp_cmake_dependency.py
