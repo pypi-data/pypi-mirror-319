@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Check</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Grammar Check Tool</h1>
+        </header>
+        
+        <div class="upload-section">
+            <h2>Upload Your File</h2>
+            <form method="POST" action="/check_grammar" enctype="multipart/form-data">
+                <label for="file" class="label">Choose a file to upload:</label>
+                <input type="file" name="file" id="file" class="input" required />
+                <button type="submit" class="btn">Check Errors</button>
+            </form>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="loader"></div>
+            <p>Checking in progress...</p>
+        </div>
+        <br><br>
+        {% if df %}
+        <div id="result-section" class="result">
+            <h2 id="h2-output">Corrected Data</h2>
+            <table id="result-table">
+                <tr>
+                    <th>Original Text</th>
+                    <th>Corrected Sentence</th>
+                </tr>
+                {% for row in df %}
+                    <tr>
+                        <td>{{ row['Original_Text'] }}</td>
+                        <td>{{ row['Corrected Sentence'] }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+            <br><br><br>
+            <a href="{{ url_for('download_file', filename=file_url) }}" class="btn_output">Download Corrected File</a>
+        </div>
+        {% endif %}
+        
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+</div>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

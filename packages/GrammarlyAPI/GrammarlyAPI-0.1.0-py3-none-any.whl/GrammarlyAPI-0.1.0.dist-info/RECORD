@@ -1,0 +1,10 @@
+GrammarlyAPI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GrammarlyAPI/app.py,sha256=PMxuLyGeLo5K2P4NlEikWWR3hDNdQ68nT6H-wJwqXVk,5893
+GrammarlyAPI/static/script.js,sha256=C6jIIn-50SU5Ns_7EeA7K-MpBvEgmtvwNwOdVxnHk8A,1161
+GrammarlyAPI/static/style.css,sha256=yva7s4ahNYHmUuMYHV2Uraz16j1bvr2iv91ET0ixkmk,6763
+GrammarlyAPI/templates/index.html,sha256=x1juepEY5YehyquVidulmkmQzFpVXhKBALWFipspy-U,1967
+GrammarlyAPI-0.1.0.dist-info/METADATA,sha256=SWuWpzx3Rw1UtJk3_uxX-mE3z9xHafWZAXNWvH76gGU,4746
+GrammarlyAPI-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+GrammarlyAPI-0.1.0.dist-info/entry_points.txt,sha256=yfi6EjY-PqcRNEN2VkzgTAuKa6unjLnCPSUbE_NWrQk,59
+GrammarlyAPI-0.1.0.dist-info/top_level.txt,sha256=CuWJQGio5PJt-ZgtpfH23-q5daMZf__DnzfjCQ_l3Ig,13
+GrammarlyAPI-0.1.0.dist-info/RECORD,,
