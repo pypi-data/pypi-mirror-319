@@ -1,0 +1,7 @@
+[plover.gui.qt.tool]
+listening_lookup = plover_listening_lookup.listening_lookup_suggestions:ListeningLookupSuggestions
+
+[plover.macro]
+ll_next_page = plover_listening_lookup.listening_lookup_macros:next_page
+ll_prev_page = plover_listening_lookup.listening_lookup_macros:prev_page
+ll_reload = plover_listening_lookup.listening_lookup_macros:listening_lookup_reload
