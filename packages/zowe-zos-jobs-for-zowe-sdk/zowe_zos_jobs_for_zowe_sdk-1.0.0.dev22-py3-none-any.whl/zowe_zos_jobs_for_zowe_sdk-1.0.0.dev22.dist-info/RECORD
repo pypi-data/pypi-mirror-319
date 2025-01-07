@@ -1,0 +1,8 @@
+zowe/zos_jobs_for_zowe_sdk/__init__.py,sha256=Kw4iuo1r3MyZtEbGMxBcDBj2GzCIlluYMMgABu7KT18,350
+zowe/zos_jobs_for_zowe_sdk/jobs.py,sha256=nXr3Zoza-ex55ryuYR0WKsp12Js1xlGyE9p5W8NQgUA,17437
+zowe/zos_jobs_for_zowe_sdk/response/__init__.py,sha256=Ox0D6TeqVybT4m_jzFLj_9XPSPtGdKuTVxUeKsJ2xjk,387
+zowe/zos_jobs_for_zowe_sdk/response/jobs.py,sha256=xu_iqXray7uVKRfbD9_Z6uMhDrO2mumpgafzxa_ldAs,3187
+zowe_zos_jobs_for_zowe_sdk-1.0.0.dev22.dist-info/METADATA,sha256=lBkzOmhNRtTUdKmWw1tVzXWQSo5pP3t-PmF74vwe60Y,1827
+zowe_zos_jobs_for_zowe_sdk-1.0.0.dev22.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+zowe_zos_jobs_for_zowe_sdk-1.0.0.dev22.dist-info/top_level.txt,sha256=d9sXvRO_n2_1UBRMauXbP91tGH6zuU00ROh9Yrx5NCQ,5
+zowe_zos_jobs_for_zowe_sdk-1.0.0.dev22.dist-info/RECORD,,
