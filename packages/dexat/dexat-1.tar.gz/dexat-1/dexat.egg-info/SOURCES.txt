@@ -1,0 +1,10 @@
+.gitignore
+README.md
+ds_store_exp.py
+setup.py
+dexat/__init__.py
+dexat.egg-info/PKG-INFO
+dexat.egg-info/SOURCES.txt
+dexat.egg-info/dependency_links.txt
+dexat.egg-info/requires.txt
+dexat.egg-info/top_level.txt
