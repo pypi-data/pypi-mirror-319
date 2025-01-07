@@ -1,0 +1,44 @@
+[project]
+name = "arpespythontools"
+version = "1.2.0"
+description = "Explore, analyze, visualize Angle Resolved Photoemission Spectroscopy (ARPES) data."
+authors = [{ name = "Pranab Das" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10,<4.0"
+keywords = [
+    "python", "data-analysis", "matplotlib", "materials-science",
+    "surface-science", "condensed-matter-physics", "photoelectron-spectroscopy",
+    "arpes"]
+
+dependencies = [
+    "astropy>=6.1.7",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.1",
+    "scipy>=1.15.0",
+]
+
+[project.optional-dependencies]
+lint = [
+    "autopep8>=2.3.1",
+]
+
+notebook = [
+    "jupyterlab>=4.3.4",
+]
+
+test = [
+    "psutil>=6.1.1",
+]
+
+[project.urls]
+homepage = "https://pranabdas.github.io/arpespythontools/"
+repository = "https://github.com/pranabdas/arpespythontools"
+documentation = "https://pranabdas.github.io/arpespythontools/docs/"
+
+[tool.poetry]
+requires-poetry = ">=2.0"
+
+[build-system]
+requires = ["poetry-core>=2.0"]
+build-backend = "poetry.core.masonry.api"
