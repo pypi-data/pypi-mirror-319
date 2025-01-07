@@ -1,0 +1,12 @@
+ClearIO/IClearIO.py,sha256=OyBZrDJenBkPkFOBndsfegKJICeURiyZ0l8ruqi6hv4,9438
+ClearIO/LocalClearIO.py,sha256=eHfmZTAkVC2YIACzNSlaJuYgafcrttiYUXBxAuYbFPo,7018
+ClearIO/S3ClearIO.py,sha256=LOuW3Ge32QSbyh0HWjPpO-P26q1oqiT_sDmoAHJedDY,19831
+ClearIO/SFTPClearIO.py,sha256=mWUWaLH5Ix28_XpGfFj54SY4yY3gf1XRJxipxgZGsPU,19165
+ClearIO/SMBClearIO.py,sha256=qZCJ22NLnocl_4evDr86TD_HqesN70YrAAc5YJkU6YA,19859
+ClearIO/TimestampedPath.py,sha256=DK47cgqgwjiQFzvxccYDN1W1U7KihxL_hS4Wc8LewQI,1607
+ClearIO/TypedPath.py,sha256=lrcFebKE9i_U66g_cP0E1pRM9RVC2pVdfa1zNWXCMQE,735
+ClearIO/__init__.py,sha256=CwpZQswenNPOFPZ2vRPhu_FkaWI-7n7VHVdzpIiRi2g,193
+cleario-1.0.12.dist-info/METADATA,sha256=EfdKCrGgOiyh1nxF2Q10uZ0FXPpX5a13KbCfNUiarpU,923
+cleario-1.0.12.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+cleario-1.0.12.dist-info/licenses/LICENSE,sha256=J7OZ4q8C9Q-h6_TvW2G9srj2jCKMqUMvGdy-RhBAGTI,1094
+cleario-1.0.12.dist-info/RECORD,,
