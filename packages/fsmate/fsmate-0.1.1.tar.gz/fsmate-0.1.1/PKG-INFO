@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: fsmate
+Version: 0.1.1
+Summary: Add your description here
+Author-email: 1ort <83316072+1ort@users.noreply.github.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# FSMate
+
+## TODO:
+- [x] Support for custom state getter/setter
+- [x] Overload methods depending on current state
+- [ ] Transitions graph validation
+- [ ] Callbacks or pre/post-transition hooks
+- [ ] Async/await support
