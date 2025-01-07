@@ -1,0 +1,10 @@
+bsapi/__init__.py,sha256=YFSF4hh3N--w23TP834jOMV4xHJaoQPRemxnjbSjyy0,58213
+bsapi/feedback.py,sha256=xr3i84iDnAjfrXZBducy35DXJ4EGryQXdVjl-jI9iGg,7061
+bsapi/helper.py,sha256=kE89UzHNiO4UFNjPuntubCCI9wUvPxr8XMD8thdQhyw,9987
+bsapi/identity.py,sha256=lZu3pv19F8CmQHM5ITqyytTKHLQtyZ1yYPIEfJOAufU,24897
+bsapi/types.py,sha256=f-O4qpsMJyAdCGf-CSgEp0-pYPVKnYbiNS3lVGIlPwU,37176
+brightspace_api-1.0.3.dist-info/LICENSE,sha256=F6kAF2DnOuM7XepRQnm44SjItFbL-6_BIVl1xkXlnwc,1070
+brightspace_api-1.0.3.dist-info/METADATA,sha256=GboaOerhUv8wz4UfC1ck9LPQBHC1IGCvZmE8jDOIu3s,9657
+brightspace_api-1.0.3.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+brightspace_api-1.0.3.dist-info/top_level.txt,sha256=on9svSZJYVTJ-E-5_CCHG9m5e6jhz8xzMdA3jf1MJOk,6
+brightspace_api-1.0.3.dist-info/RECORD,,
