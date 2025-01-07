@@ -1,0 +1,4 @@
+recursive-include SmartCVParserAPI/static *.css *.js
+recursive-include SmartCVParserAPI/templates *.html
+recursive-include SmartCVParserAPI/uploads *
+

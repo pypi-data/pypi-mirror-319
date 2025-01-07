@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+SmartCVParserAPI/__init__.py
+SmartCVParserAPI/app6.py
+SmartCVParserAPI.egg-info/PKG-INFO
+SmartCVParserAPI.egg-info/SOURCES.txt
+SmartCVParserAPI.egg-info/dependency_links.txt
+SmartCVParserAPI.egg-info/entry_points.txt
+SmartCVParserAPI.egg-info/top_level.txt
+SmartCVParserAPI/static/styles.css
+SmartCVParserAPI/templates/index.html
+SmartCVParserAPI/templates/interact.html
