@@ -1,0 +1,29 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "El dispositivo ya est\u00e1 configurado",
+            "cannot_connect": "No se pudo conectar con el controlador con URL {base_url}"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "vera_controller_url": "URL del controlador"
+                },
+                "data_description": {
+                    "vera_controller_url": "Deber\u00eda verse as\u00ed: http://192.168.1.161:3480"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "exclude": "IDs de dispositivos Vera para excluir de Home Assistant.",
+                    "lights": "IDs de dispositivos interruptores Vera para tratarlos como luces en Home Assistant."
+                },
+                "title": "Opciones del controlador Vera"
+            }
+        }
+    }
+}

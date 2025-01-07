@@ -1,0 +1,65 @@
+{
+    "config": {
+        "abort": {
+            "reauth_successful": "\u00c5terautentisering lyckades"
+        },
+        "error": {
+            "cannot_connect": "Det gick inte att ansluta.",
+            "invalid_auth": "Ogiltig autentisering",
+            "invalid_mfa_code": "Ogiltig MFA-kod"
+        },
+        "step": {
+            "mfa": {
+                "data": {
+                    "mfa_code": "MFA-kod (6 siffror)"
+                },
+                "title": "Ange din MFA-kod f\u00f6r Abode"
+            },
+            "reauth_confirm": {
+                "data": {
+                    "password": "L\u00f6senord",
+                    "username": "E-post"
+                },
+                "title": "Fyll i din inloggningsinformation f\u00f6r Abode"
+            },
+            "user": {
+                "data": {
+                    "password": "L\u00f6senord",
+                    "username": "E-post"
+                },
+                "title": "Fyll i din inloggningsinformation f\u00f6r Abode"
+            }
+        }
+    },
+    "services": {
+        "capture_image": {
+            "fields": {
+                "entity_id": {
+                    "name": "Entitet"
+                }
+            },
+            "name": "Ta en bild"
+        },
+        "change_setting": {
+            "fields": {
+                "setting": {
+                    "description": "Inst\u00e4llning att \u00e4ndra.",
+                    "name": "Inst\u00e4llning"
+                },
+                "value": {
+                    "description": "Inst\u00e4llningens v\u00e4rde.",
+                    "name": "V\u00e4rde"
+                }
+            },
+            "name": "\u00c4ndra inst\u00e4llning"
+        },
+        "trigger_automation": {
+            "fields": {
+                "entity_id": {
+                    "name": "Entitet"
+                }
+            },
+            "name": "Starta automatisering"
+        }
+    }
+}
