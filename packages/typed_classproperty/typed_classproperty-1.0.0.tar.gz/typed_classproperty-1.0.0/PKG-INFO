@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: typed_classproperty
+Version: 1.0.0
+Summary: You tried to install "typed_classproperty". The correct package name is "typed_classproperties".
+Project-URL: Repository, https://github.com/CarrotManMatt/typed_classproperties
+Author-email: Matt Norton <matt@carrotmanmatt.com>
+Classifier: Development Status :: 7 - Inactive
+Requires-Dist: typed-classproperties
+Description-Content-Type: text/markdown
+
+You tried to install "typed_classproperty". The correct package name is "typed_classproperties".
