@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tinyshift.egg-info/PKG-INFO
+tinyshift.egg-info/SOURCES.txt
+tinyshift.egg-info/dependency_links.txt
+tinyshift.egg-info/requires.txt
+tinyshift.egg-info/top_level.txt
