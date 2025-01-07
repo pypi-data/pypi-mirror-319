@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+GrammarlyAPI/__init__.py
+GrammarlyAPI/app.py
+GrammarlyAPI.egg-info/PKG-INFO
+GrammarlyAPI.egg-info/SOURCES.txt
+GrammarlyAPI.egg-info/dependency_links.txt
+GrammarlyAPI.egg-info/entry_points.txt
+GrammarlyAPI.egg-info/top_level.txt
+GrammarlyAPI/static/script.js
+GrammarlyAPI/static/style.css
+GrammarlyAPI/templates/index.html

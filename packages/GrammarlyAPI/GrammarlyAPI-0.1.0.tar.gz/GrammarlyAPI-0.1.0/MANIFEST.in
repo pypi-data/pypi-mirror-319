@@ -1,0 +1,3 @@
+recursive-include GrammarlyAPI/static *.css *.js
+recursive-include GrammarlyAPI/templates *.html
+recursive-include GrammarlyAPI/uploads *

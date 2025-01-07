@@ -1,0 +1,304 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d5dfe7;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(184, 177, 177, 0.1);
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+    opacity: 0; /* Initially hidden for fade-in effect */
+    animation: fadeIn 0.5s forwards; /* Animation for fade-in effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Slightly move upwards on hover */
+    box-shadow: 2px 6px 20px rgba(232, 69, 167, 0.2); /* Enhance shadow on hover */
+    border: 3px solid #3685de; /* Border color added on hover */
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+header:hover {
+    background-color: #f1f1f1; /* Subtle background color change on hover */
+    transform: translateY(-5px); /* Slight upward movement */
+    border: 3px solid #a9c9ee;
+}
+
+h1 {
+    font-size: 40px;
+    color: #4a90e2;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase; /* Gives a more formal touch */
+    letter-spacing: 2px; /* Spacing between letters for a cleaner look */
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #003366; /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge the title */
+}
+
+
+h2 {
+    font-size: 30px;
+    color: #333;
+    margin-top: 10px;
+    text-align: center; /* Ensure it is centered */
+    padding: 10px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+h2:hover {
+    color: #4a90e2; /* Change color to match the header */
+    transform: scale(1.05); /* Slightly enlarge the text */
+}
+
+
+/* Label and Input Styles */
+label {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+}
+
+label:hover {
+    color: #4a90e2; /* Change color on hover */
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.6); /* Add glow effect on focus */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 12px 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #f23535;
+    transform: scale(1.05); /* Slightly enlarge the button */
+    border: 3px solid #3685de;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards; /* Fade in the error message */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Loading Spinner Styles */
+.loading {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #4a90e2;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite, pulse 1s ease-in-out infinite; /* Adding pulse effect */
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(74, 144, 226, 0.4); /* Subtle glow around the spinner */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+/* p tag styles */
+p {
+    font-size: 25px;
+    color: #f38d8d;
+    text-align: center;
+    margin-top: 20px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+p:hover {
+    color: #4a90e2; /* Change color to match theme */
+    transform: translateY(-5px); /* Slight upward movement for a hover effect */
+}
+
+/* Result Section */
+.result-section  {
+    display: none;
+    margin-top: 40px;
+}
+#result-section {
+    border: 2px solid #d1dff0; /* Add border around the result section */
+    padding: 20px;
+    border-radius: 10px; /* Optional: to round the corners */
+    background-color: #f9f9f9; /* Optional: light background color */
+}
+#result-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#result-table th, #result-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#result-table th {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+}
+
+#result-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#result-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+#result-table td {
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Animations for hover effects */
+input:hover, button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile and Small Screens */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .input, .btn {
+        width: 100%;
+    }
+
+    .btn {
+        padding: 12px;
+    }
+}
+.btn_output {
+    background-color: #146fd1;
+    color: rgba(48, 47, 48, 0.767);
+    padding: 12px 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.btn_output:hover {
+    background-color: #f8e5e5;
+    color: #98210cc5;
+    transform: scale(1.05); /* Slightly enlarge the button */
+    border: 3px solid #3685de;
+}
+
+#h2-output {
+    font-size: 30px;
+    color: #f41515;
+    margin-top: 10px;
+    text-align: center; /* Ensure it is centered */
+    padding: 10px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#h2-output:hover {
+    color: #4a90e2; /* Change color to match the header */
+    transform: scale(1.05); /* Slightly enlarge the text */
+}
