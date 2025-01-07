@@ -1,0 +1,5 @@
+ahk
+ahk_cursor
+dist
+resources
+script_templates
