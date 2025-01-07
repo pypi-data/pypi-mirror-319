@@ -1,0 +1,45 @@
+Metadata-Version: 2.3
+Name: pycounts_tat25
+Version: 0.1.0
+Summary: Calculate word counts in a text file!
+License: MIT
+Author: Tiffany Timbers
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: matplotlib (>=3.10.0)
+Description-Content-Type: text/markdown
+
+# pycounts_tat25
+
+Calculate word counts in a text file!
+
+[![Documentation Status](https://readthedocs.org/projects/pycounts-tat25/badge/?version=latest)](https://pycounts-tt25.readthedocs.io/en/latest/?badge=latest)
+
+[![codecov](https://codecov.io/gh/ttimbers/pycounts_tat25/graph/badge.svg?token=788HY26XUG)](https://codecov.io/gh/ttimbers/pycounts_tat25)
+
+## Installation
+
+```bash
+$ pip install pycounts_tat25
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`pycounts_tat25` was created by Tiffany Timbers. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`pycounts_tat25` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
