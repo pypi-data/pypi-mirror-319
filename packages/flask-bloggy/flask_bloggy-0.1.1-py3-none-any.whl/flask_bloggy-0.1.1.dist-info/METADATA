@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: flask-bloggy
+Version: 0.1.1
+Summary: A simple but fast blog extension for Flask.
+License: MIT License
+Project-URL: Homepage, https://github.com/andycaine/flask-bloggy
+Project-URL: Documentation, https://github.com/andycaine/flask-bloggy?tab=readme-ov-file
+Project-URL: Repository, https://github.com/andycaine/flask-bloggy.git
+Keywords: flask,blog
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: flask
+Requires-Dist: Markdown
+Requires-Dist: pillow
+Requires-Dist: opentelemetry-api
+Requires-Dist: nsst
+Requires-Dist: web-paging[flask]
+Provides-Extra: boto3
+Requires-Dist: boto3; extra == "boto3"
+
+# flask-bloggy
+
+A simple but fast blog extension for flask.
+
+## Getting started
+
+Install using pip:
+
+```bash
+pip install flask-bloggy
+```
+
+Then add as an extension to a flask app:
+
+```python
+from flask import Flask
+from flask_bloggy import BloggyExtension
+
+app = Flask(__name__)
+
+BloggyExtension(app=app,
+                table_name='dynamodb-table',
+                images_bucket_name='s3-bucket-name',
+                images_width=1300,
+                images_height=450
+                url_prefix='/posts')
+
+```
