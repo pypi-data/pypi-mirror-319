@@ -1,0 +1,4 @@
+recursive-include grammarchecking2/static *.css *.js
+recursive-include grammarchecking2/templates *.html
+recursive-include grammarchecking2/uploads *
+

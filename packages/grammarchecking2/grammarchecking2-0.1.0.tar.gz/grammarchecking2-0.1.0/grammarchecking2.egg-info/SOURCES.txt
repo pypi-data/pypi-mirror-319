@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+grammarchecking2/__init__.py
+grammarchecking2/app.py
+grammarchecking2.egg-info/PKG-INFO
+grammarchecking2.egg-info/SOURCES.txt
+grammarchecking2.egg-info/dependency_links.txt
+grammarchecking2.egg-info/top_level.txt
+grammarchecking2/static/script.js
+grammarchecking2/static/style.css
+grammarchecking2/templates/index.html

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: grammarchecking2
+Version: 0.1.0
+Summary: Grammar checking using Ai
+Home-page: https://github.com/projectest20/grammarchecking2
+Author: projectest20
+Author-email: projecttest021010@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Grammar Check Tool
+
+This is a web application built using Flask to check grammar errors in uploaded text files.
+
+## Features
+
+- Upload `.csv`, `.xlsx`, or `.txt` files.
+- Process and check grammar.
+- Download the corrected file with grammar fixes and explanations.
+
+## Setup
+
+1. Clone the repository.
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
