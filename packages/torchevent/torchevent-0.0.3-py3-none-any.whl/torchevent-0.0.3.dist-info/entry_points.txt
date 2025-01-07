@@ -1,0 +1,2 @@
+[console_scripts]
+torchevent = torchevent.main:main
