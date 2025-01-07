@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+composio.egg-info/PKG-INFO
+composio.egg-info/SOURCES.txt
+composio.egg-info/dependency_links.txt
+composio.egg-info/requires.txt
+composio.egg-info/top_level.txt
