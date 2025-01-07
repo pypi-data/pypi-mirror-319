@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: kmake
+Version: 0.0.1
+Summary: 快速生成 Makefile 的简易构建工具
+License: MIT
+Author: luzhixing12345
+Author-email: luzhixing12345@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# kmake
+
+快速生成 Makefile 的简易构建工具
+
+```bash
+pip install kmake
+```
