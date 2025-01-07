@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/srttranslatelocal/__init__.py
+src/srttranslatelocal/srt_translate.py
+src/srttranslatelocal/srt_translate_local.py
+src/srttranslatelocal/srt_translate_utilities.py
+src/srttranslatelocal.egg-info/PKG-INFO
+src/srttranslatelocal.egg-info/SOURCES.txt
+src/srttranslatelocal.egg-info/dependency_links.txt
+src/srttranslatelocal.egg-info/entry_points.txt
+src/srttranslatelocal.egg-info/requires.txt
+src/srttranslatelocal.egg-info/top_level.txt

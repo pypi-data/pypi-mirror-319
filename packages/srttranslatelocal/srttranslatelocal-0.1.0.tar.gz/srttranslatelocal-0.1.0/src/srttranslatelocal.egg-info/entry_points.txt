@@ -1,0 +1,2 @@
+[console_scripts]
+translatevideo = srt_translate_local:srt_translate_local.main
