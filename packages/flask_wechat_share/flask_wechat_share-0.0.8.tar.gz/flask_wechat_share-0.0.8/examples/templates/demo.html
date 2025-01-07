@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分享页面</title>
+    {{ wechat_share(title='分享页面', desc='分享页面描述', img='分享页面logo') }}
+    {{ wechat_share_ajax(title='分享页面', desc='分享页面描述', img='分享页面logo') }}
+</head>
+<body>
+<h1>分享页面</h1>
+<button id="shareBtn">分享给朋友</button>
+</body>
+</html>
