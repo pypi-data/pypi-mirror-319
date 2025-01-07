@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bsicons
+Version: 25.1
+Summary: Python APIs for accessing Bootstrap Icons.
+Author-email: Linpg Foundation <yudong9912@gmail.com>
+Project-URL: Bug Tracker, https://github.com/LinpgFoundation/bootstrap-icons-api/issues
+Project-URL: Homepage, https://github.com/LinpgFoundation/bootstrap-icons-api
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Providing Python APIs for accessing Bootstrap Icons.
+
+Bootstrap Icons can be found here: https://github.com/twbs/icons
