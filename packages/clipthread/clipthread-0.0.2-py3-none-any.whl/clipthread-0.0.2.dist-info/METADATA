@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: clipthread
+Version: 0.0.2
+Summary: A clipboard synchronization tool that work on every platform
+Project-URL: Homepage, https://github.com/clipthread/clipthread.git
+Project-URL: Repository, https://github.com/clipthread/clipthread.git
+Project-URL: Documentation, https://github.com/clipthread/clipthread#readme
+Project-URL: Bug Tracker, https://github.com/clipthread/clipthread/issues
+Author-email: Leo Cances <leocances@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: clipboard,sync,synchronization
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.11
+Provides-Extra: dev
+Requires-Dist: black>=22.0; extra == 'dev'
+Requires-Dist: isort>=5.0; extra == 'dev'
+Requires-Dist: mypy>=0.981; extra == 'dev'
+Requires-Dist: pytest-asyncio>=0.25.0; extra == 'dev'
+Requires-Dist: pytest-cov>=3.0; extra == 'dev'
+Requires-Dist: pytest>=7.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Clipthread
+
+Initial commit
