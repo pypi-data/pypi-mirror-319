@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+foreachiterator/__init__.py
+foreachiterator/foreachiterator.py
+foreachiterator.egg-info/PKG-INFO
+foreachiterator.egg-info/SOURCES.txt
+foreachiterator.egg-info/dependency_links.txt
+foreachiterator.egg-info/entry_points.txt
+foreachiterator.egg-info/requires.txt
+foreachiterator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_foreachiterator.py
