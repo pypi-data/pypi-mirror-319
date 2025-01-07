@@ -1,0 +1,6 @@
+selenium
+undetected-chromedriver
+requests
+pyautogui
+setuptools
+opencv-python
