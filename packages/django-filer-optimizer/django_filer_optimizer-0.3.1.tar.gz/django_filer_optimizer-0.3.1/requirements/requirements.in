@@ -1,0 +1,5 @@
+django
+django-filer
+easy_thumbnails
+pillow
+pillow-avif-plugin
