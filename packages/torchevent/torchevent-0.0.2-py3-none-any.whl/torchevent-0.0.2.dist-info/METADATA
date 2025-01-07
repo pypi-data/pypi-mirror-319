@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: torchevent
+Version: 0.0.2
+Requires-Dist: torch
+Requires-Dist: tonic
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
