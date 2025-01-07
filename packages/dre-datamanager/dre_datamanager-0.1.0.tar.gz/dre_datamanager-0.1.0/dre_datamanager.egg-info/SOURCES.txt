@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+datamanager/__init__.py
+datamanager/manager.py
+dre_datamanager.egg-info/PKG-INFO
+dre_datamanager.egg-info/SOURCES.txt
+dre_datamanager.egg-info/dependency_links.txt
+dre_datamanager.egg-info/requires.txt
+dre_datamanager.egg-info/top_level.txt
