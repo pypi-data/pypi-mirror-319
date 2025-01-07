@@ -1,0 +1,53 @@
+#!/usr/bin/env python
+
+from mdsh5 import read_mds
+import argparse
+
+
+def get_args():
+    parser = argparse.ArgumentParser(description='Read MDSplus channel')
+    parser.add_argument('-n', '--shot_numbers', type=int, nargs='+', help='Shot number(s)')
+    parser.add_argument('-t', '--trees', nargs='+', help='Tree name(s)')
+    parser.add_argument('-p', '--point_names', nargs='+', help='Point name(s)')
+    parser.add_argument('-s', '--server', default='203.230.126.231:8005',
+                        help='Server address. Default is 203.230.126.231:8005')
+    parser.add_argument('-r', '--resample', nargs='+', type=float, default=None,
+                        help='Resample signal(s) by providing a list of start, stop, '
+                             'and increment values. For negative value, enclose them '
+                             'withing double quotes and add a space at the beginning.'
+                             'Example: --resample " -0.1" 10.0 0.1')
+    parser.add_argument('--rescale', nargs='+', type=float, default=None,
+                        help='Rescale time dimension of trees to ensure that all of '
+                             'are in same units. Especially important if resample is '
+                             'used. Provide a rescaling factor to be multiplied by '
+                             'time axis for each tree provides in trees option.'
+                             'Example: --resample " -0.1" 10.0 0.1')
+    parser.add_argument('-o', '--out_filename', default=None,
+                        help='Output filename for saving data in file. Default is '
+                             'None. in which case it does not save files.')
+    parser.add_argument('--reread_data', action='store_true',
+                        help='Will overwrite on existing data for corresponding data '
+                             'entries in out_file. Default behavior is to skip reading'
+                             'pointnames whose data is present.')
+    parser.add_argument('-v', '--verbose', action='store_true',
+                        help='Print verbose messages')
+    parser.add_argument('-c', '--config', default=None, type=str,
+                        help='Configuration file containing shot_numbers, trees, '
+                             'point_names, server, and other settings. If provided, '
+                             'corresponding command line arguments are ignored.')
+    args = parser.parse_args()
+    return args
+
+
+if __name__ == '__main__':
+    args = get_args()
+    data_dict = read_mds(shot_numbers=args.shot_numbers,
+                         trees=args.trees,
+                         point_names=args.point_names,
+                         server=args.server,
+                         resample=args.resample,
+                         rescale=args.rescale,
+                         out_filename=args.out_filename,
+                         reread_data=args.reread_data,
+                         verbose=args.verbose,
+                         config=args.config,)

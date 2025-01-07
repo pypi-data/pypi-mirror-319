@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bin/read_mds
+mdsh5/__init__.py
+mdsh5/read_mds.py
+mdsh5.egg-info/PKG-INFO
+mdsh5.egg-info/SOURCES.txt
+mdsh5.egg-info/dependency_links.txt
+mdsh5.egg-info/entry_points.txt
+mdsh5.egg-info/requires.txt
+mdsh5.egg-info/top_level.txt
