@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nthuqf
+Version: 0.1.1
+Summary: A set of tools in Python
+Home-page: https://github.com/phdchen/nthuqf
+Download-URL: https://pypi.org/project/nthuqf/
+Author: CHENGCHI CHEN
+Author-email: jackie@gapp.nthu.edu.tw
+License: MIT
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+
+# This is a python package for NTHU_QF
