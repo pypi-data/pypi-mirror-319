@@ -1,0 +1,8 @@
+README.md
+license.md
+setup.py
+QSecureShare.egg-info/PKG-INFO
+QSecureShare.egg-info/SOURCES.txt
+QSecureShare.egg-info/dependency_links.txt
+QSecureShare.egg-info/top_level.txt
+tests/test_qsecureshare.py
