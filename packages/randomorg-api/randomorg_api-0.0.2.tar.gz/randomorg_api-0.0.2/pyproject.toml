@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "randomorg_api"
+version = "0.0.2"
+authors = [
+  { name="Natalie Luna", email="luna@hackclub.app" },
+]
+description = "a small pip module to generate true random numbers using random.org's api"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha"
+]
+dependencies = [
+    "requests"
+]
+keywords = [
+    "random",
+    "random.org",
+    "random org",
+    "random number",
+    "random number generator",
+    "random number generation",
+    "true random"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/randomorg_api"]
+
+[project.urls]
+Home-page = "https://github.com/ellipticobj/random-module.git"
+Issues = "https://github.com/ellipticobj/random-module/issues"
+Documentation = "https://github.com/ellipticobj/random-module/DOCUMENTATION.md"
