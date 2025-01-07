@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: skyblock
+Version: 0.0.1
+Summary: A Python library for interacting with the skyblock.net API
+Author-email: AnotherPillow <programming@pillow.rocks>
+Project-URL: Homepage, https://github.com/AnotherPillow/skyblock-python
+Project-URL: Bug Tracker, https://github.com/AnotherPillow/skyblock-python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# skyblock-python
+
+Initial stages currently, basic (to be async) package for iteracting with the skyblock.net API.

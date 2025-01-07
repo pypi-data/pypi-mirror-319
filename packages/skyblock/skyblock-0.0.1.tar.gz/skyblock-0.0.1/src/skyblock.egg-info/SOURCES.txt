@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/skyblock/__init__.py
+src/skyblock/skyblock.py
+src/skyblock.egg-info/PKG-INFO
+src/skyblock.egg-info/SOURCES.txt
+src/skyblock.egg-info/dependency_links.txt
+src/skyblock.egg-info/requires.txt
+src/skyblock.egg-info/top_level.txt
+src/skyblock/types/ServerInfo.py
