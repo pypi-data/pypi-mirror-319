@@ -1,0 +1,8 @@
+README.md
+setup.py
+DeSlin/__init__.py
+DeSlin/modulo.py
+DeSlin.egg-info/PKG-INFO
+DeSlin.egg-info/SOURCES.txt
+DeSlin.egg-info/dependency_links.txt
+DeSlin.egg-info/top_level.txt
