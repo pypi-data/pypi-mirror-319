@@ -1,0 +1,6 @@
+flask
+zinny-surveys
+
+[dev]
+pytest
+black
