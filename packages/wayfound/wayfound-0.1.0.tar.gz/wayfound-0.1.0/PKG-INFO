@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wayfound
+Version: 0.1.0
+Summary: Provides a simple interface for interacting with the Wayfound Manager API.
+Author-email: Chad Burnette <chad@wayfound.ai>
+Project-URL: Homepage, https://github.com/Wayfound-AI/wayfound-sdk-python
+Project-URL: Issues, https://github.com/Wayfound-AI/wayfound-sdk-python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Wayfound Manager SDK
+
+This package provides a simple interface for interacting with the Wayfound Manager API.
