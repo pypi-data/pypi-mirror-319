@@ -1,0 +1,13 @@
+oracle/__init__.py,sha256=r4xAFihOf72W9TD-lpMi6ntWSTKTP2SlzKP1ytkjRbI,22
+oracle/cli.py,sha256=1Yt6YzduJPPbUYUWXkHtclv7R_89Ac0K24JHq_F5sho,3387
+oracle/controller.py,sha256=J63hyKgF1RlNXdPBBanMBSEDfRbqwcGmmZC1pMQlV28,2889
+oracle/display.py,sha256=Sm-yiY5xXivoo0VT8PcB9ZxcCqYp2X6pLw7PCAs2_3Y,924
+oracle/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oracle/model/choice.py,sha256=HBv8iUJyBJ5PkrgxWGC5gCXcUnZ51HrcvEpWzaZYMhs,692
+oracle/model/group.py,sha256=kAXY3I2eOuEb79TF8JFvb1FgzHijK5CrSD_WlkxxPss,1738
+oracle_sh-0.3.1.dist-info/LICENSE,sha256=9tlJm59ERQx6RvM2b16E7flPuuQQaVXI6lhJ3XLPtV0,1067
+oracle_sh-0.3.1.dist-info/METADATA,sha256=2aAGAKVZ8V5oeDhYT7s3tC_ExIroaOD5Te4xI4IPqgQ,1925
+oracle_sh-0.3.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+oracle_sh-0.3.1.dist-info/entry_points.txt,sha256=l5cyWCt2-AUlR56OXsw99CGqWnNElIWyv9-nYJ9LNBs,42
+oracle_sh-0.3.1.dist-info/top_level.txt,sha256=O1SF3QkJ2zaSLs2FePGNoRlUgQ5jWC8wLBCIGsXEdTQ,7
+oracle_sh-0.3.1.dist-info/RECORD,,
