@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paperchaser"
+version = "0.1.0"
+description = "A tool for downloading academic paper references"
+readme = "README.md"
+authors = [
+    {name = "semiquant", email = "Jason.Limberis@ucsf.edu"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "click",
+    "tabulate",
+    "tqdm",
+    "scholarly",
+    "crossrefapi",
+    "PyPDF2",
+]
+
+[project.urls]
+Homepage = "https://www.SemiQuant.com"
+
+[project.scripts]
+paperchaser = "paperchaser.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["paperchaser"] 
