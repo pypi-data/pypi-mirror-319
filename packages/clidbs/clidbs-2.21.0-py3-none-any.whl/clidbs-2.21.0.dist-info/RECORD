@@ -1,0 +1,16 @@
+clidbs/__init__.py,sha256=_89Cvx6zApp7ooPcGF2eDwmsTjNg-hhlS_MjsyXaLZo,73
+clidbs/cli.py,sha256=7Wmtmx6q3aMGgrwZhtDZzJx121nOKeSLnSNCzLnlNlk,19003
+clidbs/config.py,sha256=lz9cPM2g-MxbQSsaVkUW0Fto2FsQo9Z3aQEsQdg4LvI,1145
+clidbs/databases.py,sha256=rUF8ndgxU0WVxCvpE356-GFCfkSgiMkLG5R9Qh1HhMA,10593
+clidbs/notifications.py,sha256=12sn-u2jQPInJwrZwVas-ru59kKY81pVXNSKDiyY-UU,918
+clidbs/ssl.py,sha256=-O6bFe79l0E2WU1AXVCn0ne6dP-g-iIPLNXd7Nr8wH8,11516
+clidbs/style.py,sha256=wZiZKG7HgL4x_tyMM9cXsJyi-uDU6AM5G44d7JbHsgc,6812
+clidbs/functions/__init__.py,sha256=hbMs7FQ_-w5oae2Vlby57cMyfecYbKIa024Xkx6vYaQ,567
+clidbs/functions/connection_utils.py,sha256=G91StQU3iTgLvlbfDPWXK6SIBSM-LMi9_Hhemz14-3M,2328
+clidbs/functions/container_utils.py,sha256=0AX0zX9h9MlcBtEXsnnkGtw0xIcYyi60VrL1Z3FNcvw,1158
+clidbs/functions/docker_utils.py,sha256=blt9oE1FIEEZWtOdhKKKACOrnPChAcKlkXWiadTZ4KM,4457
+clidbs/functions/security_utils.py,sha256=mJYfYUWnAlwccsXurDUsaVS06Zrx2dSzF7HPFtzGaoE,337
+clidbs-2.21.0.dist-info/METADATA,sha256=LJe52TGCMkViP1Atq4ST-swTdZkqWbiaGyLZV9IRcrQ,4374
+clidbs-2.21.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+clidbs-2.21.0.dist-info/entry_points.txt,sha256=qs5vgrfDvu8yp_Zp_7aC_ZpOemzpiOmZ3ArpA9aFkWg,42
+clidbs-2.21.0.dist-info/RECORD,,
