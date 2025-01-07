@@ -1,0 +1,15 @@
+eplatform/__init__.py,sha256=ts7QEoanVcONdRuUXBn8b5KwugNxr4xVEQticn6fjng,2380
+eplatform/_display.py,sha256=FHo6M2B0zzRnXcAPZ1YVsEbMEjpKBrtpDXqJeRdkET0,7908
+eplatform/_eplatform.c,sha256=vyYUUyzVJ9vi-2ygljQEtle769OCBgfJQINEh1-KlGY,39411
+eplatform/_eplatform.cp312-win32.pyd,sha256=OwZaOg52mNPNSfJHN05mXADQFmtTWLLaNa4aaOZfx8w,40448
+eplatform/_eplatform.pyi,sha256=O5cWHbW0p07NN2-asC4fEMNZxWIt1LLfnhLJumKRG_c,11532
+eplatform/_event_loop.py,sha256=SKuSc3zX2lA9lLghM-a-uVZk6V5bH7_hTOwGtLAhewM,18804
+eplatform/_keyboard.py,sha256=k5wNSkg9pEdRpgECRqEtILiSyQiySif_DAZcxJmxja8,12156
+eplatform/_mouse.py,sha256=Jb3i7iODc3NwWzsBVMiM1kfeogere1jrpgN17Pkrm_c,4252
+eplatform/_platform.py,sha256=Tv7Yo_0PtQ_btW_mdUaF4WlW4AP2v12Mb1lYryLahzE,6013
+eplatform/_type.py,sha256=ciMQvLU3qSRmxj3BxwJKXsXyCW1rovrmp1AvOQGAH9Y,537
+eplatform/_window.py,sha256=EyqSMxQkv9yoE1sv0YM4C0B_guwH8MZlKQcjGDx6QMs,8098
+eplatform/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eplatform-0.8.0.dist-info/METADATA,sha256=X7bj3xBR-DqPTkiaWt6_WmjSG2ePO7mi96-bo4jGqoY,442
+eplatform-0.8.0.dist-info/WHEEL,sha256=Yuu4VbdPyLvZxMH60Kd07FOnLOm1fXSGCA5hhXwhxQc,94
+eplatform-0.8.0.dist-info/RECORD,,
