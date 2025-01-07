@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mountebank_mocks_manager"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr Draha <dr.draga@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+isort = "^5.13.2"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
