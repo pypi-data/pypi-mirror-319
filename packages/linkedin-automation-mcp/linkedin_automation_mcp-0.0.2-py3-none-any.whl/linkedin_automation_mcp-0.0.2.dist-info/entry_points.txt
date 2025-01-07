@@ -1,0 +1,2 @@
+[console_scripts]
+linkedin-automation-mcp = linkedin_automation.server:main
