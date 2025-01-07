@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: PyQtier
+Version: 0.0.3
+Summary: Make your onw desktop app faster
+Author-email: Korzhak <bohdan.korzhak@gmail.com>
+Project-URL: Homepage, https://github.com/Korzhak/PyQtier
+Project-URL: Issues, https://github.com/Korzhak/PyQtier/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click==8.1.7
+Requires-Dist: colorama==0.4.6
+Requires-Dist: PyQt5==5.15.9
+Requires-Dist: pyqt5-plugins==5.15.9.2.3
+Requires-Dist: PyQt5-Qt5==5.15.2
+Requires-Dist: pyqt5-tools==5.15.9.3.3
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: qt5-applications==5.15.2.2.3
+Requires-Dist: qt5-tools==5.15.2.1.3
+
+# PyQtier
+
+Make your onw desktop app faster
+
+Installing using testpypi and pypi for dependencies:
+```bash
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pyqtier
+```
