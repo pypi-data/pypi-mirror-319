@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: swarmauri_doc2vec_vectorstore
+Version: 0.6.0.dev147
+Summary: A Doc2Vec based Vector Store and Doc2Vec Based Embedding Model.
+Home-page: http://github.com/swarmauri/swarmauri-sdk
+License: Apache-2.0
+Author: Jacob Stewart
+Author-email: jacob@swarmauri.com
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: gensim (>=4.3.3,<5.0.0)
+Requires-Dist: swarmauri_base (>=0.6.0.dev147,<0.7.0)
+Requires-Dist: swarmauri_core (>=0.6.0.dev147,<0.7.0)
+Project-URL: Repository, http://github.com/swarmauri/swarmauri-sdk
+Description-Content-Type: text/markdown
+
+# Swarmauri Example Plugin
