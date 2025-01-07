@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ml-ude-client"
+version = "0.1.1"
+description = "Client package for AIML UDE service."
+authors = ["Martin Klosi <mklosi@soley.ai>"]
+readme = "README.md"
+package-mode = true
+packages = [ # &&& do we need this?
+    { include = "ml_ude_client", from = "src" }
+]
+
+[tool.poetry.dependencies]
+boto3 = "*"
+botocore = "*"
+numpy = "*"
+pandas = "*"
+psutil = "*"
+pyarrow = "*"
+python = "~3.10"
+requests = "*"
+s3fs = "^2023.3.0"  # This needs to be pinned becuase of https://github.com/dask/dask/issues/10276
+timeout-decorator = "*"
+twine = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
