@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tria_hr_api/__init__.py
+tria_hr_api/tria_hr_api.py
+tria_hr_api.egg-info/PKG-INFO
+tria_hr_api.egg-info/SOURCES.txt
+tria_hr_api.egg-info/dependency_links.txt
+tria_hr_api.egg-info/requires.txt
+tria_hr_api.egg-info/top_level.txt
