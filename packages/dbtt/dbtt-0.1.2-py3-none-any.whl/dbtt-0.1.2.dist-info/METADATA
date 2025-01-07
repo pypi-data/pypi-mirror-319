@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dbtt
+Version: 0.1.2
+Summary: A toolkit designed to enhance and streamline your dbt workflows.
+Author: Cristian Webber
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich>=13.9.4
+Requires-Dist: typer>=0.15.1
+
+# dbtt
