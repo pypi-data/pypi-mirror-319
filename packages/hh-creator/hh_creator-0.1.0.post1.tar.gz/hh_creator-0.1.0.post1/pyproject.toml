@@ -1,0 +1,28 @@
+[project]
+name = "hh-creator"
+version = "0.1.0.post1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "deuces>=0.2.1",
+    "poker>=0.30.0",
+    "pyqt5",
+    "pyqt5-qt5==5.15.2",
+]
+
+[project.gui-scripts]
+hh-creator = "hh_creator.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["hh_creator"]
+
+[dependency-groups]
+dev = [
+    "pyproject-pre-commit[ruff]>=0.3.6",
+]
+
+[tool.setuptools]
+# FIXME: remove this when the setuptools upstream bug is fixed
+# https://github.com/astral-sh/uv/issues/9513#issuecomment-2519527822
+license-files = []
