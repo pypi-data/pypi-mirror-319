@@ -1,0 +1,13 @@
+IS2view/__init__.py,sha256=Gm_ATtdKK-cZTpxIKcmp377kJe9oXigGU8Yl-XgrbdA,612
+IS2view/_version.py,sha256=PKIMyjdUACH4-ONvtunQCnYE2UhlMfp9su83e3HXl5E,411
+IS2view/api.py,sha256=1XRirraity4IxMAiJWtJu-734D8HPH_DC00K96KbnSY,76860
+IS2view/convert.py,sha256=UnSEsb7jE-3mWgpLyVtzBZobqnvWMuvvqtQhhhnlTq4,3528
+IS2view/io.py,sha256=UdADOZ8UwaDYQybn562CHMfbZOp70MyR2qsNlQTmjKM,6103
+IS2view/tools.py,sha256=vKCP9DafbK10X6gp3DDZvVua4Ttb6tfpYkx6t1eIawU,19497
+IS2view/utilities.py,sha256=V8jyuOF438Efj5jUmDPTc1ovedlKHYnjsz6XK2yX8Es,51464
+IS2view/version.py,sha256=KttRNCMQDZKkHXxxo_BksPI-mq1w9s6e2EIPNdsUK54,369
+IS2view-0.1.1.dist-info/LICENSE,sha256=QeJHFTJFvXH2oC4tewT_OP8D8FXLzquN9W7WXAjvoWk,1074
+IS2view-0.1.1.dist-info/METADATA,sha256=oBX6F3wbiwecKGNSzejQilKOMuShL_-zXBJ1pPp-tK4,7123
+IS2view-0.1.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+IS2view-0.1.1.dist-info/top_level.txt,sha256=bkia8vEyy_k2BTQW3XdtPo493cYP-YkOthbmXVh_opg,8
+IS2view-0.1.1.dist-info/RECORD,,
