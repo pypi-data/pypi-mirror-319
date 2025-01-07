@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: neuromeka-isaacsim
+Version: 0.0.1
+Summary: Isaac Sim extension for Neuromeka robots
+Author: Neuromeka
+Author-email: technical-support@neuromeka.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Neuromeka Isaac Sim Extension
+
+Isaac Sim extension package for Neuromeka robots simulation.
+
+## Requirements
+
+- Python 3.10
+- Windows 10/11 or Ubuntu 20.04/22.04
+
+## Installation
+
+To install
+
+```bash
+pip3 install neuromeka-isaacsim
+neuromeka-isaacsim-install
+```
+
+To uninstall
+
+```
+pip3 uninstall neuromeka-isaacsim
+```
