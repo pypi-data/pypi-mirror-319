@@ -1,0 +1,101 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "La ubicaci\u00f3n ya est\u00e1 configurada",
+            "reconfigure_successful": "Se volvi\u00f3 a configurar correctamente"
+        },
+        "error": {
+            "cannot_connect": "No se pudo conectar"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "destination": "Destino",
+                    "name": "Nombre",
+                    "origin": "Origen",
+                    "region": "Regi\u00f3n"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "excl_filter": "Nombre exacto de la calle que NO debe ser parte de la ruta seleccionada",
+                    "incl_filter": "Nombre exacto de la calle que debe ser parte de la ruta seleccionada",
+                    "units": "Unidades"
+                },
+                "description": "Algunas opciones te permitir\u00e1n forzar la integraci\u00f3n a utilizar una ruta particular o evitar una ruta particular en su c\u00e1lculo de viaje en el tiempo."
+            }
+        }
+    },
+    "selector": {
+        "region": {
+            "options": {
+                "au": "Australia",
+                "eu": "Europa",
+                "il": "Israel",
+                "na": "Norte Am\u00e9rica",
+                "us": "EE.UU."
+            }
+        },
+        "vehicle_type": {
+            "options": {
+                "car": "Coche",
+                "motorcycle": "Motocicleta",
+                "taxi": "Taxi"
+            }
+        }
+    },
+    "services": {
+        "get_travel_times": {
+            "fields": {
+                "avoid_ferries": {
+                    "description": "Si se deben evitar los transbordadores.",
+                    "name": "\u00bfEvitar ferries?"
+                },
+                "avoid_subscription_roads": {
+                    "description": "Si se deben evitar las carreteras de peaje.",
+                    "name": "\u00bfEvitar carreteras que necesitan vignette / suscripci\u00f3n?"
+                },
+                "avoid_toll_roads": {
+                    "description": "Si se deben evitar las autopistas de peaje.",
+                    "name": "\u00bfEvitar las autopistas de peaje?"
+                },
+                "destination": {
+                    "description": "El destino de la ruta.",
+                    "name": "Destino"
+                },
+                "excl_filter": {
+                    "description": "Nombre exacto de la calle que NO debe ser parte de la ruta seleccionada.",
+                    "name": "Nombre exacto de la calle que NO debe ser parte de la ruta seleccionada"
+                },
+                "incl_filter": {
+                    "description": "Nombre exacto de la calle que debe formar parte de la ruta seleccionada.",
+                    "name": "Nombre exacto de la calle que debe ser parte de la ruta seleccionada"
+                },
+                "origin": {
+                    "description": "El origen de la ruta.",
+                    "name": "Origen"
+                },
+                "realtime": {
+                    "description": "Usar datos en tiempo real o estad\u00edsticos.",
+                    "name": "\u00bfTiempo de viaje en tiempo real?"
+                },
+                "region": {
+                    "name": "Regi\u00f3n"
+                },
+                "units": {
+                    "description": "Qu\u00e9 sistema de unidades utilizar.",
+                    "name": "Unidades"
+                },
+                "vehicle_type": {
+                    "description": "Qu\u00e9 veh\u00edculo utilizar.",
+                    "name": "Tipo de veh\u00edculo"
+                }
+            }
+        }
+    },
+    "title": "Waze Travel Time"
+}
