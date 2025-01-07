@@ -1,0 +1,16 @@
+types_boto3_frauddetector/__init__.py,sha256=EhiBtI1yHhggYhi8h_63G2Ihzf6NElp_edE2QsNGjq0,454
+types_boto3_frauddetector/__init__.pyi,sha256=tr-3ig3S2nizhThmEMn4FUfyi-2A76TDMfEHASNhACo,453
+types_boto3_frauddetector/__main__.py,sha256=ZbvNw9x4PXeXqDMcardmi5gQXa8MbeaabrsGdroU0c8,1008
+types_boto3_frauddetector/client.py,sha256=YF8m0_c35EfwNsTpn93LYNzPUC33uCLHn8fkfWNNnBA,43892
+types_boto3_frauddetector/client.pyi,sha256=XHwCw9w7vrmVQpv-oeNTQXaxFSqWOBhVSLb5GGZt0C4,43889
+types_boto3_frauddetector/literals.py,sha256=m5tROWEY-vpQ6tWy5K6-_zr8FWZkLqNEcdY2582yzkQ,10581
+types_boto3_frauddetector/literals.pyi,sha256=UCcGFx4WBRb_EW48On_oKMYbTI0Cs_fUKmZ2z0lMLEg,10579
+types_boto3_frauddetector/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+types_boto3_frauddetector/type_defs.py,sha256=zXFM8K0soWcw6xA9eNIbQ1HemC2_hp4MrcrllOnfVVU,41473
+types_boto3_frauddetector/type_defs.pyi,sha256=UfvxWZD7yIv4N2eJVGfbYCc6aQEJKZEs8gP-FN5M0Os,41294
+types_boto3_frauddetector/version.py,sha256=n6wyMBvI3Tp0INYol4fUJ84y0BqM9ti-SkLRGfsif5s,93
+types_boto3_frauddetector-1.35.93.dist-info/LICENSE,sha256=4jNgB8jJbXtUVJkeygwhUQi--6lAG8DIisfE-h_RiUU,1070
+types_boto3_frauddetector-1.35.93.dist-info/METADATA,sha256=mGzzGr-DW8WK8WVxPPrVHJaH6GIOugSk5E4aB1iuKhU,14237
+types_boto3_frauddetector-1.35.93.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+types_boto3_frauddetector-1.35.93.dist-info/top_level.txt,sha256=hUo8OrDfskvRr99luqrbXwGzVgl_f9wrOUe9eUoOVc8,26
+types_boto3_frauddetector-1.35.93.dist-info/RECORD,,
