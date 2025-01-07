@@ -1,0 +1,7 @@
+LICENCE
+setup.py
+nahcrofDB.egg-info/PKG-INFO
+nahcrofDB.egg-info/SOURCES.txt
+nahcrofDB.egg-info/dependency_links.txt
+nahcrofDB.egg-info/top_level.txt
+src/__init__.py
