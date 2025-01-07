@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: funcnodes-keras
+Version: 0.1.13
+Summary: 
+Author: Kourosh Rezaei
+Author-email: kouroshrezaei90@gmail.com
+Requires-Python: >=3.11,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: funcnodes
+Requires-Dist: funcnodes-core
+Requires-Dist: tensorflow (==2.16.2) ; sys_platform == "linux"
+Requires-Dist: tensorflow (==2.16.2) ; sys_platform == "win32"
+Requires-Dist: tensorflow-intel (==2.16.2) ; sys_platform == "win32"
+Requires-Dist: tensorflow-io-gcs-filesystem (==0.31) ; sys_platform == "win32"
+Requires-Dist: tensorflow-io-gcs-filesystem (==0.37.1) ; sys_platform == "darwin"
+Requires-Dist: tensorflow-macos (==2.16.2) ; sys_platform == "darwin"
+Description-Content-Type: text/markdown
+
+Keras for funcnodes
+
