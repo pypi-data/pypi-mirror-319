@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: start-watching-sites
+Version: 0.0.12
+Summary: Checking sites
+Author: jaytrairat
+Author-email: jay.trairat@gmail.com
+Requires-Python: >=3.12.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: openpyxl (>=3.1.5,<4.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: pytz (>=2024.2,<2025.0)
+Requires-Dist: requests (>=2.32.3)
+Requires-Dist: sqlalchemy (>=2.0.36,<3.0.0)
+Requires-Dist: tabulate (>=0.9.0)
+Requires-Dist: tqdm (>=4.67.1)
+Description-Content-Type: text/markdown
+
+```sh
+cyber-patrol-watcher -h
+```
