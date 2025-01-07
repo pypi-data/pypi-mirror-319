@@ -1,0 +1,7 @@
+excel-list-transform>=0.7.1
+xmltodict>=0.13.0
+types-xmltodict>=0.13.0.3
+pip>=24.2
+setuptools>=75.6.0
+build>=1.2.2
+wheel>=0.45.1
