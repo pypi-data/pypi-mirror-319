@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: PYPGLM
+Version: 0.99.1
+Summary: This package is designed to facilitate the modeling of probabilistic, graphical, logical systems.
+Author: Salma Bayoumi, De Landtsheer Sebastien
+Author-email: salma.ismail.hamed@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: networkx==2.8.4
+Requires-Dist: numpy==1.23.5
+Requires-Dist: pandas==1.5.3
+Requires-Dist: emoji==2.5.0
+Requires-Dist: pytest==7.1.2
+Requires-Dist: pytest-cov==3.0.0
+Requires-Dist: openpyxl==3.1.2
+Requires-Dist: scipy===1.11.3
+Requires-Dist: matplotlib==3.8.1
+Requires-Dist: gaft==0.5.7
+Requires-Dist: seaborn==0.13.0rc0
+Requires-Dist: joblib~=1.3.2
+Requires-Dist: scikit-learn~=1.4.0
+
+# pypglm (Probabilistic Graphical Logical Models)
+
+## Description
+
+This toolbox is designed to facilitate the modeling of probabilistic, graphical, logical systems.
+It is the new version of the tool "FALCON", developed in Matlab in 2017 and described in De Landtsheer et al. in 
+Bioinformatics: [here is the link](https://academic.oup.com/bioinformatics/article/33/21/3431/3897376).
+
+Example usage: modeling of signaling pathways
+
+## Version info
+
+v0.01 pre-alpha : current development
+
+## Installation and requirements
+
+We advise you to clone the repo to your local machine, set up a virtual environment,
+ install the requirements from the 'requirements.txt' file.
+
+
+## Usage
+
+In order to use pypgml, you will need two things:
+- a network file (xls, xlsx, csv, sif) containing the structure of the interaction network.
+- a data file (xls, xlsx, csv) containing the values for input nodes and output nodes in the different contexts.
+
+- The file extension for pypglm is ".ðŸ¦…", as a tribute to the original FALCON toolbox.
+- 
+
+## Regularizations
+
+The coolest thing with the pypgml is the possibility to apply multiple regularization schemes to the parameters
+ of the models. Multiple models, with identical structure, can be optimized together over multiple contexts.
+
+- L1/2: partial norm on parameters. This induces a simplification of the model topology
+- L1: simple L1 norm on parameters. This induces a pruning of less important inhibitory edges, but has no effect on stimulatory edges
+- L2: Induces a decrease of weights of unimportant inhibitory edges
+- L1_groups: Induces an equalization of edge values between contexts when these are discrete (different cell lines)
+- L1_smooth: Induces an equalization of edge values between contexts when these are continuous and ordered (different time-points)
+- LCluster: Induces a clustering of edge values. See [this paper](https://www.frontiersin.org/articles/10.3389/fphys.2018.00550/full)
+
+
+## Credit
+
+Developers:
+[Dr De Landtsheer Sebastien](https://scholar.google.com/citations?user=5Mx1n0MAAAAJ&hl=en)
+
+
+
+## Contribution
+
+Want to contribute to the project? Great! Check out the Issues for open problems and bugs, or submit a new one.
+Do not hesitate to enter in contact with the developing team: sebdelandtsheer@gmail.com
+
+
+
