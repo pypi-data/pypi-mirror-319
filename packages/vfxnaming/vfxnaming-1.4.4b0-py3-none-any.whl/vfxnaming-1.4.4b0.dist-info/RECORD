@@ -1,0 +1,13 @@
+vfxnaming/__init__.py,sha256=mDbDgEuTw4SwKZ_96_qBgJlRECZNjp94gEV8jA1-mRk,630
+vfxnaming/error.py,sha256=w0QS1v3_GcDypP2_Vg1Ixde2VIGggpu3W-gGQsta9lA,419
+vfxnaming/logger.py,sha256=0XvsRWTd3SvsysDvLN4T1FH2OFMdNy5bnYkml6MfHGA,4347
+vfxnaming/naming.py,sha256=7tl_6RmHLJeQfEIO_wOPkvfzwpuuiM-V6vCPti2TEa4,11762
+vfxnaming/rules.py,sha256=RRb1wmSK8QdVcYtvhdSIEOjCLJvqqc_bZnmfxIO5P1M,23612
+vfxnaming/serialize.py,sha256=IMovRodIZekiJccT7WrnnfyB7zuE9kjezUIljrpwRXc,1102
+vfxnaming/tokens.py,sha256=pqqnL_0dwRN0VPbkrwtDxpWqDaFPtLbneGH5MEZvxMU,21547
+vfxnaming/cfg/config.json,sha256=bCTKnwM8uHhESooszLl0you80X_pXOXcKvY-aIIVsTI,69
+vfxnaming-1.4.4b0.dist-info/LICENSE,sha256=wDgvf1IxYkufs3kblaN6lsiIthqW2HP7H5OzP_SnqaQ,1111
+vfxnaming-1.4.4b0.dist-info/METADATA,sha256=C1TE2tamBL9bIz82YbKGdYm32EjmSiSaEKZZ0Y25b9c,2516
+vfxnaming-1.4.4b0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+vfxnaming-1.4.4b0.dist-info/top_level.txt,sha256=nye5DMStMIkJguc0GjUQmK-qJZsmuTgCheGxd0yDy90,10
+vfxnaming-1.4.4b0.dist-info/RECORD,,
