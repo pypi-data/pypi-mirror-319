@@ -1,0 +1,12 @@
+genesis_base/__init__.py,sha256=0tPlwtXB-Qznim_ALojdE5Vy4_sMhoFhBV5GX6wbC38,66
+genesis_base/connections/__init__.py,sha256=Sk-fIRr5vyvOxT-XIf6MbvEG9drdZDkyrv9cUkFG-fc,334
+genesis_base/connections/database.py,sha256=b54Llo0pH4lSynnAPC3wEGLjIxfxQjhHf-gJVG-kbLM,1060
+genesis_base/connections/mongodb.py,sha256=U_0BZ5Vm5Q9knuEvgZCLnK1zZVNoS1yIvMtwlZRifwk,1171
+genesis_base/connections/s3.py,sha256=uj6gDzVN9DfXJBRFZ777ngc9pfUJmlw4cPgzfmaL_po,1756
+genesis_base/models/__init__.py,sha256=jXOqgRSqNLeohrlKKutFQIBZOo2Sow00u9FZ-Zv6uZ4,182
+genesis_base/models/base.py,sha256=mhWRHgcg-tA-Ml0Ge7Lg24iVyZ_eEHsp3cOh2dJJf1o,1113
+genesis_base/models/task.py,sha256=jR5tMItPjQ61iJmqmmcevg7d1ZBYFVPk9ziD7GoijRI,3030
+genesis_base/processor.py,sha256=H9r7u5oo6AxQE-SFCP9XMesrrJxYB_9YvbhdiNfDOHs,2740
+genesis_base-0.1.1.dist-info/METADATA,sha256=33RSy06V1dC_WXLZNmNdUjQC2PKO8EShigh80EhWgZc,2086
+genesis_base-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+genesis_base-0.1.1.dist-info/RECORD,,
