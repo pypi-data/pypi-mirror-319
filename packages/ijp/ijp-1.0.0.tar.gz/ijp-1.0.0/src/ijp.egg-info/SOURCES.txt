@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/ijp/__init__.py
+src/ijp/incremental_json.py
+src/ijp.egg-info/PKG-INFO
+src/ijp.egg-info/SOURCES.txt
+src/ijp.egg-info/dependency_links.txt
+src/ijp.egg-info/top_level.txt
+tests/test_ijp.py
