@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: plover-listening-lookup
+Version: 1.0.0
+Summary: Automatic Word Lookup GUI Plugin for Plover
+Home-page: https://github.com/Erhannis/plover_listening_lookup
+Author: Erhannis
+Author-email: eyeillus@gmail.com
+License: MIT License (MIT)
+Keywords: plover plover_plugin
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: plover>=4.0.0.dev10
+
+# Listening Lookup for Plover
+//#DUMMY Add to PyPi I guess<br/>
+[![PyPI](https://img.shields.io/pypi/v/plover-listening-lookup)](https://pypi.org/project/plover-listening-lookup/)
+![GitHub](https://img.shields.io/github/license/Erhannis/plover_listening_lookup)
+
+This is a Plover plugin that listens to normal keyboard keypresses and gives suggested strokes for each detected word, as though you were typing into the built-in Lookup window.  Intended for learners to get a feel for words while still typing normally.
+
+Warning: this does listen to your keyboard (as does Plover), so you might want to e.g. minimize or close it before typing any passwords.
+
+Based off https://github.com/Kaoffie/plover_next_stroke .  There might be some leftover code I missed.
+
+## Installation
+
+(The following line may not yet be true.) //#DUMMY Remove this once added.<br/>
+You can install this plugin using the built-in Plover Plugin Manager, under the name `plover-listening-lookup`.
+
+Or:
+```
+sudo apt install pyqt5-dev-tools
+plover -s plover_plugins install --force PyQt5
+plover -s plover_plugins install git+https://github.com/Erhannis/plover_listening_lookup.git#egg=plover_listening_lookup
+```
+(Not sure if ALL those steps are needed, but I think that's what worked for me.)
+
+## License & Credits
+
+This plugin is licensed under the MIT license.
+
+The icons used in this plugin are taken from [Icons8 Flat Color Icons](https://github.com/icons8/flat-color-icons), or from [https://publicdomainvectors.org](https://publicdomainvectors.org).
