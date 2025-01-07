@@ -1,0 +1,7 @@
+pytest_mongodb_ry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_mongodb_ry/plugin.py,sha256=nU6Uz5nOt0y3db8HMmLCbiayYwp1YAgl8flTa16r4M0,5944
+pytest_mongodb_nono-0.0.0.dist-info/METADATA,sha256=nfrSqD-dCPQqdqTcd_XaMuz1koZZ-BpCp6p-Y_DJ0E4,411
+pytest_mongodb_nono-0.0.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+pytest_mongodb_nono-0.0.0.dist-info/entry_points.txt,sha256=UB33olzROe1ELwD-te_edQIpoCtihPpJ-hX5BbLx8CM,56
+pytest_mongodb_nono-0.0.0.dist-info/top_level.txt,sha256=4Y1W7TyYEiceooOFvditS7njC1F2OLv_9iG0PA6lND0,18
+pytest_mongodb_nono-0.0.0.dist-info/RECORD,,
