@@ -1,0 +1,2 @@
+[console_scripts]
+nomenclators-elprat = nomenclators_archetype.cli:cli
