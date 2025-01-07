@@ -1,0 +1,3 @@
+[console_scripts]
+watchout = watchout.main:main
+wo = watchout.main:main
