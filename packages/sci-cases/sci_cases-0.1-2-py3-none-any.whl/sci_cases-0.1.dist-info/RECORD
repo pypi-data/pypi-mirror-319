@@ -1,0 +1,10 @@
+sci_cases/__init__.py,sha256=jIWV2nfV1PIn1_JbdAPeMYrB6H63C70IV8yYp02TUUs,80
+sci_cases/case_data.py,sha256=h_VapIHk-1RqmbzETjbiJ9XbKNikHVV9oGizF2FUVwM,3515
+sci_cases/judgement_details.py,sha256=qIkfxdlZjn-3rtsYRrCS8B3pMaEr_gixpzYMbbH-lmk,1393
+tests/__init__.py,sha256=CdYzTJSz61PmA8bXhuKLFU9ALN8gPJiK25KlszHgjj0,29
+tests/test_case_data.py,sha256=dKWaHw3MBooIg-VmCCRuPk0c5nll4hshsK6UidfrJE8,501
+sci_cases-0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+sci_cases-0.1.dist-info/METADATA,sha256=NV6Th1x6Hj0Fh2w1ki-fKjY0guxz_F9hvpyyzOFISVo,490
+sci_cases-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sci_cases-0.1.dist-info/top_level.txt,sha256=m8nY4byOoqipeebA04hynRA2iY0AtVVk3MGBRZqDOCE,16
+sci_cases-0.1.dist-info/RECORD,,

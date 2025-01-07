@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sci-cases
+Version: 0.1
+Summary: A package to fetch and parse Supreme Court of India case data
+Home-page: https://github.com/arnalph/sci_cases
+Author: Arnav Kamath
+Author-email: arnkamath2004@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
