@@ -1,0 +1,10 @@
+{
+  "testcases/test_e2e.py::TestLocalDatasetE2E::test_write_and_read_data": true,
+  "testcases/test_e2e.py::TestLocalDatasetE2E::test_multiple_splits": true,
+  "testcases/test_e2e.py::TestLocalDatasetE2E::test_batch_reading": true,
+  "testcases/test_e2e.py::TestLocalDatasetE2E::test_ground_truth_computation": true,
+  "testcases/test_e2e.py::TestLocalDatasetE2E::test_ground_truth_computation[None]": true,
+  "testcases/test_e2e.py::TestLocalDatasetE2E::test_ground_truth_computation[idx < 10]": true,
+  "testcases/test_e2e.py::TestLocalDatasetE2E::test_ground_truth_computation[idx >= 10]": true,
+  "testcases/test_e2e.py": true
+}
