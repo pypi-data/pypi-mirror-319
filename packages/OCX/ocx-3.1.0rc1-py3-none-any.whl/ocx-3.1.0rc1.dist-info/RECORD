@@ -1,0 +1,17 @@
+ocx/OCX_Schema.xsd,sha256=NZvMeScUVvh1Fu6mZNDQtGPtE-0JSeihDhB_v7vBg_w,252575
+ocx/__init__.py,sha256=ajGvdXHCb5AQJI8YQQYuBWN8XMnkTg46NreBE4395Vo,25
+ocx/ocx_286/__init__.py,sha256=mlx43r4UuU3ep1fY5-m-rYJpu50fveRMgyJycWfFaCY,10427
+ocx/ocx_286/ocx_286.py,sha256=hOAufpRYaUHyFfJuRCMN_lXJzRgIdvKdfE1gzFjP9Eg,347292
+ocx/ocx_286_fix/__init__.py,sha256=C6z_r_4SH9PyVlVpRybfgvu2ksgpDVlzS9aMNaUZrl0,10426
+ocx/ocx_286_fix/ocx_286_fix.py,sha256=_qxn_vYXo08d70qgTWnQQeIReZXc9LTYsCLe-lEh8wI,370511
+ocx/ocx_300/__init__.py,sha256=sY_HQ-kDcjPYvF-KQJZ3fcyxEVtwTcG4-GGlo4h_Nxs,10219
+ocx/ocx_300/ocx_300.py,sha256=3ZLpk5t589O2uUzUG_5fnTR3DvJoEY4LuVG3UZDVTFA,354632
+ocx/ocx_301/__init__.py,sha256=sY_HQ-kDcjPYvF-KQJZ3fcyxEVtwTcG4-GGlo4h_Nxs,10219
+ocx/ocx_301/ocx_301.py,sha256=spS049alqyWtN0rzXQh7JZ53q7zDbnxvQvG2pa7Z98E,361153
+ocx/ocx_310rc1/__init__.py,sha256=rVZ-2J4qZ6qdlKkQyI50RulLSlhMTjktTJIGK2h1Amg,10541
+ocx/ocx_310rc1/ocx_310rc1.py,sha256=-KS5H7Sld6MMbIThUyuaBBwYR0KkQm6xjqr7bFIlT0Y,378842
+ocx/unitsmlSchema_lite-0.9.18.xsd,sha256=92tb68QguqajG6hG5Fh3Zd5MWGrTd9BS-OGukyl5I9Y,32378
+ocx-3.1.0rc1.dist-info/LICENSE,sha256=LA5ArohJRCDgf1lgpz59d9qUW_-j_cTKB4QSZn7qzg8,11359
+ocx-3.1.0rc1.dist-info/METADATA,sha256=VOkVA-3qpDR7_a_Dvh2s_tTqswCc67Ebt7kMG9Ia3Sg,5154
+ocx-3.1.0rc1.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+ocx-3.1.0rc1.dist-info/RECORD,,
