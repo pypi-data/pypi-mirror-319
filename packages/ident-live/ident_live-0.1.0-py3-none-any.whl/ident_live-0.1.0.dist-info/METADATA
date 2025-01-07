@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ident_live
+Version: 0.1.0
+Summary: Marlin Live | Run local models against local data.
+Author: Rahul Tandon
+Author-email: r.tandon@rsaqua.co.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ident_live
+Command line running of ident live application. Run local data against IDent features/models.
