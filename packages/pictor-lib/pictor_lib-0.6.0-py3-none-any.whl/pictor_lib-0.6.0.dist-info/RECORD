@@ -1,0 +1,9 @@
+pictor_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pictor_lib/pictor_box.py,sha256=7dFTlKAiFVvP2o3iLe8_jhjxz7Q2nmPUHjcEeXuocac,2779
+pictor_lib/pictor_point.py,sha256=Qwwxx6Aun-eOkdijamLgKobgFpXJxQkxiqRSJDVzKps,1845
+pictor_lib/pictor_size.py,sha256=4JNffz8z36VQ_JmpbruW5D9rXAZvEKeE4TI5o06v3K8,3501
+pictor_lib/pictor_type.py,sha256=H9YVVo-RETbYO_V4xmCpAQh7VNLCAxQ05LjM9hd1HxI,131
+pictor_lib-0.6.0.dist-info/METADATA,sha256=12UmCdIjWjzJaanFkAvmQ3jW3oK5XhvdIrFQHzRB0wQ,1137
+pictor_lib-0.6.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pictor_lib-0.6.0.dist-info/licenses/LICENSE,sha256=hdKZV9hNJYXnEgwZxyhSuGDOQHK-SYVTUPJcxVtY1k0,1066
+pictor_lib-0.6.0.dist-info/RECORD,,
