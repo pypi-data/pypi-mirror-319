@@ -1,0 +1,8 @@
+sage_wheels/bin/benzene,sha256=mOXyBVSheTeYEXe-5SDOQ3oM15yLCKMwTBY106PQdag,47336
+passagemath_benzene-10.5.19.dist-info/METADATA,sha256=76Doj1WPDNONo-zP20xPBoP6Mnl_N7ZritDdA8Ot0lE,3497
+passagemath_benzene-10.5.19.dist-info/RECORD,,
+passagemath_benzene-10.5.19.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_benzene-10.5.19.dist-info/WHEEL,sha256=vetxrtRrmt4gbC0vOC-sCRs97FFI3a7KT7Cko4e-noI,216
+sage/all__sagemath_benzene.py,sha256=CQoS3S33YOlSv93-9HmxiKHRnsCQ1DPH61tCEBA9hpg,87
+sage/libs/all__sagemath_benzene.py,sha256=RAX0m_5kvkhgHi6RQtsI-y4OnMLkimfl6pidgWCt080,46
+sage/libs/benzene.cpython-310-i386-linux-gnu.so,sha256=AK26-3qY3syI7cI8ZWC6X8-w_9qdSTwlUjYaUYJm2KI,59424
