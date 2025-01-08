@@ -1,0 +1,7 @@
+setup.py
+jack_uxw.egg-info/PKG-INFO
+jack_uxw.egg-info/SOURCES.txt
+jack_uxw.egg-info/dependency_links.txt
+jack_uxw.egg-info/top_level.txt
+myuse/__init__.py
+myuse/jam.py
