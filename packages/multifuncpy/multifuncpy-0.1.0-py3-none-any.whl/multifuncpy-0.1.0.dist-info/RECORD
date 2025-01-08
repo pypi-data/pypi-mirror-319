@@ -1,0 +1,6 @@
+tests/__init__.py,sha256=s9CgDwWAu-v8-NMtLVMgtJaJaZRT9fvoL5GP-NTM7Ug,149
+tests/test_client.py,sha256=VEV2bxF7R3jFZKu-KUw4xK16AUxbMVNXe5g-PYW4TEA,715
+multifuncpy-0.1.0.dist-info/METADATA,sha256=zk1vYEjm7OSvTRZ7lOe5IHaCd_pN2BF-TUZp8W5Bx6o,2803
+multifuncpy-0.1.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+multifuncpy-0.1.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+multifuncpy-0.1.0.dist-info/RECORD,,
