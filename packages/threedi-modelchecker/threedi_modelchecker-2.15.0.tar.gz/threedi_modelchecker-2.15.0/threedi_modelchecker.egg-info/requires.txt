@@ -1,0 +1,13 @@
+Click
+GeoAlchemy2!=0.11.*,>=0.9
+SQLAlchemy>=1.4
+threedi-schema==0.229.*
+
+[rasterio]
+rasterio>=1.3.10
+
+[test]
+factory_boy
+pytest
+pytest-asyncio
+pytest-cov
