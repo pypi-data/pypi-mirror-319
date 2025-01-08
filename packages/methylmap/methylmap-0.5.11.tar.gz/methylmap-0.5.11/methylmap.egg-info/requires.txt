@@ -1,0 +1,8 @@
+dash>=2.18.0
+dash_bootstrap_components
+numpy
+pandas
+pathlib
+plotly>=5.4.0
+scipy
+tqdm
