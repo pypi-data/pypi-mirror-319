@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pypbs3/__init__.py
+src/pypbs3.egg-info/PKG-INFO
+src/pypbs3.egg-info/SOURCES.txt
+src/pypbs3.egg-info/dependency_links.txt
+src/pypbs3.egg-info/requires.txt
+src/pypbs3.egg-info/top_level.txt
