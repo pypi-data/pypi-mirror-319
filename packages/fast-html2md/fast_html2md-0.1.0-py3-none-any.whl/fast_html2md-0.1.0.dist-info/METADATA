@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: fast-html2md
+Version: 0.1.0
+Summary: Convert HTML to Markdown for LLM input extraction
+Project-URL: Homepage, https://github.com/ancs21/fast-html2md
+Project-URL: Repository, https://github.com/ancs21/fast-html2md.git
+Author-email: An Pham <ancs21.ps@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: beautifulsoup4>=4.12.3
+Requires-Dist: markdownify>=0.14.1
+Requires-Dist: tiktoken>=0.7.0
+Description-Content-Type: text/markdown
+
+# fast-html2md
+Convert HTML to Markdown for LLM input extraction.
