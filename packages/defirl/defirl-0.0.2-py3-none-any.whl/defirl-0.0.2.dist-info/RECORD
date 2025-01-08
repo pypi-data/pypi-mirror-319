@@ -1,0 +1,9 @@
+defirl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+defirl/q_table.npy,sha256=hpWEbvotCUXSscrUJ41VkZVwSfzAtCUualnbluQiom8,91832
+defirl/rl.py,sha256=m3ooZh8fgPBnuJpb806zLQWTIA71DwKnPmbe0s92Vtg,3061
+defirl/state_to_index.npy,sha256=S9CRiSUkNCrX2Rnb6FJ3gaowYntYadHSFxVTzFGMDgM,155970
+defirl-0.0.2.dist-info/LICENSE,sha256=w1UKXDXzOM3J1kFMfQxxM7DGKkKOORDkad7Sp9Of8kE,1058
+defirl-0.0.2.dist-info/METADATA,sha256=1aVdkFuWs4ZbpTES4k8iQ0hSo0uUnirmR-4giJCwCaY,1132
+defirl-0.0.2.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+defirl-0.0.2.dist-info/top_level.txt,sha256=HRayA0iWNKAOBCUq7QRc03yUJ7zTycqWfvq7Ns6X0tQ,7
+defirl-0.0.2.dist-info/RECORD,,
