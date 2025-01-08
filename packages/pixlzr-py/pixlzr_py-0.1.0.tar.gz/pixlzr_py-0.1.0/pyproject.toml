@@ -1,0 +1,23 @@
+[build-system]
+requires = ["maturin>=1.8,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "pixlzr_py"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+authors = [{ name = "Guilherme", email = "dev@guilherme.zaluchi.com.br" }]
+description = "A small example package"
+readme = "README.md"
+urls = { Homepage = "https://github.com/pypa/sampleproject", Issues = "https://github.com/pypa/sampleproject/issues" }
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
