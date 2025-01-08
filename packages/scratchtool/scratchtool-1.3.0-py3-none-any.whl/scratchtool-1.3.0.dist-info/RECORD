@@ -1,0 +1,13 @@
+scratchtool/__init__.py,sha256=n1oApGXBl_O74JgesszIObXjMv2IwPezf2r7qmxQxj4,99
+scratchtool/_cloud_class.py,sha256=e808pjR43g21uh33rJfy09toR6QXUEeTaUq53WuaX1Q,2922
+scratchtool/_login_class.py,sha256=ir1idvcO2ufXvtBh5irtYI5qfK_fdJ20dQRgfAF9-1w,283
+scratchtool/_project_class.py,sha256=KCyP9FFMipY4dnXJ-DePJmSpDGf4Tqc7rGL2tqOH2Cw,1739
+scratchtool/_user_class.py,sha256=hXSJVLVBEKnnVFtAa3k9NK1TELt1WFhERxoZZUg9Ntw,3432
+scratchtool/login_class.py,sha256=pPtmLcUDhtaM3-k6nE3dYgWajhrWnG26pZBQEGbHXbo,2849
+scratchtool/project_class.py,sha256=8o8D24SaqOTxLS7aO-lgAVlx9iXln6wGyEDycVhqC4c,3449
+scratchtool/user_class.py,sha256=X0jG3Dv4nl3-EcpbUYMQh2YMKvrncd5In9MtXXPpOLI,4273
+scratchtool-1.3.0.dist-info/METADATA,sha256=FIP5aNIzhRTOf-vtzMBb39J5qsQS6WNFTEU10p85m8g,489
+scratchtool-1.3.0.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+scratchtool-1.3.0.dist-info/entry_points.txt,sha256=0eCrdy3e5siujUWRtkGHzSlLdlAjJUB53XK5K9wKCmA,54
+scratchtool-1.3.0.dist-info/top_level.txt,sha256=svaL2ieNFLchQz0cTVewUj3vfyAyJzBNY17Bvxc6lFM,12
+scratchtool-1.3.0.dist-info/RECORD,,
