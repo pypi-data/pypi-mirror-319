@@ -1,0 +1,171 @@
+# Tria HR API Client
+
+A Python client for interacting with the Tria HR API. This library provides easy access to attendance, organization units, and company data.
+
+## Installation
+
+```bash
+pip install triahr-client
+```
+
+## Configuration
+
+You can initialize the client in three different ways:
+
+### 1. Using Configuration File
+
+Create a `config.ini` file:
+
+```ini
+[Environment]
+stage = https://stage.company.triahr.com
+prod = https://company.triahr.com
+
+[OAuth]
+client_id = your_client_id
+client_secret = your_client_secret
+```
+
+Initialize the client:
+
+```python
+from triahr import TriaHRAPI
+
+# Initialize using config file (defaults to 'stage' environment)
+api = TriaHRAPI.from_config()
+
+# Or specify a different environment
+api = TriaHRAPI.from_config(environment='prod')
+```
+
+### 2. Direct Initialization
+
+```python
+from triahr import TriaHRAPI
+
+api = TriaHRAPI(
+    base_url="https://stage.company.triahr.com",
+    client_id="your_client_id",
+    client_secret="your_client_secret"
+)
+```
+
+### 3. Using JSON Credentials
+
+This is particularly useful when using the library in Databricks:
+
+```python
+from triahr import TriaHRAPI
+import json
+
+# When using Databricks secrets
+credentials = json.loads(dbutils.secrets.get(scope="tria_hr", key="credentials"))
+api = TriaHRAPI.from_json(
+    base_url="https://stage.company.triahr.com",
+    credentials_json=credentials
+)
+```
+
+Required JSON format for credentials:
+```json
+{
+    "client_id": "your_client_id",
+    "client_secret": "your_client_secret"
+}
+```
+
+## Usage Examples
+
+### Test Connection
+
+```python
+response = api.ping()
+api.format_response(response)
+```
+
+### Get Organization Units
+
+```python
+# Get organization units for a specific company
+org_units = api.organization_units(company_id="158")
+api.format_response(org_units)
+
+# Get attendance organization units
+attendance_units = api.attendance_organization_units(company_id="158")
+api.format_response(attendance_units)
+```
+
+### Get Attendance Plans
+
+```python
+# Get attendance plan for a single unit
+attendance = api.attendance_plan(
+    date_from="2024-01-01",
+    date_to="2024-01-31",
+    unit_id=123,
+    mode="plan"  # or "reality" for published data
+)
+api.format_response(attendance)
+
+# Get attendance plans for all units in a company
+plans = api.attendance_plans(
+    date_from="2024-01-01",
+    date_to="2024-01-31",
+    company_id="158",
+    include_activated=True,     # include active units
+    include_deactivated=False   # exclude deactivated units
+)
+```
+
+### Save Response to File
+
+```python
+response = api.companies()
+api.format_response(response, save_to_file="companies.json")
+```
+
+### Custom API Requests
+
+```python
+# Make a custom GET request
+response = api.undefined_request(
+    endpoint="/api/v1/custom-endpoint/",
+    params={"param1": "value1"}
+)
+
+# Make a custom POST request
+response = api.undefined_request(
+    endpoint="/api/v1/custom-endpoint/",
+    method="POST"
+)
+```
+
+## Available Methods
+
+- `ping()`: Test API connection
+- `companies()`: Get list of companies
+- `organization_units(company_id)`: Get organization units for a company
+- `attendance_organization_units(company_id)`: Get plannable attendance units
+- `attendance_plan(date_from, date_to, ...)`: Get attendance plan data for a single unit
+- `attendance_plans(date_from, date_to, company_id, ...)`: Get attendance plans for all units in a company
+- `undefined_request(endpoint, method, params)`: Make custom API requests
+
+## Authentication
+
+The client handles OAuth2 authentication automatically, including token refresh. You only need to provide the client ID and secret.
+
+## Error Handling
+
+The client will raise `requests.exceptions.HTTPError` for any API errors. Handle these appropriately in your application:
+
+```python
+try:
+    response = api.companies()
+except requests.exceptions.HTTPError as e:
+    print(f"API error: {e}")
+```
+
+## Requirements
+
+- Python ≥ 3.7
+- requests ≥ 2.25.0
