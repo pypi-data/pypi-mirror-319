@@ -1,0 +1,14 @@
+bufr2geojson/__init__.py,sha256=F0GBeWV5UlkOdGOzdCh1xEJcZl-UlzoCMFkRwubOePk,53258
+bufr2geojson/cli.py,sha256=OSaBiXODAZIqJwuJPeNApDJ0qj_-NluaCsUVio6BKRM,2633
+bufr2geojson/resources/031021.json,sha256=Je4EGtk-DGofg0dAu8cDsaWv-sIk6OQxQyOJd-un7C0,2251
+bufr2geojson/resources/schemas/ogc-oms.json,sha256=b13iYz8Enff-0I_QM2x7jxhPjQbWgq9GROy9X85Huw8,2979
+bufr2geojson/resources/schemas/oms.yaml,sha256=0tY8IQdbkGco5EAViQVLUXu9kBDeqtwptiID2fuzCnM,4781
+bufr2geojson/resources/schemas/wccdm-obs.json,sha256=FOPkSy6_owphxtzKvPVF_vT5C_yXLrnOS32rpxCmefU,9172
+bufr2geojson/resources/schemas/wmo-om-profile-geojson.yaml,sha256=EisMty4pxfXPneEGvrpzI-bUQDBzMdAh28j9-JKWPUo,4162
+bufr2geojson/resources/schemas/wmo-oms-profile-geojson.yaml,sha256=8JUB4ndAFZd43GAqbLZBSkSaTqfo3BpyF2H38I6ud6c,6560
+bufr2geojson-0.7.0.dist-info/LICENSE,sha256=ewO6N_12HHs5xQi1hER1T-gwFzd2UStfU9WEu_8oq9c,11578
+bufr2geojson-0.7.0.dist-info/METADATA,sha256=DQns3lUEcWCWGBXN5pTYgfOA0PCugDldXTTm8gnYQX0,3144
+bufr2geojson-0.7.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+bufr2geojson-0.7.0.dist-info/entry_points.txt,sha256=9w6jPw0tvqIAM21XKPodhnBRvT7c3Rmy4dO1PZ9wJnQ,55
+bufr2geojson-0.7.0.dist-info/top_level.txt,sha256=bf5GrTg5DV_Law_VNRNCdRF5wPwMMtzgJ1mjCtM0a3w,13
+bufr2geojson-0.7.0.dist-info/RECORD,,

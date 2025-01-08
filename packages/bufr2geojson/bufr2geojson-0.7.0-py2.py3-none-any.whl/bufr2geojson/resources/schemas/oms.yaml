@@ -1,0 +1,125 @@
+$schema: 'https://json-schema.org/draft/2020-12/schema'
+$id: 'https://raw.githubusercontent.com/opencdms/opencdms-data-layer/main/physical-data-model.yml'
+title: 'OpenCDMS schema for observations database'
+description: 'GeoJSON representation of OGC OMS for OpenCDMS'
+properties:
+  observation:
+    type: object
+    description: observation
+    properties:
+      id:
+        type: string
+        description: ID / primary key
+      type:
+        type: string
+        enum: ["Feature"]
+      geometry:
+        type: object
+        properties:
+          type:
+            type: string
+            enum: [Point, Polygon]
+          coordinates:
+            type: array
+            minItems: 2
+            maxItems: 2
+            items:
+              type: number
+      properties:
+        type: object
+        properties:
+          elevation:
+            type: number
+            description: Elevation of observation above mean sea level (in meters)
+          observation_type:
+            type: string
+            format: uri
+            description: Type of observation
+          phenomenon_time:
+            type: string
+            format: date-time
+            description: Observation time, either instant or start and end of observing period
+          result:
+            type: object
+            properties:
+              value:
+                type: number
+                description: The value of the result in float representation
+              uom:
+                type: string
+                description: Units used to represent the value being observed
+              description:
+                type: string
+                description: str representation of the result if applicable
+          result_quality:
+            type: object
+            description: JSON representation of the result quality, key / value pairs
+          result_time:
+            type: string
+            format: date-time
+            description: Time that the result became available
+          valid_time:
+            type: string
+            format: date-time
+            description: Time that the result start is valid
+          host:
+            type: string
+            format: uri
+            description: Host associated with making the observation, equivalent to OGC OMS 'host'
+          observer:
+            type: string
+            format: uri
+            description: Observer associated with making the observation, equivalent to OGC OMS 'observer'
+          observed_property:
+            type: string
+            format: uri
+            description: The phenomenon, or thing, being observed
+          observing_procedure:
+            type: string
+            format: uri
+            description: Procedure used to make the observation
+          collection:
+            type: string
+            format: uri
+            description: 'Primary collection or dataset that this observation belongs to. Note: this is different to the OGC OMS collection concept.'
+          metadata:
+            type: string
+            format: uri
+            description: Descriptive metadata above the observation and the dataset(s) that the observation belongs to. An observation may belong to more than one dataset.
+          featureOfInterest:
+            type: string
+            format: uri
+            description: Feature of interest that this observation is associated with
+          parameters:
+            type: object
+            properties:
+              version:
+                type: string
+                description: Version number of this record, e.g. v1.0
+              previousVersion:
+                type: string
+                description: Previous version of the record
+              changeDate:
+                type: string
+                format: date-time
+                description: When this record was last updated
+              user:
+                type: string
+                format: uri
+                description: Who or what last updated this record
+              source:
+                type: string
+                format: uri
+                description: Source of this observation
+              sourceID:
+                type: string
+                description: Unique identifier from the source if available
+              cellMethods:
+                type: string
+                description: see CF cell_methods
+              status:
+                type: string
+                description: Whether this is the latest version or an archived version of the record
+              comments:
+                type: string
+                description: Free text comments on this record, for example description of changes made etc

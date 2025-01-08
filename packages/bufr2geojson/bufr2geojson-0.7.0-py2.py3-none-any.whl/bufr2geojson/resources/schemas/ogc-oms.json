@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/geojson-schemas/om.json",
+  "title": "OGC OMS GeoJSON (Basic observation)",
+  "description": "A GeoJSON schema for representing an OGC OMS observations in accordance with ISO 19156:2022.",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "Feature"
+    },
+    "id": {
+      "type": "string"
+    },
+    "geometry": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["Point", "LineString", "Polygon"]
+        },
+        "coordinates": {
+          "type": "array"
+        }
+      },
+      "required": ["type", "coordinates"]
+    },
+    "properties": {
+      "type": "object",
+      "properties": {
+        "observationType": {
+          "type": "string",
+          "format": "uri"
+        },
+        "parameter": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "parameter": {
+                "type": "string"
+              },
+              "value": {
+                "type": ["number","integer","string"]
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": ["parameter", "value", "url"]
+          }
+        },
+        "phenomenonTime": {
+          "type": "object",
+          "properties": {
+            "beginPosition": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "endPosition": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          "required": ["beginPosition"]
+        },
+        "resultQuality": {
+          "type": "object"
+        },
+        "resultTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "validTime":  {
+          "type": "object",
+          "properties": {
+            "beginPosition": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "endPosition": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          "required": ["beginPosition"]
+        },
+        "featureOfInterest": {
+          "type": "string"
+        },
+        "observedProperty": {
+          "type": "string"
+        },
+        "resultValue": {
+          "type": "numeric"
+        },
+        "resultUoM": {
+          "type": "string"
+        },
+        "procedure": {
+          "type": "string"
+        },
+        "observer": {
+          "type": "string"
+        },
+        "host": {
+          "type": "string"
+        }
+      },
+      "required": ["phenomenonTime", "procedure", "observedProperty", "featureOfInterest", "result"]
+    }
+  },
+  "required": ["type", "geometry", "properties"]
+}

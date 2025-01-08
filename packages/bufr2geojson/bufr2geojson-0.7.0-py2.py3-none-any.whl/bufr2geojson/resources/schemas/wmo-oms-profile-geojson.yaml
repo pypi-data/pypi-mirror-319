@@ -1,0 +1,201 @@
+$schema: 'https://json-schema.org/draft/2020-12/schema'
+$id: 'https://raw.githubusercontent.com/wmo-im/bufr2geojson/main/bufr2geojson/resources/schemas/wmo-om-profile-geojson.yaml'
+title: WMO GeoJSON profile for observations, measurements and samples
+description: WMO GeoJSON profile for observations, measurements and samples
+allOf:
+  - $ref: 'https://raw.githubusercontent.com/opengeospatial/ogcapi-features/master/core/openapi/schemas/featureGeoJSON.yaml'
+properties:
+  conformsTo:
+    items:
+      enum:
+        - 'http://www.wmo.int/spec/oms-profile-1/1.0/req/geojson'
+  properties:
+    type: object
+    properties:
+      identifier:
+        type: string
+        description: feature identifier
+      wigos_station_identifier:
+        type: string
+        description: WIGOS station identifier for station making observations
+      phenomenonTime:
+        type: string
+        format: date-time
+        description: The time that the result applies to the characteristic of the FeatureOfInterest being observed.
+      resultTime:
+        type: string
+        format: date-time
+        description: The instant of time when the result of the Observation became available.
+      validTime:
+        type: string
+        format: date-time
+        description: The time interval during which the result is assumed to be applicable for use.
+      featureOfInterest:
+        type: object
+        properties:
+          '@id':
+             type: url
+             description: link to description of feature
+        description: The subject of the Observation.
+        required:
+          - '@id'
+      proximateFeatureOfInterest:
+        type: object
+        properties:
+          '@id':
+             type: url
+             description: link to description of feature
+        description: The subject of the Observation.
+        required:
+          - '@id'
+      ultimateFeatureOfInterest:
+        type: object
+        properties:
+          '@id':
+             type: url
+             description: link to description of feature
+        description: The subject of the Observation.
+        required:
+          - '@id'
+      observedProperty:
+        type: object
+        properties:
+          '@id':
+             type: url
+             description: link to description of observed property
+        description: The ObservableProperty that is the subject of the Observation.
+        required:
+          - '@id'
+      result:
+        type: object
+        properties:
+          value:
+            type: number
+            description: Value of the parameter reported if numeric, use description if non-numeric
+          uom:
+            type: string
+            description: Units that value is reported in
+          description:
+            type:
+              - string
+              - 'null'
+            description: Text representation of value if non-numeric
+        required:
+          - value
+          - uom
+      observingProcedure:
+        type: object
+        properties:
+          '@id':
+            type: url
+            description: Link to description of observing procedure
+        description: The ObservingProcedure used by the Observation to determine the value of the ObservableProperty provided by the result.
+        required:
+          - '@id'
+      observer:
+        type: string
+        description: None
+      host:
+        type: string
+        description: None
+      parameter:
+        type: array
+        items:
+          type: object
+          properties:
+            name:
+              type: string
+              description: Name of metadata associated with observation
+            description:
+              type:
+                - string
+                - 'null'
+              description: Text representation of value if non-numeric
+            units:
+              type: string
+              description: Units value report in if numeric
+            value:
+              type:
+                - number
+                - 'null'
+              description: Numerical value of metadata element, use description field if non-numeric
+        description: Arbitrary event-specific parameters relevant to the observation
+      resultQuality:
+        type: any
+        description: Information pertaining to the data quality of the result
+      metadata:
+        type: object
+        properties:
+          '@id':
+             type: url
+             description: Link to metadata describing the observations
+        description: Discovery metadata
+        required:
+          - '@id'
+      observationType:
+        type: string
+        description: Information providing further detail on the type of Observations being described.
+      relatedObservation:
+        type: string
+        description: An Observation the object is related to.
+
+    required:
+      - phenomenonTime
+      - observedProperty
+      - observingProcedure
+      - result
+      - resultTime
+    oneOf:
+      - host
+      - observer
+    anyOf:
+      - featureOfInterest
+      - proximateFeatureOfInterest
+      - ultimateFeatureOfInterest
+    _meta:
+      type: object
+
+examples:
+  - conformsTo:
+      - 'http://www.wmo.int/spec/oms-profile-1/1.0/req/geojson'
+    properties:
+      identifier: string
+      wigos_station_identifier: string
+      phenomenonTime: '2019-08-24T14:15:22Z'
+      resultTime: '2019-08-24T14:15:22Z'
+      validTime: '2019-08-24T14:15:22Z'
+      featureOfInterest:
+        - '@id': 'https://codes.example.com/domain/atmospheric_boundary_layer'
+      observedProperty:
+        - '@id': 'https://codes.example.com/atmosphere/air_temperature'
+      result:
+        - value: 12.7
+          uom: Celsius
+      observingProcedure:
+        - '@id': 'https://codes.example.com/procedures/mercury_thermometer'
+      observer: None
+      host: None
+      parameter:
+        - name: string
+          description: string
+          units: string
+          value: 0
+      resultQuality: Good
+      metadata:
+        - '@id': 'https://data.example.com/collections/discovery/my-dataset'
+      observationType: 'oms-observation'
+    _meta: { }
+    type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - 0
+        - 0
+    id: string
+    links:
+      - href: 'http://data.example.com/buildings/123'
+        rel: alternate
+        type: application/geo+json
+        hreflang: en
+        title: 'Trierer Strasse 70, 53115 Bonn'
+        length: 0
