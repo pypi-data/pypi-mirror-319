@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: crypt_dozer
+Version: 1.0.0
+Summary: A simple package for encrypting and decrypting data using the cryptography library
+Home-page: https://github.com/sathvik/crypt_dozer
+Author: Sathvik
+Author-email: sathvik@dview.io
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+# CryptDozer
+
+`CryptDozer` is a simple package for encrypting and decrypting data using the `cryptography` library. It supports symmetric encryption with Fernet.
+
+## Installation
+
+To install the package, use the following:
+
+```bash
+pip install crypt_dozer
+```
+
+## Usage
+
+```python
+
+from crypt_dozer import CryptDozer
+
+# Initialize with a new key (or use an existing key)
+crypto = CryptDozer()
+
+# Encrypt data
+encrypted = crypto.encrypt("Hello, world!")
+print("Encrypted:", encrypted)
+
+# Decrypt data
+decrypted = crypto.decrypt(encrypted)
+print("Decrypted:", decrypted)
+```

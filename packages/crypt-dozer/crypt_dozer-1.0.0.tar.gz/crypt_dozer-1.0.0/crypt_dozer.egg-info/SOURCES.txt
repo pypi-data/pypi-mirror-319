@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+crypt_dozer/__init__.py
+crypt_dozer/main.py
+crypt_dozer.egg-info/PKG-INFO
+crypt_dozer.egg-info/SOURCES.txt
+crypt_dozer.egg-info/dependency_links.txt
+crypt_dozer.egg-info/requires.txt
+crypt_dozer.egg-info/top_level.txt
