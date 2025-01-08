@@ -1,0 +1,10 @@
+yemot/__init__.py,sha256=V-XEGSqEupIl-9RoKaBiB_GOUCZmkrtDW2sXqYg7lGA,98
+yemot/campaign.py,sha256=aiFkR2wS2f1khQgnm0Hs83yaEMXcm-ZqND6YuNWoohg,16853
+yemot/client.py,sha256=Xn7CLSiAb1VByZlxm5FzUbt7KZ9d8pDqd2RqKb2lqDs,5668
+yemot/ivr.py,sha256=HeKVpEuGLsb-MOX-kBvf6is7BnPusZNnUCXp_1bfZI8,178
+yemot/system.py,sha256=LwvRQeiapz28qksHPRRqP702L8kEoxeK6bpDbdYRdqg,7018
+yemot-0.0.17.dist-info/LICENCE,sha256=PD3wGukHha1V9yiha48B2DKEgneCuU2RzyV7ToyZOQI,1071
+yemot-0.0.17.dist-info/METADATA,sha256=s9PabJfINR0QolN_Nn9EX943rfVbexwfPvVLNp34nqU,3251
+yemot-0.0.17.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+yemot-0.0.17.dist-info/top_level.txt,sha256=XL6a-jZoOOF0a-6pLEtIVa36tZWML5ssmZK8EUEr3TM,6
+yemot-0.0.17.dist-info/RECORD,,
