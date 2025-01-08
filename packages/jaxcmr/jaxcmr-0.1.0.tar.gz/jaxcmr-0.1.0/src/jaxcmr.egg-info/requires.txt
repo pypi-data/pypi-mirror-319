@@ -1,0 +1,7 @@
+h5py>=3.12.1
+ipykernel>=6.29.5
+jax>=0.4.38
+jaxtyping>=0.2.36
+scipy==1.15.0
+simple-pytree>=0.2.2
+tqdm>=4.67.1
