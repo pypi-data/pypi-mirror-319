@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: mentat
+Version: 1.0.19
+Summary: AI coding assistant on your command line
+License: Apache-2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: attrs>=23.1.0
+Requires-Dist: backoff==2.2.1
+Requires-Dist: gitpython==3.1.41
+Requires-Dist: httpx==0.25.1
+Requires-Dist: jinja2==3.1.3
+Requires-Dist: jsonschema>=4.17.0
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: openai==1.13.3
+Requires-Dist: pillow==10.1.0
+Requires-Dist: prompt-toolkit==3.0.39
+Requires-Dist: Pygments==2.15.1
+Requires-Dist: ragdaemon==0.2.12
+Requires-Dist: selenium==4.15.2
+Requires-Dist: sentry-sdk==1.34.0
+Requires-Dist: sounddevice==0.4.6
+Requires-Dist: soundfile==0.12.1
+Requires-Dist: spiceai~=0.2.0
+Requires-Dist: termcolor==2.3.0
+Requires-Dist: textual==0.47.1
+Requires-Dist: textual-autocomplete==2.1.0b0
+Requires-Dist: typing_extensions==4.8.0
+Requires-Dist: tqdm>=4.66.1
+Requires-Dist: webdriver_manager==4.0.1
+Requires-Dist: watchfiles==0.21.0
+Provides-Extra: dev
+Requires-Dist: aiomultiprocess==0.9.0; extra == "dev"
+Requires-Dist: black==23.9.1; extra == "dev"
+Requires-Dist: datasets==2.18.0; extra == "dev"
+Requires-Dist: fire==0.5.0; extra == "dev"
+Requires-Dist: isort==5.12.0; extra == "dev"
+Requires-Dist: pip-licenses==4.3.3; extra == "dev"
+Requires-Dist: plotly==5.18.0; extra == "dev"
+Requires-Dist: pyright==1.1.358; extra == "dev"
+Requires-Dist: pytest-xdist==3.3.1; extra == "dev"
+Requires-Dist: pytest==7.4.0; extra == "dev"
+Requires-Dist: pytest-asyncio==0.21.1; extra == "dev"
+Requires-Dist: pytest-mock==3.11.1; extra == "dev"
+Requires-Dist: pytest-reportlog==0.4.0; extra == "dev"
+Requires-Dist: pytest-timeout==2.2.0; extra == "dev"
+Requires-Dist: python-dotenv==1.0.0; extra == "dev"
+Requires-Dist: ruff==0.0.292; extra == "dev"
+Requires-Dist: tiktoken==0.6.0; extra == "dev"
+
+# ⚠️ ARCHIVED PROJECT ⚠️
+
+This repository contains an archived version of an old command-line tool that is no longer maintained or supported.
+
+## Looking for Mentat?
+
+The name "Mentat" is now used by a different project - an AI-powered GitHub bot that writes and reviews code. If you're interested in using Mentat, please visit:
+
+**[mentat.ai](https://mentat.ai)**
+
+For any questions about the current Mentat service, you can follow [@AbanteAI](https://twitter.com/AbanteAi) on Twitter.
