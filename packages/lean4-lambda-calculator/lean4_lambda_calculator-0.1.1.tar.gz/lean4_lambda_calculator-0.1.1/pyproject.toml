@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "lean4-lambda-calculator"
+version = "0.1.1"
+description = ""
+authors = ["penglingwei <penglingwei@zju.edu.cn>"]
+readme = "README.md"
+packages = [{include = "lean4_lambda_calculator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+huggingface-hub = "^0.26.5"
+python-dotenv = "^1.0.1"
+sympy = "^1.13.3"
+lark = "^1.2.2"
+colorama = "^0.4.6"
+prompt-toolkit = "^3.0.48"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+setuptools = "^75.7.0"
+wheel = "^0.45.1"
+twine = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-v"
+testpaths = "tests"
