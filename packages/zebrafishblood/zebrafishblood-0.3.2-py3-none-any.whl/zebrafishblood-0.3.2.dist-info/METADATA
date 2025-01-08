@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zebrafishblood
+Version: 0.3.2
+Summary: Zebrafish blood smear cell counter
+Author: ['Eunhye Yang']
+Author-email: eunhye@connect.hku.hk
+Requires-Dist: scikit-build
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: numpy
+Requires-Dist: ultralytics
+Requires-Dist: opencv-python
+Requires-Dist: openslide-python ==1.3.1
+Requires-Dist: joblib
+
+For python>=3.8
