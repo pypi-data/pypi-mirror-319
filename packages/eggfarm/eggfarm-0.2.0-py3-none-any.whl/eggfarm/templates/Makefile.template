@@ -1,0 +1,53 @@
+DIST_DIR=./dist
+SOURCE_DIR=./source
+FUNC_NAME={{ func_name }}
+VERSION=`date "+%Y%m%d%H"`
+
+default_target: all
+
+all : black_format test build install package
+
+all_arm64: black_format test build install package_arm64
+
+install: 
+	poetry install
+
+test:
+	poetry run pytest
+
+black_format:
+	poetry run black -l 120 ${FUNC_NAME} && poetry run black -l 120 tests
+
+# build the package, download all dependencies, and package them into single zip file
+package: build requirements download_linux_offline
+	mkdir -p ${DIST_DIR}/${FUNC_NAME} && mv ${DIST_DIR}/*.whl ${DIST_DIR}/${FUNC_NAME} && cd ${DIST_DIR} && tar -zcvf ${FUNC_NAME}_table_func_${VERSION}.tar.gz ${FUNC_NAME} && cd -
+	@echo "linux offline package generated at ./dist/${FUNC_NAME}_table_func_${VERSION}.tar.gz"
+
+package_arm64: build requirements download_linux_arm64_offline
+	mkdir -p ${DIST_DIR}/${FUNC_NAME} && mv ${DIST_DIR}/*.whl ${DIST_DIR}/${FUNC_NAME} && cd ${DIST_DIR} && tar -zcvf ${FUNC_NAME}_table_func_${VERSION}.tar.gz ${FUNC_NAME} && cd -
+	@echo "linux arm64 offline package generated at ./dist/${FUNC_NAME}_table_func_${VERSION}.tar.gz"
+
+# cp source dependency and make package
+source_package: download_linux_offline
+	mkdir -p ${DIST_DIR}/${FUNC_NAME} && cp ${SOURCE_DIR}/* ${DIST_DIR}/${FUNC_NAME} && mv ${DIST_DIR}/*.whl ${DIST_DIR}/${FUNC_NAME} && cd ${DIST_DIR} && tar -zcvf ${FUNC_NAME}_table_func_${VERSION}.tar.gz ${FUNC_NAME} && cd -
+	@echo "linux offline package generated at ./dist/${FUNC_NAME}_table_func_${VERSION}.tar.gz"
+
+download_linux_offline:
+	poetry run pip download --only-binary=:all: --platform linux_x86_64 --platform manylinux1_x86_64 --platform manylinux2010_x86_64  --platform manylinux2014_x86_64 --platform manylinux_x_y_x86_64 --platform manylinux_2_28_x86_64 -r requirements.txt --dest ${DIST_DIR} 2>&1 | tee output.txt
+	@cat output.txt | grep -oE 'ERROR: No matching distribution found for [a-zA-Z0-9_-]+==' | sed 's/==//' |  awk '{print "\033[31m No matching distribution of `" $$7 "`, please\n 1. delete the line containing `" $$7 "` in ./requirements.txt\n 2. download the source distribution in `https://pypi.org/project/" $$7 "/#files` into ./source folder\n 3. run `make source_package` \033[0m"} ' && rm output.txt
+
+download_linux_arm64_offline: requirements
+	poetry run pip download --only-binary=:all: --platform linux_aarch64 --platform manylinux1_aarch64 --platform manylinux2010_aarch64  --platform manylinux2014_aarch64 --platform manylinux_x_y_aarch64 --platform manylinux_2_28_aarch64 -r requirements.txt --dest ${DIST_DIR} 2>&1 | tee output.txt
+	@cat output.txt | grep -oE 'ERROR: No matching distribution found for [a-zA-Z0-9_-]+==' | sed 's/==//' |  awk '{print "\033[31m No matching distribution of `" $$7 "`, please\n 1. delete the line containing `" $$7 "` in ./requirements.txt\n 2. download the source distribution in `https://pypi.org/project/" $$7 "/#files` into ./source folder\n 3. run `make source_package` \033[0m"} ' && rm output.txt
+
+offline_install:
+	poetry run pip install --no-index --find-links=${DIST_DIR} ${FUNC_NAME}
+
+requirements:
+	poetry export --without-hashes -f requirements.txt --output requirements.txt
+
+build: clean
+	poetry build -vvv
+
+clean:
+	rm -fr ${DIST_DIR} ${SOURCE_DIR}
