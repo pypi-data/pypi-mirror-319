@@ -1,0 +1,5 @@
+vidtoolz
+librosa
+
+[test]
+pytest

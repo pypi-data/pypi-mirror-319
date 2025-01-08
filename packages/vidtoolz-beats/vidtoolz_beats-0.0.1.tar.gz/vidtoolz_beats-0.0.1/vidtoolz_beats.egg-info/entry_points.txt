@@ -1,0 +1,2 @@
+[vidtoolz_plugins]
+beats = vidtoolz_beats:beats_plugin

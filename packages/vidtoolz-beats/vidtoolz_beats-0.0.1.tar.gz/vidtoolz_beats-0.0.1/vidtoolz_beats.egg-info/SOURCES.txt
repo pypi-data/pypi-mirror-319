@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_vidtoolz_beats.py
+vidtoolz_beats/__init__.py
+vidtoolz_beats.egg-info/PKG-INFO
+vidtoolz_beats.egg-info/SOURCES.txt
+vidtoolz_beats.egg-info/dependency_links.txt
+vidtoolz_beats.egg-info/entry_points.txt
+vidtoolz_beats.egg-info/requires.txt
+vidtoolz_beats.egg-info/top_level.txt
