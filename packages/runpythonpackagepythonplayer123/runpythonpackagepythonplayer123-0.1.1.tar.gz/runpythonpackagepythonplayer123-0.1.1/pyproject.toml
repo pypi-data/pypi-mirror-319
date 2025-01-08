@@ -1,0 +1,22 @@
+[project]
+name = "runpythonpackagepythonplayer123"
+version = "0.1.1"
+description = "Default template for PDM package"
+authors = [
+    { name = "June P", email = "me@pythonplayer123.dev" },
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "AGPL-v3-Or-Later"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
