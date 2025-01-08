@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: amutils
+Version: 0.0.1
+Summary: Apple Music Utilties
+Home-page: https://github.com/realtvop/amutils
+Author: realtvop
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: appscript
+Requires-Dist: mutagen
+
+# amutils
