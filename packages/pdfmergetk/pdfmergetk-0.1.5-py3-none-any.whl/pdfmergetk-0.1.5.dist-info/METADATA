@@ -1,0 +1,78 @@
+Metadata-Version: 2.3
+Name: pdfmergetk
+Version: 0.1.5
+Summary: GUI application to easily merge PDF files with the power of Python.
+Home-page: https://github.com/kurotom/PDFMergeTK
+License: GPL-3.0-or-later
+Keywords: merge pdf,gui,tk,desktop,gui windows,gui linux
+Author: kurotom
+Author-email: 55354389+kurotom@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Desktop Environment
+Requires-Dist: Pillow (<=11)
+Requires-Dist: platformdirs
+Requires-Dist: pymupdf (>=1.21.1,<2.0.0)
+Requires-Dist: pypiwin32 ; sys_platform == "win32"
+Requires-Dist: pywin32 ; sys_platform == "win32"
+Requires-Dist: winshell ; sys_platform == "win32"
+Project-URL: Bug Tracker, https://github.com/kurotom/PDFMergeTK/issues
+Project-URL: Repository, https://github.com/kurotom/PDFMergeTK
+Description-Content-Type: text/markdown
+
+# PDFMergeTK
+
+GUI application that allows you to merge PDF files quickly, easily, intuitively and with respect for privacy. Designed to run on Windows and Linux.
+
+---
+
+[![Actions PDFMergeTK](https://github.com/kurotom/PDFMergeTK/actions/workflows/build.yml/badge.svg)](https://github.com/kurotom/PDFMergeTK/actions/workflows/build.yml)
+
+---
+
+> [!IMPORTANT]
+> * If you have any problems create an issue in the [`Github Issue` section of the project](https://github.com/kurotom/PDFMergeTK/issues)
+>
+
+---
+
+
+# Install
+
+
+```bash
+$ pip install pdfmergetk
+```
+
+
+# Commands
+
+| Command | Description |
+|-|-|
+| `mergepdf` | start the program. |
+| `mergepdfreset` | in case of an error when trying to open the program, restarts the program's multiple run mechanism (opening the program more than once). |
+| `pdfmergetklinks` | creates shortcuts for the program, on desktop on Windows and in `~/.local/share/applications/` on Linux. With the name `PDFMergeTK`.|
+
+
+## From Github, clone project
+
+```bash
+$ git clone https://github.com/kurotom/PDFMergeTK.git
+
+$ cd PDFMergeTK
+
+$ poetry shell
+
+$ poetry install
+
+$ python pdfmergetk
+```
+
