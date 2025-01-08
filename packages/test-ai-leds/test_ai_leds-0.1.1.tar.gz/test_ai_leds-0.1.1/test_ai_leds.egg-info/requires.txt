@@ -1,0 +1,4 @@
+crewai
+crewai_tools
+google_generativeai
+pyaml
