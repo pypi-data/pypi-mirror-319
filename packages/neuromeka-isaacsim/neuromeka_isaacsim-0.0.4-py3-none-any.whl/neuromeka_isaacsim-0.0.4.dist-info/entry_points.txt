@@ -1,0 +1,2 @@
+[console_scripts]
+neuromeka-isaacsim-install = neuromeka_isaacsim.neuromeka_isaacsim_install:main
