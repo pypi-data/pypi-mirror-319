@@ -1,0 +1,16 @@
+kaltura_uploader/__init__.py,sha256=towWzyxjUfZgjBYBPR4wLqtU_WzKv-YOtZ3ZrkJGBrM,179
+kaltura_uploader/cli.py,sha256=DmdQcyoheWioY-BCKyte-QrokU2IwvrYG8y6F36cCdk,5796
+kaltura_uploader/constants.py,sha256=YjN20Dn7x_MKn287B37D_EMBjL1zTuSs3uSd0JnCV3k,303
+kaltura_uploader/decorators.py,sha256=JhcM_uKyEDIDPM_UOOmlTouAxFEn8w1Y4IB7vVNcZdg,1584
+kaltura_uploader/logging_config.py,sha256=53EdXS4pQJ5koYQYAE1h7WkADC-GIVKpsvRxR5ZPakY,2589
+kaltura_uploader/mime_utils.py,sha256=Y-OlRqwDyRSfSj1wMgUl59GeTmscZEWCf1UyHwZB_l8,2773
+kaltura_uploader/uploader.py,sha256=Gff_sk4Iw9Daic8FFOhnGWT9_mNPDMN5hiNpm388Azc,18857
+tests/__init__.py,sha256=hppTsA5spLtpKpre0LmS9zByxrxpQ4OVQKqUXA6nlc8,107
+tests/test_library_mode.py,sha256=q4nb8nVyzU34r-qcH_WaW9xjYXgl-1S2StlBQhXzEsA,2493
+tests/test_mime_utils.py,sha256=XK7B7kP3bT0Kjm5RwO8nnXLJN6iZvMCDAObTgxbQv3A,3457
+tests/test_uploader.py,sha256=Jj6ezGvN7ga49LQDYjNtOz0p0x-oc69DnhvCHvEVYnw,6737
+kaltura_uploader-0.1.2.dist-info/METADATA,sha256=Dq4Xonq-Gk0qS_e5QuXCpcMBqGzFaEBtRoA0oPrfwGw,13864
+kaltura_uploader-0.1.2.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+kaltura_uploader-0.1.2.dist-info/entry_points.txt,sha256=d2usoohaMhJMSpvtQX2sYKpTLoFI3mPFYbGi8ydcYgY,63
+kaltura_uploader-0.1.2.dist-info/top_level.txt,sha256=WYsJTB_-JhEqFjqN4tSX2v5KmmwjIkr2y9zE48M3fXA,23
+kaltura_uploader-0.1.2.dist-info/RECORD,,
