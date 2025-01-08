@@ -1,0 +1,3 @@
+# Tier 1 only needs typing extensions.
+typing_extensions>=4.0.0
+packaging
