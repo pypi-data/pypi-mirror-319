@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+fancy_utils/__init__.py
+fancy_utils/array_utils.py
+fancy_utils/string_utils.py
+fancy_utils_pawel.egg-info/PKG-INFO
+fancy_utils_pawel.egg-info/SOURCES.txt
+fancy_utils_pawel.egg-info/dependency_links.txt
+fancy_utils_pawel.egg-info/requires.txt
+fancy_utils_pawel.egg-info/top_level.txt
+tests/__init__.py
+tests/test_array_utils.py
+tests/test_string_utils.py

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fancy-utils-pawel
+Version: 0.1
+Summary: A fancy utility library for string and array operations
+Home-page: https://github.com/your_github/fancy-utils
+Author: Pasha
+Author-email: pawelstasinskiuk@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
