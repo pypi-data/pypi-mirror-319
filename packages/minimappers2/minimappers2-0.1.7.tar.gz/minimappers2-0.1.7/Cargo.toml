@@ -1,0 +1,73 @@
+[package]
+name = "minimap2"
+version = "0.1.23+minimap2.2.28"
+edition = "2021"
+authors = ["Joseph Guhlin <joseph.guhlin@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Bindings to libminimap2"
+repository = "https://github.com/jguhlin/minimap2-rs"
+categories = ["science"]
+keywords = ["bioinformatics", "fasta", "alignment", "fastq"]
+exclude = [
+  "**/*.fasta",
+  "*.profdata",
+  "*.mmi",
+  "**/*.mmi",
+  "/minimap2-sys/",
+  "/minimappers2/",
+  "/fakeminimap2",
+  "/test_data/",
+  ".*",
+]
+readme = "README.md"
+
+[workspace]
+
+members = []
+exclude = ["minimappers2", "fakeminimap2", "minimap2-sys"]
+
+[dependencies]
+libc = "0.2"
+needletail = { version = "0.6", optional = true, default-features = false}
+
+minimap2-sys = { path = "./minimap2-sys" , version = "0.1.21+minimap2.2.28" }
+rust-htslib = { version = "0.49", default-features = false, optional = true }
+
+[dev-dependencies]
+rayon = "1.10"
+crossbeam = "0.8.4"
+clap = { version = "4.5.23", features = ["derive"] }
+needletail = { version = "0.6", default-features = false}
+
+# The end-user should decide this...
+# [profile.release]
+# opt-level = 3
+# lto = "fat"
+# codegen-units  = 1
+
+# [profile.dev.package."*"]
+# opt-level = 3
+
+[features]
+default = ["map-file"]
+map-file = ["needletail"]
+htslib = ['rust-htslib']
+simde = ["minimap2-sys/simde"]
+zlib-ng = ["minimap2-sys/zlib-ng"]
+curl = ["rust-htslib/curl"]
+static = ["minimap2-sys/static", "rust-htslib/static"]
+sse2only = ["minimap2-sys/sse2only"]
+# rust-threads = ["minimap2-sys/rust-threads"]
+
+[package.metadata.docs.rs]
+features = ["map-file", "htslib"]
+
+[[example]]
+name = "channels"
+path = "examples/channels.rs"
+doc-scrape-examples = true
+
+[[example]]
+name = "rayon"
+path = "examples/rayon.rs"
+doc-scrape-examples = true
