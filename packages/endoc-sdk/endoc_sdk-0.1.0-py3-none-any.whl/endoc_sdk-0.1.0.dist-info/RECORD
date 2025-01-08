@@ -1,0 +1,11 @@
+endoc/__init__.py,sha256=L1sgox3NzyRFBsIJoQY_Da0Ffhhz1kTmHQJTtGCG6iI,669
+endoc/client.py,sha256=1I8Rr8kKUGs2_NC6NNQiFKg_lWfyN8wc5S6ISWMu3zM,528
+endoc/document_search.py,sha256=7SHDwkVqXoG9I3LvvWW_9W72PaS7bPUGOifGqRUlIZw,517
+endoc/memsum_summary.py,sha256=K0wJJ_hM0AMxRKV5itTG4JHWDcvwH_YmtXSaKXoISZ4,650
+endoc/paginated_search.py,sha256=t0Zl2WVXoQBXndUOmwIwvobGmu-vYqaRuZzMxK1SrUU,460
+endoc/queries.py,sha256=ek_3SbWJ6IZ4lJ3T5ZR_4i474dB3EYUJ7KnCYfYXHos,2431
+endoc_sdk-0.1.0.dist-info/LICENSE,sha256=zNsMBf4UAn4dol4h5D4FhO6F1ZeAFYOZZAAdyV--SxM,1062
+endoc_sdk-0.1.0.dist-info/METADATA,sha256=PhHNjwQSUH_26vWZ4gnaeU2hrQtD4kDcS5VkAgnvRp8,1940
+endoc_sdk-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+endoc_sdk-0.1.0.dist-info/top_level.txt,sha256=NvHG6racILge3ClLbBv4LKDP_oSnXHUxXY7RDH7rSt8,6
+endoc_sdk-0.1.0.dist-info/RECORD,,
