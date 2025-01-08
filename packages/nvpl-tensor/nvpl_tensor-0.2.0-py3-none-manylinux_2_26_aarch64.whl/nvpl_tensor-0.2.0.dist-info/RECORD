@@ -1,0 +1,8 @@
+nvpl/include/nvpl_tensor.h,sha256=KqpGi5QTHWJ0sfbJCbhYOnE1WuBi2NCiM-EJifN1f0k,54393
+nvpl/include/nvpl_tensor/types.h,sha256=8FYys3tWBDOdxNB7dk6pAokzIbUm3v2yJV3UMXOP6Nw,8864
+nvpl/lib/libnvpl_tensor.so.0,sha256=5ZeHp07vup9KpSp28-PysrnWAcPGu90ObXSjkAkmeSY,8918464
+nvpl_tensor-0.2.0.dist-info/LICENSE,sha256=2BF0ZS8MRIpXNq_F1QZjYGhjv9bujIQW-9mmKMb4gC8,19072
+nvpl_tensor-0.2.0.dist-info/METADATA,sha256=xvfQ7YCJ_47z2GlvvBZLZIh7_CTKLFwFjpMqvRHt-s8,22430
+nvpl_tensor-0.2.0.dist-info/WHEEL,sha256=AhPp4Lgw7uXCfETrPQ-bdv3LEKd5O2kwsH5slGbugJM,110
+nvpl_tensor-0.2.0.dist-info/top_level.txt,sha256=76Zz8Z9v8NU505VQEmNoOsSZ5o8B3zCwL0vGq6p-8RA,5
+nvpl_tensor-0.2.0.dist-info/RECORD,,
