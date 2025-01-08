@@ -1,0 +1,39 @@
+**GeoLode提供了多种对矢量和栅格数据进行操作的功能**
+
+# ShapefileProcess
+
+**引入示例**：import geolode.shapefileprocess as shplode
+
+**功能**：
+    readShapefile(SHPath) 读取shapefile文件
+    featureExtent(feature) 获取要素外包矩形
+    is_intersecting(extent, feature) 判断要素是否与矩形相交
+    is_contained(block, feature) 判断要素是否包含矩形
+
+# TifProcess
+
+**引入示例**：import geolode.TifProcess as tiflode
+
+**功能**：
+    readTif(fileName, xoff=0, yoff=0, data_width=0, data_height=0, bands=None) 读取tif文件
+    readTifInChunksPix(fileName, chunk_width=256, chunk_height=256, bands=None) 读取tif文件并按块读取
+    readTifInChunksNum(fileName, num_chunks_x=10, num_chunks_y=10, bands=None) 读取tif文件并按块读取，按给定的分块数量进行分块
+    calBoundingBox(geo_transform, width, height) 计算栅格数据的边界框
+    removeBand(input_tif, output_tif, bands_to_remove) 删除栅格数据中的指定波段
+    writeTiff(fileName, data, im_geotrans=(0, 0, 0, 0, 0, 0), im_proj="") 写出tif文件
+
+# TifShpFilte
+
+**引入示例**：import geolode.TifShpFilte as tifshplode
+
+**功能**：
+    filterFeaturesByExtent(features, tif_extent) 根据栅格数据范围过滤要素
+    RasterShpIntersect(tif_data, geo_transform, feature) 判断栅格数据与要素是否相交
+    check_tif_size(tif_path, expected_width=256, expected_height=256) 检查栅格数据的大小是否与给定的大小一致
+    clip_tif_by_shapefile(tif_path, shp_path, output_dir, tif_suffix) 将栅格数据裁剪为与矢量数据相交的区域
+    clip_tif_by_features(tif_path, shp_path, output_dir) 将栅格数据裁剪为与矢量数据相交的区域
+
+
+# 更新日志
+
+1.0.1.3版本：readTifInChunksPix与readTifInChunksNum函数添加了bands参数，便于指定读取的具体波段与次序。
