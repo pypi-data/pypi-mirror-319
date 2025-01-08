@@ -1,0 +1,17 @@
+versed/__init__.py,sha256=9yPp8-BlSGQv4wPIo8JOBBNLY9f1D0p2oS1-4xE8QkI,113
+versed/__main__.py,sha256=1qcNyKDa4NuZ9sG-iL25WDLZ7JjGCDm6OIzb5zaId8Y,158
+versed/app.py,sha256=JGMy8g8_U__xhQwRK3Uo-oSj-L88rjr6qNA0JO9SZIw,3481
+versed/google_auth_handler.py,sha256=me6EjzGbfLAs-1g_r-gLAr-ZDafLvbR5VPM3jLfMt8w,2944
+versed/secret_handler.py,sha256=Lo9JHL2cLOXHGN5HRRWjBDswiQUfrJnOgBqBCSHumIY,3450
+versed/panes/chat_pane.py,sha256=Qkc-NIbXK6IT9-QtJhllgjxQsgguD8DFLgW1SId3jXw,4592
+versed/panes/directory_pane.py,sha256=bWHoXhEdXuya45KjIG-PRqDDGIe8uJD1Mj7ezKg9I_8,7674
+versed/screens/add_key_screen.py,sha256=T7nrKdZ7Th9dmZyL4ibXzH8QuGkyawdp6XhK5z4aSeQ,4431
+versed/screens/chat_screen.py,sha256=EcnK8fBQJTQmMbDartyrnaOnhKGR8KegiB2eMhnBjxo,918
+versed/screens/docs_screen.py,sha256=dkJOQ4oi5uAgrGdUTYfpslg32Blip0A0SAHcW8nNW34,1213
+versed/screens/load_key_screen.py,sha256=CvY1c3CWYVSG8zyNtMYtB459doDjw09B34IpJiakBLY,3354
+versed/screens/quit_screen.py,sha256=MbVb1iYfEPq6o_9DFJ4ZZP3EnMPFOWbwmEuw5AKfSHs,1232
+versed-0.0.6.dist-info/METADATA,sha256=KaG0l__Ul8hUI3MrkSgnybnNom0wABHwP24qY5QWEDg,1537
+versed-0.0.6.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+versed-0.0.6.dist-info/entry_points.txt,sha256=CGY5mv7vEKWAlsaC-0MfiixB-KtV0EcLZd7v2EM0lpM,47
+versed-0.0.6.dist-info/licenses/LICENSE.txt,sha256=psI-FWd6FgzLXN2HaJx328w90BzomLSTpdgbYPTZFJY,1105
+versed-0.0.6.dist-info/RECORD,,
