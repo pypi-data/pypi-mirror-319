@@ -1,0 +1,10 @@
+ufiles/__init__.py,sha256=mnWSB8j1PGnV-H22MZL58-825CIg0meWHmqn4R2Cvfs,218
+ufiles/async_ufiles.py,sha256=tO8PuroTGe8qDRCs_3KYhWfCynED69ftJdpTYb3X93o,5568
+ufiles/schemas.py,sha256=IdmAhL6ocdWiC9044YvAYCm_CR7fCW2Na8eoe01bkzU,1843
+ufiles/services.py,sha256=o-YC-2QCyIxS4noMcQRtG7eq0setzukOFlzj02irGFI,341
+ufiles/ufiles.py,sha256=sl9Ovf4373h0C19Zksh2Ze9eJp9j4kYwtSpI9aY1cWA,5373
+ufiles-0.2.12.dist-info/LICENSE.txt,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+ufiles-0.2.12.dist-info/METADATA,sha256=RlMA2TxEFiqfK2PIG7Y3CPDwwKbhE2vmWajjc0FBd34,3000
+ufiles-0.2.12.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+ufiles-0.2.12.dist-info/top_level.txt,sha256=OZkIAjbPo3bcoz_dtF0UNhKg1hfxS5qbG9Mv8Y_j5Ic,7
+ufiles-0.2.12.dist-info/RECORD,,
