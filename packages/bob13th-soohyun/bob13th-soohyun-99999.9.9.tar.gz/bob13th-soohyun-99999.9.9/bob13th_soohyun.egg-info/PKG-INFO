@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bob13th-soohyun
+Version: 99999.9.9
+Summary: 예제 패키지 설명
+Home-page: https://github.com/yourusername/bob13th-soohyun
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
