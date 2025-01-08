@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: com-chery-pom-root
+Version: 0.0.3
+Summary: temp package, will be deleted later 2025-01-02
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+
+UNKNOWN
+
