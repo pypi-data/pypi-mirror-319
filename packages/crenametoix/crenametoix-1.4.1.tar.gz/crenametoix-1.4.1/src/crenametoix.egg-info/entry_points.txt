@@ -1,0 +1,2 @@
+[console_scripts]
+crenametoix = crenametoix.crenametoix:run_as_package

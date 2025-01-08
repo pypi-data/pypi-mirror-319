@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/crenametoix/__init__.py
+src/crenametoix/crenametoix.py
+src/crenametoix.egg-info/PKG-INFO
+src/crenametoix.egg-info/SOURCES.txt
+src/crenametoix.egg-info/dependency_links.txt
+src/crenametoix.egg-info/entry_points.txt
+src/crenametoix.egg-info/top_level.txt
+src/crenametoix/plugins/__init__.py
+src/crenametoix/plugins/doc.py
+src/crenametoix/plugins/geo.py
