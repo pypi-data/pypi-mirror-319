@@ -1,0 +1,7 @@
+setup.py
+discord_console/__init__.py
+discord_console/identify.py
+discord_console.egg-info/PKG-INFO
+discord_console.egg-info/SOURCES.txt
+discord_console.egg-info/dependency_links.txt
+discord_console.egg-info/top_level.txt
