@@ -1,0 +1,7 @@
+README.md
+setup.py
+xthreads.egg-info/PKG-INFO
+xthreads.egg-info/SOURCES.txt
+xthreads.egg-info/dependency_links.txt
+xthreads.egg-info/entry_points.txt
+xthreads.egg-info/top_level.txt
