@@ -1,0 +1,14 @@
+biliupload/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biliupload/cli.py,sha256=qU8v3gJYM5oZ56k0FYy3hmmiBEI15FN4NHKlLjx08Mg,3182
+biliupload/login/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biliupload/login/login_bili.py,sha256=dBaE_nLI_mLz8BJ25wxswokTJ-PWZUJxr034gg-7b_A,2495
+biliupload/upload/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biliupload/upload/bili_upload.py,sha256=5mXJldHQSm9e7AmB0KpitPArYhmPwtydABMlMy4c2VU,9361
+biliupload/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biliupload/utils/parse_cookies.py,sha256=6zRKc0MgRRLAX8xB4Iq_teVWWe_fFIN-mKggpVMJJTI,914
+biliupload/utils/parse_yaml.py,sha256=4ZwlCmAh5V7hb8tmu0nRUMecZ_PobPxuE_8766K_b-A,701
+biliupload-0.0.1.dist-info/METADATA,sha256=m4kCGKHoejDG08Grtj21wn2mG5gY8k8UCwJ7VpcY7rI,2114
+biliupload-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+biliupload-0.0.1.dist-info/entry_points.txt,sha256=HdqGIUVbuCJDiglCyf4bAXVkqOeLNCSM7vZx3-Z_1RM,50
+biliupload-0.0.1.dist-info/licenses/LICENSE,sha256=5N9KUKHkW5xIJcw8qTSJvAkhASjyeqHML21PsOyVZYI,1066
+biliupload-0.0.1.dist-info/RECORD,,
