@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: anchorscad-test-tools
+Version: 0.1.0
+Summary: Test helpers for Anchorscad packages.
+Project-URL: Homepage, https://github.com/owebeeone/anchorscad-test-tools
+Project-URL: Bug Tracker, https://github.com/owebeeone/anchorscad-test-tools/issues
+Author-email: Gianni Mariani <gianni@mariani.ws>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# anchorscad-test-tools
+
+This package provides a test helper for comparing two iterables based on an
+expectation function. It provides more information about the difference
+between the two iterables.
+
+The module `anchorscad_lib.test_tools` is the main module in this package.
+The `anchorscad_lib` namespace is used by a number of Anchorscad packages.
+
+## Installation
+
+```
+pip install anchorscad-test-tools
+```
+
+## Usage
+
+```
+import unittest
+from anchorscad_lib.test_tools import iterable_assert
+
+class TestMyThing(unittest.TestCase):
+    def test_almost_same(self):
+        iterable_assert(self.assertAlmostEqual, VALUESA, VALUESB, places=3)
+```
+
+This is not particularly revolutionary, but it is used by a number of Anchorscad
+tests in now different packages which required this to be extracted into a
+separate package.
+
