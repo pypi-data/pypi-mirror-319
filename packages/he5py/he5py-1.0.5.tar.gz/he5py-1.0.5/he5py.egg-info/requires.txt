@@ -1,0 +1,6 @@
+affine
+colored-logging
+h5py
+numpy
+pybind11_cmake
+rasters
