@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/listening_lookup">
+    <file>pin.svg</file>
+    <file>settings.svg</file>
+    <file>ear.svg</file>
+  </qresource>
+</RCC>

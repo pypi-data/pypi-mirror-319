@@ -1,0 +1,2 @@
+exclude plover_listening_lookup/*_rc.py
+recursive-include plover_listening_lookup/resources *
