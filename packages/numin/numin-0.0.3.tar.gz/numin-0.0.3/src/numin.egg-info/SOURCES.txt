@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/numin/NuminAPI.py
+src/numin/__init__.py
+src/numin.egg-info/PKG-INFO
+src/numin.egg-info/SOURCES.txt
+src/numin.egg-info/dependency_links.txt
+src/numin.egg-info/top_level.txt
