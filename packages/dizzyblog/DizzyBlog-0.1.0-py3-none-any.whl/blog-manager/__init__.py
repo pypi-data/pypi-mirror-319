@@ -1,0 +1,1 @@
+from .blogManager import main
