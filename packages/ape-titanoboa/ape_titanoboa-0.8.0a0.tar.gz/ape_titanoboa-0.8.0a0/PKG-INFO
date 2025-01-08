@@ -1,0 +1,166 @@
+Metadata-Version: 2.1
+Name: ape-titanoboa
+Version: 0.8.0a0
+Summary: ape-titanoboa: Titanoboa integration
+Home-page: https://github.com/ApeWorX/ape-titanoboa
+Author: ApeWorX Ltd.
+Author-email: admin@apeworx.io
+License: Apache-2.0
+Keywords: ethereum
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9,<4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: eth-ape<0.9,>=0.8.22
+Requires-Dist: cchecksum<1,>=0.0.3
+Requires-Dist: titanoboa<0.3,>=0.2.5
+Requires-Dist: web3<8,>=7.6.1
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == "test"
+Requires-Dist: pytest-xdist; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: hypothesis<7.0,>=6.2.0; extra == "test"
+Requires-Dist: ape-alchemy; extra == "test"
+Requires-Dist: ape-etherscan; extra == "test"
+Requires-Dist: ape-solidity; extra == "test"
+Requires-Dist: ape-vyper<0.9,>=0.8.8; extra == "test"
+Provides-Extra: lint
+Requires-Dist: black>=24.10.0; extra == "lint"
+Requires-Dist: mypy>=1.14.1; extra == "lint"
+Requires-Dist: flake8<8,>=7.1.1; extra == "lint"
+Requires-Dist: flake8-breakpoint<2,>=1.1.0; extra == "lint"
+Requires-Dist: flake8-print<5,>=4.0.1; extra == "lint"
+Requires-Dist: flake8-pydantic; extra == "lint"
+Requires-Dist: flake8-type-checking; extra == "lint"
+Requires-Dist: isort>=5.13.2; extra == "lint"
+Requires-Dist: mdformat>=0.7.21; extra == "lint"
+Requires-Dist: mdformat-gfm>=0.3.5; extra == "lint"
+Requires-Dist: mdformat-frontmatter>=0.4.1; extra == "lint"
+Requires-Dist: mdformat-pyproject>=0.0.2; extra == "lint"
+Provides-Extra: release
+Requires-Dist: setuptools>=75; extra == "release"
+Requires-Dist: wheel; extra == "release"
+Requires-Dist: twine; extra == "release"
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: hypothesis<7.0,>=6.2.0; extra == "dev"
+Requires-Dist: ape-alchemy; extra == "dev"
+Requires-Dist: ape-etherscan; extra == "dev"
+Requires-Dist: ape-solidity; extra == "dev"
+Requires-Dist: ape-vyper<0.9,>=0.8.8; extra == "dev"
+Requires-Dist: black>=24.10.0; extra == "dev"
+Requires-Dist: mypy>=1.14.1; extra == "dev"
+Requires-Dist: flake8<8,>=7.1.1; extra == "dev"
+Requires-Dist: flake8-breakpoint<2,>=1.1.0; extra == "dev"
+Requires-Dist: flake8-print<5,>=4.0.1; extra == "dev"
+Requires-Dist: flake8-pydantic; extra == "dev"
+Requires-Dist: flake8-type-checking; extra == "dev"
+Requires-Dist: isort>=5.13.2; extra == "dev"
+Requires-Dist: mdformat>=0.7.21; extra == "dev"
+Requires-Dist: mdformat-gfm>=0.3.5; extra == "dev"
+Requires-Dist: mdformat-frontmatter>=0.4.1; extra == "dev"
+Requires-Dist: mdformat-pyproject>=0.0.2; extra == "dev"
+Requires-Dist: setuptools>=75; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: commitizen; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest-watch; extra == "dev"
+Requires-Dist: IPython; extra == "dev"
+Requires-Dist: ipdb; extra == "dev"
+
+# Quick Start
+
+Use Titanoboa as a provider in Ape.
+
+## Dependencies
+
+* [python3](https://www.python.org/downloads) version 3.9 or greater, python3-dev
+
+## Installation
+
+### via `pip`
+
+You can install the latest release via [`pip`](https://pypi.org/project/pip/):
+
+```bash
+pip install ape-titanoboa
+```
+
+### via `setuptools`
+
+You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:
+
+```bash
+git clone https://github.com/ApeWorX/ape-titanoboa.git
+cd ape-titanoboa
+python3 setup.py install
+```
+
+## Quick Usage
+
+Use titanoboa as your development or simulation provider (testing).
+For example, run your project's tests using the `--network` flag and `boa` as the name of the provider:
+
+```shell
+ape test --network ethereum:local:boa
+```
+
+Boa works the same as other Ape testing providers such as `ape-foundry` or the Ethereum tester that comes with `ape-test` by default.
+
+### Fork Mode
+
+You can for networks using `ape-titanoba` to simulate actions.
+For example, let's say you are in a console session with mainnet:
+
+```shell
+ape console --network ethereum:mainnet:alchemy
+```
+
+Fork mainnet into `boa` to run simulations:
+
+```python
+from ape import Contract, accounts, networks
+
+with networks.fork():
+    # Reference a contract from Ethereum mainnet in your fork.
+    contract = Contract("0x388C818CA8B9251b393131C08a736A67ccB19297")
+    # Impersonate any relevant accounts needed for the simulation.
+    owner = accounts["0xdb65702a9b26f8a643a31a4c84b9392589e03d7c"]
+    # Attempt to call methods on the contract using the impersonated accounts.
+    contract.recoverERC20("0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84", 10, sender=owner)
+```
+
+You can also connect to a forked-network directly using the `--network` flag:
+
+```shell
+ape console --network ethereum:mainnet-fork:boa
+```
+
+Or in Python:
+
+```python
+from ape import chain, networks
+
+with networks.ethereum.mainnet_fork.use_provider("boa"):
+    print(chain.provider.chain_id)
+```
+
+## Development
+
+This project is in development and should be considered a beta.
+Things might not be in their final state and breaking changes may occur.
+Comments, questions, criticisms and pull requests are welcomed.
