@@ -1,0 +1,82 @@
+Screen {
+    overflow-y: hidden;
+}
+
+#cs_main {
+    height: 1fr;
+}
+
+#ip_edit {
+    min-height: 5;
+    height: auto;
+    border: round green;
+    border-title-align: center;
+}
+
+.playground_ip {
+    height: 1;
+    padding: 0 1 0 1;
+    border: none;
+}
+
+.error {
+    min-height: 0;
+    height: auto;
+    width: 100%;
+    color: red;
+    padding: 0 1 0 1;
+    border: round red;
+}
+
+.playground_ip_op {
+    width: 100%;
+    padding: 0 1 0 1;
+    border: round gray;
+    border-title-align: center;
+}
+
+.container {
+    height: auto;
+    align: center middle;
+}
+
+.code_container {
+    height: auto;
+    width: 100%;
+    border: solid brown;
+    border-title-align: center;    
+}
+
+Button:focus {
+    text-style: bold;
+}
+
+.buttons {
+    max-height: 1;
+    border: none;
+    width: 1fr;
+}
+
+.examples_ip {
+    height: 1;
+    padding: 0 1 0 1;
+    margin: 0 1 0 1;
+    border: none;
+    background: silver;
+}
+
+.examples_op {
+    padding: 0 1 1 1;
+    margin: 0 1 0 1;
+    border: none;
+    background: lightgray;
+    width: 100%;
+    color: black;
+}
+
+.examples_md {
+    margin: 1 2 0 2;
+    border: none;
+    width: 100%;
+}
+
