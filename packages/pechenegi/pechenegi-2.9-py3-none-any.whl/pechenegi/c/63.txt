@@ -1,0 +1,15 @@
+task63
+def remove_odd_words(input_str):
+    # Разбиваем строку на слова
+    words = input_str.split(',')
+    
+    # Оставляем только слова с четными индексами
+    result = [word for index, word in enumerate(words) if index % 2 == 0]
+    
+    # Собираем результат в строку, разделяя слова запятыми
+    return ','.join(result)
+
+
+input_str = 'SIX,SEVEN,EIGHT,NINE,TEN'
+output_str = remove_odd_words(input_str)
+print(output_str)

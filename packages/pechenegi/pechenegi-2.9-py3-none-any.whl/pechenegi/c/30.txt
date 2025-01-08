@@ -1,0 +1,11 @@
+task30
+def diagonal_sum(matrix):
+    try:
+        if len(matrix) != len(matrix[0]):
+            raise ValueError("Матрица не является квадратной.")
+        return sum(matrix[i][i] for i in range(len(matrix)))
+    except ValueError as e:
+        print(e)
+
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(diagonal_sum(matrix))

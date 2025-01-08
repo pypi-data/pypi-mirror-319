@@ -1,0 +1,59 @@
+task40
+def func(f):
+    # Получаем список параметров функции через его __code__.co_varnames
+    param_names = f.__code__.co_varnames[:f.__code__.co_argcount]  # Получаем все имена параметров
+    
+    # Имя функции
+    print(f"Имя функции: {f.__name__}")
+    
+    # Проходим по всем параметрам функции
+    for i, param_name in enumerate(param_names):
+        # Проверяем, является ли параметр позиционным или ключевым
+        if i < f.__code__.co_argcount:  # Позиционные параметры
+            param_type = "позиционный"
+        else:  # Если параметр идет с дефолтным значением, он ключевой
+            param_type = "ключевой"
+        
+        # Определение типа параметра
+        param_value = f.__defaults__[i] if i >= f.__code__.co_argcount else None
+        if param_value is None:
+            param_annotation = 'не указан'
+        else:
+            param_annotation = type(param_value).__name__
+        
+        print(f"Параметр {param_name}: {param_type} типа {param_annotation}")
+
+
+def subfunc(a, b=5):
+    print(a, b)
+
+# Вызов функции func с передачей другой функции
+func(subfunc)
+
+
+task48 (Я БЫ ИСПОЛЬЗОВАЛА ЭТОТ)
+def func(func_arg, *args, **kwargs):
+    # Получаем имя функции
+    print(f"Имя функции: {func_arg.__name__}")
+
+    # Получаем параметры функции
+    func_code = func_arg.__code__
+    param_names = func_code.co_varnames[:func_code.co_argcount]
+
+    # Итерация по позиционным параметрам
+    for i, param_name in enumerate(param_names):
+        value = args[i] if i < len(args) else None  # Получаем значение из args
+        if value is not None:
+            print(f"{param_name}: позиционный параметр, тип {type(value).__name__}")
+
+    # Итерация по ключевым параметрам
+    for param_name, value in kwargs.items():
+        print(f"{param_name}: ключевой параметр, тип {type(value).__name__}")
+
+# Пример передачи функции в функцию func
+def subfunc(x, a=5.0):
+    pass
+
+# Вызов func с примерной функцией и параметрами
+func(subfunc, 17, a=9.5)
+

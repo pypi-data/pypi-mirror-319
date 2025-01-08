@@ -1,0 +1,24 @@
+task24 (Вари)
+def repl(s, **kwargs):
+    words = s.split()
+    result = [kwargs.get(word, word) for word in words]
+    return ' '.join(result)
+
+s = "replace my val abc"
+print(repl(s, my="s1", abc="fff"))
+
+task56 (Евы)
+def repl(text, **kwargs):
+    # Разделяем строку на отдельные слова
+    words = text.split()
+
+    # Для каждого слова проверяем, совпадает ли оно с ключом в kwargs
+    replaced_words = [kwargs.get(word, word) for word in words]
+
+    # Объединяем слова обратно в строку
+    return ' '.join(replaced_words)
+
+
+text = 'replace my val abc'
+result = repl(text, my='s1', abc='fff')
+print(result)

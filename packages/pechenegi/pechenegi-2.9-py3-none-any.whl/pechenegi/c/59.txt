@@ -1,0 +1,9 @@
+task59
+def invert_dict(input_dict):
+    # Используем генератор словаря, чтобы инвертировать словарь
+    return {value: key for key, value in input_dict.items() if value not in input_dict.values() or list(input_dict.values()).count(value) == 1}
+
+
+input_dict = {'a': 1, 'b': 3, 'c': 4, 'd': 3}
+result = invert_dict(input_dict)
+print(result)

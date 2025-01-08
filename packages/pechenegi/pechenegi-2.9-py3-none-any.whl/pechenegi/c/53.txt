@@ -1,0 +1,8 @@
+task53
+def odd_sums(d):
+    return [key + value for key, value in d.items() if (key + value) % 2 != 0]
+
+
+d = {2: 4, 3: 2, 11: 6, 5: 4, 1: 3}
+result = odd_sums(d)
+print(result)

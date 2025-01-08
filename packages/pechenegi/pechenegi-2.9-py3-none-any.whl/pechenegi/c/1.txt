@@ -1,0 +1,19 @@
+Task1
+from collections import Counter
+import re
+def save_word_stats(filename):
+    with open(filename, 'r', encoding='utf-8') as f:
+        text = f.read()
+    words = re.findall(r'\b\w+\b', text.lower())  # Приводим все слова к нижнему регистру
+    word_count = Counter(words)
+    
+    with open('word_stats.txt', 'w', encoding='utf-8') as f:
+        for word, count in word_count.most_common():
+            f.write(f'{word} {count}\n')
+def calculate_stats_from_file(stats_filename):
+    word_stats = {}
+    with open(stats_filename, 'r', encoding='utf-8') as f:
+        for line in f:
+            word, count = line.split()
+            word_stats[word] = int(count)
+    return word_stats

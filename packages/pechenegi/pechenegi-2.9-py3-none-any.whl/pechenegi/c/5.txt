@@ -1,0 +1,21 @@
+task5
+# volume.py
+def volume(length, width, height):
+    return length * width * height
+
+# surface_area.py
+def surface_area(length, width, height):
+    return 2 * (length * width + width * height + height * length)
+
+# perimeter.py
+def perimeter(length, width, height):
+    return 4 * (length + width + height)
+from volume import volume
+from surface_area import surface_area
+from perimeter import perimeter
+
+l, w, h = 10, 20, 30
+
+print(f"Volume = {volume(l, w, h)}")
+print(f"Surface Area = {surface_area(l, w, h)}")
+print(f"Perimeter = {perimeter(l, w, h)}")

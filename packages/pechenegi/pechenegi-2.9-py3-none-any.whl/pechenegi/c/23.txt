@@ -1,0 +1,14 @@
+task23
+def alternate_words(s1, s2):
+    list1 = s1.split()
+    list2 = s2.split()
+    result = []
+    for word1, word2 in zip(list1, list2):
+        result.append(word1)
+        result.append(word2)
+    result.extend(list1[len(list2):] + list2[len(list1):])
+    return ' '.join(result)
+
+s1 = "один два три"
+s2 = "альфа бетта гамма"
+print(alternate_words(s1, s2))
