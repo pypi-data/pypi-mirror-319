@@ -1,0 +1,11 @@
+numpy
+pandas
+requests
+torch
+gensim
+langchain_community
+scipy
+scikit-learn
+tabulate
+tqdm
+transformers
