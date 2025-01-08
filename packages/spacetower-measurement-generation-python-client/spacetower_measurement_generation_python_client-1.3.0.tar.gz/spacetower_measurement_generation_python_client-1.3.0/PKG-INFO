@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: spacetower_measurement_generation_python_client
+Version: 1.3.0
+Summary: Measurements Generation API
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: Exotrail
+Keywords: OpenAPI,OpenAPI-Generator,Measurements Generation API
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3<2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic>=2
+Requires-Dist: typing-extensions>=4.7.1
+
+    Measurements Generation API
+    
