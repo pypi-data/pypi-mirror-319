@@ -1,0 +1,8 @@
+depscan/__init__.py,sha256=39r90KfjlJ90wahIvyNUOtVnxIrG83a-cyPWV8_hvHc,107
+depscan/models.py,sha256=4LXHoOZkmR__MsZcECg2Giaj7WKd9trCelK7jA5_KJQ,6486
+depscan/package_mapping.py,sha256=GMcUKtVxJRh_NVBR7gR7Ks5uhg9ALLxz_dn_NvvN3qg,2227
+depscan-0.1.5.dist-info/METADATA,sha256=Nl4yp_fqbs-MNBje13itIiWP_A9GC6tUPJXE0ko05ZI,3173
+depscan-0.1.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+depscan-0.1.5.dist-info/entry_points.txt,sha256=btMgmlBLIzTebZW9uNTBdHhqhHziJ6tB7SVmN7hG2uk,40
+depscan-0.1.5.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+depscan-0.1.5.dist-info/RECORD,,
