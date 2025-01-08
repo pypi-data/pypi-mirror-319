@@ -1,0 +1,1 @@
+from .soyleapp import SoyleApp
