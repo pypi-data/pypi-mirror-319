@@ -1,0 +1,2 @@
+[console_scripts]
+textual-code = textual_code:main
