@@ -1,0 +1,3 @@
+[console_scripts]
+awslog = nicetoolkit.awslog:main
+xmlformat = nicetoolkit.xmlformatter:main
