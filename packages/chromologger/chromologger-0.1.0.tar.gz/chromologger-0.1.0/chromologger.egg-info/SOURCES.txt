@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+chromologger.egg-info/PKG-INFO
+chromologger.egg-info/SOURCES.txt
+chromologger.egg-info/dependency_links.txt
+chromologger.egg-info/top_level.txt
