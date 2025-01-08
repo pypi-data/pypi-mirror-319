@@ -1,0 +1,10 @@
+tagmapper/__init__.py,sha256=mj44hwo56ZCaS6zo0gwPzBz2SBYy87tg0vJgp-m5jEc,213
+tagmapper/attribute.py,sha256=3L4ubC4fCsLVbk3GtDwA06Pw8l3o75VC8ZCrD9qAW0A,841
+tagmapper/connector_api.py,sha256=dkpM3JYfCAy4qCHhaANZkU72PZKLGZy_gd8h16AmAJ8,3197
+tagmapper/connector_db.py,sha256=j-lsdajIBQ-1Uj5nx4FQ1bfnkBywnUQtYRWeXXv0VDo,6109
+tagmapper/mapped_object.py,sha256=uzefovHo_0vjcUt4cQe6h3v6_9Y-ANQaTUqY3SLeqJI,186
+tagmapper/separator.py,sha256=yN4Agq1i0ZFu3QQs-6x-lxlaPZS72s3RmuU3GzS5f18,2146
+tagmapper/well.py,sha256=pfIkO96W2mfr8meOMQzpZW533oxXpXKENBKzH5BN80A,2180
+tagmapper-0.3.0.dist-info/METADATA,sha256=7daXnEaQAbOh0j0Gos5wxHfdZZRIE0cKQtE-83RIH_U,1472
+tagmapper-0.3.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+tagmapper-0.3.0.dist-info/RECORD,,
