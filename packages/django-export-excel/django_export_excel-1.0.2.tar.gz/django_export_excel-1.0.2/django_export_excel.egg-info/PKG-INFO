@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django_export_excel
+Version: 1.0.2
+Summary: Django package for exporting data to Excel file with included admin integration
+Home-page: https://github.com/AzikDeveloper/django-export-excel
+Author: Azizbek Xushnazarov
+Author-email: azikdevapps@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENCE
+Requires-Dist: xlwt==1.3.0
