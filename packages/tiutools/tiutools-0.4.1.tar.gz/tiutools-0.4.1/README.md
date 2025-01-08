@@ -1,0 +1,1 @@
+Some classes and functions to interact with common infrastructure, nothing interesting ;-)

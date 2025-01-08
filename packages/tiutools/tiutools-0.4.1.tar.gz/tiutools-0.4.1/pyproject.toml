@@ -1,0 +1,24 @@
+[project]
+name = "tiutools"
+version = "0.4.1"
+description = "Collection of functions and classes to interact with TiU infrastructure"
+readme = "README.md"
+requires-python = ">=3.9, < 4.0"
+dependencies = [
+    "attrs>=24.3.0",
+    "keyring>=25.6.0",
+    "ldap3>=2.9.1",
+    "pillow>=11.1.0",
+    "python-dateutil>=2.9.0.post0",
+    "requests>=2.32.3",
+    "rich>=13.9.4",
+    "selenium>=4.27.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
