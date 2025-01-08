@@ -1,0 +1,30 @@
+salt>=3006
+pyvmomi==7.0.3
+jinja2>=3.1.0
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[dev]
+nox
+towncrier==21.9.0rc1
+
+[docs]
+sphinx
+furo
+sphinx-prompt
+sphinxcontrib-spelling
+towncrier==21.9.0rc1
+
+[docs:python_version < "3.8"]
+importlib_metadata
+
+[release]
+twine
+wheel
+towncrier==21.9.0rc1
+
+[tests]
+pytest>=6.1.0
+pytest-cov
+pytest-salt-factories>=1.0.0rc27
