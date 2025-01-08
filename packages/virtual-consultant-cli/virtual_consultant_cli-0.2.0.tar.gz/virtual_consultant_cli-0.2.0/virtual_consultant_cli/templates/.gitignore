@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Wasp
+.wasp/
+.wasp-work/
+
+# Docker
+.docker/
+
+# Documentation
+site/
+
+# Large files
+*.model
+*.bin
+*.h5
+*.pkl
+
+# Cursor
+.cursor/tracking/
+.cursor/logs/ 
