@@ -1,0 +1,10 @@
+clr.py,sha256=9LJE8vehgQqkCBTDXaB4VUBbdQeDbSs5zmZ283dHLRU,96
+pythonnet/__init__.py,sha256=XtllPI_8M3wOGAIP3oJ_nesfPFY4Ctj8WqyCGB4pJ6c,5195
+pythonnet/runtime/Python.Runtime.deps.json,sha256=uyYuSbS8m5HPex0fTmekGjmPK90oY-s-yzqsnhERJsM,9859
+pythonnet/runtime/Python.Runtime.dll,sha256=o_LBxIbvzGTxsRd7wpRCWOC_hnRLhF6723KarpKBx4c,450048
+pythonnet/runtime/Python.Runtime.pdb,sha256=UgIwGwHACs1QP_UkN-gHIZN064I38vLPjQlZPdJtYk0,202916
+pythonnet/runtime/Python.Runtime.xml,sha256=QPOTSrqbvOsZNYextthLbFjnsexwvqdjsCJ43Qb_vhk,186909
+ansys_pythonnet-3.1.0rc5.dist-info/METADATA,sha256=cFltXzs4H8h3BaGwHnBtGuIymP6-9Sho4GswmZUVmCQ,1815
+ansys_pythonnet-3.1.0rc5.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+ansys_pythonnet-3.1.0rc5.dist-info/top_level.txt,sha256=t_cWGAdMpwl7YO793-aNxNpIEUQhODegjRUXXd1alfA,14
+ansys_pythonnet-3.1.0rc5.dist-info/RECORD,,
