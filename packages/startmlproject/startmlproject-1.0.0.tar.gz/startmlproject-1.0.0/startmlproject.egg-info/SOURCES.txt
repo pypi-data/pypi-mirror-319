@@ -1,0 +1,7 @@
+setup.py
+startmlproject.py
+startmlproject.egg-info/PKG-INFO
+startmlproject.egg-info/SOURCES.txt
+startmlproject.egg-info/dependency_links.txt
+startmlproject.egg-info/entry_points.txt
+startmlproject.egg-info/top_level.txt
