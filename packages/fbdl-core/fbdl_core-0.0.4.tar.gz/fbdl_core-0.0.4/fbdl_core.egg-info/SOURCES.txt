@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fbdl_core/__init__.py
+fbdl_core/fbdl.py
+fbdl_core.egg-info/PKG-INFO
+fbdl_core.egg-info/SOURCES.txt
+fbdl_core.egg-info/dependency_links.txt
+fbdl_core.egg-info/entry_points.txt
+fbdl_core.egg-info/top_level.txt
