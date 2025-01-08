@@ -1,0 +1,2 @@
+[console_scripts]
+unibasedb = unibasedb.__main__:unibase
