@@ -1,0 +1,2 @@
+[console_scripts]
+versed = my_app.cli:main
