@@ -1,0 +1,2 @@
+[console_scripts]
+nrmk_lib = neuromeka_lib.install:main

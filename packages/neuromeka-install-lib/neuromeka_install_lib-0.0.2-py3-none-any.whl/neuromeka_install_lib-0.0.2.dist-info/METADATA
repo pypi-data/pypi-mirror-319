@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: neuromeka_install_lib
+Version: 0.0.2
+Summary: Neuromeka library package
+Author: Neuromeka
+Author-email: technical-support@neuromeka.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# nrmk_sw_update_package
+
+PyPI package를 이용하여 SW 자동업데이트를 하기 위한 패키지
+
+## 사용법
+```bash
+sudo pip3 install neuromeka_install_lib
+```
+
+```bash
+sudo nrmk_lib
+```
+
+* Hostname을 통해 STEP2 or STEP3 파악
+* STEP 버전에 맞는 lib 파일 자동 설치
