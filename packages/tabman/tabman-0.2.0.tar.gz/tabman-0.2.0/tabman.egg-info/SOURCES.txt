@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+tabman/__init__.py
+tabman/categorizer.py
+tabman/content_fetcher.py
+tabman/main.py
+tabman/tab_capture.py
+tabman/tab_saver.py
+tabman.egg-info/PKG-INFO
+tabman.egg-info/SOURCES.txt
+tabman.egg-info/dependency_links.txt
+tabman.egg-info/entry_points.txt
+tabman.egg-info/requires.txt
+tabman.egg-info/top_level.txt
