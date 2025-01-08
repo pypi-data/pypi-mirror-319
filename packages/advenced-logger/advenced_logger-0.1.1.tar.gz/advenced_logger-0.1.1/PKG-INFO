@@ -1,0 +1,197 @@
+Metadata-Version: 2.1
+Name: advenced-logger
+Version: 0.1.1
+Summary: Advanced logging configuration with support for multi-threading and multi-processing.Provides structured logging, context management, and automatic rotation.
+Author: Zongwei Du
+Author-email: pxwtp6519@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: loguru
+
+使用示例
+```
+from advenced_logger import get_default_logger, exception_decorator
+
+# Get the default logger
+logger = get_default_logger()
+
+@exception_decorator
+def basic_logging_example():
+    """Demonstrate basic logging functionality."""
+    # Basic log levels
+    logger.debug("Debug message - detailed information for debugging")
+    logger.info("Info message - general information about program execution")
+    logger.warning("Warning message - indicate a potential problem")
+    logger.error("Error message - indicate a serious problem")
+    logger.critical("Critical message - indicate a fatal error")
+
+    # Structured logging
+    logger.info(
+        "User logged in",
+        extra={
+            "user_id": "12345",
+            "ip_address": "192.168.1.1",
+            "login_time": "2024-01-08 10:30:00"
+        }
+    )
+
+    # Using context
+    with logger.contextualize(request_id="abc-123"):
+        logger.info("Processing request")
+        logger.info("Request completed", extra={"duration_ms": 150})
+
+    # Exception handling
+    try:
+        result = 1 / 0
+    except Exception:
+        logger.exception("An error occurred during calculation")
+
+if __name__ == "__main__":
+    basic_logging_example()
+```
+设计多线程和多进程的示例
+```
+from advenced_logger import setup_logger, exception_decorator
+import threading
+import multiprocessing
+import time
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
+
+# Create custom logger with specific configuration
+logger = setup_logger(
+    log_dir="custom_logs",
+    console_level="DEBUG",
+    file_level="INFO",
+    rotation="100 MB",
+    retention="7 days"
+).get_logger()
+
+@exception_decorator
+def worker_task(task_id: int, sleep_time: float = 0.1):
+    """Example worker function for demonstrating parallel logging."""
+    thread_name = threading.current_thread().name
+    process_name = multiprocessing.current_process().name
+    
+    with logger.contextualize(task_id=task_id, thread=thread_name, process=process_name):
+        logger.info(f"Starting task {task_id}")
+        time.sleep(sleep_time)
+        
+        # Structured logging in parallel execution
+        logger.info(
+            "Task progress", 
+            extra={
+                "progress": "50%",
+                "memory_usage": "100MB",
+                "duration": sleep_time
+            }
+        )
+        
+        # Simulate occasional errors
+        if task_id % 5 == 0:
+            raise ValueError(f"Simulated error in task {task_id}")
+            
+        logger.info(f"Completed task {task_id}")
+        return task_id
+
+@exception_decorator
+def threaded_execution_example():
+    """Demonstrate thread-safe logging with thread pool."""
+    logger.info("Starting threaded execution example")
+    
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = [executor.submit(worker_task, i) for i in range(5)]
+        for future in futures:
+            try:
+                result = future.result()
+                logger.debug(f"Thread task result: {result}")
+            except Exception:
+                logger.exception("Thread task failed")
+
+@exception_decorator
+def multiprocess_execution_example():
+    """Demonstrate process-safe logging with process pool."""
+    logger.info("Starting multiprocess execution example")
+    
+    with ProcessPoolExecutor(max_workers=3) as executor:
+        futures = [executor.submit(worker_task, i) for i in range(5)]
+        for future in futures:
+            try:
+                result = future.result()
+                logger.debug(f"Process task result: {result}")
+            except Exception:
+                logger.exception("Process task failed")
+
+if __name__ == "__main__":
+    # Configure logging context for the entire application
+    with logger.contextualize(app_name="AdvancedExample", environment="development"):
+        logger.info("Application starting")
+        
+        # Run threading example
+        threaded_execution_example()
+        
+        # Run multiprocessing example
+        multiprocess_execution_example()
+        
+        logger.info("Application finished")
+```
+自定义的实例
+```
+from advanced_logger import setup_logger
+import sys
+
+def email_alert(message):
+    """Mock function to simulate sending email alerts."""
+    print(f"Email Alert: {message}")
+
+# Example of custom configuration with additional handlers
+custom_logger = setup_logger(
+    log_dir="enterprise_logs",
+    app_log_filename="app_{time:YYYY-MM-DD}.log",
+    console_level="INFO",
+    file_level="DEBUG",
+    rotation="1 day",
+    retention="30 days",
+    compression="zip",
+    extra_handlers={
+        # Custom handler for critical errors
+        "critical_handler": {
+            "sink": "critical_errors.log",
+            "level": "CRITICAL",
+            "rotation": "100 MB",
+            "format": "{time} - {message}",
+            "serialize": True  # JSON format
+        },
+        # Custom handler for email notifications
+        "email_handler": {
+            "sink": email_alert,
+            "level": "ERROR",
+            "format": "Alert: {message}",
+            "backtrace": False
+        }
+    }
+).get_logger()
+
+def demonstrate_custom_logging():
+    """Show custom logging configuration features."""
+    # Basic logging
+    custom_logger.info("Application initialized with custom configuration")
+    
+    # Structured logging with custom format
+    custom_logger.info("System status check", extra={
+        "memory_usage": "2.5GB",
+        "cpu_usage": "75%",
+        "disk_space": "120GB",
+        "active_users": 150
+    })
+    
+    # Demonstrate error handling with email notification
+    try:
+        raise RuntimeError("Critical system error detected")
+    except Exception:
+        custom_logger.exception("System error occurred")
+
+if __name__ == "__main__":
+    demonstrate_custom_logging()

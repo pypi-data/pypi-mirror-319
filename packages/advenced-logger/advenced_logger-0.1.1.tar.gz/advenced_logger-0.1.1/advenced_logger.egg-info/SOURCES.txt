@@ -1,0 +1,8 @@
+README.md
+advenced_logger.py
+setup.py
+advenced_logger.egg-info/PKG-INFO
+advenced_logger.egg-info/SOURCES.txt
+advenced_logger.egg-info/dependency_links.txt
+advenced_logger.egg-info/requires.txt
+advenced_logger.egg-info/top_level.txt
