@@ -1,0 +1,105 @@
+{
+    "daw": {
+        "midi port": "IAC Driver Bus 1"
+    },
+    "fluidsynth": {
+        "audio output device": "default",
+        "gain": 2.0,
+        "midi auto connect": false,
+        "num keys": {
+            "0": {
+                "PC": 0,
+                "bank select": 0,
+                "channel volume": 127,
+                "mode": "poly",
+                "octave delta": 0,
+                "pan": 64
+            },
+            "1": {
+                "PC": 1,
+                "bank select": 0,
+                "channel volume": 127,
+                "mode": "poly",
+                "octave delta": 0,
+                "pan": 64
+            },
+            "2": {
+                "PC": 25,
+                "bank select": 0,
+                "channel volume": 127,
+                "mode": "poly",
+                "octave delta": 0,
+                "pan": 64
+            },
+            "3": {
+                "PC": 29,
+                "bank select": 0,
+                "channel volume": 127,
+                "mode": "poly",
+                "octave delta": 0,
+                "pan": 64
+            },
+            "4": {
+                "PC": 34,
+                "bank select": 0,
+                "channel volume": 127,
+                "mode": "poly",
+                "octave delta": 0,
+                "pan": 64
+            },
+            "5": {
+                "PC": 40,
+                "bank select": 0,
+                "channel volume": 127,
+                "mode": "poly",
+                "octave delta": 0,
+                "pan": 64
+            },
+            "6": {
+                "PC": 52,
+                "bank select": 0,
+                "channel volume": 127,
+                "mode": "poly",
+                "octave delta": 0,
+                "pan": 64
+            },
+            "7": {
+                "PC": 66,
+                "bank select": 0,
+                "channel volume": 127,
+                "mode": "poly",
+                "octave delta": 0,
+                "pan": 64
+            },
+            "8": {
+                "PC": 80,
+                "bank select": 0,
+                "channel volume": 127,
+                "mode": "poly",
+                "octave delta": 0,
+                "pan": 64
+            },
+            "9": {
+                "PC": 0,
+                "bank select": 128,
+                "channel volume": 127,
+                "mode": "poly",
+                "octave delta": 0,
+                "pan": 64
+            }
+        },
+        "soundfont file": "DSoundFontV4.sf2"
+    },
+    "kbd-synth": {
+        "delta vel": 10,
+        "loop count": 4,
+        "midi file": "Comfortably.mid",
+        "note vel": 80,
+        "pitch bend range": 12,
+        "scale": {
+            "name": "ionian",
+            "root": "E"
+        },
+        "portamento time ms": "51"
+    }
+}

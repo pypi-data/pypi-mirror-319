@@ -1,0 +1,27 @@
+{
+    "DEFAULT_MIDILIB_PATH": "/Users/anustuv/UTM_dir/Shared_drive/default_midi_library",
+    "DEFAULT_SOUNDFONT_PATH": "/Users/anustuv/UTM_dir/Shared_drive/sound-fonts",
+    "INT_RTMIDI_VERSION": "7.0.0",
+    "EXT_RTMIDI": {
+        "lib_paths": [
+            "/opt/homebrew/Cellar/rtmidi/6.0.0/lib/librtmidi.dylib",
+            "/Users/anustuv/projects/personal/musiclab-suite/rtmidi-expt/rtmidi/build/librtmidi.dylib"
+        ]
+    },
+    "VLC_PATH": {
+        "darwin": {
+            "lib_path": "/Applications/VLC.app/Contents/MacOS/lib",
+            "plugin_path": "/Applications/VLC.app/Contents/MacOS/plugins"
+        },
+        "linux": {
+            "lib_path": "/usr/lib/aarch64-linux-gnu",
+            "plugin_path": "/usr/lib/aarch64-linux-gnu/"
+        }
+    },
+    "FLUIDSYNTH": {
+        "lib_paths": [
+            "/opt/homebrew/lib/libfluidsynth.dylib",
+            "/Users/anustuv/fluidsynth-build/Library/Frameworks/FluidSynth.framework/Versions/3/FluidSynth"
+        ]
+    }
+}

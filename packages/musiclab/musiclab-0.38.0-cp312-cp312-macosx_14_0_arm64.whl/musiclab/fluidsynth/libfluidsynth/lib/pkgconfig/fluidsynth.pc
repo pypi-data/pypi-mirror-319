@@ -1,0 +1,12 @@
+prefix=/Users/anustuv/UTM_dir/Shared_drive/musiclab-engine/musiclab/fluidsynth/libfluidsynth
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: FluidSynth
+Description: Software SoundFont synth
+Version: 2.3.6
+Requires.private: glib-2.0 gthread-2.0 sndfile
+Libs: -L${libdir} -lfluidsynth
+Libs.private: -lm -Wl,-framework,CoreAudio,-framework,AudioUnit -Wl,-framework,CoreMIDI,-framework,CoreServices /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/libreadline.tbd
+Cflags: -I${includedir}
