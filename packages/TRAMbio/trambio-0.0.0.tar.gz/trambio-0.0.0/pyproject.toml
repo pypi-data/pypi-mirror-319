@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "TRAMbio"
+description = "Coming soon."
+authors = [
+    { name = "Nicolas Handke", email = "nicolas@bioinf.uni-leipzig.de" },
+]
+dynamic = []
+version = "0.0.0"
+
+[tool.pdm.version]
+source = "file"
+path = "src/TRAMbio/__init__.py"
