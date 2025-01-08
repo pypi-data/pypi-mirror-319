@@ -1,0 +1,3 @@
+[console_scripts]
+fastapicliultra=fastapicliultra:cli
+
