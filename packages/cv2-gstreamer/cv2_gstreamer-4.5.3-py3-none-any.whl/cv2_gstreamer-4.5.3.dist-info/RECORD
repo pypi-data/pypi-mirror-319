@@ -1,0 +1,7 @@
+cv2_gst/__init__.py,sha256=qNi0MkOO2gIB0-RnrhebPXP3EHlbx9gSWdDvCq5UrEI,23
+cv2_gst/cv2/__init__.py,sha256=oaqnGsM8vO7vOkueqOo5eCekUGK80TApiFBwL5LzGNo,19
+cv2_gst/cv2/cv2.so,sha256=qvUHe0TBZYGICdO-4Fel80Z-KHFkm1lHb7SyDxUK-ew,12544680
+cv2_gstreamer-4.5.3.dist-info/METADATA,sha256=ldD3s7fCZ-3jD06FHLsj1JnBhCgF1dwaxvUq8Z_33Fc,58
+cv2_gstreamer-4.5.3.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+cv2_gstreamer-4.5.3.dist-info/top_level.txt,sha256=28k5eTq0yRLMGHHDINHUGod8tcJyH4gvj9JTDbCRZ7Q,8
+cv2_gstreamer-4.5.3.dist-info/RECORD,,
