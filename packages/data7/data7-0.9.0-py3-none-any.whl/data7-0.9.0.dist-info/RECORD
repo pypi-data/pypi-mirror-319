@@ -1,0 +1,13 @@
+data7/.secrets.yaml.dist,sha256=JvKsSefs-Au_s1ioujG1pE_MoZFRKGzm1BiQ1A_Vtmk,552
+data7/__init__.py,sha256=xeu6nydmUhCkwdBK5mo1BpT_M1C63840sCOPtwTRV0Q,69
+data7/__main__.py,sha256=iej6Z2TbHnQZpY5CmCrji76gT01_HZkKqki1QCHT4sI,89
+data7/app.py,sha256=ThqqlMIrkJPJOkHU1uUONFbH3LCtrq1lBdE_cXINH7E,8438
+data7/cli.py,sha256=iE860zjrJMprMo7fIFdpNtJRcwNq8MSFMP_L5GYfHpI,6669
+data7/config.py,sha256=Qch_hzBKOanA8Zq8qSTvKeQVKvP4u4Whd670ywe_ACg,318
+data7/data7.yaml.dist,sha256=nwnOJEuUjorBUs14ts_gqOVLX-jIn9k1gcTZrfICKi8,858
+data7/settings.yaml.dist,sha256=lXI5cGAtKFQpiJw8_K5TiyXarUq-zpJuI9aUXWZtsh8,1411
+data7-0.9.0.dist-info/LICENSE,sha256=CDpE_6Anb68vEEwJOCp_KD7jOvJn90EDDRRso4QftLo,1103
+data7-0.9.0.dist-info/METADATA,sha256=n6Q-UGbjQvKS6NCevTBiTcA0L4cD-VDmY2LPLUZu5ik,2982
+data7-0.9.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+data7-0.9.0.dist-info/entry_points.txt,sha256=3DiJ8Ys1-YSkYvhw_r9H3he7aISw8XxWCGEeBV4HnwI,39
+data7-0.9.0.dist-info/RECORD,,
