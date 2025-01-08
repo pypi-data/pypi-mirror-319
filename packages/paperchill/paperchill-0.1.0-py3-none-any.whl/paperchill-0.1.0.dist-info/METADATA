@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: paperchill
+Version: 0.1.0
+Summary: 
+Author: Lene
+Author-email: lene.preuss@exxeta.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flask (>=3.1.0,<4.0.0)
+Requires-Dist: marker-pdf (>=1.2.3,<2.0.0)
+Requires-Dist: openai (>=1.59.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# paperchill - a papermill with chat functionality
+
+`paperchill` is a proof of concept that lets you upload a paper in PDF format, gives you a summary of the paper, and
+answers questions about the paper.
+
+## Installation
+```shell
+$ pip install paperchill
+```
