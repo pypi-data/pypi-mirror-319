@@ -1,0 +1,14 @@
+objectron/__init__.py,sha256=oVdO4i_wI--CyQ3EkEzUqe-9mF_3QRxWBM2DYEriNrA,432
+objectron/controllers.py,sha256=DJjpoMjQu-elAn-huKZtna5TLlcgVQqYeNzQT6uYOBw,147
+objectron/exceptions.py,sha256=-KYlwfpRlolNId-N500a_UZOgQLNXMHBnOcans-bmRk,199
+objectron/objectron.py,sha256=vk-bwr6aeDvl3wBVVDMj0QejskXF9oHFoi2oLjv2HGI,7475
+objectron/proxy.py,sha256=DhhJ-GJUteobXWH2wDiLWUm6eIVa3NtDci8EnjWBJxo,21049
+objectron/replace.py,sha256=ZyAe3W8KswpmV1F3UN-3PO2Y3rBMtf0eNTF4UPQLrPo,6063
+objectron/wrappers.py,sha256=1QWBIesOE7d2vEesuf-kDqbf7OG2NiIc0qMfMteXX0o,679
+objectron_decorators/__init__.py,sha256=En1QOdbzyH0ilwj2khKg53JwPeT0Wk2VO_I8BIHX3Bg,63
+objectron_decorators/decorators.py,sha256=SBCZ5grpEGKWFVGX5QkUamT6oHoUv7JhNRbRcHpQb0A,1027
+objectron-1.0.2.dist-info/LICENSE,sha256=j6A8_XbNcQrEuL8wxoEOvtV4RXx_XL5g_wL5xhrEiGw,1063
+objectron-1.0.2.dist-info/METADATA,sha256=5OvjNOoj5dcRsFS8Sb27xzJrjnot95bnKyvIlGNgqpI,3254
+objectron-1.0.2.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+objectron-1.0.2.dist-info/top_level.txt,sha256=6TOVqJf1j8H12gwEV0q7JOUPHCB8ZvyuOw2unN0qAQw,31
+objectron-1.0.2.dist-info/RECORD,,
