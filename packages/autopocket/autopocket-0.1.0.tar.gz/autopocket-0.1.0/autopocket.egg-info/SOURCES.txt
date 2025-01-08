@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+autopocket/__init__.py
+autopocket/base.py
+autopocket/main.py
+autopocket.egg-info/PKG-INFO
+autopocket.egg-info/SOURCES.txt
+autopocket.egg-info/dependency_links.txt
+autopocket.egg-info/requires.txt
+autopocket.egg-info/top_level.txt
