@@ -1,0 +1,5 @@
+[console_scripts]
+eyegrade-create = eyegrade.create.create:main
+
+[gui_scripts]
+eyegrade = eyegrade.eyegrade:main
