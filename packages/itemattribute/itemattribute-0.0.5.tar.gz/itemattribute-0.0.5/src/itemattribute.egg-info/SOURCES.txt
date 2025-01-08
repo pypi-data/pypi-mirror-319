@@ -1,0 +1,17 @@
+.flake8
+.gitignore
+CHANGELOG.md
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/complete_test.yml
+.github/workflows/pypi.yml
+.github/workflows/version_changelog_release.yml
+src/itemattribute/__init__.py
+src/itemattribute/item_attribute.py
+src/itemattribute/version.json
+src/itemattribute.egg-info/PKG-INFO
+src/itemattribute.egg-info/SOURCES.txt
+src/itemattribute.egg-info/dependency_links.txt
+src/itemattribute.egg-info/top_level.txt
+test/test_itemattribute.py
