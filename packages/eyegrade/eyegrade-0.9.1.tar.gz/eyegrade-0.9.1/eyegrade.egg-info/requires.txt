@@ -1,0 +1,5 @@
+opencv-python==4.10.0.84
+openpyxl==3.0.9
+PyQt5==5.14.1
+numpy==2.2.1
+et_xmlfile==2.0.0
