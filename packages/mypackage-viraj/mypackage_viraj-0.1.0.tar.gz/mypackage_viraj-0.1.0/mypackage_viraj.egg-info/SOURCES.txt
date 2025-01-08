@@ -1,0 +1,8 @@
+README.md
+setup.py
+mypackage/__init__.py
+mypackage/utils.py
+mypackage_viraj.egg-info/PKG-INFO
+mypackage_viraj.egg-info/SOURCES.txt
+mypackage_viraj.egg-info/dependency_links.txt
+mypackage_viraj.egg-info/top_level.txt
