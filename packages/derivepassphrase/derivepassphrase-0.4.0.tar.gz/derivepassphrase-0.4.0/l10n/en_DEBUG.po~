@@ -1,0 +1,795 @@
+# English debug translation for derivepassphrase.
+# Copyright (C) 2024 Marco Ricci (the-13th-letter)
+# This file is distributed under the same license as derivepassphrase.
+# Marco Ricci <software@the13thletter.info>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: derivepassphrase 0.3.3\n"
+"Report-Msgid-Bugs-To: software@the13thletter.info\n"
+"POT-Creation-Date: 2024-12-31 14:44+0100\n"
+"PO-Revision-Date: 2024-12-31 14:35+0100\n"
+"Last-Translator: Marco Ricci <software@the13thletter.info>\n"
+"Language: en_DEBUG\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANSLATORS: This error message is used whenever we cannot make
+#. any sense of a response from the SSH agent because the response
+#. is ill-formed (truncated, improperly encoded, etc.) or otherwise
+#. violates the communications protocol.  Well-formed responses
+#. that adhere to the protocol, even if they indicate that the
+#. requested operation failed, are handled with a different error
+#. message.
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.CANNOT_UNDERSTAND_AGENT
+msgid ""
+"Cannot understand the SSH agent's response because it violates the "
+"communications protocol."
+msgstr "ErrMsgTemplate.CANNOT_UNDERSTAND_AGENT"
+
+#: derivepassphrase/_cli_msg.py:WarnMsgTemplate.V01_STYLE_CONFIG
+#, python-brace-format
+msgctxt "deprecation warning message"
+msgid ""
+"Using deprecated v0.1-style config file {old!r}, instead of v0.2-style {new!"
+"r}.  Support for v0.1-style config filenames will be removed in v1.0."
+msgstr "WarnMsgTemplate.V01_STYLE_CONFIG({old!r}, {new!r})"
+
+#. TRANSLATORS: This deprecation warning may be issued at any
+#. level, i.e. we may actually be talking about subcommands, or
+#. sub-subcommands, or sub-sub-subcommands, etc., which is what the
+#. "here" is supposed to indicate.
+#: derivepassphrase/_cli_msg.py:WarnMsgTemplate.V10_SUBCOMMAND_REQUIRED
+msgctxt "deprecation warning message"
+msgid ""
+"A subcommand will be required here in v1.0.  See --help for available "
+"subcommands.  Defaulting to subcommand \"vault\"."
+msgstr "WarnMsgTemplate.V10_SUBCOMMAND_REQUIRED"
+
+#: derivepassphrase/_cli_msg.py:Label.DEPRECATION_WARNING_LABEL
+msgctxt "diagnostic label"
+msgid "Deprecation warning"
+msgstr "Label.DEPRECATION_WARNING_LABEL"
+
+#: derivepassphrase/_cli_msg.py:Label.WARNING_LABEL
+msgctxt "diagnostic label"
+msgid "Warning"
+msgstr "Label.WARNING_LABEL"
+
+#. TRANSLATORS: "loaded keys" being keys loaded into the agent.
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.AGENT_REFUSED_LIST_KEYS
+msgctxt "error message"
+msgid "The SSH agent failed to or refused to supply a list of loaded keys."
+msgstr "ErrMsgTemplate.AGENT_REFUSED_LIST_KEYS"
+
+#. TRANSLATORS: The message to be signed is the vault UUID, but
+#. there's no space to explain that here, so ideally the error
+#. message does not go into detail.
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.AGENT_REFUSED_SIGNATURE
+msgctxt "error message"
+msgid ""
+"The SSH agent failed to or refused to issue a signature with the selected "
+"key, necessary for deriving a service passphrase."
+msgstr "ErrMsgTemplate.AGENT_REFUSED_SIGNATURE"
+
+#. TRANSLATORS: "error" is supplied by the operating system
+#. (errno/strerror).
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.CANNOT_CONNECT_TO_AGENT
+#, python-brace-format
+msgctxt "error message"
+msgid "Cannot connect to the SSH agent: {error!s}: {filename!r}."
+msgstr "ErrMsgTemplate.CANNOT_CONNECT_TO_AGENT({error!s}, {filename!r})"
+
+#. TRANSLATORS: "error" is supplied by the operating system
+#. (errno/strerror).
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.CANNOT_DECODEIMPORT_VAULT_SETTINGS
+#, python-brace-format
+msgctxt "error message"
+msgid "Cannot import vault settings: cannot decode JSON: {error!s}."
+msgstr "ErrMsgTemplate.CANNOT_DECODEIMPORT_VAULT_SETTINGS({error!s})"
+
+#. TRANSLATORS: "error" is supplied by the operating system
+#. (errno/strerror).
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.CANNOT_EXPORT_VAULT_SETTINGS
+#, python-brace-format
+msgctxt "error message"
+msgid "Cannot export vault settings: {error!s}: {filename!r}."
+msgstr "ErrMsgTemplate.CANNOT_EXPORT_VAULT_SETTINGS({error!s}, {filename!r})"
+
+#. TRANSLATORS: "error" is supplied by the operating system
+#. (errno/strerror).
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.CANNOT_IMPORT_VAULT_SETTINGS
+#, python-brace-format
+msgctxt "error message"
+msgid "Cannot import vault settings: {error!s}: {filename!r}."
+msgstr "ErrMsgTemplate.CANNOT_IMPORT_VAULT_SETTINGS({error!s}, {filename!r})"
+
+#. TRANSLATORS: "error" is supplied by the operating system
+#. (errno/strerror).
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.CANNOT_LOAD_USER_CONFIG
+#, python-brace-format
+msgctxt "error message"
+msgid "Cannot load user config: {error!s}: {filename!r}."
+msgstr "ErrMsgTemplate.CANNOT_LOAD_USER_CONFIG({error!s}, {filename!r})"
+
+#. TRANSLATORS: "error" is supplied by the operating system
+#. (errno/strerror).
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.CANNOT_LOAD_VAULT_SETTINGS
+#, python-brace-format
+msgctxt "error message"
+msgid "Cannot load vault settings: {error!s}: {filename!r}."
+msgstr "ErrMsgTemplate.CANNOT_LOAD_VAULT_SETTINGS({error!s}, {filename!r})"
+
+#. TRANSLATORS: Unlike the "Cannot load {path!r} as a {fmt!s} vault
+#. configuration." message, *this* error message is emitted when we
+#. have tried loading the path in each of our supported formats,
+#. and failed.  The user will thus see the above "Cannot load ..."
+#. warning message potentially multiple times, and this error
+#. message at the very bottom.
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.CANNOT_PARSE_AS_VAULT_CONFIG
+#, python-brace-format
+msgctxt "error message"
+msgid ""
+"Cannot parse {path!r} as a valid vault-native configuration file/directory."
+msgstr "ErrMsgTemplate.CANNOT_PARSE_AS_VAULT_CONFIG({path!r})"
+
+#. TRANSLATORS: "error" is supplied by the operating system
+#. (errno/strerror).
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.CANNOT_STORE_VAULT_SETTINGS
+#, python-brace-format
+msgctxt "error message"
+msgid "Cannot store vault settings: {error!s}: {filename!r}."
+msgstr "ErrMsgTemplate.CANNOT_STORE_VAULT_SETTINGS({error!s}, {filename!r})"
+
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.CANNOT_UPDATE_SETTINGS_NO_SETTINGS
+#, python-brace-format
+msgctxt "error message"
+msgid ""
+"Cannot update {settings_type!s} settings without any given settings.  You "
+"must specify at least one of --lower, ..., --symbol, or --phrase or --key."
+msgstr "ErrMsgTemplate.CANNOT_UPDATE_SETTINGS_NO_SETTINGS({settings_type!s})"
+
+#. TRANSLATORS: "error" is supplied by the operating system
+#. (errno/strerror).
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.INVALID_USER_CONFIG
+#, python-brace-format
+msgctxt "error message"
+msgid "The user configuration file is invalid.  {error!s}: {filename!r}."
+msgstr "ErrMsgTemplate.INVALID_USER_CONFIG({error!s}, {filename!r})"
+
+#. TRANSLATORS: This error message is a reaction to a validator
+#. function saying *that* the configuration is not valid, but not
+#. *how* it is not valid.  The configuration file is principally
+#. parsable, however.
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.INVALID_VAULT_CONFIG
+#, python-brace-format
+msgctxt "error message"
+msgid "Invalid vault config: {config!r}."
+msgstr "ErrMsgTemplate.INVALID_VAULT_CONFIG({config!r})"
+
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.MISSING_MODULE
+#, python-brace-format
+msgctxt "error message"
+msgid "Cannot load the required Python module {module!r}."
+msgstr "ErrMsgTemplate.MISSING_MODULE({module!r})"
+
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.NO_AF_UNIX
+msgctxt "error message"
+msgid ""
+"Cannot connect to an SSH agent because this Python version does not support "
+"UNIX domain sockets."
+msgstr "ErrMsgTemplate.NO_AF_UNIX"
+
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.NO_KEY_OR_PHRASE
+msgctxt "error message"
+msgid ""
+"No passphrase or key was given in the configuration.  In this case, the --"
+"phrase or --key argument is required."
+msgstr "ErrMsgTemplate.NO_KEY_OR_PHRASE"
+
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.NO_SSH_AGENT_FOUND
+msgctxt "error message"
+msgid "Cannot find any running SSH agent because SSH_AUTH_SOCK is not set."
+msgstr "ErrMsgTemplate.NO_SSH_AGENT_FOUND"
+
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.NO_SUITABLE_SSH_KEYS
+#, python-brace-format
+msgctxt "error message"
+msgid "The SSH agent contains no keys suitable for {PROG_NAME!s}."
+msgstr "ErrMsgTemplate.NO_SUITABLE_SSH_KEYS({PROG_NAME!s})"
+
+#. TRANSLATORS: The params are long-form command-line option names.
+#. Typical example: "--key is mutually exclusive with --phrase."
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.PARAMS_MUTUALLY_EXCLUSIVE
+#, python-brace-format
+msgctxt "error message"
+msgid "{param1!s} is mutually exclusive with {param2!s}."
+msgstr "ErrMsgTemplate.PARAMS_MUTUALLY_EXCLUSIVE({param1!s}, {param2!s})"
+
+#. TRANSLATORS: The param is a long-form command-line option name,
+#. the metavar is Label.VAULT_METAVAR_SERVICE.
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.PARAMS_NEEDS_SERVICE
+#, python-brace-format
+msgctxt "error message"
+msgid "{param!s} requires a {service_metavar!s}."
+msgstr "ErrMsgTemplate.PARAMS_NEEDS_SERVICE({param!s}, {service_metavar!s})"
+
+#. TRANSLATORS: The param is a long-form command-line option name,
+#. the metavar is Label.VAULT_METAVAR_SERVICE.
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.PARAMS_NEEDS_SERVICE_OR_CONFIG
+#, python-brace-format
+msgctxt "error message"
+msgid "{param!s} requires a {service_metavar!s} or --config."
+msgstr "ErrMsgTemplate.PARAMS_NEEDS_SERVICE_OR_CONFIG({param!s}, {service_metavar!s})"
+
+#. TRANSLATORS: The param is a long-form command-line option name,
+#. the metavar is Label.VAULT_METAVAR_SERVICE.
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.PARAMS_NO_SERVICE
+#, python-brace-format
+msgctxt "error message"
+msgid "{param!s} does not take a {service_metavar!s} argument."
+msgstr "ErrMsgTemplate.PARAMS_NO_SERVICE({param!s}, {service_metavar!s})"
+
+#. TRANSLATORS: The metavar is Label.VAULT_METAVAR_SERVICE.
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.SERVICE_REQUIRED
+#, python-brace-format
+msgctxt "error message"
+msgid "Deriving a passphrase requires a {service_metavar!s}."
+msgstr "ErrMsgTemplate.SERVICE_REQUIRED({service_metavar!s})"
+
+#. TRANSLATORS: The rephrasing "Attempted to unset and set the same
+#. setting (--unset={setting!s} --{setting!s}=...) at the same
+#. time." may or may not be more suitable as a basis for
+#. translation instead.
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.SET_AND_UNSET_SAME_SETTING
+#, python-brace-format
+msgctxt "error message"
+msgid "Attempted to unset and set --{setting!s} at the same time."
+msgstr "ErrMsgTemplate.SET_AND_UNSET_SAME_SETTING({setting!s})"
+
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.SSH_KEY_NOT_LOADED
+msgctxt "error message"
+msgid "The requested SSH key is not loaded into the agent."
+msgstr "ErrMsgTemplate.SSH_KEY_NOT_LOADED"
+
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.USER_ABORTED_EDIT
+msgctxt "error message"
+msgid "Not saving any new notes: the user aborted the request."
+msgstr "ErrMsgTemplate.USER_ABORTED_EDIT"
+
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.USER_ABORTED_PASSPHRASE
+msgctxt "error message"
+msgid "No passphrase was given; the user aborted the request."
+msgstr "ErrMsgTemplate.USER_ABORTED_PASSPHRASE"
+
+#: derivepassphrase/_cli_msg.py:ErrMsgTemplate.USER_ABORTED_SSH_KEY_SELECTION
+msgctxt "error message"
+msgid "No SSH key was selected; the user aborted the request."
+msgstr "ErrMsgTemplate.USER_ABORTED_SSH_KEY_SELECTION"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_01
+msgctxt "help text (long form)"
+msgid "Derive a strong passphrase, deterministically, from a master secret."
+msgstr "Label.DERIVEPASSPHRASE_01"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_02
+msgctxt "help text (long form)"
+msgid ""
+"The currently implemented subcommands are \"vault\" (for the scheme used by "
+"vault) and \"export\" (for exporting foreign configuration data).  See the "
+"respective `--help` output for instructions.  If no subcommand is given, we "
+"default to \"vault\"."
+msgstr "Label.DERIVEPASSPHRASE_02"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_03
+msgctxt "help text (long form)"
+msgid ""
+"Deprecation notice: Defaulting to \"vault\" is deprecated.  Starting in "
+"v1.0, the subcommand must be specified explicitly."
+msgstr "Label.DERIVEPASSPHRASE_03"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_EPILOG_01
+msgctxt "help text (long form)"
+msgid ""
+"Configuration is stored in a directory according to the "
+"`DERIVEPASSPHRASE_PATH` variable, which defaults to `~/.derivepassphrase` on "
+"UNIX-like systems and `C:"
+"\\Users\\<user>\\AppData\\Roaming\\Derivepassphrase` on Windows."
+msgstr "Label.DERIVEPASSPHRASE_EPILOG_01"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_EXPORT_01
+msgctxt "help text (long form)"
+msgid "Export a foreign configuration to standard output."
+msgstr "Label.DERIVEPASSPHRASE_EXPORT_01"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_EXPORT_02
+msgctxt "help text (long form)"
+msgid ""
+"The only available subcommand is \"vault\", which implements the vault-"
+"native configuration scheme.  If no subcommand is given, we default to "
+"\"vault\"."
+msgstr "Label.DERIVEPASSPHRASE_EXPORT_02"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_EXPORT_VAULT_01
+msgctxt "help text (long form)"
+msgid "Export a vault-native configuration to standard output."
+msgstr "Label.DERIVEPASSPHRASE_EXPORT_VAULT_01"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_EXPORT_VAULT_02
+#, python-brace-format
+msgctxt "help text (long form)"
+msgid ""
+"Depending on the configuration format, {path_metavar!s} may either be a file "
+"or a directory.  We support the vault \"v0.2\", \"v0.3\" and \"storeroom\" "
+"formats."
+msgstr "Label.DERIVEPASSPHRASE_EXPORT_VAULT_02({path_metavar!s})"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_EXPORT_VAULT_03
+#, python-brace-format
+msgctxt "help text (long form)"
+msgid ""
+"If {path_metavar!s} is explicitly given as `VAULT_PATH`, then use the "
+"`VAULT_PATH` environment variable to determine the correct path.  (Use `./"
+"VAULT_PATH` or similar to indicate a file/directory actually named "
+"`VAULT_PATH`.)"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_03({path_metavar!s})"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_01
+msgctxt "help text (long form)"
+msgid "Derive a passphrase using the vault derivation scheme."
+msgstr "Label.DERIVEPASSPHRASE_VAULT_01"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_02
+#, python-brace-format
+msgctxt "help text (long form)"
+msgid ""
+"If operating on global settings, or importing/exporting settings, then "
+"{service_metavar!s} must be omitted.  Otherwise it is required."
+msgstr "Label.DERIVEPASSPHRASE_VAULT_02({service_metavar!s})"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_EPILOG_01
+msgctxt "help text (long form)"
+msgid ""
+"WARNING: There is NO WAY to retrieve the generated passphrases if the master "
+"passphrase, the SSH key, or the exact passphrase settings are lost, short of "
+"trying out all possible combinations.  You are STRONGLY advised to keep "
+"independent backups of the settings and the SSH key, if any."
+msgstr "Label.DERIVEPASSPHRASE_VAULT_EPILOG_01"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_EPILOG_02
+msgctxt "help text (long form)"
+msgid ""
+"The configuration is NOT encrypted, and you are STRONGLY discouraged from "
+"using a stored passphrase."
+msgstr "Label.DERIVEPASSPHRASE_VAULT_EPILOG_02"
+
+#: derivepassphrase/_cli_msg.py:Label.DEPRECATED_COMMAND_LABEL
+#, python-brace-format
+msgctxt "help text (long form, label)"
+msgid "(Deprecated) {text}"
+msgstr "Label.DEPRECATED_COMMAND_LABEL({text})"
+
+#: derivepassphrase/_cli_msg.py:Label.DEBUG_OPTION_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid "also emit debug information (implies --verbose)"
+msgstr "Label.DEBUG_OPTION_HELP_TEXT"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_CONFIG_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "save the given settings for {service_metavar!s}, or global"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_CONFIG_HELP_TEXT({service_metavar!s})"
+
+#. TRANSLATORS: The metavar is
+#. Label.PASSPHRASE_GENERATION_METAVAR_NUMBER.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_DASH_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "ensure at least {metavar!s} \"-\" or \"_\" characters"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_DASH_HELP_TEXT({metavar!s})"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_DELETE_ALL_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid "delete all settings"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_DELETE_ALL_HELP_TEXT"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_DELETE_GLOBALS_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid "delete the global settings"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_DELETE_GLOBALS_HELP_TEXT"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_DELETE_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "delete the settings for {service_metavar!s}"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_DELETE_HELP_TEXT({service_metavar!s})"
+
+#. TRANSLATORS: The corresponding option is displayed as
+#. "--export-as=json|sh", so json refers to the JSON format
+#. (default) and sh refers to the POSIX sh format.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_EXPORT_AS_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid "when exporting, export as JSON (default) or POSIX sh"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_EXPORT_AS_HELP_TEXT"
+
+#. TRANSLATORS: The metavar is
+#. Label.STORAGE_MANAGEMENT_METAVAR_SERVICE.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_EXPORT_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "export all saved settings to {metavar!s}"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_EXPORT_HELP_TEXT({metavar!s})"
+
+#. TRANSLATORS: The metavar is
+#. Label.STORAGE_MANAGEMENT_METAVAR_SERVICE.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_IMPORT_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "import saved settings from {metavar!s}"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_IMPORT_HELP_TEXT({metavar!s})"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_KEY_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid "select a suitable SSH key from the SSH agent"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_KEY_HELP_TEXT"
+
+#. TRANSLATORS: The metavar is
+#. Label.PASSPHRASE_GENERATION_METAVAR_NUMBER.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_LENGTH_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "ensure a passphrase length of {metavar!s} characters"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_LENGTH_HELP_TEXT({metavar!s})"
+
+#. TRANSLATORS: The metavar is
+#. Label.PASSPHRASE_GENERATION_METAVAR_NUMBER.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_LOWER_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "ensure at least {metavar!s} lowercase characters"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_LOWER_HELP_TEXT({metavar!s})"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_NOTES_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "spawn an editor to edit notes for {service_metavar!s}"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_NOTES_HELP_TEXT({service_metavar!s})"
+
+#. TRANSLATORS: The metavar is
+#. Label.PASSPHRASE_GENERATION_METAVAR_NUMBER.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_NUMBER_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "ensure at least {metavar!s} digits"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_NUMBER_HELP_TEXT({metavar!s})"
+
+#. TRANSLATORS: The corresponding option is displayed as
+#. "--overwrite-existing / --merge-existing", so you may want to
+#. hint that the default (merge) is the second of those options.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_OVERWRITE_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid "overwrite or merge (default) the existing configuration"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_OVERWRITE_HELP_TEXT"
+
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_PHRASE_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid "prompt for a master passphrase"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_PHRASE_HELP_TEXT"
+
+#. TRANSLATORS: The metavar is
+#. Label.PASSPHRASE_GENERATION_METAVAR_NUMBER.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_REPEAT_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "forbid any run of {metavar!s} identical characters"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_REPEAT_HELP_TEXT({metavar!s})"
+
+#. TRANSLATORS: The metavar is
+#. Label.PASSPHRASE_GENERATION_METAVAR_NUMBER.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_SPACE_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "ensure at least {metavar!s} spaces"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_SPACE_HELP_TEXT({metavar!s})"
+
+#. TRANSLATORS: The metavar is
+#. Label.PASSPHRASE_GENERATION_METAVAR_NUMBER.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_SYMBOL_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "ensure at least {metavar!s} symbol characters"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_SYMBOL_HELP_TEXT({metavar!s})"
+
+#. TRANSLATORS: The corresponding option is displayed as
+#. "--unset=phrase|key|...|symbol", so the "given setting" is
+#. referring to "phrase", "key", "lower", ..., or "symbol",
+#. respectively.  "with --config" here means that the user must
+#. also specify "--config" for this option to have any effect.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_UNSET_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid ""
+"with --config, also unsets the given setting; may be specified multiple times"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_UNSET_HELP_TEXT"
+
+#. TRANSLATORS: The metavar is
+#. Label.PASSPHRASE_GENERATION_METAVAR_NUMBER.
+#: derivepassphrase/_cli_msg.py:Label.DERIVEPASSPHRASE_VAULT_UPPER_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "ensure at least {metavar!s} uppercase characters"
+msgstr "Label.DERIVEPASSPHRASE_VAULT_UPPER_HELP_TEXT({metavar!s})"
+
+#. TRANSLATORS: See EXPORT_VAULT_FORMAT_HELP_TEXT.  The format
+#. names/labels "v0.3", "v0.2" and "storeroom" should not be
+#. translated.
+#: derivepassphrase/_cli_msg.py:Label.EXPORT_VAULT_FORMAT_DEFAULTS_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid "(default: v0.3, v0.2, storeroom)"
+msgstr "Label.EXPORT_VAULT_FORMAT_DEFAULTS_HELP_TEXT"
+
+#. TRANSLATORS: The defaults_hint is
+#. Label.EXPORT_VAULT_FORMAT_DEFAULTS_HELP_TEXT, the metavar is
+#. Label.EXPORT_VAULT_FORMAT_METAVAR_FMT.
+#: derivepassphrase/_cli_msg.py:Label.EXPORT_VAULT_FORMAT_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid ""
+"try the following storage format {metavar!s}; may be specified multiple "
+"times, formats will be tried in order {defaults_hint!s}"
+msgstr "Label.EXPORT_VAULT_FORMAT_HELP_TEXT({metavar!s}, {defaults_hint!s})"
+
+#. TRANSLATORS: See EXPORT_VAULT_KEY_HELP_TEXT.
+#: derivepassphrase/_cli_msg.py:Label.EXPORT_VAULT_KEY_DEFAULTS_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid ""
+"(default: check the `VAULT_KEY`, `LOGNAME`, `USER`, or `USERNAME` "
+"environment variables)"
+msgstr "Label.EXPORT_VAULT_KEY_HELP_TEXT"
+
+#. TRANSLATORS: The defaults_hint is
+#. Label.EXPORT_VAULT_KEY_DEFAULTS_HELP_TEXT, the metavar is
+#. Label.EXPORT_VAULT_KEY_METAVAR_K.
+#: derivepassphrase/_cli_msg.py:Label.EXPORT_VAULT_KEY_HELP_TEXT
+#, python-brace-format
+msgctxt "help text (option one-line description)"
+msgid "use {metavar!s} as the storage master key {defaults_hint!s}"
+msgstr "Label.EXPORT_VAULT_KEY_HELP_TEXT({metavar!s}, {defaults_hint!s})"
+
+#: derivepassphrase/_cli_msg.py:Label.QUIET_OPTION_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid "suppress even warnings, emit only errors"
+msgstr "Label.QUIET_OPTION_HELP_TEXT"
+
+#: derivepassphrase/_cli_msg.py:Label.VERBOSE_OPTION_HELP_TEXT
+msgctxt "help text (option one-line description)"
+msgid "emit extra/progress information to standard error"
+msgstr "Label.VERBOSE_OPTION_HELP_TEXT"
+
+#: derivepassphrase/_cli_msg.py:Label.EXPORT_VAULT_FORMAT_METAVAR_FMT
+msgctxt "help text, metavar (export vault subcommand)"
+msgid "FMT"
+msgstr "Label.EXPORT_VAULT_FORMAT_METAVAR_FMT"
+
+#. TRANSLATORS: See Label.EXPORT_VAULT_KEY_HELP_TEXT.
+#: derivepassphrase/_cli_msg.py:Label.EXPORT_VAULT_KEY_METAVAR_K
+msgctxt "help text, metavar (export vault subcommand)"
+msgid "K"
+msgstr "Label.EXPORT_VAULT_KEY_METAVAR_K"
+
+#. TRANSLATORS: Used as "path_metavar" in
+#. Label.DERIVEPASSPHRASE_EXPORT_VAULT_02 and others.
+#: derivepassphrase/_cli_msg.py:Label.EXPORT_VAULT_METAVAR_PATH
+msgctxt "help text, metavar (export vault subcommand)"
+msgid "PATH"
+msgstr "Label.EXPORT_VAULT_METAVAR_PATH"
+
+#. TRANSLATORS: This metavar is also used in a matching epilog.
+#: derivepassphrase/_cli_msg.py:Label.PASSPHRASE_GENERATION_METAVAR_NUMBER
+msgctxt "help text, metavar (passphrase generation group)"
+msgid "NUMBER"
+msgstr "Label.PASSPHRASE_GENERATION_METAVAR_NUMBER"
+
+#. TRANSLATORS: This metavar is also used in multiple one-line help
+#. texts.
+#: derivepassphrase/_cli_msg.py:Label.STORAGE_MANAGEMENT_METAVAR_PATH
+msgctxt "help text, metavar (storage management group)"
+msgid "PATH"
+msgstr "Label.STORAGE_MANAGEMENT_METAVAR_PATH"
+
+#. TRANSLATORS: This metavar is also used in multiple one-line help
+#. texts, as "service_metavar".
+#: derivepassphrase/_cli_msg.py:Label.VAULT_METAVAR_SERVICE
+msgctxt "help text, metavar (vault subcommand)"
+msgid "SERVICE"
+msgstr "Label.VAULT_METAVAR_SERVICE"
+
+#: derivepassphrase/_cli_msg.py:Label.CONFIGURATION_EPILOG
+msgctxt "help text, option group epilog (configuration group)"
+msgid "Use $VISUAL or $EDITOR to configure the spawned editor."
+msgstr "Label.CONFIGURATION_EPILOG"
+
+#. TRANSLATORS: The metavar is
+#. Label.PASSPHRASE_GENERATION_METAVAR_NUMBER.
+#: derivepassphrase/_cli_msg.py:Label.PASSPHRASE_GENERATION_EPILOG
+#, python-brace-format
+msgctxt "help text, option group epilog (passphrase generation group)"
+msgid "Use {metavar!s}=0 to exclude a character type from the output."
+msgstr "Label.PASSPHRASE_GENERATION_EPILOG({metavar!s})"
+
+#. TRANSLATORS: The metavar is
+#. Label.STORAGE_MANAGEMENT_METAVAR_PATH.
+#: derivepassphrase/_cli_msg.py:Label.STORAGE_MANAGEMENT_EPILOG
+#, python-brace-format
+msgctxt "help text, option group epilog (storage management group)"
+msgid ""
+"Using \"-\" as {metavar!s} for standard input/standard output is supported."
+msgstr "Label.STORAGE_MANAGEMENT_EPILOG({metavar!s})"
+
+#: derivepassphrase/_cli_msg.py:Label.COMMANDS_LABEL
+msgctxt "help text, option group name"
+msgid "Commands"
+msgstr "Label.COMMANDS_LABEL"
+
+#: derivepassphrase/_cli_msg.py:Label.COMPATIBILITY_OPTION_LABEL
+msgctxt "help text, option group name"
+msgid "Compatibility and extension options"
+msgstr "Label.COMPATIBILITY_OPTION_LABEL"
+
+#: derivepassphrase/_cli_msg.py:Label.CONFIGURATION_LABEL
+msgctxt "help text, option group name"
+msgid "Configuration"
+msgstr "Label.CONFIGURATION_LABEL"
+
+#: derivepassphrase/_cli_msg.py:Label.LOGGING_LABEL
+msgctxt "help text, option group name"
+msgid "Logging"
+msgstr "Label.LOGGING_LABEL"
+
+#: derivepassphrase/_cli_msg.py:Label.OPTIONS_LABEL
+msgctxt "help text, option group name"
+msgid "Options"
+msgstr "Label.OPTIONS_LABEL"
+
+#: derivepassphrase/_cli_msg.py:Label.OTHER_OPTIONS_LABEL
+msgctxt "help text, option group name"
+msgid "Other options"
+msgstr "Label.OTHER_OPTIONS_LABEL"
+
+#: derivepassphrase/_cli_msg.py:Label.PASSPHRASE_GENERATION_LABEL
+msgctxt "help text, option group name"
+msgid "Passphrase generation"
+msgstr "Label.PASSPHRASE_GENERATION_LABEL"
+
+#: derivepassphrase/_cli_msg.py:Label.STORAGE_MANAGEMENT_LABEL
+msgctxt "help text, option group name"
+msgid "Storage management"
+msgstr "Label.STORAGE_MANAGEMENT_LABEL"
+
+#. TRANSLATORS: "fmt" is a string such as "v0.2" or "storeroom",
+#. indicating the format which we tried to load the vault
+#. configuration as.
+#: derivepassphrase/_cli_msg.py:InfoMsgTemplate.CANNOT_LOAD_AS_VAULT_CONFIG
+#, python-brace-format
+msgctxt "info message"
+msgid "Cannot load {path!r} as a {fmt!s} vault configuration."
+msgstr "InfoMsgTemplate.CANNOT_LOAD_AS_VAULT_CONFIG({path!r}, {fmt!s})"
+
+#. TRANSLATORS: This message immediately follows an error message
+#. about a missing library that needs to be installed.  The Python
+#. Package Index (PyPI) supports declaring sets of optional
+#. dependencies as "extras", so users installing from PyPI can
+#. request reinstallation with a named "extra" being enabled.  This
+#. would then let the installer take care of the missing libraries
+#. automatically, hence this suggestion to PyPI users.
+#: derivepassphrase/_cli_msg.py:InfoMsgTemplate.PIP_INSTALL_EXTRA
+#, python-brace-format
+msgctxt "info message"
+msgid "(For users installing from PyPI, see the {extra_name!r} extra.)"
+msgstr "InfoMsgTemplate.PIP_INSTALL_EXTRA({extra_name!r})"
+
+#. TRANSLATORS: This info message immediately follows the "Using
+#. deprecated v0.1-style ..." deprecation warning.
+#: derivepassphrase/_cli_msg.py:InfoMsgTemplate.SUCCESSFULLY_MIGRATED
+#, python-brace-format
+msgctxt "info message"
+msgid "Successfully migrated to {path!r}."
+msgstr "InfoMsgTemplate.SUCCESSFULLY_MIGRATED({path!r})"
+
+#. TRANSLATORS: There is no support for "yes" or "no" in other
+#. languages than English, so it is advised that your translation
+#. makes it clear that only the strings "y", "yes", "n" or "no" are
+#. supported, even if the prompt becomes a bit longer.
+#: derivepassphrase/_cli_msg.py:Label.CONFIRM_THIS_CHOICE_PROMPT_TEXT
+msgctxt "interactive prompt"
+msgid "Confirm this choice?  (y/N)"
+msgstr "Label.CONFIRM_THIS_CHOICE_PROMPT_TEXT"
+
+#. TRANSLATORS: This label is the heading of the list of suitable
+#. SSH keys.
+#: derivepassphrase/_cli_msg.py:Label.SUITABLE_SSH_KEYS_LABEL
+msgctxt "interactive prompt"
+msgid "Suitable SSH keys:"
+msgstr "Label.SUITABLE_SSH_KEYS_LABEL"
+
+#: derivepassphrase/_cli_msg.py:Label.YOUR_SELECTION_PROMPT_TEXT
+#, python-brace-format
+msgctxt "interactive prompt"
+msgid "Your selection?  (1-{n}, leave empty to abort)"
+msgstr "Label.YOUR_SELECTION_PROMPT_TEXT({n})"
+
+#: derivepassphrase/_cli_msg.py:WarnMsgTemplate.EMPTY_SERVICE_NOT_SUPPORTED
+#, python-brace-format
+msgctxt "warning message"
+msgid ""
+"An empty {service_metavar!s} is not supported by vault(1). For "
+"compatibility, this will be treated as if SERVICE was not supplied, i.e., it "
+"will error out, or operate on global settings."
+msgstr "WarnMsgTemplate.EMPTY_SERVICE_NOT_SUPPORTED({service_metavar!s})"
+
+#: derivepassphrase/_cli_msg.py:WarnMsgTemplate.EMPTY_SERVICE_SETTINGS_INACCESSIBLE
+#, python-brace-format
+msgctxt "warning message"
+msgid ""
+"An empty {service_metavar!s} is not supported by vault(1). The empty-string "
+"service settings will be inaccessible and ineffective.  To ensure that "
+"vault(1) and {PROG_NAME!s} see the settings, move them into the \"global\" "
+"section."
+msgstr "WarnMsgTemplate.EMPTY_SERVICE_SETTINGS_INACCESSIBLE({service_metavar!s}, {PROG_NAME!s})"
+
+#. TRANSLATORS: "error" is supplied by the operating system
+#. (errno/strerror).
+#: derivepassphrase/_cli_msg.py:WarnMsgTemplate.FAILED_TO_MIGRATE_CONFIG
+#, python-brace-format
+msgctxt "warning message"
+msgid "Failed to migrate to {path!r}: {error!s}: {filename!r}."
+msgstr "WarnMsgTemplate.FAILED_TO_MIGRATE_CONFIG({path!r}, {error!s}, {filename!r})"
+
+#: derivepassphrase/_cli_msg.py:WarnMsgTemplate.GLOBAL_PASSPHRASE_INEFFECTIVE
+msgctxt "warning message"
+msgid "Setting a global passphrase is ineffective because a key is also set."
+msgstr "WarnMsgTemplate.GLOBAL_PASSPHRASE_INEFFECTIVE"
+
+#. TRANSLATORS: The key is a (vault) configuration key, in JSONPath
+#. syntax, typically "$.global" for the global passphrase or
+#. "$.services.service_name" or "$.services["service with spaces"]"
+#. for the services "service_name" and "service with spaces",
+#. respectively.  The form is one of the four Unicode normalization
+#. forms: NFC, NFD, NFKC, NFKD.
+#.
+#. The asterisks are not special.  Please feel free to substitute
+#. any other appropriate way to mark up emphasis of the word
+#. "displays".
+#: derivepassphrase/_cli_msg.py:WarnMsgTemplate.PASSPHRASE_NOT_NORMALIZED
+#, python-brace-format
+msgctxt "warning message"
+msgid ""
+"The {key!s} passphrase is not {form!s}-normalized.  Its serialization as a "
+"byte string may not be what you expect it to be, even if it *displays* "
+"correctly.  Please make sure to double-check any derived passphrases for "
+"unexpected results."
+msgstr "WarnMsgTemplate.PASSPHRASE_NOT_NORMALIZED({key!s}, {form!s})"
+
+#. TRANSLATORS: The key that is set need not necessarily be set at
+#. the service level; it may be a global key as well.
+#: derivepassphrase/_cli_msg.py:WarnMsgTemplate.SERVICE_PASSPHRASE_INEFFECTIVE
+#, python-brace-format
+msgctxt "warning message"
+msgid ""
+"Setting a service passphrase is ineffective because a key is also set: "
+"{service!s}."
+msgstr "WarnMsgTemplate.SERVICE_PASSPHRASE_INEFFECTIVE({service!s})"
+
+#: derivepassphrase/_cli_msg.py:WarnMsgTemplate.STEP_REMOVE_INEFFECTIVE_VALUE
+#, python-brace-format
+msgctxt "warning message"
+msgid "Removing ineffective setting {path!s} = {old!s}."
+msgstr "WarnMsgTemplate.STEP_REMOVE_INEFFECTIVE_VALUE({path!s}, {old!s})"
+
+#: derivepassphrase/_cli_msg.py:WarnMsgTemplate.STEP_REPLACE_INVALID_VALUE
+#, python-brace-format
+msgctxt "warning message"
+msgid "Replacing invalid value {old!s} for key {path!s} with {new!s}."
+msgstr "WarnMsgTemplate.STEP_REPLACE_INVALID_VALUE({old!s}, {path!s}, {new!s})"
