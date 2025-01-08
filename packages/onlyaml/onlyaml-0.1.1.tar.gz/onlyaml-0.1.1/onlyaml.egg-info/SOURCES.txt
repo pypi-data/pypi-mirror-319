@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+onlyaml.egg-info/PKG-INFO
+onlyaml.egg-info/SOURCES.txt
+onlyaml.egg-info/dependency_links.txt
+onlyaml.egg-info/top_level.txt
+src/__init__.py
+src/onlyaml.py
+src/readonly_config.py
+test/test.py
