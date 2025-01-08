@@ -1,0 +1,2 @@
+[console_scripts]
+ulauncher-generator = ulauncher_extension_generator:main
