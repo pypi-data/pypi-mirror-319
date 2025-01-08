@@ -1,0 +1,13 @@
+pybiocfilecache/__init__.py,sha256=kClwDkzgGPYAyDW-fuo5LI4lKCruYJhDHvw0lq9u4b0,652
+pybiocfilecache/cache.py,sha256=cBPQYW4EW5ACRvbWotYJaDkzJpNZhvPC2hPlFd9mAO4,20641
+pybiocfilecache/config.py,sha256=bado4Hg6QFIfV46zKwx6Q9AoV__G-e8fghylnk5I-nk,803
+pybiocfilecache/const.py,sha256=c9167eSCGBp0wF1xuAEvr-fbYCzp0lcOtKF9sqxlLF8,26
+pybiocfilecache/exceptions.py,sha256=8jrnctFYF7Rc1xsITtLUwKKvx8GMoKbarucyc-4f2zI,706
+pybiocfilecache/models.py,sha256=oEQaLB9haWtSnm8DybMoMf8INZ4czxs7jriHv61YCb8,1945
+pybiocfilecache/utils.py,sha256=a2sUcnWzu8F0nwdmun8Ke0hj0-bFJ5JF-Z1tq9NT0NM,2406
+pyBiocFileCache-0.6.1.dist-info/AUTHORS.md,sha256=ptvMLokf9Knfp0Ng-dHSgtEimkXWZhjZAR_o2aJm9bw,161
+pyBiocFileCache-0.6.1.dist-info/LICENSE.txt,sha256=bV5MJ4ezdCnC4yREyxU30iel5hFq8T8kGqobu4Kc-WM,1082
+pyBiocFileCache-0.6.1.dist-info/METADATA,sha256=KhKuU1Dbho0go2sWVpVrrm2WHTDPFn_doktKrqNRdO8,2947
+pyBiocFileCache-0.6.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+pyBiocFileCache-0.6.1.dist-info/top_level.txt,sha256=_A2QFmYMnsz6WoSRPk1EFMDr5mkQVGx9Xtz2RMv3aF4,16
+pyBiocFileCache-0.6.1.dist-info/RECORD,,
