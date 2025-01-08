@@ -1,0 +1,11 @@
+edwh_migrate/__about__.py,sha256=eVZ18JqcYfBcuUjUczNBjNOEv4IDPx7vkr-gO-yO8EA,179
+edwh_migrate/__init__.py,sha256=w_Uneq0SJV9i97KgHgHBa6YZA4DlSAmLdbT1m7XVfE8,1336
+edwh_migrate/helpers.py,sha256=RX08PysfQ-tNMhbk81ZPY_m5Lajgh091KD_6_3Ituoc,807
+edwh_migrate/migrate.py,sha256=nazSRt1t4A118WhbBzRH6fCN7o6XQ2BY7JKSoe6JnGk,29350
+edwh_migrate/postgres.py,sha256=0WDLm1PURPdPY_5p0EXkEmSMzat41Rsn8bBgU4h_FQQ,548
+edwh_migrate/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edwh_migrate/view_migration_manager.py,sha256=qJzGQ0vPi2sxadl89iZavge_y5kv4b3b7f0kCQ3mdVg,7681
+edwh_migrate-0.10.0.dist-info/METADATA,sha256=ozvHeb9NjCs-fvQ0xr63aHbg-OwShp9tSR1rjh9Gl_8,8991
+edwh_migrate-0.10.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+edwh_migrate-0.10.0.dist-info/entry_points.txt,sha256=_rr7DED50oac28Bmjw7s4ziLatWpldGEDZakh70ARuI,62
+edwh_migrate-0.10.0.dist-info/RECORD,,
