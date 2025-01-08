@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: daisy-dtb
+Version: 0.0.3
+Summary: A library to deal with Daisy 2.02 digital talking books
+License: MIT
+Author: nicedata
+Requires-Python: >=3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# A library to deal with Daisy 2.02 digital talking books
+
+
