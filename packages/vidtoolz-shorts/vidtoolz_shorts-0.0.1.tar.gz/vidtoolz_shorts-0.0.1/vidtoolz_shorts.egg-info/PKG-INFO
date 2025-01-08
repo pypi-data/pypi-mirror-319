@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: vidtoolz-shorts
+Version: 0.0.1
+Summary: Create shorts from long form videos
+Author: Sukhbinder Singh
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/sukhbinder/vidtoolz-shorts
+Project-URL: Changelog, https://github.com/sukhbinder/vidtoolz-shorts/releases
+Project-URL: Issues, https://github.com/sukhbinder/vidtoolz-shorts/issues
+Project-URL: CI, https://github.com/sukhbinder/vidtoolz-shorts/actions
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: vidtoolz
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# vidtoolz-shorts
+
+[![PyPI](https://img.shields.io/pypi/v/vidtoolz-shorts.svg)](https://pypi.org/project/vidtoolz-shorts/)
+[![Changelog](https://img.shields.io/github/v/release/sukhbinder/vidtoolz-shorts?include_prereleases&label=changelog)](https://github.com/sukhbinder/vidtoolz-shorts/releases)
+[![Tests](https://github.com/sukhbinder/vidtoolz-shorts/workflows/Test/badge.svg)](https://github.com/sukhbinder/vidtoolz-shorts/actions?query=workflow%3ATest)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/sukhbinder/vidtoolz-shorts/blob/main/LICENSE)
+
+Create shorts from long form videos
+
+## Installation
+
+First install [vidtoolz](https://github.com/sukhbinder/vidtoolz).
+
+```bash
+pip install vidtoolz
+```
+
+Then install this plugin in the same environment as your vidtoolz application.
+
+```bash
+vidtoolz install vidtoolz-shorts
+```
+## Usage
+
+type ``vidtoolz-shorts --help`` to get help
+
+
+
+## Development
+
+To set up this plugin locally, first checkout the code. Then create a new virtual environment:
+```bash
+cd vidtoolz-shorts
+python -m venv venv
+source venv/bin/activate
+```
+Now install the dependencies and test dependencies:
+```bash
+pip install -e '.[test]'
+```
+To run the tests:
+```bash
+python -m pytest
+```
