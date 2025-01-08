@@ -1,0 +1,11 @@
+versioalueet/__init__.py,sha256=O_jee_6cgdMVGC4Id1RG9RFwvftwwMAn2H5uoUG94g8,2466
+versioalueet/__main__.py,sha256=xcWxUaeOjMu9TIINsgBuq6PryMBQOlLMESn8UmBXCBY,127
+versioalueet/api.py,sha256=RVzwM4Q9Oabms4qQcDKgmPofnEZII8iIoVvBjfB8GaQ,13671
+versioalueet/cli.py,sha256=SUPzxLiwp_9EFXUNMG6l8aV_BQIYMvJBHWm3p9dqK68,3044
+versioalueet/env.py,sha256=Y94XyLmbL0esyhTSBmF1xWux95B0v9a9SIEqKXlciJw,6124
+versioalueet-2025.1.8.dist-info/LICENSE,sha256=VAD--lMovCDzqF6BZOEjSOoszYkhJTLoiW6DfWh8LAE,1069
+versioalueet-2025.1.8.dist-info/METADATA,sha256=lMmB8ArL4XjV6RUp64MzTGHqvPU0b_IWHZmBusEirOY,5518
+versioalueet-2025.1.8.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+versioalueet-2025.1.8.dist-info/entry_points.txt,sha256=e-96jg5G8nO9UCxIwca5ad1k12_0NeVGgv5c87rph1w,55
+versioalueet-2025.1.8.dist-info/top_level.txt,sha256=EBXQ0SqMbaLgte3lUdm03jjAxUaHgy2O813UWekvPsM,13
+versioalueet-2025.1.8.dist-info/RECORD,,
