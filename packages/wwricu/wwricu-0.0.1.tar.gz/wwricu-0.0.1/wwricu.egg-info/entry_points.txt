@@ -1,0 +1,2 @@
+[console_scripts]
+wwricu = main:main
