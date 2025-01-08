@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tinyshift"
+version = "0.0.3"
+description = "A small toolbox for mlops"
+license = {text = "MIT License"}
+authors = [
+    {name = "Lucas Leão", email = "heylucasleao@gmail.com"}
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+dependencies = [
+    "pandas",
+    "scipy",
+    "plotly",
+    "scikit-learn",
+    "numpy"
+]
+keywords = ["mlops", "toolbox", "machine-learning"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]

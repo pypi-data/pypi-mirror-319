@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+tinyshift.egg-info/PKG-INFO
+tinyshift.egg-info/SOURCES.txt
+tinyshift.egg-info/dependency_links.txt
+tinyshift.egg-info/requires.txt
+tinyshift.egg-info/top_level.txt
+tinyshift/base/__init__.py
+tinyshift/base/model.py
+tinyshift/detector/__init__.py
+tinyshift/detector/categorical.py
+tinyshift/detector/continuous.py
+tinyshift/plot/__init__.py
+tinyshift/plot/plot.py
+tinyshift/tracker/__init__.py
+tinyshift/tracker/performance.py
