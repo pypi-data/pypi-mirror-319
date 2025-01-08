@@ -1,0 +1,7 @@
+setup.py
+tldrr.egg-info/PKG-INFO
+tldrr.egg-info/SOURCES.txt
+tldrr.egg-info/dependency_links.txt
+tldrr.egg-info/entry_points.txt
+tldrr.egg-info/requires.txt
+tldrr.egg-info/top_level.txt
