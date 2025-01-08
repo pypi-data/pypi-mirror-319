@@ -1,0 +1,14 @@
+liknorm/_cffi.cpython-312-x86_64-linux-gnu.so,sha256=FAPBdhH_DVGjgglxQtR4jXblZZWxVllZUGxMq4364Hg,86384
+liknorm/__init__.py,sha256=BefmWLZiBXIXz5JPIavMf8L58Bpl3sVzCBXvjAzMb6U,678
+liknorm/_cffi.cpython-311-x86_64-linux-gnu.so,sha256=1fLYiLih8swXBGQ6hGNZuxsRdF-xuTAhYIEqfUdTh2s,85152
+liknorm/_testit.py,sha256=XLFClzSIkrtIIjzcpFx0T-W56A01fxudFF4_GdF4bnQ,293
+liknorm/interface.h,sha256=MqOZwz-Y0zY0y6wTlGvzNLrSeigSQ4tyFTnHTlMhlrY,549
+liknorm/interface.c,sha256=Pp79eaHkZf9vaWLX0Gj9u8wlRj9JG5rku8t82Q1upNQ,1727
+liknorm/_machine.py,sha256=vyDtSiJvYE0gx0SZksGY1L0yTyxPIckJS0Pcln2kWNM,3258
+liknorm/_cffi.cpython-310-x86_64-linux-gnu.so,sha256=R2xg_a5Az9DMcNQtuovr5o40a5h8wI5M-ZVK7QdYoSk,85152
+liknorm/include/liknorm.h,sha256=4b20XIGhzrxaI207BvtEwh1FAgpqmZ6nDwJZXD0vX28,4700
+liknorm/lib/libliknorm.a,sha256=YB0H5sxWo2f4zSzdH9Nfa1Sa93EcmdVyau0kCGfAfyU,55534
+liknorm-2.0.0.dist-info/METADATA,sha256=1E6H8IzNOt0BECc5yx40fkN6EYGZ6NaTh2DUVpNqYLo,1897
+liknorm-2.0.0.dist-info/RECORD,,
+liknorm-2.0.0.dist-info/WHEEL,sha256=Dro79G9B4w1bFx9mt2KF_cwgSXEbabTrYnAVF8xBVCg,222
+liknorm-2.0.0.dist-info/LICENSE.md,sha256=EuDVd4CN58eBkX7nuSLxxOETpj1CHjr3FQCUhYN_hI8,1105
