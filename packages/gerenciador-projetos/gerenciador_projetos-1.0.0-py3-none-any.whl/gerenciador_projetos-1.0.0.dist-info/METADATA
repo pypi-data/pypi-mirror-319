@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gerenciador_projetos
+Version: 1.0.0
+Summary: Uma ferramenta para gerenciar projetos com templates pré-definidos.
+Home-page: https://github.com/Vilariano/gerenciador-de-projetos
+Author: Agnaldo Vilariano
+Author-email: agnaldo@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tk
+
+# Gerenciador de Projetos
+
+Uma ferramenta para gerenciar e extrair templates de projetos predefinidos.
+
+## Instalação
+
+```bash
+pip install gerenciador-projetos
