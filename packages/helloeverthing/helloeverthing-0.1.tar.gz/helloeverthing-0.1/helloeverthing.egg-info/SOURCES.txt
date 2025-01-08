@@ -1,0 +1,8 @@
+README.md
+setup.py
+helloeverthing.egg-info/PKG-INFO
+helloeverthing.egg-info/SOURCES.txt
+helloeverthing.egg-info/dependency_links.txt
+helloeverthing.egg-info/top_level.txt
+helloeverything/__init__.py
+test/test.py
