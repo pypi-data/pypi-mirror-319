@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: obsidian-utilities
+Version: 0.0.1
+Summary: Fundamental utilities that can be applied to multiple notes that live with the Obsidian application.
+Home-page: https://github.com/itsjaboyd/obsidian-utilities
+License: MIT
+Keywords: obsidian,notes
+Author: Jason Boyd
+Author-email: jasonboyd99@gmail.com
+Maintainer: Jason Boyd
+Maintainer-email: jasonboyd99@gmail.com
+Requires-Python: >=3.10.12,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.8,<9.0.0)
+Project-URL: Repository, https://github.com/itsjaboyd/obsidian-utilities
+Description-Content-Type: text/markdown
+
+# Obsidian Utilities
+
