@@ -1,0 +1,3 @@
+[console_scripts]
+prepublish=prepublish:run_tests
+
