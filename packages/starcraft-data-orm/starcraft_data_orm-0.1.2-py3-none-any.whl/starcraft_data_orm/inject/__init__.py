@@ -1,0 +1,1 @@
+from starcraft_data_orm.inject.Injectable import Injectable
