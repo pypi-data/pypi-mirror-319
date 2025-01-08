@@ -1,0 +1,3 @@
+[console_scripts]
+start_family_ai_voice_assistant=family_ai_voice_assistant.basic_entry:main
+
