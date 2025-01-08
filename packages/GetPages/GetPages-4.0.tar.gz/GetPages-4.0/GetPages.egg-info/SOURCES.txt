@@ -1,0 +1,6 @@
+setup.py
+GetPages/GetPages.py
+GetPages.egg-info/PKG-INFO
+GetPages.egg-info/SOURCES.txt
+GetPages.egg-info/dependency_links.txt
+GetPages.egg-info/top_level.txt
