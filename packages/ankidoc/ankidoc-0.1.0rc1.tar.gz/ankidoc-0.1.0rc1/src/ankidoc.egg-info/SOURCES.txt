@@ -1,0 +1,17 @@
+.gitignore
+LICENSE.md
+README.md
+pyproject.toml
+Documentation/ankidoc.1
+src/ankidoc/__init__.py
+src/ankidoc/__main__.py
+src/ankidoc/adoc.py
+src/ankidoc/anki.py
+src/ankidoc/cli.py
+src/ankidoc/modes.py
+src/ankidoc/notegen.py
+src/ankidoc.egg-info/PKG-INFO
+src/ankidoc.egg-info/SOURCES.txt
+src/ankidoc.egg-info/dependency_links.txt
+src/ankidoc.egg-info/entry_points.txt
+src/ankidoc.egg-info/top_level.txt
