@@ -1,0 +1,7 @@
+geojson_aoi/__init__.py,sha256=dIhNfvZr_BN99EUEgUFJ6WKYsjvntW3OM8UtypX8g7E,43
+geojson_aoi/__version__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+geojson_aoi/parser.py,sha256=hf-8UoOyJtZCPyFG7v2Uaw1mojFfzI6fbslsAFXxAH0,11193
+geojson_aoi_parser-0.1.0.dist-info/METADATA,sha256=ersJlw3KCr2_a6RHJI-G6c1JeBm4mYkkE8M2tDBA2AM,3586
+geojson_aoi_parser-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+geojson_aoi_parser-0.1.0.dist-info/licenses/LICENSE.md,sha256=5OJovemUIvPUdoFeqYzfz-JCTAvxHJka8Rnyr_csQe8,34102
+geojson_aoi_parser-0.1.0.dist-info/RECORD,,
