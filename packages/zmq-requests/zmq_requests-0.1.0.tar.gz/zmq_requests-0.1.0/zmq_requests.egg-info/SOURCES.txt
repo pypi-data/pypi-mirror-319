@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+examples/client_test.py
+tests/json_orjson.py
+zmq_requests/__init__.py
+zmq_requests/deserialization.py
+zmq_requests/models.py
+zmq_requests/service_request.py
+zmq_requests.egg-info/PKG-INFO
+zmq_requests.egg-info/SOURCES.txt
+zmq_requests.egg-info/dependency_links.txt
+zmq_requests.egg-info/requires.txt
+zmq_requests.egg-info/top_level.txt

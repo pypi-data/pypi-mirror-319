@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zmq-requests
+Version: 0.1.0
+Summary: Client requests that mimic bindings
+Author: Lucas Harim G. C.
+Author-email: harimlgc@usp.br
+Keywords: zmq-requests
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# zmq-requests
+Client requests that mimic bindings
