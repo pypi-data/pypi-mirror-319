@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/osl_sampleproject.egg-info/PKG-INFO
+src/osl_sampleproject.egg-info/SOURCES.txt
+src/osl_sampleproject.egg-info/dependency_links.txt
+src/osl_sampleproject.egg-info/entry_points.txt
+src/osl_sampleproject.egg-info/requires.txt
+src/osl_sampleproject.egg-info/top_level.txt
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
+tests/test_simple.py
