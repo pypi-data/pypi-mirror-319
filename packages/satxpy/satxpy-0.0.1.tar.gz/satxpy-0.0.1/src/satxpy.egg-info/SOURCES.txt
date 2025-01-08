@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/satxpy.py
+src/satxpy.egg-info/PKG-INFO
+src/satxpy.egg-info/SOURCES.txt
+src/satxpy.egg-info/dependency_links.txt
+src/satxpy.egg-info/top_level.txt
+test/test_satxpy.py
+tests/test_satxpy.py
