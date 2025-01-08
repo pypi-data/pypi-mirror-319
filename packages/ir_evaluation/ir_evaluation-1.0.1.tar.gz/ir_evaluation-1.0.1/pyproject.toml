@@ -1,0 +1,19 @@
+[project]
+name = "ir_evaluation"
+version = "1.0.1"
+description = "Information retrieval evaluation metrics in pure python with zero dependencies"
+readme = "README.md"
+authors = [
+    { name = "Patrick Lurch", email = "plurch@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
