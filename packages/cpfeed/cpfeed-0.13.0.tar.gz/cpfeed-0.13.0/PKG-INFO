@@ -1,0 +1,86 @@
+Metadata-Version: 2.3
+Name: cpfeed
+Version: 0.13.0
+Summary: CLI to check out current prices of cryptocurrencies. Powered by CoinGecko.
+Home-page: https://github.com/0xBitzz/cpfeed
+License: Copyright (c)2024 Success Daudu.
+         
+         Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+         
+         The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+         
+         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Author: 0xBitzz
+Author-email: successdaudu@gmail.com
+Requires-Python: <4.0,>=3.9
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: dev
+Requires-Dist: hatch (>=1.14.0,<2.0.0)
+Requires-Dist: poetry (>=2.0.0,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: twine (>=6.0.1) ; extra == "dev"
+Requires-Dist: typer (>=0.15.1,<0.16.0)
+Project-URL: Repository, https://github.com/0xBitzz/cpfeed.git
+Project-URL: Source, https://github.com/0xBitzz/cpfeed/
+Description-Content-Type: text/markdown
+
+# cpfeed (Crypto Price Feed)
+
+`cpfeed` (short for Crypto Price Feed) is a Python package for fetching cryptocurrency prices from the [CoinGecko API](https://www.coingecko.com/api/documentation).
+
+## Requirements
+
+Before installing and using this project, make sure you have the following dependencies installed:
+
+- [Python](https://www.python.org/downloads/) (`>= 3.9`).
+- [Poetry](https://python-poetry.org/docs/).
+
+## Installation
+
+You can install `cpfeed` via pip:
+
+```bash
+pip3 install cpfeed
+```
+
+## Usage
+
+1. Navigate to the `cpfeed` directory:
+
+```sh
+cd cpfeed
+```
+
+2. Activate the Poetry shell:
+
+```sh
+poetry shell
+```
+
+3. Fetch cryptocurrency prices:
+
+```sh
+cpfeed bitcoin
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+## TODO
+
+- Update usage examples with more detailed explanations.
+- Add troubleshooting section for common issues.
+- Add contributing guidelines.
+- Add more commands.
+

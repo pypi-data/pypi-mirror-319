@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cpfeed"
+version = "0.13.0"
+description = "CLI to check out current prices of cryptocurrencies. Powered by CoinGecko."
+authors = [{ name = "0xBitzz", email = "successdaudu@gmail.com" }]
+readme = "README.md"
+license = { file = "LICENSE.md" }
+requires-python = "<4.0,>=3.9"
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+
+  "License :: OSI Approved :: MIT License",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = ["typer (>=0.15.1,<0.16.0)", "requests (>=2.32.3,<3.0.0)", "poetry (>=2.0.0,<3.0.0)", "hatch (>=1.14.0,<2.0.0)"]
+
+[project.urls]
+Homepage = "https://github.com/0xBitzz/cpfeed"
+Repository = "https://github.com/0xBitzz/cpfeed.git"
+Source = "https://github.com/0xBitzz/cpfeed/"
+
+[project.scripts]
+cpfeed = "cpfeed.cpf:main"
+
+[project.optional-dependencies]
+dev = ["twine (>=6.0.1)"]
