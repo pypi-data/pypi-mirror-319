@@ -1,0 +1,13 @@
+taurex_fastchem/.DS_Store,sha256=4hryYFSKaYDi4alXCJycHXhxIgXq35y6VqOUVsToqu4,6148
+taurex_fastchem/__init__.py,sha256=80Vl6CQ91CknsFs4x3n0vR7zszeo4wxCqRdSjo81Hz4,9838
+taurex_fastchem/data/logK.dat,sha256=2_TVOv57aKyVBFYIQ7kNME8EuFcK5KuJvIgolFW3iAY,109926
+taurex_fastchem/data/logK_extended.dat,sha256=m8T43R19TNKcS3szq3uwC7PxbV_jne3qVGWTlTIGSj0,156574
+taurex_fastchem/data/logK_wo_ions.dat,sha256=kWPj3nG847BenC5N1PU1xM4Vb3BmzcrsEXd3reRor04,84320
+taurex_fastchem/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taurex_fastchem/types.py,sha256=Ai3WgZKbFo9fZkQp_C6k2N5KhTuqLtpqOA2r-Nl7Pj8,1066
+taurex_fastchem/util.py,sha256=PnFG0S4fHtPkJ6HjJ9L3kYO3V9TbUmF18Fg_Eo37UC8,6165
+taurex_fastchem-1.1.0.dist-info/LICENSE,sha256=q0HVxYGbiL06iNU9UBB4QdTi9h3Z9wre7JpxuNjd_IA,1074
+taurex_fastchem-1.1.0.dist-info/METADATA,sha256=BNr633Leq19sSOi7twMzw5vyzYLAQ_yqoK-EGj2OyPU,5627
+taurex_fastchem-1.1.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+taurex_fastchem-1.1.0.dist-info/entry_points.txt,sha256=pj-zuHlCl3a3mLlSenuQXE_RzEWuQ0YF7CSJolf_APk,43
+taurex_fastchem-1.1.0.dist-info/RECORD,,
