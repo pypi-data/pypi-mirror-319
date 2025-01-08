@@ -1,0 +1,10 @@
+IRanges-0.4.0.dist-info/RECORD,,
+IRanges-0.4.0.dist-info/WHEEL,sha256=biaPwXQUPJCNIaN0x7_27kMqn58V3NeAxF7o28URlFM,109
+IRanges-0.4.0.dist-info/top_level.txt,sha256=9REihK4vjFJokFKUMb_KMT7rUqsQhUO-RvZTPbM-fYM,8
+IRanges-0.4.0.dist-info/LICENSE.txt,sha256=RIPdBQEJwWOOJRmpXhEoW-hpkid8PbhtdBskBXyNkq0,1071
+IRanges-0.4.0.dist-info/METADATA,sha256=--jA82Z49-NbfPK4G-lUY3qyjmuJVIJipUgt8VnnXlA,5715
+iranges/sew_handler.py,sha256=2DSyYwjGndYX9f2tjeCSi0e4fql2osSQsg-hHyK830E,3724
+iranges/lib_iranges.cpython-313-darwin.so,sha256=P7xxik0WsGCjpu1RSZp3k8y7Kdv5GCrVTMRkjoSzGfs,182000
+iranges/__init__.py,sha256=GFvAKt1rQR0fhStdSNM9gRtkAvxBw97InynKxsGxFQc,608
+iranges/utils.py,sha256=UhANS8m_-LuzBRJ9FjXuG87hiVsVdIjslOCwEUf1gk4,4397
+iranges/IRanges.py,sha256=A-2Q3Ri8Dwysic6dibz6DQaiqjx17FYYLVLAYCdn_cI,76442
