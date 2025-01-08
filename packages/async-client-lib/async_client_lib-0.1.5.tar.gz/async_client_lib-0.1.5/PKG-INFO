@@ -1,0 +1,66 @@
+Metadata-Version: 2.3
+Name: async-client-lib
+Version: 0.1.5
+Summary: Asynchronous HTTP client
+License: MIT
+Author: Aleksey Matyunin
+Author-email: matyunin.as@mail.ru
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.8.4,<4.0.0)
+Requires-Dist: backoff (>=2.2.1,<3.0.0)
+Requires-Dist: pydantic (>=2.10.0,<3.0.0)
+Requires-Dist: pydantic_settings (>=2.5.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+Asynchronous HTTP client
+=======
+
+[![publish](https://github.com/mas-aleksey/async-client/workflows/Build/badge.svg)](https://github.com/mas-aleksey/async-client/actions?query=workflow%3A%22build%22)
+[![coverage](https://coveralls.io/repos/mas-aleksey/async-client/badge.svg)](https://coveralls.io/r/mas-aleksey/async-client?branch=python-3)
+[![codeql](https://github.com/mas-aleksey/async-client/workflows/CodeQL/badge.svg)](https://github.com/mas-aleksey/async-client/actions/workflows/codeql-analysis.yml)
+[![pypi](https://img.shields.io/pypi/v/async-client-lib.svg)](https://pypi.python.org/pypi/async-client-lib)
+[![license](https://img.shields.io/github/license/mas-aleksey/async-client)](https://github.com/mas-aleksey/async-client/blob/main/LICENSE)
+
+This module provides BaseClient class for building asynchronous HTTP clients,
+with methods for making requests, handling responses, and parsing data.
+
+Examples
+========
+
+```python
+
+from pydantic import BaseModel
+from async_client import BaseClient, ClientConfig
+
+
+class TestSchema(BaseModel):
+    some: str
+    data: str
+
+
+class TestClient(BaseClient):
+
+    async def get_data(self) -> TestSchema:
+        url = self.get_path("data")
+        resp = await self._perform_request("GET", url)
+        data = self.load_schema(resp.body, TestSchema)
+        return data
+
+
+async def main():
+    config = ClientConfig(HOST="http://127.0.0.1:8010", CLIENT_TIMEOUT=1)
+    async with TestClient(config) as client:
+        result = await client.get_data()
+
+
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(main())
+```
