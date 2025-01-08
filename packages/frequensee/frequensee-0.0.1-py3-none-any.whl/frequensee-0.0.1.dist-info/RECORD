@@ -1,0 +1,10 @@
+frequensee/__init__.py,sha256=-QgF15X2pkwTaw8bWrN6WhklC3aD3-CcMhVJLjSVFvc,88
+frequensee/audio_viz.py,sha256=9BWyK4qN-OGi7mUk_-NfD0btat2xL93FXd2klR_mjWI,21686
+frequensee/cli.py,sha256=Ftg9r77x6lskpH1E0QJB3FakMmfYbtZDp-e5nL0jbVU,5747
+frequensee/config.py,sha256=qfXAKIaU3qV9GZlsnpGlAjc8FIDCj6eYcE6EeL1CiAU,5578
+frequensee/writers.py,sha256=hvf85QZV4WRU8dvQnV6Y9aCHv2F6qnFBGQrgL422j6Y,2600
+frequensee-0.0.1.dist-info/METADATA,sha256=f51zp_i1CYJgHteFLr19RNKMSRT3N27j3FZDKaHNvB8,12513
+frequensee-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+frequensee-0.0.1.dist-info/entry_points.txt,sha256=lADFoaBuUpjCYsrj8GmiyyBf_QctH_I9E2P6EFZ-TU8,77
+frequensee-0.0.1.dist-info/licenses/LICENSE,sha256=Tldf4tsBbK3vDFE50dRDWGNGBbALujyGdcN20LaYTOU,1087
+frequensee-0.0.1.dist-info/RECORD,,

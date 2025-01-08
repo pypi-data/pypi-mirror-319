@@ -1,0 +1,3 @@
+[console_scripts]
+fqc = frequensee:main_cli
+frequensee = frequensee:main_cli
