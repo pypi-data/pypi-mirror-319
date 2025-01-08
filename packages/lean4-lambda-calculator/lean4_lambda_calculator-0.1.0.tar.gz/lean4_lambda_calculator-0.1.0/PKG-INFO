@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lean4_lambda_calculator
+Version: 0.1.0
+Summary: A lambda calculator implemented in Lean4
+Home-page: https://github.com/yourusername/lean4_lambda_calculator
+Author: PengLingwei
+Author-email: penglingwei1996@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: colorama
+Requires-Dist: prompt_toolkit
+
+# Lean4 Lambda Calculator
+
+```bash
+python lean4_lambda_calculator/shell.py
+```
