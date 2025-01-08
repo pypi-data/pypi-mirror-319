@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: pybes3
+Version: 0.1.1
+Summary: Unofficial Python module for BES3
+Author-Email: Mingrun Li <mrun_lee@foxmail.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://github.com/mrzimu/pybes3
+Requires-Python: >=3.9
+Requires-Dist: pybind11
+Requires-Dist: uproot>=5.0
+Requires-Dist: awkward
+Requires-Dist: pybind11; extra == "ci"
+Requires-Dist: uproot>=5.0; extra == "ci"
+Requires-Dist: awkward; extra == "ci"
+Requires-Dist: pytest; extra == "ci"
+Requires-Dist: repairwheel; extra == "ci"
+Requires-Dist: build; extra == "ci"
+Requires-Dist: twine; extra == "ci"
+Provides-Extra: ci
+Description-Content-Type: text/markdown
+
+# pybes3
+
+## Overview
+
+`pybes3` is an **unofficial** python module that aims to make BES3 user easier to work with Python. It includes:
+
+* [besio](./doc/besio.md): An I/O submodule that can directly read BES3 `rtraw`, `dst`, `rec` files, and transfer their data to `awkward` array.
+
+
+
+## Installation
+
+### On lxlogin
+
+Since there is a quota limitation on user's home path (`~/`), you may also need to create a symbolink for `~/.local`, which will contain pip packages that installed in "user mode":
+
+```bash
+# Check whether a `.local` directory already exists. If so, move it to somewhere else
+ls -a ~
+mv ~/.local /path/to/somewhere/
+
+# If no `.local` exists, create one
+mkdir /path/to/somewhere/.local
+
+# Link it back to `~`
+ln -s /path/to/somewhere/.local ~/.local
+```
+
+Then install `pybes3` in user mode:
+
+```bash
+pip install --user pybes3
+```
+
+### On PC
+
+For PC users, it is sufficient to directly execute:
+
+```bash
+pip install pybes3
+```
+
+
+
+## Usage
+
+See links below for usage information:
+
+* [besio](./doc/besio.md)
