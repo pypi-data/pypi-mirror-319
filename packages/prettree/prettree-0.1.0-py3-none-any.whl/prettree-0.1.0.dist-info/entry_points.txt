@@ -1,0 +1,2 @@
+[console_scripts]
+prettree = prettytree.cli:main
