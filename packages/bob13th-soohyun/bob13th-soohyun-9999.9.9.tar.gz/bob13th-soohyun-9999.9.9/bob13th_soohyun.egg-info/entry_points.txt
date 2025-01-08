@@ -1,0 +1,3 @@
+[console_scripts]
+encrypt = bob13th_soohyun.encrypt:main
+
