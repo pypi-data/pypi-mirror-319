@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+book_package_svk/__init__.py
+book_package_svk/book.py
+book_package_svk.egg-info/PKG-INFO
+book_package_svk.egg-info/SOURCES.txt
+book_package_svk.egg-info/dependency_links.txt
+book_package_svk.egg-info/top_level.txt
