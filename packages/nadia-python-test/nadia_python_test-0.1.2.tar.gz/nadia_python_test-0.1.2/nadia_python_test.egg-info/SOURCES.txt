@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nadia-python-test/__init__.py
+nadia-python-test/module.py
+nadia_python_test.egg-info/PKG-INFO
+nadia_python_test.egg-info/SOURCES.txt
+nadia_python_test.egg-info/dependency_links.txt
+nadia_python_test.egg-info/top_level.txt
