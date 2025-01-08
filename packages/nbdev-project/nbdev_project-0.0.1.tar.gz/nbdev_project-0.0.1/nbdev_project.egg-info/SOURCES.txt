@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+nbdev_project/__init__.py
+nbdev_project/_modidx.py
+nbdev_project/card.py
+nbdev_project/deck.py
+nbdev_project.egg-info/PKG-INFO
+nbdev_project.egg-info/SOURCES.txt
+nbdev_project.egg-info/dependency_links.txt
+nbdev_project.egg-info/entry_points.txt
+nbdev_project.egg-info/not-zip-safe
+nbdev_project.egg-info/requires.txt
+nbdev_project.egg-info/top_level.txt
