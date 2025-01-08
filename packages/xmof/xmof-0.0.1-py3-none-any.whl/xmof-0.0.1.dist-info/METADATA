@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: xmof
+Version: 0.0.1
+Summary: A Python library for industrial calculations with support for formula dependencies, caching, and automatic evaluation ordering.
+Author-email: Jaun van Heerden <jvh@xmpro.com>
+License-File: LICENSE
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.8
+Requires-Dist: cachetools
+Requires-Dist: dataclasses; python_version < '3.7'
+Requires-Dist: networkx
+Requires-Dist: sympy
+Requires-Dist: typing-extensions>=4.0.0
