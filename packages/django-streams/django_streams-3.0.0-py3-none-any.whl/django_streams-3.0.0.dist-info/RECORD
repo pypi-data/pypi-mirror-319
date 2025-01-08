@@ -1,0 +1,12 @@
+django_streams/__init__.py,sha256=kkzZW8h-m5DboZqgv3pjRg5peUHpeLihlnlcP9LZ5zg,65
+django_streams/apps.py,sha256=07ntpYvxrMyOU8Idi5r55SzsCfDT8W8f6qJix-QbkDg,96
+django_streams/engine.py,sha256=hZXuVEy9hEbgx2TfSI-2LTPio1aUrOMyccSz4c0vRKM,3902
+django_streams/factories.py,sha256=YVnbtsc3vJVoz_0XRjsfK5YY0nVvU-wfyqAhaLD7Tes,989
+django_streams/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_streams/management/commands/worker.py,sha256=38XHiyBesh1vKuKH0ys1ezsoDhli3A3ElikYd1BjFSE,734
+django_streams/test_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_streams/test_utils/test_client.py,sha256=fnHjcOlh2lY6QEN3zNbBzvQTiZMTE2ZO_yPxaa7C9PE,2756
+django_streams-3.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_streams-3.0.0.dist-info/METADATA,sha256=2dY2tJVvIbwo99_ObyMXdAJhQ1lo_bk6IMu0Cah5NvA,4035
+django_streams-3.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_streams-3.0.0.dist-info/RECORD,,
