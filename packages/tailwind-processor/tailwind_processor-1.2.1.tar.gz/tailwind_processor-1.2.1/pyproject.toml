@@ -1,0 +1,18 @@
+[project]
+name = "tailwind-processor"
+version = "1.2.1"
+description = "Tailwind CSS classes processor"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pytailwindcss>=0.2.0"]
+
+[tool.setuptools]
+packages = ["tailwind_processor"]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+    "pytest-cov>=4.1.0",
+    "coverage>=7.6.1",
+]
+
