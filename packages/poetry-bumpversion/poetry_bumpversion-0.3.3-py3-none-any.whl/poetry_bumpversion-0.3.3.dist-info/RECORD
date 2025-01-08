@@ -1,0 +1,9 @@
+poetry_bumpversion/__init__.py,sha256=cIt9nXlxePNlymfqI6RFRQFsMAhM_j4JxRpvKaKro6g,83
+poetry_bumpversion/models.py,sha256=YITH-FIGOZjj7NMmpti7ZFbrF5yu1UebcpqEgSquj5c,1251
+poetry_bumpversion/plugin.py,sha256=X7GDG08N7JWoTylfYnQrv7lxHBe_VlsxyPYAf1B5N5o,5668
+poetry_bumpversion/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_bumpversion-0.3.3.dist-info/LICENSE,sha256=BlkeHAWmH8fqIzoQ9ayhBlWHMxL5H3sKtOJIS575f_c,1068
+poetry_bumpversion-0.3.3.dist-info/METADATA,sha256=ebeRgC7KkjPFbOA8T1gF0ktwGXHaIf2hdr2n98wjSP8,4676
+poetry_bumpversion-0.3.3.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+poetry_bumpversion-0.3.3.dist-info/entry_points.txt,sha256=sQlIoziVQ48j3mMFMgwYQ2S6GW58HzYYT6eO1uZRU1I,92
+poetry_bumpversion-0.3.3.dist-info/RECORD,,
