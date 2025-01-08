@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fpsdokgjihdsnvmophirdhgnm09384534ujklfng89403jit3n.egg-info/PKG-INFO
+fpsdokgjihdsnvmophirdhgnm09384534ujklfng89403jit3n.egg-info/SOURCES.txt
+fpsdokgjihdsnvmophirdhgnm09384534ujklfng89403jit3n.egg-info/dependency_links.txt
+fpsdokgjihdsnvmophirdhgnm09384534ujklfng89403jit3n.egg-info/top_level.txt
