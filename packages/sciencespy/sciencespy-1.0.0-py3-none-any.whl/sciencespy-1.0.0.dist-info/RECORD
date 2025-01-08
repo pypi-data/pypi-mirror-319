@@ -1,0 +1,14 @@
+sciencespy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sciencespy/bem.py,sha256=MixIuV1IsyqhC0YPG4HpEznsJNybU1ZpOkkAmlIomy8,151167
+sciencespy/cal.py,sha256=Ra8WztWJtgwHZHtuZpsIYIH-l32CBhn1TWqhTljJ-LU,105531
+sciencespy/city3d.py,sha256=EnihI4mjbvslNAwN56S9VDBDhXuSN94Kb_yeNaSoQfI,43480
+sciencespy/cosim.py,sha256=ql1srVme8ZekehUK8PxMC8RFECPEh5jvA2rGOiLB2MA,32723
+sciencespy/dom.py,sha256=OevPZuhP6UXdq2GjgIN25gaZDfc2f6AxcZUUfiDO80k,29761
+sciencespy/irim.py,sha256=LiEXpXSiq8OWSUOk36MYH08loTP8gXiTWYKGoMUcq3U,18101
+sciencespy/umm.py,sha256=bduXcSwKHKp65Q4W7dhRtKbod0sRicRuCh8J4kcLZwo,49992
+sciencespy/utils.py,sha256=Pv7eDNcvjn7aaoVHDVISO3iGq6WncViAa8-BNVKecgs,3539
+sciencespy-1.0.0.dist-info/LICENSE.txt,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+sciencespy-1.0.0.dist-info/METADATA,sha256=ruCCnNQ5hIiKtq7zGdoieWHdrsakSodcuhoIVoNJ59s,3201
+sciencespy-1.0.0.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+sciencespy-1.0.0.dist-info/top_level.txt,sha256=YnfA8LgoJPQlOO2pM6z-_vcA-oH32NbFDJbrG0TJFqQ,11
+sciencespy-1.0.0.dist-info/RECORD,,
