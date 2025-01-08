@@ -1,0 +1,124 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+.github/workflows/publish.yml
+.github/workflows/run_tests.yaml
+docs/literature.docx
+docs/literature.md
+docs/references.bib
+matlab/preprocess_photometry.m
+matlab/preproc_photodata_figures/drift correction -A-211214.png
+matlab/preproc_photodata_figures/drift correction -A-211215.png
+matlab/preproc_photodata_figures/drift correction -B-211214.png
+matlab/preproc_photodata_figures/drift correction -B-211215.png
+matlab/preproc_photodata_figures/drift correction -D-211214.png
+matlab/preproc_photodata_figures/drift correction -D-211215.png
+matlab/preproc_photodata_figures/drift correction -E-211214.png
+matlab/preproc_photodata_figures/drift correction -E-211215.png
+matlab/preproc_photodata_figures/drift correction -F-211214.png
+matlab/preproc_photodata_figures/drift correction -F-211215.png
+matlab/preproc_photodata_figures/drift correction -H-211214.png
+matlab/preproc_photodata_figures/drift correction -H-211215.png
+matlab/preproc_photodata_figures/drift correction -I-211214.png
+matlab/preproc_photodata_figures/drift correction -I-211215.png
+matlab/preproc_photodata_figures/drift correction -J-211214.png
+matlab/preproc_photodata_figures/drift correction -J-211215.png
+matlab/preproc_photodata_figures/initial signal distribution 1A-211214.png
+matlab/preproc_photodata_figures/initial signal distribution 1A-211215.png
+matlab/preproc_photodata_figures/initial signal distribution 1B-211214.png
+matlab/preproc_photodata_figures/initial signal distribution 1B-211215.png
+matlab/preproc_photodata_figures/initial signal distribution 1D-211214.png
+matlab/preproc_photodata_figures/initial signal distribution 1D-211215.png
+matlab/preproc_photodata_figures/initial signal distribution 1E-211214.png
+matlab/preproc_photodata_figures/initial signal distribution 1E-211215.png
+matlab/preproc_photodata_figures/initial signal distribution 1F-211214.png
+matlab/preproc_photodata_figures/initial signal distribution 1F-211215.png
+matlab/preproc_photodata_figures/initial signal distribution 1H-211214.png
+matlab/preproc_photodata_figures/initial signal distribution 1H-211215.png
+matlab/preproc_photodata_figures/initial signal distribution 1I-211214.png
+matlab/preproc_photodata_figures/initial signal distribution 1I-211215.png
+matlab/preproc_photodata_figures/initial signal distribution 1J-211214.png
+matlab/preproc_photodata_figures/initial signal distribution 1J-211215.png
+matlab/preproc_photodata_figures/nuisance correction - A-211214.png
+matlab/preproc_photodata_figures/nuisance correction - A-211215.png
+matlab/preproc_photodata_figures/nuisance correction - B-211214.png
+matlab/preproc_photodata_figures/nuisance correction - B-211215.png
+matlab/preproc_photodata_figures/nuisance correction - D-211214.png
+matlab/preproc_photodata_figures/nuisance correction - D-211215.png
+matlab/preproc_photodata_figures/nuisance correction - E-211214.png
+matlab/preproc_photodata_figures/nuisance correction - E-211215.png
+matlab/preproc_photodata_figures/nuisance correction - F-211214.png
+matlab/preproc_photodata_figures/nuisance correction - F-211215.png
+matlab/preproc_photodata_figures/nuisance correction - H-211214.png
+matlab/preproc_photodata_figures/nuisance correction - H-211215.png
+matlab/preproc_photodata_figures/nuisance correction - I-211214.png
+matlab/preproc_photodata_figures/nuisance correction - I-211215.png
+matlab/preproc_photodata_figures/nuisance correction - J-211214.png
+matlab/preproc_photodata_figures/nuisance correction - J-211215.png
+matlab/preproc_photodata_figures/preprocessed -A-211214.png
+matlab/preproc_photodata_figures/preprocessed -A-211215.png
+matlab/preproc_photodata_figures/preprocessed -B-211214.png
+matlab/preproc_photodata_figures/preprocessed -B-211215.png
+matlab/preproc_photodata_figures/preprocessed -D-211214.png
+matlab/preproc_photodata_figures/preprocessed -D-211215.png
+matlab/preproc_photodata_figures/preprocessed -E-211214.png
+matlab/preproc_photodata_figures/preprocessed -E-211215.png
+matlab/preproc_photodata_figures/preprocessed -F-211214.png
+matlab/preproc_photodata_figures/preprocessed -F-211215.png
+matlab/preproc_photodata_figures/preprocessed -H-211214.png
+matlab/preproc_photodata_figures/preprocessed -H-211215.png
+matlab/preproc_photodata_figures/preprocessed -I-211214.png
+matlab/preproc_photodata_figures/preprocessed -I-211215.png
+matlab/preproc_photodata_figures/preprocessed -J-211214.png
+matlab/preproc_photodata_figures/preprocessed -J-211215.png
+matlab/raw_photodata/211214_OF_A_B_0000.csv
+matlab/raw_photodata/211214_OF_D_E_0000.csv
+matlab/raw_photodata/211214_OF_F_H_0000.csv
+matlab/raw_photodata/211214_OF_I_J_0000.csv
+matlab/raw_photodata/211215_OF_A_B_0000.csv
+matlab/raw_photodata/211215_OF_D_E_0000.csv
+matlab/raw_photodata/211215_OF_F_H_0000.csv
+matlab/raw_photodata/211215_OF_I_J_0000.csv
+src/examples/load_photometry_data.ipynb
+src/examples/process_photometry_data.ipynb
+src/gui/rawdata_visualizer.py
+src/ibl_photometry.egg-info/PKG-INFO
+src/ibl_photometry.egg-info/SOURCES.txt
+src/ibl_photometry.egg-info/dependency_links.txt
+src/ibl_photometry.egg-info/entry_points.txt
+src/ibl_photometry.egg-info/requires.txt
+src/ibl_photometry.egg-info/top_level.txt
+src/iblphotometry/__init__.py
+src/iblphotometry/behavior.py
+src/iblphotometry/io.py
+src/iblphotometry/loaders.py
+src/iblphotometry/metrics.py
+src/iblphotometry/neurophotometrics.py
+src/iblphotometry/pipelines.py
+src/iblphotometry/plots.py
+src/iblphotometry/preprocessing.py
+src/iblphotometry/processing.py
+src/iblphotometry/qc.py
+src/iblphotometry/synthetic.py
+src/iblphotometry_tests/__init__.py
+src/iblphotometry_tests/base_tests.py
+src/iblphotometry_tests/test_loaders.py
+src/iblphotometry_tests/test_metrics.py
+src/iblphotometry_tests/test_pipelines.py
+src/iblphotometry_tests/test_plots.py
+src/iblphotometry_tests/test_processing.py
+src/iblphotometry_tests/data/_ibl_trials.table.pqt
+src/iblphotometry_tests/data/raw_photometry.csv
+src/iblphotometry_tests/data/raw_photometry.pqt
+src/iblphotometry_tests/data/77a6741c-81cc-475f-9454-a9b997be02a4/Region3G/raw_photometry.pqt
+src/iblphotometry_tests/data/cortexlab/Subjects/CQ002/2024-11-05/001/_ibl_experiment.description.yaml
+src/iblphotometry_tests/data/cortexlab/Subjects/CQ002/2024-11-05/001/alf/photometry/photometry.signal.pqt
+src/iblphotometry_tests/data/cortexlab/Subjects/CQ002/2024-11-05/001/alf/photometry/photometryROI.locations.pqt
+src/iblphotometry_tests/data/cortexlab/Subjects/CQ002/2024-11-05/001/alf/task_00/_ibl_trials.table.pqt
+src/iblphotometry_tests/data/cortexlab/Subjects/CQ002/2024-11-05/001/raw_photometry_data/_neurophotometrics_fpData.raw.pqt
+src/iblphotometry_tests/data/wittenlab/Subjects/fip_40/2023-05-18/001/alf/_ibl_trials.table.pqt
+src/iblphotometry_tests/data/wittenlab/Subjects/fip_40/2023-05-18/001/alf/photometry/photometry.signal.pqt
+src/iblphotometry_tests/data/wittenlab/Subjects/fip_40/2023-05-18/001/alf/photometry/photometryROI.locations.pqt
+src/iblphotometry_tests/data/wittenlab/Subjects/fip_40/2023-05-18/001/raw_photometry_data/_neurophotometrics_fpData.raw.pqt
