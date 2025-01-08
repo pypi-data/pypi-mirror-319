@@ -1,0 +1,17 @@
+maxcorr/__init__.py,sha256=xihlu5KUnmmYpQ3q9Hx91O-odWkSdQRDw_nOknPTP5k,3310
+maxcorr/typing.py,sha256=0HF1X77NZTipvqgR4YNKijgzrZhVYiK6T4b9DSzVluo,337
+maxcorr/backends/__init__.py,sha256=AHZb0HLK-pFbbK1qeiEhH2XDZEvHk9moltyd8HVlSzw,199
+maxcorr/backends/backend.py,sha256=ybP2Qxs3IOTL2z9wq-jfj0PreYsaJtYsruX00sS285k,10318
+maxcorr/backends/numpy.py,sha256=c0ZRNP-ZNg9EtaUiogC3_MDOt_tn-cNDInYPzTZsoH0,1730
+maxcorr/backends/tensorflow.py,sha256=63-dMEYFb9MfBacHnX238v38JxJhtzjuVgMMO2G53hE,2430
+maxcorr/backends/torch.py,sha256=ycQKb9DMKqSbBDHu6L9l49d0mXCZSpd3PXH7do_vrQI,2384
+maxcorr/indicators/__init__.py,sha256=HulG132zkjpmeEVMJWfL7kfYLF5FHILZv9E6a5un4to,326
+maxcorr/indicators/density.py,sha256=VppA6-aNGRrnUIydeQQEQym_35aQOZTmyKhXwP7RgWs,10846
+maxcorr/indicators/gradient.py,sha256=BoAYujUlxEmxd2LtUnwd-h9jXc9DKJCYKrctBebbIf4,16702
+maxcorr/indicators/indicator.py,sha256=XxK3EnuB5ix9FLlyDrb8WSSWN7LOzGlaAVcXQkMnAmQ,10187
+maxcorr/indicators/kernel.py,sha256=xtTfWME6IrukqtQINErwwvES3S2ZFfPK4JRjoagvxhU,22849
+maxcorr/indicators/randomized.py,sha256=mPwlegw_IDh0KZl16oDJInLrdIbZe-aG4MIx433z0xk,5761
+maxcorr-0.1.0.dist-info/METADATA,sha256=IMTPhJ03JzncB0_dy8BJH2mQ37nrjvJdeoMAb2IEhqA,10549
+maxcorr-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+maxcorr-0.1.0.dist-info/licenses/LICENSE,sha256=4dLz-HN1moL9X2T8atv0L5I7ibdTHxbjdccuCIA-D6o,1070
+maxcorr-0.1.0.dist-info/RECORD,,
