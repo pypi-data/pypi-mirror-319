@@ -1,0 +1,15 @@
+repozee/__init__.py,sha256=v_M3jB66EgmYksFly6SDgohLLt-GusJePKMe_2OjuJM,1403
+repozee/__main__.py,sha256=SY9G6vM8mJr0-m7gNjLoMa0kMkPsdo-lL0Bpn-Nmi7g,94
+repozee/ai.py,sha256=ra79cq5QXXPZlLggBU-vDtNgOe2XIzcLb7EDE-GhYvg,3596
+repozee/command/__init__.py,sha256=pzKGgNt5GShOrpWQbn7bPJlqBY6MVAQqUURbs2A_HVo,217
+repozee/command/chat_command.py,sha256=aCNpCs8oLJnMpaRfPk1kk8PvlPxoPINQkhHppGgxdbM,670
+repozee/command/commit_command.py,sha256=amx8k7JGhg6KA0Ncm9Sz3gFChlPNF03pqv_1STmlTMk,833
+repozee/definitions/commit_from_diff.md,sha256=yxGoDF8As4HCZIEGZqQxND916TglaL1LEB5oa7JPJQg,205
+repozee/definitions/system.md,sha256=PhCW4hEROS8Ao6yp6hxvI3T0b5JIPmnLQoa1Btpszw0,724
+repozee/definitions/tools.yml,sha256=D72I2WyABNRPzfG-LNy7Fx8iK7tU7F6e8vN6S7e37Oo,892
+repozee/definitions/user.md,sha256=GAh2wPp2D6vUDbDoKiwSnIjgx4C7PghM36-aVmPbOxY,84
+repozee/toolset.py,sha256=gT2EUCzqp2e5-5WDpdRzsou5lthx5s7HDX_iYX9NL9U,1708
+repozee-0.2.1.dist-info/METADATA,sha256=lOMtGWB5SVYNCI6-rP31iF5LhoYZfGc6U5RzHLjQFvE,2901
+repozee-0.2.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+repozee-0.2.1.dist-info/entry_points.txt,sha256=bBj12SpqN0gfeptwlJGDeGw1d6-jFOAx5_KM7Nm48Ro,51
+repozee-0.2.1.dist-info/RECORD,,
