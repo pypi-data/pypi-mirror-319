@@ -1,0 +1,11 @@
+babbelfish/__init__.py,sha256=V74GwRj6ytMS4MjZBXo_lPOP2b34vHNhhsORYWRzV3I,122
+babbelfish/config.py,sha256=kHlcPfquVXcejqV6HoaRONuqkr1uJJ-z5QnOha52BRU,926
+babbelfish/consumer.py,sha256=I2OI7BxXocLh1tRTA2vSZ_aHZeg_4zq_qR9kegPupv0,249
+babbelfish/consumer_producer.py,sha256=wWWwEbkF4s4GhfVmL2XmHB8HyF_krtA02FJDw933aUk,302
+babbelfish/producer.py,sha256=3iLL2YOJbsPtMbWKlAuiiH6FKMi-EW21Ce16E5CkQY0,485
+babbelfish/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+babbelfish/service.py,sha256=u718lr2A7xokDP6VxUI4lNMOWiHDnETX5KvoCvybTEg,2792
+babbelfish-0.0.1.dist-info/METADATA,sha256=fzZrxW9N6GaInHyFYZ-7fer4nu0CWopUeokEoEtBxm8,1641
+babbelfish-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+babbelfish-0.0.1.dist-info/licenses/LICENSE,sha256=1S4XmrkirxDMi-Iuk1b55R5Za5U4HM8Vvi_0gMz382M,1068
+babbelfish-0.0.1.dist-info/RECORD,,
