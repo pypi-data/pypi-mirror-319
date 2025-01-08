@@ -1,0 +1,4 @@
+[console_scripts]
+family_ai_voice_assistant_console=family_ai_voice_assistant.core.assistants.assistant_console_client:main
+family_ai_voice_assistant_file_server=family_ai_voice_assistant.core.clients.file_store_client:start_file_server
+
