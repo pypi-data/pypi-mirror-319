@@ -1,0 +1,15 @@
+factgridbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+factgridbot/bot.py,sha256=Xdw-LmRvxSqz04FKzQL38-9M403UmOqwDhnPLDDwYUc,13713
+factgridbot/cli.py,sha256=IsxGYA8dW4hc0F2wRCG-qqBnLmGmKLXEjo4010xvy7Q,9181
+factgridbot/factgrid.py,sha256=tcj45sKsv6YFpq5TRlIWqW7NRruOw-To3Pdasmnpt_8,7989
+factgridbot/wikibase.py,sha256=7XR-Yx1Njcf0GmPguWAuUTn9h_5-DGPC4eomOJqy4Ak,11798
+factgridbot/wikidata.py,sha256=umTxug5jmd_SKceWM3JUbaksOnznxeRwW84zs8ys7dY,5141
+factgridbot/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+factgridbot/models/auth.py,sha256=MRTuTsj5Wc6I42LmK4_mA0GkB_6u8jLFyBsy0MrYI88,1766
+factgridbot/models/error.py,sha256=30H0JtX3FH11nNI9pNugQU70a_f9uEMrkuKTuuFnQfA,782
+factgridbot/models/property_mapping.py,sha256=05sPG5QDaF8c8HqqJXoqnFsl_C34Zd3zqe5wvdW1oS0,511
+factgridbot-0.1.0.dist-info/METADATA,sha256=lRuCbmBqPZEpVOMqIT01lajsS-MluViVWmQY4ZaCcEY,2442
+factgridbot-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+factgridbot-0.1.0.dist-info/entry_points.txt,sha256=mYhjEAgj6uufux8a8p4lIPrpPPw3eCdMn0VvcbkLPO8,52
+factgridbot-0.1.0.dist-info/licenses/LICENSE,sha256=niPPl1yfMRbeD-xU9m01EOmwskCqkXD2EzJPBoUa3eE,11341
+factgridbot-0.1.0.dist-info/RECORD,,

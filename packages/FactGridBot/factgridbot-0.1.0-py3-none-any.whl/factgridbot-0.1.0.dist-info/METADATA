@@ -1,0 +1,67 @@
+Metadata-Version: 2.4
+Name: FactGridBot
+Version: 0.1.0
+Summary: A specialized Wikibase bot designed to synchronize and manage data between Wikidata and FactGrid.
+Author-email: tholzheim <tim.holzheim@rwth-aachen.de>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Requires-Dist: pydantic>=2.10.2
+Requires-Dist: rich>=13.9.4
+Requires-Dist: sparqlwrapper>=2.0.0
+Requires-Dist: typer>=0.13.1
+Requires-Dist: wikibaseintegrator>=0.12.10
+Description-Content-Type: text/markdown
+
+# FactGridBot
+A specialized Wikibase bot designed to synchronize and manage data between [Wikidata](https://wikidata.org) and [FactGrid](https://database.factgrid.de).
+
+## Overview
+FactGridBot facilitates seamless data integration between Wikidata and FactGrid by:
+
+* Synchronizing entity mappings between the two platforms
+* Adding FactGrid entity IDs to corresponding Wikidata entries
+* Processing and querying data across both knowledge bases
+
+## Key Features
+
+* Cross-Platform Synchronization: Maintains consistency between Wikidata and FactGrid entities
+* Entity ID Management: Automatically associates FactGrid identifiers with Wikidata entries
+* Data Processing Pipeline: Provides robust querying and data processing capabilities
+* Specialized Use Cases: Supports specific data integration tasks, such as linking family names between platforms
+
+
+## Use Cases
+### Entity Synchronization
+
+* Maps corresponding entities between Wikidata and FactGrid
+* Maintains bidirectional references for enhanced data tracking
+
+### Data Processing
+
+* Queries data from both platforms efficiently
+* Processes and transforms information as needed
+* Supports specialized data linking operations
+
+## Getting Started
+> ToDo
+
+## Contributing
+> ToDo
+
+# Acknowledgements
+This project was funded by [FactGrid](https://database.factgrid.de).
+
+
+# Licence <a id="license"></a>
+This repository is licensed under the [Apache 2.0](./LICENSE) license.

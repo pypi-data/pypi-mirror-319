@@ -1,0 +1,2 @@
+[console_scripts]
+factgridbot = factgridbot.cli:app
