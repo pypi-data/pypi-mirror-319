@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+kgraphgnn/__init__.py
+kgraphgnn.egg-info/PKG-INFO
+kgraphgnn.egg-info/SOURCES.txt
+kgraphgnn.egg-info/dependency_links.txt
+kgraphgnn.egg-info/requires.txt
+kgraphgnn.egg-info/top_level.txt
