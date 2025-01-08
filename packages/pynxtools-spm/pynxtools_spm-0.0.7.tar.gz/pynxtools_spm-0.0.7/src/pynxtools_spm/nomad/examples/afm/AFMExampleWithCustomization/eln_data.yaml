@@ -1,0 +1,40 @@
+Sample:
+  History:
+    notes: <p>Sample History</p>
+  name: 'SampleName '
+  sample_component_set:
+    sample_component:
+      description: <p>Description</p>
+      name: DemoComponent
+collection_identifier:
+  identifier: C:\AFM\_data\201510
+default: current_forward
+definition: NXafm
+experiment_description: '<p>The experiment is performed with a cantilever that has
+  a center frequency of 22.63 kHz</p>
+
+  <p>The Lockin setup is off.<br />The setpoint for Z-controller is 50pA.</p>
+
+  <p>Bias is -9.000E-4 V.</p>
+
+  <p>&nbsp;</p>'
+experiment_identifier:
+  identifier: DemoExperimentIdentifier-1234
+experiment_instrument:
+  hardware:
+    name: Nanonis
+    vendor: Nanonis
+  software:
+    model: Generic 4
+    model/@version: '4'
+    name: Nanonis
+    vendor: Nanonis
+experiment_technique: AFM
+scan_mode: tapping mode
+user:
+  affiliation:
+  - HU
+  email:
+  - rubel.mozumder@physik.hu-berlin.de
+  - cojal@physik.hu-berlin.de
+  name: Rubel Mozumder
