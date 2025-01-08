@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: auto_setup
+Version: 0.1.0
+Summary: A Python package for creating folders, files, and initializing configurations
+Home-page: https://github.com/yourusername/mypackage
+Author: Bekzod G'ulomov
+Author-email: pterest160@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: typer
+Requires-Dist: sqlalchemy
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: pytest
+Requires-Dist: alembic

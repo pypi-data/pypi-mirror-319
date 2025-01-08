@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+auto_setup/__init__.py
+auto_setup/main.py
+auto_setup.egg-info/PKG-INFO
+auto_setup.egg-info/SOURCES.txt
+auto_setup.egg-info/dependency_links.txt
+auto_setup.egg-info/requires.txt
+auto_setup.egg-info/top_level.txt
