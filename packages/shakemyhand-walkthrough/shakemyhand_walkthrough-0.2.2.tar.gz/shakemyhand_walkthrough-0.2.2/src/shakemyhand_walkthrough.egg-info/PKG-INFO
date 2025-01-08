@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: shakemyhand-walkthrough
+Version: 0.2.2
+Summary: Interactive Python walkthrough for the 'Shake My Hand' 2025 Iris CTF challenge
+Home-page: https://github.com/admiralsyn-ackbar/shakemyhand-walkthrough
+Author: Admiral SYN-ACKbar
+Author-email: admiral@admiralsyn-ackbar.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scapy>=2.5.0
+
+# IrisCTF 2025 - "Shake My Hand" Walkthrough 
+This is an interactive Python writeup and walkthrough for the "Shake My Hand" 2025 Iris CTF challenge.
+
+## Features
+- Step-by-step TCP handshake demonstration
+- Real-time packet crafting and analysis with Scapy
+- ASCII art interface
+
+## Requirements
+- Python 3.x
+- Scapy library (pip install scapy)
+- Windows/Linux compatible
+
+## Install/run with PIP
+1. Install with "pip install shakemyhand-walkthrough"
+2. Enter "shakemyhand-walkthrough" at terminal.
+
+## Manual install/run
+Download shakemyhand-walkthrough.py, make sure you have scapy installed (pip install scapy) and run the file with "python ./shakemyhand-walkthrough.py"

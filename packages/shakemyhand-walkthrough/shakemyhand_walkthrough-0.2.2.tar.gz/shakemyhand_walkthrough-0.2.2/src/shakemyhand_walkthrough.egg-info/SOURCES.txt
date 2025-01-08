@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/shakemyhand_walkthrough/__init__.py
+src/shakemyhand_walkthrough/shakemyhand_walkthrough.py
+src/shakemyhand_walkthrough.egg-info/PKG-INFO
+src/shakemyhand_walkthrough.egg-info/SOURCES.txt
+src/shakemyhand_walkthrough.egg-info/dependency_links.txt
+src/shakemyhand_walkthrough.egg-info/entry_points.txt
+src/shakemyhand_walkthrough.egg-info/requires.txt
+src/shakemyhand_walkthrough.egg-info/top_level.txt
