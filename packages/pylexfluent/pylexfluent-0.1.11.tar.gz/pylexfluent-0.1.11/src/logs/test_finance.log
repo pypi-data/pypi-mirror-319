@@ -1,0 +1,225 @@
+2024-12-22 09:03:52,986 - test_finance - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x7a82a715a7a0> with kargs={'file_path': 'data/RIB maman.pdf'}: cannot unpack non-iterable NoneType object 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 23, in try_safe_execute_asyncio
+    result= asyncio.run(func(**kargs))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/test_finance.py", line 34, in do_test_classifier
+    return await get_classification(file_name=file_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/classification/classifier.py", line 38, in get_classification
+    result,_ = await try_safe_execute_async(logger,get_text_and_tables_from_pdf, filename=file_name,extract_tables=False,max_pages=max_pages)
+    ^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+2024-12-22 09:05:11,051 - test_finance - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x758264b32840> with kargs={'file_path': 'data/RIB mamam.pdf'}: cannot unpack non-iterable NoneType object 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 23, in try_safe_execute_asyncio
+    result= asyncio.run(func(**kargs))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/test_finance.py", line 34, in do_test_classifier
+    return await get_classification(file_name=file_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/classification/classifier.py", line 38, in get_classification
+    result,_ = await try_safe_execute_async(logger,get_text_and_tables_from_pdf, filename=file_name,extract_tables=False,max_pages=max_pages)
+    ^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+2024-12-22 09:13:45,768 - test_finance - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x7aa5ccd5e700> with kargs={'file_path': 'data/RIB_Jacqueline.pdf'}: BaseProcess.__init__() got an unexpected keyword argument 'input_pdf' 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 23, in try_safe_execute_asyncio
+    result= asyncio.run(func(**kargs))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/test_finance.py", line 34, in do_test_classifier
+    return await get_classification(file_name=file_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/classification/classifier.py", line 49, in get_classification
+    p=Process(target=do_ocr,input_pdf=file_name,output_pdf=output_filename)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseProcess.__init__() got an unexpected keyword argument 'input_pdf'
+2024-12-22 09:22:57,447 - test_finance - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x7698102be840> with kargs={'file_path': 'data/RIB_Jacqueline.pdf'}: too many values to unpack (expected 1) 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 23, in try_safe_execute_asyncio
+    result= asyncio.run(func(**kargs))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/test_finance.py", line 34, in do_test_classifier
+    return await get_classification(file_name=file_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/classification/classifier.py", line 53, in get_classification
+    result, = await try_safe_execute_async(logger,get_text_and_tables_from_pdf, filename=output_filename,extract_tables=False,max_pages=max_pages)
+    ^^^^^^^
+ValueError: too many values to unpack (expected 1)
+2025-01-07 10:50:33,237 - test_finance - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x7e6d7cd091c0> with kargs={'file_path': 'data/ODP_Hortensias.pdf'}: Exception KeysWordsAndPhrases.get_keys_words:  Out of memory allocating 861,696 bytes (allocated so far: 633,275,392 bytes). 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/domain/keyswordsandphrases.py", line 141, in get_key_words
+    document = nlp_ts(chunk)
+               ^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/language.py", line 1054, in __call__
+    error_handler(name, proc, [doc], e)
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/util.py", line 1722, in raise_error
+    raise e
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/language.py", line 1049, in __call__
+    doc = proc(doc, **component_cfg.get(name, {}))  # type: ignore[call-arg]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "spacy/pipeline/trainable_pipe.pyx", line 56, in spacy.pipeline.trainable_pipe.TrainablePipe.__call__
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/util.py", line 1722, in raise_error
+    raise e
+  File "spacy/pipeline/trainable_pipe.pyx", line 52, in spacy.pipeline.trainable_pipe.TrainablePipe.__call__
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/pipeline/tok2vec.py", line 126, in predict
+    tokvecs = self.model.predict(docs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/model.py", line 334, in predict
+    return self._func(self, X, is_train=False)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/layers/with_array.py", line 42, in forward
+    return cast(Tuple[SeqT, Callable], _list_forward(model, Xseq, is_train))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/layers/with_array.py", line 77, in _list_forward
+    Yf, get_dXf = layer(Xf, is_train)
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/layers/residual.py", line 41, in forward
+    Y, backprop_layer = model.layers[0](X, is_train)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/layers/chain.py", line 54, in forward
+    Y, inc_layer_grad = layer(X, is_train=is_train)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/model.py", line 310, in __call__
+    return self._func(self, X, is_train=is_train)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/layers/expand_window.py", line 22, in forward
+    return _expand_window_floats(model, X)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/layers/expand_window.py", line 30, in _expand_window_floats
+    Y = model.ops.seq2col(X, nW)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/backends/cupy_ops.py", line 274, in seq2col
+    return _custom_kernels.seq2col(seq, nW, lengths=lengths)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/backends/_custom_kernels.py", line 357, in seq2col
+    out = _alloc((B, I * nF), dtype=seq.dtype, zeros=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/backends/_custom_kernels.py", line 177, in _alloc
+    return cupy.zeros(shape, dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/cupy/_creation/basic.py", line 211, in zeros
+    a = cupy.ndarray(shape, dtype, order=order)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "cupy/_core/core.pyx", line 132, in cupy._core.core.ndarray.__new__
+  File "cupy/_core/core.pyx", line 220, in cupy._core.core._ndarray_base._init
+  File "cupy/cuda/memory.pyx", line 740, in cupy.cuda.memory.alloc
+  File "cupy/cuda/memory.pyx", line 1426, in cupy.cuda.memory.MemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1447, in cupy.cuda.memory.MemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1118, in cupy.cuda.memory.SingleDeviceMemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1139, in cupy.cuda.memory.SingleDeviceMemoryPool._malloc
+  File "cupy/cuda/memory.pyx", line 1384, in cupy.cuda.memory.SingleDeviceMemoryPool._try_malloc
+  File "cupy/cuda/memory.pyx", line 1387, in cupy.cuda.memory.SingleDeviceMemoryPool._try_malloc
+cupy.cuda.memory.OutOfMemoryError: Out of memory allocating 861,696 bytes (allocated so far: 633,275,392 bytes).
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 23, in try_safe_execute_asyncio
+    result= asyncio.run(func(**kargs))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/test_finance.py", line 34, in do_test_classifier
+    return await get_classification(file_name=file_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/classification/classifier.py", line 63, in get_classification
+    freq_mots= keysWordsPhrasesHelper.get_key_words(isSorted=True, threshold=0.1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/domain/keyswordsandphrases.py", line 185, in get_key_words
+    raise Exception(f"Exception KeysWordsAndPhrases.get_keys_words:  {ex}")
+Exception: Exception KeysWordsAndPhrases.get_keys_words:  Out of memory allocating 861,696 bytes (allocated so far: 633,275,392 bytes).

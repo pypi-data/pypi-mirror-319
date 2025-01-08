@@ -1,0 +1,141 @@
+2024-12-22 10:29:01,639 - iban extractor - ERROR - Exception occured in <bound method IbanAnalyzer.do_analyze of <lxf.extractors.finance.ibans.iban_analyzer.IbanAnalyzer object at 0x71c8a5d2bf80>> : 'coroutine' object has no attribute 'get' 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 104, in check_ibans
+    validation, error_msg = self.check_validations_helper(res_json)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 74, in check_validations_helper
+    return result.get("validation"), result.get("error_msg")
+           ^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'get'
+2024-12-22 10:30:12,709 - iban extractor - ERROR - Exception occured in <bound method IbanAnalyzer.do_analyze of <lxf.extractors.finance.ibans.iban_analyzer.IbanAnalyzer object at 0x786951751970>> : 'coroutine' object has no attribute 'get' 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 104, in check_ibans
+    validation, error_msg = self.check_validations_helper(res_json)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 74, in check_validations_helper
+    return result.get("validation"), result.get("error_msg")
+           ^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'get'
+2024-12-22 10:32:54,643 - iban extractor - ERROR - Exception occured in <bound method IbanAnalyzer.do_analyze of <lxf.extractors.finance.ibans.iban_analyzer.IbanAnalyzer object at 0x7935a94b20c0>> : 'coroutine' object has no attribute 'get' 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 105, in check_ibans
+    validation, error_msg = self.check_validations_helper(res_json)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 75, in check_validations_helper
+    return result.get("validation"), result.get("error_msg")
+           ^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'get'
+2024-12-22 10:51:52,478 - iban extractor - ERROR - Exception occured in <bound method IbanAnalyzer.do_analyze of <lxf.extractors.finance.ibans.iban_analyzer.IbanAnalyzer object at 0x798487f1eb70>> : 'coroutine' object has no attribute 'get' 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 105, in check_ibans
+    validation, error_msg = self.check_validations_helper(res_json)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 74, in check_validations_helper
+    return result.get("validation"), result.get("error_msg")
+           ^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'get'
+2024-12-22 10:54:03,972 - iban extractor - ERROR - Exception occured in <bound method IbanAnalyzer.do_analyze of <lxf.extractors.finance.ibans.iban_analyzer.IbanAnalyzer object at 0x717adbca0110>> : 'coroutine' object has no attribute 'get' 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 106, in check_ibans
+    validation, error_msg = self.check_validations_helper(res_json)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 75, in check_validations_helper
+    return result.get("validation"), result.get("error_msg")
+           ^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'get'
+2024-12-22 10:58:21,212 - iban extractor - ERROR - Exception occured in <bound method IbanAnalyzer.do_analyze of <lxf.extractors.finance.ibans.iban_analyzer.IbanAnalyzer object at 0x793bf870b050>> : Queue.get() takes 1 positional argument but 2 were given 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 106, in check_ibans
+    validation, error_msg = self.check_validations_helper(res_json)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 73, in check_validations_helper
+    result:dict[bool,str]= queue.get(True)
+                           ^^^^^^^^^^^^^^^
+TypeError: Queue.get() takes 1 positional argument but 2 were given
+2025-01-07 10:24:00,128 - iban extractor - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x7e897a5ad580> : list.append() takes exactly one argument (0 given) 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/iban_ocr.py", line 331, in do_IBAN_Ocr_from_pdf
+    text_rois=recognize_rois(text_rois,rois,intermediate_files,sanitize, threshold_limit=threshold_limit)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/iban_ocr.py", line 301, in recognize_rois
+    text.append()
+TypeError: list.append() takes exactly one argument (0 given)
+2025-01-07 10:26:46,833 - iban extractor - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x70bccb4ad760> : list.append() takes exactly one argument (0 given) 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/iban_ocr.py", line 331, in do_IBAN_Ocr_from_pdf
+    text_rois=recognize_rois(text_rois,rois,intermediate_files,sanitize, threshold_limit=threshold_limit)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/iban_ocr.py", line 301, in recognize_rois
+    text.append()
+TypeError: list.append() takes exactly one argument (0 given)
+2025-01-07 10:50:30,915 - iban extractor - ERROR - Exception occured in <bound method IbanAnalyzer.do_analyze of <lxf.extractors.finance.ibans.iban_analyzer.IbanAnalyzer object at 0x7e6db4f28200>> : cudaErrorMemoryAllocation: out of memory 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+                  ^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/extractors/finance/ibans/iban_analyzer.py", line 56, in do_analyze
+    doc= self.nlp(self.text)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/language.py", line 1054, in __call__
+    error_handler(name, proc, [doc], e)
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/util.py", line 1722, in raise_error
+    raise e
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/language.py", line 1049, in __call__
+    doc = proc(doc, **component_cfg.get(name, {}))  # type: ignore[call-arg]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "spacy/pipeline/trainable_pipe.pyx", line 56, in spacy.pipeline.trainable_pipe.TrainablePipe.__call__
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/util.py", line 1722, in raise_error
+    raise e
+  File "spacy/pipeline/trainable_pipe.pyx", line 52, in spacy.pipeline.trainable_pipe.TrainablePipe.__call__
+  File "spacy/pipeline/transition_parser.pyx", line 264, in spacy.pipeline.transition_parser.Parser.predict
+  File "spacy/pipeline/transition_parser.pyx", line 285, in spacy.pipeline.transition_parser.Parser.greedy_parse
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/thinc/model.py", line 334, in predict
+    return self._func(self, X, is_train=False)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/ml/tb_framework.py", line 34, in forward
+    step_model = ParserStepModel(
+                 ^^^^^^^^^^^^^^^^
+  File "spacy/ml/parser_model.pyx", line 263, in spacy.ml.parser_model.ParserStepModel.__init__
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/spacy/util.py", line 1157, in get_cuda_stream
+    return CudaStream(non_blocking=non_blocking)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "cupy/cuda/stream.pyx", line 471, in cupy.cuda.stream.Stream.__init__
+  File "cupy_backends/cuda/api/runtime.pyx", line 840, in cupy_backends.cuda.api.runtime.streamCreateWithFlags
+  File "cupy_backends/cuda/api/runtime.pyx", line 144, in cupy_backends.cuda.api.runtime.check_status
+cupy_backends.cuda.api.runtime.CUDARuntimeError: cudaErrorMemoryAllocation: out of memory

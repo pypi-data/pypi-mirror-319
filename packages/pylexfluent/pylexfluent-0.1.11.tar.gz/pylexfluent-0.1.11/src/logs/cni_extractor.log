@@ -1,0 +1,254 @@
+2025-01-07 10:28:29,832 - cni Extractor - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x753420ff00e0> : name 'reader' is not defined 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/cni_ocr.py", line 59, in do_cni_ocr_from_pdf
+    cni:Cni = recognize(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/cni_utilities/recognize_zones.py", line 108, in recognize
+    if reader is None:
+       ^^^^^^
+NameError: name 'reader' is not defined
+2025-01-07 10:31:10,614 - cni Extractor - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x73df9dcb5120> : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details) 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/cni_ocr.py", line 59, in do_cni_ocr_from_pdf
+    cni:Cni = recognize(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/cni_utilities/recognize_zones.py", line 144, in recognize
+    mrz_text = extract_text_from_image(mrz_image,use_tesseract=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/text_extractor.py", line 103, in extract_text_from_image
+    result = reader.readtext(final, detail=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/easyocr.py", line 456, in readtext
+    horizontal_list, free_list = self.detect(img,
+                                ^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/easyocr.py", line 321, in detect
+    text_box_list = self.get_textbox(self.detector,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/detection.py", line 95, in get_textbox
+    bboxes_list, polys_list = test_net(canvas_size, mag_ratio, detector,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/detection.py", line 46, in test_net
+    y, feature = net(x)
+                 ^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 192, in forward
+    replicas = self.replicate(self.module, self.device_ids[: len(inputs)])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 199, in replicate
+    return replicate(module, device_ids, not torch.is_grad_enabled())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/replicate.py", line 134, in replicate
+    param_copies = _broadcast_coalesced_reshape(params, devices, detach)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/replicate.py", line 99, in _broadcast_coalesced_reshape
+    return comm.broadcast_coalesced(tensors, devices)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/comm.py", line 67, in broadcast_coalesced
+    return torch._C._broadcast_coalesced(tensors, devices, buffer_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details)
+2025-01-07 10:32:12,631 - cni Extractor - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x7d9003fc4f40> : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details) 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/cni_ocr.py", line 59, in do_cni_ocr_from_pdf
+    cni:Cni = recognize(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/cni_utilities/recognize_zones.py", line 144, in recognize
+    mrz_text = extract_text_from_image(mrz_image,use_tesseract=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/text_extractor.py", line 103, in extract_text_from_image
+    result = reader.readtext(final, detail=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/easyocr.py", line 456, in readtext
+    horizontal_list, free_list = self.detect(img,
+                                ^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/easyocr.py", line 321, in detect
+    text_box_list = self.get_textbox(self.detector,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/detection.py", line 95, in get_textbox
+    bboxes_list, polys_list = test_net(canvas_size, mag_ratio, detector,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/detection.py", line 46, in test_net
+    y, feature = net(x)
+                 ^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 192, in forward
+    replicas = self.replicate(self.module, self.device_ids[: len(inputs)])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 199, in replicate
+    return replicate(module, device_ids, not torch.is_grad_enabled())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/replicate.py", line 134, in replicate
+    param_copies = _broadcast_coalesced_reshape(params, devices, detach)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/replicate.py", line 99, in _broadcast_coalesced_reshape
+    return comm.broadcast_coalesced(tensors, devices)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/comm.py", line 67, in broadcast_coalesced
+    return torch._C._broadcast_coalesced(tensors, devices, buffer_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details)
+2025-01-07 10:33:53,084 - cni Extractor - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x7dafbd9b9080> : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details) 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/cni_ocr.py", line 59, in do_cni_ocr_from_pdf
+    cni:Cni = recognize(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/cni_utilities/recognize_zones.py", line 144, in recognize
+    mrz_text = extract_text_from_image(mrz_image,use_tesseract=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/text_extractor.py", line 103, in extract_text_from_image
+    result = reader.readtext(final, detail=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/easyocr.py", line 456, in readtext
+    horizontal_list, free_list = self.detect(img,
+                                ^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/easyocr.py", line 321, in detect
+    text_box_list = self.get_textbox(self.detector,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/detection.py", line 95, in get_textbox
+    bboxes_list, polys_list = test_net(canvas_size, mag_ratio, detector,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/detection.py", line 46, in test_net
+    y, feature = net(x)
+                 ^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 192, in forward
+    replicas = self.replicate(self.module, self.device_ids[: len(inputs)])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 199, in replicate
+    return replicate(module, device_ids, not torch.is_grad_enabled())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/replicate.py", line 134, in replicate
+    param_copies = _broadcast_coalesced_reshape(params, devices, detach)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/replicate.py", line 99, in _broadcast_coalesced_reshape
+    return comm.broadcast_coalesced(tensors, devices)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/comm.py", line 67, in broadcast_coalesced
+    return torch._C._broadcast_coalesced(tensors, devices, buffer_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details)
+2025-01-07 10:40:56,598 - cni Extractor - ERROR - Exception occured in <function measure_time_async.<locals>.inner at 0x72e3bdcb23e0> : 'Reader' object is not callable 
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/text_extractor.py", line 113, in extract_text_from_image
+    result = reader.readtext(final, detail=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/easyocr.py", line 456, in readtext
+    horizontal_list, free_list = self.detect(img,
+                                ^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/easyocr.py", line 321, in detect
+    text_box_list = self.get_textbox(self.detector,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/detection.py", line 95, in get_textbox
+    bboxes_list, polys_list = test_net(canvas_size, mag_ratio, detector,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/easyocr/detection.py", line 46, in test_net
+    y, feature = net(x)
+                 ^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 192, in forward
+    replicas = self.replicate(self.module, self.device_ids[: len(inputs)])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 199, in replicate
+    return replicate(module, device_ids, not torch.is_grad_enabled())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/replicate.py", line 134, in replicate
+    param_copies = _broadcast_coalesced_reshape(params, devices, detach)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/replicate.py", line 99, in _broadcast_coalesced_reshape
+    return comm.broadcast_coalesced(tensors, devices)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/.local/share/virtualenvs/src-Q-3AUKoU/lib/python3.12/site-packages/torch/nn/parallel/comm.py", line 67, in broadcast_coalesced
+    return torch._C._broadcast_coalesced(tensors, devices, buffer_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/try_safe.py", line 5, in try_safe_execute_async
+    result= await func(**kargs)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 26, in inner
+    result = await func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/cni_ocr.py", line 59, in do_cni_ocr_from_pdf
+    cni:Cni = recognize(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/cni_utilities/recognize_zones.py", line 144, in recognize
+    mrz_text = extract_text_from_image(mrz_image,use_tesseract=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/services/measure_time.py", line 18, in inner
+    result = func(*arg,**kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/jacques/works/RevolutionAI/Core/Libs-python/src/lxf/ai/ocr/text_extractor.py", line 117, in extract_text_from_image
+    result = cpu_reader(final,detail=0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Reader' object is not callable

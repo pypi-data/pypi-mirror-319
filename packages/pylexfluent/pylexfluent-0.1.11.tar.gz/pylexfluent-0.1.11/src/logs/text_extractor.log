@@ -1,0 +1,259 @@
+2025-01-07 10:26:35,138 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:27:37,402 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:28:29,699 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:30:37,127 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:31:46,135 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:33:20,055 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:36:47,610 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:40:04,866 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details)
+2025-01-07 10:40:07,901 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details)
+2025-01-07 10:40:39,928 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:40:41,356 - Text extractor - INFO - CPU Easyocr reader pret
+2025-01-07 10:40:55,860 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:43:04,102 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:43:05,524 - Text extractor - INFO - CPU Easyocr reader pret
+2025-01-07 10:43:16,919 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:44:36,936 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:44:38,355 - Text extractor - INFO - CPU Easyocr reader pret
+2025-01-07 10:44:51,508 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:45:06,033 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:45:33,140 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:17,794 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:22,024 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:23,902 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:26,308 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:28,260 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:30,170 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:31,910 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:33,605 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:35,657 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:38,206 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:39,953 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:52,063 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:46:59,336 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:00,587 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:01,652 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:02,564 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:03,675 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:04,743 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:08,954 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:09,287 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:09,566 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:09,844 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:10,131 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:10,408 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:10,712 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:11,035 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:11,332 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:11,632 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:11,979 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:12,285 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:12,573 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:12,853 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:13,145 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:13,440 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:13,733 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:14,056 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:14,350 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:14,629 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:14,928 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:15,216 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:15,508 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:15,799 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:16,092 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:16,391 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:16,683 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:17,026 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:17,327 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:17,616 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:17,897 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:18,176 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:18,461 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:18,740 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:19,019 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:19,298 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:19,597 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:19,875 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:20,155 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:20,435 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:20,739 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:21,020 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:21,298 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:21,577 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:21,855 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:22,138 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:22,413 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:22,697 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:23,021 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:23,366 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:23,676 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:23,993 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:24,369 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:24,723 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:25,060 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:47:25,417 - Text extractor - ERROR - Exception pendant l'extraction de texte : sequence item 0: expected str instance, tuple found. 
+Essai en CPU
+2025-01-07 10:48:33,195 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:48:34,627 - Text extractor - INFO - CPU Easyocr reader pret
+2025-01-07 10:48:40,597 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:48:43,540 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:09,467 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:50:10,883 - Text extractor - INFO - CPU Easyocr reader pret
+2025-01-07 10:50:29,323 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:29,408 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:29,434 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:29,518 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:29,581 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:29,631 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:29,699 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:29,749 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:29,914 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,025 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,045 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,068 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,084 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,101 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,119 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,156 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,237 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,296 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,312 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,332 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,374 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,570 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,590 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,608 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,630 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,648 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,667 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,687 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,717 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,738 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,756 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,776 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,795 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,817 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,838 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,857 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:50:30,879 - Text extractor - ERROR - Exception pendant l'extraction de texte : NCCL Error 1: unhandled cuda error (run with NCCL_DEBUG=INFO for details). 
+Essai en CPU
+2025-01-07 10:54:15,901 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 10:54:17,315 - Text extractor - INFO - CPU Easyocr reader pret
+2025-01-07 15:36:51,205 - Text extractor - INFO - Easyocr reader pret
+2025-01-07 15:36:52,594 - Text extractor - INFO - CPU Easyocr reader pret
