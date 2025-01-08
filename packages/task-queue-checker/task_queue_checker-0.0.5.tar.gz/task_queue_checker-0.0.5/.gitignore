@@ -1,0 +1,8 @@
+.venv
+upload.sh
+dist
+test.py
+__pycache__
+*.db
+*.db-journal
+.env
