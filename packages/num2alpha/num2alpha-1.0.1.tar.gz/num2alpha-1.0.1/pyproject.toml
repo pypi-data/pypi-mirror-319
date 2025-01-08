@@ -1,0 +1,39 @@
+[project]
+name = "num2alpha"
+version = "1.0.1"
+authors = [
+    { name = "Samarthya Lykamanuella", email = "93555329+groaking@users.noreply.github.com" },
+]
+maintainers = [
+    { name = "Samarthya Lykamanuella", email = "93555329+groaking@users.noreply.github.com" },
+]
+dependencies = []
+license = {file = "LICENSE"}
+keywords = ["number", "alphabet", "spreadsheet", "conversion", "character", "string", "number converter", "base-10", "integer"]
+description = "Converts any base-10 integer into its corresponding alphabet form, and vice versa"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.2"
+classifiers = [
+    "Development Status :: 6 - Mature",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Other Audience",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Documentation = "https://github.com/groaking/num2alpha/blob/master/README.md"
+Homepage = "https://github.com/groaking/num2alpha"
+Repository = "https://github.com/groaking/num2alpha.git"
+Changelog = "https://github.com/groaking/num2alpha/blob/master/CHANGELOG.md"
+Issues = "https://github.com/groaking/num2alpha/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
