@@ -1,0 +1,6 @@
+requests_sse/__init__.py,sha256=FWaI-NmjHxRk193xm0sY5pMKvNsZgnRKg7BrlMX81Js,45
+requests_sse/client.py,sha256=wL7X7-qZcwFfi83F9R-JiW3EQYiCG48eJO_Ild4xqt8,13624
+requests_sse-0.4.0.dist-info/LICENSE,sha256=TWCLBofDG9uW1-NBbmnKg7QFgTcebgxcBnjaw1cUQo4,11374
+requests_sse-0.4.0.dist-info/METADATA,sha256=GFRpJd2L_OjMuv3DXI0EE27Z4wcl8TQnfEzUsu8zJIk,3191
+requests_sse-0.4.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+requests_sse-0.4.0.dist-info/RECORD,,
