@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: eclinical_requester
+Version: 1.0.6
+Summary: edetek api requester
+Home-page: http://example.com
+Author: xiaodong.li
+Author-email: 
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml>=4.8.0
+Requires-Dist: requests>=2.32.0
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: requests-toolbelt>=1.0.0
+Requires-Dist: python-dateutil>=2.9.0.post0
+Requires-Dist: numpy>=1.23.4
+Requires-Dist: pycryptodome>=3.17
+
+api_requester
