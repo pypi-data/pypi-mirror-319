@@ -1,0 +1,2 @@
+[console_scripts]
+tabman = tabman.main:entry_point
