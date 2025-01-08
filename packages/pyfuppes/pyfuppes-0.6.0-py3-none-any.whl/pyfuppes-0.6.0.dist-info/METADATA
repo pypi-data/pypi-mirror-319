@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: pyfuppes
+Version: 0.6.0
+Summary: A collection of tools in Python
+Author-email: Florian Obersteiner <f.obersteiner@posteo.de>
+License: LGPL3
+Project-URL: Homepage, https://github.com/FObersteiner/pyFuppes
+Project-URL: Issues, https://github.com/FObersteiner/pyFuppes/issues
+Project-URL: Changelog, https://github.com/FObersteiner/pyFuppes/blob/master/CHANGELOG.md
+Project-URL: Documentation, https://pyfuppes.readthedocs.io/en/latest
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: <3.13,>=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: geopy>=2.0
+Requires-Dist: matplotlib>=3.0
+Requires-Dist: netcdf4>=1.6
+Requires-Dist: numba>=0.59.0
+Requires-Dist: numpy>=1.18
+Requires-Dist: pandas>=2.0
+Requires-Dist: polars>=1.0
+Requires-Dist: pysolar>=0.10
+Requires-Dist: scipy>=1.1
+Requires-Dist: scikit-learn>=1.4
+Requires-Dist: xarray>=2022,>=2023,>=2024
+
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![Build Status](https://github.com/FObersteiner/pyFuppes/actions/workflows/pyfuppes-ci.yml/badge.svg)](https://github.com/FObersteiner/pyFuppes/actions/workflows/pyfuppes-ci.yml)
+
+# pyFuppes
+
+A collection of tools in Python, mostly revolving around time series data analysis.
+
+## Installation
+
+- from the pypi: `pip install pyfuppes`:
+
+- (fork and) clone the repo, then run `pip install .` in the repo's directory (add `-e` for editable mode)
+
+- from github, via pip (requires `git`, which you might have to install explicitly if using a virtual Python environment):
+
+  - specific tag:
+
+    ```sh
+    pip install git+https://github.com/FObersteiner/pyFuppes.git@v0.5.2
+    ```
+
+  - master branch, latest commit (not recommended; might include unstable changes):
+
+    ```sh
+    pip install git+https://github.com/FObersteiner/pyFuppes.git@master # alternatively @latest
+    ```
+
+## Requirements
+
+- currently (v0.5.0+) developed with Python 3.12. Python 3.10 and 3.11 should work, as covered by github CI.
+- see [pyproject.toml](https://github.com/FObersteiner/pyFuppes/blob/master/pyproject.toml)
+
+## Content / Docs
+
+See <https://pyfuppes.readthedocs.io/en/latest/> or go to the [API reference](https://pyfuppes.readthedocs.io/en/latest/autoapi/index.html) directly.
+
+## License
+
+`LGPLv3` - see LICENSE file in the root directory of the repository.
