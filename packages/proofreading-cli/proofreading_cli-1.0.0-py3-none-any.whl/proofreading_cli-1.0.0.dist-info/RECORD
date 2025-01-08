@@ -1,0 +1,16 @@
+proofreading_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proofreading_cli/api_client.py,sha256=w7j4qDMwWKBdaZvDupcbFMFdPdzeq5kheDn04AYhCPs,3762
+proofreading_cli/cli.py,sha256=3xug8e13wg8TnGuPUWxWj8iAjekP6R_2Fto6b9Pk01Y,6694
+proofreading_cli/common.py,sha256=V5cUrqC0wf_oE2HVIKL5Gq6mB5reRn-Hc6wBD5XGm5M,272
+proofreading_cli/config/search_dimension_maping.toml,sha256=8VOmy6h-FdNk2X2NaYvzKHqM1B85lfHWDW_xrFFQQeQ,527
+proofreading_cli/config/settings.toml,sha256=7mbj5d_6MqX_41y6idbWhL5wCUdR7viGs5gIJiuLX7E,795
+proofreading_cli/config.py,sha256=PeuwpkR4M1JvGzooratHeq4QT59tzwHxfVgnfqIL0EI,230
+proofreading_cli/constants.py,sha256=xiqPCvCCtDdat6jg107ZERcsCpbsDTvDBVIviAVAtQE,587
+proofreading_cli/inference_server_client.py,sha256=iLpIiCfMR5d-ZRK8JYEusJ1RzpRlN5NEKNhx8CBQb3c,2554
+proofreading_cli/mapper.py,sha256=gguAui0Q7sw3J8pHzV2vn2A1zt0W9RiK1hjb9T5FChM,1015
+proofreading_cli/paths.py,sha256=ziBu1igOGHCh2VXtv6v8RlGGfNBfyrCN15lHclnw638,208
+proofreading_cli/utils.py,sha256=CIqJtK9DcesEw7rVy0tHtynr0t1-7vXdprJv-b02SFk,2760
+proofreading_cli-1.0.0.dist-info/METADATA,sha256=Ubb08-bP4d-CsC0AvNoumgoWkdkzudOPsOZ__KxFDIM,698
+proofreading_cli-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+proofreading_cli-1.0.0.dist-info/entry_points.txt,sha256=6yJ5KpFDe40n_uP2eiY7DrxAxfryD-wTX9VaEEbCJ-U,61
+proofreading_cli-1.0.0.dist-info/RECORD,,
