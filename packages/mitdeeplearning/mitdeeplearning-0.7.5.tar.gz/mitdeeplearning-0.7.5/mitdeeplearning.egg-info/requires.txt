@@ -1,0 +1,11 @@
+numpy
+regex
+tqdm
+gym
+opik
+openai
+transformers
+datasets
+peft
+lion-pytorch
+tensorflow>=2.0.0a
