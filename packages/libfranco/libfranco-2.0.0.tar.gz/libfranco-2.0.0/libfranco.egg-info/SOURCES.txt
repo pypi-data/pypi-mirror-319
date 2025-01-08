@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+libfranco/__init__.py
+libfranco/tdms_grafico.py
+libfranco.egg-info/PKG-INFO
+libfranco.egg-info/SOURCES.txt
+libfranco.egg-info/dependency_links.txt
+libfranco.egg-info/requires.txt
+libfranco.egg-info/top_level.txt
