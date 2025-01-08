@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/main.py
+src/opt.py
+src/utils.py
+src/SRE_Conv/__init__.py
+src/SRE_Conv/sre_conv.py
+src/SRE_Conv/sre_resnet.py
+src/SRE_Conv/sre_resnet_3d.py
+src/SRE_Conv/transforms.py
+src/SRE_Conv/utils.py
+src/SRE_Conv.egg-info/PKG-INFO
+src/SRE_Conv.egg-info/SOURCES.txt
+src/SRE_Conv.egg-info/dependency_links.txt
+src/SRE_Conv.egg-info/requires.txt
+src/SRE_Conv.egg-info/top_level.txt
