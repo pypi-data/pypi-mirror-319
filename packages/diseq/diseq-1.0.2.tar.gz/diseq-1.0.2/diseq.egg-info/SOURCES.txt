@@ -1,0 +1,9 @@
+README.md
+setup.py
+diseq/__init__.py
+diseq/diseq.py
+diseq.egg-info/PKG-INFO
+diseq.egg-info/SOURCES.txt
+diseq.egg-info/dependency_links.txt
+diseq.egg-info/requires.txt
+diseq.egg-info/top_level.txt
