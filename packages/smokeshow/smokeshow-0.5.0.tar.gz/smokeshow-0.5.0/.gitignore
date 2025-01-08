@@ -1,0 +1,9 @@
+/.venv/
+/build/
+/htmlcov/
+*.py[cod]
+*.egg-info/
+.cache/
+.mypy_cache/
+/upload.sh
+.python-version
