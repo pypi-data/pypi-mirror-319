@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: apishare
+Version: 0.2.0
+Summary: A Python package for financial market data access
+Home-page: https://www.apishare.cn
+Author: chengangqiang
+Author-email: chengq@niututu.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: pandas>=2.2.3
+
+# APIShare
+
+一个专业的金融数据接口 Python 包，提供股票、基金等金融市场数据的快速访问。
+官网：https://www.apishare.cn
+
+## 安装
+
+```bash
+pip install apishare
+```
+
+## 使用方法
+
+```python
+from apishare import APIShare
+
+# 创建一个实例并传入你的 API 令牌
+api = APIShare(token="your-api-token")
+
+# 获取股票日线数据
+daily_data = api.get_data(
+    api_name="daily",          # 接口名称：日线数据(更多接口见官网)
+    code="000001.SZ",         # 股票代码：平安银行
+    start_date="20240101",    # 起始日期
+    end_date="20241231"       # 结束日期
+)
+print(daily_data)
+```
+
+## 特性
+
+- 覆盖全面的金融市场数据
+- 简单直观的 API 设计
+- 支持 DataFrame 格式输出
+- 高效的数据获取和处理
+- 详细的接口文档和示例
+
+## 许可证
+
+本项目采用 Apache License 2.0 许可证。
