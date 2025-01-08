@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+endoc/__init__.py
+endoc/client.py
+endoc/document_search.py
+endoc/memsum_summary.py
+endoc/paginated_search.py
+endoc/queries.py
+endoc.egg-info/PKG-INFO
+endoc.egg-info/SOURCES.txt
+endoc.egg-info/dependency_links.txt
+endoc.egg-info/requires.txt
+endoc.egg-info/top_level.txt
