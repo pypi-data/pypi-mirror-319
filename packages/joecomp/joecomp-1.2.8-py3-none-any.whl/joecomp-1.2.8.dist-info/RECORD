@@ -1,0 +1,10 @@
+joecomp/__init__.py,sha256=fNMIGeQc9vezbEe0k3OvZLymhd-NmDn3yXX7joHKAlI,464
+joecomp/chemistry_properties.py,sha256=cIrB2Y_-Cn7ik6L2xXdL2ubxXDyW7YTrNu655nPbf6w,1570
+joecomp/colour_maps.py,sha256=0I9-0pK7HnSUpctveu92Bcq09xE4kslzEHXyLedOhbk,594
+joecomp/disc_loader.py,sha256=UBGCumLCMOj4LXtJnSYqpQ03RuR71Ig9_Jbh97HXAV0,29018
+joecomp/import_config.py,sha256=HSA1f057MQRPejlUbT4tYIZ_gcscJfn281_QDjbV3CY,3399
+joecomp-1.2.8.dist-info/LICENSE.txt,sha256=2533I6wq5_rQU17IeREHVLgHaDjcYkL2cEdCcE3zEg4,464
+joecomp-1.2.8.dist-info/METADATA,sha256=2YgV6OA8nKqTYY4casunTmideCB1WCY9aAzCnucC4Y4,574
+joecomp-1.2.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+joecomp-1.2.8.dist-info/top_level.txt,sha256=4wKOaHr-nxYefHJkwv529JK1G3NRMqRl4dR64Xybo6E,8
+joecomp-1.2.8.dist-info/RECORD,,
