@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: utils-pl
+Version: 0.1
+Summary: A set of utilities written in python for various tasks. 
+License: MIT
+Requires-Dist: rich
+
+A set of utilities written in python for various tasks. 
