@@ -1,0 +1,201 @@
+# Created on 01/07/2024
+# Author: Frank Vega
+
+from . import algorithm
+from . import applogger
+from . import parser
+
+import time
+import numpy as np
+import argparse
+import scipy.sparse as sparse
+import random
+import string
+import math
+
+
+def make_symmetric(matrix):
+    """Makes an arbitrary sparse matrix symmetric efficiently.
+
+    Args:
+        matrix: A SciPy sparse matrix (e.g., csc_matrix, csr_matrix, etc.).
+
+    Returns:
+        scipy.sparse.csc_matrix: A symmetric sparse matrix.
+    Raises:
+        TypeError: if the input is not a sparse matrix.
+    """
+
+    if not sparse.issparse(matrix):
+        raise TypeError("Input must be a SciPy sparse matrix.")
+
+    rows, cols = matrix.shape
+    if rows != cols:
+        raise ValueError("Matrix must be square to be made symmetric.")
+
+    # Convert to COO for efficient duplicate handling
+    coo = matrix.tocoo()
+
+    # Concatenate row and column indices, and data with their transposes
+    row_sym = np.concatenate([coo.row, coo.col])
+    col_sym = np.concatenate([coo.col, coo.row])
+    data_sym = np.concatenate([coo.data, coo.data])
+
+    # Create the symmetric matrix in CSC format
+    symmetric_matrix = sparse.csc_matrix((data_sym, (row_sym, col_sym)), shape=(rows, cols))
+    symmetric_matrix.sum_duplicates() #sum the duplicates
+
+    return symmetric_matrix
+
+def random_matrix_tests(matrix_shape, sparsity=0.9):
+    """
+    Performs random tests on a sparse matrix.
+
+    Args:
+        matrix_shape (tuple): Shape of the matrix (rows, columns).
+        num_tests (int): Number of random tests to perform.
+        sparsity (float): Sparsity of the matrix (0.0 for dense, close to 1.0 for very sparse).
+
+    Returns:
+        list: A list containing the results of each test.
+        sparse matrix: the sparse matrix that was tested.
+    """
+
+    rows, cols = matrix_shape
+    size = rows * cols
+
+    # Generate a sparse matrix using random indices and data
+    num_elements = int(size * (1 - sparsity))  # Number of non-zero elements
+    row_indices = np.random.randint(0, rows, size=num_elements)
+    col_indices = np.random.randint(0, cols, size=num_elements)
+    data = np.ones(num_elements, dtype=np.int8)
+
+    sparse_matrix = sparse.csc_matrix((data, (row_indices, col_indices)), shape=(rows, cols))
+
+    symmetric_matrix = make_symmetric(sparse_matrix)  
+
+    symmetric_matrix.setdiag(0)
+
+    return symmetric_matrix
+
+def is_triangle_free(adj_matrix):
+    """
+    Checks if a graph represented by a sparse adjacency matrix is triangle-free using matrix multiplication.
+
+    Args:
+        adj_matrix: A SciPy sparse matrix (e.g., csc_matrix) representing the adjacency matrix.
+
+    Returns:
+        True if the graph is triangle-free, False otherwise.
+        Raises ValueError if the input matrix is not square.
+        Raises TypeError if the input is not a sparse matrix.
+    """
+
+    if not sparse.issparse(adj_matrix):
+        raise TypeError("Input must be a SciPy sparse matrix.")
+
+    rows, cols = adj_matrix.shape
+    if rows != cols:
+        raise ValueError("Adjacency matrix must be square.")
+
+    # Calculate A^3 (matrix multiplication of A with itself three times)
+    adj_matrix_cubed = adj_matrix @ adj_matrix @ adj_matrix #more efficient than matrix power
+
+    # Check the diagonal of A^3. A graph has a triangle if and only if A^3[i][i] > 0 for some i.
+    # Because A^3[i][i] represents the number of paths of length 3 from vertex i back to itself.
+    # Efficiently get the diagonal of a sparse matrix
+    diagonal = adj_matrix_cubed.diagonal()
+    return np.all(diagonal == 0)
+
+def restricted_float(x):
+    try:
+        x = float(x)
+    except ValueError:
+        raise argparse.ArgumentTypeError("%r not a floating-point literal" % (x,))
+
+    if x < 0.0 or x > 1.0:
+        raise argparse.ArgumentTypeError("%r not in range [0.0, 1.0]"%(x,))
+    return x
+
+def generate_short_hash(length=6):
+    """Generates a short random alphanumeric hash string.
+
+    Args:
+        length: The desired length of the hash string (default is 6).
+
+    Returns:
+        A random alphanumeric string of the specified length.
+        Returns None if length is invalid.
+    """
+
+    if not isinstance(length, int) or length <= 0:
+        print("Error: Length must be a positive integer.")
+        return None
+
+    characters = string.ascii_letters + string.digits  # alphanumeric chars
+    return ''.join(random.choice(characters) for i in range(length))
+
+def main():
+    
+    # Define the parameters
+    helper = argparse.ArgumentParser(prog="test_triangle", description="The Finlay Testing Application.")
+    helper.add_argument('-d', '--dimension', type=int, help="An integer specifying the square dimensions of random matrix tests.", required=True)
+    helper.add_argument('-n', '--num_tests', type=int, default=5, help="An integer specifying the number of random matrix tests.")
+    helper.add_argument('-s', '--sparsity', type=restricted_float, default=0.95, help="Sparsity of the matrix (0.0 for dense, close to 1.0 for very sparse).")
+    helper.add_argument('-a', '--all', action='store_true', help='Enable the identification of all triangles represented by two vertices of the triangle.')
+    helper.add_argument('-w', '--write', action='store_true', help='Enable write random matrix to file')
+    helper.add_argument('-l', '--log', action='store_true', help='Enable file logging')
+    
+
+    # Initialize the parameters
+    args = helper.parse_args()
+    num_tests = args.num_tests
+    matrix_shape = (args.dimension, args.dimension)
+    sparsity = args.sparsity
+    logger = applogger.Logger(applogger.FileLogger() if (args.log) else applogger.ConsoleLogger())
+    all_triangles = args.all
+    hash_string = generate_short_hash(6 + math.ceil(math.log2(num_tests))) if args.write else None
+
+    # Perform the tests    
+    for i in range(num_tests):
+        
+        logger.info(f"Creating Matrix {i + 1}")
+        
+        sparse_matrix = random_matrix_tests(matrix_shape, sparsity)
+
+        if sparse_matrix is None:
+            continue
+
+        logger.info(f"Matrix shape: {sparse_matrix.shape}")
+        logger.info(f"Number of non-zero elements: {sparse_matrix.nnz}")
+        logger.info(f"Sparsity: {1 - (sparse_matrix.nnz / (sparse_matrix.shape[0] * sparse_matrix.shape[1]))}")
+        
+        # A Solution with O(n + m) Time Complexity
+        logger.info("A solution with a time complexity of O(n + m) started")
+        started = time.time()
+        
+        result = algorithm.find_all_triangles(sparse_matrix) if all_triangles else algorithm.is_triangle_free(sparse_matrix)
+
+        answer =  algorithm.string_all_results_format(result) if all_triangles else algorithm.string_result_format(result)
+
+        logger.info(f"A solution with a time complexity of O(n + m) done in: {(time.time() - started) * 1000.0} milliseconds")
+        
+        logger.info(f"Algorithm Smart Test {i + 1}: {answer}")
+        
+        # A Solution with O(n + m) Time Complexity
+        logger.info("A solution with a time complexity of at least O(m^(2.372)) started")
+        started = time.time()
+        
+        answer = algorithm.string_simple_format(is_triangle_free(sparse_matrix))
+        
+        logger.info(f"A solution with a time complexity of at least O(m^(2.372)) done in: {(time.time() - started) * 1000.0} milliseconds")
+        
+        logger.info(f"Algorithm Naive Test {i + 1}: {answer}")
+
+        if args.write:
+            logger.info(f"Saving Matrix {i + 1}")
+            filename = f"sparse_matrix_{i + 1}_{hash_string}.txt"
+            parser.save_sparse_matrix_to_file(sparse_matrix, filename)
+            logger.info(f"Matrix {i + 1} written to file {filename}.")
+if __name__ == "__main__":
+  main()      
