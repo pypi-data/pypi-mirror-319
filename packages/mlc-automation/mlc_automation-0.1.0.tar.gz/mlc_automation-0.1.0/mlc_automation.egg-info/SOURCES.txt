@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+mlc/main.py
+mlc_automation.egg-info/PKG-INFO
+mlc_automation.egg-info/SOURCES.txt
+mlc_automation.egg-info/dependency_links.txt
+mlc_automation.egg-info/requires.txt
+mlc_automation.egg-info/top_level.txt
