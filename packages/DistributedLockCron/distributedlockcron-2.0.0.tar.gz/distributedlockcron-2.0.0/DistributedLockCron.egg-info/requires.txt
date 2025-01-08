@@ -1,0 +1,4 @@
+APScheduler
+mysql-connector-python
+redis
+requests
