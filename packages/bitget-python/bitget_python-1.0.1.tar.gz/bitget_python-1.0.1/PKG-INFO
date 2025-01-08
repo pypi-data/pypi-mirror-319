@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: bitget-python
+Version: 1.0.1
+Summary: A Python client for the Bitget API with comprehensive position management
+Author: Tentoxa
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: requests>=2.32.2
