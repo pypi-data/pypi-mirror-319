@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: coogle
+Version: 0.0.1
+Author: Monisha-1996
+Keywords: drive,google
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Localization
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Version Control
+Requires-Python: ~=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+<p align="center">
+ <a href="https://pypi.org/project/coogle">Coogle</a>
+</p>
+
+```python
+
+from Coogle import calculate
+
+value = calculate(20000)
+
+print(value)
+
+```
