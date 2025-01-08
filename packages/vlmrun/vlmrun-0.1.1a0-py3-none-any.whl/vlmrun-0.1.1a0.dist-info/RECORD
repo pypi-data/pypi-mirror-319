@@ -1,0 +1,11 @@
+vlmrun/version.py,sha256=dvdoOJZpN30glM6BrWdBFETb_pgvPXnCShWQOoCJP-I,24
+vlmrun/client/__init__.py,sha256=M0MsdjynBsX4lqX7xSy4XjWHa-RMoyAZustKa7lQc_I,41
+vlmrun/client/client.py,sha256=meF49FO4gW10skbKIDY-7zHK_3llvDkEV3_WvXDHYew,65
+vlmrun/common/image.py,sha256=Ns2P1EYebz39PUjJJe4qYaBx03X0Rxnj8fOKycLg-xw,2284
+vlmrun/common/pdf.py,sha256=8CaQkmSk4c1SamvmdUw8wd1em_kc6peho1scPo_jBYU,1545
+vlmrun/common/video.py,sha256=IVwJPTCP-p9J-ckn2pYSUQsbMFnvouhJ96Ich-qHIYA,9249
+vlmrun-0.1.1a0.dist-info/LICENSE,sha256=fwnMAbo_IpPg7BojKDDYjJLi2BGubpQLoeQ1G3ojRNI,11355
+vlmrun-0.1.1a0.dist-info/METADATA,sha256=wEn35vaictmPouUv1wDjZ3IWil7DlsnSfVw7nvBpDyQ,18384
+vlmrun-0.1.1a0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+vlmrun-0.1.1a0.dist-info/top_level.txt,sha256=keAeh1F2cJnl4BBhZniqPiD3bGY_6_5V_gijs3Kc4h8,7
+vlmrun-0.1.1a0.dist-info/RECORD,,
