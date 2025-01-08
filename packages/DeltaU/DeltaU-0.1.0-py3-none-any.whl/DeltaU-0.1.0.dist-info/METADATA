@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: DeltaU
+Version: 0.1.0
+Summary: A flexible backtesting package with customizable tear sheets
+Author: Julian Fortis
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas >=1.0.0
+Requires-Dist: matplotlib >=3.0.0
+Requires-Dist: numpy >=1.18.0
+
