@@ -1,0 +1,9 @@
+README.md
+setup.py
+wdwq/__init__.py
+wdwq/wdwq.py
+wdwq.egg-info/PKG-INFO
+wdwq.egg-info/SOURCES.txt
+wdwq.egg-info/dependency_links.txt
+wdwq.egg-info/requires.txt
+wdwq.egg-info/top_level.txt
