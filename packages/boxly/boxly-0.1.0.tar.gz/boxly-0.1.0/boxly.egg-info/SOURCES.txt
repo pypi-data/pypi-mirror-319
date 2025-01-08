@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+boxly/__init__.py
+boxly/ops.py
+boxly.egg-info/PKG-INFO
+boxly.egg-info/SOURCES.txt
+boxly.egg-info/dependency_links.txt
+boxly.egg-info/requires.txt
+boxly.egg-info/top_level.txt
