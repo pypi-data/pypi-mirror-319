@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "yamlgenerator-hook-validate"
+version = "1.0.0"
+description = ""
+authors = ["kaixinol <keiplyer@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "yamlgenerator_hook_validate"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+gameyamlspiderandgenerator = ">=2.0.0b2, <3.0"
+jsonschema = ">=4.17.3"
+loguru = ">=0.7.0,<1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
