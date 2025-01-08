@@ -1,0 +1,8 @@
+README.md
+hello.py
+pyproject.toml
+svlearn_pdf_helpers.egg-info/PKG-INFO
+svlearn_pdf_helpers.egg-info/SOURCES.txt
+svlearn_pdf_helpers.egg-info/dependency_links.txt
+svlearn_pdf_helpers.egg-info/requires.txt
+svlearn_pdf_helpers.egg-info/top_level.txt
