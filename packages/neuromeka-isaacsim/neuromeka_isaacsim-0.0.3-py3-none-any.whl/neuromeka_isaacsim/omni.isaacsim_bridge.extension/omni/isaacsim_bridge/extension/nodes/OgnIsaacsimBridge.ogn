@@ -1,0 +1,28 @@
+{
+    "isaac_sim_bridge": {
+        "version": 1,
+        "description": "",
+        "language": "Python",
+        "metadata": {
+            "uiName": "IsaacSimBridge"
+        },
+        "inputs": {
+            "execute": {
+                "type": "execution",
+                "description": "",
+                "default": 0,
+                "metadata": {
+                    "uiName": "Execute"
+                }
+            },
+            "step_ip": {
+                "type": "string",
+                "description": "",
+                "metadata": {
+                    "uiName": "StepIP"
+                },
+                "default": "192.168.10.196"
+            }
+        }
+    }
+}
