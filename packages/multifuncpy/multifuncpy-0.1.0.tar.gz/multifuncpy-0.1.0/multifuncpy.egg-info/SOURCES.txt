@@ -1,0 +1,9 @@
+README.md
+setup.py
+multifuncpy.egg-info/PKG-INFO
+multifuncpy.egg-info/SOURCES.txt
+multifuncpy.egg-info/dependency_links.txt
+multifuncpy.egg-info/requires.txt
+multifuncpy.egg-info/top_level.txt
+tests/__init__.py
+tests/test_client.py
