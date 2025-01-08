@@ -1,0 +1,10 @@
+schemastore/__init__.py,sha256=fe6W8aVzmHeyXwN9ByiBj7INJIKfT4bJc_jUScApnog,2049
+schemastore/__main__.py,sha256=WQnAA9pf-Iux4wOe8BBPt-zS5lqdFwBzCXGGsfFZ6vE,375
+schemastore/cache.sqlite,sha256=uBYYkJPtxSfAO7isiPnkGnf54GoMZKWZPxEduvGHNgQ,28155904
+schemastore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schemastore/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schemastore/tests/test_jsonschema.py,sha256=fvfKN-b4vnsFNvdrNnxy2rHIpw85Ds3nqgWMmErAUxo,97
+schemastore-0.2.0.dist-info/METADATA,sha256=KmsmyTdImV5DpHCgsKpRRr86lZ3waAq8af0kDSNDBJE,2603
+schemastore-0.2.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+schemastore-0.2.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+schemastore-0.2.0.dist-info/RECORD,,
