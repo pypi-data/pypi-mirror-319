@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cli_veripy/__init__.py
+cli_veripy/argument.py
+cli_veripy/cli_args.py
+cli_veripy.egg-info/PKG-INFO
+cli_veripy.egg-info/SOURCES.txt
+cli_veripy.egg-info/dependency_links.txt
+cli_veripy.egg-info/top_level.txt
