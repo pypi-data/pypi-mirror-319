@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: epidemic-intelligence
+Version: 1.0.0
+Summary: A data visualization package to explore large-scale spatio-temporal simulation data.
+Project-URL: Repository, https://github.com/mattk7/epidemic-intelligence
+Author-email: Elijah Sandler <sandler.e@northeastern.edu>, Matteo Chinazzi <m.chinazzi@northeastern.edu>
+License-File: license.txt
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: db-dtypes>=1.0.0
+Requires-Dist: epiweeks
+Requires-Dist: google-cloud-bigquery-storage
+Requires-Dist: google-cloud-bigquery>=3.0.0
+Requires-Dist: kaleido==0.1.0.post1
+Requires-Dist: matplotlib>=3.7.0
+Requires-Dist: pandas>=2.1.0
+Requires-Dist: plotly>=5.24
+Description-Content-Type: text/markdown
+
+# epidemic-intelligence
+`epidemic-intelligence` is an open-source Python package developed at the Network Science Institute to explore large-scale spatio-temporal simulation data. Simply put, it uses Google's BigQuery to efficiently process and visualize simulations of networks across time, then uses the output to create publication ready visualizations. 
+
+This GitHub repository contains the code for the Python package and the documentation, which is contained within a JupyterBook.  
+
+## Tools
+Full documentation, including installation and setup, is available [here](url). 
+
+The `epidemic-intelligence` package  can be found on the Python Package Index [here](url). 
+
+Instructions for updating both the library and the corresponding documentation can be found in `CONTRIBUTING.md`.
+
+## License
+`epidemic-intelligence` is distributed with the 3-clause BSD license. The full text of this license can be found in `license.txt`. 
