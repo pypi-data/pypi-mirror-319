@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+snakespawn/__init__.py
+snakespawn/licenses.py
+snakespawn/main.py
+snakespawn.egg-info/PKG-INFO
+snakespawn.egg-info/SOURCES.txt
+snakespawn.egg-info/dependency_links.txt
+snakespawn.egg-info/entry_points.txt
+snakespawn.egg-info/requires.txt
+snakespawn.egg-info/top_level.txt
