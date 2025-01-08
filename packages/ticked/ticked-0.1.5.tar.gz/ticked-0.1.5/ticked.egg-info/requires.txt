@@ -1,0 +1,14 @@
+requests
+textual
+textual-dev
+rich
+psutil
+pygments
+textual[syntax]
+pyfiglet
+spotipy
+python-dotenv
+xdg-base-dirs
+setuptools
+caldav
+packaging
