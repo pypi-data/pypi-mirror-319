@@ -1,0 +1,7 @@
+README.md
+setup.py
+FatalMemoryLiar.egg-info/PKG-INFO
+FatalMemoryLiar.egg-info/SOURCES.txt
+FatalMemoryLiar.egg-info/dependency_links.txt
+FatalMemoryLiar.egg-info/requires.txt
+FatalMemoryLiar.egg-info/top_level.txt

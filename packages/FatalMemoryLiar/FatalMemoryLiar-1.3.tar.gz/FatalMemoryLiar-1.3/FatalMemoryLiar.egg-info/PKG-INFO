@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: FatalMemoryLiar
+Version: 1.3
+Summary: A way to make python cheating easy like memory.dll from C#.
+Home-page: https://github.com/FatalLiar/memoryPY
+Author: Fatal_Liar
+Author-email: Brandinrat@gmail.com
+Description-Content-Type: text/markdown
