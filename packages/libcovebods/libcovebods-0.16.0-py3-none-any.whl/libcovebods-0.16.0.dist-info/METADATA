@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: libcovebods
+Version: 0.16.0
+Summary: A data review library
+Home-page: https://github.com/openownership/lib-cove-bods
+Author: Open Data Services
+Author-email: code@opendataservices.coop
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: python-dateutil
+Requires-Dist: libcove2>=0.2.1
+Requires-Dist: packaging
+Requires-Dist: jsonschema>=4.23
+Requires-Dist: jscc>=0.2.4
+Requires-Dist: pytz
+Requires-Dist: ijson
+Requires-Dist: rfc3987
+Requires-Dist: rfc3339-validator
+Requires-Dist: jsonpointer
+Requires-Dist: pycountry
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: black==22.3.0; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+
+A data review library
