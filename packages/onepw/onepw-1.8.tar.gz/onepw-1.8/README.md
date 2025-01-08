@@ -1,0 +1,183 @@
+### The `onepw` Python module for limited 1Password integration
+
+See [PyPi](https://pypi.org/project/onepw/) for documentation
+generated from the source code of the module.
+
+### To install and use the module
+
+This module implements a limited 1Password integration for Python
+using 1Password CLI:
+
+ - https://developer.1password.com/docs/cli
+
+To use the module, install the 1Password CLI tool `op`:
+
+ - https://1password.com/downloads/command-line/
+
+(or install it with a package tool, e.g., HomeBrew on a Mac).
+
+The `onepw` module is avilable from my software repository and from
+PyPi:
+
+ - https://www.pg12.org/software
+
+ - https://pypi.org/project/onepw/
+
+It is best to install the module and the companion console script
+`onepw` with `pip`:
+
+```bash
+pip install onepw
+```
+
+It is recommended to integrated the 1Password CLI tool with the
+1Password desktop app (to use the desktop app to sign in to
+1Password).  See Step 2 for details:
+
+ - https://developer.1password.com/docs/cli/get-started/
+
+Other similar Python modules, with more or different functionality,
+are available. One option is to use the `keyring` module with the
+third-party backend *OnePassword Keyring*:
+
+ - https://pypi.org/project/keyring/
+
+ - https://pypi.org/project/onepassword-keyring/
+
+One downside of this approach is that when *OnePassword Keyring* is
+installed, it replaces the default backend of the `keyring` module.  I
+prefer that the default behavior of `keyring` is unchanged (using the
+system keychain/keyring) and use a specific module (like `onepw`) for
+1Password integration in Python.
+
+#### Class `OnePW`
+
+A Python class for a 1Password session
+
+When an instance of this class is created, a 1Password session is
+created.  With this session you can perform 1Password CLI
+commands. The following methods for such commands are available
+
+ - `get`: get a field from a 1Password entry
+
+ - `add`: add an entry to 1Password
+
+This is an example where a 1Password session is created and the
+password from the `"Google"` entry in 1Password is fetched:
+
+```python
+op = OnePW()
+pw = op.get("Google", field="password")
+```
+
+#### Method <a id="get"></a>`get`
+
+*Get a field from a 1Password entry*
+
+The signature of `get`:
+
+```python
+get(self, title: str, field: str = 'password') -> str
+```
+
+Get a field from the 1Password entry with title `title`. The
+default field is `"password"`, but any other fields like
+`"username"`, `"email"` or `"url"` are possible.  Raises a
+`OnePWError` exception if an entry with the given title and/or
+field is not found.
+
+ - `title`: The title of the entry
+
+ - `field`: The field to get from the entry (default `"password"`)
+
+ - `return`: The value of the field in the entry
+
+#### Method <a id="add"></a>`add`
+
+*Add a new entry to 1Password*
+
+The signature of `add`:
+
+```python
+add(self, title: str, username: str, password: str, email: str | None = None, url: str | None = None)
+```
+
+Add a new entry to 1Password with the provided values. A
+title, username and password is required. Raises a
+`OnePWError` exception if adding the entry fails.
+
+ - `title`: The title of the entry
+
+ - `username`: The username added to the entry
+
+ - `password`: The password added to the entry
+
+ - `email`: The email address added to the entry (default `None`)
+
+ - `url`: The URL added to the entry (default `None`)
+
+### Use the module <a id="cli"></a>`onepw` as a console script
+#### Command <a id="cli-onepw"></a>`onepw`
+**Usage:**
+
+```
+onepw [-h] [-V] [--doc [{get,add}]] [--account ACCOUNT] [--pw PASSWORD] {get,add} ...
+```
+
+Perform 1Password CLI commands
+
+**Positional arguments:**
+
+Name | Description
+---- | -----------
+`{get,add}` | the command to perform
+`get` | get the value of a field from an entry in 1Password
+`add` | add an entry to 1Password
+
+**Options:**
+
+Name | Description
+---- | -----------
+`-h, --help` | show this help message and exit
+`-V, --version` | show program's version number and exit
+`--doc [{get,add}]` | print documentation of module or specific command
+`--account ACCOUNT` | the 1Password account (usually, not necessary)
+`--pw PASSWORD` | the 1Password secret password (be careful using this)
+
+Use `onepw {get,add} -h` to show help message for a specific command
+
+#### Command <a id="cli-onepw-get"></a>`onepw get`
+
+**Usage:**
+
+```
+onepw get [-h] --title TITLE [--field FIELD]
+```
+
+**Options:**
+
+Name | Description
+---- | -----------
+`-h, --help` | show this help message and exit
+`--title TITLE` | the title of the entry to get the value from
+`--field FIELD` | the field of the entry to get the value from (default 'password'
+
+#### Command <a id="cli-onepw-add"></a>`onepw add`
+
+**Usage:**
+
+```
+onepw add [-h] --title TITLE --username USERNAME [--password PASSWORD] [--email EMAIL] [--url URL]
+```
+
+**Options:**
+
+Name | Description
+---- | -----------
+`-h, --help` | show this help message and exit
+`--title TITLE` | the title of the new entry
+`--username USERNAME` | the user name in the new entry
+`--password PASSWORD` | the password in the new entry (`onepw add` will ask for the password if it is not provided)
+`--email EMAIL` | the email address in the new entry (default None)
+`--url URL` | the URL in the new entry (default None)
+
