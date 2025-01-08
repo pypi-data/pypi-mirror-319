@@ -1,0 +1,218 @@
+Metadata-Version: 2.1
+Name: autopc
+Version: 1.0.1.9
+Summary: An image recognition framework running on a computer
+Home-page: https://github.com/orcakill/autopc
+Author: orcakill
+Author-email: orcakill@dingtalk.com
+License: Apache License 2.0
+Keywords: automation,opencv-python,ocr
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: airtest==1.3.5
+Requires-Dist: alabaster==0.7.16
+Requires-Dist: annotated-types==0.7.0
+Requires-Dist: asttokens==3.0.0
+Requires-Dist: attrs==24.3.0
+Requires-Dist: babel==2.16.0
+Requires-Dist: backcall==0.2.0
+Requires-Dist: backports.tarfile==1.2.0
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: bleach==6.2.0
+Requires-Dist: cached-property==1.5.2
+Requires-Dist: certifi==2024.8.30
+Requires-Dist: chardet==5.2.0
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: click==8.1.7
+Requires-Dist: colorama==0.4.6
+Requires-Dist: colored==2.2.4
+Requires-Dist: commonmark==0.9.1
+Requires-Dist: comtypes==1.4.7
+Requires-Dist: construct==2.10.70
+Requires-Dist: decorator==5.1.1
+Requires-Dist: defusedxml==0.7.1
+Requires-Dist: Deprecated==1.2.14
+Requires-Dist: deprecation==2.1.0
+Requires-Dist: docopt==0.6.2
+Requires-Dist: docutils==0.21.2
+Requires-Dist: executing==2.1.0
+Requires-Dist: facebook-wda==1.4.9
+Requires-Dist: fastjsonschema==2.21.1
+Requires-Dist: ffmpeg-python==0.2.0
+Requires-Dist: filelock==3.16.1
+Requires-Dist: future==1.0.0
+Requires-Dist: idna==3.10
+Requires-Dist: imageio==2.35.1
+Requires-Dist: imagesize==1.4.1
+Requires-Dist: importlib_metadata==8.0.0
+Requires-Dist: ipython==8.12.3
+Requires-Dist: jaraco.classes==3.4.0
+Requires-Dist: jaraco.context==5.3.0
+Requires-Dist: jaraco.functools==4.0.1
+Requires-Dist: jedi==0.19.2
+Requires-Dist: Jinja2==3.1.4
+Requires-Dist: jsonschema==4.23.0
+Requires-Dist: jsonschema-specifications==2024.10.1
+Requires-Dist: jupyter_client==8.6.3
+Requires-Dist: jupyter_core==5.7.2
+Requires-Dist: jupyterlab_pygments==0.3.0
+Requires-Dist: keyring==25.4.1
+Requires-Dist: loguru==0.7.3
+Requires-Dist: logzero==1.7.0
+Requires-Dist: Markdown==3.7
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: MarkupSafe==2.1.5
+Requires-Dist: matplotlib-inline==0.1.7
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: mistune==3.0.2
+Requires-Dist: mock==5.1.0
+Requires-Dist: more-itertools==10.3.0
+Requires-Dist: mss==6.1.0
+Requires-Dist: nbclient==0.10.2
+Requires-Dist: nbconvert==7.16.4
+Requires-Dist: nbformat==5.10.4
+Requires-Dist: nh3==0.2.18
+Requires-Dist: numpy==1.26.4
+Requires-Dist: opencv-contrib-python==4.5.5.64
+Requires-Dist: opencv-python==4.5.5.64
+Requires-Dist: packaging==24.1
+Requires-Dist: pandocfilters==1.5.1
+Requires-Dist: parso==0.8.4
+Requires-Dist: pickleshare==0.7.5
+Requires-Dist: pillow==10.4.0
+Requires-Dist: pipreqs==0.5.0
+Requires-Dist: pkginfo==1.10.0
+Requires-Dist: platformdirs==4.2.2
+Requires-Dist: prompt_toolkit==3.0.48
+Requires-Dist: psutil==6.0.0
+Requires-Dist: pure_eval==0.2.3
+Requires-Dist: py==1.11.0
+Requires-Dist: pydantic==2.9.2
+Requires-Dist: pydantic_core==2.23.4
+Requires-Dist: Pygments==2.18.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pywin32-ctypes==0.2.3
+Requires-Dist: pywinauto==0.6.3
+Requires-Dist: pyzmq==26.2.0
+Requires-Dist: readme_renderer==44.0
+Requires-Dist: recommonmark==0.7.1
+Requires-Dist: referencing==0.35.1
+Requires-Dist: requests==2.32.3
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: retry==0.9.2
+Requires-Dist: rfc3986==2.0.0
+Requires-Dist: rich==13.9.1
+Requires-Dist: rpds-py==0.22.3
+Requires-Dist: rstcheck==6.2.4
+Requires-Dist: rstcheck-core==1.2.1
+Requires-Dist: shellingham==1.5.4
+Requires-Dist: simple-tornado==0.2.2
+Requires-Dist: simplejson==3.19.3
+Requires-Dist: six==1.16.0
+Requires-Dist: snowballstemmer==2.2.0
+Requires-Dist: soupsieve==2.6
+Requires-Dist: Sphinx==7.4.7
+Requires-Dist: sphinx-markdown-tables==0.0.17
+Requires-Dist: sphinx-rtd-theme==3.0.1
+Requires-Dist: sphinxcontrib-applehelp==2.0.0
+Requires-Dist: sphinxcontrib-devhelp==2.0.0
+Requires-Dist: sphinxcontrib-htmlhelp==2.1.0
+Requires-Dist: sphinxcontrib-jquery==4.1
+Requires-Dist: sphinxcontrib-jsmath==1.0.1
+Requires-Dist: sphinxcontrib-qthelp==2.0.0
+Requires-Dist: sphinxcontrib-serializinghtml==2.0.0
+Requires-Dist: stack-data==0.6.3
+Requires-Dist: tabulate==0.9.0
+Requires-Dist: tidevice==0.12.10
+Requires-Dist: tinycss2==1.4.0
+Requires-Dist: tomli==2.0.1
+Requires-Dist: tornado==6.4.2
+Requires-Dist: traitlets==5.14.3
+Requires-Dist: twine==5.1.1
+Requires-Dist: typer==0.13.0
+Requires-Dist: typing_extensions==4.12.2
+Requires-Dist: urllib3==2.2.3
+Requires-Dist: wcwidth==0.2.13
+Requires-Dist: webencodings==0.5.1
+Requires-Dist: win32_setctime==1.2.0
+Requires-Dist: wrapt==1.16.0
+Requires-Dist: yarg==0.1.9
+Requires-Dist: zipp==3.19.2
+Requires-Dist: pywin32
+Provides-Extra: test
+Requires-Dist: nose; extra == "test"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: recommonmark; extra == "docs"
+Requires-Dist: sphinx_rtd_theme; extra == "docs"
+Requires-Dist: mock; extra == "docs"
+
+# AutoPC
+
+**基于Windows的跨平台的UI自动化框架，适用于游戏和App**（[Click here for the English version](./README_en.md)）
+
+## 快速开始
+
+* **各种运行：** AutoPC提供了跨平台的API，包括安装应用、图像识别、模拟输入等。 基于图像识别技术定位UI元素，你无需嵌入任何代码即可进行自动化。
+
+* **扩展性：** AutoPC提供了命令行和python接口，可以很容易地在大规模设备集群上运行。
+
+## 安装
+
+使用 `pip` 安装AutoPC框架
+
+```Shell
+pip install -U autopc
+```
+
+在Windows系统下操作Android，需要检查设备是否已经通过ADB连接
+
+```Shell
+# windows系统
+adb devices
+```
+
+## 文档
+
+完整的AutoPC文档请看 [readthedocs](http://autopc.readthedocs.io/zh-cn/latest/)。
+
+## 例子
+
+AutoPC提供与平台无关的的python API，让你的自动化代码可以运行Windows上，操作不同平台的应用。
+
+1. 使用 [connect_device](https://autopc.readthedocs.io/zh-cn/latest/source/autopc.basic.basic_airtest.html#auto_step)
+   来连接任意Android设备或者Windows窗口。
+2. 使用 [模拟操作](https://autopc.readthedocs.io/zh-cn/latest/README_MORE.html#id9) 的API来自动化你的游戏或者App。
+
+```Python
+from autopc.basic.basic_airtest import *
+
+# 通过ADB连接本地Android设备
+BasicAirtest.auto_setup("Android")
+# 启动APP
+BasicAirtest.adb_start_app("package_name_of_your_apk")
+# 点击屏幕的图片
+BasicAirtest.touch(Template("image_of_a_button.png"))
+# 从图片1滑动到图片2
+BasicAirtest.swipe(Template("slide_start.png"), Template("slide_end.png"))
+```
+
+更详细的说明请看 [AutoPC Python API 文档](https://autopc.readthedocs.io/zh-cn/latest/source/autopc.basic.basic_airtest.html)
+或者直接看 [API代码](../autopc/autopc/basic/basic_airtest.py) 。
+
+## 贡献代码
+
+欢迎大家fork和提pull requests。
+
+## 致谢
+
+感谢以下仓库让AutoPC变得更好：
+
+- [stf](https://github.com/openstf)
+- [opencv](https://github.com/opencv/opencv-python)
+- [airtest](https://github.com/AirtestProject/Airtest)
+
+## 关于我
+
+个人开发者
