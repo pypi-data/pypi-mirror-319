@@ -1,0 +1,12 @@
+anchore_syft-1.18.1.dist-info/entry_points.txt,sha256=Y61GYLg8VOevTU0Kc3uO4TirQyto8FO30U60SamQjPg,76
+anchore_syft-1.18.1.dist-info/RECORD,,
+anchore_syft-1.18.1.dist-info/METADATA,sha256=ekR-0CkU33nHGxfLIVfACLNp2wwSNcKRXKcmybMUBm8,3339
+anchore_syft-1.18.1.dist-info/WHEEL,sha256=YDyAv6bfY366apRFnGTCpCFjGJ1Q-rWbRqcRQFdkcfE,212
+anchore_syft-1.18.1.dist-info/top_level.txt,sha256=e0P_00YA4jOKZ5KfDFaGQwmwKaPwSohMirvPmWRRyA8,13
+anchore_syft-1.18.1.dist-info/LICENSE,sha256=c7p036pSC0mkAbXSFFmoUjoUbzt1GKgz7qXvqFEwv2g,10273
+anchore_syft/_version.py,sha256=07_sYQKjF9JczmdcfA1aNMgwJOF4mif3uGXCMVRFbj8,413
+anchore_syft/__init__.py,sha256=2Jhr7ottIV6JWcy7mpByf7a3e7ptE4kw2L5pI483TB8,675
+anchore_syft/data/bin/syft,sha256=uz894x5X5eTPR-SU0nlQKOXXd7o5_cZHYLcIXyJTdRg,47055000
+anchore_syft-1.18.1.data/data/syft_version.cmake,sha256=_iXqLKQv1HiyKt9wZ8hGMTj4dxLIraXO0i6WQdKegVg,25
+anchore_syft-1.18.1.data/data/CMakeLists.txt,sha256=MFmDbIDscrDoXCfrNQpfez3VdHV8Zf5zlBctByjcYDE,1497
+anchore_syft-1.18.1.data/data/README.md,sha256=qivwhvim1pbWsRet1XpEimOfAGakXrUxxBCNR5Eg4j4,2231
