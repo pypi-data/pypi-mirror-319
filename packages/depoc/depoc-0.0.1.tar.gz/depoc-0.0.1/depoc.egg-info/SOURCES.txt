@@ -1,0 +1,8 @@
+README.md
+setup.py
+depoc/__init__.py
+depoc/core.py
+depoc.egg-info/PKG-INFO
+depoc.egg-info/SOURCES.txt
+depoc.egg-info/dependency_links.txt
+depoc.egg-info/top_level.txt
