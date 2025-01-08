@@ -1,0 +1,101 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "regenx"
+dynamic = ["version"]
+description = "yet another regex based text generation library"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = [
+  "regex",
+  "regular-expression",
+  "string-generation",
+  "data-generation",
+]
+authors = [{ name = "0000matteo0000", email = "matteo.sid@hotmail.it" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+
+
+[project.optional-dependencies]
+testing = ["pytest", "pytest-cov"]
+formatting = ["autopep8", "isort"]
+dev = ["regenx[testing, formatting]"]
+
+[project.urls]
+Homepage = "https://github.com/0000matteo0000/regenx"
+Documentation = "https://github.com/0000matteo0000/regenx#readme"
+Issues = "https://github.com/0000matteo0000/regenx/issues"
+Source = "https://github.com/0000matteo0000/regenx"
+
+[tool.hatch.version]
+path = "src/regenx/__about__.py"
+
+[tool.hatch.envs.hatch-test]
+dependencies = [
+  "coverage-enable-subprocess",
+  "coverage[toml]",
+  "pytest",
+  "pytest-cov",
+  "pytest-mock",
+  "pytest-randomly",
+  "pytest-xdist[psutil]",
+]
+[[tool.hatch.envs.hatch-test.matrix]]
+python = ["3.10", "3.11", "3.12", "3.13"]
+[tool.hatch.envs.hatch-test.scripts]
+run = '''
+  python3 -m pytest{env:HATCH_TEST_ARGS} \
+    --full-trace \
+    {args}
+'''
+run-cov = '''
+  COVERAGE_FILE="./tests/results/.coverage_py$(python3 -c "import platform; print(platform.python_version())")" \
+  python3 -m pytest{env:HATCH_TEST_ARGS} \
+    --cov="./src/regenx/" \
+    --cov-report="html:./tests/results/htmlcov_py$(python3 -c "import platform; print(platform.python_version())")" \
+    --full-trace \
+    {args} \
+  && rm -f ".coverage".*.*.*
+'''
+cov-combine = '''
+  COVERAGE_FILE="./tests/results/.coverage" \
+  coverage combine \
+    --keep \
+    "./tests/results/".coverage_py*
+'''
+cov-report = '''
+  COVERAGE_FILE="./tests/results/.coverage" \
+  coverage html \
+    --directory="./tests/results/htmlcov"
+'''
+[tool.coverage.run]
+source_pkgs = ["regenx", "tests"]
+branch = true
+parallel = true
+omit = ["src/regenx/__about__.py"]
+[tool.coverage.paths]
+regenx = ["src/regenx"]
+tests = ["tests"]
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
+
+[tool.ruff]
+line-length = 999
+indent-width = 4
+[tool.ruff.format]
+quote-style = "double"
