@@ -1,0 +1,7 @@
+absl-py~=1.0
+attrs~=23.1
+dm-tree==0.1.8
+ml_dtypes~=0.2.0
+numpy~=1.25
+protobuf<=5.28.3,>=4.25.0
+typing-extensions~=4.5.0
