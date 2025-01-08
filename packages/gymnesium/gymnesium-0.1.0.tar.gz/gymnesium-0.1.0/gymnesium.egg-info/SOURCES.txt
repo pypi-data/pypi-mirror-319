@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+gymnesium/__init__.py
+gymnesium/_rom.py
+gymnesium/gymnesium.py
+gymnesium.egg-info/PKG-INFO
+gymnesium.egg-info/SOURCES.txt
+gymnesium.egg-info/dependency_links.txt
+gymnesium.egg-info/not-zip-safe
+gymnesium.egg-info/requires.txt
+gymnesium.egg-info/top_level.txt
