@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+poetic_errors/__init__.py
+poetic_errors/handler.py
+poetic_errors.egg-info/PKG-INFO
+poetic_errors.egg-info/SOURCES.txt
+poetic_errors.egg-info/dependency_links.txt
+poetic_errors.egg-info/top_level.txt
