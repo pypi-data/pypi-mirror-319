@@ -1,0 +1,80 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Eliza",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "eliza/eliza.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Run Eliza Tests",
+            "type": "shell",
+            "command": "poetry",
+            "args": [
+                "run",
+                "pytest",
+                "tests/",
+                "--cov=eliza",
+                "--cov-report=term-missing"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/eliza"
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Format Eliza Code",
+            "type": "shell",
+            "command": "poetry",
+            "args": [
+                "run",
+                "black",
+                "."
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/eliza"
+            }
+        },
+        {
+            "label": "Lint Eliza Code",
+            "type": "shell",
+            "command": "poetry",
+            "args": [
+                "run",
+                "ruff",
+                "check",
+                "."
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/eliza"
+            }
+        },
+        {
+            "label": "Type Check Eliza",
+            "type": "shell",
+            "command": "poetry",
+            "args": [
+                "run",
+                "mypy",
+                "."
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/eliza"
+            }
+        }
+    ]
+} 

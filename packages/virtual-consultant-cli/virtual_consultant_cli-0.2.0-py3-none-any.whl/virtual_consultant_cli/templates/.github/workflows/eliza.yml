@@ -1,0 +1,132 @@
+name: Eliza CI/CD
+
+on:
+  push:
+    branches: [ main, dev ]
+    paths:
+      - 'eliza/**'
+      - '.github/workflows/eliza.yml'
+  pull_request:
+    branches: [ main, dev ]
+    paths:
+      - 'eliza/**'
+      - '.github/workflows/eliza.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9, "3.10", "3.11"]
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+    
+    - name: Install dependencies
+      run: |
+        cd eliza
+        poetry install
+    
+    - name: Run tests
+      run: |
+        cd eliza
+        poetry run pytest tests/ --cov=eliza --cov-report=xml
+    
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./eliza/coverage.xml
+        flags: eliza
+        name: codecov-eliza
+        fail_ci_if_error: true
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+    
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+    
+    - name: Install dependencies
+      run: |
+        cd eliza
+        poetry install
+    
+    - name: Run linters
+      run: |
+        cd eliza
+        poetry run black . --check
+        poetry run ruff check .
+        poetry run mypy .
+
+  build:
+    needs: [test, lint]
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+    
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+    
+    - name: Build package
+      run: |
+        cd eliza
+        poetry build
+    
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: eliza-dist
+        path: eliza/dist/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: eliza-dist
+        path: dist/
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+    
+    - name: Install twine
+      run: pip install twine
+    
+    - name: Publish to PyPI
+      env:
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+      run: twine upload dist/* 

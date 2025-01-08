@@ -1,0 +1,23 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Install git and curl
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install markdowner and mkdocs
+RUN pip install git+https://github.com/supermemoryai/markdowner.git
+RUN pip install mkdocs-material
+
+# Copy documentation
+COPY docs/ /app/docs/
+COPY mkdocs.yml /app/
+
+# Expose port for documentation server
+EXPOSE 8000
+
+# Start documentation server
+CMD ["mkdocs", "serve", "-a", "0.0.0.0:8000"] 
