@@ -1,0 +1,11 @@
+locatr/__init__.py,sha256=UfPkB9sN26cDTx2NR3AUfd0OcDnZ9H1TQwXPBMpFTBU,236
+locatr/_constants.py,sha256=huXSIIff1zp3VraFTMIUZIsOD5q4RShdkODN_ZmOkPE,195
+locatr/_locatr.py,sha256=SwLK3qwp_co1ExFKQ4Yj7DbqjkH1MkiUCkeQOMpIc18,4593
+locatr/_utils.py,sha256=kRPdG83RNwmL8MpomtL8FKgk7VYyYz-_LqDwF_8HSyM,4892
+locatr/exceptions.py,sha256=LuV2FuCxPiulbv4Ezgezv9FjZ_Xsa8l3ERivl0DK2Dc,1172
+locatr/schema.py,sha256=vA4pAG8MyONrnAATOXrayxucHXTkvrq8uX5GHJpboOA,1735
+locatr/bin/locatr.bin,sha256=vI4KQeH34Nj28SQdnZZGBQS_v_9K5AKpmKSrw49QOug,13021191
+test_locatr-0.28.0.dist-info/METADATA,sha256=-fR_bRlbPWxqAK99AOG9gbtxUDVw-UekxTi4C5tk6hY,4512
+test_locatr-0.28.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+test_locatr-0.28.0.dist-info/licenses/LICENSE,sha256=ER2sUidekXgz9yHwPbgDxf_rKNB09wiDhgS5TqyXYhU,1107
+test_locatr-0.28.0.dist-info/RECORD,,
