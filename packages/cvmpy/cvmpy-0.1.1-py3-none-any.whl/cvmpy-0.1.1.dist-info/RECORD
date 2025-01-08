@@ -1,0 +1,9 @@
+cvm/__init__.py,sha256=iIsSeI99eZqNnYTPM0LDYUcHnh2dLGhXzabNd4X_Imc,85
+cvm/_base.py,sha256=rHu6WamCICcSDHoovb-J3gZqhimULQl4JBn-E772EDQ,9472
+cvm/_grupos.py,sha256=VJK56eDK9wsVTRctbQZO92UYDu1T8TqJ3a9vREiXeRE,4972
+cvm/_utils.py,sha256=d_GTVdWaWYCN1Jw-d2j06LqpKkPpewoDuSSMSX_X_H8,4642
+cvmpy-0.1.1.dist-info/LICENSE,sha256=Nj9bLCYybk0hbbG1z5rx_B5XvexFAp77mqjkyDUph70,1086
+cvmpy-0.1.1.dist-info/METADATA,sha256=gTdVmc7fDCts3vKVnfYf3RihAA0reF52pWgjdnwTD98,3738
+cvmpy-0.1.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+cvmpy-0.1.1.dist-info/top_level.txt,sha256=P2Q-kxYKKjBLM-8mE047erN9IgMO3f-bFvTW2RJKFnw,4
+cvmpy-0.1.1.dist-info/RECORD,,
