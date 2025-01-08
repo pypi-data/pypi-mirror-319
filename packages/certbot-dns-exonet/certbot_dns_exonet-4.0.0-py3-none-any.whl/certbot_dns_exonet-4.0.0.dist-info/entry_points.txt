@@ -1,0 +1,3 @@
+[certbot.plugins]
+dns-exonet=certbot_dns_exonet.authenticators.exonet_authenticator:ExonetAuthenticator
+
