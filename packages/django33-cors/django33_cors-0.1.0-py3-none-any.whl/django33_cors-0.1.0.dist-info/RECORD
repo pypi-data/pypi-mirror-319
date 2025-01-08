@@ -1,0 +1,11 @@
+django33_cors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django33_cors/apps.py,sha256=OU1_-t-jbOeLS8KrHOaTkMoG0Q2PoSIOYuGGZAqO0hE,388
+django33_cors/checks.py,sha256=e0nnfyb4t2stKLLE2U41grrXXiD7XXTIXeeeSHkx-gQ,5989
+django33_cors/conf.py,sha256=gekBzdl0C7WbXInsfVDgPoNFF3vgn00AzwGdrJHz8rU,2067
+django33_cors/defaults.py,sha256=ctF9qn6wSAeONAKSbt1-IO9Chrs5zKL8LnbpqRlmdxg,314
+django33_cors/middleware.py,sha256=9cn4y4tAL3gH2zvKp238yeftuA7kvR3KchAKpPov6_Q,6112
+django33_cors/signals.py,sha256=njo2STz6udYmtdN0l86hdTemUxFwbF_QQKNJTl5Sbfw,293
+django33_cors-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+django33_cors-0.1.0.dist-info/METADATA,sha256=MODSfe3MhkbIF6wpAn0yyG_aLRji4rLYa16TuK_UIzU,1266
+django33_cors-0.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+django33_cors-0.1.0.dist-info/RECORD,,
