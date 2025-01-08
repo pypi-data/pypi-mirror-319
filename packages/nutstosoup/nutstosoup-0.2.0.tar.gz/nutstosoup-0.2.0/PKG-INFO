@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: nutstosoup
+Version: 0.2.0
+Summary: Nuts to Soup module for interacting with the NTS Radio API
+Requires-Python: >=3.8
+Requires-Dist: requests>=2.31.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == 'dev'
