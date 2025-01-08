@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: avito-py
+Version: 0.0.1.1
+Summary: SDK для разработки инструментов на базе Avito API
+Home-page: https://github.com/p141592/avito
+License: MIT
+Keywords: avito,sdk,python,api
+Author: Nikolay Baryshnikov
+Author-email: root@k0d.ru
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/p141592/avito
+Description-Content-Type: text/markdown
+
+# Avito SDK
+
+Avito SDK для https://developers.avito.ru/about-api
+
+```bash
+poetry add avito-py
+```
+
+```bash
+pip install avito-py
+```
+
