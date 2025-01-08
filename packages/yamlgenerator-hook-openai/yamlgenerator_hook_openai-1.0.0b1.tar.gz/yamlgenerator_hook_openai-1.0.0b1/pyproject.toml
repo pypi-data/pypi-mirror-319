@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "yamlgenerator-hook-openai"
+version = "1.0.0b1"
+description = ""
+authors = ["kaixinol <keiplyer@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "yamlgenerator_hook_openai"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+gameyamlspiderandgenerator = ">=2.0.0b2, <3.0"
+openai = "^0.27.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
