@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: runpythonpackagepythonplayer123
+Version: 0.2.0
+Summary: Default template for PDM package
+Author-Email: June P <me@pythonplayer123.dev>
+License: AGPL-v3-Or-Later
+Requires-Python: >=3.11
+Requires-Dist: pwntools>=4.13.1
+Description-Content-Type: text/markdown
+
+# runflagpythonpackage
