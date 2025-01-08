@@ -1,0 +1,10 @@
+napari_serverkit/__init__.py,sha256=KEdUv-2E0YdY3g6oabVLu813DZbAnj_t0obol3hvIdQ,114
+napari_serverkit/_version.py,sha256=NDHlyIcJZjLz8wKlmD1-pr6me5FHBAYwO_ynLG-37N8,411
+napari_serverkit/_widget.py,sha256=siuQWdbBhGLHhrFDWuS7x_Ap28LakdPw8Jt6kx587RM,12722
+napari_serverkit/napari.yaml,sha256=-amZWPy-Un9QkAs7mVIaVyhH8g2FvrKTpZn6Lj76h5U,503
+napari_serverkit-0.0.2.dist-info/LICENSE,sha256=rAHt9UjSWQOkFCt0GZ-gu0Cr8fOHFW0BD-OQhixH4mM,1478
+napari_serverkit-0.0.2.dist-info/METADATA,sha256=SIiR4C_-yovjTOkeb42nNt7GH6Yq2Sbq-WtMsOdpU-s,3682
+napari_serverkit-0.0.2.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+napari_serverkit-0.0.2.dist-info/entry_points.txt,sha256=yp5GGf7XxxEQt6q8dHLpBd8M_uCiRnhwAHRVait-ySQ,66
+napari_serverkit-0.0.2.dist-info/top_level.txt,sha256=oTKK4NsKrZ_v2ORWcUPyPkI3UfUgqt-t06hrmIzdjoU,17
+napari_serverkit-0.0.2.dist-info/RECORD,,
