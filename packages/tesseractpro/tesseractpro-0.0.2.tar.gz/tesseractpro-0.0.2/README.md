@@ -1,0 +1,1 @@
+# Tesseract Pro Python API
