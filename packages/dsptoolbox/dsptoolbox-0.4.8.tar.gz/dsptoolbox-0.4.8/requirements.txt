@@ -1,0 +1,10 @@
+# use:
+scipy~=1.14
+numpy~=2.0
+soundfile~=0.12
+sounddevice~=0.5
+numba~=0.60;python_version<='3.12'
+
+# plotting:
+matplotlib~=3.10
+seaborn~=0.13
