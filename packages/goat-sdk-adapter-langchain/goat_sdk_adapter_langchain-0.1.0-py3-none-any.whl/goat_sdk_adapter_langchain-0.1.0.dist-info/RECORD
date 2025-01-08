@@ -1,0 +1,5 @@
+goat_adapters/langchain/__init__.py,sha256=mVaALQ2wR6kXL2_W6NevvCZxDSfCSQ2k54W0Mnc9Foo,80
+goat_adapters/langchain/adapter.py,sha256=KXon_UYaOe6kIN3MFETMsIUBNT8SDyi3yjoh4x9LrU4,1036
+goat_sdk_adapter_langchain-0.1.0.dist-info/METADATA,sha256=owSFaErmGiUcHvqT5GmtCkfN21BAgNMKWhqu5oytJGs,743
+goat_sdk_adapter_langchain-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+goat_sdk_adapter_langchain-0.1.0.dist-info/RECORD,,
