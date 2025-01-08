@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+python_terraform/__init__.py
+python_terraform/terraform.py
+python_terraform/tfstate.py
+python_terraform_wrapper.egg-info/PKG-INFO
+python_terraform_wrapper.egg-info/SOURCES.txt
+python_terraform_wrapper.egg-info/dependency_links.txt
+python_terraform_wrapper.egg-info/top_level.txt
+test/test_terraform.py
