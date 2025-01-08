@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gmm-gpu"
+version = "0.1.0"
+description = ""
+authors = ["Mihail Zdravkov <mihail0zdravkov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.4"
+torch = "^2.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pdoc = "^15.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
