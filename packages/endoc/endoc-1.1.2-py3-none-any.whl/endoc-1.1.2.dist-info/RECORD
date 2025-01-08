@@ -1,0 +1,11 @@
+endoc/__init__.py,sha256=L1sgox3NzyRFBsIJoQY_Da0Ffhhz1kTmHQJTtGCG6iI,669
+endoc/client.py,sha256=vnnsGEFssQWlXnqTZkaJns9Hz9FyuNsaRhf-xOPd_vU,520
+endoc/document_search.py,sha256=7SHDwkVqXoG9I3LvvWW_9W72PaS7bPUGOifGqRUlIZw,517
+endoc/memsum_summary.py,sha256=K0wJJ_hM0AMxRKV5itTG4JHWDcvwH_YmtXSaKXoISZ4,650
+endoc/paginated_search.py,sha256=t0Zl2WVXoQBXndUOmwIwvobGmu-vYqaRuZzMxK1SrUU,460
+endoc/queries.py,sha256=ek_3SbWJ6IZ4lJ3T5ZR_4i474dB3EYUJ7KnCYfYXHos,2431
+endoc-1.1.2.dist-info/LICENSE,sha256=zNsMBf4UAn4dol4h5D4FhO6F1ZeAFYOZZAAdyV--SxM,1062
+endoc-1.1.2.dist-info/METADATA,sha256=oB7s6vJEYtjvdwWjjIcxxKpQQ4D0zPQT0R9gKweZzUU,2204
+endoc-1.1.2.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+endoc-1.1.2.dist-info/top_level.txt,sha256=NvHG6racILge3ClLbBv4LKDP_oSnXHUxXY7RDH7rSt8,6
+endoc-1.1.2.dist-info/RECORD,,
