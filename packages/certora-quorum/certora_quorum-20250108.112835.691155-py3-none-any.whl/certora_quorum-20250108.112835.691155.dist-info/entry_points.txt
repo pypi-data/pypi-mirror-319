@@ -1,0 +1,2 @@
+[console_scripts]
+Quorum = Quorum.entry_points.quorum_cli:main
