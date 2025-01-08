@@ -1,0 +1,37 @@
+stages:
+  - tests
+
+test_3.9:
+  stage: tests
+  image: python:3.9-alpine
+  script:
+    - pip install -e ".[test]"
+    - pytest . -color=yes
+
+test_3.10:
+  stage: tests
+  image: python:3.10-alpine
+  script:
+    - pip install -e ".[test]"
+    - pytest . -color=yes
+
+test_3.11:
+  stage: tests
+  image: python:3.11-alpine
+  script:
+    - pip install -e ".[test]"
+    - pytest . -color=yes
+
+test_3.12:
+  stage: tests
+  image: python:3.12-alpine
+  script:
+    - pip install -e ".[test]"
+    - pytest . -color=yes
+
+test_3.13:
+  stage: tests
+  image: python:3.13-alpine
+  script:
+    - pip install -e ".[test]"
+    - pytest . -color=yes

@@ -1,0 +1,30 @@
+import argparse
+from typing import Generator, List
+
+from probely.cli.commands.scans.schemas import ScanApiFiltersSchema
+from probely.cli.common import prepare_filters_for_api
+from probely.cli.renderers import OutputRenderer
+from probely.cli.tables.scan_table import ScanTable
+from probely.exceptions import ProbelyCLIValidation
+from probely.sdk.managers import ScanManager
+from probely.sdk.models import Scan
+
+
+def scans_get_command_handler(args: argparse.Namespace):
+    filters = prepare_filters_for_api(ScanApiFiltersSchema, args)
+    scan_ids = args.scan_ids
+
+    if filters and scan_ids:
+        raise ProbelyCLIValidation("filters and Scan IDs are mutually exclusive.")
+
+    if scan_ids:
+        scans: Generator[Scan] = ScanManager().retrieve_multiple(scan_ids)
+    else:
+        scans: Generator[Scan] = ScanManager().list(filters=filters)
+
+    renderer = OutputRenderer(
+        records=scans,
+        table_cls=ScanTable,
+        command_args=args,
+    )
+    renderer.render()
