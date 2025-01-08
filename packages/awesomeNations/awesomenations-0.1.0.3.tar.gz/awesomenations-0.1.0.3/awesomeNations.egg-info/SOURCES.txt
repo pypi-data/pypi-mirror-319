@@ -1,0 +1,17 @@
+LICENSE
+License
+README.md
+setup.py
+awesomeNations/__init__.py
+awesomeNations/configuration.py
+awesomeNations/exceptions.py
+awesomeNations/main.py
+awesomeNations/nationMethods.py
+awesomeNations/regionMethods.py
+awesomeNations/seleniumScrapper.py
+awesomeNations/sharedMethods.py
+awesomeNations.egg-info/PKG-INFO
+awesomeNations.egg-info/SOURCES.txt
+awesomeNations.egg-info/dependency_links.txt
+awesomeNations.egg-info/requires.txt
+awesomeNations.egg-info/top_level.txt
