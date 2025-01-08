@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+francolib/__init__.py
+francolib/tdms_grafico.py
+francolib.egg-info/PKG-INFO
+francolib.egg-info/SOURCES.txt
+francolib.egg-info/dependency_links.txt
+francolib.egg-info/requires.txt
+francolib.egg-info/top_level.txt
