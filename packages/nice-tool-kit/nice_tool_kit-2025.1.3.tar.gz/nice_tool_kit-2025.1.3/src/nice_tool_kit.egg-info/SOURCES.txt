@@ -1,0 +1,12 @@
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+src/nice_tool_kit.egg-info/PKG-INFO
+src/nice_tool_kit.egg-info/SOURCES.txt
+src/nice_tool_kit.egg-info/dependency_links.txt
+src/nice_tool_kit.egg-info/entry_points.txt
+src/nice_tool_kit.egg-info/requires.txt
+src/nice_tool_kit.egg-info/top_level.txt
+src/xmlformatter/__init__.py
+src/xmlformatter/cli.py
