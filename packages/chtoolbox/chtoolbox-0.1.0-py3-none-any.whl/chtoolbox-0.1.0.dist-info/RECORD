@@ -1,0 +1,10 @@
+chtoolbox/RustAGA8.py,sha256=RykVpZ4Gat7BitDGjAW3DoIICABTEFXVBH5I8gOfS2o,22569
+chtoolbox/__init__.py,sha256=AhwqdV6KUgaQkE3csw4LCyzFwxnPokrQCG_maQOBJtk,21
+chtoolbox/aga8.dll,sha256=6wQdvDFJXjC7CaGTiLFTit_g0XxWp7tw6q2fBSaThBc,223744
+chtoolbox/main.py,sha256=2s3jhOIwfQD9qlIkj6x8ByfdFHvwjQvMn37WfGEAidM,37
+chtoolbox/misc.py,sha256=ozjf4vfLaEWxsQdLUWGgGBsK7t7Ys-QS-DnGerNfJyc,1827
+chtoolbox-0.1.0.dist-info/LICENSE,sha256=eGxOFpWUePrzsdeIrvHAHl-NEUMR203xYJmvIbX36iU,1097
+chtoolbox-0.1.0.dist-info/METADATA,sha256=hDFJi4I64Kt2xZYgsz1NvBgGJDnDAN2ZELJ6KylpDBc,126
+chtoolbox-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+chtoolbox-0.1.0.dist-info/top_level.txt,sha256=gHzLviUmj0vn_PLwXCsyz0EyjD64fHCinHrR3R8uZg8,10
+chtoolbox-0.1.0.dist-info/RECORD,,
