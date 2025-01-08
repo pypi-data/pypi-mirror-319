@@ -1,0 +1,7 @@
+sage/all__sagemath_cddlib.py,sha256=nPUAY4MsnnlQlghmMxm-cmNLJQLjlAqI4DuodriIO-k,89
+sage/libs/all__sagemath_cddlib.py,sha256=CSaTkJTjlPULK__Mg8_JHe3sSsVengxrtpV4bjX6tZ0,45
+sage/libs/cddlib.cpython-312-x86_64-linux-musl.so,sha256=yo53hUeuDzHT7K3-Qb38UL2DYLVKFNODZ8aXxkWSQXI,67216
+passagemath_cddlib-10.5.19.dist-info/METADATA,sha256=y-XAP5eco8jW-yj1_ubPc9-2S4MSXlAM6f9YjrsDllM,2873
+passagemath_cddlib-10.5.19.dist-info/RECORD,,
+passagemath_cddlib-10.5.19.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_cddlib-10.5.19.dist-info/WHEEL,sha256=De2b43m_7Kw6fbMgNWRPggas_gXFWfFfFIUUorxLsqY,112
