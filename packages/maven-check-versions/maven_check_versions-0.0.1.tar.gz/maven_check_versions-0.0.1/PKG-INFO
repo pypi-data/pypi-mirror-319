@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: maven_check_versions
+Version: 0.0.1
+Summary: Maven check versions package
+Author: Alexander Bulgakov
+Project-URL: Homepage, https://github.com/alexundros/maven-check-versions
+Project-URL: Issues, https://github.com/alexundros/maven-check-versions/issues
+Project-URL: Source, https://github.com/alexundros/maven-check-versions
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: python-dateutil
