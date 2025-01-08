@@ -1,0 +1,52 @@
+app virtualConsultant {
+  title: "Virtual Consultant",
+  
+  dependencies: [
+    ("react", "^18.0.0"),
+    ("react-dom", "^18.0.0")
+  ],
+
+  auth: {
+    userEntity: User,
+    methods: {
+      usernameAndPassword: {}
+    },
+    onAuthFailedRedirectTo: "/login"
+  }
+}
+
+route RootRoute { path: "/", to: MainPage }
+page MainPage {
+  component: import Main from "@src/pages/Main.tsx"
+}
+
+route LoginRoute { path: "/login", to: LoginPage }
+page LoginPage {
+  component: import Login from "@src/pages/Login.tsx"
+}
+
+entity User {=psl
+  id          Int     @id @default(autoincrement())
+  username    String  @unique
+  password    String
+  projects    Project[]
+psl=}
+
+entity Project {=psl
+  id          Int     @id @default(autoincrement())
+  name        String
+  description String?
+  createdAt   DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id])
+  userId      Int
+psl=}
+
+query getProjects {
+  fn: import { getProjects } from "@src/operations/queries.js",
+  entities: [Project]
+}
+
+action createProject {
+  fn: import { createProject } from "@src/operations/actions.js",
+  entities: [Project]
+} 
