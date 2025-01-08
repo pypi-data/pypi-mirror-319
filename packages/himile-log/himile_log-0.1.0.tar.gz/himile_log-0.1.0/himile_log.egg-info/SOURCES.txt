@@ -1,0 +1,8 @@
+README.md
+himile_log.py
+setup.py
+himile_log.egg-info/PKG-INFO
+himile_log.egg-info/SOURCES.txt
+himile_log.egg-info/dependency_links.txt
+himile_log.egg-info/requires.txt
+himile_log.egg-info/top_level.txt
