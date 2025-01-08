@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "family-ai-voice-assistant-core"
+version = "0.1.0"
+description = "Core library for home smart speakers based on large language models (LLM)."
+authors = ["Augaria <augaria@163.com>"]
+repository = "https://github.com/augaria/family-ai-voice-assistant/tree/augaria/dev/src/family-ai-voice-assistant-core"
+readme = "README.md"
+license = "MIT"
+
+include = [
+    "family_ai_voice_assistant/core/resources/**"
+]
+
+packages = [
+  { include = "family_ai_voice_assistant" }
+]
+
+[tool.poetry.dependencies]
+python = "<4.0,>=3.9"
+pyyaml = "*"
+pymongo = "*"
+pytz = "*"
+tzlocal = "*"
+docstring-parser = "*"
+colorama = "*"
+opentelemetry-api = "*"
+opentelemetry-sdk = "*"
+opentelemetry-exporter-otlp = "*"
+scipy = "*"
+flask = "*"
+Jinja2 = "*"
+evdev = { version = "*", markers = "sys_platform == 'linux'" }
+
+[tool.poetry.scripts]
+family_ai_voice_assistant_console = "family_ai_voice_assistant.core.assistants.assistant_console_client:main"
+family_ai_voice_assistant_file_server = "family_ai_voice_assistant.core.clients.file_store_client:start_file_server"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
