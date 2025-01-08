@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+geofacetpy/__init__.py
+geofacetpy/geofacetpy.py
+geofacetpy.egg-info/PKG-INFO
+geofacetpy.egg-info/SOURCES.txt
+geofacetpy.egg-info/dependency_links.txt
+geofacetpy.egg-info/requires.txt
+geofacetpy.egg-info/top_level.txt
+tests/test_geofacet.py

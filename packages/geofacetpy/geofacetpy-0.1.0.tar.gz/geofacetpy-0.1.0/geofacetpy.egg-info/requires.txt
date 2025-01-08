@@ -1,0 +1,8 @@
+matplotlib>=3.5
+pandas
+
+[test]
+pytest>=7.0
+pytest-cov>=3.0
+tox
+flake8
