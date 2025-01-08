@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.packages]
+include = ["epidemic_intelligence"]
+
+[tool.hatch]
+root = "src"
+
+[tool.hatch.metadata]
+root = "src/epidemic_intelligence"
+
+[project]
+name = "epidemic-intelligence"
+version = "1.0.0"
+authors = [
+    { name = "Elijah Sandler", email = "sandler.e@northeastern.edu" },
+    { name = "Matteo Chinazzi", email = "m.chinazzi@northeastern.edu" }
+]
+description = "A data visualization package to explore large-scale spatio-temporal simulation data."
+readme = "../README.md"
+
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pandas>=2.1.0",
+  "plotly>=5.24",
+  "google-cloud-bigquery>=3.0.0",
+  "google-cloud-bigquery-storage",
+  "matplotlib>=3.7.0",
+  "kaleido==0.1.0.post1",
+  "epiweeks",
+  "db-dtypes>=1.0.0"
+]
+
+[project.urls]
+Repository = "https://github.com/mattk7/epidemic-intelligence"
+# Documentation = 
