@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/watermarkipy/__init__.py
+src/watermarkipy/watermark.py
+src/watermarkipy.egg-info/PKG-INFO
+src/watermarkipy.egg-info/SOURCES.txt
+src/watermarkipy.egg-info/dependency_links.txt
+src/watermarkipy.egg-info/requires.txt
+src/watermarkipy.egg-info/top_level.txt
