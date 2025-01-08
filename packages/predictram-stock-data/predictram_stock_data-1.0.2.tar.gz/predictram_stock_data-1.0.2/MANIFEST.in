@@ -1,0 +1,2 @@
+include predictram_stock_data/data/IIP_data_Nov_2024.xlsx
+recursive-include predictram_stock_data/data/Stock_Price *
