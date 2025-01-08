@@ -1,0 +1,13 @@
+pybes3/__init__.py,sha256=NG8xyyeeEtRNZtsLtuQy6fZGLYP2mA_WVP8oskfhRfE,193
+pybes3/_check_latest_version.py,sha256=UcNpUBdDrLbu7CBrT2BAzn0mTNhsjn-a2ICsKZwq_CM,2695
+pybes3/_version.py,sha256=PKIMyjdUACH4-ONvtunQCnYE2UhlMfp9su83e3HXl5E,411
+pybes3/besio/__init__.py,sha256=ySR6UzzjvytQsFT1bHs15FDZ6viKgGhJ9lyYFX9nTRA,281
+pybes3/besio/array_preprocess.py,sha256=UNWjjVWhH3vFO5RsQuBBR4tITuZY2X0Kcltw3lCDna8,8705
+pybes3/besio/besio_cpp.cc,sha256=0059T_j1-ON5Lypj2x8s5hnZSgW32JJhiSvqsX2HeFE,43993
+pybes3/besio/besio_cpp.cpython-39-x86_64-linux-gnu.so,sha256=Sp-JSvC3EbM3UuxEHowMNSyT09UEuzPQdcGu3RxRGSQ,216488
+pybes3/besio/besio_cpp.pyi,sha256=N0bgm6ewEM8WcS8hXbyFvm3oJVmnnPNC0UHPQFYQjhs,462
+pybes3/besio/uproot_wrappers.py,sha256=WxjxUNRI-rP-1Pu4bRofUX8YRJBH6J1njtqsLY30ChU,20215
+pybes3-0.1.1.dist-info/METADATA,sha256=Eu1GZ9mhLBGQ-LbD1WdVDGiqR2MKIgLPgGc87FEABR8,2216
+pybes3-0.1.1.dist-info/WHEEL,sha256=cJJXOSO9c6TVDiXX10Udu2mT7lLYjcxgBE6Fpg-bPxk,116
+pybes3-0.1.1.dist-info/licenses/LICENSE,sha256=48vM_dluwplfb57Dzbf7l567UEI6SxKN8roCtXp394E,1067
+pybes3-0.1.1.dist-info/RECORD,,
