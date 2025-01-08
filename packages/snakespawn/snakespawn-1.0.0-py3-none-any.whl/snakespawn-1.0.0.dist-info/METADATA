@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: snakespawn
+Version: 1.0.0
+Summary: A tool for initializing python packages.
+Author: William L.
+License: MIT
+Requires-Python: >=3.10
+License-File: LICENSE
+
