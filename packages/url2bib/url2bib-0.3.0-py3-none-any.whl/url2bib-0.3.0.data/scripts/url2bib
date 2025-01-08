@@ -1,0 +1,32 @@
+#!python
+# -*- coding: utf-8 -*-
+
+import argparse
+import sys
+from url2bib.core import url2bibtex, parse_bibtex, build_bibtex, create_bib_id, set_verbosity
+
+VERBOSE = True
+
+def main():
+    set_verbosity(VERBOSE)
+
+    parser = argparse.ArgumentParser(description='Convert URLs to BibTeX entries')
+    parser.add_argument("url", type=str, help="The URL to fetch DOIs from.")
+    args = parser.parse_args()
+
+    if args.url:
+        bibtex = url2bibtex(args.url)
+        if bibtex:
+            # Parse and rebuild to ensure consistent formatting
+            bibdict = parse_bibtex(bibtex)
+            bibdict['ID'] = create_bib_id(bibdict)
+            print(build_bibtex(bibdict))
+        else:
+            print("No matching publications found", file=sys.stderr)
+            exit(1)
+    else:
+        parser.print_help()
+        exit(1)
+
+if __name__ == "__main__":
+    main()
