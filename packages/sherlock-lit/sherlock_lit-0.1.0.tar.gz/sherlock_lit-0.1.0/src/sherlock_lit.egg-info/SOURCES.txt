@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/sherlock_lit/__init__.py
+src/sherlock_lit/cli.py
+src/sherlock_lit/core.py
+src/sherlock_lit.egg-info/PKG-INFO
+src/sherlock_lit.egg-info/SOURCES.txt
+src/sherlock_lit.egg-info/dependency_links.txt
+src/sherlock_lit.egg-info/entry_points.txt
+src/sherlock_lit.egg-info/requires.txt
+src/sherlock_lit.egg-info/top_level.txt
+tests/test_core.py
