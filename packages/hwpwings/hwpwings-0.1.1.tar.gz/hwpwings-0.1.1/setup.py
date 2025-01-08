@@ -1,0 +1,18 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="hwpwings",
+    version="0.1.1",
+    author="한파엑셀",
+    author_email="hpxl0518@gmail.com",
+    description="파이썬으로 한글 문서를 제어할 수 있는 두번째 라이브러리입니다.",
+    url="https://www.youtube.com/@%ED%95%9C%ED%8C%8C%EC%97%91%EC%85%80",  # YouTube URL
+    packages=find_packages(),
+    
+    python_requires=">=3.6",
+    install_requires=[
+        "pywin32>=302",        # win32com, pythoncom
+        "pandas>=1.0.0",       # pandas 모듈
+        "lxml>=4.0.0",         # XML 파싱에 사용하는 대안
+    ],
+)
