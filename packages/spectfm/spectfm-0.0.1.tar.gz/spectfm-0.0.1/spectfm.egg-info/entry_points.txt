@@ -1,0 +1,2 @@
+[nbdev]
+spectfm = spectfm._modidx:d

@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+spectfm/__init__.py
+spectfm/_modidx.py
+spectfm/core.py
+spectfm/visualization.py
+spectfm.egg-info/PKG-INFO
+spectfm.egg-info/SOURCES.txt
+spectfm.egg-info/dependency_links.txt
+spectfm.egg-info/entry_points.txt
+spectfm.egg-info/not-zip-safe
+spectfm.egg-info/requires.txt
+spectfm.egg-info/top_level.txt
