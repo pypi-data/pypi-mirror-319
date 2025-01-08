@@ -1,0 +1,32 @@
+task36
+# Результаты сессии группы
+group_results = {
+    "Иванов": [4, 5, 3],
+    "Петров": [3, 4, 5],
+    "Сидоров": [5, 5, 5],
+    "Кузнецов": [2, 3, 4]
+}
+
+# Названия дисциплин
+subjects = ["История", "Математика", "Информатика"]
+
+# 1. Вывод таблицы с результатами
+print(f"{'Фамилия':<15}{'История':<10}{'Математика':<12}{'Информатика':<12}")
+for student, marks in group_results.items():
+    print(f"{student:<15}{marks[0]:<10}{marks[1]:<12}{marks[2]:<12}")
+
+# 2. Средний балл по каждой дисциплине
+history_avg = sum(marks[0] for marks in group_results.values()) / len(group_results)
+math_avg = sum(marks[1] for marks in group_results.values()) / len(group_results)
+informatics_avg = sum(marks[2] for marks in group_results.values()) / len(group_results)
+
+print("\nСредний балл по дисциплинам:")
+print(f"История: {history_avg:.2f}")
+print(f"Математика: {math_avg:.2f}")
+print(f"Информатика: {informatics_avg:.2f}")
+
+# 3. Средний балл для каждого студента
+print("\nСредний балл для каждого студента:")
+for student, marks in group_results.items():
+    student_avg = sum(marks) / len(marks)
+    print(f"{student}: {student_avg:.2f}")

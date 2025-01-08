@@ -1,0 +1,33 @@
+task52
+import csv
+
+def find_by_name(filename, *names):
+    result = []  # Список для хранения результатов
+    try:
+        # Открываем файл для чтения
+        with open(filename, 'r', newline='', encoding='utf-8') as file:
+            reader = csv.DictReader(file)  # Чтение файла как словаря (по заголовкам)
+            
+            # Проходим по строкам в файле
+            for row in reader:
+                # Проверяем, содержится ли имя в First Name
+                if row['First Name'] in names:
+                    result.append([row['Id'], row['First Name'], row['Last Name'], row['Age'], row['Phone']])
+                    
+    except FileNotFoundError:
+        print(f"Файл {filename} не найден.")
+    except Exception as e:
+        print(f"Произошла ошибка: {e}")
+    
+    return result
+
+
+filename = 'people.csv'  # Пример имени файла
+names_to_find = ['John', 'Alice']  # Имена для поиска
+
+# Результат работы функции
+found_data = find_by_name(filename, *names_to_find)
+
+# Вывод результатов
+for person in found_data:
+    print(person)

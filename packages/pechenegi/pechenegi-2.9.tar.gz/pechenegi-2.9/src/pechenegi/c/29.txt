@@ -1,0 +1,14 @@
+task29 (Вари)
+def par_val(**kwargs):
+    return [key for key, value in kwargs.items() if len(value.split()) > 2]
+
+print(par_val(pp="abba war peace", fan="oneword", zr="a x b"))
+
+task62 (Евы)
+def par_val(**kwargs):
+    # Создаем список имен параметров, которым соответствуют строки с более чем двумя словами
+    return [name for name, value in kwargs.items() if len(value.split()) > 2]
+
+
+result = par_val(pp='abba war', fan='oneword', zr='a x')
+print(result)

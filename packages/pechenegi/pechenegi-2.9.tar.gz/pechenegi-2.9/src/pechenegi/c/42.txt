@@ -1,0 +1,44 @@
+task42
+def add_positive_numbers(a, b):
+    # Проверяем, что оба числа положительные
+    assert a > 0, "Первое число должно быть положительным!"
+    assert b > 0, "Второе число должно быть положительным!"
+    
+    # Если проверки пройдены, возвращаем сумму
+    return a + b
+
+# Пример использования
+try:
+    num1 = float(input("Введите первое число: "))
+    num2 = float(input("Введите второе число: "))
+    
+    result = add_positive_numbers(num1, num2)
+    print(f"Результат: {result}")
+except AssertionError as e:
+    print(f"Ошибка: {e}")
+except ValueError:
+    print("Ошибка: введены некорректные данные!")
+
+
+task46
+def add_positive_numbers(a, b):
+    # Проверка, чтобы оба числа были положительными
+    assert a > 0 and b > 0, "Оба числа должны быть положительными!"
+
+    # Сложение чисел
+    return a + b
+
+# Пример использования
+try:
+    result = add_positive_numbers(5, 3)
+    print(f"Результат сложения: {result}")
+except AssertionError as e:
+    print(f"Ошибка: {e}")
+
+# Пример с ошибкой
+try:
+    result = add_positive_numbers(-5, 3)
+    print(f"Результат сложения: {result}")
+except AssertionError as e:
+    print(f"Ошибка: {e}")
+

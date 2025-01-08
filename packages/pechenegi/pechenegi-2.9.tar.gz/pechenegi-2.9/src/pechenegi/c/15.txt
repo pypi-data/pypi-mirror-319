@@ -1,0 +1,11 @@
+task15
+def process_nested_list(lst):
+    for sublist in lst:
+        if len(sublist) > 3:
+            extra = sum(sublist[3:])
+            sublist[2] += extra
+            del sublist[3:]
+    return lst
+
+nested_list = [[1, 2], [3, 4, 4, 3, 1], [4, 1, 4, 5]]
+print(process_nested_list(nested_list))

@@ -1,0 +1,17 @@
+task7
+import math
+
+def reduce_fraction(n, m):
+    gcd = math.gcd(n, m)
+    return (n // gcd, m // gcd)
+
+def reduce_fraction_in_list(lst):
+    n, m = lst
+    gcd = math.gcd(n, m)
+    lst[0], lst[1] = n // gcd, m // gcd
+
+# Пример
+print(reduce_fraction(10, 20))
+lst = [10, 20]
+reduce_fraction_in_list(lst)
+print(lst)

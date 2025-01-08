@@ -1,0 +1,11 @@
+task17
+def interleave_and_remaining(listlist):
+    interleaved = []
+    remaining = []
+    for elements in zip(*listlist):
+        interleaved.extend(elements)
+    remaining = [item for sublist in listlist for item in sublist[len(interleaved)//len(listlist):]]
+    return interleaved, remaining
+
+listlist = [[1, 2, 3], ['a', 'b'], [30, 40, 50, 60]]
+print(interleave_and_remaining(listlist))

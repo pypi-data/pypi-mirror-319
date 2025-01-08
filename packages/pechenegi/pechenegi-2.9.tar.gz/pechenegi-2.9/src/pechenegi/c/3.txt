@@ -1,0 +1,19 @@
+task3
+import ast
+
+def sort_file_data():
+    with open('myfile.txt', 'r', encoding='utf-8') as f:
+        data = ast.literal_eval(f.read())
+    
+    numeric_data = [item for item in data if isinstance(item, (int, float))]
+    non_numeric_data = [item for item in data if not isinstance(item, (int, float))]
+
+    sorted_numeric = sorted(numeric_data)
+    result = sorted_numeric + non_numeric_data
+
+    with open('myfile.txt', 'w', encoding='utf-8') as f:
+        f.write(str(result))
+
+    print(result)
+
+sort_file_data()

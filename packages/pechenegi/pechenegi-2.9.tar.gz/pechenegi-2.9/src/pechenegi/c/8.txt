@@ -1,0 +1,10 @@
+task8
+import math
+
+def sum_series(x):
+    series_sum = sum((-1) ** i * (x ** (2 * i)) / math.factorial(2 * i) for i in range(5))
+    return series_sum
+
+x = math.radians(60)  # Пример
+print(f"Sum of series: {sum_series(x)}")
+print(f"Exact cosine: {math.cos(x)}")

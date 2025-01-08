@@ -1,0 +1,11 @@
+task4
+import math
+
+radius_from_area = lambda area: math.sqrt(area / math.pi)
+circumference_from_area = lambda area: 2 * math.pi * math.sqrt(area / math.pi)
+
+area = 50  # Пример
+radius = radius_from_area(area)
+circumference = circumference_from_area(area)
+
+print(f"Radius: {radius}, Circumference: {circumference}")
