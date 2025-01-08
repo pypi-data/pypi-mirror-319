@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: test_ai_leds
+Version: 0.1.1
+Summary: AI automated test generation
+Author: LEDS
+Author-email: gabrieldpbrunetti@gmail.com
+Requires-Dist: crewai
+Requires-Dist: crewai-tools
+Requires-Dist: google-generativeai
+Requires-Dist: pyaml
+
