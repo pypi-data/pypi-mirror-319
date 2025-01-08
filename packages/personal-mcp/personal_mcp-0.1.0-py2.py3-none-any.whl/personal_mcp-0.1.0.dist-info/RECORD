@@ -1,0 +1,16 @@
+personal_mcp/__init__.py,sha256=R7NT67jHXNjOS9jty8Cb3lfl2pBSftcyPO0tEI3zBTE,267
+personal_mcp/__main__.py,sha256=i58jXmYpyZJP7Ddn_v7p_9Jzv48vEbPpQd6JhaYgVNg,127
+personal_mcp/database.py,sha256=dDfzGCHBR97BmHPBnmP5G_3gkYBOBPpW5AfzfMjRJTo,5025
+personal_mcp/models.py,sha256=DJbwBWIxJXRsffxXLevwvTKwA0fe8JBL_uMLqeCaxgY,1362
+personal_mcp/prompts.py,sha256=_HnS62J0TkKsBKiFILheVjllaNTrX2kY1KrUl6-SWVQ,2253
+personal_mcp/resources.py,sha256=8wrEC08P7u8Qt6hLK5oYryIt95mlGgoiXWdLVV5CnYI,2128
+personal_mcp/server.py,sha256=F21JifDCTfQXubjehQNAYqDFTVViobiHfpS8nv8fvqc,914
+personal_mcp/server_part2.py,sha256=BrNB5RCiapIMqPfvwN6_ULYPS1X_GWs9jq7tm2ST6lA,7921
+personal_mcp/tools/__init__.py,sha256=EH8JHPhnl_eTTgvswTi9G-A3p7EzVIZdgyzA8nlB2Nk,227
+personal_mcp/tools/journal.py,sha256=KCCBgiPchwuOSD0mgy55_Fvk-6G1OxDMnBPELqRtPW8,3866
+personal_mcp/tools/nutrition.py,sha256=wKdtKlU_yQbxtLkRQaystw9lxPQ8c-978M9Yznk4pws,3145
+personal_mcp/tools/workout.py,sha256=0N8PSIXrBIVhKrNz7kW8G1s8NrhO8t35-tiWALagjl8,2903
+personal_mcp-0.1.0.dist-info/METADATA,sha256=Dd4DloIbwAZMNHHCDlwjxMnNgEnDj4z24VUrmX5jjrk,192
+personal_mcp-0.1.0.dist-info/WHEEL,sha256=tkmg4JIqwd9H8mL30xA7crRmoStyCtGp0VWshokd1Jc,105
+personal_mcp-0.1.0.dist-info/entry_points.txt,sha256=EjqOkfG3AL4cBzHxJ9tD7GQQLD684GhuryWPcvMGGyU,60
+personal_mcp-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: personal-mcp
+Version: 0.1.0
+Summary: Personal MCP server for health and well-being tracking
+Requires-Dist: mcp>=0.1.0
+Requires-Dist: pandas
+Requires-Dist: pydantic
