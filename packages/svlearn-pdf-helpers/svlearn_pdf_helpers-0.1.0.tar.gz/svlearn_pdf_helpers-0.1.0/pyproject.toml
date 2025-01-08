@@ -1,0 +1,16 @@
+[project]
+name = "svlearn-pdf-helpers"
+version = "0.1.0"
+description = "Some helper functions we need while handling pdf for SupportVectors"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "markdown>=3.7",
+    "numpy>=2.2.1",
+    "pandas>=2.2.3",
+    "pdf2image>=1.17.0",
+    "poppler-utils>=0.1.0",
+    "pypdf2>=3.0.1",
+    "scikit-learn>=1.6.0",
+    "weasyprint>=63.1",
+]
