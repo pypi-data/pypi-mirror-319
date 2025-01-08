@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: jk_regexhelper
+Version: 0.2025.1.7
+Summary: A collection of regex helper functions.
+Keywords: regex
+Author-email: Jürgen Knauth <pubsrc@binary-overflow.de>
+Maintainer-email: Jürgen Knauth <pubsrc@binary-overflow.de>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+
+jk_regexhelper
+==========
+
+Introduction
+------------
+
+This python module provides regex helper functions for use in other modules or tools.
+
+Information about this module can be found here:
+
+* [github.org](https://github.com/jkpubsrc/python-module-jk-regexhelper)
+* [pypi.python.org](https://pypi.python.org/pypi/jk_regexhelper)
+
+Why this module?
+----------------
+
+...
+
+Limitations of this module
+--------------------------
+
+...
+
+How to use this module
+----------------------
+
+### Import this module
+
+Please include this module into your application using the following code:
+
+```python
+import jk_regexhelper
+```
+
+...
+
+Contact Information
+-------------------
+
+* Jürgen Knauth: pubsrc@binary-overflow.de
+
+License
+-------
+
+This software is provided under the following license:
+
+* Apache Software License 2.0
+
+
+
+
