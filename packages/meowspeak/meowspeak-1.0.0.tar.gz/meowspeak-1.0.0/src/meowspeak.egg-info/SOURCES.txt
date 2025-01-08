@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/meowsay/__init__.py
+src/meowsay/meowspeak.py
+src/meowspeak.egg-info/PKG-INFO
+src/meowspeak.egg-info/SOURCES.txt
+src/meowspeak.egg-info/dependency_links.txt
+src/meowspeak.egg-info/top_level.txt
