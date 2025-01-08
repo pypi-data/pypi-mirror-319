@@ -1,0 +1,14 @@
+autopc/__init__.py,sha256=rG3aq9G2aINrHvWXf1KLKtqOSpEhVSryYohfzr-UlTA,101
+autopc/basic/__init__.py,sha256=NtmZyrUMK0z9ecwNrIaTC9-9C3ivzoGuJxl2a0sDSw4,102
+autopc/basic/basic_adb.py,sha256=VH0-J2sZz4HHtL_-zleOeCzXGadpC3j3IPatXqMy7is,797
+autopc/basic/basic_airtest.py,sha256=C65rAkFR3mOhipycQtQvX4D4eDBflbHgVIv13FRDBBg,12959
+autopc/basic/basic_opencv.py,sha256=fftzSdpauND891oqqiczuVPXDmhHfYLmupiRqAFGCtw,1987
+autopc/utils/__init__.py,sha256=4iFCAxjDor-zIsECyUtj4hAqaHq8xHF5EqFYiydMJh0,101
+autopc/utils/utils_encoding.py,sha256=OKsDbQuRIxDhA1do3n3inGT7jS8jcr1k0Q4lmxslLTo,1044
+autopc/utils/utils_logger.py,sha256=RBiuldIamQ909CISwaCMDKpzkhsJR1NNGg3PtMIHgg4,1162
+autopc/utils/utils_version.py,sha256=2BexQ4lPpWYv9OR5DdGr0-Nm_TaMYvXQoArkaoQAY1w,646
+autopc-1.0.1.9.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+autopc-1.0.1.9.dist-info/METADATA,sha256=bfGByckOAc7J8ihRjjzktK2lHdkr9ZUQVgIHN4jULms,7472
+autopc-1.0.1.9.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+autopc-1.0.1.9.dist-info/top_level.txt,sha256=Ol2kla7SSL1r-FvuZTbKjnUfQ1HPqwlLlJwunWyshoY,7
+autopc-1.0.1.9.dist-info/RECORD,,
