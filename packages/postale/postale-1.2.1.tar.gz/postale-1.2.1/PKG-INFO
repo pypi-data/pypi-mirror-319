@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: postale
+Version: 1.2.1
+Summary: Simple wrapper around `smtplib` and `email` libraries.
+Project-URL: Homepage, https://github.com/AndyP3r3z/postale
+Project-URL: Issues, https://github.com/AndyP3r3z/postale
+Author-email: Andres Pérez <andy.perez.amado@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
