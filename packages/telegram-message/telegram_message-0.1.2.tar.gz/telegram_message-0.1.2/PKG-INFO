@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: telegram_message
+Version: 0.1.2
+Summary: sending notifications to telegram
+Author: Tetiana
+Author-email: tetyana.d@nitra.dev
+Description-Content-Type: text/markdown
+
+To install the package, use pip:
+
+```bash
+pip install telegram_message
+```
