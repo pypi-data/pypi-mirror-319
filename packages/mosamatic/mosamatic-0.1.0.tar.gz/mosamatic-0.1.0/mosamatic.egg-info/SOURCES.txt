@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+mosamatic/cli.py
+mosamatic/main.py
+mosamatic.egg-info/PKG-INFO
+mosamatic.egg-info/SOURCES.txt
+mosamatic.egg-info/dependency_links.txt
+mosamatic.egg-info/entry_points.txt
+mosamatic.egg-info/requires.txt
+mosamatic.egg-info/top_level.txt
+mosamatic/core/controller.py
+mosamatic/ui/base.py
+mosamatic/ui/tkinter.py
+mosamatic/ui/wxpython.py
