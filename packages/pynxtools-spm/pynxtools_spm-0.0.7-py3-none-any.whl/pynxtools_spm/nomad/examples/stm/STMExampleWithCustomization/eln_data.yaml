@@ -1,0 +1,42 @@
+Sample:
+  History:
+    notes: <p>Sample History goes here.</p>
+  description: <p>Sample description.</p>
+  name: diPAMY
+  sample_component_set:
+    sample_component:
+      description: <p>Component Description goes here.</p>
+      name: DemoComponent
+collection_identifier:
+  identifier: D:\DATA\nanonis V45_sessions\Zurich PLL\2023-03-31
+default: current_forward
+definition: NXstm
+experiment_description: '<p>Experiment with</p>
+
+  <p>Bias: 50mV</p>
+
+  <p>Setpoint: 500pA</p>
+
+  <p>Comment: &nbsp;</p>
+
+  <p>&nbsp; &nbsp;Lockin:</p>
+
+  <p>&nbsp; &nbsp; voltage: 10mV (Rms Frequency 831Hz, Phase -31.5deg) S 50mV Tcons
+  10mS</p>'
+experiment_identifier:
+  identifier: D:\DATA\nanonis V45_sessions\Zurich PLL\2023-03-31\2023_03_31_oAu(111)__FeBr2_EP1_018.sxm
+experiment_instrument:
+  hardware:
+    model: Generic 4.5
+    model/@version: '4.5'
+    name: Nanonis
+    vendor: Nanonis
+experiment_technique: STM
+scan_mode: constant current
+user:
+  affiliation:
+  - HU
+  email:
+  - rubel,.mozumder@physik.hu-berlin.de
+  - cojal@physik.hu-berlin.de
+  name: Rubel Mozumder
