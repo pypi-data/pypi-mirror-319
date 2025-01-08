@@ -1,0 +1,10 @@
+libfast_perlin_noise.cp310-win_amd64.h,sha256=obuGESLJdRXOVD6KoVBEfIAYF81IHcY_7giSLFI316c,1868
+libfast_perlin_noise.cp310-win_amd64.pyd,sha256=VP1cOvlu5DuoNs3SfEeN2LQLHmBX-3Iciv-jZbtXRow,1778688
+fast_perlin_noise/PerlinNoise.py,sha256=tef6O8IzKCaIiq04xh27Tc0kzUuihiq7fkhVda-WGG4,3949
+fast_perlin_noise/__init__.py,sha256=T6zyMEZJEcm1rGo_WhGGtmFPLbWVUgwx70bLw6xxmRA,1050
+fast_perlin_noise/_version.py,sha256=JfAJyDAHnr3V1dPqlHHtK3o2yJ6PMQ5mkEnkwCBGI5I,427
+fast_perlin_noise-1.1.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+fast_perlin_noise-1.1.2.dist-info/METADATA,sha256=jAinvdN7AgLajTwlMWGe-VOm7iVPwYAPPObIEh55q6M,45100
+fast_perlin_noise-1.1.2.dist-info/WHEEL,sha256=ZbysKQ-KbiarXzvle8R5OReN2gVclmU0Mb8tCTB42Ak,101
+fast_perlin_noise-1.1.2.dist-info/top_level.txt,sha256=DDiuk5dWuwVQ_ToBncOATwmf1fvP8JqVRE2oTzhs8fg,39
+fast_perlin_noise-1.1.2.dist-info/RECORD,,
