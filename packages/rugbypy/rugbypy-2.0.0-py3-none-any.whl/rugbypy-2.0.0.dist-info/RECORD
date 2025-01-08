@@ -1,0 +1,11 @@
+rugbypy/__init__.py,sha256=_7OlQdbVkK4jad0CLdpI0grT-zEAb-qgFmH5mFzDXiA,22
+rugbypy/_modidx.py,sha256=pewhOmrqsk_tdc2IlcMvOsud5VBSpFVrF2HU6C72KaU,1218
+rugbypy/match.py,sha256=JNKrt9RNkoYLtNd6UoGaLjMQ0DIQ0gbMHpB9FXl8dzw,1477
+rugbypy/player.py,sha256=sJlecGptVNJd8sVt9GO03JIpOyjcYPS-8O04bbwBaHM,4964
+rugbypy/team.py,sha256=TClewc-uHnswyM_vUtlCzayC6wSGeDJuignfU2FwfxY,1276
+rugbypy-2.0.0.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+rugbypy-2.0.0.dist-info/METADATA,sha256=4aTzCrWSVj3XyYzkH3mHQ4G9T7Tj5IowMUkoTkj88J8,25840
+rugbypy-2.0.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+rugbypy-2.0.0.dist-info/entry_points.txt,sha256=3BmcyCak1Lwj_k8d_Rdui2escsfj4xlIFQdv6Pu5gtY,57
+rugbypy-2.0.0.dist-info/top_level.txt,sha256=fFsgjw9ccTSUxFoyMVSYaxpiX7s9NGe2mUOx40tbNns,8
+rugbypy-2.0.0.dist-info/RECORD,,
