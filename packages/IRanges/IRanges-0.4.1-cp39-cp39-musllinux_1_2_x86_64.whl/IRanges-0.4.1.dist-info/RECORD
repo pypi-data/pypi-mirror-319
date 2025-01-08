@@ -1,0 +1,12 @@
+IRanges-0.4.1.dist-info/top_level.txt,sha256=9REihK4vjFJokFKUMb_KMT7rUqsQhUO-RvZTPbM-fYM,8
+IRanges-0.4.1.dist-info/RECORD,,
+IRanges-0.4.1.dist-info/LICENSE.txt,sha256=RIPdBQEJwWOOJRmpXhEoW-hpkid8PbhtdBskBXyNkq0,1071
+IRanges-0.4.1.dist-info/METADATA,sha256=_bL0ffKrfme8-dTMXn5Ni7m4hAEEf9fAI3Uy5QF1-70,6226
+IRanges-0.4.1.dist-info/WHEEL,sha256=8UayvovyrFi1LL91bT6QWZTD1z0M6FXrB-46bEuD8G0,110
+IRanges.libs/libstdc++-0d31ccbe.so.6.0.32,sha256=QyUTnI2umnGgPmNJ-6F_BVIAJnq6-70cNoEWpma6EFQ,3494521
+IRanges.libs/libgcc_s-a0b57c20.so.1,sha256=XPAr2giQZFaQKDEig3i_sQM7zfbaGkuhwmZ9ryvu-Vk,148041
+iranges/utils.py,sha256=UhANS8m_-LuzBRJ9FjXuG87hiVsVdIjslOCwEUf1gk4,4397
+iranges/IRanges.py,sha256=3iZn78jeqcZSo1hXFJTnlHrDe6v9P9m79TznT-Hk-Mo,76446
+iranges/lib_iranges.cpython-39-x86_64-linux-gnu.so,sha256=4M7gRt1KEJ8aoRRmlzI6KHxXiaOhgZH7Q6jDsOhW6yY,206985
+iranges/sew_handler.py,sha256=2DSyYwjGndYX9f2tjeCSi0e4fql2osSQsg-hHyK830E,3724
+iranges/__init__.py,sha256=GFvAKt1rQR0fhStdSNM9gRtkAvxBw97InynKxsGxFQc,608
