@@ -1,0 +1,19 @@
+task2
+import random
+
+def calculate_matrix_diagonals_avg(n):
+    matrix = [[random.randint(-10, 10) for _ in range(n)] for _ in range(n)]
+    print("Matrix:")
+    for row in matrix:
+        print(row)
+
+    main_diag_pos = [matrix[i][i] for i in range(n) if matrix[i][i] > 0]
+    sec_diag_neg = [matrix[i][n-i-1] for i in range(n) if matrix[i][n-i-1] < 0]
+
+    avg_main_diag = sum(main_diag_pos) / len(main_diag_pos) if main_diag_pos else 0
+    avg_sec_diag = sum(sec_diag_neg) / len(sec_diag_neg) if sec_diag_neg else 0
+
+    print(f"Avg positive main diagonal: {avg_main_diag}")
+    print(f"Avg negative secondary diagonal: {avg_sec_diag}")
+
+calculate_matrix_diagonals_avg(5)

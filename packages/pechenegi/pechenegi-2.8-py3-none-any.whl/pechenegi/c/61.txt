@@ -1,0 +1,9 @@
+task61
+def convert_list_to_string(list_of_lists):
+    # Объединяем каждый вложенный список в строку, затем объединяем их через запятую
+    return ','.join([''.join(sublist) for sublist in list_of_lists])
+
+# Пример
+input_data = [['E', 'e', 'n', 'y'], ['m', 'e', 'e', 'n', 'y'], ['m', 'i', 'n', 'e', 'y'], ['m', 'o', 'e']]
+result = convert_list_to_string(input_data)
+print(result)

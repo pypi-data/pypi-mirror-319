@@ -1,0 +1,8 @@
+task18
+def encrypt_string(s):
+    evens = s[::2]
+    odds = s[1::2][::-1]
+    return evens + odds
+
+s = "Программа"
+print(encrypt_string(s))

@@ -1,0 +1,10 @@
+task31
+from collections import deque
+
+def remove_vowels(s):
+    vowels = 'AEIOUYaeiouyАЕЁИОУЫЭЮЯаеёиоуыэюя'
+    linked_list = deque(char for char in s if char not in vowels)
+    return ''.join(linked_list)
+
+s = "Eeny, meeny, miney, moe; Catch a tiger by his toe."
+print(remove_vowels(s))

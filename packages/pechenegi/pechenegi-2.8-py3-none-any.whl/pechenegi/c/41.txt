@@ -1,0 +1,4 @@
+task41
+s = str(input("Введите строку: ))
+result = [char * (len(s) - i) for i, char in enumerate(s)]
+print(result)

@@ -1,0 +1,14 @@
+task27 (Вари)
+def psort(**kwargs):
+    return [kwargs[key] for key in sorted(kwargs)]
+
+print(psort(c=21, a=22, ac=17, b=16))
+
+task60 (Евы)
+def psort(**kwargs):
+    # Сортируем параметры по именам и извлекаем соответствующие значения
+    return [kwargs[key] for key in sorted(kwargs)]
+
+
+result = psort(c=21, a=22, ac=17, b=16)
+print(result)

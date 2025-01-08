@@ -1,0 +1,7 @@
+task20
+def create_dict_from_string(s):
+    words = s.split(',')
+    return {word: f"номер {i+1} в строке" for i, word in enumerate(words)}
+
+s = "ten,one,five,two,three,four"
+print(create_dict_from_string(s))

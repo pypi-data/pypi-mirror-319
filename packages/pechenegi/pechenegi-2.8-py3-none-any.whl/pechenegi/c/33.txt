@@ -1,0 +1,5 @@
+task33
+sentence = 'Eeny, meeny, miney, moe; Catch a tiger by his toe.' 
+words = sentence.split()
+result = [list(word.strip('.,;')) for word in words] 
+print(result)

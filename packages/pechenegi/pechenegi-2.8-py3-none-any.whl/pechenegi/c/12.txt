@@ -1,0 +1,8 @@
+task12
+def sum_series_sine(x):
+    series_sum = sum((-1) ** i * (x ** (2 * i + 1)) / math.factorial(2 * i + 1) for i in range(5))
+    return series_sum
+
+x = math.radians(30)  # Пример
+print(f"Sum of series: {sum_series_sine(x)}")
+print(f"Exact sine: {math.sin(x)}")

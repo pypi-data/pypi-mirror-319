@@ -1,0 +1,24 @@
+task37
+def nam_par(*args, name=None):
+    # Если name не передан, используем английский алфавит
+    if name is None:
+        name = 'abcdefghijklmnopqrstuvwxyz'
+    
+    # Составляем словарь с ключами из name и значениями из args
+    result = {name[i]: args[i] for i in range(min(len(name), len(args)))}
+    
+    return result
+
+print(nam_par(7, 3, 1, 8, 10, 13, name='xyzafg'))
+
+task64
+def nam_par(*args, name=None):
+    # Если name не передан, используем английский алфавит
+    if name is None:
+        name = 'abcdefghijklmnopqrstuvwxyz'
+
+    # Генерация словаря с использованием zip для совмещения ключей и значений
+    return {key: value for key, value in zip(name, args)}
+
+
+print(nam_par(7, 3, 1, 8, 10, 13, name='xyzafg'))
