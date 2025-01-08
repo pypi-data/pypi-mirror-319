@@ -1,0 +1,16 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "type": "leaf"
+        }
+      ],
+      "type": "branch"
+    },
+    {
+      "type": "leaf"
+    }
+  ],
+  "type": "root"
+}

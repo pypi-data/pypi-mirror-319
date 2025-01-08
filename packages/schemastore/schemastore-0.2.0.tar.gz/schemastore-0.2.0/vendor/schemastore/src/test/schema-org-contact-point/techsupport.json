@@ -1,0 +1,8 @@
+{
+  "@type": "ContactPoint",
+  "areaServed": ["US", "CA"],
+  "availableLanguage": ["English", "French"],
+  "contactOption": "TollFree",
+  "contactType": "technical support",
+  "telephone": "+1-877-453-1304"
+}

@@ -1,0 +1,13 @@
+{
+  "repos": [
+    {
+      "hooks": [
+        {
+          "id": "identify",
+          "language": "python"
+        }
+      ],
+      "repo": "meta"
+    }
+  ]
+}

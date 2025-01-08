@@ -1,0 +1,20 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "author": "liquibase-docs",
+        "changes": [
+          {
+            "dropPrimaryKey": {
+              "constraintName": "const_name",
+              "dropIndex": true,
+              "schemaName": "public",
+              "tableName": "person"
+            }
+          }
+        ],
+        "id": "dropPrimaryKey-example"
+      }
+    }
+  ]
+}

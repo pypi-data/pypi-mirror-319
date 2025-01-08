@@ -1,0 +1,12 @@
+{
+  "repos": [
+    {
+      "hooks": [
+        {
+          "id": "foo"
+        }
+      ],
+      "repo": "meta"
+    }
+  ]
+}

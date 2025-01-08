@@ -1,0 +1,17 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "author": "liquibase-docs",
+        "changes": [
+          {
+            "tagDatabase": {
+              "tag": "version_1.3"
+            }
+          }
+        ],
+        "id": "tagDatabase-example"
+      }
+    }
+  ]
+}

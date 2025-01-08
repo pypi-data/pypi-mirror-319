@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "file-name-casing": [
+      true,
+      {
+        ".ts": "snake-case",
+        ".tsx": "pascal-case"
+      }
+    ]
+  }
+}

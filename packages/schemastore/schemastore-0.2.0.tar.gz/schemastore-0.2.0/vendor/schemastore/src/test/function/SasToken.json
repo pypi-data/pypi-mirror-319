@@ -1,0 +1,24 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "direction": "in",
+      "methods": ["post"],
+      "name": "input",
+      "type": "httpTrigger"
+    },
+    {
+      "direction": "out",
+      "name": "$return",
+      "type": "http"
+    },
+    {
+      "connection": "",
+      "direction": "in",
+      "name": "blobDirectory",
+      "path": "{ContainerName}",
+      "type": "blob"
+    }
+  ],
+  "disabled": false
+}

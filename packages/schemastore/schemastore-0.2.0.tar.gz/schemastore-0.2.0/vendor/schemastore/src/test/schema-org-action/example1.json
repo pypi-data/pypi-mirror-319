@@ -1,0 +1,24 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Action",
+  "agent": {
+    "@type": "Person",
+    "name": "John"
+  },
+  "instrument": {
+    "@type": "Product",
+    "name": "iPod"
+  },
+  "location": {
+    "@type": "Residence",
+    "name": "Ann's apartment"
+  },
+  "object": {
+    "@type": "MusicGroup",
+    "name": "Pink!"
+  },
+  "participant": {
+    "@type": "Person",
+    "name": "Steve"
+  }
+}

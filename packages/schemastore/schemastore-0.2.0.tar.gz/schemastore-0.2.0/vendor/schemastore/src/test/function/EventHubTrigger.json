@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "connection": "",
+      "direction": "in",
+      "name": "myEventHubMessage",
+      "path": "samples-workitems",
+      "type": "eventHubTrigger"
+    }
+  ],
+  "disabled": false
+}

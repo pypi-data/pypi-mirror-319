@@ -1,0 +1,16 @@
+{
+  "databaseChangeLog": [
+    {},
+    {
+      "changeSet": {
+        "author": "liquibase-docs",
+        "changes": [
+          {
+            "empty": {}
+          }
+        ],
+        "id": "empty-example"
+      }
+    }
+  ]
+}

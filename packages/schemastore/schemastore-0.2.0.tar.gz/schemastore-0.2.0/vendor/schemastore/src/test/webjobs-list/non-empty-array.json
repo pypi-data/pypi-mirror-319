@@ -1,0 +1,10 @@
+{
+  "WebJobs": [
+    {
+      "filePath": "foo"
+    },
+    {
+      "filePath": "bar"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "databaseChangeLog": [
+    {},
+    {
+      "changeSet": {
+        "author": "liquibase-docs",
+        "changes": [
+          {
+            "dropProcedure": {
+              "catalogName": "cat",
+              "procedureName": "new_customer",
+              "schemaName": "public"
+            }
+          }
+        ],
+        "id": "dropProcedure-example"
+      }
+    }
+  ]
+}

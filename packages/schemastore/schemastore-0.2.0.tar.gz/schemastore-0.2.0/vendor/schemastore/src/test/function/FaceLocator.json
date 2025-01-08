@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "connection": "",
+      "direction": "in",
+      "name": "image",
+      "path": "images/{name}.jpg",
+      "type": "blobTrigger"
+    },
+    {
+      "connection": "",
+      "direction": "out",
+      "name": "outTable",
+      "tableName": "faceRectangle",
+      "type": "table"
+    }
+  ],
+  "disabled": false
+}

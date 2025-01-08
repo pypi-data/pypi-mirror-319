@@ -1,0 +1,17 @@
+{
+  "jobs": {
+    "include": [
+      {
+        "python": 2.7,
+        "script": "python -m tox",
+        "stage": "lint"
+      },
+      {
+        "python": "3.5",
+        "script": "python setup.py install",
+        "stage": "install"
+      }
+    ]
+  },
+  "python": [2.7, "3.5", "nightly"]
+}

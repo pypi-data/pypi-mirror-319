@@ -1,0 +1,23 @@
+{
+  "bindings": [
+    {
+      "direction": "in",
+      "methods": ["get"],
+      "name": "req",
+      "type": "httpTrigger"
+    },
+    {
+      "direction": "out",
+      "name": "res",
+      "type": "http"
+    },
+    {
+      "connection": "",
+      "direction": "in",
+      "name": "inTable",
+      "tableName": "person",
+      "type": "table"
+    }
+  ],
+  "disabled": false
+}

@@ -1,0 +1,20 @@
+{
+  "jobs": {
+    "include": [
+      {
+        "addons": {
+          "srcclr": true
+        },
+        "stage": "test1"
+      },
+      {
+        "addons": {
+          "srcclr": {
+            "debug": true
+          }
+        },
+        "stage": "test2"
+      }
+    ]
+  }
+}

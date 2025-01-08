@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "direction": "in",
+      "name": "payload",
+      "type": "httpTrigger",
+      "webHookType": "github"
+    }
+  ],
+  "disabled": false
+}

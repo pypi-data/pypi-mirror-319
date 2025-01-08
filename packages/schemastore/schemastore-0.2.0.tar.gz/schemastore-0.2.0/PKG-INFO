@@ -1,0 +1,75 @@
+Metadata-Version: 2.4
+Name: schemastore
+Version: 0.2.0
+Summary: Easy use of the JSON SchemaStore from Python, as a referencing.Registry
+Project-URL: Homepage, https://github.com/python-jsonschema/schemastore
+Project-URL: Issues, https://github.com/python-jsonschema/schemastore/issues/
+Project-URL: Source, https://github.com/python-jsonschema/schemastore
+Author-email: Sorin Sbarnea <sorin.sbarnea@gmail.com>, Julian Berman <Julian+SchemaStore@GrayVines.com>
+License-File: LICENSE
+Keywords: json,jsonschema,referencing,schemas,schemastore,yaml
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: File Formats :: JSON
+Classifier: Topic :: File Formats :: JSON :: JSON Schema
+Requires-Python: >=3.8
+Requires-Dist: referencing
+Requires-Dist: requests-cache>=1.0.0a0
+Description-Content-Type: text/markdown
+
+# schemastore.py
+
+A collection of all JSON Schemas from the [schemastore.org](https://schemastore.org) catalog, installable so they may be used without internet access.
+
+## Installation
+
+Use your favorite package manager, e.g. via:
+
+    $ uv pip install schemastore
+
+or
+
+    $ pip install schemastore
+
+## Usage
+
+Schemas are made usable as a [`referencing.Registry`](https://referencing.readthedocs.io/en/stable/api/#referencing.Registry).
+It is available as:
+
+
+```python
+import schemastore
+registry = schemastore.registry()
+```
+
+and use any of the API from the aforementioned referencing package to make use of the schemas, such as:
+
+```python
+print(registry.get_or_retrieve("https://json.schemastore.org/github-action.json").value)
+
+```
+
+though more typically you will use the registry alongside a JSON Schema validator such as those provided by the [`jsonschema` library](https://python-jsonschema.readthedocs.io/):
+
+```python
+import jsonschema
+import schemastore
+
+
+# Validate whether the string "foo" is a valid GitHub actions workflow (it is not.)
+jsonschema.validate(
+    '"foo"',
+    {"$ref": "https://json.schemastore.org/github-action.json"},
+    registry=schemastore.registry(),
+)
+```

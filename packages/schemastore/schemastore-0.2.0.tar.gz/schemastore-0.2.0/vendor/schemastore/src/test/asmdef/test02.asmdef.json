@@ -1,0 +1,5 @@
+{
+  "excludePlatforms": ["WebGL"],
+  "name": "MyLibrary2",
+  "references": ["Utility"]
+}

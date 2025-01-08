@@ -1,0 +1,20 @@
+{
+  "databaseChangeLog": [
+    {},
+    {
+      "changeSet": {
+        "author": "liquibase-docs",
+        "changes": [
+          {
+            "dropSequence": {
+              "catalogName": "cat",
+              "schemaName": "public",
+              "sequenceName": "seq_id"
+            }
+          }
+        ],
+        "id": "dropSequence-example"
+      }
+    }
+  ]
+}

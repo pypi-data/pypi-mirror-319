@@ -1,0 +1,14 @@
+{
+  "repos": [
+    {
+      "hooks": [
+        {
+          "id": "foo",
+          "language": "python",
+          "name": "boo"
+        }
+      ],
+      "repo": "local"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/bootstraprc",
+  "bootstrapVersion": 4,
+  "extractStyles": false,
+  "scripts": true,
+  "styleLoaders": ["style", "css", "sass"],
+  "styles": true,
+  "useFlexbox": true
+}

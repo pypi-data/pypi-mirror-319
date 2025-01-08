@@ -1,0 +1,10 @@
+{
+  "config": {
+    "nodeicoQueryString": {
+      "compact": true,
+      "downloads": true
+    },
+    "npmPackageName": "badges"
+  },
+  "list": ["travisci", "npmversion"]
+}

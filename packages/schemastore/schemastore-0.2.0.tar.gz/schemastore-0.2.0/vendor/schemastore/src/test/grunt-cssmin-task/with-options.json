@@ -1,0 +1,10 @@
+{
+  "default": {
+    "files": {
+      "path/to/output.css": ["path/to/**/*.css"]
+    },
+    "options": {
+      "banner": "/* My minified css file */"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "databaseChangeLog": [
+    {},
+    {
+      "changeSet": {
+        "author": "liquibase-docs",
+        "changes": [
+          {
+            "addColumn": {
+              "catalogName": "cat",
+              "columns": [],
+              "schemaName": "public",
+              "tableName": "person"
+            }
+          }
+        ],
+        "id": "addColumn-example"
+      }
+    }
+  ]
+}

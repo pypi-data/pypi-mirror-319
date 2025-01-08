@@ -1,0 +1,10 @@
+{
+  "extends": "default",
+  "ignore": "/vendor\n",
+  "rules": {
+    "document-start": "disable",
+    "line-length": "disable",
+    "truthy": "disable"
+  },
+  "yaml-files": ["*.yaml", "*.yml"]
+}

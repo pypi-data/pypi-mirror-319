@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "connection": "",
+      "direction": "in",
+      "name": "myQueueItem",
+      "queueName": "myqueue-items",
+      "type": "queueTrigger"
+    }
+  ],
+  "disabled": false
+}

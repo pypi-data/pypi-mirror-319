@@ -1,0 +1,17 @@
+{
+  "options": {
+    "exportRuntime": true
+  },
+  "targets": {
+    "debug": {
+      "debug": true,
+      "enable": ["simd"],
+      "optimizeLevel": 3,
+      "shrinkLevel": 1
+    },
+    "release": {
+      "exportRuntime": false,
+      "noAssert": true
+    }
+  }
+}

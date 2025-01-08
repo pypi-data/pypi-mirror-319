@@ -1,0 +1,10 @@
+name: Test runs-on
+on:
+  push:
+    branches:
+      - master
+jobs:
+  self-hosted-custom:
+    runs-on:
+    steps:
+      - run: echo 'Hello from self-hosted ${{ runner.os }}'
