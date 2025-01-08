@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paper Summary</title>
+</head>
+<body>
+    <h1>Summary</h1>
+    {% for para in summary_lines %}
+    <p>{{para}}</p>
+    {% endfor %}
+
+    {% if answers %}
+        <h2>Answers</h2>
+        {% if asked_question %}
+            <p>Answering question: <strong>{{asked_question}}</strong></p>
+        {% endif %}
+        {% for answer in answers %}
+            {% autoescape false %}
+                <p>{{answer}}</p>
+            {% endautoescape %}
+        {% endfor %}
+    {% endif %}
+    <form method=post enctype=multipart/form-data action="/questions">
+        {% if suggested_questions %}
+            <h2>Suggested Questions</h2>
+            <p>
+                <select name=preselected_question>
+                    <option value="">Select a question</option>
+                        {% for question in suggested_questions %}
+                            <option value="{{question}}">{{question}}</option>
+                        {% endfor %}
+                </select>
+            </p>
+            <p><label for="question">or ask your own question:</label></p>
+        {% else %}
+            <p><label for="question">Ask a question:</label></p>
+        {% endif %}
+        <p><input type=text size="80" name=question></p>
+        <input type=hidden name=full_text value="{{text}}">
+        <input type=hidden name=summary value="{{summary}}">
+        {% for suggested_question in suggested_questions %}
+            <input type=hidden name=suggested_question_{{loop.index0}} value="{{suggested_question}}">
+        {% endfor %}
+        <input type=submit value=Ask>
+    </form>
+</body>
+</html>
