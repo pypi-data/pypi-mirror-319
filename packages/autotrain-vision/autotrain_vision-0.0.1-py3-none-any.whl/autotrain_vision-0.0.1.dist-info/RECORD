@@ -1,0 +1,10 @@
+autotrain/__init__.py,sha256=yGTilnzxfZXENhxCbWhC4CYBSWfCNnhD1MWDPRUG1hU,164
+autotrain/auto_train.py,sha256=x_HnPsr64GLXdoKK0jxpSNXt_RzIKEgpbgE5imKGWMk,8448
+autotrain/available_cam.py,sha256=B7ran0h4_U4Da23SNnt5XSSEIQq1aGLIJDIqbmk1-Ng,2493
+autotrain/new_data.py,sha256=jaFcWZdi5NMMNud1ZOpUvvmPevNEwA8rbE1L6EX2rTU,9306
+autotrain/roboflow_bb.py,sha256=4O7IDWg3cLjKWASPTbhPf-4sk1z6y6GCOoNKJbRcfWI,4327
+autotrain/utils_aug.py,sha256=H-YfG7RhRDnJ86StAYgCpThkeJYG5DrsjJ6qk3ScVxU,7606
+autotrain_vision-0.0.1.dist-info/METADATA,sha256=7ZZXReB0YbXefovQsSYnFR2Q-05EPE7Sj0bx4TTiyGg,2430
+autotrain_vision-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+autotrain_vision-0.0.1.dist-info/top_level.txt,sha256=pKL8MKQDCWX1XQrGfDqfXaWCDZ7-FXnGFBc3dfps7CU,10
+autotrain_vision-0.0.1.dist-info/RECORD,,
