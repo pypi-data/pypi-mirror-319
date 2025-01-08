@@ -1,0 +1,8 @@
+site_name: CEP Weather
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+  - Quickstart: quickstart.md
+  - Server: server.md
