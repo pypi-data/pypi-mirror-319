@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: psql-upload
+Version: 0.1
+Summary: A simple utility for uploading data from CSV to PostgreSQL
+Home-page: https://github.com/Amalgamator04/sqlupload
+Author: Prabhav Sharma
+Author-email: prabhavs2004@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# psql-upload
+
+This package provides functionality to upload data from a CSV file to a PostgreSQL database.
+
+## Installation
+
+```bash
+pip install psql-upload
