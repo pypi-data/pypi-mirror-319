@@ -1,0 +1,17 @@
+derivepassphrase/__init__.py,sha256=ylc_n-NIRg3hDcP8qO82MTERtuDGy_zHddesVkBIujg,286
+derivepassphrase/__main__.py,sha256=sc2aRLgq2OZFbQIkK09faCRr0FYfZoUgjAknw2ZKvWc,300
+derivepassphrase/_cli_msg.py,sha256=t7EBbvLC8zVhDqVOyS0kEHDDqbRUxcgLifd0ZNTU0XE,46289
+derivepassphrase/_types.py,sha256=2H33s7zjU2Vy9fU4nLsrk1qAomh0q-ILAfS6lFORjY4,20976
+derivepassphrase/cli.py,sha256=pWDR0cG31Kc6o-edSp6LmLofa3XJfdFv3oVdslEDJUY,126593
+derivepassphrase/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+derivepassphrase/sequin.py,sha256=e4DHQob8LKDwJMBteGeWiNNgRAroF5scsB3rrzGAo0s,13801
+derivepassphrase/ssh_agent.py,sha256=n84uo0FBAuWKVRrwmDB5Tdz55ir_5ASXCLTrqpESsXQ,22975
+derivepassphrase/vault.py,sha256=3EEDjPeCvMAEm3_nBw7UvIU_Wb-LJ_76XrfAXI0cBu8,23772
+derivepassphrase/exporter/__init__.py,sha256=9yOuXYSseoWewzJTAfEvuTyfxUCZzEq8tlXmQEQZuSc,2065
+derivepassphrase/exporter/storeroom.py,sha256=7JzbEZ4S9i_sxrJ7g7uplt_haLqL14rFicLbq1ZbTj4,26632
+derivepassphrase/exporter/vault_native.py,sha256=CEbrSR2Xx_4KwHYYYqAm09bMvM4tVD4ATPWRo9SDd8E,17353
+derivepassphrase-0.4.0.dist-info/METADATA,sha256=EeAq5ycztIRVmlqkbaquaIA3SRhMT0P-3U7rlKzOldA,6167
+derivepassphrase-0.4.0.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+derivepassphrase-0.4.0.dist-info/entry_points.txt,sha256=hU45rbwpskHUzQm3LyuamjlndpC2XWlP9JoS4_1n5r4,75
+derivepassphrase-0.4.0.dist-info/licenses/LICENSE.txt,sha256=D9KyOIXGJ85DOSB3_8csGQhlEMaZHJ5QdUkBLrooW_4,883
+derivepassphrase-0.4.0.dist-info/RECORD,,
