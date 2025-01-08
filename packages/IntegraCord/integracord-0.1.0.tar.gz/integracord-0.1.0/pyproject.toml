@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "IntegraCord"
+version = "0.1.0"
+description = "IntegraCord that allows you to connect to the application as a 'Webhook' without connecting to the Discord gateway."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Paweł Brzyś", email = "m@pawelb.xyz" }]
+dependencies = [
+    "aiohttp",
+    "fastapi",
+    "python-dotenv",
+    "PyNaCl",
+    "uvicorn"
+]
