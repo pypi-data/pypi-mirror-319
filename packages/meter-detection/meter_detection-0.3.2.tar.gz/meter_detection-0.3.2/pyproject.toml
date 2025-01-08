@@ -1,0 +1,53 @@
+[project]
+name = "meter_detection"
+dynamic = []
+description = "a library for meter detection"
+authors = [
+    { name = "svtter", email = "svtter@qq.com" },
+]
+requires-python = ">=3.9,<4.0"
+readme = "README.md"
+dependencies = [
+    "numpy<2.0",
+    "pydantic>2.0",
+    "imgaug>=0.4.0",
+]
+version = "0.3.2"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.mypy]
+exclude = [
+    ".venv",
+]
+
+[tool.ruff]
+line-length = 88
+exclude = [
+    "node_modules",
+    "venv",
+]
+indent-width = 2
+
+[tool.pdm]
+distribution = true
+source = [
+    { name = "sustech", url = "https://mirrors.sustech.edu.cn/pypi/web/simple", verify_ssl = true },
+    { name = "tsinghua", url = "https://pypi.tuna.tsinghua.edu.cn/simple", verify_ssl = true },
+]
+
+[tool.pdm.version]
+source = "file"
+path = "src/meter_detection/__init__.py"
+
+[dependency-groups]
+dev = [
+    "pip>=24.3.1",
+]
