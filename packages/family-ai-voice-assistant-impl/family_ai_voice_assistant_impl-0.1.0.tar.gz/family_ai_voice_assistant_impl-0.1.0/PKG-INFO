@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: family-ai-voice-assistant-impl
+Version: 0.1.0
+Summary: Provides common implementations for Family AI Voice Assistant.
+Home-page: https://github.com/augaria/family-ai-voice-assistant
+License: MIT
+Author: Augaria
+Author-email: augaria@163.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: azure-speech
+Provides-Extra: coqui-tts
+Provides-Extra: ollama
+Provides-Extra: openai
+Provides-Extra: openai-whisper
+Provides-Extra: pvporcupine
+Requires-Dist: TTS ; extra == "coqui-tts"
+Requires-Dist: azure-cognitiveservices-speech ; extra == "azure-speech"
+Requires-Dist: family-ai-voice-assistant-core
+Requires-Dist: ollama ; extra == "ollama"
+Requires-Dist: openai (>=1.0.0) ; extra == "openai"
+Requires-Dist: openai-whisper ; extra == "openai-whisper"
+Requires-Dist: pvporcupine (==2.2.0) ; extra == "pvporcupine"
+Requires-Dist: pyaudio
+Requires-Dist: scipy
+Requires-Dist: sounddevice
+Requires-Dist: speechrecognition
+Project-URL: Repository, https://github.com/augaria/family-ai-voice-assistant
