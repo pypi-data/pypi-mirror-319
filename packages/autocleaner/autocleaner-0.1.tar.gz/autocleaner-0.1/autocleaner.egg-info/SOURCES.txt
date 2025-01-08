@@ -1,0 +1,7 @@
+License.txt
+README.md
+setup.py
+autocleaner.egg-info/PKG-INFO
+autocleaner.egg-info/SOURCES.txt
+autocleaner.egg-info/dependency_links.txt
+autocleaner.egg-info/top_level.txt
