@@ -1,0 +1,10 @@
+source_sftp_bulk/__init__.py,sha256=6D_n18hGhQ0fk3S9dsB4T24DkL9h8WpWzD-PQpIPIRA,128
+source_sftp_bulk/client.py,sha256=U_H8zPadGbb2w9jrSQHrx5ZutHQagLFfqXT4BNUlwHg,2838
+source_sftp_bulk/run.py,sha256=ujD2P-yP8RHZmC0kmOggpgqD5Nut9lAuWglTmB73KLc,659
+source_sftp_bulk/source.py,sha256=I30vLzW1rIoDG0SVn1PhFjDAZsEgxwRHooiyhrJ-Mmo,959
+source_sftp_bulk/spec.py,sha256=NKWXhaDH8Mt32sRs-Lny54Obt8gVgf6ocz5gcNBth6A,2546
+source_sftp_bulk/stream_reader.py,sha256=FlPW-Nk1uEo1h_PO6BBTGUb9KlVlCbOf_v7hHJCYQzY,8062
+airbyte_source_sftp_bulk-1.7.0.dev202501072346.dist-info/METADATA,sha256=aNngzpi1voJqaccTAeMgZxpxJUC1HwwNRkKgpKKvtow,5294
+airbyte_source_sftp_bulk-1.7.0.dev202501072346.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+airbyte_source_sftp_bulk-1.7.0.dev202501072346.dist-info/entry_points.txt,sha256=sNr_xVhv74iagYtm9qbGECpfIuMM9cChmAuRRk2pQJc,61
+airbyte_source_sftp_bulk-1.7.0.dev202501072346.dist-info/RECORD,,
