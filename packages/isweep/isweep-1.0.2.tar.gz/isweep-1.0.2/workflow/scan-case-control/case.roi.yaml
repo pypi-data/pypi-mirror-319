@@ -1,0 +1,54 @@
+# Change these parameters, which mostly
+# concern the location of files.
+change:
+
+  files:
+    # folder for analysis
+    study: '/path-to-study/sequence-data'
+    # the yaml file with scan analysis options
+    yaml: 'this-file.yaml'
+    cases: 'phenotypes.txt'
+    regions_of_interest: 'roi.case.tsv'
+    # either empty or chr depending on prefix of CHROM column in VCF
+    chromosome_prefix: ''
+    # lowest chromosome number
+    chromosome_low: '1'
+    # highest chromosome numbers
+    chromosome_high: '22'
+    # these are phased vcfs
+    vcfs: '/path-to-topmed-data/phased-vcfs'
+    vcf_prefix: 'chr'
+    vcf_suffix: '.vcf.gz'
+    # these are genetic recombination maps
+    genetic_maps: '/path-to-maps-folder'
+    map_prefix: 'chr'
+    map_suffix: '.map'
+    # 2 if diploid, 1 if not diploid
+    # See instructions for how to handle non-diploidy
+    ploidy: '2'
+
+  # Main method parameters
+  isweep:
+    xmx_mem: '60' # in gb
+    num_threads: '8'
+
+# We recommend against adjusting these parameters.
+fixed:
+
+  hap_ibd:
+    # min-seed
+    min_seed: '0.5'
+    # min-extend
+    min_extend: '0.2'
+    # min-output
+    min_output: '1.0'
+    # minimum minor allele frequency
+    min_minor_allele_frequency: '0.10'
+
+  isweep:
+    # inferring outgroup
+    diameter: '6' # any two nodes in community can reach other in this many edges
+    group_cutoff: '3' # https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule
+
+
+
