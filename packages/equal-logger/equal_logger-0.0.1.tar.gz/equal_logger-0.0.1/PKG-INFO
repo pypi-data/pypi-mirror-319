@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: equal_logger
+Version: 0.0.1
+Summary: A logging library for internal usage.
+Author-email: Eduardo Azzolin <eduardosoares@equal.com>, Gustavo Felix Gomes <gustavo@equal.com>
+Project-URL: Homepage, https://github.com/equalbi/equal-logger
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# equal-logger
+Repositório do projeto interno de saúde dos projetos
