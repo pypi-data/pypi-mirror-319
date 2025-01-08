@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: nice-tool-kit
+Version: 2025.1.2
+Summary: My personal toolkit
+Home-page: https://github.com/yourusername/xmlformatter
+Author: vuonglv
+Author-email: it.vuonglv@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: lxml>=4.9.0
+
+# Nice Tool Kit
+
+A toolkit for my personal use.
+
+## Installation
+
+```bash
+pip install nicetoolkit
+```
+## Versioning
+
+This project uses automatic versioning in format `YYYY.MM.PATCH`:
+- Version is automatically bumped when commits are pushed to master
+- Year and month are updated based on current date
+- Patch number increases for multiple commits in same month
