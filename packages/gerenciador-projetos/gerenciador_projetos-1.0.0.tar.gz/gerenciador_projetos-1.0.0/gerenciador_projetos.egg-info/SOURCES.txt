@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gerenciador_projetos/__init__.py
+gerenciador_projetos/interface.py
+gerenciador_projetos.egg-info/PKG-INFO
+gerenciador_projetos.egg-info/SOURCES.txt
+gerenciador_projetos.egg-info/dependency_links.txt
+gerenciador_projetos.egg-info/entry_points.txt
+gerenciador_projetos.egg-info/requires.txt
+gerenciador_projetos.egg-info/top_level.txt

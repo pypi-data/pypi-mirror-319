@@ -1,0 +1,2 @@
+[console_scripts]
+gerenciador-projetos = gerenciador_projetos.interface:criar_interface
