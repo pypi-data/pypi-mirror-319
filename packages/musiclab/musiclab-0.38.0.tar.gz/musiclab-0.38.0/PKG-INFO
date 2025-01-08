@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: musiclab
+Version: 0.38.0
+Summary: Python application for music composition and production.
+Author: Anustuv Pal
+Author-email: anustuv@gmail.com
+Requires-Dist: numpy
+Requires-Dist: modgrammar
+Requires-Dist: pynput
+Requires-Dist: setproctitle
