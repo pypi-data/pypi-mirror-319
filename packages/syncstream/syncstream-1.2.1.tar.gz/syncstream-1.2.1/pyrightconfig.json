@@ -1,0 +1,21 @@
+{
+    "exclude": [
+        "alpha*",
+        "data*",
+        "legacy*",
+        "docs*",
+        "temp*",
+        ".vscode",
+        ".VSCodeCounter",
+        ".github",
+        ".git",
+        "dist",
+        "build",
+        "*.egg-info",
+        "**/node_modules",
+        "**/__pycache__",
+        "typestubs"
+    ],
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false,
+}

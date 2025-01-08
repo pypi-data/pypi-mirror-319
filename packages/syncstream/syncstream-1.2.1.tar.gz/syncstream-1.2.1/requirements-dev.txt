@@ -1,0 +1,10 @@
+# Tier 4: test and devs
+# For developers, recommend to run these commands:
+# python -m pip install pip wheel setuptools build twine --upgrade
+# python -m pip install -r requirements-dev.txt
+#
+black
+build
+flake8
+flake8-black
+pylint
