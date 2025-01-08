@@ -1,0 +1,15 @@
+table_diff/__init__.py,sha256=Ky3mA-s2mTWlspvFOQRDqBLHlv-LrL9ppPw8mlppNDs,257
+table_diff/__main__.py,sha256=YNg7kvGCWVXkkI3k8sFCKA2tU3Z-eQVnuinCz69AKIs,189
+table_diff/cli.py,sha256=SjDmI1dNAS8p7VtupuruHkObxH3YTSgTpBy62berH8g,2725
+table_diff/df_helpers.py,sha256=Bw7NoiEytDx4viOwXMXlYNNJrbprslD8UyoO3dRrcQc,1664
+table_diff/diff_evaluate.py,sha256=JjmLprpZLXj567-TAsTl7v-vhKtA2vQI2Pq2n7bHzCc,5887
+table_diff/diff_types.py,sha256=XDtONvCETzxCAROCaRZFIyJm0vP4F8xIeCcD1h04CTU,10034
+table_diff/gui.py,sha256=kthLL5hue2EqcFSlBpbeqPUko2jFkTUP8Di3XrINEjE,628
+table_diff/log_helpers.py,sha256=Ev3oLRsD53Xgz2IJgqxDz6wwg5NSUGbLWLOT6gnBBPk,1160
+table_diff/pdf_export.py,sha256=BOpzZAwxQGTgqFEEbB0-Qda9NiHCi4_j1nLlMZ_rQ6E,1457
+table_diff/report_markdown.py,sha256=4z_9ByyunSMQlpaOIvJvQDs4ZXBffVXuAMXejuMs9YE,4509
+table_diff-0.1.0.dist-info/METADATA,sha256=8INn6PTAPX2O2_ZSVFCIZpQg09S6abNHOHaOAGd-YDU,3085
+table_diff-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+table_diff-0.1.0.dist-info/entry_points.txt,sha256=FFe7RDndRWUY2P3UKlvNPRTuyAwvWoBAUygJLAfJcUg,88
+table_diff-0.1.0.dist-info/licenses/LICENSE,sha256=iMVQUr9T_08DT_A7d2tQHmoj2Qi7SWsUmgXHUlCMuXA,1065
+table_diff-0.1.0.dist-info/RECORD,,

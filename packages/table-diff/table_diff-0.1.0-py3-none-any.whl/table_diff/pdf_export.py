@@ -1,0 +1,47 @@
+"""Helpers for exporting comparison results."""
+
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2024 Parker L
+
+from pathlib import Path
+
+from markdown_pdf import MarkdownPdf, Section  # type: ignore reportMissingTypeStubs
+
+# TODO: Add type stubs for markdown_pdf - https://github.com/vb64/markdown-pdf/issues/31
+
+
+def export_markdown_to_pdf(markdown_content: str, pdf_file_path: Path) -> None:
+    """Write the input markdown document to a PDF.
+
+    Args:
+        markdown_content (str): The comparison result to export.
+        pdf_file_path (str): The path to save the results to.
+
+    Raises:
+        ValueError: If the line is empty.
+        PermissionError: If the file cannot be overwritten.
+
+    """
+    if not markdown_content:
+        msg = "Cannot export an empty document to PDF."
+        raise ValueError(msg)
+
+    if pdf_file_path.suffix != ".pdf":
+        msg = "The file path should end with '.pdf'."
+        raise ValueError(msg)
+
+    # Create a MarkdownPdf object and add the content
+    pdf = MarkdownPdf()
+    section = Section(markdown_content)
+    pdf.add_section(section)
+
+    # Check if file exists and try to remove it
+    if pdf_file_path.exists():
+        try:
+            pdf_file_path.unlink()
+        except PermissionError as err:
+            msg = f"Cannot overwrite the file: {pdf_file_path}. It might be open in a viewer."
+            raise PermissionError(msg) from err
+
+    # Generate the PDF.
+    pdf.save(pdf_file_path)
