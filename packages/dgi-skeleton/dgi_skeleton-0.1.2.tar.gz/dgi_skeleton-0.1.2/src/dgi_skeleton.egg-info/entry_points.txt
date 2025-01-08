@@ -1,0 +1,2 @@
+[console_scripts]
+dgi-skeleton = skeleton.cli:main
