@@ -1,0 +1,6 @@
+pandas
+pathlib
+psutil
+PyGetWindow
+pywin32
+pywinauto
