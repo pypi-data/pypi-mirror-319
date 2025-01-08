@@ -1,0 +1,51 @@
+.pane {
+	width: 1fr;
+	height: 1fr;
+	border: solid $foreground;
+}
+
+#search {
+	height: 2;
+	padding: 0 1;
+	color: $foreground;
+	background: transparent;
+	border: hidden;
+	border-bottom: solid $foreground;
+}
+
+Prompt {
+	align: center middle;
+	background: $background 50%;
+}
+
+Prompt > Static {
+	width: 50%;
+	text-align: center;
+}
+
+Prompt > SimpleInput {
+	width: 50%;
+	height: 3;
+	padding: 0 1;
+	color: $foreground;
+	background: transparent;
+	border: solid $foreground;
+}
+
+Directory > Child {
+	height: 1;
+	padding: 0 1;
+}
+
+Browser > Child.selected {
+	background: $surface;
+	text-style: bold;
+}
+
+Preview Static {
+	padding: 0 1;
+}
+
+.text-area--cursor-line {
+	background: transparent;
+}
