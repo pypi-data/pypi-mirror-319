@@ -1,0 +1,9 @@
+task25
+def shift_words(s, shift):
+    words = s.split()
+    shift %= len(words)
+    return ' '.join(words[shift:] + words[:shift])
+
+s = "один два три четыре пять шесть семь"
+shift = 3
+print(shift_words(s, shift))

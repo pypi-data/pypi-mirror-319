@@ -1,0 +1,15 @@
+task28
+def count_exclamation(filename):
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        count = sum(line.count('!') for line in lines)
+        print(f"Количество символов '!': {count}")
+        print("Строки с символом '!':")
+        for line in lines:
+            if '!' in line:
+                print(line.strip())
+    except FileNotFoundError:
+        print("Файл не найден.")
+
+count_exclamation('example.txt')

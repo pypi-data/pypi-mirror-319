@@ -1,0 +1,23 @@
+task44
+def sum_main_diagonal(matrix):
+    try:
+        # Проверяем, является ли матрица квадратной
+        if len(matrix) != len(matrix[0]):
+            raise ValueError("Матрица должна быть квадратной!")
+        
+        # Подсчитываем сумму главной диагонали
+        diagonal_sum = sum(matrix[i][i] for i in range(len(matrix)))
+        return diagonal_sum
+
+    except ValueError as e:
+        print(f"Ошибка: {e}")
+    except Exception as e:
+        print(f"Неизвестная ошибка: {e}")
+
+matrix_square = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(sum_main_diagonal(matrix_square)) 

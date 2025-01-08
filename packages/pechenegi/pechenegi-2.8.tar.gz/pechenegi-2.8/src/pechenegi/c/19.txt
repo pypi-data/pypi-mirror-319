@@ -1,0 +1,12 @@
+task19
+def replace_s(s):
+    result = []
+    for i, char in enumerate(s):
+        if char.lower() == 's' and i != 0 and i != len(s) - 1:
+            result.append(s[i-1]*2 + s[i+1])
+        else:
+            result.append(char)
+    return result
+
+s = "test_Stringss"
+print(replace_s(s))

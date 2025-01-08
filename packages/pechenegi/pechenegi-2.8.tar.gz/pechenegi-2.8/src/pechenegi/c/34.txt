@@ -1,0 +1,53 @@
+task34
+# Функция для нахождения наибольшего общего делителя (НОД)
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+# Функция для упрощения дроби
+def simplify(numerator, denominator):
+    common_divisor = gcd(numerator, denominator)
+    return numerator // common_divisor, denominator // common_divisor
+
+# Функция для обработки операции сложения дробей
+def add_fractions(n1, d1, n2, d2):
+    numerator = n1 * d2 + n2 * d1
+    denominator = d1 * d2
+    return simplify(numerator, denominator)
+
+# Функция для обработки операции умножения дробей
+def multiply_fractions(n1, d1, n2, d2):
+    numerator = n1 * n2
+    denominator = d1 * d2
+    return simplify(numerator, denominator)
+
+# Функция для обработки дробей
+def parse_fraction(frac_str):
+    if '/' in frac_str:
+        num, den = frac_str.split('/')
+        return int(num), int(den)
+    else:
+        return int(frac_str), 1  # Если просто целое число
+
+# Основная функция для выполнения операций
+def calculate(expression):
+    parts = expression.split()
+    
+    # Разбираем дроби и оператор
+    frac1 = parse_fraction(parts[0])
+    operator = parts[1]
+    frac2 = parse_fraction(parts[2])
+    
+    # Выполняем операцию в зависимости от оператора
+    if operator == '+':
+        result_numerator, result_denominator = add_fractions(frac1[0], frac1[1], frac2[0], frac2[1])
+    elif operator == '*':
+        result_numerator, result_denominator = multiply_fractions(frac1[0], frac1[1], frac2[0], frac2[1])
+    
+    # Возвращаем результат как правильную дробь
+    return f"{result_numerator}/{result_denominator}"
+
+expression1 = int(input("Введите выражение: ")
+result1 = calculate(expression1)
+print(result1)  # Вывод: 2/15

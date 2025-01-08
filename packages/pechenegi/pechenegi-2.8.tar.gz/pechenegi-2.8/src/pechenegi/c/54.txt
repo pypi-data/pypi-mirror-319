@@ -1,0 +1,14 @@
+task54
+def count_words_with_same_first_last_letter(text):
+    # Разделяем строку на слова
+    words = text.split()
+    
+    # Подсчитываем количество слов, которые начинаются и заканчиваются одинаковой буквой
+    count = sum(1 for word in words if word[0] == word[-1])
+    
+    return count
+
+text = "МАМА ЛЮБИТ МАЛИНУ НАСТЯ"
+result = count_words_with_same_first_last_letter(text)
+print(result)
+

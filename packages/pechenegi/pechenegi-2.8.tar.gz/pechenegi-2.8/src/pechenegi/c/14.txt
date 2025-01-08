@@ -1,0 +1,51 @@
+task14 (Вари)
+def point_info(x, y):
+    if x > 0 and y > 0:
+        quarter = 1
+    elif x < 0 and y > 0:
+        quarter = 2
+    elif x < 0 and y < 0:
+        quarter = 3
+    elif x > 0 and y < 0:
+        quarter = 4
+    else:
+        quarter = 0
+    
+    distance = (x ** 2 + y ** 2) ** 0.5
+    result = quarter * distance
+    print(f"Point ({x}, {y}) is in quarter {quarter}. Product: {result}")
+
+point_info(3, 4)
+
+
+task38 (Евы)
+import math
+
+# Ввод координат
+x = float(input("Введите координату x: "))
+y = float(input("Введите координату y: "))
+
+# Определение номера четверти
+if x > 0 and y > 0:
+    quadrant = 1
+elif x < 0 and y > 0:
+    quadrant = 2
+elif x < 0 and y < 0:
+    quadrant = 3
+elif x > 0 and y < 0:
+    quadrant = 4
+else:
+    quadrant = 0  # Точка на оси
+
+# Расстояние от точки до начала координат
+distance = math.sqrt(x**2 + y**2)
+
+# Вывод результата
+if quadrant == 0:
+    print("Точка лежит на оси.")
+else:
+    print(f"Точка находится в {quadrant}-й четверти.")
+
+# Произведение номера четверти на расстояние
+result = quadrant * distance
+print(f"Произведение номера четверти на расстояние: {result:.2f}")

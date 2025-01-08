@@ -1,0 +1,7 @@
+task45
+lst1 = [2, 4, 1, 3]
+lst2 = ['a', 'b', 'c', 'd']
+
+result = {lst1[i]: lst2[i] * lst1[i] for i in range(len(lst1))}
+print(result)
+

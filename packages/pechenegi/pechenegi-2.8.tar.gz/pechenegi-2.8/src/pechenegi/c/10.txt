@@ -1,0 +1,13 @@
+task10
+import math
+
+def generate_values():
+    x = -math.pi
+    while x <= math.pi:
+        yield x
+        x += 0.1  # Пример шага
+
+for x in generate_values():
+    y1 = 2 * math.sin(x)
+    y2 = math.cos(x) ** 2
+    print(f"x: {x}, y1: {y1}, y2: {y2}")
