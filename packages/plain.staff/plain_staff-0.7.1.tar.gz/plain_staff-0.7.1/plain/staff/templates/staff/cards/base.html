@@ -1,0 +1,11 @@
+{% block header %}
+<header>
+    <h2 class="text-sm font-semibold">{{ title }}</h2>
+
+    {% if description %}<p class="mt-1 text-xs text-gray-500">{{ description }}</p>{% endif %}
+</header>
+{% endblock %}
+
+<div>
+{% block content %}{% endblock %}
+</div>
