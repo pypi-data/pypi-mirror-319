@@ -1,0 +1,11 @@
+pingwizard/__init__.py,sha256=8zLGg-DfQhnDl2Ky0n-zXpN-8e-g7iR0AcaI4l4Vvpk,32
+pingwizard/__main__.py,sha256=XjuCkOJ7Ue1SB9sjObEnmaq8kXwHg4qFrujHAhusqtM,524
+pingwizard/create_shortcut.py,sha256=D4vjvOWTsOeyDMkKOZH4oZIlzPzvJNG4mJBs47j8n-8,5269
+pingwizard/gui_wizard.py,sha256=1GrcMPgGzNx9AroArvzwqZlvELx-CD83m6xoj2WgBVU,6656
+pingwizard/version.py,sha256=zrUEHc9dmvLJ5ka5maZk9TTHoZ21dwKsENXeOSwXM3o,21
+pingwizard-1.0.6.data/data/pingmapper_config/PINGMapper_Logo_small.png,sha256=gmoOoDrsMkV7LLhW_1jOZ1NQ0I9nbJIdadiY1KErZwM,11692
+pingwizard-1.0.6.dist-info/LICENSE,sha256=e1msmChkqLNv3MljTU25M3MRnJp8HWLl4zUjI0IrvAg,1092
+pingwizard-1.0.6.dist-info/METADATA,sha256=b79rAXfAI59ZLQCRSrxYUMbsmJ1Qqz3lN25o4ZXT2OM,1332
+pingwizard-1.0.6.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+pingwizard-1.0.6.dist-info/top_level.txt,sha256=xuh7tnCLM7SQVrtQYfgO6Wc7gRtpQd7ldE5JhUr8sYc,11
+pingwizard-1.0.6.dist-info/RECORD,,
