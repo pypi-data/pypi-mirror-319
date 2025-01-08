@@ -1,0 +1,2 @@
+include src/zoomzoom/config/default_config.ini
+include src/zoomzoom/readme.txt 
