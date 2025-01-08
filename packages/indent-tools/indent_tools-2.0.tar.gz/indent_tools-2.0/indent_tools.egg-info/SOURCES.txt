@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+indent_tools/__init__.py
+indent_tools/text.py
+indent_tools/xml.py
+indent_tools.egg-info/PKG-INFO
+indent_tools.egg-info/SOURCES.txt
+indent_tools.egg-info/dependency_links.txt
+indent_tools.egg-info/top_level.txt
