@@ -1,0 +1,3 @@
+[console_scripts]
+generate-maze=stara_maze_generator.cli:main
+
