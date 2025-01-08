@@ -1,0 +1,12 @@
+lean4_lambda_calculator/__init__.py,sha256=XMq_vl8yX03dEcP7kcps7TSh_Q-UiZTfZrP6AQlS7sI,76
+lean4_lambda_calculator/analyse_log.py,sha256=fdD8-h_fRWnKJDtaluyoqoj36LpbtQquaPjkzHVptwk,1217
+lean4_lambda_calculator/calculator.py,sha256=9yCKsMmXb1CTSDR_ddQ8mWrKJ2TFsKPIfW246xI9Zcs,12416
+lean4_lambda_calculator/data_downloader.py,sha256=dciLF3QPc-ehpgCr3XfR8v_Pgy4tHLC1mOt6GXjLKcA,2522
+lean4_lambda_calculator/expr.py,sha256=TXnFkI2bSsMYKkHBmnRAqM1w5Ws0VzhiNuNYu8O9G-A,15896
+lean4_lambda_calculator/level.py,sha256=pLglzlqCJK1LCB2Vtdv1RD5lZY9JyfIp4q92aAvOvPw,5403
+lean4_lambda_calculator/parser.py,sha256=ggm0pfbyDU_vJV6TQpSGtDkPwEo3wOTG5FlkV1RSa2w,5828
+lean4_lambda_calculator/shell.py,sha256=jQFSyEkR3KWnOfUaTaJHtVvq_XFW4ImGb1N7XnL8cvE,6073
+lean4_lambda_calculator-0.1.0.dist-info/METADATA,sha256=GIEcS5kEq-G65l7nKipceEftwyJMmHkDXltci5S1lcY,584
+lean4_lambda_calculator-0.1.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+lean4_lambda_calculator-0.1.0.dist-info/top_level.txt,sha256=aXF9FYP9oN3Cxn0O8w37njTYc6M7f6ce8WWPlMWFWR4,24
+lean4_lambda_calculator-0.1.0.dist-info/RECORD,,
