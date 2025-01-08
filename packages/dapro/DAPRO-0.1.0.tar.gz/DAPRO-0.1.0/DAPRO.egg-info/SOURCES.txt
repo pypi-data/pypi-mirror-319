@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+DAPRO.egg-info/PKG-INFO
+DAPRO.egg-info/SOURCES.txt
+DAPRO.egg-info/dependency_links.txt
+DAPRO.egg-info/top_level.txt
