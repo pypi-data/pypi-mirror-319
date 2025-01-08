@@ -1,0 +1,12 @@
+aegypti/__init__.py,sha256=SUpLWrZQDZHqKNq7D8bIzAeLxPOyTInaN8h1_KtagnY,140
+aegypti/algorithm.py,sha256=wy46O_Qh7Y8F0wyeVuQfzVNzqpP4QxXxcSokyJGSzJg,4748
+aegypti/app.py,sha256=pFSbx17qk6Tu-MnO5Fa-QGogZNaHcI1EpNaobwpK3i8,1946
+aegypti/applogger.py,sha256=fQBo51-TboX1DBqfSxX2P2eKJ5CcyiCq_IVlJTHjxAE,2624
+aegypti/parser.py,sha256=bnmh9q-S8LLgCH5zdn7V0AaVauQlyqGuMEVrB4iW7y8,5297
+aegypti/test.py,sha256=cYHy1WUMcWc4ScH8d80mThq7wJ4zI2DeG3NlaTYa1rM,7634
+aegypti-0.0.5.dist-info/LICENSE,sha256=nUDh1nfa7rfEv1HocpoqPu0JaFnZKpIVh9eM0MgozpM,1067
+aegypti-0.0.5.dist-info/METADATA,sha256=_Tyobw1ZsXIkoMuj6Je3ZM7QG83xbpUEo41XeJKi2c0,8161
+aegypti-0.0.5.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+aegypti-0.0.5.dist-info/entry_points.txt,sha256=nniK34sIy0GRn1JKJP0HXEV2B5pCcltd_z7n938eqh4,80
+aegypti-0.0.5.dist-info/top_level.txt,sha256=csKxLTx69ktlQmStllRS9wW1zjaAyc4aoca3VqjE4PE,8
+aegypti-0.0.5.dist-info/RECORD,,
