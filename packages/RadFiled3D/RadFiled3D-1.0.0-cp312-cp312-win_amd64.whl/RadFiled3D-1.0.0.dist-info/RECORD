@@ -1,0 +1,14 @@
+RadFiled3D/RadFiled3D.cp312-win_amd64.pyd,sha256=ffnWeJBEpJkx4gZA8lpsiJBgGQ9mQtDCs-zprCPOSQY,1512960
+RadFiled3D/RadFiled3D.pyi,sha256=BJsno7tJUm90BUkZwY_hSyYfWBzuChTYmxUhNbxv48Y,39435
+RadFiled3D/__init__.py,sha256=dGyFyJc5xKxOt3_JcKplIvk1NlN3nHC83BcsI_RmHJQ,53
+RadFiled3D/__init__.pyi,sha256=ATb1BGRP2oSv3mOuX_br_TTCl0gmWDaCEuWezllfYiQ,170
+RadFiled3D/pytorch/__init__.py,sha256=14bz7u1Le8aVPZ82kDSOSFXDMVnoYmI6EinG6E5y2a4,153
+RadFiled3D/pytorch/helpers.py,sha256=fqi_ac-KO_8I6u5mG4Qg9G_La-bWGHacHiplvQykNn4,2309
+RadFiled3D/pytorch/radiationfieldloader.py,sha256=WdLc3osromkR09qldeKirgonstsZaegv4XSQfOiDPWo,14993
+pyCMakeSetupTool/__init__.py,sha256=fc4HOesYn8reqH1_tzduhrecuoXYjimtxqEEeCylTbY,3220
+pyCMakeSetupTool/cmake.py,sha256=mbWEFsAXn1TFc__hVZWqzECkc1jbZktOupv9XCNRL00,11403
+RadFiled3D-1.0.0.dist-info/LICENSE,sha256=geAV1pic7JgP0tAnSDYwYuxBddoV_nSk2Jf1KVsef4o,1090
+RadFiled3D-1.0.0.dist-info/METADATA,sha256=4eBS4nMux07LVFm30pfXcGVveQgo295IhggzISCbeTk,1475
+RadFiled3D-1.0.0.dist-info/WHEEL,sha256=-1aKoFg9gFdQMBAzi6xm9GyTbByJxlSrKgSnjkoaQPs,101
+RadFiled3D-1.0.0.dist-info/top_level.txt,sha256=GtxJ9Tal9wyjJc4O36ghZe8Y2VxbU9mE4PIz1zgSDOM,28
+RadFiled3D-1.0.0.dist-info/RECORD,,
