@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements/requirements.txt
+tests/test_client.py
+vlmrun/version.py
+vlmrun.egg-info/PKG-INFO
+vlmrun.egg-info/SOURCES.txt
+vlmrun.egg-info/dependency_links.txt
+vlmrun.egg-info/requires.txt
+vlmrun.egg-info/top_level.txt
+vlmrun/client/__init__.py
+vlmrun/client/client.py
+vlmrun/common/image.py
+vlmrun/common/pdf.py
+vlmrun/common/video.py
