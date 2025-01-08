@@ -1,0 +1,12 @@
+tabman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tabman/categorizer.py,sha256=lHihCdw7GuudCIy-SNG3jD5oEN5tqw5uyOZSPFsJiSw,8729
+tabman/content_fetcher.py,sha256=8_5f2UWReHJWOQhFyjXcdj5_KaWm1K-TAnZBp8WQYyo,4897
+tabman/main.py,sha256=WEQ-wOJiar963kFvO53d06YbGzt9UpE24ki2l-NGFZY,2385
+tabman/tab_capture.py,sha256=NkfkK-Pkpk6iflkaGtDn4_B_JFrElX27-aktwaNDC6A,1906
+tabman/tab_saver.py,sha256=d5zsEYaJx-mmve1Grp_ehoKjO8ozARf4eXP0e4XjEFw,5502
+tabman-0.2.0.dist-info/LICENSE,sha256=CdzODMG47bR0Tq9dzvf0eWwy76tPdWsOKd8nGnS6AeU,1087
+tabman-0.2.0.dist-info/METADATA,sha256=oDe8k8VESQPi0S2p7r2ubQzxhmkT5v6YhkZPZaoXu-U,6792
+tabman-0.2.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+tabman-0.2.0.dist-info/entry_points.txt,sha256=7aLtDLfViyDv400sBbLmHmZ3jgzne0SoAqTDDLP4enM,51
+tabman-0.2.0.dist-info/top_level.txt,sha256=PxZY-vyPWYFBK7VFrIMwPYmExTgakZ1wgpRv14qEUF8,7
+tabman-0.2.0.dist-info/RECORD,,
