@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: darbiadev-ups
+Version: 0.8.0
+Summary: A wrapper for UPS' API
+Project-URL: repository, https://github.com/darbiadev/darbiadev-ups/
+Project-URL: documentation, https://darbia.dev/darbiadev-ups/
+Author-email: Bradley Reynolds <bradley.reynolds@darbia.dev>
+License: MIT
+License-File: LICENSE
+Requires-Python: >=3.9
+Requires-Dist: requests>=2.32.3
+Provides-Extra: dev
+Requires-Dist: mypy>=1.10.1; extra == 'dev'
+Requires-Dist: nox>=2024.4.15; extra == 'dev'
+Requires-Dist: pre-commit>=3.7.1; extra == 'dev'
+Requires-Dist: ruff>=0.5.2; extra == 'dev'
+Requires-Dist: types-requests>=2.32.0.20241016; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: furo>=2024.5.6; extra == 'docs'
+Requires-Dist: releases>=2.1.1; extra == 'docs'
+Requires-Dist: sphinx-autoapi>=3.1.2; extra == 'docs'
+Requires-Dist: sphinx>=7.4.4; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: coverage>=7.6.1; extra == 'tests'
+Requires-Dist: pytest-alembic>=0.11.0; extra == 'tests'
+Requires-Dist: pytest-randomly>=3.15.0; extra == 'tests'
+Requires-Dist: pytest>=8.2.2; extra == 'tests'
+Description-Content-Type: text/markdown
+
+# darbiadev-ups
+
+This package provides a wrapper for UPS' API.
+
+### Example usage
+
+```python
+from darbiadev_ups import UPSServices
+
+client = UPSServices(
+    base_url="https://onlinetools.ups.com/",
+    username="username",
+    password="password",
+    access_license_number="access_license_number",
+)
+
+print(client.track("1Z12345E1305277940"))
+```
