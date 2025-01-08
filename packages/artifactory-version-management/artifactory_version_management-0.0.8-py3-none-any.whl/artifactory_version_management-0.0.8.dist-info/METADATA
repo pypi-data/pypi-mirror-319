@@ -1,0 +1,172 @@
+Metadata-Version: 2.1
+Name: artifactory-version-management
+Version: 0.0.8
+Summary: A solution to manage artifactory versions for projects
+Author-email: Leon Cai <leon.cai@nike.com>
+Project-URL: Homepage, https://github.com/nike-consumer-data-science/artifactory-version-management
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: importlib-metadata
+
+# Artifactory Version Management
+
+## Context
+
+`artifactory-version-management` is used to supplement the Development and
+Productionization Process that Python projects follow.
+
+Ex. Your project is currently at version 2.0.1. You would add a bug fix to
+the project as follows:
+
+* Create a branch. When you have preliminary changes you would like to
+test, commit them and upload your project as a whl file to AWS S3.
+You can then install that whl file to test your changes. This prevents
+an overload of packages beng published to Artifactory while your changes
+are still being tested.
+* Once your changes are ready to be reviewed, open a PR and publish
+package version 2.0.2.dev0 to Artifactory. Your changes can then
+be tested by installing that package from Artifactory.
+* If additional changes are needed to your PR, publish versions
+2.0.2.dev1, 2.0.2.dev2, etc, and test your changes the same way.
+* Once your changes are approved, strip the dev syntax and publish
+package version 2.0.2 to Artifactory before merging.
+
+In this example, if you were to add a new feature, you would instead
+publish the packages 2.1.0.dev0 -> 2.1.0.dev1 -> etc -> 2.1.0
+And if you were to add a new major change, you would instead publish
+the packages 3.0.0.dev0 -> 3.0.0.dev1 -> etc -> 3.0.0
+
+The `artifactory-version-management` package was created to check that
+you are properly bumping the your version number at every step of the process.
+We will discuss how specifically it works as well as the special cases
+it handles.
+
+## Setup and how it works
+
+`artifactory-version-management` can enforce package rules in two ways. For both
+methods, if your pakage bump is incorrect, it will tell you the correct version to
+bump to. It is recommend to set up both methods.
+
+### As a pre-push check locally
+
+`artifactory-version-management` can run when you push your branch locally
+and block your push if the package rules are not followed.
+
+To setup this pre-push check:
+
+1. Install pre-commit by running `pip install pre-commit`. This is the library
+   that powers our pre-push check.
+2. Add the pre-push hook to pre-commit by running:
+   `pre-commit install --hook-type pre-commit --hook-type pre-push`
+3. Make your pre-push script executable by running:
+   `chmod +x .git/hooks/pre-commit` and `chmod +x .git/hooks/pre-push`
+4. Run the following commands to add Artifactory and GitHub credentials that
+   will allow the script to run:
+    * export ARTIFACTORY_USER=artifactory_user
+    * export ARTIFACTORY_PWD=artifactory_pwd
+    * export ARTIFACTORY_BASE_URL=artifactory_base_url
+    * export ARTIFACTORY_REPO=artifactory_repo
+    * export ARTIFACTORY_PKG=artifactory_pkg
+    * export GITHUB_ORG=your_org
+    * export GITHUB_REPO=your_repo
+    * export GITHUB_PAT=your_token
+
+   The Artifactory credentials are necessary to ensure that you're not
+   publishing a conflicting version of the package. And the GitHub
+   credentials are necessary to determine if there is an open PR for
+   your branch and if you are at the stage of the development process
+   where you should be publishing packages.
+
+After these steps, create a `.pre-commit-config.yaml` file with the
+following code:
+
+```
+default_stages: [pre-push]
+
+repos:
+  - repo: local
+    hooks:
+      - id: check-version-bump
+        name: check-version-bump
+        entry: bash -c "pip3 install artifactory-version-management --upgrade && python3 -m artifactory-version-management"
+        language: python
+        pass_filenames: false
+        additional_dependencies: [requests]
+```
+
+This code uses the `install --upgrade` command at every run to reflect new
+changes in the package. (*NOTE*: When this package becomes stable, this may be
+removed and `artifactory-version-management` should then be added to
+additional_dependencies. As an additional dependency, you'll then need to
+install it locally by running `pip3 install artifactory-version-management`)
+
+`artifactory-version-management` will run automatically everytime you push
+locally. If your push is blocked, you will have the opportunity to fix
+them and push again.
+
+### As a Jenkins check
+
+In your `Jenkinsfile`, add this command so that the version check will trigger
+on every commit in an open PR.
+
+```
+pip3 install requests
+pip3 install artifactory-version-management --upgrade
+python3 -m artifactory-version-management --ARTIFACTORY_USER=${ARTIFACTORY_USERNAME} --ARTIFACTORY_PWD=${ARTIFACTORY_PASSWORD} --ARTIFACTORY_BASE_URL=${ARTIFACTORY_BASE_URL} --ARTIFACTORY_REPO=${ARTIFACTORY_REPO} --ARTIFACTORY_PKG=${ARTIFACTORY_PKG}
+```
+
+Be sure to replace the variables accordingly. Unlike the pre-push check, we
+specify the Artifactory credentials via command line arguments as you won't
+be able to read exported variables locally. And we don't need GitHub credentials
+as running this check from Jenkins already establishes that you have an open PR
+and should be publishing new changes to Artifactory.
+
+## Managing multiple developers
+
+This script is particularly useful for avoiding package version conflicts when
+multiple developers are contributing to a project.
+
+Ex. Your project is currently at version 2.0.1.
+* Developers A and B branch off and work on bug fixes.
+* Developer C branches off and works on a new feature.
+* Dev A is ready to open a PR and publishes 2.0.2.dev0
+* Dev B is ready to open a PR. They attempt to publish 2.0.2.dev0, but the
+script informs them that someone else is already using 2.0.2, so they
+instead publish 2.0.3.dev0
+* Dev C is ready to open a PR and publishes 2.1.0.dev0
+* Dev A gets their PR approved, publishes 2.0.2, and merges.
+* Dev C gets their PR approved, publishes 2.1.0, and merges.
+* Dev B gets their PR approved and attempts to publish 2.0.3. But the script
+informs them that they are behind the highest version of 2.1.0. So they
+instead publish 2.1.1 and merge.
+
+The version management ensures that no two developers publish the same
+package and that no complete package version (without the dev syntax)
+is published behind an existing higher version.
+
+## Managing failed to publish versions
+
+There are situations in which the CI/CD pipeline may fail to publish
+your package after your local check passes. Ways this can happen include
+if there are syntax errors in your `Jenkinsfile` causing the CI/CD
+to break or if artifactory is down when you attempt to publish your package.
+
+When you publish a sequential dev version of your package, the script will
+check if your last dev version successfully published. And if not, it will
+have you re-publish your last version.
+
+## Bypassing the check and caveats
+
+`artifactory-version-management` can be buggy when checking your version
+bump after resolving a merge conflict. There maybe be other bugs as well
+that I will work to resolve. But in the meantime, if you need to bypass
+the check for this reason, you can run:
+
+```
+python -m artifactory-version-management SKIP=True
+```
