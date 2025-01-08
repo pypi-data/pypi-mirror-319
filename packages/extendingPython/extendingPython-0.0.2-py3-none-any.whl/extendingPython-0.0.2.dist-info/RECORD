@@ -1,0 +1,15 @@
+extendingPython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extendingPython/GiteeAPI/Activity.py,sha256=RB1IE0rui7080Hj64hMLkw6zcQmRh5-kq2ZcnD6sKiM,5223
+extendingPython/GiteeAPI/Exceptions.py,sha256=3TVlVpH9Or6CW0hRkH4ePVhd4cc1BSXkvDQg_BVakv8,280
+extendingPython/GiteeAPI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extendingPython/SQLs/MySQL.py,sha256=QuJPmbEbWll52KeCoaqcd18ljZHZI2EUczlOwj0p0VI,1735
+extendingPython/SQLs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extendingPython/cloudflareDDNS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extendingPython/cloudflareDDNS/cfddns.py,sha256=wwKn9-eI93DBV0_Yzn2KH57OiCCQ-rUGCupMw8igs4Y,2286
+extendingPython/getYourIP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+extendingPython/getYourIP/getIP.py,sha256=iKTpmYtYmTjWzHzaZoNbTD5sraJByLb5eotxeYzdJ_E,330
+extendingPython-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+extendingPython-0.0.2.dist-info/METADATA,sha256=SSP2hNnYrdwrc5I_PzjV-ax2K-AC-oQwv8kyh_Uy3Ck,510
+extendingPython-0.0.2.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+extendingPython-0.0.2.dist-info/top_level.txt,sha256=Xw3tJ1VTjAaMQuYh7gYyINHykDw2ZdQE_jDsfVpCzKQ,16
+extendingPython-0.0.2.dist-info/RECORD,,
