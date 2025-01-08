@@ -1,0 +1,30 @@
+[project]
+name = "never-sleep"
+version = "0.0.1"
+description = "Never let the windows system sleep"
+readme = "README.md"
+authors = [{name = "Sukhbinder Singh"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "keyboard",
+]
+
+[project.urls]
+Homepage = "https://github.com/sukhbinder/never-sleep"
+Changelog = "https://github.com/sukhbinder/never-sleep/releases"
+Issues = "https://github.com/sukhbinder/never-sleep/issues"
+CI = "https://github.com/sukhbinder/never-sleep/actions"
+
+[project.scripts]
+ns = "never_sleep.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

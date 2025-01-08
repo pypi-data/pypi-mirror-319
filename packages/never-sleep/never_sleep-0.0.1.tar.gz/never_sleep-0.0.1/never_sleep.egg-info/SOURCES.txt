@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+never_sleep/__init__.py
+never_sleep/__main__.py
+never_sleep/cli.py
+never_sleep.egg-info/PKG-INFO
+never_sleep.egg-info/SOURCES.txt
+never_sleep.egg-info/dependency_links.txt
+never_sleep.egg-info/entry_points.txt
+never_sleep.egg-info/requires.txt
+never_sleep.egg-info/top_level.txt
+tests/test_never_sleep.py

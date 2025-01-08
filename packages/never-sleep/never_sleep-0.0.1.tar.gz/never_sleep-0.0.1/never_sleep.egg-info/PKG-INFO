@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: never-sleep
+Version: 0.0.1
+Summary: Never let the windows system sleep
+Author: Sukhbinder Singh
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/sukhbinder/never-sleep
+Project-URL: Changelog, https://github.com/sukhbinder/never-sleep/releases
+Project-URL: Issues, https://github.com/sukhbinder/never-sleep/issues
+Project-URL: CI, https://github.com/sukhbinder/never-sleep/actions
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: keyboard
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# never-sleep
+
+[![PyPI](https://img.shields.io/pypi/v/never-sleep.svg)](https://pypi.org/project/never-sleep/)
+[![Changelog](https://img.shields.io/github/v/release/sukhbinder/never-sleep?include_prereleases&label=changelog)](https://github.com/sukhbinder/never-sleep/releases)
+[![Tests](https://github.com/sukhbinder/never-sleep/actions/workflows/test.yml/badge.svg)](https://github.com/sukhbinder/never-sleep/actions/workflows/test.yml)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/sukhbinder/never-sleep/blob/master/LICENSE)
+
+Never let the windows system sleep
+
+## Installation
+
+Install this tool using `pip`:
+```bash
+pip install never-sleep
+```
+## Usage
+
+For help, run:
+```bash
+ns --help
+```
+You can also use:
+```bash
+python -m ns --help
+```
+## Development
+
+To contribute to this tool, first checkout the code. Then create a new virtual environment:
+```bash
+cd never-sleep
+python -m venv venv
+source venv/bin/activate
+```
+Now install the dependencies and test dependencies:
+```bash
+pip install -e '.[test]'
+```
+To run the tests:
+```bash
+python -m pytest
+```
