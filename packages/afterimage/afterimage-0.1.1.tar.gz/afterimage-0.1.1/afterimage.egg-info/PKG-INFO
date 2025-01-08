@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: afterimage
+Version: 0.1.1
+Summary: Create synthetic datasets based on your documents
+Author-email: Yusuf Sarıgöz <yusufsarigoz@gmail.com>
+Project-URL: homepage, https://github.com/monatis/afterimage
+Project-URL: project, https://github.com/monatis/afterimage
+Project-URL: repository, https://github.com/monatis/afterimage
+Keywords: afterimage,synthetic,dataset-generation,synthetic-dataset
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: letsearch-client>=0.1.1

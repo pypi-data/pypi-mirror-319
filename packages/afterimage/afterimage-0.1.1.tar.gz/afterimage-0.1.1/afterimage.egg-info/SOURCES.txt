@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+afterimage/__init__.py
+afterimage/base_generator.py
+afterimage.egg-info/PKG-INFO
+afterimage.egg-info/SOURCES.txt
+afterimage.egg-info/dependency_links.txt
+afterimage.egg-info/requires.txt
+afterimage.egg-info/top_level.txt
