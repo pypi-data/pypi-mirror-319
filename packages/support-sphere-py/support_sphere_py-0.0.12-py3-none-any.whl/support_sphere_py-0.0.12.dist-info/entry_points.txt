@@ -1,0 +1,2 @@
+[console_scripts]
+support_sphere = support_sphere.scripts.cli_app:app
