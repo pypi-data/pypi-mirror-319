@@ -1,0 +1,13 @@
+django_export_excel/__init__.py,sha256=YXhsVHB2YlSoeD7xMy0Sf__PLIjOY6FLV-msgaDglk8,210
+django_export_excel/admin.py,sha256=sEcrnRUvqxwvT9h-hCGkhxBL1nLinGeilyCVpbYP6ls,1392
+django_export_excel/colors.py,sha256=61hdBGw1XOG0sJjbEQm-pO9eG5Zs1-k6y9K9PWBkA1A,884
+django_export_excel/exceptions.py,sha256=4VOWG_Vcy-IArgievc3glqzknYZdIJLlb20-1i_f3Zw,280
+django_export_excel/exporter.py,sha256=IK2wFkuh2fBLIMgEnIUNPmOS1rMlQ9Em4hTpMuUttq0,3055
+django_export_excel/styles.py,sha256=B36ANXZgSGiDFB54rqmQLGiKSr8g_-WKr-60GKMjgt8,1688
+django_export_excel/table.py,sha256=GwV_anb4ZZAaSGQK9qssK7BoN-36BSF_jj0tncpioKE,3564
+django_export_excel/views.py,sha256=eaZ3zyLp-9EdwUHMb_9hwww7xyrbtppBROB-mR7VQYg,915
+django_export_excel-1.0.4.dist-info/LICENCE,sha256=1sCvsDDiUeW7QYA70HJvw3zlAFpDmVfKCFrXBJ31IPQ,1063
+django_export_excel-1.0.4.dist-info/METADATA,sha256=yJ_so2Jq2uMxZn2vvXmYxf6dqlMkN1csJ0L4FImyl1s,475
+django_export_excel-1.0.4.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+django_export_excel-1.0.4.dist-info/top_level.txt,sha256=oh7FJqoDxyugHT_kEsoh60RfV5LYIV46cZkvzZ5zUn8,20
+django_export_excel-1.0.4.dist-info/RECORD,,
