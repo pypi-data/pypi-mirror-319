@@ -1,0 +1,3 @@
+[console_scripts]
+vconsult=virtual_consultant_cli.cli:main
+

@@ -1,0 +1,40 @@
+tasks:
+  - name: Install Dependencies
+    init: |
+      npm install
+      poetry install
+    command: |
+      npm run dev
+
+  - name: Setup Database
+    init: |
+      docker-compose up -d db
+      sleep 5
+      wasp db migrate-dev
+    command: |
+      echo "Database is ready"
+
+  - name: Documentation
+    init: |
+      pip install mkdocs-material
+    command: |
+      mkdocs serve
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+    visibility: public
+  - port: 5432
+    onOpen: ignore
+    visibility: private
+  - port: 8000
+    onOpen: open-browser
+    visibility: public
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode
+    - ms-python.python
+    - ms-python.vscode-pylance
+    - bradlc.vscode-tailwindcss 
