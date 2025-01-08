@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/fpy2/__init__.py
+src/fpy2.egg-info/PKG-INFO
+src/fpy2.egg-info/SOURCES.txt
+src/fpy2.egg-info/dependency_links.txt
+src/fpy2.egg-info/top_level.txt

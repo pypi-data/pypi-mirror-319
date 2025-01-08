@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fpy2
+Version: 0.0.1
+Summary: An embedded DSL for numerical computing
+Author-email: Brett Saiki <bsaiki@cs.washington.edu>
+Project-URL: Homepage, https://github.com/bksaiki/fpy
+Project-URL: Issues, https://github.com/bksaiki/fpy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FPy
+
+An embedded Python DSL for numerical computing.
