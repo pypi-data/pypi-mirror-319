@@ -1,0 +1,10 @@
+libfast_perlin_noise.cpython-312-darwin.so,sha256=2KF1qrltHk0KTdeCEISvmgEIrmCwHgHzIMzMukk8j9c,1850114
+libfast_perlin_noise.cpython-312-darwin.h,sha256=c1IY7K_y8DJ57NpX7WeaWX4eI_ArriB01Mto2muhMXU,1846
+fast_perlin_noise/_version.py,sha256=nmVMEP2kpLDIzjgS-U1taCdJbVrmv_k8ao6RojGcvRg,411
+fast_perlin_noise/__init__.py,sha256=IOXVbcvSoElhqHiinqiKq49t4vXEQx49KhohVkzIuSU,1020
+fast_perlin_noise/PerlinNoise.py,sha256=L1KYtgh1gEy7OgsvXXTgWQrOKHnDkJty_L7F3Q_h_OU,3849
+fast_perlin_noise-1.1.2.dist-info/RECORD,,
+fast_perlin_noise-1.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fast_perlin_noise-1.1.2.dist-info/WHEEL,sha256=76LiH1wuDHqtCdrF20bc1KNGPhF-AWvwbfgCxtm-4DY,109
+fast_perlin_noise-1.1.2.dist-info/top_level.txt,sha256=DDiuk5dWuwVQ_ToBncOATwmf1fvP8JqVRE2oTzhs8fg,39
+fast_perlin_noise-1.1.2.dist-info/METADATA,sha256=Y9Cp4ygWaav-YE-SGbba5OBYZjA6PTryz3YRmR2wUmQ,44346
