@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: django-routerific
+Version: 0.2.0
+Summary: Terrific routing for Django.
+Author-email: Fabian Binz <fabian.binz@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: django>=4.2.17
+Requires-Dist: pytest-cov>=6.0.0
+Requires-Dist: ruff ; extra == "dev"
+Requires-Dist: uv ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: coverage ; extra == "dev"
+Project-URL: Home, https://github.com/fbinz/django-routerific
+Provides-Extra: dev
+
+# Django routerific
+
+Terrific routing for Django.
+
+## Installation
+
+```bash
+pip install django-routerific
+```
+
+## Usage
+
+```python
+# urls.py
+from routerific import route
+
+urlpatterns = [
+    # ...
+]
+```
+

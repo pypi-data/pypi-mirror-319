@@ -1,0 +1,8 @@
+routerific/__init__.py,sha256=FL6cTz7sLOptJlMZm2USEQ_l6DMIPcBS02t5hT6C_v8,116
+routerific/router.py,sha256=B5CRqH49id6ZBT5D1wKs7Ufk_TMS2BAetrtGZR-P9GU,2399
+routerific/tests/__init__.py,sha256=fmgFdsK_qJgCmf_xlUNoz-IfV5hVIirRxzN_Gxn3SAI,58
+routerific/tests/test_dispatch.py,sha256=VqaOicCcSNI4oogRW8A8dh8gad1BDFnx-9aoZrkvaxY,37
+django_routerific-0.2.0.dist-info/LICENSE,sha256=2FrD5VRxvvaOb-X1DHHh20uWzdaYJ1HmbiSedhwPR6E,1078
+django_routerific-0.2.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+django_routerific-0.2.0.dist-info/METADATA,sha256=KZzXNOm7lEF-VYSHzAK_fG0rT3UIIZEycseBsxbgbCQ,845
+django_routerific-0.2.0.dist-info/RECORD,,
