@@ -1,0 +1,2 @@
+[console_scripts]
+aimmscloud = aimmscloud.cli:cli
