@@ -1,0 +1,12 @@
+pybammsolvers/idaklu.cp39-win_amd64.pyd,sha256=rZhylBxkY9-IP85kjsabuzSNK-gY0B4C-ye0foXoFvE,4125696
+pybammsolvers/version.py,sha256=vucW-Fe97d2P_nl7TMRJ2Cp458lb7VTRk6EckM_ozdM,23
+pybammsolvers/__init__.py,sha256=IJ9JJJQGcC43W2jtSYLOVlAxARAzWyPdkh_nx7bz9qk,1752
+pybammsolvers-0.0.5.dist-info/DELVEWHEEL,sha256=sKaruY8e--qwU48cW10kuQxd_BdvgmoqImAPltBA-bw,437
+pybammsolvers-0.0.5.dist-info/LICENSE,sha256=7yKNwNKPWjbKCZMSU1nW4Eqha2Zl0MJznIMqeET1bNA,1526
+pybammsolvers-0.0.5.dist-info/METADATA,sha256=PEt0JWuslH0YzHt6km8FkmjgRPFKh5fLX6oaSV_7Ur0,3109
+pybammsolvers-0.0.5.dist-info/RECORD,,
+pybammsolvers-0.0.5.dist-info/top_level.txt,sha256=CBj-RM_O1jXyO0gMTXcI4xlcZbiH162UDwai7y1PpU0,14
+pybammsolvers-0.0.5.dist-info/WHEEL,sha256=agy-BJge3afXwWznUXANATmKFW4eqelqRR0uf608A_0,99
+pybammsolvers.libs/.load-order-pybammsolvers-0.0.5,sha256=ORaILNaYzhiYg8fyizSROIBiVYG2ZNkd3rENlkeO6EQ,92
+pybammsolvers.libs/msvcp140-f2cdd6b8ea72c1bd5d096632cf6d01d1.dll,sha256=kFfTmza2x9BUhl7iv5zeekkP47AexOglFGh-JPV2Jp8,575592
+pybammsolvers.libs/vcomp140-8037b505484e27800f042827767a9747.dll,sha256=A2ubP37Ojf1IrszXcRNyHFMFBDqqnGTR5ygSJScnqnw,192104
