@@ -1,0 +1,427 @@
+---
+tags: [gradio-custom-component, CheckboxGroup, gradio-custom-component, gradio-checkbox-group-markdown]
+title: gradio_checkboxgroupmarkdown
+short_description: Gradio component for CheckboxGroup with Markdown
+colorFrom: blue
+colorTo: yellow
+sdk: gradio
+pinned: false
+app_file: space.py
+---
+
+# `gradio_checkboxgroupmarkdown`
+<img alt="Static Badge" src="https://img.shields.io/badge/version%20-%200.0.1%20-%20orange">  
+
+Gradio component for CheckboxGroup with Markdown
+
+## Installation
+
+```bash
+pip install gradio_checkboxgroupmarkdown
+```
+
+## Usage
+
+```python
+
+import gradio as gr
+
+
+from typing import List
+import gradio as gr
+from dataclasses import dataclass
+import random
+from gradio_checkboxgroupmarkdown import CheckboxGroupMarkdown
+
+# Define two different sets of choices
+ai_choices = [
+    {
+        "id": "art_101",
+        "title": "Understanding Neural Networks",
+        "content": "# Understanding Neural Networks\nThis article explains the basics of neural networks, their architecture, and how they learn from data."
+    },
+    {
+        "id": "art_102", 
+        "title": "A Gentle Introduction to Transformers",
+        "content": "# A Gentle Introduction to Transformers\nTransformers have revolutionized NLP. Learn about attention mechanisms, encoder-decoder architecture, and more."
+    },
+    {
+        "id": "art_103",
+        "title": "Reinforcement Learning Basics",
+        "content": "# Reinforcement Learning Basics\nAn overview of RL concepts like agents, environments, rewards, and policies."
+    }
+]
+
+ml_choices = [
+    {
+        "id": "art_104",
+        "title": "Machine Learning Fundamentals",
+        "content": "# Machine Learning Fundamentals\nLearn about supervised, unsupervised, and reinforcement learning approaches."
+    },
+    {
+        "id": "art_105",
+        "title": "Deep Learning vs Traditional ML",
+        "content": "# Deep Learning vs Traditional ML\nUnderstand the key differences between deep learning and traditional machine learning."
+    },
+    {
+        "id": "art_106",
+        "title": "Feature Engineering",
+        "content": "# Feature Engineering\nMaster the art of creating meaningful features from raw data."
+    }
+]
+
+def sentence_builder(selected):
+    if not selected:
+        return "You haven't selected any articles yet."
+    
+    if isinstance(selected[0], dict) and "title" in selected[0]:
+        formatted_choices = []
+        for choice in selected:
+            formatted_choices.append(
+                f"ID: {choice['id']}\nTitle: {choice['title']}\nContent: {choice['content']}"
+            )
+        return "Selected articles are:\n\n" + "\n\n".join(formatted_choices)
+    else:
+        return "Selected articles are:\n\n- " + "\n- ".join(selected)
+
+def update_choices(choice_type: str):
+    if choice_type == "AI":
+        return gr.update(choices=ai_choices, value=[]), ""
+    elif choice_type == "ML":
+        return gr.update(choices=ml_choices, value=["art_106"]), ""
+    else:  # Random mix
+        mixed_choices = random.sample(ai_choices + ml_choices, 3)
+        return gr.update(choices=mixed_choices, value=[]), ""
+
+
+with gr.Blocks() as demo:
+    gr.Markdown("## Interactive Article Selection Demo")
+    
+    with gr.Row():
+        with gr.Column(scale=1):
+            gr.Markdown("### Change Article Categories")
+            with gr.Row():
+                ai_btn = gr.Button("AI Articles", variant="primary")
+                ml_btn = gr.Button("ML Articles", variant="secondary")
+                mix_btn = gr.Button("Random Mix", variant="secondary")
+    
+    with gr.Row():
+        with gr.Column(scale=2):
+            checkbox_group = CheckboxGroupMarkdown(
+                choices=ai_choices,  # Start with AI choices
+                label="Select Articles",
+                info="Choose articles to include in your collection",
+                type="title"
+            )
+        
+        with gr.Column(scale=1):
+            output_text = gr.Textbox(
+                label="Selected Articles",
+                placeholder="Make selections to see results...",
+                info="Selected articles will be displayed here",
+                lines=10
+            )
+    
+    # Event handlers
+    checkbox_group.change(
+        fn=sentence_builder,
+        inputs=checkbox_group,
+        outputs=output_text
+    )
+    
+    # Button click handlers to update choices
+    ai_btn.click(
+        fn=lambda: update_choices("AI"),
+        inputs=None,
+        outputs=[checkbox_group, output_text],
+    )
+
+    ml_btn.click(
+        fn=lambda: update_choices("ML"),
+        inputs=None, 
+        outputs=[checkbox_group, output_text],
+    )
+
+    mix_btn.click(
+        fn=lambda: update_choices("MIX"),
+        inputs=None,
+        outputs=[checkbox_group, output_text],
+    )
+
+if __name__ == '__main__':
+    demo.launch()
+```
+
+## `CheckboxGroupMarkdown`
+
+### Initialization
+
+<table>
+<thead>
+<tr>
+<th align="left">name</th>
+<th align="left" style="width: 25%;">type</th>
+<th align="left">default</th>
+<th align="left">description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>choices</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+list[dict] | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">A list of string or numeric options to select from. An option can also be a tuple of the form (name, value), where name is the displayed name of the checkbox button and value is the value to be passed to the function, or returned by the function.</td>
+</tr>
+
+<tr>
+<td align="left"><code>value</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+Sequence[str | float | int]
+    | str
+    | float
+    | int
+    | Callable
+    | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">Default selected list of options. If a single choice is selected, it can be passed in as a string or numeric type. If callable, the function will be called whenever the app loads to set the initial value of the component.</td>
+</tr>
+
+<tr>
+<td align="left"><code>type</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+ChoiceType
+```
+
+</td>
+<td align="left"><code>"value"</code></td>
+<td align="left">Type of value to be returned by component. "value" returns the list of strings of the choices selected, "index" returns the list of indices of the choices selected.</td>
+</tr>
+
+<tr>
+<td align="left"><code>label</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+str | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">the label for this component, displayed above the component if `show_label` is `True` and is also used as the header if there are a table of examples for this component. If None and used in a `gr.Interface`, the label will be the name of the parameter this component corresponds to.</td>
+</tr>
+
+<tr>
+<td align="left"><code>info</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+str | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">additional component description, appears below the label in smaller font. Supports markdown / HTML syntax.</td>
+</tr>
+
+<tr>
+<td align="left"><code>every</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+Timer | float | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">Continously calls `value` to recalculate it if `value` is a function (has no effect otherwise). Can provide a Timer whose tick resets `value`, or a float that provides the regular interval for the reset Timer.</td>
+</tr>
+
+<tr>
+<td align="left"><code>inputs</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+Component | Sequence[Component] | set[Component] | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">Components that are used as inputs to calculate `value` if `value` is a function (has no effect otherwise). `value` is recalculated any time the inputs change.</td>
+</tr>
+
+<tr>
+<td align="left"><code>show_label</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">If True, will display label.</td>
+</tr>
+
+<tr>
+<td align="left"><code>container</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>True</code></td>
+<td align="left">If True, will place the component in a container - providing some extra padding around the border.</td>
+</tr>
+
+<tr>
+<td align="left"><code>scale</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+int | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">Relative width compared to adjacent Components in a Row. For example, if Component A has scale=2, and Component B has scale=1, A will be twice as wide as B. Should be an integer.</td>
+</tr>
+
+<tr>
+<td align="left"><code>min_width</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+int
+```
+
+</td>
+<td align="left"><code>160</code></td>
+<td align="left">Minimum pixel width, will wrap if not sufficient screen space to satisfy this value. If a certain scale value results in this Component being narrower than min_width, the min_width parameter will be respected first.</td>
+</tr>
+
+<tr>
+<td align="left"><code>interactive</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">If True, choices in this checkbox group will be checkable; if False, checking will be disabled. If not provided, this is inferred based on whether the component is used as an input or output.</td>
+</tr>
+
+<tr>
+<td align="left"><code>visible</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>True</code></td>
+<td align="left">If False, component will be hidden.</td>
+</tr>
+
+<tr>
+<td align="left"><code>elem_id</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+str | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">An optional string that is assigned as the id of this component in the HTML DOM. Can be used for targeting CSS styles.</td>
+</tr>
+
+<tr>
+<td align="left"><code>elem_classes</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+list[str] | str | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">An optional list of strings that are assigned as the classes of this component in the HTML DOM. Can be used for targeting CSS styles.</td>
+</tr>
+
+<tr>
+<td align="left"><code>render</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>True</code></td>
+<td align="left">If False, component will not render be rendered in the Blocks context. Should be used if the intention is to assign event listeners now but render the component later.</td>
+</tr>
+
+<tr>
+<td align="left"><code>key</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+int | str | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">if assigned, will be used to assume identity across a re-render. Components that have the same key across a re-render will have their value preserved.</td>
+</tr>
+</tbody></table>
+
+
+### Events
+
+| name | description |
+|:-----|:------------|
+| `change` | Triggered when the value of the CheckboxGroupMarkdown changes either because of user input (e.g. a user types in a textbox) OR because of a function update (e.g. an image receives a value from the output of an event trigger). See `.input()` for a listener that is only triggered by user input. |
+| `input` | This listener is triggered when the user changes the value of the CheckboxGroupMarkdown. |
+| `select` | Event listener for when the user selects or deselects the CheckboxGroupMarkdown. Uses event data gradio.SelectData to carry `value` referring to the label of the CheckboxGroupMarkdown, and `selected` to refer to state of the CheckboxGroupMarkdown. See EventData documentation on how to use this event data |
+
+
+
+### User function
+
+The impact on the users predict function varies depending on whether the component is used as an input or output for an event (or both).
+
+- When used as an Input, the component only impacts the input signature of the user function.
+- When used as an output, the component only impacts the return signature of the user function.
+
+The code snippet below is accurate in cases where the component is used as both an input and an output.
+
+- **As output:** Is passed, passes the list of checked checkboxes as a `list[str | int | float]` or their indices as a `list[int]` into the function, depending on `type`.
+- **As input:** Should return, expects a `list[str | int | float]` of values or a single `str | int | float` value, the checkboxes with these values are checked.
+
+ ```python
+ def predict(
+     value: typing.Union[list[str], list[int], list[dict]][
+    list[str], list[int], list[dict]
+]
+ ) -> list[str | int | float] | str | int | float | None:
+     return value
+ ```
+ 
