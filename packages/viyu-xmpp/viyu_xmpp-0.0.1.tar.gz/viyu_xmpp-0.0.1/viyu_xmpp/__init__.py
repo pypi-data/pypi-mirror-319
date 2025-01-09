@@ -1,0 +1,1 @@
+from viyu_xmpp.server import ViyuXmppServer

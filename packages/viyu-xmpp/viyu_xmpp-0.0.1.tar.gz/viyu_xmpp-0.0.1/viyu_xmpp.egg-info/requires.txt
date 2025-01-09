@@ -1,0 +1,2 @@
+slixmpp>=1.7.0
+cryptography>=3.4.8

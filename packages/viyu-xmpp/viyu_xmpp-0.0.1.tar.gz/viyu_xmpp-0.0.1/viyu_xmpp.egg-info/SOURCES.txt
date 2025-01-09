@@ -1,0 +1,13 @@
+README.md
+setup.py
+viyu_xmpp/__init__.py
+viyu_xmpp/server.py
+viyu_xmpp.egg-info/PKG-INFO
+viyu_xmpp.egg-info/SOURCES.txt
+viyu_xmpp.egg-info/dependency_links.txt
+viyu_xmpp.egg-info/entry_points.txt
+viyu_xmpp.egg-info/requires.txt
+viyu_xmpp.egg-info/top_level.txt
+viyu_xmpp/stanza/__init__.py
+viyu_xmpp/stanza/get_stanza.py
+viyu_xmpp/stanza/post_stanza.py
