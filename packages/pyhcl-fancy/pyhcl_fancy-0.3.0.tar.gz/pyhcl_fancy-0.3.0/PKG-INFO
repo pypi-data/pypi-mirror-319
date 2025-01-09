@@ -1,0 +1,24 @@
+Metadata-Version: 2.3
+Name: pyhcl-fancy
+Version: 0.3.0
+Summary: Parse HCL defined Terraform into easier to use Python objects.
+License: Apache-2.0
+Author: ianms17
+Author-email: ianmstephenson17@gmail.com
+Requires-Python: >=3.10
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: python-hcl2 (>=5.1.1,<6.0.0)
+Description-Content-Type: text/markdown
+
+# pyhcl-fancy
+Fixing
