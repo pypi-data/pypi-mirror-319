@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+        "grunt": "^1.6.1",
+        "grunt-contrib-connect": "^5.0.1",
+        "grunt-contrib-qunit": "^10.1.1"
+    }
+}
