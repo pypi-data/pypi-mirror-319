@@ -1,0 +1,20 @@
+[project]
+name = "smvp"
+version = "0.0.0"
+description = "Coming soon..."
+readme = "README.md"
+authors = [
+    { name = "Peter Nardi", email = "geozeke@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+smvp = "smvp:main"
+
+[tool.uv.sources]
+ysm = { workspace = true }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
