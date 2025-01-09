@@ -1,0 +1,96 @@
+Metadata-Version: 2.4
+Name: scout-cli
+Version: 0.11.0
+Summary: A modern, intuitive alternative to ls command with smart directory prediction
+Author: Andrew Wade
+Requires-Python: >=3.7
+Requires-Dist: click>=8.0.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: python-levenshtein>=0.21.0
+Requires-Dist: rich>=10.0.0
+Requires-Dist: scikit-learn>=1.0.2
+Requires-Dist: thefuzz>=0.19.0
+Requires-Dist: typer>=0.9.0
+Description-Content-Type: text/markdown
+
+# Scout CLI
+
+A modern, intuitive alternative to `ls` and `cd` commands with smart directory prediction.
+
+## Installation
+
+1. Install via pip:
+```bash
+pip install scout-cli
+```
+
+2. Set up shell integration:
+```bash
+# Add to your ~/.bashrc or ~/.zshrc:
+source "$(pip show scout-cli | grep Location | cut -d' ' -f2)/scout/share/scout/scout.sh"
+```
+
+## Features
+
+- Smart directory navigation with fuzzy matching
+- Modern, colorful file listings
+- Bookmark management for frequently used directories
+- AI-powered directory suggestions
+- Project root detection
+- Time-based suggestions
+
+## Usage
+
+### List Files (replaces ls)
+```bash
+scout                    # List files in current directory
+scout -a                 # Show hidden files
+scout --sort size       # Sort by file size
+scout --sort modified   # Sort by modification time
+scout --sort name       # Sort by name (default)
+```
+
+### Directory Navigation (replaces cd)
+```bash
+scout jump <dir>        # Smart jump to directory
+scout jump -            # Go back to previous directory
+scout jump docs -c      # Create 'docs' directory and jump to it
+scout jump old-dir -d   # Delete directory (with confirmation)
+scout jump old-dir -d -f # Force delete without confirmation
+```
+
+### Bookmark Management
+```bash
+scout jump --save       # Save current directory as bookmark
+scout jump --bookmarks  # List saved bookmarks
+scout jump <bookmark>   # Jump to bookmarked directory
+```
+
+## Smart Features
+
+- **Fuzzy Matching**: Type partial names, scout finds matches
+- **AI Suggestions**: Scout learns from your navigation patterns
+- **Context Aware**: Suggests based on time and location
+- **Project Detection**: Recognizes project directories
+
+## Development
+
+1. Clone the repository
+2. Install development dependencies:
+```bash
+make dev-setup
+```
+
+3. Run tests:
+```bash
+make test
+```
+
+4. Build and install locally:
+```bash
+make install
+```
+
+## License
+
+MIT License 
