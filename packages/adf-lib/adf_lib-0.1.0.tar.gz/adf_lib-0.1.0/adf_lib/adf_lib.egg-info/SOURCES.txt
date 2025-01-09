@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+adf_lib/__init__.py
+adf_lib/adf_lib.egg-info/PKG-INFO
+adf_lib/adf_lib.egg-info/SOURCES.txt
+adf_lib/adf_lib.egg-info/dependency_links.txt
+adf_lib/adf_lib.egg-info/requires.txt
+adf_lib/adf_lib.egg-info/top_level.txt
+tests/test_document.py
+tests/test_link.py
+tests/test_table.py
+tests/test_text.py
