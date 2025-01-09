@@ -1,0 +1,5 @@
+bogrod
+dist
+node_modules
+releasenotes
+resources
