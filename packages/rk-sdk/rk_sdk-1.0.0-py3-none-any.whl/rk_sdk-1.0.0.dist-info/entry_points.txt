@@ -1,0 +1,2 @@
+[console_scripts]
+rk-cli = rk_sdk.cli:main
