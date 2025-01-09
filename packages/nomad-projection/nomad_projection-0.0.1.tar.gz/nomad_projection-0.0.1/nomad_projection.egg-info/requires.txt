@@ -1,0 +1,8 @@
+click
+matplotlib
+nomic
+numpy
+pandas
+scikit-learn
+torch
+tqdm
