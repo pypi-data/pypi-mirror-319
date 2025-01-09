@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: rk-sdk
+Version: 1.0.0
+Summary: Password Retrieval API for Accounts
+Home-page: 
+Author: rk Dev
+Author-email: rk@rk.com
+License: MIT
+Keywords: test,sdk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3==2.0.2
+Requires-Dist: python-dateutil==2.9.0
+Requires-Dist: pydantic==2.10.4
+Requires-Dist: typing-extensions==4.12.2
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Requires-Dist: tox; extra == "testing"
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+
+    This SDK is a Python client library for rk Password Retrieval API. 
+    This SDK provides a simple way to interact with rk Password Retrieval API. 
+    The API provides a endpoint to retrieve passwords of privileged accounts.
+    
