@@ -1,0 +1,7 @@
+polars_encryption-0.1.5.dist-info/METADATA,sha256=AOQiJbcKHEmubJtMxlLjdZ4pVx9gi2Me2NaudQZd19o,1638
+polars_encryption-0.1.5.dist-info/WHEEL,sha256=mYDPFrpmO1_UhonyEoMo2i0zHOwqc92hj_Q3CYuEBdM,94
+polars_encryption-0.1.5.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+polars_encryption/utils.py,sha256=LVspgtk4MZ4a2dbB-oOHygJDHSfAcZqIFpspE8m3W70,2423
+polars_encryption/__init__.py,sha256=8G2MCPRomOZdtTWHTPbjxEu3uxQAAhgYIA-QsW9vNXI,1199
+polars_encryption/polars_encryption.pyd,sha256=d72zClx15nq4hYkGds9AYrbBs0rakzkabMMkyIvxVb8,16603136
+polars_encryption-0.1.5.dist-info/RECORD,,
