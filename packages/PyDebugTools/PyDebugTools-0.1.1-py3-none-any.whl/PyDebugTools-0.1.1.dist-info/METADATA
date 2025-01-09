@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: PyDebugTools
+Version: 0.1.1
+Summary: A Python library for debugging python files and notebooks using GROQ
+Home-page: https://github.com/yourusername/notebook-debugger
+Author: Sambit Mallick
+Author-email: sambitmallick.pro@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ipython
+Requires-Dist: rich
+Requires-Dist: langchain-groq
+
+# Notebook Debugger
+
+A Python library for debugging Jupyter notebooks using LangChain and Rich.
+
+## Installation
+
+```bash
+pip install PyFix
+
