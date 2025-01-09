@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: GridPowerSAE
+Version: 0.1.0
+Summary: Python-пакет для анализа электрической сети (ЕЭС ЭЭС) на ПВК RastrWin3
+Home-page: https://gitverse.ru/Shurik412/GridPowerSAE
+Author: Shurik412
+Author-email: shurik412@mail.ru
+License: GitVerse 1.0
+Keywords: PyRastrWin,RastrWin3,RastrWin,RUSTab,Rastr,rastr_win,rastr_win3,GridPowerSAE,GridPower
+Platform: Windows
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyRastrWin
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: twine>=4.0.2; extra == "dev"
+
+# GridPowerSAE
+
+**Python-пакет для анализу и оптимизации режимов электрических сетей и систем на [ПВК RastrWin3 x64(x32)](https://www.rastrwin.ru/index.php) с использованием Python-библиотеки [PyRastrWin](https://pypi.org/project/PyRastrWin/)**
+
+
+# Changelog
+
+Все заметные изменения в этом проекте документируются в этом файле.
+
+
+## [0.1.0] - 2025-01-08
+
+### Added in [0.1.0]
+
+- Первый релиз проекта.
