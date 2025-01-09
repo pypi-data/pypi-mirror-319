@@ -1,0 +1,4 @@
+numpy
+tqdm
+huggingface_hub
+tensorflow
