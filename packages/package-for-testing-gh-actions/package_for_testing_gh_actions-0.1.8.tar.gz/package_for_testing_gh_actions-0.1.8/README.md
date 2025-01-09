@@ -1,0 +1,101 @@
+# gh-actions-deliver-python-package
+
+Custom GitHub Action to deliver a python package to a pypi repository ([test.]pypi.org, or pypi.uoregon.edu).
+
+## GitHub Self-Hosted Runner Requirements
+
+- python (3.11 default)
+- [twine](https://pypi.org/project/twine/)
+- [build](https://pypi.org/project/build/)
+
+
+## Examples
+
+Below are examples for testing and delivering python packages to the various supported package indexes.
+
+### Example: Workflow for Publishing to pypi.uoregon.edu
+
+1. Follow instructions to [Deploy to pypi.uoregon.edu (confluence)](https://confluence.uoregon.edu/x/ag5aGw).
+    * NOTE: This example assumes you are using our default SSH Key pair found in keepass: "General -> PKI Keys -> pypi.uoregon.edu"
+    * That default key pair is saved as [a Secret named `PYPI_UOREGON_EDU_SSH_KEY` in Network-Services GitHub Organization](https://is-github.uoregon.edu/organizations/Network-Services/settings/secrets/actions)
+2. Use workflow below to test and publish your python package at [pypi.uoregon.edu](https://pypi.uoregon.edu)
+
+```yml
+on:
+  push:
+
+jobs:
+  test:
+    runs-on:
+      - python
+      - self-hosted
+    steps:
+      -
+        uses: actions/checkout@v4
+      -
+        name: Run automated tests
+        uses: Network-Services/gh-actions-test-python-package@main
+
+  deliver:
+    if: github.ref == 'refs/heads/main'
+    needs: test
+    runs-on:
+      - python
+      - twine
+      - python-build
+      - self-hosted
+    steps:
+      -
+        uses: actions/checkout@v4
+      -
+        uses: Network-Services/gh-actions-deliver-python-package@main
+        with:
+          package-index: pypi.uoregon.edu
+          pypi-ssh-key: ${{ secrets.PYPI_UOREGON_EDU_SSH_KEY }}
+```
+
+
+### Example: How to Publish to pypi.org using nsdevops account
+
+### Example: How to Publish to pypi.org using personal account
+
+1. Log in to your pypi.org account
+2. Generate an [API Token](https://pypi.org/help/#apitoken).
+3. Save as "PYPI_API_TOKEN" in your GitHub Repository.
+4. Copy the following GitHub Workflow to "./github/workflows/test-and-deliver.yml":
+
+```
+
+```
+
+# Appendix
+
+
+## What is pypi.uoregon.edu?
+
+Our Systems Automation Services team maintains a private Python Package Index (PyPI) service.
+
+* Service URL https://pypi.uoregon.edu
+
+> How to install packages from pypi.uoregon.edu:
+> 
+> * `pip install --extra-index-url https://pypi.uoregon.edu <your_package_name>`
+
+
+# Development (for Maintainers of gh-actions-deliver-python-package)
+
+Notes for future developers to maintain this solution.
+
+## 'package-for-testing-gh-actions'
+
+To test if this is a useful python package on this project, first set up a 'virtual environment' ('.venv):
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+```
+
+Then install the package in editable mode
+
+```
+pip install -e .
+```
