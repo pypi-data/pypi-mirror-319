@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+recursive-include crl_browser *.py
+recursive-include crl_browser/crl-desktop-sources *

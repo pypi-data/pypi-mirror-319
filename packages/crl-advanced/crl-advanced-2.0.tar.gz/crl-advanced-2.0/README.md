@@ -1,0 +1,8 @@
+CRL Browser is a python based pyqt6 version that supports tor http/https. Our browser, which has a simple minimalist arch base, is built on a developable structure. The browser, which was developed for the crl network ecosystem, has crl network integration support.
+issues:https://crl.azencompileropensourcefoundation.com/bug-reports
+donate:https://azencompileropensourcefoundation.com/donate
+terms of use :
+crl-browser
+when you want to start a browser directly
+when you want to search for any url
+crl-browser --search-url example.com
