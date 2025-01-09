@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+atonixcore.egg-info/PKG-INFO
+atonixcore.egg-info/SOURCES.txt
+atonixcore.egg-info/dependency_links.txt
+atonixcore.egg-info/requires.txt
+atonixcore.egg-info/top_level.txt
