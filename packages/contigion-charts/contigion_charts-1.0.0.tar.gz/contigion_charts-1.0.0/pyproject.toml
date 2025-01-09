@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contigion-charts"
+version = "1.0.0"
+description = "A library for visualising the forex charts"
+authors = [
+    { name = "Contigion", email = "contigion@gmail.com" }
+]
+readme = "README.md"
+dependencies = [
+    "pandas",
+    "pandas_ta",
+    "numpy<2.0.0",
+    "MetaTrader5"
+]
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+packages = [
+    "contigion_charts",
+    "contigion_charts.components",
+    "contigion_charts.util",
+    "contigion_charts.dash_app",
+    "contigion_charts.dash_app.pages"
+]
