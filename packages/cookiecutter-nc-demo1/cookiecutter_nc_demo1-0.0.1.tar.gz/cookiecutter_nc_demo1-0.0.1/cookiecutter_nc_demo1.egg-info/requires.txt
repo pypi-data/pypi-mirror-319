@@ -1,0 +1,7 @@
+numpy
+
+[all]
+cookiecutter-nc-demo1[extra]
+
+[extra]
+pandas

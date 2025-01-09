@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: cookiecutter-nc-demo1
+Version: 0.0.1
+Summary: sample cookiecutte demo project
+Author-email: nirnab chowdhury <nirnab06@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/nirnab06/cookiecutter-nc-demo1
+Keywords: cookiecutter-nc-demo1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: cookiecutter-nc-demo1[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# cookiecutter-nc-demo1
+
+
+[![image](https://img.shields.io/pypi/v/cookiecutter-nc-demo1.svg)](https://pypi.python.org/pypi/cookiecutter-nc-demo1)
+[![image](https://img.shields.io/conda/vn/conda-forge/cookiecutter-nc-demo1.svg)](https://anaconda.org/conda-forge/cookiecutter-nc-demo1)
+
+
+**sample cookiecutte demo project**
+
+
+-   Free software: MIT License
+-   Documentation: https://nirnab06.github.io/cookiecutter-nc-demo1
+    
+
+## Features
+
+-   TODO
+this is a to do list
