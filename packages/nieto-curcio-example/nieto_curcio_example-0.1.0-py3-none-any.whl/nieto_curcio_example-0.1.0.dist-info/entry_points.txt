@@ -1,0 +1,2 @@
+[console_scripts]
+nieto_curcio_example = nieto_curcio_example.main:main
