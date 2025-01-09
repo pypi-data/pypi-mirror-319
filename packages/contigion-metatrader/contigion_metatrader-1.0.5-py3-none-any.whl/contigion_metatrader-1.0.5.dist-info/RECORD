@@ -1,0 +1,16 @@
+contigion_metatrader/__init__.py,sha256=_qFmQACCSbiC8IxnEHA_OQ0j3wIVPqz0D9BHT1H3LcQ,1950
+contigion_metatrader/account.py,sha256=irA7BWeR3k7xG3T9rCaSzpg1RwmTfFwydM1w_idytxc,3399
+contigion_metatrader/actions.py,sha256=yvLhRCV6IMSxcl5uToM-6_LFfscefMGQIvvYJon9J8w,4225
+contigion_metatrader/connect.py,sha256=rwblyudYqywqkrAg3Yx7CDHSei-b7bpWOvqeMoMiAds,1005
+contigion_metatrader/data.py,sha256=45dJvpvQlq2t4Noc2PehHM5HCswBtWNXKxuZ7kvFLBg,2283
+contigion_metatrader/history.py,sha256=Ow3qFiXWsKE-RMfoZzjgsJHLdRajoIoyVRTTnMYcWVo,2957
+contigion_metatrader/mappers.py,sha256=PXPu7-SK6qRQUlkbxolXzEfetFpqAQpsDC0rEb-N4qc,1950
+contigion_metatrader/symbol.py,sha256=pGqB4awDDqcU6wU097zRb68KG8UrMEy4ehPaaaJQnHA,1254
+contigion_metatrader/trades.py,sha256=4lmNrZohY7YwRjJwzmOPAsH8uChMcgKhtbmdAbkclyw,2156
+contigion_metatrader/util/__init__.py,sha256=DLsT_h0NPPQAqJi2avJ5D--4se8iVzwaf51xpAtnsyg,355
+contigion_metatrader/util/config.py,sha256=ut5eYduE94MtGkKcbiCUVO3yRVtRzhGkmwm5V1k5GmI,41
+contigion_metatrader/util/requests.py,sha256=rDq1Z4iFqM1DnNO57i5nqh-av3aIp1zztDIwh67jgxY,2574
+contigion_metatrader-1.0.5.dist-info/METADATA,sha256=iGiDbf-ZxTu5srRCQWQdxDXMe45v_CVfKT7tAbaKMdE,1555
+contigion_metatrader-1.0.5.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+contigion_metatrader-1.0.5.dist-info/top_level.txt,sha256=A9LhO4iDoCIR3hLp_HaQqEa7l5y15T9l9fJimC0r6PU,21
+contigion_metatrader-1.0.5.dist-info/RECORD,,
