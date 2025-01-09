@@ -1,0 +1,2 @@
+[console_scripts]
+magentic-one-cli = magentic_one_cli.main:main
