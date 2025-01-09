@@ -1,0 +1,8 @@
+telegram_webapp_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegram_webapp_auth/auth.py,sha256=UHmF06-ZLsrpjtDr8hsWXRaC_pcDO_7_5Ls69pcD2RY,9152
+telegram_webapp_auth/data.py,sha256=C1-XqxnlFAHoR6JYUEqOajr8_1cvQy2wRvi4O14LKU8,2152
+telegram_webapp_auth/errors.py,sha256=JUwyF1edf6nwmXidGPKfVgsOgXrIGgcXsp0kiDa0PFI,146
+telegram_webapp_auth-3.0.0.dist-info/LICENSE,sha256=c_HuTkVxN1W--jfVXsi-nGMNgoQUSoBpBZgALi_lXNc,1072
+telegram_webapp_auth-3.0.0.dist-info/METADATA,sha256=eaIGlNQXd4DU0CIuclcr6TQAp2RHmbgBykZCB00Uu0k,3768
+telegram_webapp_auth-3.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+telegram_webapp_auth-3.0.0.dist-info/RECORD,,
