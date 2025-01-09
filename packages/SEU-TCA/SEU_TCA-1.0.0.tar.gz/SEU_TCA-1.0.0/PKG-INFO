@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: SEU_TCA
+Version: 1.0.0
+Summary: A framework for integrating spatial and single-cell transcriptomics data using Transfer Component Analysis.
+Home-page: https://github.com/LinluoLab/SEU-TCA
+Author: LinluoLab
+Author-email: 230218444@seu.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
