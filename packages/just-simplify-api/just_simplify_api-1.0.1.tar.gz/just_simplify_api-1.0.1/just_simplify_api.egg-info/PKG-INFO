@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: just_simplify_api
+Version: 1.0.1
+Summary: Mesh API tools for consistent response formatting and validation
+Home-page: https://github.com/tphollis/api-tools
+Author: Preston Hollis
+Author-email: thomas.preston.hollis@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
