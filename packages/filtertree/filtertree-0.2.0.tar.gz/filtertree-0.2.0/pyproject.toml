@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "filtertree"
+version = "0.2.0"
+description = "Apply a filter to the directory tree"
+authors = ["takatoh <takatoh.m@gmail.com>"]
+homepage = "https://github.com/takatoh/filtertree"
+repository = "https://github.com/takatoh/filtertree"
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+filtre="filtertree.cli:main"
