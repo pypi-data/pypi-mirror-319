@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel", "sqlalchemy>=2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "r0p3_utils"
+version = "0.1.0"
+description = "Package for r0p3 by r0p3"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+keywords = ["example", "demo"]
+authors = [
+  { name = "Robin Pettersson", email = "robin.pettersson.96@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools]
+# You can put additional setuptools config here if needed.
+
+[tool.setuptools.packages.find]
+where = ["."]
