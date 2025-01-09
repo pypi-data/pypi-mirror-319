@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "certora-quorum"
+description = "Quorum: A tool for managing proposals and reports"
+authors = [
+    {name = "Niv Vaknin", email = "niv@certora.com"},
+    {name = "Liav Katry", email = "liav@certora.com"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["Quorum", "Proposals", "Reports"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version", "dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+version = {file = ["version"]}
+
+[project.urls]
+Homepage = "https://github.com/Certora/Quorum"
+Source = "https://github.com/Certora/Quorum"
+
+[project.scripts]
+quorum = "Quorum.entry_points.quorum_cli:main"
+
+[tool.setuptools]
+include-package-data = true
