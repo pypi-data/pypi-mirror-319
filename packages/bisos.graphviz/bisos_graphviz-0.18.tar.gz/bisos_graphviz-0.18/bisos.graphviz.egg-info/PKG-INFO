@@ -1,0 +1,33 @@
+Metadata-Version: 2.2
+Name: bisos.graphviz
+Version: 0.18
+Summary: bisos.graphviz: Seeded-PyCS Graphviz
+Home-page: http://www.by-star.net/PLPC/180047
+Download-URL: http://www.by-star.net/PLPC/180047
+Author: Mohsen Banan
+Author-email: libre@mohsen.1.banan.byname.net
+Maintainer: Mohsen Banan
+Maintainer-email: libre@mohsen.1.banan.byname.net
+License: AGPL
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: blee
+Requires-Dist: blee.icmPlayer
+Requires-Dist: bisos
+Requires-Dist: bisos.b
+Requires-Dist: bisos.common
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary
