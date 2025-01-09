@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/module.py
+src/jenkins_job_tests_delete.egg-info/PKG-INFO
+src/jenkins_job_tests_delete.egg-info/SOURCES.txt
+src/jenkins_job_tests_delete.egg-info/dependency_links.txt
+src/jenkins_job_tests_delete.egg-info/requires.txt
+src/jenkins_job_tests_delete.egg-info/top_level.txt
+tests/test_module.py
