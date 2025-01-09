@@ -1,0 +1,10 @@
+pyvinecopulib-0.7.0.dist-info/RECORD,,
+pyvinecopulib-0.7.0.dist-info/WHEEL,sha256=rOJaAfyDeYqpyZcvF2uMKwvjCoDaR0tVOjIX1nCiRq8,114
+pyvinecopulib-0.7.0.dist-info/METADATA,sha256=boWkC8IPkJ0fhYTP3Zx5DbqbQrcAnvD7QcBFoIhkr6Y,7226
+pyvinecopulib-0.7.0.dist-info/licenses/LICENSE,sha256=nkMojMDOHiaDY_ws2TTJnWbN_OPKo2a_JzdCDC2Ol3k,1112
+pyvinecopulib/__init__.py,sha256=dgW09bSDoUyqyUh91mibC5htTeL0GWa3K8oH8vlXFSE,112
+pyvinecopulib/pyvinecopulib_ext.cpython-310-darwin.so,sha256=MaVYiJcje52BlUSHe_DP07kfFeYGkBQwhao6DyEncMs,4692456
+pyvinecopulib/_python_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyvinecopulib/_python_helpers/vinecop.py,sha256=kGVqtAaLKRQr23cxDMacBiXJfyTB4hDGxV6Xhz3R7Og,5932
+pyvinecopulib/_python_helpers/stats.py,sha256=robRFxSijE7wnyGklBPgFkb9dBSbGYA2TbwkpPxKZAs,4171
+pyvinecopulib/_python_helpers/bicop.py,sha256=MOyNv1N09Y_8r26G8q4pBSmN9nfeLs-rdnFn16ZuUZI,5100
