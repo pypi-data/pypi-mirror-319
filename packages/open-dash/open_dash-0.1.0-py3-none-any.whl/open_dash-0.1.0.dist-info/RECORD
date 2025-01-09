@@ -1,0 +1,16 @@
+opendash/__about__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+opendash/__init__.py,sha256=Lv4cFbehtjZCgNxNYeJiO7rKNxg5SvabOqg2RV4mUWg,30
+opendash/__main__.py,sha256=slNsBMcdYJe1YeGiglwK8zhQpi9BAVD5qnO3ZOryAv0,1138
+opendash/bundle.py,sha256=e1Gw5colh8ZrYgXwmXt7L5ge_juwlI0p8yhKZ4Ei-1g,6473
+opendash/config.py,sha256=hsW20o9VCEb-cLQrIPpvOuKQnk2jSpmCnxUVAiFutyw,4128
+opendash/assets/assets_bundler.py,sha256=4O1rskImEMWDKRnnRLUC653ivCRYzojN4or5-J7FGy8,21120
+opendash/assets/open_dash_output.py,sha256=9V21vfOv75ZZ9JiAUIyw_ipumC4Z5GOE96HW-0Bbx3g,3673
+opendash/assets/server/Dockerfile.lambda,sha256=p8AM0Xbq8Bv-xaq5nBna1SXce4Wkt7UBVxrdHGNOPks,317
+opendash/assets/server/index.py,sha256=nuYz0QVqezNPrR97XwgjX_l5DB-V7-PF42s6pVoS2UI,1157
+opendash/assets/warmer/index.py,sha256=TdIpat3KxrLffdMnWBHL5Zqd8pH9w07--N6LlQbTGzg,1299
+opendash/assets/warmer/requirements.txt,sha256=OuTBkSHkx0ibaB4elJd8UaXemT0up6SzUujWHHnlVDU,15
+open_dash-0.1.0.dist-info/METADATA,sha256=997mFK5A6iptIXMVhaKWp-9weMrnoJh-fK05_uQHXhw,8841
+open_dash-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+open_dash-0.1.0.dist-info/entry_points.txt,sha256=VRJNBajJeiJhdNd_13sGLvqtjkl_OdIckyMLl3lDlQs,53
+open_dash-0.1.0.dist-info/licenses/LICENSE,sha256=TDBkeqOjLvpHVfbcDNylCXZ-z5QORyAmlkrG1U-Ow-k,1068
+open_dash-0.1.0.dist-info/RECORD,,
