@@ -1,0 +1,6 @@
+slack_bot_openai/__init__.py,sha256=PmR3OYgRZeTTtD1urFBrh5d_0xG_eYkLqJjSh11OoRU,66
+slack_bot_openai/handler.py,sha256=sl1Gii7bGVnhazEPuAKMn7ZDTGWmZfx4yoinejIRBgc,18306
+slack_bot_openai-0.1.4.dist-info/METADATA,sha256=rGkBCXBhZWu5BZFfp-58FnYI8ZasbLNzJaat_adqcsE,374
+slack_bot_openai-0.1.4.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+slack_bot_openai-0.1.4.dist-info/top_level.txt,sha256=HU-QqED7B363SzmKXy8G9DjPzTDFXUU6s3QiN09Q36M,17
+slack_bot_openai-0.1.4.dist-info/RECORD,,
