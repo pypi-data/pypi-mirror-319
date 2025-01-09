@@ -1,0 +1,11 @@
+logscope/__init__.py,sha256=2hsi6eTnzRl9mLupxH-gZHm827gSe6L5lLpJc-VugNs,290
+logscope/core.py,sha256=MVbAU4CpKogjfdQkfjcxkMu0_WX6-Z7cEgfgpHo3WFI,1795
+logscope/database.py,sha256=-9v-za67N4zAgsFtgoR_ZKtnSXCyLGEZk9LEVm_nVEM,2218
+logscope/formatter.py,sha256=G4luAYt-n9fsFF-yfDNFZ0MrH4LL9nL5IftXlXsvIR0,2530
+logscope/handlers.py,sha256=JuhMRynWjPpPhCWlYS1zQWQxQmBif2miydMdpWeFI9s,856
+logscope/tracing.py,sha256=3-g2_USeThyjZ6Q_opLOwUNr7sGfFkJ_yfKkeVdhyTw,3134
+logscope/utils.py,sha256=pSdenO11pds7vFCCAXH96dFsb5KL1AepOrU67-SlS5U,1574
+logscope-0.1.4.dist-info/METADATA,sha256=qPVqKwNrUNC7WUjIb4yDN8RFOO0aCj_tOwkaTDRYt9s,3478
+logscope-0.1.4.dist-info/WHEEL,sha256=C2FUgwZgiLbznR-k0b_5k3Ai_1aASOXDss3lzCUsUug,87
+logscope-0.1.4.dist-info/licenses/LICENSE.txt,sha256=4UySajSxxnrDT371byGu8jw0As4STITztGpndNzsMeI,1075
+logscope-0.1.4.dist-info/RECORD,,
