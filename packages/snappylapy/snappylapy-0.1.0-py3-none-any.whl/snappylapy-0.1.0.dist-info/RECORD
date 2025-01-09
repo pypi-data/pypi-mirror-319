@@ -1,0 +1,10 @@
+snappylapy/__init__.py,sha256=fYFmcNXUPgOLOzUiL_FfMDZIdi5e7Luoj-6de0YUxEY,91
+snappylapy/plugin.py,sha256=Wmud7FLiBaxHnFKaYo0GRzz4P7fwA_F3K4TA7hxYP-U,2418
+snappylapy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snappylapy/serialization.py,sha256=I8X0Fmjb7DRXsGdbu7lrlKZNhk3TX8zm6yAG9cAewNA,1502
+snappylapy/snappylapy.py,sha256=X53XU6gDjUVB5CVKAmll2YU19s4Ac7bIgkSrTTn-K-Q,8271
+snappylapy-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+snappylapy-0.1.0.dist-info/METADATA,sha256=iiUNLwRgEv6MUkKTTqWF0UA3ho15J8JAtgh6MkdDwL8,10858
+snappylapy-0.1.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+snappylapy-0.1.0.dist-info/entry_points.txt,sha256=L7t5QJuu9iV3bsgKTKsRuxteUDR7cO2229k9Eng5rdY,41
+snappylapy-0.1.0.dist-info/RECORD,,
