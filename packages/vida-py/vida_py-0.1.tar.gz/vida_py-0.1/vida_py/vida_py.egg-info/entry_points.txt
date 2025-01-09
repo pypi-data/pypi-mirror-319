@@ -1,0 +1,2 @@
+[console_scripts]
+vida_py = vida_py.cli:app
