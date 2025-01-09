@@ -1,0 +1,48 @@
+Metadata-Version: 2.2
+Name: vida_py
+Version: 0.1.2
+Summary: Python interface for Volvo's VIDA databases.
+Author-email: Kestin Goforth <kgoforth1503@gmail.com>
+Maintainer-email: Kestin Goforth <kgoforth1503@gmail.com>
+License: AGPL-3.0
+Project-URL: bugs, https://github.com/kForth/vida_py/issues
+Project-URL: homepage, https://github.com/kForth/vida_py
+Keywords: VIDA,volvo
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click==8.1.8
+Requires-Dist: pyodbc==5.2.0
+Requires-Dist: SQLAlchemy==2.0.36
+Provides-Extra: dev
+Requires-Dist: pre-commit==4.0.1; extra == "dev"
+
+# vida_py
+
+Python interface Volvo's VIDA databases.
+
+## Installation
+
+You can install `vida_py` using pip.
+
+```
+  pip install vida-py
+```
+
+## License
+
+vida_py
+Copyright (C) 2025 K.Goforth
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.

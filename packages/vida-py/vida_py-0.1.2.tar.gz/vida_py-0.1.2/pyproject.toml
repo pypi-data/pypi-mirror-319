@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["dependencies", "optional-dependencies"]
+name = "vida_py"
+version = "0.1.2"
+description = "Python interface for Volvo's VIDA databases."
+keywords = ["VIDA", "volvo"]
+readme = "README.md"
+authors = [
+  {name = "Kestin Goforth", email = "kgoforth1503@gmail.com"}
+]
+maintainers = [
+  {name = "Kestin Goforth", email = "kgoforth1503@gmail.com"}
+]
+classifiers = [
+
+]
+license = {text = "AGPL-3.0"}
+requires-python = '>=3.10'
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+optional-dependencies = {dev = { file = ["requirements-dev.txt"] }}
+
+[project.urls]
+bugs = "https://github.com/kForth/vida_py/issues"
+homepage = "https://github.com/kForth/vida_py"
+
+[tool.setuptools]
+package-dir = {"" = "vida_py"}
+
+[tool.setuptools.package-data]
+"*" = ["vida_py.*"]
+
+[project.scripts]
+vida_py = "vida_py.cli:app"
+
+[tool.black]
+line-length = 90
+include = '''
+(
+    (
+        vida_py
+      | .github
+    ).*\.pyi?$
+)|(
+    setup\.py
+)
+'''
