@@ -1,0 +1,2 @@
+[console_scripts]
+harrix-test-package = harrix_test_package:main
