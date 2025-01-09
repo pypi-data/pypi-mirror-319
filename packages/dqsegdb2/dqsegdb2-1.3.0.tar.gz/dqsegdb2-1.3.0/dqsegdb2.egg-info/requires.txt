@@ -1,0 +1,13 @@
+click>=6.7
+igwn-auth-utils>=1.0.0
+igwn-segments>=2.0.0
+
+[docs]
+furo
+sphinx
+sphinx-automodapi
+
+[test]
+pytest>=2.9.2
+pytest-cov>=2.5.1
+requests-mock>=1.5.0

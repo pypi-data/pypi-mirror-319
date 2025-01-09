@@ -1,0 +1,3 @@
+include LICENSE README.md
+include rpm/python-dqsegdb2.spec
+recursive-include debian *
