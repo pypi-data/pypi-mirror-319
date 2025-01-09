@@ -1,0 +1,11 @@
+pfm_app/__init__.py,sha256=iatZFdd3rFbYWpSOXAij1sSzZutO_xSdu6WOSWya-u8,114
+pfm_app/__main__.py,sha256=emnjprwZwyNg6BlLegkMIU-PQbj6FmjXUxWenQw4gs8,1924
+pfm_app/currency.py,sha256=jfufrfzboX4SE_FtTLjifUFZjaFTCI7Pa4uujXFGAoc,782
+pfm_app/portfolio.py,sha256=0KN6flj4u6kCjgByjM25yCe2pj54sGUqD0Zwd1b6MIo,1099
+pfm_app/securities.py,sha256=FFqRJ2GV6LwTZem_sp9yvZZYXd-PviRjuXeG4j6qTTg,1026
+tests/tests_securities.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pfm_app-0.1.0.dist-info/METADATA,sha256=6TtL5otZsMZlgGDJ9DibNVjBEe6ROO-0nIgIKqJOTxA,638
+pfm_app-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+pfm_app-0.1.0.dist-info/entry_points.txt,sha256=4JKPIttQrwkNbGfB6VjqCXx5K8d7cik3AmmmDjxVNMY,49
+pfm_app-0.1.0.dist-info/top_level.txt,sha256=MEydDM86Kwu4OLD5kvNfaDYfGzcuvi7_s4r08bRmpDI,14
+pfm_app-0.1.0.dist-info/RECORD,,
