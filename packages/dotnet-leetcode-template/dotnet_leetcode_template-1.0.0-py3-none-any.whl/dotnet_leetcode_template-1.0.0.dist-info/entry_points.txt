@@ -1,0 +1,2 @@
+[console_scripts]
+dotnet-leetcode-template = Dotnet_Leetcode_Template.Dotnet_Leetcode_Template_Script:main
