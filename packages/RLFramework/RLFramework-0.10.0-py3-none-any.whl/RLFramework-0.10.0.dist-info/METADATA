@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: RLFramework
+Version: 0.10.0
+Home-page: https://github.com/Markseo0424/RLFramework.git
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: matplotlib
+Provides-Extra: gym
+Requires-Dist: gymnasium>=0.29.1; extra == "gym"
+Requires-Dist: moviepy>=1.0.0; extra == "gym"
