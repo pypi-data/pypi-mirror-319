@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+pydantic_flatten_rootmodel/__init__.py
+pydantic_flatten_rootmodel/flatten.py
+pydantic_flatten_rootmodel.egg-info/PKG-INFO
+pydantic_flatten_rootmodel.egg-info/SOURCES.txt
+pydantic_flatten_rootmodel.egg-info/dependency_links.txt
+pydantic_flatten_rootmodel.egg-info/requires.txt
+pydantic_flatten_rootmodel.egg-info/top_level.txt
+pydantic_flatten_rootmodel/tests/__init__.py
+pydantic_flatten_rootmodel/tests/test_flatten.py
