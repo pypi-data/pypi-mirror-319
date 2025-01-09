@@ -1,0 +1,15 @@
+jabagram/__init__.py,sha256=cqCNt4hIDG4hMEjz1JYlG3MYovUzF9s3jTsh_TGQyvQ,36
+jabagram/cache.py,sha256=9lg5uyy_PZ6YZYF9kRz-lCwUINvaUXpo0VAckAbfM6I,3083
+jabagram/database.py,sha256=vV2Z8zntfA7TfSR15xnz3gnpzXAqffDSMil-LFdftuE,4816
+jabagram/dispatcher.py,sha256=ncirCQjri-i3ec_1FGbvgNKj-WZGClnB48WdO6cy9IU,3798
+jabagram/messages.py,sha256=Sb0lMoKnI5tHo7WKtsXpQNxhX4KLhPZG-fGJblyYK4M,3662
+jabagram/model.py,sha256=--WoHPQwVM8HfsWuhPLroSVfzLoagz-eJvyrTARm248,3166
+jabagram/runner.py,sha256=Ck18z1q3AQo2P54x32TSfRDJl-u3PSqi7CZ7MpGt5WE,3857
+jabagram/telegram.py,sha256=ueC4TAS2la2f9am2vZM77LR2wKBXtabslKogX0cM7mQ,22888
+jabagram/util.py,sha256=2hsFQw7iHhTEeActbj5qB3gWsREht5zacallHkA0wms,974
+jabagram/xmpp.py,sha256=P-WwJXH8FF-FgIMT2bfzcFRxN3IawTiI8S-Qaeq5sKQ,16960
+jabagram-1.0.0.dist-info/METADATA,sha256=6RTY3LxWfgX-8PD7IWfBPNJWEki31gA6djC3z9IhRPc,9463
+jabagram-1.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+jabagram-1.0.0.dist-info/entry_points.txt,sha256=K09bZ7nPy10iDsNDVt6A0q0ifg0beUIa8nuFy0_WdLw,50
+jabagram-1.0.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+jabagram-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+jabagram = jabagram.runner:main
