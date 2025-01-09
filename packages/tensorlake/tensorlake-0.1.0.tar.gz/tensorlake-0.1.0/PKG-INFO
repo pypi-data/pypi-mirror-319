@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: tensorlake
+Version: 0.1.0
+Summary: Petabyte scale data framework for unstructured data of any modality
+Home-page: https://github.com/tensorlakeai/tensorlake
+Author: Tensorlake Inc.
+Author-email: support@tensorlake.ai
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: cloudpickle (>=3.1.0,<4.0.0)
+Requires-Dist: docker (>=7.1.0,<8.0.0)
+Requires-Dist: httpx[http2] (>=0.28.1,<0.29.0)
+Requires-Dist: pydantic (==2.10.4)
+Project-URL: Repository, https://github.com/tensorlakeai/tensorlake
