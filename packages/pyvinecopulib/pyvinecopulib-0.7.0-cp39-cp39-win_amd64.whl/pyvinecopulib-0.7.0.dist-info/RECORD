@@ -1,0 +1,10 @@
+pyvinecopulib/__init__.py,sha256=fWKAy2w2wSW2bXXJaKQIW5YuKic_Vauu39vJDdeVf3g,115
+pyvinecopulib/_python_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyvinecopulib/_python_helpers/bicop.py,sha256=gazjQav_399pyEZfwe98VXI4y10f7OGp-FULoXKONaI,5274
+pyvinecopulib/_python_helpers/stats.py,sha256=QBJ9Uulb2byGOqZ9Vrto05q15l_97dmglbQyjYp1gFg,4342
+pyvinecopulib/_python_helpers/vinecop.py,sha256=_bA54ABulbAJw53_-MfVaZc7DB9fDG5uwsldm7hO6NE,6134
+pyvinecopulib/pyvinecopulib_ext.cp39-win_amd64.pyd,sha256=x6hfbWzXS3woFPimhbdC6_u4gDNJJBVr39n4-1Xipqc,4741632
+pyvinecopulib-0.7.0.dist-info/METADATA,sha256=boWkC8IPkJ0fhYTP3Zx5DbqbQrcAnvD7QcBFoIhkr6Y,7226
+pyvinecopulib-0.7.0.dist-info/WHEEL,sha256=s-IzttuPuPJp8zDv-jm-zGvTOCxdFCvjX9dIQ9zqnM8,104
+pyvinecopulib-0.7.0.dist-info/licenses/LICENSE,sha256=y5iKwVFTKgsbibvJ-kZVtUGxiAJHSWoTos6--m9Gm7Y,1132
+pyvinecopulib-0.7.0.dist-info/RECORD,,
