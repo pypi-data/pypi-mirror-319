@@ -1,0 +1,11 @@
+pycorner/.version,sha256=nG92FOiUWe8Sxvq5fkG6CsMFF4Hg5jKf_9biqHxn6G4,50
+pycorner/__init__.py,sha256=0oYOjJ2hO3P7r3CL-DE_dqNg6xOfoAd717HFSvnUWSs,129
+pycorner/cbc.py,sha256=U89Mppvc-LmQMneqWrgqSkBRhllT1yaNx759T3Igig8,5591
+pycorner/corner.py,sha256=Uf1ptFFRBqghL0BHn5fdBPWx89L5j3ECRimxxTEMoU0,31442
+pycorner/distribution.py,sha256=0HmymdUWcA1JBeAs26u0cPBw2wK_C0LfaVboiSS2D3I,22055
+pycorner/misc.py,sha256=mJkL-_xR7QF-0C6ySnKz2aYx6D1f_q0WV2F6uce4l2I,42036
+pycorner-0.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pycorner-0.0.0.dist-info/METADATA,sha256=sfdP2YFOAcAck9dNHpco8bFy6GMWgYs6B7OFWftjc2k,426
+pycorner-0.0.0.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+pycorner-0.0.0.dist-info/top_level.txt,sha256=wjKicpX35F-D8RYfyCcnK4MR4YBUawArup9Ues3E6Gk,9
+pycorner-0.0.0.dist-info/RECORD,,
