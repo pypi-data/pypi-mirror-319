@@ -1,0 +1,13 @@
+envisionhgdetector/__init__.py,sha256=O3ohXTyIgjg2RAZJaLy_8Jai9Y41DCbCszEDIHX67IM,766
+envisionhgdetector/config.py,sha256=gQw4URowuNktUIx1AETD220yP2zU17VR3hj3JzI7Kho,2398
+envisionhgdetector/detector.py,sha256=vx4gkVK_-zUJ3h82DdACD5RpVgrgOZK7QL81RHXK3Lo,8312
+envisionhgdetector/model.py,sha256=Gl4PIFES98S4DBKstNoZ_wnJ5OZEm2QBZPetJ7MtG8U,4777
+envisionhgdetector/preprocessing.py,sha256=ATQIbKs1bFoeJcsLTGtHNsQD6PVUh-VAVxPGS6TLxGs,22118
+envisionhgdetector/utils.py,sha256=2-oXwpxJdm-IoFWy4O0dpdN1OtzTMbjxM-VCO7JH16U,15989
+envisionhgdetector/model/SAGAZHUBOTEDM3DMULTISIMOv1.h5,sha256=sBdiHUCEK4luTW3-uKcF2crB4HWAdiuPpRrD-3pWdho,3503920
+envisionhgdetector/model/snelliusSAGAZHUBOTEDM3DMULTISIMOv1.h5,sha256=HWSGFTnQs95fsOYWelqTp8t6QStuQn1t2WpGdFdFFqo,3503920
+envisionhgdetector-0.0.4.7.dist-info/LICENSE,sha256=dwtH-l6vNxicME8TUO85A_sfq5Yu49Sv4fHC577NvTc,1085
+envisionhgdetector-0.0.4.7.dist-info/METADATA,sha256=Dh1RBRYu5QOEVc6Jw7iXpM5o3sNJFqm-uMQrSQhqShc,7185
+envisionhgdetector-0.0.4.7.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+envisionhgdetector-0.0.4.7.dist-info/top_level.txt,sha256=2MeLrx2LItP6cTpItwXitYWJJiJNtGgC1nwxmUYYvb0,19
+envisionhgdetector-0.0.4.7.dist-info/RECORD,,
