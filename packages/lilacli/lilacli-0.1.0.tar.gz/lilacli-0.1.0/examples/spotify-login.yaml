@@ -1,0 +1,4 @@
+steps:
+  - goto: https://accounts.spotify.com/en/login
+  - login: with username ${SPOTIFY_USERNAME} and password ${SPOTIFY_PASSWORD}
+  - verify: login is successful
