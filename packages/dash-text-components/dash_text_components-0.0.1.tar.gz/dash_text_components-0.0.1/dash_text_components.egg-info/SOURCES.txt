@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_text_components/AttentionHighlight.py
+dash_text_components/TextInput.py
+dash_text_components/__init__.py
+dash_text_components/_imports_.py
+dash_text_components/dash_text_components.min.js
+dash_text_components/dash_text_components.min.js.map
+dash_text_components/metadata.json
+dash_text_components/package-info.json
+dash_text_components.egg-info/PKG-INFO
+dash_text_components.egg-info/SOURCES.txt
+dash_text_components.egg-info/dependency_links.txt
+dash_text_components.egg-info/top_level.txt
