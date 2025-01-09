@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: lowtime
+Version: 0.3.0
+Classifier: Typing :: Typed
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Rust
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: attrs
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: ruff ; extra == 'lint'
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: tyro ; extra == 'dev'
+Requires-Dist: pandas ; extra == 'dev'
+Requires-Dist: pyright ; extra == 'dev'
+Provides-Extra: lint
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+Summary: A library for solving the time-cost tradeoff problem.
+Keywords: optimization,tradeoff,DAG
+Author-email: Jae-Won Chung <jwnchung@umich.edu>, Yile Gu <yilegu@umich.edu>, Oh Jun Kweon <ohjun@umich.edu>
+License: Apache 2.0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Repository, https://github.com/ml-energy/lowtime
+
+<h1 align="center">Lowtime: A Time-Cost Tradeoff Problem Solver</h1>
+
+Lowtime is a library for solving the [time-cost tradeoff problem](https://link.springer.com/chapter/10.1007/978-3-030-61423-2_5).
+
+## What do I use `lowtime` for?
+
+Say you want to execute a **DAG of operations or tasks**, and each operation has multiple execution options each with **different time and cost**.
+
+Given the definition of the DAG, `lowtime` will find the **complete time-cost Pareto frontier** of the entire DAG.
+
+You define *cost*. Any positive floating point number that is at odds with time!
+
