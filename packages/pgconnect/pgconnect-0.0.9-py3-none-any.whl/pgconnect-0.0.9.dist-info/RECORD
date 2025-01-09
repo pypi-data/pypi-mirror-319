@@ -1,0 +1,11 @@
+pgconnect/Column.py,sha256=G4XMxHmGGu6uhAL9YSUbKbFuF3Ev8bHBGjDGYuQXRNs,597
+pgconnect/Connection.py,sha256=uIotaJnqDM7oIP068p98CNJmqnksEF9FMODXxqHrUVo,2925
+pgconnect/DataType.py,sha256=gfEVRmPDw8EntcD9dT1a_hUx_pv5OtNmXpKsOhn39KE,5396
+pgconnect/Table.py,sha256=itu2HA2DX0TJA1DI2D1u5xdt2ocs48xTR7IV5nE3-6g,34589
+pgconnect/__init__.py,sha256=0bl4S0jQ-scoR855j7Rh7ka5yHLZhHmb1jho-IFZzRs,95
+pgconnect/examples.py,sha256=mx4fI6Iw1qUuTT2fAclkYlAnsusfuHc1RcKW-h2DRTk,1591
+pgconnect-0.0.9.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+pgconnect-0.0.9.dist-info/METADATA,sha256=ca_IfBISsm7JkwJBhbVoo_XcMNRpPyy9tJfDoZyGaig,9775
+pgconnect-0.0.9.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+pgconnect-0.0.9.dist-info/top_level.txt,sha256=sZkk8vd518k4maWl471KX6k0RPWj7nsdyd0VyODpPYA,10
+pgconnect-0.0.9.dist-info/RECORD,,
