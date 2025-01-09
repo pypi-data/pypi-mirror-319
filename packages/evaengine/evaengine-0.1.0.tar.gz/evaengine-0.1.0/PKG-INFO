@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: evaengine
+Version: 0.1.0
+Summary: A powerful tweet evaluation engine using advanced LLM models
+Home-page: https://github.com/chromindscan/eva-ui
+Author: Chromia
+Author-email: prem.kumar@chromaway.com
+Project-URL: Documentation, https://api.evaengine.ai/docs
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: aiohttp>=3.8.0
+Requires-Dist: python-dotenv>=0.19.0
