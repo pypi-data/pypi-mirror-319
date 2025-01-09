@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+version = "0.0.2"
+name = "frequensee"
+requires-python = ">= 3.9"
+dependencies = [
+    "matplotlib>=3.9.3",
+    "soundfile>=0.12.1"
+]
+authors = [
+    {name = "Antonios Stefanos Tormpantonis", email = "antonistorb@yahoo.com"}
+]
+maintainers = [
+    {name = "Antonios Stefanos Tormpantonis", email = "antonistorb@yahoo.com"}
+]
+description = "A CLI tool that produces frequency animations for audio files with FFMPEG."
+readme = "README.md"
+licence = {file = "LICENSE"}
+keywords = ["audio", "frequency", "animation", "visualizer", "cli", "ffmpeg"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Scientific/Engineering :: Visualization"
+]
+
+[project.urls]
+Homepage = "https://github.com/AntonisTorb/Frequensee"
+Documentation = "https://github.com/AntonisTorb/Frequensee"
+Repository = "https://github.com/AntonisTorb/Frequensee.git"
+Issues = "https://github.com/AntonisTorb/Frequensee/issues"
+
+[project.scripts]
+fqc = "frequensee:main_cli"
+frequensee = "frequensee:main_cli"
