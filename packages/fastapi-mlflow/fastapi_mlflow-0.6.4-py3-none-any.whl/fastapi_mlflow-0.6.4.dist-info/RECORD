@@ -1,0 +1,9 @@
+fastapi_mlflow/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+fastapi_mlflow/_mlflow_types.py,sha256=5LJhsoEfRNJ9PW9dVzP9DCSsYdrfpAkF_Ym1oxpYc2k,1476
+fastapi_mlflow/applications.py,sha256=yMhT_09BXV1tVvFB7bpNmxPbrX7nhHIT-7vzZRTe34g,1608
+fastapi_mlflow/exceptions.py,sha256=9ZvJGJrUPcWstmmWD4zkpIu3W5VdvYsmebME6wWJ9bk,513
+fastapi_mlflow/predictors.py,sha256=1xD7yS3STJySNa53cTCyjWFpfZ1XmMErCUWUSXfwDuA,3374
+fastapi_mlflow-0.6.4.dist-info/LICENSE,sha256=AT7s3zT3HWRd7imzMFzx6EZs2Hq5pLxDf7NcdcEL_Ac,11352
+fastapi_mlflow-0.6.4.dist-info/METADATA,sha256=NzbgDYi77ryRwl_wzumipbzTCs-YeuhxJ0kvm8gklQw,3655
+fastapi_mlflow-0.6.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fastapi_mlflow-0.6.4.dist-info/RECORD,,
