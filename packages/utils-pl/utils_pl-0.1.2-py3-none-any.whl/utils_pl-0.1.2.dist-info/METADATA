@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: utils-pl
+Version: 0.1.2
+Summary: A set of utilities written in python for various tasks. 
+License: MIT
+Requires-Dist: rich
+Dynamic: description
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+A set of utilities written in python for various tasks. 
