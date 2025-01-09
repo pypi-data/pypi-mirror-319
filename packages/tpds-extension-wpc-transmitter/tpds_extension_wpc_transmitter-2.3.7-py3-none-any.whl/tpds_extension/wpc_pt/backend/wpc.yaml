@@ -1,0 +1,35 @@
+---
+title: WPC Device Information
+devices:
+  ECC608-TFLXWPC:
+    basePart: ATECC608
+    partLink: https://www.microchip.com/en-us/product/ecc608-tflxwpc
+    provisioningFlow: TrustFLEX
+    partType: Silicon
+    productCategory: Secure Element
+    tpdsRelease: Yes
+    partInterface:
+      - i2c
+    annualVolume: 100000
+    certificates:
+      - standard
+      - WPC
+parts:
+  - partNumber: ECC608-TFLXWPCU
+    deviceName: ECC608-TFLXWPC
+    packagePin: UDFN-8
+    memory: N/A
+    media: Reel
+    moq:
+      lowVolume: 2000
+      highVolume: 30000
+    status: Production
+  - partNumber: ECC608-TFLXWPCS
+    deviceName: ECC608-TFLXWPC
+    packagePin: SOIC-8
+    memory: N/A
+    media: Reel
+    moq:
+      lowVolume: 2000
+      highVolume: 32000
+    status: Production
