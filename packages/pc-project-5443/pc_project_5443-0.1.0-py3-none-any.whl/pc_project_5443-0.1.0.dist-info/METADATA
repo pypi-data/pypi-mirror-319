@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pc_project_5443
+Version: 0.1.0
+Summary: A simple library with one method
+Author: PC
+Author-email: prajnac20@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
