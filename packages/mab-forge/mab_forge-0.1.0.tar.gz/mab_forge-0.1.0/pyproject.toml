@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "mab-forge"
+version = "0.1.0"
+description = "Toolset for generating Multi-Armed Bandit problems according to a user-defined difficulty"
+authors = ["Giovanni Gatti Pinheiro <giovanni.gatti.pinheiro@gmail.com>"]
+maintainers = ["Giovanni Gatti Pinheiro <giovanni.gatti.pinheiro@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/GiovanniGatti/mab-forge"
+Issues = "https://github.com/GiovanniGatti/mab-forge/issues"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scipy = "^1.15.0"
+numpy = "^2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+pytest-cov = "^5.0.0"
+tox = "^4.23.2"
+
+[tool.poetry.group.build.dependencies]
+setuptools = "^75.7.0"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::RuntimeWarning",
+]
