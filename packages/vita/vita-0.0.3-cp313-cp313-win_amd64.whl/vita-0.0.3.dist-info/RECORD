@@ -1,0 +1,10 @@
+vita/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+vita/__init__.py,sha256=l_AzwB4p-lReplEXKVb82SIYsK9SgYaEcOVskYn3jtc,45
+vita/version.py,sha256=4dCrvStS1OgE3Vlcv-qx5-TAo377yOMEToEqCi-PwY4,23
+vita/vita.pyd,sha256=Annkny1VRYtRVLvfBmrAuL6vJfyVCza3nr6HXHg8LW4,2946048
+vita/constants/__init__.py,sha256=mbwbmN-AYxkDsQDbKdo-EJ9Lin6-rfU3FIr5AA9sfCI,32
+vita-0.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+vita-0.0.3.dist-info/METADATA,sha256=oH5FpbGxQjglpp8oq6p6xHxniIoNYHceYpX9OlK_sBM,4484
+vita-0.0.3.dist-info/WHEEL,sha256=6bXTkCllrWLYPW3gCPkeRA91N4604g9hqNhQqZWsUzQ,101
+vita-0.0.3.dist-info/top_level.txt,sha256=ehDYZ7uOpeOrpsUkEnuHkElmKm907XGoYkBZ8jYvmjk,5
+vita-0.0.3.dist-info/RECORD,,
