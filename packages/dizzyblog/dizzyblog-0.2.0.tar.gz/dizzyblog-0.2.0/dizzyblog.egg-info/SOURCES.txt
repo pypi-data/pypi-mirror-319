@@ -1,0 +1,9 @@
+README.md
+setup.py
+dizzyblog/__init__.py
+dizzyblog/main.py
+dizzyblog.egg-info/PKG-INFO
+dizzyblog.egg-info/SOURCES.txt
+dizzyblog.egg-info/dependency_links.txt
+dizzyblog.egg-info/entry_points.txt
+dizzyblog.egg-info/top_level.txt
