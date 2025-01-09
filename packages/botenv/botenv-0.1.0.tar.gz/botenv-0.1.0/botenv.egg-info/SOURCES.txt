@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+botenv/__init__.py
+botenv/loadenv.py
+botenv.egg-info/PKG-INFO
+botenv.egg-info/SOURCES.txt
+botenv.egg-info/dependency_links.txt
+botenv.egg-info/top_level.txt
