@@ -1,0 +1,8 @@
+ase
+numpy
+psycopg2-binary
+pymysql
+cryptography
+
+[dev]
+pytest>=7.0.0
