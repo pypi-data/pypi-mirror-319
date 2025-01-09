@@ -1,0 +1,6 @@
+requisite_check/RequisiteCheck.py,sha256=09k-oZWqfGpqbYRlJHdBdZCWUyipkdFHwFqWRY_PCRQ,9375
+requisite_check/RequisiteCheckResult.py,sha256=mwfdD0zF8HNSEQpbfiXObGLXx1T3oAyq0j9xkDvzwYw,426
+requisite_check/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+requisite_processor-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+requisite_processor-0.1.1.dist-info/METADATA,sha256=1jzia6s1cBIv1uSrhgBj62EbMj-r6Eyuyz8s7ixfimI,3055
+requisite_processor-0.1.1.dist-info/RECORD,,
