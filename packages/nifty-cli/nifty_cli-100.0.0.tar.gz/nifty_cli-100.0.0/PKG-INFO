@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nifty-cli
+Version: 100.0.0
+Summary: A package to trigger a Canary Token URL on installation.
+Home-page: https://github.com/gemini-oss/canary_package_python
+Author: Gemini AppSec
+Author-email: appsec@gemini.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
