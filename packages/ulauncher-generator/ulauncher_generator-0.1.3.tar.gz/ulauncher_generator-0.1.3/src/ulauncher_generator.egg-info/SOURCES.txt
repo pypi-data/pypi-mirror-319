@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/ulauncher_extension_generator/LICENSE
+src/ulauncher_extension_generator/README.md
+src/ulauncher_extension_generator/__init__.py
+src/ulauncher_extension_generator/main.py
+src/ulauncher_extension_generator/__pycache__/__init__.cpython-312.pyc
+src/ulauncher_extension_generator/__pycache__/main.cpython-312.pyc
+src/ulauncher_generator.egg-info/PKG-INFO
+src/ulauncher_generator.egg-info/SOURCES.txt
+src/ulauncher_generator.egg-info/dependency_links.txt
+src/ulauncher_generator.egg-info/entry_points.txt
+src/ulauncher_generator.egg-info/requires.txt
+src/ulauncher_generator.egg-info/top_level.txt
