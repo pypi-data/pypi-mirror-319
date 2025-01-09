@@ -1,0 +1,9 @@
+name: google-maps-directions
+
+steps:
+  - goto: https://maps.google.com
+  - click: on the directions icon in the search bar represented by a blue arrow, not the search icon
+  - verify: there is a form with two input fields, one for the starting point and one for the destination
+  - search: Empire State Building as the starting point
+  - search: Museum of modern art as destination
+  - verify: the route is displayed on the map
