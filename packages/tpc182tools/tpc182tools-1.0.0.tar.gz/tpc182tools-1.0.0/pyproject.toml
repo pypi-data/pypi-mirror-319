@@ -1,0 +1,33 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "tpc182tools"
+version = "1.0.0"
+authors = [
+	{ name = "Alejandro Oranday", email = "alejandro@oran.day" },
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Intended Audience :: Science/Research",
+]
+dynamic = ["description"]
+dependencies = [
+	"h5py",
+	"numpy",
+]
+
+[project.urls]
+Home = "https://github.com/182-activities/tpc182tools"
+
+[external]
+optional-dependencies = [
+	"pkg:github/DUNE-DAQ/daqdataformats",
+	"pkg:github/DUNE-DAQ/hdf5libs",
+	"pkg:github/DUNE-DAQ/rawdatautils",
+]
