@@ -1,0 +1,17 @@
+stockwell/lib_path.py,sha256=87LmcMv3KTt-Yg6EIwG6zMC0c86Yq4BjFdWaIYeSybE,791
+stockwell/sine.py,sha256=izvlyEMnl4DrSaqyCUE379NSff8yTSKLevbE4awBaME,1177
+stockwell/st.py,sha256=Fng_Lprtm1PgBnSjT54SZzSFgHLWD9FEfI96c1-dgpM,5649
+stockwell/_version.py,sha256=RVE09dKkF6_qZ88UjaGZYNcdRqFx5Qa2gSGoAfj212Y,516
+stockwell/__init__.py,sha256=cnmhTSlx-ri9fOn1l644fAsWP-r4tllBVPC-mYEqIXs,689
+stockwell/lib/sine.cp310-win_amd64.pyd,sha256=kV7kbVl1xLQl12qSVuyJTrl6R1dYTU2OCDZVmYBSVJ4,10752
+stockwell/lib/st.cp310-win_amd64.pyd,sha256=PXEfjP30bWrHUMZOYpqAI78c9OJbmD_0F2BeJ_tCENA,16896
+stockwell/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockwell/tests/test_stockwell.py,sha256=uNld7C8XRKKlT_bZ4MtE_I78A9mxr7Bw3N2DCxDz7jI,2603
+stockwell/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockwell-1.2.dist-info/DELVEWHEEL,sha256=hoO2wsROOpkr_yLC9dLhdMCjI5uESTKiCeJEdz9jVq4,444
+stockwell-1.2.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+stockwell-1.2.dist-info/METADATA,sha256=zMQMOIMkWModmW3eSXYxgcURixZQLmaiwy1iXAAp-ZU,6070
+stockwell-1.2.dist-info/RECORD,,
+stockwell-1.2.dist-info/top_level.txt,sha256=3gtl9vn5edrQB9mJMSrf868Bc1ng57oQSw6LZwD6HKU,18
+stockwell-1.2.dist-info/WHEEL,sha256=ZbysKQ-KbiarXzvle8R5OReN2gVclmU0Mb8tCTB42Ak,101
+stockwell.libs/fftw3-c2629e465cdcf5f310a17d53c3a5a833.dll,sha256=vAGxEEJP8xCmbJCFDvgTR4AibuOwxdwGS7866A-ojdY,1386496
