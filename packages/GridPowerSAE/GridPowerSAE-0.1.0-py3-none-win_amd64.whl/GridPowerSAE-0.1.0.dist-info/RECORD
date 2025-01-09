@@ -1,0 +1,10 @@
+GridPowerSAE/__init__.py,sha256=QX5R47KUAPJtkcjynVn7iGf76QxO2zEILAeKCvTkhic,28
+GridPowerSAE/main.py,sha256=bPEjOHUdeJWCZaUDHSyonmHulDpN_OjfbQ5oKTZJMV4,33
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_run_rastr_win.py,sha256=s9P5fdIBRgygRs_77PSUxHANkWzJXdWYnhdwgEjzWis,1107
+GridPowerSAE-0.1.0.dist-info/LICENSE,sha256=MttaL_AgqC__glTePTd_IYb45UhuWaphQiGt87msqZc,4080
+GridPowerSAE-0.1.0.dist-info/METADATA,sha256=i4BTSyiCdU3KcAoZEpvC8mRsu_jazUPnN0z3cyPdCyI,1394
+GridPowerSAE-0.1.0.dist-info/WHEEL,sha256=vt16BHdzHUcHi3ubFuQvA2V9CATRLD87xs_59v-18d4,97
+GridPowerSAE-0.1.0.dist-info/entry_points.txt,sha256=QrumwrFpZFCu3PevwjzwfTbrVcAmpy6JyikCNS6jYkw,73
+GridPowerSAE-0.1.0.dist-info/top_level.txt,sha256=vavkHgrlhwuE_sRRCTEx0PcmMMVLxPgIAUJsn0uBLr8,19
+GridPowerSAE-0.1.0.dist-info/RECORD,,
