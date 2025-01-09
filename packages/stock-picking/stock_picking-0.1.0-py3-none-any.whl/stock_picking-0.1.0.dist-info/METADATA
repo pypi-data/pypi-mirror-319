@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: stock-picking
+Version: 0.1.0
+Summary: A stock-picking system based on Warren Buffett's principles and the Piotroski score.
+Home-page: https://github.com/Ish2K/stock-picking.git
+Author: Ishaan Gupta
+Author-email: ishaan.gupta04@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: yfinance
+
+# Stock Picking System
+Stock-Picking System Based on Warren Buffett's Method

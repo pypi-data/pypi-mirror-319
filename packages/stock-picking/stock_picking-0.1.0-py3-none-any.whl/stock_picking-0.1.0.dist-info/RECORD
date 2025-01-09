@@ -1,0 +1,9 @@
+stock_picking/__init__.py,sha256=KZnjKyCsrM6W9webKbv5MkGNIy55mJsf1FrdVbImANk,282
+stock_picking/fetch_data.py,sha256=HNrMRDonuJFBX358Gm-EuoEJevxJRpW0BLxk_FvADMo,6512
+stock_picking/piotroski_score.py,sha256=QpDJXc72VMxI70u6YasZD9lQj29zJFoptO8IKB67_lk,3780
+stock_picking/top_stocks.py,sha256=3EnFRIUakNGe72VBjFumoypMgMGo7kcaOrlXdcdRzGM,3639
+stock_picking-0.1.0.dist-info/LICENSE,sha256=9ktD1j_0lCBpteec9M46Ziq0Y9CSnx1GUNfM9yUGEvc,1090
+stock_picking-0.1.0.dist-info/METADATA,sha256=AdWaWJn5km8A0dZ71p2atDMgJfEyErWKxEfUBekLgvY,662
+stock_picking-0.1.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+stock_picking-0.1.0.dist-info/top_level.txt,sha256=P4I1gi2_TiWThHxD7hmx5egGRM73AZvwf3ppqrDjYUI,14
+stock_picking-0.1.0.dist-info/RECORD,,
