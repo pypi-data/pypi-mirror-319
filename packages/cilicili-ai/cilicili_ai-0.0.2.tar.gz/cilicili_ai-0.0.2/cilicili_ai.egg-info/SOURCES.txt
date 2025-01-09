@@ -1,0 +1,9 @@
+README.md
+setup.py
+cilicili_ai/__init__.py
+cilicili_ai/decorators.py
+cilicili_ai.egg-info/PKG-INFO
+cilicili_ai.egg-info/SOURCES.txt
+cilicili_ai.egg-info/dependency_links.txt
+cilicili_ai.egg-info/requires.txt
+cilicili_ai.egg-info/top_level.txt
