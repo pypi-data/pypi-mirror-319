@@ -1,0 +1,8 @@
+README.md
+setup.py
+mypackageviraj205/__init__.py
+mypackageviraj205/utils.py
+mypackageviraj205.egg-info/PKG-INFO
+mypackageviraj205.egg-info/SOURCES.txt
+mypackageviraj205.egg-info/dependency_links.txt
+mypackageviraj205.egg-info/top_level.txt
