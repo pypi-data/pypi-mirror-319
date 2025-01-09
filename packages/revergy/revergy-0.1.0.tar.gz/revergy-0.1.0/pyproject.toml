@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "revergy"
+version = "0.1.0"
+description = "Tools for data manipulation, Excel handling and other tasks related to solar parks data acquisition."
+authors = ["Pablo Escalante <pescalante@revergy.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+pdfplumber = "0.11.4"
+openpyxl = "^3.1.5"
+scipy = "1.13.0"
+xlrd = "^2.0.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
