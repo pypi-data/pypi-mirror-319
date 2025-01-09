@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyauthtools
+Version: 0.0.10
+Summary: Some simple tools for authorization in web apps
+Author-email: lidaning <453882101@qq.com>
+Project-URL: Homepage, https://github.com/relidaning/pyauthtools
+Project-URL: Bug Tracker, https://github.com/relidaning/pyauthtools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: License
+
+# PyAuthTools
+
+## Surpported Algorisms
+HS256
+
+RS256
+
+
+## Install
+```python
+pip install pyauthtools
+```
+
+## Usages
+```python
+@app.route('/index', methods=['POST', 'GET'])
+@auth    # Just above the func
+def index():
+  return rend_template('index.html')
+```
