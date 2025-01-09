@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nonebot-adapter-heybox
+Version: 0.1.0
+Summary: Heybox adapter for nonebot2
+Author-email: hzw223 <614867321@qq.com>
+Project-URL: Homepage, https://github.com/lclbm/adapter-heybox
+Project-URL: Issues, https://github.com/lclbm/adapter-heybox/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp>=3.11.11
+Requires-Dist: nonebot2>=2.4.1
+
+# NoneBot-Adapter-Heybox
