@@ -1,0 +1,8 @@
+pandas_audio_methods/__init__.py,sha256=ZXBth0PQFOyPIB08YXmhyG9mITfZN7tROUe89dbpaEo,28
+pandas_audio_methods/core.py,sha256=zw0c9CYEuZmsApUeKAxsT4S2t-9nOV0cOGm1Fu3FTxo,7211
+pandas_audio_methods/dask.py,sha256=ekKRLwSusmKLpE2BG9BzP0X11vGEw-eWH8fnzX8Tv4U,813
+pandas_audio_methods/huggingface.py,sha256=3xrBOxJTTRTRfQROfCsgvoqKbetXwwoku6WHwOCHdhk,638
+pandas_audio_methods-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pandas_audio_methods-0.0.1.dist-info/METADATA,sha256=Hp8sl9wcIxMzwRQG2WhPvpP5vr6wluMytH7eDkIpT1c,4967
+pandas_audio_methods-0.0.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pandas_audio_methods-0.0.1.dist-info/RECORD,,
