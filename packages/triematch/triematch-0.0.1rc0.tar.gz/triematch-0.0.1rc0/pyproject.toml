@@ -1,0 +1,43 @@
+[project]
+name = "triematch"
+version = "0.0.1pre"
+description = "Fast lookup for string patterns using Trie, Radix & Aho-Corasick algorithms"
+authors = [
+    {name = "Jafar Khakpour"}
+]
+requires-python = ">=3.9"
+dependencies = [
+  "sortedcollections"
+]
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["triematch", "trie", "prefix tree", "tree", "radix", "aho-corasick", "prefix-tree"]
+classifiers = [
+    # https://pypi.org/classifiers/
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities"
+]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
+
+lint = [
+    "mypy>=1.14.1",
+    "ruff>=0.8.6",
+]
+
+[tool.setuptools]
+license-files = []

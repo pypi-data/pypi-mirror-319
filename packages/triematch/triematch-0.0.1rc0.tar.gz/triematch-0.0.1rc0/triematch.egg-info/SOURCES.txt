@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+triematch/__init__.py
+triematch/radix.py
+triematch/trie.py
+triematch/utils.py
+triematch.egg-info/PKG-INFO
+triematch.egg-info/SOURCES.txt
+triematch.egg-info/dependency_links.txt
+triematch.egg-info/requires.txt
+triematch.egg-info/top_level.txt
