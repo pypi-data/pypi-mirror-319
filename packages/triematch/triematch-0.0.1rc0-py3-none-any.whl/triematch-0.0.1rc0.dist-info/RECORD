@@ -1,0 +1,8 @@
+triematch/__init__.py,sha256=cRLm57X6GteOkB12HNEEEtv96OXT1-yrcCBsyxGxYTU,128
+triematch/radix.py,sha256=twQjXQs4v7Z7Yi_HfUJ3irD4pHTdNOHveFXTT_MFWl4,11446
+triematch/trie.py,sha256=FxQOxPt7KL1v8Ikur5t9RGP_pJgrvtTX-vOECgUQy_c,22497
+triematch/utils.py,sha256=v7COqCFjKgBQGdpfWdRjkODGmUr7ib2VlSaV9_JNocQ,521
+triematch-0.0.1rc0.dist-info/METADATA,sha256=jc6BSnUH3GpLladgUxt02lx68jH8Q3OgPPgZWNrR4hM,2908
+triematch-0.0.1rc0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+triematch-0.0.1rc0.dist-info/top_level.txt,sha256=6IJDiYtM8GH594J8WaJ2_ZbkFElsUfCW2uh6HmUkTyU,10
+triematch-0.0.1rc0.dist-info/RECORD,,
