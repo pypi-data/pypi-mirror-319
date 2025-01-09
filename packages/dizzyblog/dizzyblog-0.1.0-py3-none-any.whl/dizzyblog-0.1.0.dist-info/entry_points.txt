@@ -1,0 +1,2 @@
+[console_scripts]
+dizzyblog = dizzyblog.main:main
