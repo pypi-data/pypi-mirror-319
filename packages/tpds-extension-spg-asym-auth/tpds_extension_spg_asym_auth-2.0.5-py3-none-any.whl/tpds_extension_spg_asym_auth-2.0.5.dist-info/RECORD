@@ -1,0 +1,20 @@
+tpds_extension/asym_auth/extension.yaml,sha256=1s1QiepqoxQ0J7aEKP_A4EZxa9fLv_iwKPP_c8yEX78,511
+tpds_extension/asym_auth/setup.py,sha256=hDrCbDikGrrleCULwPlBkZSzIKD2cyfZQQN6Qmj2z-c,38
+tpds_extension/asym_auth/version.py,sha256=UjjoWGB0lLH6tEaPEYPrSCkQhIeKByeCw12FmB_T2i8,21
+tpds_extension/asym_auth/TrustFlex/Asymmetric Authentication.ipynb,sha256=r2WSLWGVeZk0_cYohNd05oC4pVRCUqYUBnHh3iTI9eU,7440
+tpds_extension/asym_auth/TrustFlex/cust_def_device.c,sha256=2oKVz98raPi8R-1S_YcBwQfvzH7CvFO_jWfKQULWGAk,133
+tpds_extension/asym_auth/TrustFlex/cust_def_device.h,sha256=GVNxLkzkMVVq08m5qs-A5o3vunAlG23ZAf7NbAtc-O0,213
+tpds_extension/asym_auth/TrustFlex/cust_def_signer.c,sha256=9MIsz69panwPHe0oDNHLbBj6gVKd8EEIG_egLwhxf6s,104
+tpds_extension/asym_auth/TrustFlex/cust_def_signer.h,sha256=puCyxlNzv_lpvPCWsuJlsfp_3FJvgWrIAWGi9GJPGhc,267
+tpds_extension/asym_auth/TrustFlex/firmware.zip,sha256=Z67MuqVao_IZClLT0InKb82snUP9MzHh1ngyJEkhDKY,666728
+tpds_extension/asym_auth/TrustFlex/assets/Asymmetric Authentication.md,sha256=_BQXilM37oaibh7GhwaKkgOx_xziDvBrRE9Md1g1A6Q,1749
+tpds_extension/asym_auth/TrustFlex/assets/images/asymmetric auth.png,sha256=rzrIBm0TRjTJGOiY2O2JOTHVbWISDfzg7Od-7XhvkO8,61554
+tpds_extension/asym_auth/TrustFlex/assets/images/c-snippet.PNG,sha256=wU9_0abvL47aICVDI38MBYuJFsU3tie6NeO0j-lkW-w,40356
+tpds_extension/asym_auth/TrustFlex/assets/images/crypto-assets.png,sha256=B1M0a4hOvTLLTxiTZf_PVP5v9VoMqKidAUv7cgTWQjQ,62561
+tpds_extension/asym_auth/TrustFlex/assets/images/td-Accessory-Asymmetric-Auth.png,sha256=PEp6AEzEoUCE2ZG8t2kYtP32ZAesEiM7a4br044ttFw,525905
+tpds_extension/asym_auth/TrustFlex/assets/images/usecase_steps.png,sha256=iMZc8SNTFwQpWXuykbIGx_s1_neJC2sMgCMNTc5i9tQ,24792
+tpds_extension/asym_auth/TrustFlex/assets/python/asymmetric_authentication.py,sha256=NVlOiLZjj5SwtQI3Wri2HiGSPoSXUB8E9j_gX7WB7vM,10951
+tpds_extension_spg_asym_auth-2.0.5.dist-info/METADATA,sha256=KkZ3pRyeqLFpYdYdnFGM9wRVBpC9uKh8YVQuDyOVRQc,774
+tpds_extension_spg_asym_auth-2.0.5.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+tpds_extension_spg_asym_auth-2.0.5.dist-info/top_level.txt,sha256=CvrSPFJ0i_aZqR-9kHMw-9oKAWXwtI1bWfcG9WS43Is,15
+tpds_extension_spg_asym_auth-2.0.5.dist-info/RECORD,,
