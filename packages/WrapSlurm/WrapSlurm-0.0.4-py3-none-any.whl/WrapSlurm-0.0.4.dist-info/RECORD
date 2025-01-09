@@ -1,0 +1,9 @@
+wrapslurm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wrapslurm/node_info.py,sha256=gZMOW2p9gUq7aoAWBJGOXuMJ1xPvHimWskC8IUAq_u8,4315
+wrapslurm/queue_info.py,sha256=Ff631YnXdF7HOkowsRjZtK4ZHPSVCwNISTmh4bss2io,3995
+WrapSlurm-0.0.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WrapSlurm-0.0.4.dist-info/METADATA,sha256=cDcun42IGhIYBtOWGThz3y1-I0MxwO4x8iw7fvRYMIA,536
+WrapSlurm-0.0.4.dist-info/WHEEL,sha256=PZUExdf71Ui_so67QXpySuHtCi3-J3wvF4ORK6k_S8U,91
+WrapSlurm-0.0.4.dist-info/entry_points.txt,sha256=BPMFsqlYSlGlLaTIhOmcG9ZLht3I4koAmHsfnI1IPgs,86
+WrapSlurm-0.0.4.dist-info/top_level.txt,sha256=MHgTUTtVrjmGlZ2kUvEcetqs2Iy6l4eoL9YbHGkP94Y,10
+WrapSlurm-0.0.4.dist-info/RECORD,,
