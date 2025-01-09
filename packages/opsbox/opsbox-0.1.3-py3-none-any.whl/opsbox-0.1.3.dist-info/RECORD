@@ -1,0 +1,12 @@
+core/base_hooks.py,sha256=gefvVmt55yMo2FQhiGbKUPblmblUifxwCD3ItR2m09Q,1753
+core/cli.py,sha256=NSY5Vi64lxmJfbiY8B9vEA6rLJLIxh7NP6tQcEUUdcw,3060
+core/config.py,sha256=zv1gdL16HDNwOuPcAUZmNr85AqlF6jQb8q6an061NoQ,9756
+core/main.py,sha256=qvKocmk3E5JVp7A_pIuNlqsJaDVk6c69E2otTFMtI-c,1630
+core/plugins.py,sha256=f3j_866RCtoRRJGEELAmhazMYmHIoKEaXrEp7JywGzk,17255
+core/utils.py,sha256=To0cSmLZw5IrBZMTPBgHcLqFM6aZ5esm1JChdQt7qHQ,635
+opsbox-0.1.3.dist-info/LICENCE.txt,sha256=-YEY41LAwXsb0Er-5vJY1cKRFr9ea3T6CigUirNyUZo,17097
+opsbox-0.1.3.dist-info/METADATA,sha256=YlSrgyPQe3SXccN_1vUY7mM6iMOctOwhba6Zb_Q4UJ4,27118
+opsbox-0.1.3.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+opsbox-0.1.3.dist-info/entry_points.txt,sha256=Y4gsonGrg78BYMbamJpc8vHIPKRpsdBE1F5Oc4Ca2_4,42
+opsbox-0.1.3.dist-info/top_level.txt,sha256=0ebp8k35dOTHVwbY3UcokRsjC7cWLN_iaJ70tIcmODU,5
+opsbox-0.1.3.dist-info/RECORD,,
