@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ntucourse
+Version: 0.1.1
+Summary: Simple interface for scraping and querying NTU course information.
+         
+Author-Email: kc0506 <kchong0506@gmail.com>
+License: MIT
+Requires-Python: >=3.12
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: beautifulsoup4>=4.12.3
+Requires-Dist: pydantic>=2.8.2
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: pytest>=8.3.2
+Requires-Dist: rich>=13.8.0
+Requires-Dist: requests>=2.32.3
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: viztracer>=1.0.0
+Requires-Dist: tqdm>=4.67.1
+Requires-Dist: lxml>=5.3.0
+Requires-Dist: typer>=0.15.1
+Description-Content-Type: text/markdown
+
+# ntucourse
