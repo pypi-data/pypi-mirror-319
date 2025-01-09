@@ -1,0 +1,1 @@
+from glj_interface.send_amqp import amqpsender
