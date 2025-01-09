@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+MultiAgentKit/__init__.py
+MultiAgentKit.egg-info/PKG-INFO
+MultiAgentKit.egg-info/SOURCES.txt
+MultiAgentKit.egg-info/dependency_links.txt
+MultiAgentKit.egg-info/requires.txt
+MultiAgentKit.egg-info/top_level.txt
