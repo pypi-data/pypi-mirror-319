@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/autotrain_vision/__init__.py
+src/autotrain_vision/auto_train.py
+src/autotrain_vision/available_cam.py
+src/autotrain_vision/new_data.py
+src/autotrain_vision/roboflow_bb.py
+src/autotrain_vision/utils_aug.py
+src/autotrain_vision.egg-info/PKG-INFO
+src/autotrain_vision.egg-info/SOURCES.txt
+src/autotrain_vision.egg-info/dependency_links.txt
+src/autotrain_vision.egg-info/requires.txt
+src/autotrain_vision.egg-info/top_level.txt
