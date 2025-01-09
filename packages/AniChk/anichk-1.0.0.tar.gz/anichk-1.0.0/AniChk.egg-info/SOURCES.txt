@@ -1,0 +1,9 @@
+LICENSE
+README.md
+anichk.py
+setup.py
+AniChk.egg-info/PKG-INFO
+AniChk.egg-info/SOURCES.txt
+AniChk.egg-info/dependency_links.txt
+AniChk.egg-info/entry_points.txt
+AniChk.egg-info/top_level.txt
