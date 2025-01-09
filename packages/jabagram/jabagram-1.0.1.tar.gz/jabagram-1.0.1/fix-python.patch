@@ -1,0 +1,131 @@
+diff --git a/jabagram/dispatcher.py b/jabagram/dispatcher.py
+index 38918be..0f04bff 100644
+--- a/jabagram/dispatcher.py
++++ b/jabagram/dispatcher.py
+@@ -16,8 +16,7 @@
+ # with this program; if not, write to the Free Software Foundation, Inc.,
+ # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ 
+-import asyncio
+-from asyncio import Queue
++from asyncio import AbstractEventLoop, Queue
+ import logging
+ from typing import Dict
+ 
+@@ -36,8 +35,8 @@ from .model import (
+ class MessageDispatcher():
+     """ A class that dispatches messages/events/etc between chat handlers """
+ 
+-    def __init__(self, database: Database):
+-        self.__loop = asyncio.get_event_loop()
++    def __init__(self, database: Database, loop: AbstractEventLoop):
++        self.__loop = loop
+         self.__chat_map: Dict[str, ChatHandler] = {}
+         self.__event_queue: Queue[Forwardable] = Queue(maxsize=100)
+         self.__database = database
+diff --git a/jabagram/runner.py b/jabagram/runner.py
+index b4933ee..8fe8ccc 100644
+--- a/jabagram/runner.py
++++ b/jabagram/runner.py
+@@ -86,27 +86,31 @@ def main():
+             logger.error("Error when working with the database, interrupt...")
+             return
+ 
+-        loop = asyncio.get_event_loop()
++        loop = asyncio.new_event_loop()
+ 
+         service: ChatService = ChatService(
+             database,
+             config.get("general", "key")
+         )
+-        dispatcher: MessageDispatcher = MessageDispatcher(database)
++        dispatcher: MessageDispatcher = MessageDispatcher(
++            database=database,
++            loop=loop
++        )
+         telegram = TelegramClient(
+-            config.get("telegram", "token"),
+-            config.get("xmpp", "login"),
+-            service,
+-            dispatcher,
+-            messages
++            token=config.get("telegram", "token"),
++            jid=config.get("xmpp", "login"),
++            service=service,
++            dispatcher=dispatcher,
++            messages=messages,
++            loop=loop
+         )
+         xmpp = XmppClient(
+-            config.get("xmpp", "login"),
+-            config.get("xmpp", "password"),
+-            service,
+-            dispatcher,
+-            sticker_cache,
+-            messages
++            jid=config.get("xmpp", "login"),
++            password=config.get("xmpp", "password"),
++            service=service,
++            dispatcher=dispatcher,
++            sticker_cache=sticker_cache,
++            messages=messages
+         )
+         loop.create_task(telegram.start())
+         loop.create_task(xmpp.start())
+diff --git a/jabagram/telegram.py b/jabagram/telegram.py
+index 63f9e6f..ae72e9e 100644
+--- a/jabagram/telegram.py
++++ b/jabagram/telegram.py
+@@ -51,14 +51,15 @@ class TelegramApiError(Exception):
+ 
+ 
+ class TelegramApi():
+-    def __init__(self, token):
+-        self.__token = token
++    def __init__(self, token: str, loop: asyncio.AbstractEventLoop):
++        self.__token: str = token
+         self.__session = aiohttp.ClientSession(
+             # Fix issues with long timeouts between messages
+             # https://github.com/aiogram/aiogram/issues/1500
+-            connector=TCPConnector(ttl_dns_cache=3600)
++            connector=TCPConnector(loop=self.__loop, ttl_dns_cache=3600)
+         )
+         self.__logger = logging.getLogger(__class__.__name__)
++        self.__loop = loop
+ 
+     async def __aenter__(self) -> "TelegramApi":
+         return self
+@@ -337,9 +338,10 @@ class TelegramClient(ChatHandlerFactory):
+         jid: str,
+         service: ChatService,
+         dispatcher: MessageDispatcher,
+-        messages: Messages
++        messages: Messages,
++        loop: asyncio.AbstractEventLoop
+     ) -> None:
+-        self.__api: TelegramApi = TelegramApi(token)
++        self.__api: TelegramApi = TelegramApi(token, loop)
+         self.__token: str = token
+         self.__jid: str = jid
+         self.__logger = logging.getLogger(__class__.__name__)
+diff --git a/jabagram/xmpp.py b/jabagram/xmpp.py
+index f4910c3..1d95800 100644
+--- a/jabagram/xmpp.py
++++ b/jabagram/xmpp.py
+@@ -64,14 +64,14 @@ class XmppClient(ClientXMPP, ChatHandlerFactory):
+         jid: str,
+         password: str,
+         service: ChatService,
+-        disptacher: MessageDispatcher,
++        dispatcher: MessageDispatcher,
+         sticker_cache: StickerCache,
+         messages: Messages
+     ) -> None:
+         ClientXMPP.__init__(self, jid, password)
+         self.__service = service
+         self.__logger = logging.getLogger(self.__class__.__name__)
+-        self.__dispatcher = disptacher
++        self.__dispatcher = dispatcher,
+         self.__sticker_cache = sticker_cache
+         self.__mucs = []
+ 
