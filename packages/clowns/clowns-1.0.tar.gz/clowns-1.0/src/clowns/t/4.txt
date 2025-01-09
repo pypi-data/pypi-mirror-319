@@ -1,0 +1,26 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.stats import norm
+
+df = pd.read_excel('10.xlsx')
+df = df['Data']
+df.head()
+
+df = df.dropna(axis=0)
+print('Объем очищенной от "NA" выборки:', df.shape)
+
+print('Введите объем исходной выборки: ', df.shape[0])
+
+unique_answers = df.nunique()
+print('Количество различных вариантов ответов:', unique_answers)
+
+confidence_level = 0.91
+
+z = norm.ppf(0.5 + confidence_level / 2)
+se = np.sqrt(tx_share * (1 - tx_share) / df.shape[0])
+left = tx_share - z * se
+right = tx_share + z * se
+
+print('Левая граница 0.91-доверительного интервала:', round(left, 9))
+print('Правая граница 0.91-доверительного интервала:', round(right, 9))
