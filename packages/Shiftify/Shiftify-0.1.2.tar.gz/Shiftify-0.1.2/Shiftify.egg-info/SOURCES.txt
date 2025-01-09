@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Shiftify.egg-info/PKG-INFO
+Shiftify.egg-info/SOURCES.txt
+Shiftify.egg-info/dependency_links.txt
+Shiftify.egg-info/entry_points.txt
+Shiftify.egg-info/top_level.txt
+shiftify/__init__.py
+shiftify/core.py
