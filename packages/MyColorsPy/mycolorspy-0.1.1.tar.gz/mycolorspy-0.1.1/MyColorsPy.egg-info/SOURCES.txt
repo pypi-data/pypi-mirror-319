@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+MyColorsPy/MyColorsPy.py
+MyColorsPy/__init__.py
+MyColorsPy.egg-info/PKG-INFO
+MyColorsPy.egg-info/SOURCES.txt
+MyColorsPy.egg-info/dependency_links.txt
+MyColorsPy.egg-info/top_level.txt
