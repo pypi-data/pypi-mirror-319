@@ -1,0 +1,4 @@
+[console_scripts]
+ahk-cursor = ahk_cursor.launcher:launcher
+ahk-cursor-launcher = ahk_cursor.main:main
+ahk-cursor-stop = ahk_cursor.stop:stop

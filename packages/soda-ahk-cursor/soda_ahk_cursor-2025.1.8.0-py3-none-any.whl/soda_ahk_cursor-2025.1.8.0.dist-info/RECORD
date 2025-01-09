@@ -1,0 +1,16 @@
+ahk_cursor/Cursor.template.ahk,sha256=87QkO0vKbNDt0t508KzSoEwr9fHEJ596i74VFDDbH1I,351
+ahk_cursor/__main__.py,sha256=mB-QJiqsotRTNnAnTAWt4cygK-vy_bT2Ti8rd-__gp0,44
+ahk_cursor/autostart.py,sha256=vLrvW8fBVk2vSlzrqbZ9IdGGVzgqVbSvvLPrTHINlcw,616
+ahk_cursor/gen.py,sha256=JyOPs_Hb9MfvB__zvqt1FiuNrDPEt170yULWQyFIEWY,413
+ahk_cursor/launcher.py,sha256=bqMA84531EvBPa-zOU6jfRmKZXDJwy-mZAkbku1vz1Y,273
+ahk_cursor/main.py,sha256=hMFSb29reClduvQh1uWa019tNzghDKONsNNVFfxBkbE,3051
+ahk_cursor/mouse.ico,sha256=POhC3VIVSGrWfdKzOi-hOJrvtm0xbje9qr9cY4XvJUQ,165662
+ahk_cursor/move_cursor.py,sha256=Rs3pA9gHMJBtTs7iSFusiwJZwvZI9uIIlz3a5Kt8k6c,1548
+ahk_cursor/run_once.py,sha256=yQBdqPPW8qbcVeYamwdOq53jl4OyOhhZDIxjiLxrFJk,158
+ahk_cursor/stop.py,sha256=IfjW5-Z5IPrQLFLVRTuLMSaDbfQor_S59e8CFiQIWtg,263
+soda_ahk_cursor-2025.1.8.0.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+soda_ahk_cursor-2025.1.8.0.dist-info/METADATA,sha256=upYJIYfCLWNO37SXHBNxjDtdF0AzlHdLgtIYOcm81H4,383
+soda_ahk_cursor-2025.1.8.0.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+soda_ahk_cursor-2025.1.8.0.dist-info/entry_points.txt,sha256=tbVrM79Wh8_dlAw3O5wZZ-JbQ3ngMiLWFmcNwIwWXQ4,142
+soda_ahk_cursor-2025.1.8.0.dist-info/top_level.txt,sha256=pwYXepqabuKpqpNNrM4zvj3A7SsKnx4CcPI_FsCdbzk,11
+soda_ahk_cursor-2025.1.8.0.dist-info/RECORD,,
