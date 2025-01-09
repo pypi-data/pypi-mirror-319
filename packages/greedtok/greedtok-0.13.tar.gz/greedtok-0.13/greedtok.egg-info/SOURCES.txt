@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+greedtok.egg-info/PKG-INFO
+greedtok.egg-info/SOURCES.txt
+greedtok.egg-info/dependency_links.txt
+greedtok.egg-info/top_level.txt
+pcatt/greedy_builder.cpp
