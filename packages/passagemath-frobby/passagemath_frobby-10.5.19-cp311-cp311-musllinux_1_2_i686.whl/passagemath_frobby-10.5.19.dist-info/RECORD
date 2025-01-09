@@ -1,0 +1,9 @@
+passagemath_frobby-10.5.19.dist-info/METADATA,sha256=XdhRLQS7frmjBcfotrorEFuIhYWbpFmVwYCL21MHG0Y,2904
+passagemath_frobby-10.5.19.dist-info/RECORD,,
+passagemath_frobby-10.5.19.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_frobby-10.5.19.dist-info/WHEEL,sha256=LQ8CCIpMtW0MRPEbzIGJ-SeueENwwdNKy349Ku6bn44,110
+sage/all__sagemath_frobby.py,sha256=ZZLIxeb2nBT4yQeA2DJP-RAv4cu-U6uMgxlMwzt1H2c,172
+sage/interfaces/all__sagemath_frobby.py,sha256=8Gs1smRLFdGXCb2uKk6xy0wkdR8twjy7TlbvxQXV1gc,45
+sage/interfaces/frobby.py,sha256=NAXJL2ybODNM3V1EyjMW_C2KKjt0b9wRVrWLWO5ePnI,16693
+sage/libs/all__sagemath_frobby.py,sha256=8Gs1smRLFdGXCb2uKk6xy0wkdR8twjy7TlbvxQXV1gc,45
+sage/libs/frobby.cpython-311-i386-linux-musl.so,sha256=PWrVO_LXJIVR5KdFukqIIaVhi0nS6Nvz8cyaZCvUEUw,58856
