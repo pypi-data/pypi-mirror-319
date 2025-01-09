@@ -1,0 +1,26 @@
+[project]
+name = "pydantic-flatten-rootmodel"
+version = "0.1.2"
+description = "Library to transform a Pydantic RootModel into a flattened BaseModel"
+authors = [
+  { name="Joscha Feth", email="joscha@planet-a.com" },
+]
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    # We support the `Discriminator` class released on 2023-11-13
+    "pydantic>=2.5.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest-cov>=6.0.0",
+    "pytest-watcher>=0.4.3",
+    "pytest>=8.3.4",
+    "syrupy>=4.8.0",
+]
