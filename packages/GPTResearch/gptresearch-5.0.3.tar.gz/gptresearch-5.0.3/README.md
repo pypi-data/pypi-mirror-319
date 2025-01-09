@@ -1,0 +1,82 @@
+# AI Research Assistant
+
+An automated research tool that uses web scraping, AI, and natural language processing to gather, analyze, and synthesize information on specified topics.
+
+## Features
+
+- Automated web searching and content extraction
+- AI-powered content analysis and summarization
+- Duplicate content detection and removal
+- Progress tracking and research history
+- Customizable research parameters
+- Structured output in various formats
+- File-based research organization
+
+## Requirements
+
+- Python 3.x
+- OpenAI API key
+- Internet connection
+
+## Dependencies
+
+```
+openai
+googlesearch-python
+requests
+beautifulsoup4
+datetime
+```
+
+## Installation
+
+1. Clone the repository
+2. Install required packages:
+```bash
+pip install openai googlesearch-python requests beautifulsoup4
+```
+3. Set up your API key
+
+## Usage
+
+```python
+researchBot = ResearchSession()
+researchBot.apiKey = 'your-api-key'
+researchBot.topic = 'Your Research Topic'
+researchBot.numSources = 3  # Number of desired sources
+researchBot.outputFormat = 'formal essay'  # Or other format
+researchBot.startResearch()
+```
+
+## File Structure
+
+The program creates a research folder with timestamped subfolders containing:
+- `links.txt`: List of discovered URLs
+- `history.txt`: Research session history
+- `extracted_data.txt`: Processed content from sources
+- `final_research.txt`: Final compiled research output
+
+## Key Methods
+
+- `webSearch()`: Performs Google searches
+- `readWebpage()`: Extracts content from URLs
+- `getAIResponse()`: Interfaces with AI for analysis
+- `cleanLinksFileForDuplicates()`: Removes duplicate sources
+- `cleanExtractedDataFileForDuplicateData()`: Removes redundant content
+- `finalize()`: Generates final research document
+
+## Research Process
+
+1. Conducts web searches for relevant sources
+2. Extracts and processes content from sources
+3. AI analyzes and summarizes information
+4. Removes duplicates and organizes data
+5. Continues until research criteria are met
+6. Generates final formatted document
+
+## Notes
+
+- Requires valid API key for AI services
+- Research quality depends on source availability
+- Internet connectivity required throughout process
+- Output format can be customized
