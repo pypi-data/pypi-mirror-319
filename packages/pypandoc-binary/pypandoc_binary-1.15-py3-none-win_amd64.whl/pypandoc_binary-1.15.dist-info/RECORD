@@ -1,0 +1,11 @@
+pypandoc/__init__.py,sha256=kZ7028vNrNy4XaTn8GTdnqjisobSoIvSaUXt9nbFAV0,34323
+pypandoc/handler.py,sha256=gT1o5OWyOOnKbkB3Q-7dvX7y33LeXL5yxOVc1r_5BJM,528
+pypandoc/pandoc_download.py,sha256=nbNvrfH9mXkXCgeQ4zTjVpCV2jxASYNMmYepvKhJT3g,9788
+pypandoc/py3compat.py,sha256=zIx5WbYyWXeOAWcqOjJhvrvUoR-aF_mFz16eh-enNno,1993
+pypandoc/files/COPYRIGHT.txt,sha256=srYHzhW5mLGgq5yvdO2oM7OFlwSAnCnXrX1hXUfxdww,8489
+pypandoc/files/pandoc.exe,sha256=LKGlIOf5E4CFyYaTafZOZ0abSHRD9gOpYG6xs1RNBOo,221245952
+pypandoc_binary-1.15.dist-info/LICENSE,sha256=h6D1ssCGF5jV_CP_Q9UDbAebN5iixnaKAFP-FuOV2Dk,2966
+pypandoc_binary-1.15.dist-info/METADATA,sha256=6ITkgvQIghfJDzWf2h7CMfEhgoIbY1VPO7Q153_X980,16885
+pypandoc_binary-1.15.dist-info/WHEEL,sha256=6iYPr8vTHsyDK75jr9X0V3I9wPSVmtwr_8fdATBciGk,98
+pypandoc_binary-1.15.dist-info/top_level.txt,sha256=fgAWTRPloxYRmyv_c2XYiwL4owKOd7txt1yr6YbcINU,9
+pypandoc_binary-1.15.dist-info/RECORD,,
