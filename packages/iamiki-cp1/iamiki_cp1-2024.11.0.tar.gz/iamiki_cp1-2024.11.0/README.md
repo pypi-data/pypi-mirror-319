@@ -1,0 +1,63 @@
+# cp1
+
+![cp1 Logo](assets/logo.png)  <!-- Mean Surface Air Temperature -->
+M-Profiles for marine surface evaporation ducts
+
+## Features
+
+- Core functionalities for duct identification using MetOc input data
+- Optional support for GRIB files
+- Optional support for interactive plotting / maps
+
+## Installation
+
+You can install the `cp1` package using `pip`. The package supports optional dependencies for handling GRIB files and creating interactive plots.
+
+To install the core functionalities of the package, run:
+```bash
+$ pip install iamiki_cp1
+```
+
+To install the package with support for GRIB files, run:
+```bash
+$ pip install iamiki_cp1[grib]
+```
+
+To install the package with support for interactive plotting, run:
+```bash
+$ pip install iamiki_cp1[interactive]
+```
+
+To install the package with support for both GRIB files and interactive plotting, run:
+```bash
+$ pip install iamiki_cp1[grib,interactive]
+```
+
+## Usage
+
+- cp1 
+- cp1am - evaporation duct marine atmosphere
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`cp1` was created by IAMiki. It is licensed under the terms of the BSD 3-Clause license.
+
+## Credits
+
+`cp1` relies on Monin-Obukhov similarity theory [`en.wikipedia`](https://en.wikipedia.org/wiki/Monin%E2%80%93Obukhov_similarity_theory) [`fr.wikipedia`](https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_la_similitude_de_Monin-Obukhov)  
+`cp1` relies on LMO resolution algorithms proposed by Centre de recherche des écoles de
+Coëtquidan [`(CREC)`](https://www.terre.defense.gouv.fr/crec)  
+`cp1` bibliography includes  
+* Jacques Claverie, Yvonick Hurtaud. Apport des modèles numériques de prévision météorologique à la
+prédiction de performances radar. ENVIREM 2015, ONERA et Centrale-Supélec, Jun 2015, Gif sur
+Yvette, France. [`ffhal-01169425`](https://hal.science/hal-01169425/document)  
+* Recommendation ITU-R P.453 which provides a method to estimate the radio refractive index 
+[`Recommendation ITU-R P.453`](https://itu-rpy.readthedocs.io/en/latest/apidoc/itu453.html)  
+* Lucien Boithias. Propagation des ondes radioélectriques dans l'environnement terrestre, DUNOD 1983.
+[`ISSN 0221-2579`](https://books.google.fr/books/about/Propagation_des_ondes_radio%C3%A9lectriques.html?id=EH3uzwEACAAJ&redir_esc=y)  
+
+`cp1` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).  

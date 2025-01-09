@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+
+[grib]
+cfgrib
+eccodes
+
+[interactive]
+plotly
+IPython

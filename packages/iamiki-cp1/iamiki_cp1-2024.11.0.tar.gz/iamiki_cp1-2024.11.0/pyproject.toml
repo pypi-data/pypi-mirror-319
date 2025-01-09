@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iamiki_cp1"
+version = "2024.11.0"
+description = "M-Profiles for marine evaporation ducts."
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+authors = [
+    {name = "IAMiki", email = "miki4ia@gmail.com"},
+]
+keywords = ["meteo", "marine", "duct", "evaporation", "lmo", "Monin-Obukhov"]
+classifiers = [
+    "Programming Language :: Python :: 3", # Programming Language :: Python :: 3 :: Only
+    "Operating System :: OS Independent",
+    "Natural Language :: English", # "Natural Language :: French",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Intended Audience :: Science/Research",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib"
+]
+
+[project.optional-dependencies]
+grib = ["cfgrib", "eccodes"]
+interactive = ["plotly", "IPython"]
+
+[tool.setuptools]
+# ...
+package-dir = {"" = "src"}
+#[tool.setuptools.packages.find]
+#where = ["src"]
+
+[tool.pytest.ini_options]
+minversion = "6.0#"
+addopts = "--cov=<project-name> --cov-report html" #addopts = "--strict-markers"
+testpaths = [
+    "tests",
+]
+
+[project.urls]
+#Homepage = "https://github.com/"
+#Issues = "https://github.com/"
