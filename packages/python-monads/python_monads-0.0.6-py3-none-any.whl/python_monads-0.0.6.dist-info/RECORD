@@ -1,0 +1,11 @@
+python_monads/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_monads/either.py,sha256=BDUQtccBYzcjMxB9nRmi2oauhIvRCrfL-0ooIty5xR8,2679
+python_monads/maybe.py,sha256=buYziQwKUcCxljC0mZgdxsP00oK14cor_ns6_k6H-FU,1337
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_either.py,sha256=NxfVZYI54a4JXoSFBQc08uUqM94cD9U5jKIsZnSEm9Y,5149
+tests/test_maybe.py,sha256=uSWJtfXe52xwsJpZeQ0dj7x7bYibDNteJXcFYqn3i-U,2193
+python_monads-0.0.6.dist-info/LICENSE,sha256=jugtOAvAB2gBm28n9slnWWhKiU8HAZFZQIJ-UPrpPys,1080
+python_monads-0.0.6.dist-info/METADATA,sha256=-zcJsmVOgMKBI3UGy6EytpLZVYlhw9c_ZPKRiwKpXNM,3433
+python_monads-0.0.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+python_monads-0.0.6.dist-info/top_level.txt,sha256=1dgwquVTFCvPg2Ivu9fcKI55vLYw8E2oA1DJLKtJT0U,20
+python_monads-0.0.6.dist-info/RECORD,,
