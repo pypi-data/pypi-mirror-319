@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: jenkins-job-tests-delete
+Version: 0.1.2
+Summary: Test cases for Context-Aware Jenkins Job Transfers
+Author-email: Joel Thomas Chacko <joelkariyalil@gmail.com>
+License: 
+        do whatever with it as you want!
+Project-URL: Homepage, https://github.com/joelkariyalil/Jenkins-Transfers
+Keywords: testing,pytest,jenkins,context-aware,job-transfers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest>=7.0
+
+the guniea pig for the Context-Aware-Jnekins-Job-Transfers
