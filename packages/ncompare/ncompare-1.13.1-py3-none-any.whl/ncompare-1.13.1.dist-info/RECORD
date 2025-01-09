@@ -1,0 +1,14 @@
+ncompare/Comparison.py,sha256=lwvVlbk0xeMhDSNLfzVb2CsNtPU14_cz7yzTTOfsL9M,18673
+ncompare/__init__.py,sha256=z-ckV4uk_y9X-ZNxcMddiMhD--dXzdP5rM5aG9yHtx0,1653
+ncompare/console.py,sha256=sD7LuxJ42qV3qBFdHhhMc1Bna3Inx78qHnPbUArfwe0,4196
+ncompare/core.py,sha256=huBu5Nwfz7Oc25ANmShb6bKjR_BgE2cRsbApcvT7a5U,5269
+ncompare/getters.py,sha256=MUuwGq-TSr3VAxV7I3MJXwQKYKewueRxdvsPJc--O-c,4401
+ncompare/path_and_string_operations.py,sha256=1GVgJs0r2ipYqiVH0rSyecCI1fDfCPNBq-NtzEcosjs,3136
+ncompare/printing.py,sha256=15uMQi1KctgmWNT3wxaWqKg4JMNgalCHxQnNo09x3fk,15552
+ncompare/sequence_operations.py,sha256=8hkSKSOJnTVQRN1cF5etaAt5YsDWKpLWnkV6KTDZPkY,3544
+ncompare/utility_types.py,sha256=mDrm8OM__yytbSiQIiBLYZfMY3fpK0Ve-uTUZoVDN4Q,1214
+ncompare-1.13.1.dist-info/METADATA,sha256=XkhtZB1HDXfidQfz7eAAlnjqtt-aGc5hhO8qgqCtekc,9752
+ncompare-1.13.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ncompare-1.13.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ncompare-1.13.1.dist-info/entry_points.txt,sha256=lwFjYSg-KCrsBLHUkA7WPu-gJsid_5nJ6_f14Dq6QMk,50
+ncompare-1.13.1.dist-info/RECORD,,
