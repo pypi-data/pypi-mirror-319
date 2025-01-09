@@ -1,0 +1,10 @@
+torch
+yolov5
+rich
+sixel
+easyocr
+transformers
+face-recognition
+rich-argparse
+pypandoc
+pdfplumber
