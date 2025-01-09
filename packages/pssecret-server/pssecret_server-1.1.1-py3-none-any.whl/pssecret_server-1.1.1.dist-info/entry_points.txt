@@ -1,0 +1,3 @@
+[console_scripts]
+pssecret-server=pssecret_server.cli:cli
+
