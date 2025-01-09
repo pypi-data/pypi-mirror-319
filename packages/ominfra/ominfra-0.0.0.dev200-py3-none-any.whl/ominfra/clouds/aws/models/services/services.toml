@@ -1,0 +1,16 @@
+[services.ec2]
+operations = [
+  'DescribeInstances',
+  'RebootInstances',
+  'RunInstances',
+  'StartInstances',
+  'StopInstances',
+  'TerminateInstances',
+]
+
+[services.s3]
+operations = [
+  'DeleteObject',
+  'GetObject',
+  'PutObject',
+]
