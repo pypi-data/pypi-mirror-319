@@ -1,0 +1,8 @@
+dockerclean/__init__.py,sha256=E_HcAKIen4F9esKZwdXEkRO2B9ZiXwYk7T3Hj5A2QyU,106
+dockerclean/cleaner.py,sha256=NtUfzpRTo6Tbf_Sa_yH5D5J3dJnxaxcPg1wEBXRSxtE,1091
+dockerclean/cli.py,sha256=cjlogMJyS8EbBVpTtq_5CQT3YAfYxJkh9LTCUfjdQWo,650
+docker_cleanup-1.0.0.dist-info/METADATA,sha256=TS-5mIPlYnYkrcnVp7HNZkEG61cjWkC8hDtlqXAsdfM,3820
+docker_cleanup-1.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+docker_cleanup-1.0.0.dist-info/entry_points.txt,sha256=vZF_0bI0jtY5vCvYyifvHWXXX6ZLoJDMFT3W4d0L6i4,56
+docker_cleanup-1.0.0.dist-info/licenses/LICENSE,sha256=YDqLLUKAtKFTiV3LpuBooijV15R64SiFdEe3M93_66M,1069
+docker_cleanup-1.0.0.dist-info/RECORD,,
