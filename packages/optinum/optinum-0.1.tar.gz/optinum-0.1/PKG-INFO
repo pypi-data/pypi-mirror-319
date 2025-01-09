@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: optinum
+Version: 0.1
+Summary: A Library For Numerical Methods Computation
+Home-page: https://github.com/galkin-v/optinum
+Author: Galkin Vladimir
+Author-email: galkin.vova1@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# optinum
+A Library for Numerical Methods Computation

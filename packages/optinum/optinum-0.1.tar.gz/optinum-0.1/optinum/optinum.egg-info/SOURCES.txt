@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+optinum/optinum.egg-info/PKG-INFO
+optinum/optinum.egg-info/SOURCES.txt
+optinum/optinum.egg-info/dependency_links.txt
+optinum/optinum.egg-info/requires.txt
+optinum/optinum.egg-info/top_level.txt
