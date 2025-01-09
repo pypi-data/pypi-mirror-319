@@ -1,0 +1,9 @@
+harlequin_adbc/__init__.py,sha256=xgY5hq-ywUbT-iwjEsrkkknLuAGfZLqTkp2UJ8y0ZjU,92
+harlequin_adbc/adapter.py,sha256=Ozs28nwrjcPCzB8pv2qxWBJ1kx2JPJIuy4lD8FZjZDc,8966
+harlequin_adbc/cli_options.py,sha256=ZQIbdXutVJRLu-CeEkicq_i-NG2UzxCvw32tUB9o50I,924
+harlequin_adbc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+harlequin_adbc-0.1.2.dist-info/LICENSE,sha256=kQngKEsP0AYk0IzZIlEju67brThsE16qpeHvnIJMFKA,1070
+harlequin_adbc-0.1.2.dist-info/METADATA,sha256=29YM6o94AMxE7ailP300uoyjEjRjXnefZ3trhxa_hOU,6538
+harlequin_adbc-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+harlequin_adbc-0.1.2.dist-info/entry_points.txt,sha256=rnFbgDQE-Kz4PQWEu9KDOOO3J1PnfZJUUYZPPctk9w4,62
+harlequin_adbc-0.1.2.dist-info/RECORD,,
