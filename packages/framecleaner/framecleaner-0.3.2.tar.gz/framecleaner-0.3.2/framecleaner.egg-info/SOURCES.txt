@@ -1,0 +1,7 @@
+License.txt
+README.md
+setup.py
+framecleaner.egg-info/PKG-INFO
+framecleaner.egg-info/SOURCES.txt
+framecleaner.egg-info/dependency_links.txt
+framecleaner.egg-info/top_level.txt
