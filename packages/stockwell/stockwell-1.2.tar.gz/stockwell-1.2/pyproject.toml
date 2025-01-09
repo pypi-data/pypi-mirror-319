@@ -1,0 +1,30 @@
+[build-system]
+requires = [
+  'wheel',
+  'setuptools',
+  'numpy>=1.18'
+]
+
+[tool.cibuildwheel]
+build = ['cp39-*', 'cp310-*', 'cp311-*', 'cp312-*', 'cp313-*']
+skip = '*-win32'
+test-requires = 'pytest'
+test-command = 'pytest --pyargs stockwell'
+
+[tool.cibuildwheel.linux]
+before-build = './scripts/get_fftw3.sh'
+repair-wheel-command = 'LD_LIBRARY_PATH=/project/external/fftw3/lib auditwheel repair -w {dest_dir} {wheel}'
+
+[[tool.cibuildwheel.overrides]]
+select = "*-musllinux*"
+before-all = "apk add fftw-dev"
+
+[tool.cibuildwheel.macos]
+before-build = './scripts/get_fftw3.sh'
+
+[tool.cibuildwheel.windows]
+before-all = '%CONDA%\Scripts\conda.exe install fftw'
+before-build = 'pip install delvewheel'
+repair-wheel-command = 'delvewheel repair --add-path %CONDA%\Library\bin -w {dest_dir} {wheel}'
+test-requires = 'pytest'
+test-command = '{package}\scripts\test_stockwell.bat'
