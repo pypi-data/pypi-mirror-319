@@ -1,0 +1,12 @@
+dist/
+.vscode/
+src/rdfrules*
+jdk
+sample/
+venv/
+.DS_Store
+__pycache__
+wip/
+.env
+workspace
+src/pyrdfrules/engine/rdfrules/
