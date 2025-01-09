@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+magentic_one_cli/__init__.py
+magentic_one_cli/main.py
+magentic_one_cli.egg-info/PKG-INFO
+magentic_one_cli.egg-info/SOURCES.txt
+magentic_one_cli.egg-info/dependency_links.txt
+magentic_one_cli.egg-info/entry_points.txt
+magentic_one_cli.egg-info/top_level.txt
+tests/test_main.py
