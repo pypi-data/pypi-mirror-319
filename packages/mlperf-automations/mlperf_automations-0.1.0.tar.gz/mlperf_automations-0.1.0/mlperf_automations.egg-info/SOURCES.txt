@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+mlc/main.py
+mlperf_automations.egg-info/PKG-INFO
+mlperf_automations.egg-info/SOURCES.txt
+mlperf_automations.egg-info/dependency_links.txt
+mlperf_automations.egg-info/requires.txt
+mlperf_automations.egg-info/top_level.txt
