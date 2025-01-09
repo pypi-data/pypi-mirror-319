@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pycorner
+Version: 0.0.0
+Summary: A collection of tools for academic research in gravitational-wave astronomy & astrophysics
+Home-page: https://github.com/gwnrtools/bayes-corner
+Author: Prayush Kumar
+Author-email: prayush.kumar@gmail.com
+License: GPL
+License-File: LICENSE
+
+# PyCorner  
+
+Library for creating publication quality corner plots visualizing multidimensional probability distributions.
+
