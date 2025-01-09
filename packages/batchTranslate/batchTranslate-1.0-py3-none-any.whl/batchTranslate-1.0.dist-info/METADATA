@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: batchTranslate
+Version: 1.0
+Summary: The library that lets you translate things a bunch of times
+Author: bestCoder1877
+Requires: deep_translator
+Requires: random
