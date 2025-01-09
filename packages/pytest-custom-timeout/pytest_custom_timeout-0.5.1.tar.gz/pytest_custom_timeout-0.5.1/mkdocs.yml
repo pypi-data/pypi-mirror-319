@@ -1,0 +1,10 @@
+site_name: pytest-custom-timeout
+site_description: Use custom logic when a test times out. Based on pytest-timeout.
+site_author: Adam Nogowski
+
+theme: readthedocs
+
+repo_url: https://github.com/anogowski/pytest-custom-timeout
+
+pages:
+- Home: index.md

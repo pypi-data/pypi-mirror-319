@@ -1,0 +1,16 @@
+build==1.2.2.post1
+colorama==0.4.6
+iniconfig==2.0.0
+Jinja2==3.1.5
+MarkupSafe==3.0.2
+packaging==24.2
+pexpect==4.9.0
+pluggy==1.5.0
+ptyprocess==0.7.0
+pyproject_hooks==1.2.0
+pytest==8.3.4
+-e git+https://github.com/anogowski/pytest-custom-timeout.git@374c6d3cd746598f316e091d4e739b26b2d5840f#egg=pytest_custom_timeout
+pytest-html==4.1.1
+pytest-metadata==3.1.1
+python-dateutil==2.9.0.post0
+six==1.17.0
