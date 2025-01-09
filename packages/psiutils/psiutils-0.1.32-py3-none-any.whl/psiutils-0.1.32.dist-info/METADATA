@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: psiutils
+Version: 0.1.32
+Summary: 
+Author: Jeff
+Author-email: jeffwatkins2000@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Description-Content-Type: text/markdown
+
+# psiutils
+
+Utility classes and methods.
+
+## Installation
+
+```bash
+pip install psiutils
+```
+
