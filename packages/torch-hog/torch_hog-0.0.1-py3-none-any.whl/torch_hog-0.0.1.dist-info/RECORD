@@ -1,0 +1,7 @@
+torch_hog/__init__.py,sha256=LUWRx_bektCN9Lw_9Tc2RgqSzNN6t-4aaJPBwb3iP9E,147
+torch_hog/functional.py,sha256=SKwk6SC5dUD4nJhGDzlt-l5awLyHWTjH5V9MxQji1ts,5165
+torch_hog/hog.py,sha256=MNeg2aoXtWMgn8vTAk_WNucvilxoakOuNW1U3l0738Y,499
+torch_hog-0.0.1.dist-info/METADATA,sha256=gjF8uYYl2ogQYyPyZog3xH1ZJG94WUdHiRUexYQ5acw,2983
+torch_hog-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+torch_hog-0.0.1.dist-info/licenses/LICENSE,sha256=J8m8-5cqe4TM8895Ko4lHA9UPJAqD81Vlx_SgvqHREg,1063
+torch_hog-0.0.1.dist-info/RECORD,,
