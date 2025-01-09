@@ -1,0 +1,6 @@
+[project]
+name = "airweave"
+authors = [{name = "Lennert Jansen", email = "lennert@neena.io"}]
+version = "0.0.0"
+description = "Coming soon"
+
