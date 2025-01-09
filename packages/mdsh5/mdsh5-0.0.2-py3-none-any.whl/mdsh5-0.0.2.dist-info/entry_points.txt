@@ -1,0 +1,2 @@
+[console_scripts]
+read_mds = mdsh5:read_mds_cli
