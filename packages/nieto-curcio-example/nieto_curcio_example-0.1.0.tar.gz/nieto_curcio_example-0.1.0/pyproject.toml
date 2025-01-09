@@ -1,0 +1,19 @@
+[project]
+name = "nieto-curcio-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dsm-ll", email = "diogo@liquidloans.io" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+nieto_curcio_example = "nieto_curcio_example.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
