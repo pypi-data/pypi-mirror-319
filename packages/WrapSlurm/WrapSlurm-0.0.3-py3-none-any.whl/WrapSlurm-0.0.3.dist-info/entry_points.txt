@@ -1,0 +1,3 @@
+[console_scripts]
+winfo = wrapslurm.node_info:main
+wqueue = wrapslurm.queue_info:main
