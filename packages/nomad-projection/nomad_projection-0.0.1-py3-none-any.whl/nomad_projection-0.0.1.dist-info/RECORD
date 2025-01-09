@@ -1,0 +1,13 @@
+nomad_projection/__init__.py,sha256=PnfKp5gk67tbxeuo0BCLp9xrF8bfyzKMX-YI9cyqpjc,39
+nomad_projection/neighbors.py,sha256=YD-XjJcY2VRUPSR7T1fPeJWErLxEl9fCsgDyZ5fq3ZY,6795
+nomad_projection/projection.py,sha256=s6eGE0e88WlptyzePFyywCttyBLfS1BPrh20rVOypXs,12671
+nomad_projection/figures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nomad_projection/figures/arxiv.py,sha256=nL4TStSm3ERGVBLs87ItU5fbRVA4dC0vLGtSSWGQSv0,6810
+nomad_projection/figures/eval.py,sha256=wgIPJ8R6MX3Fu2lsPpih5fSxJjKmybl4kYyWNamGnEo,7909
+nomad_projection/figures/imagenet.py,sha256=esjGldKlKAfcAvxZhPDe2CcRQjg5CgNwmqUPTtM2Bp4,9058
+nomad_projection/figures/pubmed.py,sha256=FNLxaReEnrCkcKRbByrlVdYlCveS_vH-5qHSCrarUiU,5579
+nomad_projection/figures/wiki.py,sha256=bw6KoJnrDq7_4IOj5AOMHBW9H9gjXm60asp1Knhdhic,11005
+nomad_projection-0.0.1.dist-info/METADATA,sha256=5TgArVXeqDHr15rgp-V2RjXdrGHdS4HeZYu7STCHihU,368
+nomad_projection-0.0.1.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+nomad_projection-0.0.1.dist-info/top_level.txt,sha256=EzZwnn4huOcWUZPdEC9RqyQB1o1FW7p5N_jtlmDgq90,17
+nomad_projection-0.0.1.dist-info/RECORD,,

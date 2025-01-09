@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nomad-projection
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: click
+Requires-Dist: matplotlib
+Requires-Dist: nomic
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Requires-Dist: tqdm
+
+UNKNOWN
+
