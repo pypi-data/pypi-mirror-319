@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: m203mylibrary
+Version: 0.1.0
+Summary: Library created for the m203 python project. It is adding new features to the library pybacktestchain
+License: MIT
+Author: Mehmet Basagac
+Requires-Python: >=3.10.15,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: numba (>=0.60.0,<0.61.0)
+Requires-Dist: pybacktestchain (>=0.2.1,<0.3.0)
+Description-Content-Type: text/markdown
+
+# m203mylibrary
+
+Library created for the m203 python project. It is adding new features to the library pybacktestchain
+
+## Installation
+```bash
+$ pip install m203mylibrary
+```
+
+## Usage
+
+Final goal : build option strategies and backtest them.
+
+`test_function` can be used to test if the import of the package was sucessfull and evrything works well.
+
+```python
+from m203mylibrary.m203mylibrary import test_function
+
+test_function()
+```
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`m203mylibrary` was created by Mehmet Basagac. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`m203mylibrary` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
