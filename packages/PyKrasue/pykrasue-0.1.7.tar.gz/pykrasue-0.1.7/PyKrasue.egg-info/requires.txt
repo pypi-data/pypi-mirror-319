@@ -1,0 +1,4 @@
+pygame-ce
+PyOpenGL
+Pillow
+numpy
