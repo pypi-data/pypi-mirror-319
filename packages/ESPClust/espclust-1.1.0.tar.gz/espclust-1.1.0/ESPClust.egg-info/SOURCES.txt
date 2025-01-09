@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+ESPClust.egg-info/PKG-INFO
+ESPClust.egg-info/SOURCES.txt
+ESPClust.egg-info/dependency_links.txt
+ESPClust.egg-info/top_level.txt
