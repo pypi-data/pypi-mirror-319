@@ -1,0 +1,8 @@
+pgstacrs-0.1.1.dist-info/METADATA,sha256=lEqR526_eFNV7oKo7EZXNpJknk00jY25erZuQIs2npA,2225
+pgstacrs-0.1.1.dist-info/WHEEL,sha256=vDo1FPAXUPx2COR4a8JIK890gUUAY5rY_4pB73Sehw0,123
+pgstacrs-0.1.1.dist-info/licenses/LICENSE,sha256=vU72DchV6S1PsanwzW4ZvQMnzmgdeIytvLu--k17G14,1067
+pgstacrs/__init__.py,sha256=K3HFPdwpDL1gcMRpUHc3upFr-d_5QNDqk9g_gDu00xU,115
+pgstacrs/__init__.pyi,sha256=pGd2fQZGb_RC9RM-uJci1cQZzYLUd0JJ87fvqONgJ2E,6748
+pgstacrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgstacrs/pgstacrs.cpython-39-i386-linux-gnu.so,sha256=CZ8OnlwDIbSAU7h8MfEoWu-aNKvYq2B8ptIFgBa4h54,6814860
+pgstacrs-0.1.1.dist-info/RECORD,,
