@@ -1,0 +1,5 @@
+azure
+dist
+eng
+tests
+venv
