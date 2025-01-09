@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: inovyo-api
+Version: 0.1
+Summary: Biblioteca para integração com as APIs da Inovyo
+Home-page: 
+Author: Lucas Gaion
+Author-email: lucas.gaion@inovyo.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Inovyo API
+
+Biblioteca para integração com as APIs da Inovyo.
+
+## Instalação
+
+```bash
+pip install inovyo-api
