@@ -1,0 +1,14 @@
+bloodmoon/__init__.py,sha256=8Uq-JAPk1EgGbE3Sjt9e7HzOvDMiNUO_6mJwVZCvJ1g,1591
+bloodmoon/coords.py,sha256=SspMlWwUnmBnihUjjY9p0bK6YTnBW7ieZSUzkw2nFD0,12335
+bloodmoon/images.py,sha256=wrDBQWuhLVNYoFml6_nH6PZXusNprtaNnxZzSvFBFbQ,23190
+bloodmoon/io.py,sha256=W9XPO0L5rxC8yy2a3KLajvzS-qrwIBG7CQnDac5M_Ig,9502
+bloodmoon/mask.py,sha256=k0fPK4Harf6nCwnu1BGl3aZ9iSQ_Ev69xy7XHVZkljI,24521
+bloodmoon/optim.py,sha256=viPm9aWoyh2PRg7Y3DIO20T9drGLEh6sKHE7p4iQWuQ,26004
+bloodmoon/types.py,sha256=djnQm055Q7o0qfqC8McLWXjbKiMLWRhORkNR5xiUTYc,1218
+bloodmoon/utils.py,sha256=MC5DKW2HFbG2MEv6ENUjuODa5VpBmC1ZxfhpgeU_PFE,427
+bloodmoon/assets/__init__.py,sha256=NX72jwQQSc_IzL7bdLJAAPrmBgVYR0KiHCTtxj39f_c,84
+bloodmoon/assets/wfm_mask.fits,sha256=FCKWhil0mF-veFUrWzoZqFcFGUU1_SewgWRkmHYWAIE,32477760
+bloodmoon-0.1.0.dist-info/METADATA,sha256=y-hMpFA56xgyFlR6Q-2s19lAr0_ZCQYozBQts3VNOqI,4576
+bloodmoon-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+bloodmoon-0.1.0.dist-info/licenses/LICENSE.txt,sha256=AY6RmE03VHwZpOoG3dAeaccISk53QGjSw4Gbx3Kumm8,1072
+bloodmoon-0.1.0.dist-info/RECORD,,
