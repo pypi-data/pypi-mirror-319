@@ -1,0 +1,2 @@
+[console_scripts]
+viyu_xmpp_server = viyu_xmpp.server:main

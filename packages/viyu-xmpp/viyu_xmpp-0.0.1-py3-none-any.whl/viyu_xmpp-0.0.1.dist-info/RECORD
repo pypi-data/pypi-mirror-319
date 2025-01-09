@@ -1,0 +1,10 @@
+viyu_xmpp/__init__.py,sha256=gE9B663aqmb6ewkwGxqFN_2YXrQuDsJKio_Uvo5dpJY,43
+viyu_xmpp/server.py,sha256=ZumnR9hbU5jWxtGfRwnAC-L6kclsxNVmtV9DgdV9Ycs,3192
+viyu_xmpp/stanza/__init__.py,sha256=64w7ywIzmxisruHvlx0Aiz4azACFKlUttjHikQRKDhI,89
+viyu_xmpp/stanza/get_stanza.py,sha256=LQHG-ZftapLAu9PqGL-9tDJ_LWkxbOFnR0Np2vPLNCw,215
+viyu_xmpp/stanza/post_stanza.py,sha256=y39UZhjsg32V8MBxhTbW5-NcqWUrvusZ1yuCXjcyWyk,218
+viyu_xmpp-0.0.1.dist-info/METADATA,sha256=KDU47Npu5LNSeh-tZeSZB4eDbSXfl9troaPGoLlJc64,2974
+viyu_xmpp-0.0.1.dist-info/WHEEL,sha256=P9jw-gEje8ByB7_hXoICnHtVCrEwMQh-630tKvQWehc,91
+viyu_xmpp-0.0.1.dist-info/entry_points.txt,sha256=E_SDPsSH9AHpw2zv2wsYpjSp-NN_HC_uW8Gw73QGjmg,59
+viyu_xmpp-0.0.1.dist-info/top_level.txt,sha256=HYxCui3WQgVLKLvUHVqj2wg-fVgsaYmBa1xeHCPsreg,10
+viyu_xmpp-0.0.1.dist-info/RECORD,,
