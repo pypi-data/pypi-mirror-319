@@ -1,0 +1,9 @@
+soundpython/__init__.py,sha256=bDBzCEcCpiELbvoHpGNtpy4xGednlz3sj1ug8ax_TTs,78
+soundpython/audio.py,sha256=Ge-G1167yz2ymscX6uJEpuiqIFrnOJ5aXas5Bi1ZzEA,19821
+soundpython/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_audio.py,sha256=yjjpvmjC2KhjKsAgaRQyzUmwad49Psx9ZxoTEe3q6BA,26872
+soundpython-0.1.8.dist-info/METADATA,sha256=g4Z1VRtfzfnJHEAHy_MJYloJtzffO2zd5nHMJgkvZ-Y,2707
+soundpython-0.1.8.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+soundpython-0.1.8.dist-info/top_level.txt,sha256=BkuHhSzVa2G_vMqxXH9awJrskB8gjuWfHxELiB73y8Y,18
+soundpython-0.1.8.dist-info/RECORD,,
