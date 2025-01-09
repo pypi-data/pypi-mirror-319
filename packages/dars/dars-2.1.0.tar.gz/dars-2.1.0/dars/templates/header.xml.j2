@@ -1,0 +1,8 @@
+{% if context.settings.token -%}
+<soapenv:Header>
+<individualPerson_token>{{ context.settings.token }}</individualPerson_token>
+</soapenv:Header>
+{% else -%}
+<soapenv:Header/>
+{% endif -%}
+
