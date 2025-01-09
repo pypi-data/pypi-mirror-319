@@ -1,0 +1,10 @@
+setup.py
+pyexamplebynotgerson123/__init__.py
+pyexamplebynotgerson123/module_mpi4py_1.py
+pyexamplebynotgerson123/module_numpy_1.py
+pyexamplebynotgerson123/module_numpy_2.py
+pyexamplebynotgerson123.egg-info/PKG-INFO
+pyexamplebynotgerson123.egg-info/SOURCES.txt
+pyexamplebynotgerson123.egg-info/dependency_links.txt
+pyexamplebynotgerson123.egg-info/requires.txt
+pyexamplebynotgerson123.egg-info/top_level.txt
