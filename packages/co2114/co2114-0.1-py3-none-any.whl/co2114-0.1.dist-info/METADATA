@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: co2114
+Version: 0.1
+Summary: codebase for co2114
+Author: wil ward
+License-File: LICENSE
+Requires-Dist: pygame
+Requires-Dist: numpy
+Requires-Dist: ipython
+Requires-Dist: matplotlib
+Requires-Dist: jupyter
