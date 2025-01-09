@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: lilacli
+Version: 0.1.4
+Summary: A CLI for lila.dev
+Project-URL: Homepage, https://lila.dev
+Requires-Python: >=3.11
+Requires-Dist: click
+Requires-Dist: dacite
+Requires-Dist: halo
+Requires-Dist: pillow
+Requires-Dist: playwright
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: tenacity
+Description-Content-Type: text/markdown
+
+# Lila CLI
+
+
+## How to release
+
+Required
+
+* twine
+
+First build the project:
+
+```
+python3.11 -m build
+```
+
+Then upload the package to PyPI:
+
+```
+twine upload dist/*
+```
+
+You will find the creds in Notion
