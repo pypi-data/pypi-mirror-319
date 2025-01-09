@@ -1,0 +1,9 @@
+xclean/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xclean/app.py,sha256=kC-xe4Rmuy_Qt4_UswgqlAsM5r-YVg4yxtEGyybGhUw,2032
+xclean/scanner.py,sha256=cYvhOff71lmfWb57zWlWs4vxiBQ9PbMHCVKASJBXe00,17271
+xclean-0.0.5.dist-info/LICENSE.md,sha256=0TDWZCssbvhyGw21Z0thtcqPgFIkT-zL1ARxlM7XrVQ,1090
+xclean-0.0.5.dist-info/METADATA,sha256=JNtcRvd7F5FerRyqb6Q9_hSdMPWgcLE6C-8e636ZsWw,2722
+xclean-0.0.5.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+xclean-0.0.5.dist-info/entry_points.txt,sha256=qFk5O_U-CPkPDZ08znSwzFGNJ1aZGE471XNG99AK4Ys,43
+xclean-0.0.5.dist-info/top_level.txt,sha256=wVuspU9q7lp56Pt0TEa9FugSdVJf0VozqjKwRb0FH44,7
+xclean-0.0.5.dist-info/RECORD,,
