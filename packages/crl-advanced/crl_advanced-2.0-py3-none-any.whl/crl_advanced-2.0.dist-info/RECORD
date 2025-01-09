@@ -1,0 +1,15 @@
+crl_browser/__init__.py,sha256=YK4mnmjlntiZ8CiGzzbXzLZADKAc4FYIwZ8gaHl3hIo,135
+crl_browser/about.py,sha256=AQOQVQntU6icedw5V6XUeEbow-X0j1XtHtHPxaUGvB8,3234
+crl_browser/appearance_app.py,sha256=4FZsCRvcDbVBxGZee-Q1IEkLGAPrEZxRK5k4m9phifQ,7301
+crl_browser/crl_browser.py,sha256=gSB-5bvU-HT2PsMmqFyxOy3hD6FUBNxZMGDdWkfjY68,7559
+crl_browser/historymanager.py,sha256=EpTPpPsG03CTk6CiPaGWSjzxsI2rYk-v5iW1i2C4kfI,7335
+crl_browser/privacy_app.py,sha256=q7lzIsh2Pz3DEVyv70v4cXeOraKuTmcnrwf-2Qf96RM,7042
+crl_browser/settings_manager.py,sha256=O6OlVZtaOGrqRMxEh5EoGo9myKLQU8rIIEZljAfz_x8,10231
+crl_browser/sysmanager.py,sha256=5SlpbAaf88leE-2eSMuM0L2j1EWuJH9BLySY8o1-BZ8,3400
+crl_browser/tor_proxy_app.py,sha256=Kv7uC7OAUOD6X_pzu342-23dRyiVb4-orBLdhQ7OpZg,4651
+crl_advanced-2.0.dist-info/LICENSE.md,sha256=EQPtW8rYM41hTSlKroy4jKoNvBV7ncakKZzWmAsFHmo,653
+crl_advanced-2.0.dist-info/METADATA,sha256=Qf1E8vtD9XSsxhob5MJZMV9T-SP8MHZEU0t1CeXp6Zk,889
+crl_advanced-2.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+crl_advanced-2.0.dist-info/entry_points.txt,sha256=_KqieFoIXEsMm67B8rIlBv4VpIuKc3ZTKzQrUJ4LtP0,61
+crl_advanced-2.0.dist-info/top_level.txt,sha256=8gKgf_vIB31v82szc2mpzxtQzQsI__Vv34wv9ChSZDY,12
+crl_advanced-2.0.dist-info/RECORD,,
