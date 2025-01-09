@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyfirmata_epd/__init__.py
+src/pyfirmata_epd/epd.py
+src/pyfirmata_epd/epdpaint.py
+src/pyfirmata_epd/fonts.py
+src/pyfirmata_epd.egg-info/PKG-INFO
+src/pyfirmata_epd.egg-info/SOURCES.txt
+src/pyfirmata_epd.egg-info/dependency_links.txt
+src/pyfirmata_epd.egg-info/requires.txt
+src/pyfirmata_epd.egg-info/top_level.txt
