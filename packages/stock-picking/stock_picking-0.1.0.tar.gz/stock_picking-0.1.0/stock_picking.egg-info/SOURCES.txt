@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+stock_picking/__init__.py
+stock_picking/fetch_data.py
+stock_picking/piotroski_score.py
+stock_picking/top_stocks.py
+stock_picking.egg-info/PKG-INFO
+stock_picking.egg-info/SOURCES.txt
+stock_picking.egg-info/dependency_links.txt
+stock_picking.egg-info/requires.txt
+stock_picking.egg-info/top_level.txt
+tests/test_fetch_data.py
+tests/test_piotroski_score.py
