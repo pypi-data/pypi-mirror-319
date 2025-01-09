@@ -1,0 +1,32 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pfm-app"
+version = "0.1.0"
+description = "personal finance manager app"
+readme = "README.md"
+authors = [{ name = "Ahmet Olgun", email = "axmetolgun@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["pfm", "finance"]
+dependencies = [
+    "yfinance"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pytest", "flask8"]
+
+[project.urls]
+Homepage = "https://github.com/axmetolgun23/pfm-app"
+
+[project.scripts]
+pfmapp = "pfm_app.__main__:main"

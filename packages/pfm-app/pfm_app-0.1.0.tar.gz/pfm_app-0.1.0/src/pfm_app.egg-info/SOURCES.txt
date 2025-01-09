@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+src/pfm_app/__init__.py
+src/pfm_app/__main__.py
+src/pfm_app/currency.py
+src/pfm_app/portfolio.py
+src/pfm_app/securities.py
+src/pfm_app.egg-info/PKG-INFO
+src/pfm_app.egg-info/SOURCES.txt
+src/pfm_app.egg-info/dependency_links.txt
+src/pfm_app.egg-info/entry_points.txt
+src/pfm_app.egg-info/requires.txt
+src/pfm_app.egg-info/top_level.txt
+src/tests/tests_securities.py

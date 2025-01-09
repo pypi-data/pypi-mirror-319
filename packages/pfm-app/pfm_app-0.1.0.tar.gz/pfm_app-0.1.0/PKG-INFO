@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: pfm-app
+Version: 0.1.0
+Summary: personal finance manager app
+Author-email: Ahmet Olgun <axmetolgun@gmail.com>
+Project-URL: Homepage, https://github.com/axmetolgun23/pfm-app
+Keywords: pfm,finance
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: yfinance
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flask8; extra == "dev"
+
+# pfm-app
+personal finance management app that automates my finances as much as possible
