@@ -1,0 +1,9 @@
+README.md
+setup.py
+dcalendario/__init__.py
+dcalendario/dcalendario.py
+dcalendario.egg-info/PKG-INFO
+dcalendario.egg-info/SOURCES.txt
+dcalendario.egg-info/dependency_links.txt
+dcalendario.egg-info/requires.txt
+dcalendario.egg-info/top_level.txt
