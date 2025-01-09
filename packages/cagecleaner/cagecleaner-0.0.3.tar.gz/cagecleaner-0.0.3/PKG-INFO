@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cagecleaner
+Version: 0.0.3
+Summary: Redundancy removal tool for cblaster hits
+Author: Lucas De Vrieze
+Author-email: lucas.devrieze@kuleuven.be
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.10
+License-File: LICENSE
