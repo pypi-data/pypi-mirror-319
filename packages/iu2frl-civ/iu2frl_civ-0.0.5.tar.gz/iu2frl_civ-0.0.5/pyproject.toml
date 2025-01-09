@@ -1,0 +1,32 @@
+[project]
+name = "iu2frl-civ"
+authors = [
+  { name="Luca Bennati", email="lucabennati1996@gmail.com" }
+]
+description = "A small library to communicate with ICOM devices using CI-V protocol"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["icom", "ci-v", "transceivers", "communication"]
+requires-python = ">=3.8"
+dependencies = [
+    "pyserial >= 3.5",
+    "incremental>=24.7.2"
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/iu2frl/pycom"
+Issues = "https://github.com/iu2frl/pycom/issues"
+
+[build-system]
+requires = ["setuptools", "pyserial>=3.5", "wheel", "incremental>=24.7.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.incremental]
