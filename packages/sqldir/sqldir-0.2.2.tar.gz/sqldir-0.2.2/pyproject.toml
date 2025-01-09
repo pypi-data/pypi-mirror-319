@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "sqldir"
+version = "0.2.2"
+description = ""
+authors = ["uname-n <git@defend.sh>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
