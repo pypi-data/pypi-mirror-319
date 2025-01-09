@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: knify
+Version: 1.8.29
+Summary: Development tools for python
+Home-page: https://github.com/qicongsheng/knify
+Author: qicongsheng
+Author-email: qicongsheng@outlook.com
+License: MIT License
+Keywords: knify
+Platform: any
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: urllib3>=1.26.9
