@@ -1,0 +1,11 @@
+xurrent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xurrent/core.py,sha256=8xDS6MR5GrKRFz2287-X9y8IFfPLJPjOcklD91KdaG4,11440
+xurrent/people.py,sha256=iLTLA8fYwYAw3PNTgTSyU1AqIbXojUezE43m3jV4gqg,5524
+xurrent/requests.py,sha256=mE7Vz5awD9FCAYx_deXOYINstOjk5zUo6xihaoBVq4Y,15386
+xurrent/tasks.py,sha256=nTnxhv_7AYXxjigcWdSNRQKaXeWbawV3Rm6QBxpRM4E,7192
+xurrent/teams.py,sha256=3SX53RUCkmm6vSY9kCWqEmKzglo8LV6C-MtHAi0ZDNw,4519
+xurrent/workflows.py,sha256=5x-0S4RSr4lBFsgAUFuoadqOHdlq_ROrWy_q1J71IP8,9775
+xurrent-0.0.2.11.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+xurrent-0.0.2.11.dist-info/METADATA,sha256=EiE8ZcJRpEYaZTFdzd5cyhKLiWZZ4NGOWSYsUP6u2tU,4283
+xurrent-0.0.2.11.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+xurrent-0.0.2.11.dist-info/RECORD,,
