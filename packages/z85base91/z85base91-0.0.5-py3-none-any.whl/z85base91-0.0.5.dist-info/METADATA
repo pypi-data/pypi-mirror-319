@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: z85base91
+Version: 0.0.5
+Summary: base91, z85b and z85p encodings
+Home-page: https://github.com/JarbasHiveMind/z85base91
+Author: jarbasAi
+Author-email: jarbasai@mailfence.com
+License: Apache-2.0
+License-File: LICENSE
+
