@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: cyantic
+Version: 0.1.1
+Summary: Use Pydantic to build complex types from simple parameters.
+Author-email: Rory Byrne <rory@rory.bio>
+License-File: LICENSE
+Requires-Python: >=3.11
+Requires-Dist: pydantic>=2.10.3
