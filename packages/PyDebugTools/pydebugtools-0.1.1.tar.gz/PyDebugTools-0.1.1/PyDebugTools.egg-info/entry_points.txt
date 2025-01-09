@@ -1,0 +1,2 @@
+[console_scripts]
+notebook-debugger = PyDebugTool.debug:main
