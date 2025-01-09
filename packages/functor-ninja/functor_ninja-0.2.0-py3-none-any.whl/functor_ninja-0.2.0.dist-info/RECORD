@@ -1,0 +1,11 @@
+functor_ninja/__init__.py,sha256=aFTe0qvC8lu8pbjJpdIhlOuQOfR_SW9sQVQaudCj4UI,140
+functor_ninja/list_monad.py,sha256=9rGbPnEO2FcEnYdOfWuCFGCUp5kTbDf2ZUnvu-B2q6U,753
+functor_ninja/monad.py,sha256=omm9SxlxyCudtEb3CrJYbpF4887Oe0A8-FirqSeM1Uk,460
+functor_ninja/retry_monad.py,sha256=Xi4kfIZMUMwvmn368XibPrHNbqWS5zPDBo8kYiT8Hmk,1244
+functor_ninja/test_list.py,sha256=JT0Wfirvi_a4igZCfNjhkTlNEptj8ffv70yRvX_lFuU,657
+functor_ninja/test_retry.py,sha256=rEHPqBTAS6x9d8-QgVbpehBGeVSBjBOAo-LBrx4lY1k,577
+functor_ninja/test_try.py,sha256=vIzWbyDlqkLF-6FXrwn_oPAN6T_zFAfqBHxNBUMa26M,605
+functor_ninja/try_monad.py,sha256=BdTcTcxPMiVgUsQZYB0Y_yzjA1B0A3zsXbEw4jhHiw8,1070
+functor_ninja-0.2.0.dist-info/METADATA,sha256=3t5356ffwfPmHz0Rta9uoTWu6M5i87UGFWK7-hTyg24,547
+functor_ninja-0.2.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+functor_ninja-0.2.0.dist-info/RECORD,,
