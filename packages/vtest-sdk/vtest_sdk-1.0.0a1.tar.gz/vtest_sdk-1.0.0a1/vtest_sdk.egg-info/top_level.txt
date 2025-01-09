@@ -1,0 +1,6 @@
+azure
+build
+dist
+eng
+tests
+venv
