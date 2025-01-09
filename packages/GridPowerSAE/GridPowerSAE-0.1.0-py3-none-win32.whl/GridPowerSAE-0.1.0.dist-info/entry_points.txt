@@ -1,0 +1,2 @@
+[console_scripts]
+run-tests-gridpowersae = tests.test_run_rastr_win:main
