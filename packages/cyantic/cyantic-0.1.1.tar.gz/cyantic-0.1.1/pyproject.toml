@@ -1,0 +1,25 @@
+[project]
+name = "cyantic"
+version = "0.1.1"
+description = "Use Pydantic to build complex types from simple parameters."
+authors = [
+    { name = "Rory Byrne", email = "rory@rory.bio" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.10.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "coverage>=7.6.9",
+    "pre-commit>=4.0.1",
+    "pyright>=1.1.390",
+    "pytest-mock>=3.14.0",
+    "pytest>=8.3.4",
+    "ruff>=0.8.2",
+]
