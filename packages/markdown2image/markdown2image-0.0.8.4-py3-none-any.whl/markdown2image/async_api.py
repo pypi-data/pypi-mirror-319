@@ -1,0 +1,50 @@
+from typing import Optional
+from playwright.async_api import async_playwright, Playwright, Browser, BrowserContext, Page
+import markdown
+
+# Init browser and context
+_playwright: Playwright
+_browser: Browser
+_context: BrowserContext
+_idle_pages: list[Page]
+_working_pages: list[Page]
+initialized: bool = False
+
+async def _init():
+    global _playwright, _browser, _context, _idle_pages, _working_pages
+    _playwright = await async_playwright().start()
+    _browser = await _playwright.chromium.launch()
+    _context = await _browser.new_context(viewport={'width': 800, 'height': 1})
+    _idle_pages = [await _context.new_page()]
+    _working_pages = []
+
+async def html2image(html: str, path: str, *, width: Optional[int] = None):
+    if not initialized: await _init()
+    
+    # Get an idle page to render
+    if _idle_pages:
+        page = _idle_pages.pop()
+    else:
+        page = await _context.new_page()
+    _working_pages.append(page)
+    
+    # render & screenshot
+    await page.reload(wait_until='commit')
+    if width != None: await page.set_viewport_size({"width": width, "height": 1})
+    await page.set_content(html=html, wait_until='load')
+    await page.screenshot(path=path, full_page=True)
+    
+    # release page to idle pages
+    index: int
+    for i in range(len(_working_pages)):
+        p = _working_pages[i]
+        if page is p:
+            index = i
+            break
+    if not index: raise Exception('cannot find page in _working_pages')
+    _working_pages.pop(index)
+    _idle_pages.append(page)
+
+async def markdown2image(md: str, path: str, width: Optional[int] = None):
+    html = markdown.markdown(md)
+    await html2image(html, path, width=width)
