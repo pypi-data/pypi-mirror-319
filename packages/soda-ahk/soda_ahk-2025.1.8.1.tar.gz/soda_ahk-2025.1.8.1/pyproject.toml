@@ -1,0 +1,35 @@
+[project]
+name = "soda-ahk"
+version = "2025.1.8.1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+ "pywin32>=308",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+# All the following settings are optional:
+where = ["."]                             # ["."] by default
+include = ["*"]                           # ["*"] by default
+exclude = ["test*", "scripts", ".vscode"] # empty by default
+
+[tool.setuptools.package-data]
+ahk_script_templates = ["*.ahk"]
+ahk_resources = ["*.zip", "*.ps1", "*.dll", "*.ico", "*.exe", "*.json", "*.pdb"]
+
+[dependency-groups]
+dev = [
+    "build>=1.2.2.post1",
+    "twine>=6.0.1",
+]
+
+[project.scripts]
+ahk-cli = "ahk.main:main"
+
+[project.gui-scripts]
+ahk = "ahk.main:main"
