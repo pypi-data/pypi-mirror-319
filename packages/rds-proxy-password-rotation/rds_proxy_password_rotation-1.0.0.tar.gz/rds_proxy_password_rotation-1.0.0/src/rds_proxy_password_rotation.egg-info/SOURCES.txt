@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/rds_proxy_password_rotation.egg-info/PKG-INFO
+src/rds_proxy_password_rotation.egg-info/SOURCES.txt
+src/rds_proxy_password_rotation.egg-info/dependency_links.txt
+src/rds_proxy_password_rotation.egg-info/requires.txt
+src/rds_proxy_password_rotation.egg-info/top_level.txt
