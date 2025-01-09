@@ -1,0 +1,263 @@
+
+# Poetry pyproject.toml: https://python-poetry.org/docs/pyproject/
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "python-project-beta"
+version = "1.0.0"
+description = "Awesome `python-project-beta` is a Python cli/package created with https://gitlab.com/manoelpqueiroz/galactipy"
+readme = "README.md"
+authors = ["Manoel Pereira de Queiroz <contact@manoelpqueiroz.com>"]
+license = "MIT"
+repository = "https://github.com/manoelpqueiroz/python-project-beta"
+homepage = "https://github.com/manoelpqueiroz/python-project-beta"
+packages = [
+  {include = "python_project_beta"}
+]
+
+
+# Keywords description https://python-poetry.org/docs/pyproject/#keywords
+keywords = []  # UPDATEME with relevant keywords
+
+
+# Pypi classifiers: https://pypi.org/classifiers/
+classifiers = [  # UPDATEME with additional classifiers; remove last classifier to allow publishing on PyPI
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+
+
+[tool.poetry.scripts]
+# Entry points for the package https://python-poetry.org/docs/pyproject/#scripts
+"python-project-beta" = "python_project_beta.__main__:app"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+typer = {extras = ["all"], version = "^0.7.0"}
+rich = "^12.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+invoke = "^2.2.0"
+mypy = "^1.0.0"
+mypy-extensions = "^0.4.3"
+pre-commit = "^2.21.0"
+bandit = "^1.7.5"
+safety = "^2.3.4"
+
+ruff = "^0.4.3"
+
+pytest = "^7.2.1"
+pytest-html = "^3.2.0"
+pytest-cov = "^4.1.0"
+pytest-mock = "^3.10.0"
+pytest-timeout = "^2.2.0"
+pytest-benchmark = "^4.0.0"
+pytest-sugar = "^0.9.7"
+pytest-click = "^1.1.0"
+pytest-pikachu = "^1.0.0"
+coverage = "^7.3.0"
+
+
+[[tool.poetry_bumpversion.replacements]]
+files = ["README.md"]
+
+
+[tool.ruff]
+# https://github.com/astral-sh/ruff
+# https://docs.astral.sh/ruff/settings
+output-format = "grouped"
+show-fixes = true
+target-version = "py39"
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = 79
+skip-magic-trailing-comma = true
+
+[tool.ruff.lint]
+select = [  # UPDATEME with additional rules from https://docs.astral.sh/ruff/rules/
+  "F",
+  "E",
+  "W",
+  "I",
+  "N",
+  "D",
+  "S",
+  "B",
+  "UP",
+  "C90",
+  "T20",
+  "EM",
+  "PL",
+  "C4",
+  "PT",
+  "TD",
+  "ANN",
+  "ICN",
+  "RET",
+  "ISC",
+  "RSE",
+  "ARG",
+  "FBT",
+  "SIM",
+  "TID",
+  "PTH",
+  "TCH",
+  "FIX",
+  "BLE",
+  "ERA",
+  "TRY",
+  "FLY",
+  "YTT",
+  "CPY",
+  "RUF"
+]
+ignore = ["D200"]
+task-tags = [
+  "BUG",
+  "HACK",
+  "FIXME",
+  "FIXIT",
+  "FIX",
+  "NEEDSWORK",
+  "UPDATEME",
+  "TODO",
+  "REFACTOR"
+]  # UPDATEME by modifying or removing this setting after addressing all UPDATEMEs
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**.py" = ["D100", "D101", "D102", "D103", "D104", "S101"]
+"__main__.py" = ["D100", "D101"]
+
+[tool.ruff.lint.flake8-annotations]
+ignore-fully-untyped = true
+suppress-dummy-args = true
+
+[tool.ruff.lint.flake8-pytest-style]
+fixture-parentheses = false
+mark-parentheses = false
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 88
+max-doc-length = 79
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.flake8-copyright]
+author = "Manoel Pereira de Queiroz"
+
+[tool.ruff.lint.pylint]
+max-bool-expr = 3
+
+[tool.ruff.lint.isort]
+split-on-trailing-comma = false
+known-first-party = ["python_project_beta"]
+sections.typing = ["typing", "types", "typing_extensions", "mypy", "mypy_extensions"]
+sections.testing = ["pytest", "tests"]
+section-order = [
+  "future",
+  "typing",
+  "standard-library",
+  "third-party",
+  "first-party",
+  "local-folder",
+  "testing"
+]
+
+
+[tool.mypy]
+# https://github.com/python/mypy
+# https://mypy.readthedocs.io/en/latest/config_file.html#using-a-pyproject-toml-file
+python_version = 3.9
+files = [
+  "python_project_beta",
+  "tests"
+]
+pretty = true
+show_traceback = true
+color_output = true
+
+allow_redefinition = false
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_incomplete_defs = true
+explicit_package_bases = true
+ignore_missing_imports = true
+no_implicit_reexport = true
+implicit_optional = false
+show_column_numbers = true
+show_error_context = true
+strict_equality = true
+no_warn_no_return = false
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+warn_unused_ignores = true
+
+
+[tool.pytest.ini_options]
+# https://github.com/pytest-dev/pytest
+# https://docs.pytest.org/en/6.2.x/customize.html#pyproject-toml
+# Directories that are not visited by pytest collector:
+norecursedirs =[
+  "hooks",
+  "*.egg",
+  ".eggs",
+  "dist",
+  "build",
+  "docs",
+  ".tox",
+  ".git",
+  "__pycache__"
+]
+doctest_optionflags = ["NUMBER", "NORMALIZE_WHITESPACE", "IGNORE_EXCEPTION_DETAIL"]
+timeout = 10
+
+# Extra options:
+addopts = [
+  "--strict-markers",
+  "--tb=short",
+  "--doctest-modules",
+  "--doctest-continue-on-failure",
+  "--pikachu",
+  "--cov=python_project_beta",
+  "--cov-config=pyproject.toml"
+]
+
+
+[tool.coverage.run]
+source = ["tests"]
+branch = true
+
+
+[tool.coverage.report]
+exclude_also = [
+  "def main",
+  "if __name__ == .__main__.:"
+]
+fail_under = 50
+show_missing = true
+
+
+[tool.coverage.paths]
+source = ["python_project_beta"]
