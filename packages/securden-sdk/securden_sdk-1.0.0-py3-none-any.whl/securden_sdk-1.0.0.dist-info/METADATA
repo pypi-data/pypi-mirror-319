@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: securden-sdk
+Version: 1.0.0
+Summary: Password Retrieval API for Accounts
+Home-page: 
+Author: Securden Dev
+Author-email: support@securden.com
+License: MIT
+Keywords: Securden,Securden-SDK,Password Retrieval API,Securden API
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3==2.0.2
+Requires-Dist: python-dateutil==2.9.0
+Requires-Dist: pydantic==2.10.4
+Requires-Dist: typing-extensions==4.12.2
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Requires-Dist: tox; extra == "testing"
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+
+    This SDK is a Python client library for Securden Password Retrieval API. 
+    This SDK provides a simple way to interact with Securden Password Retrieval API. 
+    The API provides a endpoint to retrieve passwords of privileged accounts.
+    
