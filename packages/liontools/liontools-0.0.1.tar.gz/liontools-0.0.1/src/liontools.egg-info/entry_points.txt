@@ -1,0 +1,7 @@
+[console_scripts]
+branches-rename = liontools.runner:branches_rename
+clone-subset = liontools.runner:clone_subset
+find-uncommitted-repos = liontools.runner:find_uncommitted_repos
+rebase-theirs = liontools.runner:rebase_theirs
+restore-mtime = liontools.runner:restore_mtime
+strip-merge = liontools.runner:strip_merge

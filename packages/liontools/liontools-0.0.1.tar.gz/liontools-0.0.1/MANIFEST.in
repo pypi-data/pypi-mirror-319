@@ -1,0 +1,7 @@
+exclude LICENSE.txt
+include git-branches-rename
+include git-clone-subset
+include git-find-uncommitted-repos
+include git-rebase-theirs
+include git-restore-mtime
+include git-strip-merge

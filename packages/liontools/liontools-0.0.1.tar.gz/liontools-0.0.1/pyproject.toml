@@ -1,0 +1,108 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools>=75.3",
+  "wheel",
+  "build"
+]
+
+[dependency-groups]
+dev = [
+  "uv-publish>=1.2.0"
+]
+
+[project]
+authors = [
+  {name = "Rodrigo Silva (MestreLion)", email = "linux@rodrigosilva.com"},
+  {name = "Alex Kalaverin", email = "alex@kalaver.in"}
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development :: Version Control :: Git",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: MacOS",
+  "Operating System :: Microsoft :: Windows"
+]
+description = "Assorted git-related scripts and tools"
+keywords = [
+  "git",
+  "tools",
+  "scripts",
+  "automation",
+  "version control",
+  "repository",
+  "python",
+  "git-restore-mtime",
+  "git-clone-subset",
+  "git-rebase-theirs",
+  "git-find-uncommitted-repos",
+  "git-branches-rename",
+  "git-strip-merge"
+]
+license = {text = "GNU General Public License v3 or later (GPLv3+)"}
+name = "liontools"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.0.1"
+
+[project.scripts]
+branches-rename = "liontools.runner:branches_rename"
+clone-subset = "liontools.runner:clone_subset"
+find-uncommitted-repos = "liontools.runner:find_uncommitted_repos"
+rebase-theirs = "liontools.runner:rebase_theirs"
+restore-mtime = "liontools.runner:restore_mtime"
+strip-merge = "liontools.runner:strip_merge"
+
+[project.urls]
+Homepage = "https://github.com/MestreLion/git-tools"
+Issues = "https://github.com/MestreLion/git-tools/issues"
+Repository = "https://github.com/MestreLion/git-tools"
+
+[tool.black]
+extend = "ci/pyproject.toml"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.ruff]
+extend = "ci/pyproject.toml"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = {find = {where = ["src"]}}
+
+[tool.setuptools.package-data]
+liontools = [
+  'git-branches-rename',
+  'git-clone-subset',
+  'git-find-uncommitted-repos',
+  'git-rebase-theirs',
+  'git-restore-mtime',
+  'git-strip-merge'
+]
+
+[tool.uv]
+package = true
+
+[tool.versioneer]
+VCS = "git"
+parentdir_prefix = ""
+style = "pep440"
+tag_prefix = ""
+versionfile_source = "pyproject.toml"
+
+[tool.yamlfix]
+line_length = 89
+preserve_quotes = false
+quote_basic_values = false
+quote_representation = "'"
+section_whitelines = 1
+sequence_style = "block_style"
+whitelines = 1
