@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+mongey.egg-info/PKG-INFO
+mongey.egg-info/SOURCES.txt
+mongey.egg-info/dependency_links.txt
+mongey.egg-info/requires.txt
+mongey.egg-info/top_level.txt
