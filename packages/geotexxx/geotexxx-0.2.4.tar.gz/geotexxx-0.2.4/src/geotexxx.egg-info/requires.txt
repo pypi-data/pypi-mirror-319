@@ -1,0 +1,7 @@
+numpy==1.26
+pandas
+pyproj
+setuptools
+setuptools_scm
+matplotlib
+requests
