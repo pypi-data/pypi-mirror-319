@@ -1,0 +1,15 @@
+rdfproxy/__init__.py,sha256=1Qj7_1vvGGbCtzyo2MdGZHttpWhTJEalAmbUd_8o2nQ,419
+rdfproxy/adapter.py,sha256=7EIHhLCaoOpqxJnl_KkYDVwFpc3h0zQhJQJqWIFPUEY,2615
+rdfproxy/constructor.py,sha256=btBl11vG_C9KgB7MECMp2s1UjjIIhjJ94wlPfmsvIN8,4332
+rdfproxy/mapper.py,sha256=C8YlCMnHa2dXkjlTn2ncd1xCHuRiK6jqlYKcl4uN_s0,3390
+rdfproxy/sparql_strategies.py,sha256=XkdOab8OcIDivSRs1aXj_I5uYlD2Zu-mrXLq-XOd_jQ,2022
+rdfproxy/utils/_exceptions.py,sha256=h6w-uPGTEyivHKkB3Q7HMdLcEX-XzovanRp7_nc_6kQ,444
+rdfproxy/utils/_types.py,sha256=vI5nfvKsm6BguQA_zX3LIROmFIXwuRoyP5WGeVa5hyc,1369
+rdfproxy/utils/mapper_utils.py,sha256=OARNE9VQmcLPxiy4muYfc6V3_w85gqFyWRK2kzRm_a8,4512
+rdfproxy/utils/models.py,sha256=nEzfWUG6g-v4pKH9monpGwI3ARp4ZO8NK-wIlDRfzvY,898
+rdfproxy/utils/sparql_utils.py,sha256=s0JXhEM0uG2USYfBhOf18AvbEgPQRVdK7XNiBL3_Pkw,3983
+rdfproxy/utils/utils.py,sha256=lH9fjILyNY6S7h038gnY99pvPzyKBfZAS8l25vs9Qyk,2268
+rdfproxy-0.2.0.dist-info/LICENSE,sha256=_OAuu2kcdozeGUr76RuAJf17H0kDHzOZbeskalkm8OI,35150
+rdfproxy-0.2.0.dist-info/METADATA,sha256=KiHe_EStaIDVsEclTUzmL0CgKGFo0Uqu82eQRnGR6aE,6061
+rdfproxy-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rdfproxy-0.2.0.dist-info/RECORD,,
