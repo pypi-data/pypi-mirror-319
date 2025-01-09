@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/nazli/__init__.py
+src/nazli/main.py
+src/nazli/pixel_art.py
+src/nazli.egg-info/PKG-INFO
+src/nazli.egg-info/SOURCES.txt
+src/nazli.egg-info/dependency_links.txt
+src/nazli.egg-info/entry_points.txt
+src/nazli.egg-info/top_level.txt
+tests/test_word_to_pixel_emoji.py
