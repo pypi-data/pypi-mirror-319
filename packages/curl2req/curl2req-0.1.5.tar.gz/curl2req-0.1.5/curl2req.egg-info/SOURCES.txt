@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+curl2req/__init__.py
+curl2req/curl.py
+curl2req/parser.py
+curl2req/path.py
+curl2req/req.py
+curl2req.egg-info/PKG-INFO
+curl2req.egg-info/SOURCES.txt
+curl2req.egg-info/dependency_links.txt
+curl2req.egg-info/requires.txt
+curl2req.egg-info/top_level.txt
