@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: cyberrangecz-openstack-lib
+Version: 0.39.1
+Summary: Openstack Driver
+Author: cybersecurityhub.cz
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: cyberrangecz-python-commons~=0.1.17
+Requires-Dist: keystoneauth1
+Requires-Dist: jinja2
+Requires-Dist: netaddr
+Requires-Dist: python-glanceclient>=2.17
+Requires-Dist: python-keystoneclient>=3.22
+Requires-Dist: python-neutronclient>=6.14
+Requires-Dist: python-novaclient>=16.0
+Requires-Dist: structlog
+Requires-Dist: Jinja2
+Requires-Dist: pycryptodome>=3.9
+Requires-Dist: deepdiff
+Requires-Dist: yamlize>=0.6
+
+# Content
+
+1. [OpenStack driver library](#openstack-driver-library)
+    1. [Authors](#authors)
+    2. [Requirements](#requirements)
+    3. [Modules](#modules)
+
+# OpenStack driver library
+
+A library that simplifies manipulation of the OpenStack cloud platform for cyber security hub purposes.
+
+## Requirements
+
+## Modules
+
+It consists of the following modules.
+
+* **TODO!**
+* ostack_client - a client that provides all necessary functions for heat stack manipulation
+* utils - some common functions
+* exceptions - used exceptions
+
+## Updating Dependencies
+
+When performing `pipenv lock`, you may run into some issues. Here is how to resolve at least some of them.  
+
+* First, download Python 3.6 alongside any other python that is installed, using for example: https://tecadmin.net/install-python-3-6-ubuntu-linuxmint/
+
+* Newer versions of pipenv may be also causing trouble. A downgrade to last working version is adviced: `pip3 install --user pipenv==2022.1.8`
+
+* Create a virtual environment with Python 3.6: `pipenv --python 3.6`
+* pipenv sync --dev
+* pipenv lock
+* pipenv run tox --recreate
+
+_If all else fails and the tox command does not succeed, compare the contents of Pipfile.lock with the latest working build. Check if there are differences in version of tools, such as pipenv, tox and so on. It may help to specify the latest working version in the pipfile, remove the pipenv (`pipenv --rm`) and try again._
