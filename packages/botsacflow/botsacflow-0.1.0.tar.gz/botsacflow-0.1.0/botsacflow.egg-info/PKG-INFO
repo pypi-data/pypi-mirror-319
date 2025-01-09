@@ -1,0 +1,27 @@
+Metadata-Version: 2.2
+Name: botsacflow
+Version: 0.1.0
+Summary: A class for interacting with the Sacflow API to send WhatsApp message for RPA
+Home-page: https://github.com/botlorien/botsacflow
+Author: Ben-Hur P. B. Santos
+Author-email: botlorien@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: botenv
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# botsacflow
+ A class for interacting with the Sacflow API to send WhatsApp message for RPA

@@ -1,0 +1,2 @@
+class SacflowErrorResponse(Exception):
+    pass
