@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "famlafl"
+version = "0.1.7"
+description = "FAMLAFL Aren’t Machine Learning And Financial Laboratory"
+authors = ["Vadim Surin <vdmsurin@gmail.com>"]
+license = "Proprietary"
+readme = "README.md"
+keywords = ["machinelearning", "finance", "investment", "education"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education", 
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Office/Business :: Financial :: Investment"
+]
+homepage = "https://github.com/7uperior/famlafl"
+repository = "https://github.com/7uperior/famlafl"
+
+
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+pandas = "*"
+numpy = "*"
+numba = "*"
+scikit-learn = "*"
+scipy = "*"
+statsmodels = "*"
+matplotlib = "*"
+cvxpy = "*"
+tqdm = ">=4.67"
+
+[tool.poetry.group.dev.dependencies]
+codecov = "*"
+coverage = "*"
+pylint = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+pytest-cov = "*"
+
+[tool.poetry.scripts]
+docs = "sphinx.cmd.build:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
