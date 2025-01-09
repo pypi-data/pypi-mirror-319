@@ -1,0 +1,10 @@
+duck_agents/__init__.py,sha256=adJVUoYWkeKgoT8d9w1II25c_4ieBCT1njEcGdWidiY,27
+duck_agents/base_agent.py,sha256=3BuOT2ESz7S45eMspeH4FNAw-jcg_GTyqTC9kWbnOgQ,1807
+duck_agents/llm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duck_agents/llm/gemini_session_factory.py,sha256=j_7SMnpx0l-RnQKN_T-SIbQO_1psi--jUDz0nqtZZv8,1944
+duck_agents/llm/ollama_session_factory.py,sha256=puAXw-WDH2EQbRcbCBGaTuoVWdU1Nc19u9UDgKZdVMU,685
+duck_agents/llm/session_factory.py,sha256=e6NkOCuYT0lbfvCE2RrhNqfBx8MCqG48b43qQZ58lKc,412
+duck_agents/llm/token_count_handler.py,sha256=E3hiUiKvN8C4tzCCpm7zKj8zLnjt0-x8Zn8wQVoxi60,6220
+duck_agents-0.1.10.dist-info/METADATA,sha256=NgybOF_WuxknWI37sldwfJ2c_UxVkXdu8fVJ2P2M914,734
+duck_agents-0.1.10.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+duck_agents-0.1.10.dist-info/RECORD,,
