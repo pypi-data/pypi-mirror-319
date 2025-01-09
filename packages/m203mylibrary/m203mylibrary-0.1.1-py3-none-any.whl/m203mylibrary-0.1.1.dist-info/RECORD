@@ -1,0 +1,10 @@
+m203mylibrary/__init__.py,sha256=jHob3ugzYwi-5zuBKxuuYxhtrbxA6khKiTvkJjKo-uM,158
+m203mylibrary/commodities_backtest.py,sha256=6ZzNnK2D3CHweTW0IfqiX0a1P6U0JJDAyrnZMEUwj0g,7800
+m203mylibrary/commodities_broker.py,sha256=8KTrDHhCRkUdTcAg8Y03Z68-AbveCs_dA-IWxqHIY8A,2308
+m203mylibrary/commodities_data_module.py,sha256=iOAg0ScmY3KnSfjgQ21AKmGtkIpDmH39QgBq2YMfzu0,13960
+m203mylibrary/m203mylibrary.py,sha256=NoD_xG6tj5heLF1NordfGi7x-AHGPIBNiQQ7Sok5_yc,162
+m203mylibrary/multi_asset_backtest.py,sha256=s-1lGAgNSAtVAIUBAuBypqF8P0pmv3GEydbN7I4oUEg,7691
+m203mylibrary-0.1.1.dist-info/LICENSE,sha256=BwE9GjBUR6oHJNAZUdX7sD7f47sXhANkk345tz3xUoM,1073
+m203mylibrary-0.1.1.dist-info/METADATA,sha256=A0P2Ih_PGYI2py223BKuQa_XNi5jl5Gn9iga4mppSaQ,6380
+m203mylibrary-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+m203mylibrary-0.1.1.dist-info/RECORD,,
