@@ -1,0 +1,3 @@
+[console_scripts]
+python-project-beta=python_project_beta.__main__:app
+
