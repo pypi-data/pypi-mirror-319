@@ -1,0 +1,10 @@
+bisos/__init__.py,sha256=G-d438vPx7m_ks5e9XTtM3u7LDRO5dSSukibukWmyPM,56
+bisos/graphviz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bisos/graphviz/graphvizSeed.py,sha256=RyzHgaG1C8MCKuLVhUiO1ePPzXOpslPoGQ1oz6a5aUY,11238
+bisos/graphviz/graphviz_csu.py,sha256=q56B4I-AypmNQQNKQitHKG1JCOvzJKStR-T3P2X5REs,15135
+bisos.graphviz-0.19.data/scripts/exmpl-graphviz.cs,sha256=VFLwJys-vUKVY314B6xHCrTqlF26JRXKukCLeN1gk3s,4741
+bisos.graphviz-0.19.data/scripts/seedGraphviz.cs,sha256=bBGUoUdcxvEU03_gTZfn3EQ6QO9t5HsTCqx-I6V6L1w,11069
+bisos.graphviz-0.19.dist-info/METADATA,sha256=MSBHYPbTPYELKv4FiXOr-upCkVy28VvWTL4-aeuFoLA,11913
+bisos.graphviz-0.19.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+bisos.graphviz-0.19.dist-info/top_level.txt,sha256=ubAa4sdo-33ysyWShs6fFJLLPkqxEMj1hUVFAOAxquY,6
+bisos.graphviz-0.19.dist-info/RECORD,,
