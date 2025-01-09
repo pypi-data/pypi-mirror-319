@@ -1,0 +1,10 @@
+frankfurter/__init__.py,sha256=diVjRGdhwudY8ifjK5eN6kRrj-LFmecBSZ1SDYCxfKI,37
+frankfurter/engine.py,sha256=6MaBJVeE5WprnFQMQlOoDGeZh06FVH0UF29p1pN_xcs,5741
+frankfurter/exceptions.py,sha256=cx00kbpWVjrJN3VqXS1iwe7ORwDG6cGAYQNJ6dZ2lXI,460
+frankfurter/logger.py,sha256=K-plpJ7daW_jvN0y0vIpouxmB43mHnEEQYkYEGzpbXk,189
+frankfurter/utils.py,sha256=m3gr_XzbQQcdbBpFAsQBz52eeuQNg29201409zxurNQ,100
+frankfurter-2.0.0.dist-info/LICENSE,sha256=wD2uwhRN6OtbeBUHv0XHI8gCwgToxWLTwpfR6S7SmMI,1073
+frankfurter-2.0.0.dist-info/METADATA,sha256=48CbhJ2O_WK684GwXvkRCn6XR3Oc2ZtuuKWPHPzzKt0,2862
+frankfurter-2.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+frankfurter-2.0.0.dist-info/top_level.txt,sha256=3n0_LGM24O_3-hpXBuMbXaRiZwsN5JyOBbjRjNSR2W8,12
+frankfurter-2.0.0.dist-info/RECORD,,
