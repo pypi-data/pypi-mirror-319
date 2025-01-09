@@ -1,0 +1,97 @@
+<!-- SOURCE TEMPLATE -->
+
+<!--
+<button type="button" class="collapsible">[TARGET_NAME] [MODE]</button>
+<div class="content">
+-->
+
+<h3>[TARGET_NAME] ([MODE] mode)</h3>
+
+<!-- CALIBRATED SPECTRUM -->
+
+<h4>Reduced Spectrum and Source Information</h4>
+
+<table>
+ <tr>
+[CALIBRATED_FILE]
+  <td align="left">
+   <ul>
+    <li>Source Name: [TARGET_NAME] ([TARGET_TYPE]) [SBDB]
+    <li>Coordinate: [COORDINATE] [TARGET_ALADIN_URL] [TARGET_SIMBAD_URL]
+    <li>Standard: [STD_NAME] [STD_TYPE] [STD_SIMBAD_URL]
+    <li>Target Airmass: [AIRMASS]
+    <li>Standard Airmass: [STD_AIRMASS]
+    <li>Delta Airmass: [DELTA_AIRMASS]
+    <li>Delta Angle: [DELTA_ANGLE]
+    <li>UT time: [UT_START] to [UT_END]
+    <li>Total Integration: [INTEGRATION] sec
+    <li>Mode: [MODE]
+    <li>Slit: [SLIT]
+    <li>Files: Target [TARGET_FILES], Standard [STD_FILES]
+   </ul>
+  </td>
+ </tr>
+</table>
+
+
+<!-- INDIVIDUAL SOURCE SPECTRA -->
+
+<button type="button" class="collapsible">Target Spectra</button>
+<div class="content">
+
+<h4>Combined Spectra</h4>
+
+[TARGET_COMBINED_FILES]
+
+<h4>Individual Extracted Spectra</h4>
+
+[TARGET_SPECTRA_FILES]
+
+<h4>Individual Calibrated Spectra</h4>
+
+[TARGET_CALIBRATED_FILES]
+
+</div>
+
+
+<!-- INDIVIDUAL STANDARD SPECTRA -->
+
+<button type="button" class="collapsible">Calibrator Spectra</button>
+<div class="content">
+
+<h4>Combined Spectra</h4>
+
+[STD_COMBINED_FILES]
+
+
+<h4>Individual Extracted Spectra</h4>
+
+[STD_SPECTRA_FILES]
+
+<h4>Telluric Correction</h4>
+
+[STD_TELLURIC_FILES]
+
+</div>
+
+
+<!-- TRACES & APERTURE PARAMETERS -->
+
+<button type="button" class="collapsible">Traces and Apertures</button>
+<div class="content">
+
+<h4>Targets</h4>
+
+[TARGET_TRACE_APERTURE_FILES]
+
+<h4>Calibrators</h4>
+
+[STD_TRACE_APERTURE_FILES]
+
+</div>
+
+<!--
+</div>
+-->
+<hr>
+
