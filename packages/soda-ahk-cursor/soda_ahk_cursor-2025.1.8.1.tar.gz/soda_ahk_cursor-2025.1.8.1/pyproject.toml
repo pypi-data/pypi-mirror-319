@@ -1,0 +1,41 @@
+[project]
+name = "soda-ahk-cursor"
+version = "2025.1.8.1"
+description = "Move cursor randomly."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.6",
+    "pyautogui",
+    "pywin32>=308",
+    "requests>=2.32.3",
+    "uvicorn>=0.34.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+# All the following settings are optional:
+where = ["."]                             # ["."] by default
+include = ["*"]                           # ["*"] by default
+exclude = ["test*", "scripts", ".vscode"] # empty by default
+
+
+[tool.setuptools.package-data]
+ahk_cursor = ["*.ahk", "*.ico"]
+
+[dependency-groups]
+dev = [
+    "build>=1.2.2.post1",
+    "twine>=6.0.1",
+]
+
+
+[project.scripts]
+# main cli use
+soda-ahk-cursor = "ahk_cursor.launcher:launcher"
+soda-ahk-cursor-stop = "ahk_cursor.stop:stop"
+# launched in AHK
+soda-ahk-cursor-launcher = "ahk_cursor.main:main"
