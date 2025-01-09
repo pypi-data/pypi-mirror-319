@@ -1,0 +1,7 @@
+setup.py
+cprimefunc/__init__.py
+cprimefunc/prime_checker.py
+cprimefunc.egg-info/PKG-INFO
+cprimefunc.egg-info/SOURCES.txt
+cprimefunc.egg-info/dependency_links.txt
+cprimefunc.egg-info/top_level.txt
