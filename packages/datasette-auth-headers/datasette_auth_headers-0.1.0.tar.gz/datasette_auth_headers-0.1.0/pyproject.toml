@@ -1,0 +1,34 @@
+[project]
+name = "datasette-auth-headers"
+version = "0.1.0"
+description = "Authenticate a Datasette instance using headers set by an upstream proxy"
+readme = "README.md"
+authors = [{name = "Abigail Pain"}]
+license = {text = "Apache-2.0"}
+classifiers=[
+    "Framework :: Datasette",
+    "License :: OSI Approved :: Apache Software License"
+]
+requires-python = ">=3.9"
+dependencies = [
+    "datasette"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/codemicro/datasette-auth-headers"
+Changelog = "https://github.com/codemicro/datasette-auth-headers/releases"
+Issues = "https://github.com/codemicro/datasette-auth-headers/issues"
+CI = "https://github.com/codemicro/datasette-auth-headers/actions"
+
+[project.entry-points.datasette]
+auth_headers = "datasette_auth_headers"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-asyncio"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"

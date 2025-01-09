@@ -1,0 +1,2 @@
+[datasette]
+auth_headers = datasette_auth_headers
