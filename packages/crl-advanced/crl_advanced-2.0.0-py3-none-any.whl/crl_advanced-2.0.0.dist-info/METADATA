@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: crl-advanced
+Version: 2.0.0
+Summary: Configuration and setup for CRL Browser
+Author: Zaman
+Author-email: zipishuseyinli25@gmail.com
+License: GPL-2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.md
+Requires-Dist: PyQt6
+Requires-Dist: requests
+Requires-Dist: psutil
+Requires-Dist: argparse
+Requires-Dist: Cython
+
+# crl-browser
+crl browser is a browser developed for the "CRL" network.
+
+The interface mostly consists of embedded html and some widget structures. Its main goal is to provide a free and stable experience to the user by providing support for the "CRL" network ecosystem. Thanks to the "CRL" network support, this browser is now offered through the crl-browser network ecosystem.
