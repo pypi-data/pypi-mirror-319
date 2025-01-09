@@ -1,0 +1,44 @@
+[tool.poetry]
+authors = ["Tobias Genannt <tobias.genannt@gmail.com>"]
+classifiers = [
+  "Framework :: Django",
+  "Environment :: Plugins",
+  "Topic :: System :: Networking",
+  "Topic :: System :: Systems Administration"
+]
+description = "Adds some functions used by scanplus GmbH"
+license = "Apache-2.0"
+name = "netbox-qbeyond-addon"
+readme = "README.md"
+repository = "https://github.com/scanplus/netbox-sp-addon"
+version = "1.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[[tool.poetry.source]]
+priority = "primary"
+name = "nexus"
+url = "https://nexus.scanplus.de/repository/pypi-group/simple/"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.0"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+extend-select = ["I", "PL", "W191", "W291", "W292", "W293"]
+
+[tool.ruff.lint.isort]
+section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
