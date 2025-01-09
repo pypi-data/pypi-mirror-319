@@ -1,0 +1,15 @@
+inovyo_api/__init__.py,sha256=9Gt8yU7jAUez0CFJGyFhwu9vEu2ZdcrNIZLDzy2b-0A,281
+inovyo_api/auth.py,sha256=6L9Xd9m2LQgUSZUKHlZtVE-s8Le96fB7dlswGcjV8oU,843
+inovyo_api/contacts.py,sha256=UqEqOBgjz4wZ8sIvD59Z_dNEsCocSoPmqecwB9JVL4M,2082
+inovyo_api/surveys.py,sha256=QhWVMUKzX8s3CUvAEGvWgh5-48AWae2OLLEtcwSrqR8,1406
+inovyo_api/utils.py,sha256=KzOddmov9QjeV67tsO6tOr-aVfoyl-WI2NRmFpqUirI,117
+inovyo_api/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inovyo_api/tests/test_auth.py,sha256=EVNmvhszVsC_Cad6rmGPh1ARjqliLH94XN-kJk7fjBs,572
+inovyo_api/tests/test_contacts.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inovyo_api/tests/test_surveys.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inovyo_api/tests/test_utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inovyo_api-0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inovyo_api-0.1.dist-info/METADATA,sha256=RVWzeIwU53GbxhlVyJHbXbzDnpiCkpdTCjhvhR0eCQs,383
+inovyo_api-0.1.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+inovyo_api-0.1.dist-info/top_level.txt,sha256=nj-WAQa7sVPH7X9dajFwLP4ezVqSmnPxogcIl0weHiw,11
+inovyo_api-0.1.dist-info/RECORD,,
