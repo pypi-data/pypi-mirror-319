@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+iu2frl_civ.egg-info/PKG-INFO
+iu2frl_civ.egg-info/SOURCES.txt
+iu2frl_civ.egg-info/dependency_links.txt
+iu2frl_civ.egg-info/requires.txt
+iu2frl_civ.egg-info/top_level.txt
