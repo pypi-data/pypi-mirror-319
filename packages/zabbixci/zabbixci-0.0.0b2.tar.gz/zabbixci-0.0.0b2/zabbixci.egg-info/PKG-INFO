@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: zabbixci
+Version: 0.0.0b2
+Summary: Source control for Zabbix templates in Git
+Author-email: Wouter de Bruijn <wouter.debruijn@retigra.nl>, Raymond Kuiper <raymond.kuiper@retigra.nl>
+License-File: LICENSE.txt
+Requires-Dist: zabbix_utils
+Requires-Dist: python-dotenv
+Requires-Dist: ruamel.yaml
+Requires-Dist: regex
+Requires-Dist: pygit2

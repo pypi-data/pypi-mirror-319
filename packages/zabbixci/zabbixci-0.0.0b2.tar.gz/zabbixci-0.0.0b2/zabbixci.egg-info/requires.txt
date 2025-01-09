@@ -1,0 +1,5 @@
+zabbix_utils
+python-dotenv
+ruamel.yaml
+regex
+pygit2
