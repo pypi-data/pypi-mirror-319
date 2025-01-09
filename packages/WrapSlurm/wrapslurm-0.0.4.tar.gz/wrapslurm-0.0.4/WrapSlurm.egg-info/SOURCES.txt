@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+WrapSlurm.egg-info/PKG-INFO
+WrapSlurm.egg-info/SOURCES.txt
+WrapSlurm.egg-info/dependency_links.txt
+WrapSlurm.egg-info/entry_points.txt
+WrapSlurm.egg-info/requires.txt
+WrapSlurm.egg-info/top_level.txt
+wrapslurm/__init__.py
+wrapslurm/node_info.py
+wrapslurm/queue_info.py
