@@ -1,0 +1,50 @@
+[project]
+name = "luminaut"
+dynamic = ["version"]
+description = "Casting light on shadow cloud deplouments"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "boto3~=1.35.53",
+    "orjson~=3.10.12",
+    "python3-nmap~=1.9.1",
+    "rich~=13.9.4",
+    "shodan~=1.31.0",
+]
+
+[project.scripts]
+luminaut = "luminaut.__main__:main"
+
+[dependency-groups]
+dev = [
+    "moto>=5.0.18",
+    "pytest-cov>=6.0.0",
+    "pytest>=8.3.3",
+    "ruff>=0.8.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/luminaut/__init__.py"
+pattern = '^__version__ = "(?P<version>[^"]+)"'
+
+[tool.uv]
+package = true
+
+[tool.ruff.lint]
+select = [
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # isort
+    "I",
+]
+
+[tool.pytest.ini_options]
+addopts = "--cov=src/luminaut --cov-report=term --cov-report=html --cov-report=xml --cov-branch --durations=3"
