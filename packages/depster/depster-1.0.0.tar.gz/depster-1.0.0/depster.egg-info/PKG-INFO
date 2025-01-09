@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: depster
+Version: 1.0.0
+Summary: A tool create a detailed CSV analyzing your project's dependencies
+Home-page: https://github.com/shbenzer/depster
+Author: Simon H. Benzer
+Author-email: SimonHBenzer@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: requests
+
+# depster
+An Easy-To-Use Tool for Creating Detailed a Detailed Dependency Spreadsheet for Projects
