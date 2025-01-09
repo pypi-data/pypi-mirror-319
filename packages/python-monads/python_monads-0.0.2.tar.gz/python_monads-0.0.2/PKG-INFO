@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: python-monads
+Version: 0.0.2
+Summary: Either and Maybe monads for Python
+Home-page: https://to.do
+License: MIT
+Keywords: monad
+Author: Pol Dellaiera
+Maintainer: Pol Dellaiera
+Requires-Python: >=3.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Documentation, https://github.com/drupol/python-monads
+Project-URL: Repository, https://github.com/drupol/python-monads.git
+Description-Content-Type: text/markdown
+
+# Python-Monads
+
+Work in progress
+
+## License
+
+MIT
+
