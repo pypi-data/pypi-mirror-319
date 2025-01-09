@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rnode
+Version: 0.1.4
+Summary: Market data service Python bindings
+Author: stark
+Author-email: ywiscat@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: patchelf (>=0.17.2.1,<0.18.0.0)
+Description-Content-Type: text/markdown
+
+# rnode
+rust data node 提升data处理性能表现
