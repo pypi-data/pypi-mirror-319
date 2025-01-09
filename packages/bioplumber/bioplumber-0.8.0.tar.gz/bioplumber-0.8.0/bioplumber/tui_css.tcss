@@ -1,0 +1,136 @@
+Tabs {
+    transition: none;
+}
+
+#io_buttons
+{
+    height: 10%;
+}
+#func_panel
+{
+    height: 40%;
+}
+#func_match
+{
+    height: 40%;
+}
+
+#num_chains
+{
+    width: 30%;
+}
+#num_cmds
+{
+    width: 30%;
+}
+#chain_info
+{
+    height: 20%;
+}
+
+
+#num_batches
+{
+    width: 20%;
+    height: 20%;
+}
+
+#batch_area
+{
+    height: 50%;
+}
+
+WelcomeScreen{
+    align: center middle;
+}
+
+#welcome_screen
+{
+    height: 35%;
+    width: 40%;
+    align: center middle;
+    background: $panel;
+    border: solid $secondary;
+}
+#welcome_screen_all
+{
+
+    align: center middle;
+
+}
+
+.question {
+    text-style: bold;
+    height: 30%;
+    padding:1 ;
+    content-align: center top;
+}
+
+
+#welcome_screen_buttons
+{
+    
+    height: 100%;
+    width: 100%;
+    align-horizontal: center  ;
+}
+
+ProjectAlreadyExists 
+{
+
+    background: rgba(0, 0, 0, 0.5);
+    align: center middle;
+}
+
+#project_overwrite_screen
+{
+    height: 35%;
+    width: 50%;
+    background: $panel;
+    align: center middle;
+    border: solid $secondary;
+
+}
+#project_overwrite_buttons
+{
+    height: 60%;
+    width: 100%;
+    align: center middle;
+    padding:1 1;
+}
+
+#project_overwrite_question
+{
+    text-style: bold;
+    height: 50%;
+    content-align: center top;
+    padding:1 1;
+    text-align: center;
+}
+
+#existing_run_label
+{
+    text-style: bold;
+    content-align: center top;
+    padding:1 1;
+    text-align: center;
+}
+#run_list
+{
+    margin: 0 1 1 1;}
+#create_new_run_label
+{
+    text-style: bold;
+    content-align: center top;
+    padding:1 1;
+    text-align: center;
+}
+#create_run
+{
+    margin: 1 1 1 1;
+}
+#back
+{
+
+    margin:1 1 1 1;
+}
