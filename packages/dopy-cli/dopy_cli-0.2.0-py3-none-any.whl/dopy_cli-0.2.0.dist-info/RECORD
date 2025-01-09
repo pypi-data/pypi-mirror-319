@@ -1,0 +1,13 @@
+dopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dopy/cli.py,sha256=ZN4O1VkwroKo4pS_MKRt6VHHkNcRxhB_SgxMrAgKUzU,2418
+dopy/core.py,sha256=2oj1mxmkf9PU0BUhckB05zL93VRV6UvH3a-fAvW0BY0,4514
+dopy/exceptions.py,sha256=ezIOsAI6HpkJxkznAMWi6BNwAQGga51_dNCl8tJx8iw,2145
+dopy/help.py,sha256=lIW6dQ9Ejls6xbdVyyz9Hk2GFwQ8IU1yKYDcQ_GqR3k,351
+dopy/transpiler/__init__.py,sha256=KPza8vV38drEDztPonX_hbfnvRzQqVMl_Y_Qlv8DXnA,528
+dopy/transpiler/collector.py,sha256=Xki3unRjOPeU3hzdGGbF0p3SL-MLC2XwpcJdUzCN40Y,2240
+dopy/transpiler/processor.py,sha256=UgsYWw4Hul7XXE229Pj6TtY_UhSOa4KcflVAXCyj6yo,2200
+dopy_cli-0.2.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+dopy_cli-0.2.0.dist-info/METADATA,sha256=7YdxJ8oD5XQX1M6aWLJxOgzP1_K4hJwAYf2hou4DW68,2151
+dopy_cli-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dopy_cli-0.2.0.dist-info/entry_points.txt,sha256=7ms57pOB3bMX3Cf9Aruak4v1EofKJaEhX-s-wtFjpVU,38
+dopy_cli-0.2.0.dist-info/RECORD,,
