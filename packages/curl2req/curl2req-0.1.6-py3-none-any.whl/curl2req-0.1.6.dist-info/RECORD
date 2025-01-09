@@ -1,0 +1,10 @@
+curl2req/__init__.py,sha256=_xUAEnmPscvjD9Q6fkD-l4FCqN9oaL9fxxvpa-fiwRE,143
+curl2req/curl.py,sha256=zSlSGSPlWjHD1VUOgw8yQfjmHg5rW7MEG6HRmkv10sU,1607
+curl2req/parser.py,sha256=kH-qufgv5juV6uShJ6aN-XuI06UQ1auqWxIQunhZbE0,697
+curl2req/path.py,sha256=VCEwp1iLSj-3At66i7QOjPskIFsLKx8zpEknMPjDe5w,2028
+curl2req/req.py,sha256=EJqZ6eoZaTNkq_xInczeunqcDgC7HWhJ6PvhBOXZ38I,3338
+curl2req-0.1.6.dist-info/LICENSE,sha256=kvF2LWHhtXkGX97Tl5m-hMSIk2wcT8ygZtryPFiUijw,1063
+curl2req-0.1.6.dist-info/METADATA,sha256=NQ8DiGgE2LkgkKENb6N2LTA21Yt5Ann_GorlIAxieVs,11081
+curl2req-0.1.6.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+curl2req-0.1.6.dist-info/top_level.txt,sha256=N-FuWd6_uENRdg1pigNjuBPIEi0s-Gpt066utlu_diQ,9
+curl2req-0.1.6.dist-info/RECORD,,
