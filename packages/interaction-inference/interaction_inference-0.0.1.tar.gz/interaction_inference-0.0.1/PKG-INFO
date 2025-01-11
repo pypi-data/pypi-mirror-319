@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: interaction-inference
+Version: 0.0.1
+Summary: Infer gene interaction via constrained optimization
+Project-URL: Repository, https://github.com/willjgh/interaction-inference
+Author-email: William Hilton <williamjgh2000@gmail.com>
+License-File: LICENSE
+Keywords: inference,optimization,scRNA-seq
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: gurobipy==11.0
+Requires-Dist: jinja2
+Requires-Dist: matplotlib
+Requires-Dist: numpy<2
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+# interaction-inference
+
+Python package implementing an optimization based inference method to detect interaction between pairs of genes from cellular observations, together with tools for simulation of synthetic datasets and visualizations of performance.
+
+For current research on the method applied to interaction detection see the repository [here](https://github.com/willjgh/M5R), and for an in depth explanation of the general optimization approach see my [MSci thesis](https://github.com/willjgh/Year-4-Project/blob/master/Report/01844345_WH.pdf).
+
+## Installation
+
+Package is available on PyPi and installable through pip via
+
+```
+pip install interaction-inference
+```
+
+## Background and Examples
+
+For a brief overiew of biological background and example usage of the package see the [example notebook](https://github.com/willjgh/interaction-inference/blob/main/examples/example_notebook.ipynb), which shows how to load and simulate datasets, run analysis methods and compute performance metrics on simulated data.
