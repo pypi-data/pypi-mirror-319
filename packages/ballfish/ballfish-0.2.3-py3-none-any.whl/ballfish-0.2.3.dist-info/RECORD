@@ -1,0 +1,11 @@
+ballfish/__init__.py,sha256=qu5dlE9K0LxPEoPCh9iOwiCRQkSh6LcUtG4_pqt3flM,1083
+ballfish/distribution.py,sha256=1edRioCOqfJAn6OgBWRv3JtFmWLJBu8vMREO7oWEuL4,5109
+ballfish/projective.py,sha256=OCIZJeS5PQJXVabXpgb5SWAStf5pM9k9kxd_-CqydXI,3840
+ballfish/projective_transform.py,sha256=nAVuIuJ83J7Yvj7Cam-ytl4TTzCycAzwtmVbXKd161s,1559
+ballfish/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ballfish/transformation.py,sha256=Ol1-eCvZehlX8TvTP5q3t-e_F_hwt_fjxRybnO0gTO4,26785
+ballfish/truncnorm.py,sha256=wlsYrLxtoyLKc-jE-3O3ByoskPAfan0k0mdiAfCpdLA,712
+ballfish-0.2.3.dist-info/METADATA,sha256=qipYUsfFjojvKRcXhzfmi-ILx0u6cBZuI2XEZBgbMZw,750
+ballfish-0.2.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ballfish-0.2.3.dist-info/top_level.txt,sha256=_eBFEbMvjcUIFZUNr0xMFB1MrnsFdOsyQK2p45duK6w,9
+ballfish-0.2.3.dist-info/RECORD,,
