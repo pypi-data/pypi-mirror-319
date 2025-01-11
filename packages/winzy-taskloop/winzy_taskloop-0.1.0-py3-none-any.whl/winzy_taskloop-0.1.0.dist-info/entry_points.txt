@@ -1,0 +1,2 @@
+[winzy.plugins]
+taskloop = winzy_taskloop:taskloop_plugin
