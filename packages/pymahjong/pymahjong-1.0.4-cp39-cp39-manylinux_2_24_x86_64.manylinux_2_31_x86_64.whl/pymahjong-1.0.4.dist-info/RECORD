@@ -1,0 +1,11 @@
+MahjongPyWrapper.cpython-39-x86_64-linux-gnu.so,sha256=uc9LG_vT6L1CnlA-O6blRnR4x2J9-H8Rabb6ZAveu5A,994848
+pymahjong/__init__.py,sha256=Z-lm-G_0rrmZX_v-jqmMTic0HB2QI3vNz3yXUtm_ddY,200
+pymahjong/base_modules.py,sha256=k1Kh8iOITae8s9GUoZu-4Bx41wWGH-JLd6FNIpP7mx0,5421
+pymahjong/env_pymahjong.py,sha256=Wy5iZysfNusIEEY7-R-N12l0RP0avde2_p5KMij-Grs,19713
+pymahjong/models.py,sha256=dC2TShbLQp_QJ78sHuomQuCa06FyYjba6IRM_OQT-Z8,9529
+pymahjong/tenhou_paipu_check.py,sha256=Xe-7rf67vhv8cNX0shUjJEwEkjCbeOHO5lEsrQbONLA,31096
+pymahjong/test.py,sha256=hFMFhG3Xummx6LciDsTNrZc_oOUe4E5PuwzqGFcFF0c,2990
+pymahjong-1.0.4.dist-info/METADATA,sha256=rZRp_pP-4JCTWUHQCtbt6I_aWljBnxT210BlGcRrIdM,2549
+pymahjong-1.0.4.dist-info/WHEEL,sha256=ZZS2NS0RWDZUkkVqtS5wHhqXGLK3lSXTR3lcS7QpLn4,149
+pymahjong-1.0.4.dist-info/top_level.txt,sha256=z4T1Cm2SnOPYXurlAConNuziQ768Pb9HPiDKLn6ZjSo,10
+pymahjong-1.0.4.dist-info/RECORD,,
