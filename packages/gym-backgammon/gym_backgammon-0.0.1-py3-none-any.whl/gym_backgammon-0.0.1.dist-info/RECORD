@@ -1,0 +1,10 @@
+gym_backgammon/__init__.py,sha256=UGZ2vIMSHBGGMIaCYRXG5kLe0bMsb_dQf7V4QRMlpEc,245
+gym_backgammon/envs/__init__.py,sha256=dyuo9iLPJQ81oVFc1cgTjji1r0NiZZnxmm9y3O6eXgA,129
+gym_backgammon/envs/backgammon.py,sha256=5eGwmAwUeh3REt3y1jyhYpBTSxCRToV-iIHFllnKkKY,77227
+gym_backgammon/envs/backgammon_env.py,sha256=ntSYrEf83vv8cor2MU63uWyO546WBaO3nZxBOL8-C34,3998
+gym_backgammon/envs/rendering.py,sha256=7_8wgq5yKbbSX4N2EuNzknBA3obXRlGBb7sscdXVwNk,5964
+gym_backgammon-0.0.1.dist-info/LICENSE,sha256=I7U6XAEmG1twIhixZwnpFZDmhG9RIiqtEx5FYvPP0mI,1098
+gym_backgammon-0.0.1.dist-info/METADATA,sha256=-NFPJ1QqscdcvgFa3jwSq-N2I41IXw2S3NSvlqskRm4,128
+gym_backgammon-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+gym_backgammon-0.0.1.dist-info/top_level.txt,sha256=810-uHpSDLT8zLOtP9iRwD3uzg5Q4CEyKtNjvTG-UIQ,15
+gym_backgammon-0.0.1.dist-info/RECORD,,
