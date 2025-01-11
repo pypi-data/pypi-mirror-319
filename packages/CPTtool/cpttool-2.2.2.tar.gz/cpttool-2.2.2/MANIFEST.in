@@ -1,0 +1,3 @@
+include CPTtool/shapefiles/*
+exclude bro/*
+exclude bro/test_cpt_tool/*

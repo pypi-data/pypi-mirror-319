@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: CPTtool
+Version: 2.2.2
+Summary: CPT tool for the OURS model
+Author: Bruno Zuada Coelho, Eleni Smyrniou, Maarten Pronk
+Author-email: Bruno.ZuadaCoelho@deltares.nl, Eleni.Smyrniou@deltares.nl, Maarten.Pronk@deltares.nl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy>=1.26
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: netcdf4>=1.6.4
+Requires-Dist: pandas>=1.5
+Requires-Dist: pyproj>=3.6
+Requires-Dist: pyshp>=2.3
+Requires-Dist: scipy>=1.11
+Requires-Dist: more-itertools>=8.14
+Requires-Dist: rtree>=1.0
+Requires-Dist: tqdm>=4.62
+Requires-Dist: geopandas>=0.14
+Provides-Extra: testing
+Requires-Dist: pytest>=7.4; extra == "testing"
+Requires-Dist: coverage>=7.3; extra == "testing"
+Requires-Dist: sphinx>=7.2; extra == "testing"
+Requires-Dist: sphinxcontrib-bibtex>=2.6; extra == "testing"
+
+OURS CPT tool
+-------------
+
+This is python code for the CPT tool of [OURS](https://github.com/rivm-syso/OURS).
+
+The OURS CPT tool reads the information from the
+[BRO CPT dataset](https://www.pdok.nl/introductie/-/article/bro-geotechnisch-sondeeronderzoek-cpt-),
+the [geomorphological map](https://basisregistratieondergrond.nl/inhoud-bro/registratieobjecten/modellen/geomorfologische-kaart-gmm/)
+and the [NHI data](https://data.nhi.nu/) to create subsurface schematisations for the OURS model.
+
+The methodology for subsoil scenario schematisation is illustrated in the figure below.
+
+![Schematic methodology](./documentation/images/method.png)
+
+
+More details about the OURS CPT tool can be found in this [publication](https://www.researchgate.net/publication/347297118_SUBSOIL_MODELLING_FOR_RAILWAY_INDUCED_VIBRATIONS).
