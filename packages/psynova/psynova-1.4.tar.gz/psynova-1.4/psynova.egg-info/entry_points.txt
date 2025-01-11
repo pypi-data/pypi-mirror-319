@@ -1,0 +1,2 @@
+[console_scripts]
+psynova = psynova.__main__:main

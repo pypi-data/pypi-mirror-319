@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+psynova/__init__.py
+psynova/__main__.py
+psynova/client.py
+psynova/exceptions.py
+psynova/version.txt
+psynova.egg-info/PKG-INFO
+psynova.egg-info/SOURCES.txt
+psynova.egg-info/dependency_links.txt
+psynova.egg-info/entry_points.txt
+psynova.egg-info/requires.txt
+psynova.egg-info/top_level.txt
+tests/test.py
