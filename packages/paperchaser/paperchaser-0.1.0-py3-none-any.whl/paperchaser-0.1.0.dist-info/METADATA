@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: paperchaser
+Version: 0.1.0
+Summary: A tool for downloading academic paper references
+Author-email: semiquant <Jason.Limberis@ucsf.edu>
+License: MIT
+Project-URL: Homepage, https://www.SemiQuant.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: click
+Requires-Dist: tabulate
+Requires-Dist: tqdm
+Requires-Dist: scholarly
+Requires-Dist: crossrefapi
+Requires-Dist: PyPDF2
+
+# PaperChaser
+
+A Python tool for downloading academic paper references.
+
+## Installation
+
+```bash
+pip install paperchaser
+```
+
+## Features
+
+- Download PDF files from DOI references
+- Extract references from PDF files
+- Search for papers using various identifiers
+- Generate citation information
+- Command-line interface with progress bars and table outputs
+
+## Usage
+
+```bash
+# Extract references from a PDF
+paperchaser path/to/paper.pdf
+
+# Download a paper using DOI
+paperchaser download 10.1038/s41586-021-03819-2
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
