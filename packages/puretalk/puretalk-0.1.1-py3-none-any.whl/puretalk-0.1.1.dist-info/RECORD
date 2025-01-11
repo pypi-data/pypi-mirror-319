@@ -1,0 +1,12 @@
+puretalk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+puretalk/main.py,sha256=2sb8v5jqPZeTOpd3ewKriEsiMLUwytu6lTTntFcWGNI,3075
+puretalk/model/config.py,sha256=luf3C1KQFX9iNqSnnmF5y9AKlA_vbigHMcxLuatGhyQ,1077
+puretalk/model/data_loader.py,sha256=I1lvryX0If63ch6mbrzwf2UTdYOPDiPclN0J9twIfHM,862
+puretalk/model/inference.py,sha256=wxZL8Dzb_pm1-PsACXeh3KuQ442Hg8ZUqzLQdccCyoQ,1140
+puretalk/model/trainer.py,sha256=TF094kawsb3VZzvXAWv6y2dRWecxdHAHwNdJOcsLEdA,1063
+puretalk/model/tts.py,sha256=HuQRrwM7M0dIDGboZZ3MCM60eyxbQn83hnDg7sskY3s,2451
+puretalk/model/utils.py,sha256=OxT8d1eECjUSW2FwhEVOvc5Zc1FYbowwJST97hIpdCE,464
+puretalk-0.1.1.dist-info/METADATA,sha256=oVuHEhWx6tjDyr-j9UWXeIXd9N_N0Oa752YyPDokosU,1585
+puretalk-0.1.1.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+puretalk-0.1.1.dist-info/entry_points.txt,sha256=Ve7CDRRBFPL_dSzzqqdfuNTajlQys4OEGBtDyE26mOg,60
+puretalk-0.1.1.dist-info/RECORD,,
