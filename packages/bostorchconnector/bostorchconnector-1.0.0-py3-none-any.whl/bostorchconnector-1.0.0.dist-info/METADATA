@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: bostorchconnector
+Version: 1.0.0
+Summary: bostorchconnector, a Python package with a precompiled shared library
+Author: 
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bostorchconnector
+专为PyTorch训练存储在Bos上的数据集而设计的高吞吐插件，使用bostorchconnector可以高效地访问云上数据集和读写checkpoint。
+
+bostorchconnector是实现PyTorch的[dataset primitives](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html) 接口。
+同时支持两种dataset：
+- 随机读取[map-style datasets](https://pytorch.org/docs/stable/data.html#map-style-datasets)
+- 流式顺序读[iterable-style datasets](https://pytorch.org/docs/stable/data.html#iterable-style-datasets)
+
+支持checkpoint接口，可以直读/写云上Bos，无需落盘。
+
+## 开始
+
+### 前置环境
+
+- Linux
+- Python 3.8 or greater is installed 
+- PyTorch >= 2.0
+
+### 安装
+
+```shell
+pip install bostorchconnector
+```
+
+### 配置
+配置访问凭证，以下方式配置一种即可，优先级有先后。
+- 特定配置文件`~/.baidubce/credentials`
+- 安装且配置过bcecmd，默认配置路径是`~/.go-bcecli/credentials`
+- 设置环境变量：`BCE_ACCESS_KEY_ID`和`BCE_SECRET_ACCESS_KEY`
+
+其中credentials文件的格式是
+```
+[Defaults]
+Ak= 
+Sk= 
+Sts=
+```
+
+### Examples
+
+[API docs](http://)
+
+#### 示例
+
+使用from_prefix方法构建BosIterableDataset:
+```py
+from bostorchconnector import BosIterableDataset
+
+# You need to update <BUCKET> and <PREFIX>
+DATASET_URI="bos://<BUCKET>/<PREFIX>"
+ENDPOINT="http://bj.bcebos.com"
+
+iterable_dataset = BosIterableDataset.from_prefix(DATASET_URI, endpoint=ENDPOINT)
+
+# Datasets are also iterators. 
+for item in iterable_dataset:
+    data = item.read()
+    print(len(data))
+    print(item.key)
+```
+
+使用from_prefix方法构建BosMapDataset:
+```py
+from bostorchconnector import BosMapDataset
+
+# You need to update <BUCKET> and <PREFIX>
+DATASET_URI="bos://<BUCKET>/<PREFIX>"
+ENDPOINT="http://bj.bcebos.com"
+
+map_dataset = BosMapDataset.from_prefix(DATASET_URI, endpoint=ENDPOINT)
+
+# Randomly access to an item in map_dataset.
+item = map_dataset[0]
+
+# Learn about bucket, key, and content of the object
+bucket = item.bucket
+key = item.key
+content = item.read()
+len(content)
+```
+
+直接读写model checkpoint:
+```py
+from bostorchconnector import BosCheckpoint
+
+import torchvision
+import torch
+
+CHECKPOINT_URI="bos://<BUCKET>/<KEY>/"
+ENDPOINT="http://bj.bcebos.com"
+checkpoint = BosCheckpoint(endpoint=ENDPOINT)
+
+model = torchvision.models.resnet18()
+
+# Save checkpoint to Bos
+with checkpoint.writer(CHECKPOINT_URI + "epoch0.ckpt") as writer:
+    torch.save(model.state_dict(), writer)
+
+# Load checkpoint from Bos
+with checkpoint.reader(CHECKPOINT_URI + "epoch0.ckpt") as reader:
+    state_dict = torch.load(reader)
+
+model.load_state_dict(state_dict)
+```
+
