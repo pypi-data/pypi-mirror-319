@@ -1,0 +1,9 @@
+start_watching_case_list/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+start_watching_case_list/funcs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+start_watching_case_list/funcs/auth.py,sha256=BIr1y_LxmIHIIg-gKf8gZVZlJHQrxUyKKMXSoHUbnKc,599
+start_watching_case_list/funcs/query.py,sha256=QgDvgPsgRWwME_H84gNWnfzUfbPNCwiS-IN0bndyORo,1330
+start_watching_case_list/main.py,sha256=wZwzjP4yQJQPOoLLOV_FfLSUBCymk_WAKZ4ack9yf9s,643
+start_watching_case_list-0.1.6.dist-info/entry_points.txt,sha256=2NUIs8_BsFFApZ4o6b_Ys8Erj8EkmoRmi_ZTvrHt1Jw,79
+start_watching_case_list-0.1.6.dist-info/METADATA,sha256=0uy2x0V3hqoZGmj1C4FZ4ox7JLNpgI1SJr04Hb2g9yU,492
+start_watching_case_list-0.1.6.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+start_watching_case_list-0.1.6.dist-info/RECORD,,
