@@ -1,0 +1,7 @@
+apb_cx_oracle_spatial/__init__.py,sha256=HGPzZXxxOFbeD3iTEKnFehplxVuIvRu-qj6XUqQJOYQ,2745
+apb_cx_oracle_spatial/gestor_oracle.py,sha256=EJcIhI6hgzlq-oMr_Mj1xEI4NKmIqRysNPPQrTRZ8r8,76372
+apb_cx_oracle_spatial/sdo_geom.py,sha256=q1h5jASBoy79PF_YOVvQ4TqDdq8A0sObK8OuQWrUHgw,26250
+apb_cx_oracle_spatial-1.0.0.dist-info/METADATA,sha256=fTAlNH5Fgw10fZFpWA5RxNowdKX6IeituS605giAjsg,1450
+apb_cx_oracle_spatial-1.0.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+apb_cx_oracle_spatial-1.0.0.dist-info/top_level.txt,sha256=7iaKVTs7hNLx1UQOjsioQsaPHSPfXBhiyTTB02z-oh8,22
+apb_cx_oracle_spatial-1.0.0.dist-info/RECORD,,
