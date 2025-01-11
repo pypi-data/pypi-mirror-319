@@ -1,0 +1,16 @@
+big_text_tabs/__init__.py,sha256=pg0VC4lnScwHr_emncwIhxa82PWvhe-z3iZW5tA31aE,3885
+big_text_tabs/example.py,sha256=W5wAv8VIcF0ZGO6LOJ9WP9u3sp8qb7Jv3dHAm_HAPXM,900
+big_text_tabs/frontend/build/asset-manifest.json,sha256=UMI4y0HpVxm2UBU3zXoKhYDBNoDOgnKhpkLubftSksI,374
+big_text_tabs/frontend/build/bootstrap.min.css,sha256=X9ITP3t3djkRs4SffIkA1Q2WMy-oYl6au5HFYTVShe0,206960
+big_text_tabs/frontend/build/bootstrap.min.css.map,sha256=8SM4U2NQpCLGTQLW5D_x3qSTwxVq2CP-GXYc3V1WwFs,589892
+big_text_tabs/frontend/build/index.html,sha256=aPqtXuJdmUaJScndbmisxIvQO4l2wO2hDxjfaLrtFUo,553
+big_text_tabs/frontend/build/static/css/main.2412a3c6.css,sha256=0SijVCwqNccZVI4vTnHBOFDDpaJGNbf7HzaX5j8S2MU,331
+big_text_tabs/frontend/build/static/css/main.2412a3c6.css.map,sha256=YB8FDEEvVdTmKhC5jBmy8_ZRVTVfK8VpmydcXgr3tSo,754
+big_text_tabs/frontend/build/static/js/main.b9729270.js,sha256=C-RaCjDkEOaKUXXvdgzv0-QH7jfc8b-DF9lI-GCYL8U,319032
+big_text_tabs/frontend/build/static/js/main.b9729270.js.LICENSE.txt,sha256=cmjEMovgjlkZ-Bs7b5rRQ8FsJtL1F77Y3YkM2E9yfUs,1293
+big_text_tabs/frontend/build/static/js/main.b9729270.js.map,sha256=HstWJ_TCIn0U41ZgiwXKBjVWaLBvrItMYJtGl1r4NrY,1253541
+streamlit_big_text_tabs-0.0.4.dist-info/LICENSE,sha256=SHkHX-qiNZt-ACArrZP67jppVYPvF8xuUDRjJw_E3L0,1082
+streamlit_big_text_tabs-0.0.4.dist-info/METADATA,sha256=zP6vF6KZu9VLH-_B1lcQw_FK3e--LeAPR-hdgxs-ZT4,1421
+streamlit_big_text_tabs-0.0.4.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+streamlit_big_text_tabs-0.0.4.dist-info/top_level.txt,sha256=ld9mUNBbuL2lxs7OruvtnmCpLJm1twGRf5GTShJiYW4,14
+streamlit_big_text_tabs-0.0.4.dist-info/RECORD,,
