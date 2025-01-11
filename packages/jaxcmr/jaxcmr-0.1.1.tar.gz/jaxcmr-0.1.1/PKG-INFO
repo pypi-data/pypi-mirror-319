@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: jaxcmr
+Version: 0.1.1
+Summary: modeling memory search with jax
+Requires-Python: >=3.12
+Requires-Dist: h5py>=3.12.1
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: jax>=0.4.38
+Requires-Dist: jaxtyping>=0.2.36
+Requires-Dist: scipy==1.15.0
+Requires-Dist: simple-pytree>=0.2.2
+Requires-Dist: tqdm>=4.67.1
+Description-Content-Type: text/markdown
+
+# jaxcmr
+ modeling memory search with jax
