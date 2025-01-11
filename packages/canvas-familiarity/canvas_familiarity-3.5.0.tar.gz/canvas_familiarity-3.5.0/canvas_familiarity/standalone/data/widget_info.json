@@ -1,0 +1,1 @@
+{"experiment": "Widget Demo", "spec": {"filesPath": "None", "dataType": 1, "instancesPerPage": 150, "showUnfilteredData": true, "idColumn": "id"}, "pages": {"Familiarity": [{"name": "CanvasFamiliarity", "file": "CanvasFamiliarity.json", "height": "M", "width": "XXL", "page": "Familiarity"}]}, "exportID": "43776aa0-bdd6-11ef-a40a-00a5548b34c2"}
