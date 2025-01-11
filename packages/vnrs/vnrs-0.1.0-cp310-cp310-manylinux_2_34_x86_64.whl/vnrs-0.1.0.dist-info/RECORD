@@ -1,0 +1,7 @@
+vnrs-0.1.0.dist-info/METADATA,sha256=vSzoqt1RUvh_ipeMfyE2WUc21f71BX7l5xr6tXsGgfA,5305
+vnrs-0.1.0.dist-info/WHEEL,sha256=7H2a3bgImXvhAjl25mtjIaDOpPFiEysW0keiSTizk8k,108
+vnrs-0.1.0.dist-info/licenses/LICENSE,sha256=yvH6ck2FgtZ47IO_XjQSfzovkbhusblZIPl1JExnnUU,1084
+vnrs/__init__.py,sha256=VeoxH1apfk28na6w8-qqLew_69GswtbKMXskQ6OxSlw,53767
+vnrs/optimize.py,sha256=dK0HyMHzKKm_esX1zua6rCJiQhRmUNg_HvlBjqDlq0w,7389
+vnrs/vnrs.cpython-310-x86_64-linux-gnu.so,sha256=qsIYS2HGI4PjsoqfsidH48XzM5dNN8o0zLQoHiEAVC0,5042016
+vnrs-0.1.0.dist-info/RECORD,,
