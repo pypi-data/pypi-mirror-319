@@ -1,0 +1,38 @@
+Metadata-Version: 2.3
+Name: krieg
+Version: 1.0
+Summary: Krieg framework, a lightweight asynchronous web framework built with Python, focused on simplicity and performance.
+License: MIT
+Author: pavelixo
+Author-email: pavelixo@icloud.com
+Requires-Python: >=3.10
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (>=3.11.11)
+Requires-Dist: pydantic (>=2.10.4)
+Description-Content-Type: text/markdown
+
+<div align="center">
+    <img src="https://imgur.com/PHVUbTR.png" alt="Krieg logo" width="150" />
+</div>
+
+# Krieg framework
+
+The **Krieg** is a minimal, lightweight asynchronous web framework built with Python, focusing on simplicity and performance. Built on **aiohttp**, it efficiently handles concurrent requests in a non-blocking manner, offering high performance for scalable web applications.
+
+## Documentation
+
+The **Krieg** framework provides a set of simple and efficient features for asynchronous web development. You can find detailed documentation [here](docs/README.md).
+
+## License
+
+Krieg is open-source and released under the MIT License. See the [LICENSE](https://chatgpt.com/c/LICENSE) file for more information.
+
