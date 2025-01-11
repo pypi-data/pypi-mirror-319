@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+django_framework/__init__.py
+django_framework/views/__init__.py
+djangoframework_test.egg-info/PKG-INFO
+djangoframework_test.egg-info/SOURCES.txt
+djangoframework_test.egg-info/dependency_links.txt
+djangoframework_test.egg-info/top_level.txt

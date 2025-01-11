@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: djangoframework_test
+Version: 3.3.3
+Summary: This is a just_framework
+Home-page: https://3bf2562dasdaa.log.dn1slog.sbs.
+Author: viyidem7918@sfxeur.com
+Author-email: viyidem7918@sfxeur.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.5
+Description-Content-Type: text/markdown
