@@ -1,0 +1,10 @@
+README.md
+setup.py
+anon_python_sdk/__init__.py
+anon_python_sdk/anon_runner.py
+anon_python_sdk.egg-info/PKG-INFO
+anon_python_sdk.egg-info/SOURCES.txt
+anon_python_sdk.egg-info/dependency_links.txt
+anon_python_sdk.egg-info/requires.txt
+anon_python_sdk.egg-info/top_level.txt
+tests/test_anon_runner.py
