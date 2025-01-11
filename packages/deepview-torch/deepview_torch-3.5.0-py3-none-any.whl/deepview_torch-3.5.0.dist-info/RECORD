@@ -1,0 +1,5 @@
+deepview_torch/__init__.py,sha256=0iwHift2RhKO47Xwrbeg7LB-5xzXgRkqNkNwdBwQwQc,1745
+deepview_torch/_torch_producer.py,sha256=G9cHq5_J3o_Kn2kIRffrIlN3dpGJPC0JTYVCP0-tpKI,16616
+deepview_torch-3.5.0.dist-info/WHEEL,sha256=CpUCUxeHQbRN5UGRQHYRJorO5Af-Qy_fHMctcQ8DSGI,82
+deepview_torch-3.5.0.dist-info/METADATA,sha256=MvAZWRtsHqjlg8lcrnbKEqMSo9nXKehg1BCzMx2n8qI,1553
+deepview_torch-3.5.0.dist-info/RECORD,,
