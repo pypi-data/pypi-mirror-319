@@ -1,0 +1,8 @@
+compiler_config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compiler_config/config.py,sha256=PEHFzv2y-eAVLsXeJ2akxMnW2BH8WkZaPQ-Uuuv3aAA,14074
+compiler_config/serialiser.py,sha256=_2PX5O_2ITHjM7bKol6Z4mDfltq-SgCcrPCJWafpSZ8,6659
+compiler_config-0.1.1.dist-info/LICENSE,sha256=foiehoFA4yiNcs85jVCPVbrJEoEVTgfFFYK18DIcR8c,1500
+compiler_config-0.1.1.dist-info/METADATA,sha256=y8epptKYmdh4wRKnUl_i1PaCdyNzF_3ij7Ve6_2D-Rs,969
+compiler_config-0.1.1.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+compiler_config-0.1.1.dist-info/entry_points.txt,sha256=oE7fxtZSw0AzJoVEzJwDSSeWDZQcUhROotrqkQcmeIk,58
+compiler_config-0.1.1.dist-info/RECORD,,
