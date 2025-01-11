@@ -1,0 +1,12 @@
+tap_paylocity/__init__.py,sha256=tctMnOATF_yit9H0vWhDBWi4QL_AZtn9-ncQ9zr5648,25
+tap_paylocity/__main__.py,sha256=2PS5fds9gEqmVKgiXxZ4sI2UnZHxHIjoCvmRPj040xc,129
+tap_paylocity/auth.py,sha256=xvQQYymxBtHrR3SuNONUKdHks9x6LEzHoQ0uerNLDxE,1363
+tap_paylocity/client.py,sha256=FKmNHejETAL_GwNJAK1BKT5NC53PO2fjrMJdKXencYY,4512
+tap_paylocity/schemas/__init__.py,sha256=4L_j2w9G0RLeNu1IvmrlYD685cMULZhpvOezBL0leR8,42
+tap_paylocity/streams.py,sha256=xdS8RfCVCnjgf538f_mLId1Zz2TX9pSlA-NpMxra2ME,7353
+tap_paylocity/tap.py,sha256=zdcBp_WgLUGbpG15DykVxQieU2gcAXbIdLu5FQPqcnk,2519
+tap_paylocity-0.0.1.dist-info/LICENSE,sha256=KE81boapMDmL1AEZUxEreNExMuj-qAH3JIHcMSJGNUw,11342
+tap_paylocity-0.0.1.dist-info/METADATA,sha256=qLhxBJA4U5iuajBp7GiRMH5EhYZQkgkhKA0jdE84tRo,4012
+tap_paylocity-0.0.1.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+tap_paylocity-0.0.1.dist-info/entry_points.txt,sha256=nCQzzqTH-b1h1PedoxfQNMtG5vCQG7hlXhnOfJOJSPE,68
+tap_paylocity-0.0.1.dist-info/RECORD,,
