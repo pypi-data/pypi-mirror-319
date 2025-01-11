@@ -1,0 +1,7 @@
+LICENSE
+README.md
+jupiter_python_sdk_public.egg-info/PKG-INFO
+jupiter_python_sdk_public.egg-info/SOURCES.txt
+jupiter_python_sdk_public.egg-info/dependency_links.txt
+jupiter_python_sdk_public.egg-info/requires.txt
+jupiter_python_sdk_public.egg-info/top_level.txt
