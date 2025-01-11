@@ -1,0 +1,85 @@
+Metadata-Version: 2.2
+Name: epc-tofcam-toolkit
+Version: 0.1.1
+Summary: "Toolkit for ESPROS TOFcam's"
+Home-page: https://www.espros.com
+Author: "EPC"
+Author-email: "info@espros.com"
+Project-URL: Documentation, https://epc-tofcam-toolkit.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/espros/epc-tofcam-toolkit
+Keywords: TOF,TOFcam,ESPROS,EPC,Toolkit,pointcloud,3D,time of flight,TOF camera
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: pillow>=11.0.0
+Requires-Dist: opencv-python>=4.10.0.84
+Requires-Dist: pyqtgraph>=0.13.7
+Requires-Dist: PySide6>=6.8.1
+Requires-Dist: pyserial>=3.5
+Requires-Dist: scipy>=1.14.1
+Requires-Dist: PyQtDarkTheme-fork==2.3.2
+Requires-Dist: qtconsole>=5.6.1
+Requires-Dist: ipython>=8.30.0
+Requires-Dist: pyopengl>=3.1.7
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/espros/epc-tofcam-toolkit/master/docs/source/images/epc-logo.png" width="300">
+</div>
+
+# ESPROS TOFcam Toolkit
+The ESPROS TOFcam Toolkit is designed to control and visualize ESPROS TOFcam devices.
+It provides python modules for most TOFcam modules and GUI applications for interactive control and visualization.
+
+Website: https://www.espros.com  
+Products: https://www.digikey.com/en/supplier-centers/espros  
+Documentation: https://epc-tofcam-toolkit.readthedocs.io/en/latest/  
+Source code: https://github.com/espros/epc-tofcam-toolkit
+
+
+<img src="https://raw.githubusercontent.com/espros/epc-tofcam-toolkit/master/docs/source/images/gui660_pointcloud.png" width="800">
+
+## Quick-start
+install the package using pip
+```bash
+pip install epc-tofcam-toolkit
+```
+
+Connect and startup the camera. Then simply run the gui with: 
+```bash 
+tofcam660
+tofcam635
+tofcam611
+tofrange611
+```
+- TOFcam660 will try to connect to ip-address 10.10.31.180
+- TOFcam635 will try to find the com port automatically
+- TOFcam611 will try to find the com port automatically
+
+You can also manually specify the communication port
+```bash 
+tofcam660 --ip 10.10.31.180
+tofcam635 --port COM3
+tofcam611 --port COM3
+tofrange611 --port COM3
+```
+
+## Installation for development
+
+Clone this repository and cd into it
+
+Create a virtual environment and activate it
+```bash
+python -m venv .venv  
+
+# linux
+source .venv/bin/activate
+
+# windows
+.\.venv\Scripts\activate
+```
+
+Install the package in editable mode
+```bash
+pip install -e .
+```

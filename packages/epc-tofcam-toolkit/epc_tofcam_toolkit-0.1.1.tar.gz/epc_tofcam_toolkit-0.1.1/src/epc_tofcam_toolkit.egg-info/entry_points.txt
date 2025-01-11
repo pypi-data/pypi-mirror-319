@@ -1,0 +1,5 @@
+[console_scripts]
+tofcam611 = epc.tofCam_gui.gui_tofCam611_bridge:main
+tofcam635 = epc.tofCam_gui.gui_tofCam635_bridge:main
+tofcam660 = epc.tofCam_gui.gui_tofCam660_bridge:main
+tofrange611 = epc.tofCam_gui.gui_tofCam611_bridge:main
