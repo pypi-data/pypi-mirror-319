@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: shirotsubaki
+Version: 0.0.1a0
+Summary: Utility functions.
+Project-URL: GitHub, https://github.com/CookieBox26/shirotsubaki
+Author-email: CookieBox26 <cookie-box@cookie-box.info>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: jinja2
+Provides-Extra: docs
+Requires-Dist: mkdocs; extra == 'docs'
+Requires-Dist: mkdocs-material; extra == 'docs'
+Requires-Dist: mkdocstrings-python; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# shirotsubaki
+
+This package is being developed to help generate beautiful reports.  
+[Documentation](https://shirotsubaki.readthedocs.io/en/latest/)
+
+### Installation (for Users)
+
+#### From PyPI
+
+Currently under preparation.
+
+#### From GitHub
+
+```
+pip install git+https://github.com/CookieBox26/shirotsubaki -U
+```
+
+#### From Local Source Code
+
+```
+git clone https://github.com/CookieBox26/shirotsubaki
+cd shirotsubaki
+pip install .
+```
+
+### Development Guide (for Developers)
+```
+pytest  # Please test locally
+vi docs/reference.md  # Please update documentation
+mkdocs serve  # Please preview documentation locally
+```
