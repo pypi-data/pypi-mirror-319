@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: anticp3
+Version: 1.1
+Summary: AntiCP3 : Prediction of Anticancer Proteins
+Home-page: https://github.com/raghava/anticp3
+Author: GPS Raghava
+Author-email: raghava@iiitd.ac.in
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: bio (==1.7.1)
+Requires-Dist: biopython (==1.84)
+Requires-Dist: joblib (==1.4.2)
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: pandas (==2.2.3)
+Requires-Dist: scikit-learn (==1.5.2)
+Requires-Dist: scipy (==1.14.1)
+Requires-Dist: tqdm (==4.67.1)
+
+# AntiCP3 : Prediction of Anticancer Proteins
+
+**AntiCP3** is a tool developed for the prediction of anticancer proteins. This repository contains the standalone code for AntiCP3. In addition to the standalone, AntiCP3 is also available as a pip installable package and can also be accessed through the webserver: [https://webs.iiitd.edu.in/raghava/anticp3/](https://webs.iiitd.edu.in/raghava/anticp3/).
+
+For prediction of anticancer peptides (length less than 50) use [https://webs.iiitd.edu.in/raghava/anticp2/](AntiCP2).
+
+## PIP Installation
+
+`pip install anticp3`
+
+To get the help and available options:
+
+`anticp3 -h`
+
+## Example Run:
+`anticp3 -i example_input.fasta -m 2 -t 0.45 -o example_output.csv -wd ./example/`
+
+### Standalone
+The standalone version of anticp3 is written in python3 and following libraries are required for a successful run:
+
+- bio==1.7.1
+- joblib==1.4.2
+- numpy==1.26.4
+- pandas==2.2.3
+- scikit-learn==1.5.2
+- tqdm==4.67.1
+
+## MINIMUM USAGE
+`python anticp3.py -i example_input.fasta`
+
+## FULL USAGE
+usage: anticp3.py [-h] -i INPUT [-o OUTPUT] [-t THRESHOLD] [-m {1,2}] [-d {1,2}]
+                    [-wd WORKING]
+
+## Example Run:
+`anticp3 -i example_input.fasta -m 2 -t 0.45 -o example_output.csv -wd ./example/`
+
+| Argument                     | Description                                                                                               | Default Value               |
+|------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------|
+| `-h, --help`                 | Displays help information.                                                                               | N/A                         |
+| `-i INPUT, --input INPUT`    | Input protein sequence(s) in FASTA format.                                                              | Required                    |
+| `-o OUTPUT, --output OUTPUT` | Output file for saving results in CSV format.                                                           | `out.csv`                   |
+| `-m {1,2}, --model {1,2}`    | Model type: <br>1: AAC + PSSM based ET<br>2: AAC + PSSM + BLAST ensemble (Best Model).                  | `2`                         |
+| `-t THRESHOLD`               | Threshold value between 0 and 1.                                                                        | `0.5`                       |
+| `-wd WORKING_DIRECTORY`      | Directory path where input/output files are located.                                                    | Current directory of script |
+

@@ -1,0 +1,3 @@
+[console_scripts]
+anticp3 = anticp3.anticp3:main
+
