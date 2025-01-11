@@ -1,0 +1,12 @@
+vttcompilepy/vttcompilepy.cpython-310-i386-linux-gnu.so,sha256=oo2DHWowxjkgPBXzHrF05i005Dqn1zyCZbShkQ7b3vw,7115893
+vttcompilepy/quit_to_glyphs.py,sha256=USPDqC0iJmLK-SHBR3-nR1ReacNIKs7KE2MRj1vf-AU,4576
+vttcompilepy/__init__.py,sha256=rRj1kyo3VO-gNPedFT72RQ1rPQvWuRIy1duD6Lm9gsQ,141
+vttcompilepy/__main__.py,sha256=doQ-R0Ms6U5dyo5Ey21rq1OgrXUsOqOYMbbCp9XiyRA,2344
+vttcompilepy/_version.py,sha256=xI2rzwqw6yD9ZFfXvbxHAlAhpl5bcY39u2eNO3qD2wU,33
+vttcompilepy.libs/libgcc_s-1257a076.so.1,sha256=wbXWo2Qh33OuE7spB8-mVbZoEiUkvZu6ZH78pUNr9X8,168321
+vttcompilepy.libs/libstdc++-0530927c.so.6.0.32,sha256=h2p2et0WB0CYcMcUEViWjYXOe8uir-_tHJJZui-6GRc,3537509
+vttcompilepy-0.0.1.11.dist-info/METADATA,sha256=3DaBxKr1IJmPpRPsp79uPuww6YRtuV56ptCWFHV6Qv8,1970
+vttcompilepy-0.0.1.11.dist-info/RECORD,,
+vttcompilepy-0.0.1.11.dist-info/top_level.txt,sha256=71VktNtpjUWIU6OZsRlXy-v9gauYZkgQOaUI_DlE2Mo,13
+vttcompilepy-0.0.1.11.dist-info/WHEEL,sha256=s59Ahp8cWRUA5Ovk-CMAn28LPoIpJSf8JKZA-2Q_1eA,110
+vttcompilepy-0.0.1.11.dist-info/entry_points.txt,sha256=PpJiPR2lPxot3g6h6iUOSFH_v8hIeny0KKXzLplu4do,110
