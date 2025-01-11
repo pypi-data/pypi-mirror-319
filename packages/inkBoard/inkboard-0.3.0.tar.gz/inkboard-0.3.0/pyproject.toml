@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+namespaces = false
+
+[project]
+name = "inkBoard"
+authors = [
+    { name="Slalamander" }
+]
+description = "inkBoard aims to provide PSSM based dashboards in an easy, but flexible way"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+keywords = ["gui", "pixels", "interface", "MaterialDesignIcon", "mdi icons", "dashboards", "dashboarding",]
+classifiers = [
+
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+
+dependencies = [
+    "PyYAML", "PythonScreenStackManager>=0.3.6"
+]
+dynamic = ["version"]
+
+[project.scripts]
+inkBoard = "inkBoard.__main__:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "inkBoard.__version__"}
+
+[project.urls]
+Homepage = "https://github.com/Slalamander/inkBoard"
+source = "https://github.com/Slalamander/inkBoard"
