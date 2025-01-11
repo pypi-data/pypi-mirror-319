@@ -1,0 +1,3 @@
+"""
+Chat agent module initialization.
+""" 
