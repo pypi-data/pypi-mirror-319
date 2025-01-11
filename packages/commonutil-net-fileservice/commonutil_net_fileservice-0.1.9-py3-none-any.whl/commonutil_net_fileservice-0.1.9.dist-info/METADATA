@@ -1,0 +1,32 @@
+Metadata-Version: 2.2
+Name: commonutil-net-fileservice
+Version: 0.1.9
+Summary: Helper routine for file service
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# commonutil-net-fileservice
+
+This package provides helper routines for setting up file upload-and-process service.
+
+## Limitation
+
+### rsync over ssh
+
+Nested rsync target folder is not supported. File update detection will not work correctly.
+
+### moduli for DH-KEX
+
+Pre-generated moduli will be needed for old clients.
+
+Use system default one or generate your own copy with the following command:
+
+```
+ssh-keygen -M generate -O bits=4096 /tmp/moduli-4096.candidate
+ssh-keygen -M screen -f /tmp/moduli-4096.candidate moduli-4096.passed
+```
