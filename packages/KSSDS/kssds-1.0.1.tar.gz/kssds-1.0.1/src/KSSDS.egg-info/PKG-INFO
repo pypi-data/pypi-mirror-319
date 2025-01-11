@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: KSSDS
+Version: 1.0.1
+Summary: Korean Sentence Splitter for Dialogue System
+Home-page: https://github.com/ggomarobot/KSSDS
+Author: Gun Yang
+Author-email: ggomarobot@gmail.com
+License: MIT
+Keywords: Korean NLP sentence splitter dialogue system
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: GPUtil==1.4.0
+Requires-Dist: numpy<2.0,>=1.19.5
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: scikit_learn==1.6.0
+Requires-Dist: torch==2.5.1
+Requires-Dist: transformers==4.42.4
+
+# KSSDS
+
+Korean Sentence Splitter for Dialogue System.
+
+KSSDS is a robust sentence splitter specifically designed for handling Korean dialogue systems. It utilizes a fine-tuned T5 model to provide high-accuracy sentence splitting.
+
+---
+
+## Installation
+
+To install KSSDS, simply use pip:
+
+```bash
+pip install KSSDS
+```
+
+---
+
+## Quickstart
+
+Here’s how you can use KSSDS to split Korean sentences:
+
+```python
+from KSSDS import KSSDS
+
+# Initialize the model
+kssds = KSSDS()
+
+# Split sentences
+input_text = "안녕하세요. 오늘 날씨가 참 좋네요. 저는 산책을 나갈 예정입니다."
+split_sentences = kssds.split_sentences(input_text)
+
+# Print results
+for idx, sentence in enumerate(split_sentences):
+    print(f"{idx + 1}: {sentence}")
+```
+
+<pre style="background-color:#F5EDED; color:white; padding:10px; border-radius:5px; font-family:monospace;">
+<span style="color:#a29acb;">1: 안녕하세요.</span>
+<span style="color:#c3adad;">2: 오늘 날씨가 참 좋네요.</span>
+<span style="color:YellowGreen;">3: 저는 산책을 나갈 예정입니다.</span>
+</pre>
+
+---
+
+## Documentation and Details
+
+For advanced usage, training scripts, or contributing, please visit the [GitHub Repository](https://github.com/ggomarobot/KSSDS).
