@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+prlps_speller/__init__.py
+prlps_speller.egg-info/PKG-INFO
+prlps_speller.egg-info/SOURCES.txt
+prlps_speller.egg-info/dependency_links.txt
+prlps_speller.egg-info/requires.txt
+prlps_speller.egg-info/top_level.txt
