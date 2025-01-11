@@ -1,0 +1,8 @@
+pyvfg-2.0.1.dist-info/METADATA,sha256=CYv0XKyWd0YhcDqnIXbXTlVGCM9E7YpmeFzimdTuq5c,566
+pyvfg-2.0.1.dist-info/WHEEL,sha256=lWK3-Bgk0WnWBByE5b3Cq5VR1998HCQ2lZtuFHoBwss,104
+pyvfg/__init__.py,sha256=YnaXQkqAu7pqdZsz0OCN10IMCIihUYGTfgIhZCJDBaI,127
+pyvfg/pydantic.py,sha256=oXOlGwy15XhRnLFjUG4HABlzfcqp7tYqtqVbk8OWUMU,3506
+pyvfg/_pyvfg.pyi,sha256=2UevvnJXAQWtDdUI2jpoATRdVKfRom0ADfedbycdDRE,4895
+pyvfg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyvfg/_pyvfg.cpython-312-darwin.so,sha256=fzfJrHaBqeW8BB3nr24ZOPlTPsd7Z-_Y_y2QLYYOuXw,7014400
+pyvfg-2.0.1.dist-info/RECORD,,
