@@ -1,0 +1,2 @@
+[console_scripts]
+kzms-mcp-server-git = mcp_server_git:main
