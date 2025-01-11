@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+khxql123qq.egg-info/PKG-INFO
+khxql123qq.egg-info/SOURCES.txt
+khxql123qq.egg-info/dependency_links.txt
+khxql123qq.egg-info/top_level.txt
+scopium/__init__.py
+scopium/kk.py
