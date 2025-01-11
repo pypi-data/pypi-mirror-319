@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+localDNS/__init__.py
+localDNS/main.py
+localDNS.egg-info/PKG-INFO
+localDNS.egg-info/SOURCES.txt
+localDNS.egg-info/dependency_links.txt
+localDNS.egg-info/requires.txt
+localDNS.egg-info/top_level.txt
