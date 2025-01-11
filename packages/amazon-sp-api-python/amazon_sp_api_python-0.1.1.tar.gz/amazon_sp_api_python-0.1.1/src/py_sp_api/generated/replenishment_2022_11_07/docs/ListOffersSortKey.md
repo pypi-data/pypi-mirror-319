@@ -1,0 +1,19 @@
+# ListOffersSortKey
+
+The attribute to use to sort the results.
+
+## Enum
+
+* `ASIN` (value: `'ASIN'`)
+
+* `SELLING_PARTNER_FUNDED_BASE_DISCOUNT_PERCENTAGE` (value: `'SELLING_PARTNER_FUNDED_BASE_DISCOUNT_PERCENTAGE'`)
+
+* `SELLING_PARTNER_FUNDED_TIERED_DISCOUNT_PERCENTAGE` (value: `'SELLING_PARTNER_FUNDED_TIERED_DISCOUNT_PERCENTAGE'`)
+
+* `AMAZON_FUNDED_BASE_DISCOUNT_PERCENTAGE` (value: `'AMAZON_FUNDED_BASE_DISCOUNT_PERCENTAGE'`)
+
+* `AMAZON_FUNDED_TIERED_DISCOUNT_PERCENTAGE` (value: `'AMAZON_FUNDED_TIERED_DISCOUNT_PERCENTAGE'`)
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

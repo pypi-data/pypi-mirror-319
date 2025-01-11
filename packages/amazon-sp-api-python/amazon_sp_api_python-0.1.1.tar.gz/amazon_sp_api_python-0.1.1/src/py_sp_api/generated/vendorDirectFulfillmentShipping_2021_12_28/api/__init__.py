@@ -1,0 +1,8 @@
+# flake8: noqa
+
+# import apis into api package
+from py_sp_api.generated.vendorDirectFulfillmentShipping_2021_12_28.api.create_container_label_api import CreateContainerLabelApi
+from py_sp_api.generated.vendorDirectFulfillmentShipping_2021_12_28.api.customer_invoices_api import CustomerInvoicesApi
+from py_sp_api.generated.vendorDirectFulfillmentShipping_2021_12_28.api.vendor_shipping_api import VendorShippingApi
+from py_sp_api.generated.vendorDirectFulfillmentShipping_2021_12_28.api.vendor_shipping_labels_api import VendorShippingLabelsApi
+
