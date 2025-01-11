@@ -1,0 +1,55 @@
+# Table Diff
+
+Table Diff is a Python package that provides a text-based interface for comparing two tables. It is designed to be used by data analysts and data scientists to compare two tables and identify differences between them, especially as data is modified in an ETL pipeline.
+
+The diff between two tables is printed to stdout as Markdown, and can be saved to a Markdown file and/or PDF file.
+
+## Getting Started
+
+1. Install Python 3.10 or later.
+
+2. [Install pipx](https://pipx.pypa.io/stable/), a tool to create isolated Python environments for individual packages:
+```bash
+pip install pipx
+```
+
+3. Install this package using pipx:
+```bash
+pipx install table-diff
+```
+
+4. Run the either of the following to compare two tables:
+```bash
+table_diff <old_csv_path> <new_csv_path> -u PrimaryKeyCol1 PrimaryKeyColN
+```
+
+For development environment setup, please refer to the `CONTRIBUTING.md` guide.
+
+## Running with Docker
+
+Running this tool with Docker is not recommended.
+
+1. Clone this repository.
+2. Build the docker container: `docker build -t table-diff .`
+3. Run the docker container with a volume mount: `docker run -it -v <local_folder_path>:/files table-diff`
+4. Run `table_diff /files/<your_file_name_left.csv/pq> /files/<your_file_name_right.csv/pq> -u PrimaryKeyCol`
+
+To run the demo with the sample dataset bundled in this repository, run:
+
+```bash
+docker build -t table-diff .
+docker run -it table-diff
+
+# Inside the container:
+table_diff tests/demo_datasets/populations/city-populations_2010.csv tests/demo_datasets/populations/city-populations_2015.csv -u location_id
+```
+
+## Contributing
+Please submit Bug Reports and Merge Requests to the [GitLab project](https://gitlab.com/parker-research/table-diff).
+
+Please refer to the `CONTRIBUTING.md` file for more details about the contribution policy.
+
+## License
+This project is licensed using the MIT License. For more information, see the LICENSE file.
+
+Note that this project has been created and modified with the help of Large Language Model (LLM)-based tools like GitHub Copilot and ChatGPT.
