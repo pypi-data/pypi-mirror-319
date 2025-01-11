@@ -1,0 +1,6 @@
+ardmediathek
+enlighten
+requests
+appdirs
+Pillow
+python-dateutil
