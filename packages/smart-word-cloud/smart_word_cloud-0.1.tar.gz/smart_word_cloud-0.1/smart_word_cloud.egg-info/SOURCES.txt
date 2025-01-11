@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+smart_word_cloud/__init__.py
+smart_word_cloud/smart_word_cloud.py
+smart_word_cloud.egg-info/PKG-INFO
+smart_word_cloud.egg-info/SOURCES.txt
+smart_word_cloud.egg-info/dependency_links.txt
+smart_word_cloud.egg-info/top_level.txt
