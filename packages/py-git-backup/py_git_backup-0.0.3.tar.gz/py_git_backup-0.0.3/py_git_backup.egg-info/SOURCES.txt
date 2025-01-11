@@ -1,0 +1,13 @@
+README.md
+setup.py
+py_git_backup.egg-info/PKG-INFO
+py_git_backup.egg-info/SOURCES.txt
+py_git_backup.egg-info/dependency_links.txt
+py_git_backup.egg-info/entry_points.txt
+py_git_backup.egg-info/top_level.txt
+pygitup/__init__.py
+pygitup/generic.py
+pygitup/git_adapter.py
+pygitup/main_pygitup.py
+pygitup/programs.py
+pygitup/update.py
