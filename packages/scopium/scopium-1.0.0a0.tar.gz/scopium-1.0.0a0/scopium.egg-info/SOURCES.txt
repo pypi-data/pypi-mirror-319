@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+scopium/__init__.py
+scopium/browsers.py
+scopium/exceptions.py
+scopium/launcher.py
+scopium.egg-info/PKG-INFO
+scopium.egg-info/SOURCES.txt
+scopium.egg-info/dependency_links.txt
+scopium.egg-info/requires.txt
+scopium.egg-info/top_level.txt
