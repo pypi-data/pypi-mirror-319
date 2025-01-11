@@ -1,0 +1,11 @@
+README.md
+setup.py
+groupcorr/__init__.py
+groupcorr/exceptions.py
+groupcorr/groupcorr.py
+groupcorr/utils.py
+groupcorr.egg-info/PKG-INFO
+groupcorr.egg-info/SOURCES.txt
+groupcorr.egg-info/dependency_links.txt
+groupcorr.egg-info/requires.txt
+groupcorr.egg-info/top_level.txt
