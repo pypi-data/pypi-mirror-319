@@ -1,0 +1,2 @@
+[console_scripts]
+bu_isciii = bu_isciii.__main__:run_bu_isciii
