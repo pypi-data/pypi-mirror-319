@@ -1,0 +1,10 @@
+ibm_eventnotifications/__init__.py,sha256=cXRYIzq6B9LNPdbilVjAKNWiUHghMF9I_QPsQRnrAYo,914
+ibm_eventnotifications/common.py,sha256=Or5INDuAofEvNj3AbEAHKlDEPB6AGk5XziVSpJbrhlY,2390
+ibm_eventnotifications/event_notifications_v1.py,sha256=G7ZDcv0dLjo_t_HHgTVoKCO5cytkjt-WALIriXHI7ls,568219
+ibm_eventnotifications/version.py,sha256=no6jl0-aVFo3AED-Sf7X2BIZeoTxSfab8YqJp2AIpdo,667
+ibm_eventnotifications-0.8.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ibm_eventnotifications-0.8.0.dist-info/METADATA,sha256=gGJH5RWmHS8t2sX28y-6gfDHERXwK9tCqs_QKgsp3RU,37692
+ibm_eventnotifications-0.8.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ibm_eventnotifications-0.8.0.dist-info/top_level.txt,sha256=faBoOcwG92C9uu9zKgh82T7PzuZ0alXusY6NBpjXtzw,23
+ibm_eventnotifications-0.8.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ibm_eventnotifications-0.8.0.dist-info/RECORD,,
