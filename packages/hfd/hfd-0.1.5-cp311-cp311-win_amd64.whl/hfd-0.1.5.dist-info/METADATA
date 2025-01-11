@@ -1,0 +1,60 @@
+Metadata-Version: 2.4
+Name: hfd
+Version: 0.1.5
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Summary: Fast HuggingFace model downloader
+Keywords: huggingface,model,download,machine-learning,deep-learning
+Author: Your Name <your.email@example.com>
+Author-email: migu <migu@example.com>
+Maintainer-email: migu <migu@example.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Project-URL: Homepage, https://github.com/migu/hfd
+Project-URL: Repository, https://github.com/migu/hfd
+Project-URL: Documentation, https://github.com/migu/hfd
+
+# HFD - Hugging Face Downloader
+
+A fast and efficient tool for downloading models from Hugging Face.
+
+## Features
+
+- Fast parallel downloads
+- Support for multiple platforms (Linux, Windows, macOS)
+- Easy to use command-line interface
+- Progress bar for download tracking
+- Local directory support
+
+## Installation
+
+```bash
+pip install hfd
+```
+
+## Usage
+
+```bash
+# Download a model to the default cache directory
+hfd bert-base-uncased
+
+# Download a model to a specific directory
+hfd bert-base-uncased --local-dir ./bert
+
+# Use a mirror for faster downloads
+HF_ENDPOINT=https://hf-mirror.com hfd bert-base-uncased
+```
+
+## License
+
+MIT License
+
