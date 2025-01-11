@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+custom_iterable_dataset/__init__.py
+custom_iterable_dataset/dataset.py
+custom_iterable_dataset.egg-info/PKG-INFO
+custom_iterable_dataset.egg-info/SOURCES.txt
+custom_iterable_dataset.egg-info/dependency_links.txt
+custom_iterable_dataset.egg-info/requires.txt
+custom_iterable_dataset.egg-info/top_level.txt
+tests/test_dataset.py

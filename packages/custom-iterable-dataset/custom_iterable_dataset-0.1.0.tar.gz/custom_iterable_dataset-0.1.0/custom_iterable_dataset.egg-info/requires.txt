@@ -1,0 +1,12 @@
+torch>=2.0.0
+transformers>=4.0.0
+datasets>=2.0.0
+trl>=0.13.0
+
+[dev]
+build>=0.10.0
+twine>=4.0.0
+
+[test]
+pytest>=7.0.0
+pytest-cov>=4.0.0
