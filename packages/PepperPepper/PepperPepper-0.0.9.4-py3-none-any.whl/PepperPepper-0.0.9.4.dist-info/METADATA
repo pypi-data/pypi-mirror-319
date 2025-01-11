@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PepperPepper
+Version: 0.0.9.4
+Summary: A Deep Learning package developed by Aohua Li. This release adds patch_embed for dicing operations prior to mamba input.
+Author: Aohua Li
+Author-email: liah24@mails.jlu.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.21.0
+Requires-Dist: torch >=1.10.0
+Requires-Dist: scikit-learn
+
+# Pepper
+## Version:0.0.9.4
+This release adds patch_embed for dicing operations prior to mamba input.
