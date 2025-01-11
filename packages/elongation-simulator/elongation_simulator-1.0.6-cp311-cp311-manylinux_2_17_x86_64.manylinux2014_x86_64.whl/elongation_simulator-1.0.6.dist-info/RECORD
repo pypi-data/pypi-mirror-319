@@ -1,0 +1,17 @@
+sequence_simulator.cpython-311-x86_64-linux-gnu.so,sha256=zvdifJHqzrEwH85iC1fFaaLfw8Oopjs4r35wiMPgsMY,14624280
+codon_simulator.cpython-311-x86_64-linux-gnu.so,sha256=V8iwN-G4t4EY0PtzojB-qqlBjC8iuQMyobXzQr5gyZk,6894592
+concentrations/default_basepairing.json,sha256=k83xfpIM4aMDdYVfQB3mzfaW0lhDGgiCL26mhnM__a4,1118
+concentrations/basepairingeditor.py,sha256=NwjkCVTkmWq4wZ_yiPl2cOhXM3LP_oZm4Z3guU-ZOyo,13390
+concentrations/concentrations_generator.py,sha256=lpOxdyHmxGJ_P8W2ngw17pwpH-tQvaiOXfPZ4dlcvf0,11759
+concentrations/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+concentrations/Saccharomyces_cerevisiae.csv,sha256=OG3BkIrRmft8FvNgEjgrSFRaMTWiY3p7J1H8XkZbWK0,3978
+elongation_simulator-1.0.6.dist-info/METADATA,sha256=SmJ18s2bOtb5hwdQ80noRmMDfjBd4lvp-4Bc-cELUKw,2525
+elongation_simulator-1.0.6.dist-info/RECORD,,
+elongation_simulator-1.0.6.dist-info/top_level.txt,sha256=3gVSIleVxYsf-z-C026QzgHI7eV2e6g7aAJetEoRkzk,61
+elongation_simulator-1.0.6.dist-info/WHEEL,sha256=bWgrYGwmr1oqID2askDfuFruhD_BtRXYD33vDqPTClc,151
+elongation_simulator-1.0.6.dist-info/LICENSE,sha256=Yotd3yBS0SZ6vNTYyy4yvvHuGS74nYd2oCLMW_Eg0v4,1068
+elongation_simulator-1.0.6.data/scripts/basepairingeditor.py,sha256=IBb9yetE--qOYiADED3blEw1Y2FwEkhpNUxx00yFTM8,13376
+elongation_simulator-1.0.6.data/scripts/simulationbuilder.py,sha256=hfrd0gvU-YBqcSYWERRvN_RVOhhSx-sIJZfZ69gEaQ4,26778
+elongation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elongation/utils.py,sha256=dapR2w5nqM9INIqvAJ8EX3R-jKudAqdqR_EgdUVq7hY,668
+elongation/simulationbuilder.py,sha256=b-444tEf5Y0XnNNCaL7B8N0nt6SrSQVRWpsEXn9AgPw,26792
