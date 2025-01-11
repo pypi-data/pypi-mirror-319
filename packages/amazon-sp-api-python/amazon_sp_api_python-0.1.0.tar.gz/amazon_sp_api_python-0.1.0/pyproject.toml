@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "amazon-sp-api-python"
+version = "0.1.0"
+description = "Amazon SP-API Python Client"
+authors = ["Brian Peterson <brian.peterson@cloudshift.cc>"]
+homepage = "https://github.com/cloudshiftstrategies/py-sp-api"
+readme = "README.md"
+packages = [{include = "py_sp_api", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+pydantic = "^2.10.4"
+python-dateutil = "^2.9.0.post0"
+urllib3 = "^2.3.0"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+openapi-generator-cli = "^7.10.0.post0"
+pytest = "^8.3.4"
+python-dotenv = "^1.0.1"
+black = "^24.10.0"
+autoflake = "^2.3.1"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = [ "tests" ]
+
+[tool.black]
+line-length = 120
+extend-exclude = "(src/py_sp_api/generated|selling-partner-api-models)"
+
+[tool.semantic_release]
+branch = "main"
+version_toml = [ "pyproject.toml:tool.poetry.version" ]
+version_variables = [ 
+    "src/py_sp_api/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+commit_message = "chore(release): bump version to {version}"
