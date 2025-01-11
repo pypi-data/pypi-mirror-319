@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: deduplidog
+Version: 0.6.0
+Summary: Deduplicate folders
+License: GPL-3.0-or-later
+Author: Edvard Rejthar
+Author-email: edvard.rejthar@nic.cz
+Requires-Python: >=3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: IPython
+Requires-Dist: Pillow
+Requires-Dist: click (>=8.1.7,<8.2.0)
+Requires-Dist: dataclass_click (>=1.0.2,<1.1.0)
+Requires-Dist: humanize
+Requires-Dist: imagehash
+Requires-Dist: ipywidgets
+Requires-Dist: opencv-python
+Requires-Dist: sh
+Requires-Dist: textual (>=0.52.1,<0.53.0)
+Requires-Dist: tqdm

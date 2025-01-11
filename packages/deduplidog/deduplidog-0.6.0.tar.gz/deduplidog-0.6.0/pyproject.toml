@@ -1,0 +1,27 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "deduplidog"
+version = "0.6.0"
+description = "Deduplicate folders"
+authors = ["Edvard Rejthar <edvard.rejthar@nic.cz>"]
+license = "GPL-3.0-or-later"
+
+[tool.poetry.dependencies]
+click = "~=8.1.7"
+dataclass_click = "~=1.0.2"
+python = ">=3.11"
+humanize = "*"
+imagehash = "*"
+IPython = "*"
+ipywidgets = "*"
+opencv-python = "*"
+Pillow = "*"
+textual = "~=0.52.1"
+sh = "*"
+tqdm = "*"
+
+[tool.poetry.scripts]
+deduplidog= "deduplidog.__main__:main"
