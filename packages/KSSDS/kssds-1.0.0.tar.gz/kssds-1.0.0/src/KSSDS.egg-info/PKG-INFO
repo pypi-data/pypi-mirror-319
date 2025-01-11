@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: KSSDS
+Version: 1.0.0
+Summary: Korean Sentence Splitter for Dialogue System
+Home-page: https://github.com/ggomarobot/KSSDS
+Author: Gun Yang
+Author-email: ggomarobot@gmail.com
+License: MIT
+Keywords: Korean NLP sentence splitter dialogue system
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: GPUtil==1.4.0
+Requires-Dist: numpy<2.0,>=1.19.5
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: scikit_learn==1.6.0
+Requires-Dist: torch==2.5.1
+Requires-Dist: transformers==4.42.4
+
+# KSSDS
+Korean Sentence Splitter for Dialogue System
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Project Structure
