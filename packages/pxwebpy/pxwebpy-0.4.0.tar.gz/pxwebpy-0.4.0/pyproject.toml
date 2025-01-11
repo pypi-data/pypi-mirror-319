@@ -1,0 +1,50 @@
+[project]
+name = "pxwebpy"
+dynamic = ["version"]
+description = "Get data from PxWeb API easily."
+license = "MIT"
+repository = "https://github.com/stefur/pxwebpy/"
+keywords = ["pxweb", "statistics", "dataframes", "pandas", "polars"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+authors = [
+    { name = "Stefan Furne", email = "stefan@furne.net" }
+]
+dependencies = [
+    "requests>=2.32.3",
+    "requests-cache>=1.2.1",
+]
+readme = "README.md"
+requires-python = ">= 3.9"
+
+[project.urls]
+Repository = "https://github.com/stefur/pxwebpy"
+
+[build-system]
+requires = ["hatchling", "versioningit"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "versioningit"
+
+[tool.hatch.build]
+artifacts = ["src/pxwebpy/_version.py"]
+
+[tool.versioningit.write]
+file = "src/pxwebpy/_version.py"
+
+[dependency-groups]
+dev = [
+    "pandas>=2.2.3",
+    "pandas-stubs>=2.2.2.240807",
+    "polars>=1.19.0",
+    "pytest>=8.3.4",
+    "types-requests>=2.32.0.20241016",
+]
