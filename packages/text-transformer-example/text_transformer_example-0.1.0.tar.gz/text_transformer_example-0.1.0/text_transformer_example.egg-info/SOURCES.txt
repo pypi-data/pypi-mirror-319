@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tests/test_core.py
+text_transformer_example/__init__.py
+text_transformer_example/core.py
+text_transformer_example.egg-info/PKG-INFO
+text_transformer_example.egg-info/SOURCES.txt
+text_transformer_example.egg-info/dependency_links.txt
+text_transformer_example.egg-info/requires.txt
+text_transformer_example.egg-info/top_level.txt
