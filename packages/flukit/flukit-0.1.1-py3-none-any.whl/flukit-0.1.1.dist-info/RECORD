@@ -1,0 +1,8 @@
+flukit-0.1.1.dist-info/METADATA,sha256=dMbJUCkcofCXhSaLYehgP1mJZdtsLITFXVz1X9bUP-g,677
+flukit-0.1.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+flukit-0.1.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+flukit/__init__.py,sha256=4b5XXp5w-Kg7KtiXTFVrS6KYS_JU94Sxkya93G3skb0,1076
+flukit/align.py,sha256=cxztvrjxpDTWqiVDp_Z3ODAIkvySvd09f9H3CdDFmuY,3189
+flukit/refseq.py,sha256=47rzmHQNJih7NPTsU5aJdqty7SKLthMoz8_eWjYiGbc,1959
+flukit/utils.py,sha256=Hb-KS4y8aCInlZ6FQl_vOAPQTtnHvkZ5aqf-zez2Sag,13467
+flukit-0.1.1.dist-info/RECORD,,

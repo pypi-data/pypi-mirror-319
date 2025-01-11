@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flukit
+Version: 0.1.1
+Summary: Toolkit for influenza virus research
+Author-Email: william <william_swl@163.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: biopython>=1.84
+Description-Content-Type: text/markdown
+
+# flukit
+
+This is a package to deal with the sequence stuffs of influenza virus.
+
+For example, to align the amino acid sequences of influenza virus, and denote the sequences by canonical H3 numbering. This will need the command line software "probcons" to help.
+
+To mutate the sequences in batch, for example if user input "H3:Y98F", the program will mutate the residue from Y to F at position 98 according to the H3 numbering.
