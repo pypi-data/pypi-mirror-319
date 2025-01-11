@@ -1,0 +1,39 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools>=61.0",
+]
+
+[project]
+authors = [
+    { email = "johannes-programming@mailfence.com", name = "Johannes" },
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+    "biopython==1.77",
+    "click>=8.1.7",
+    "compareworkbooks>=0.2",
+    "openpyxl>=3.0.3",
+    "tomli>=2.0.1",
+]
+description = "Brain Antibody Sequence Evaluation (BASE)"
+keywords = []
+name = "BASE_dzne"
+readme = "README.rst"
+requires-python = ">=3.10,<3.11"
+version = "0.0.4"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+Documentation = "https://pypi.org/project/BASE_dzne/"
+Download = "https://pypi.org/project/BASE_dzne/#files"
+Paper = "https://pubmed.ncbi.nlm.nih.gov/33032524/"
+Source = "https://github.com/johannes-programming/BASE_dzne/"

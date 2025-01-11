@@ -1,0 +1,5 @@
+biopython==1.77
+click>=8.1.7
+compareworkbooks>=0.2
+openpyxl>=3.0.3
+tomli>=2.0.1
