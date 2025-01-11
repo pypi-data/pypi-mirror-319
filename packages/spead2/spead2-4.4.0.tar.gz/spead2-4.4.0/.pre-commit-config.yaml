@@ -1,0 +1,60 @@
+repos:
+  - repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        name: isort
+  - repo: https://github.com/psf/black
+    rev: 23.7.0
+    hooks:
+      - id: black
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-merge-conflict
+      - id: check-shebang-scripts-are-executable
+      - id: check-executables-have-shebangs
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: trailing-whitespace
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.0.285
+    hooks:
+      - id: ruff
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.4.1
+    hooks:
+      - id: mypy
+        # Passing filenames to mypy can do odd things. See
+        # https://github.com/pre-commit/mirrors-mypy/issues/33.
+        # mypy.ini determines the set of files that will actually be checked.
+        pass_filenames: false
+        # The pre-commit hook passes some options, but we set options in mypy.ini.
+        args: []
+        # The pre-commit hook only has python, not pyi.
+        types: []
+        types_or: [python, pyi]
+        additional_dependencies: [
+          'numpy==2.0.2'
+        ]
+  - repo: https://github.com/jazzband/pip-tools
+    rev: 7.4.1
+    hooks:
+      - name: pip-compile (py 3.9)
+        id: pip-compile
+        args: [requirements.in]
+        language_version: python3.9
+        files: '^requirements\.(?:in|txt)$'
+      - name: pip-compile (py 3.13)
+        id: pip-compile
+        args: [--strip-extras, requirements.in, -o, requirements-3.13.txt]
+        language_version: python3.13
+        files: '^(?:requirements\.in|requirements-3\.13\.txt)$'
+      - name: pip-compile (readthedocs)
+        id: pip-compile
+        # --no-annotate because otherwise -r requirements.txt sometimes gets
+        # rewritten into an absolute path.
+        args: [--strip-extras, --no-annotate, requirements-readthedocs.in, -o, requirements-readthedocs.txt]
+        language_version: python3.12
+        files: '^requirements(?:-readthedocs)?\.(?:in|txt)$'
