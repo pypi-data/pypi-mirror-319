@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+smartwordcloudgenerator/__init__.py
+smartwordcloudgenerator/main.py
+smartwordcloudgenerator.egg-info/PKG-INFO
+smartwordcloudgenerator.egg-info/SOURCES.txt
+smartwordcloudgenerator.egg-info/dependency_links.txt
+smartwordcloudgenerator.egg-info/requires.txt
+smartwordcloudgenerator.egg-info/top_level.txt
