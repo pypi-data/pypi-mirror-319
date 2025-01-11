@@ -1,0 +1,4 @@
+PyJWT
+httpx>=0.28.1
+nonebot-adapter-onebot
+nonebot2>=2.2.0
