@@ -1,0 +1,2 @@
+[napari.manifest]
+lasso-3d = lasso_3d:napari.yaml
