@@ -1,0 +1,10 @@
+cli_veripy/__init__.py,sha256=CyAUvYmDlKUS0J7BIeDoxxpoHL5t7audhKq0N1baU5Y,160
+cli_veripy/argument.py,sha256=2ONcmKMKMzNg8nNIPwxzw3KmZraFaeqYEJffywlcsT4,1459
+cli_veripy/cli_args.py,sha256=94avUyxS9kPRP_HLP01k-7cs_ptAf0YI7_8ZrkSFRpc,11385
+cli_veripy/handler.py,sha256=LS9zwbbO2I20621ZIzaXp1l0NeJbgivgX5a-ytmTw6U,13139
+cli_veripy/type_validation.py,sha256=F-PdGHCeHanbXfIV3PgLq5RGVaYnd5L-LpkKMUpw7W8,11960
+cli_veripy-1.2.11.dist-info/LICENSE,sha256=y7HSi1FaOcKUlj1L_CQHfmaaSD_F67qbhKcnr9QYdCY,1067
+cli_veripy-1.2.11.dist-info/METADATA,sha256=nUXTsUYFrFk43ZdygKtyF3hKw3JJfs9vVadyh49gO6E,1533
+cli_veripy-1.2.11.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+cli_veripy-1.2.11.dist-info/top_level.txt,sha256=dFmpuXONZNuVh6SHZG9QIrQWW2SvcMMmhiiW5VS6Sjw,11
+cli_veripy-1.2.11.dist-info/RECORD,,
