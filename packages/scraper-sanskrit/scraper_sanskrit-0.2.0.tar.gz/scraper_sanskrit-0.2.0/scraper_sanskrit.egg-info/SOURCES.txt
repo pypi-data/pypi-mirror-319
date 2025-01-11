@@ -1,0 +1,9 @@
+README.md
+setup.py
+scrape_sanskrit/__init__.py
+scrape_sanskrit/scraper.py
+scraper_sanskrit.egg-info/PKG-INFO
+scraper_sanskrit.egg-info/SOURCES.txt
+scraper_sanskrit.egg-info/dependency_links.txt
+scraper_sanskrit.egg-info/requires.txt
+scraper_sanskrit.egg-info/top_level.txt
