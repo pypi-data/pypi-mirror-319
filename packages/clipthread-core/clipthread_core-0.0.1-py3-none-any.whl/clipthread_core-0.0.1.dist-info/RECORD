@@ -1,0 +1,11 @@
+clipthread/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clipthread/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clipthread/core/crypto.py,sha256=R2FFD6hmevUKd6ml-q6l-X_WFhwVdc2d2_aiv1WhCZQ,1386
+clipthread/core/db.py,sha256=OZGd_nsGbcJsB_fczph4nOwTKK8kwZ5f-CCPOwOZkW8,7068
+clipthread/core/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clipthread/core/ui.py,sha256=dbAV3DWVwkgpYx1UvccWk2RM8x3j9H7NvMZIE4dX9ts,6929
+clipthread/core/utils.py,sha256=AxDplvLDfCLyzNvmZUphtA5TNyfqTURI0rZzOi3GGOA,189
+clipthread_core-0.0.1.dist-info/METADATA,sha256=VrooqqZxpetzDaJnFLdSSUCDqXYZVMYf6q-7hyrusHI,1397
+clipthread_core-0.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+clipthread_core-0.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+clipthread_core-0.0.1.dist-info/RECORD,,
