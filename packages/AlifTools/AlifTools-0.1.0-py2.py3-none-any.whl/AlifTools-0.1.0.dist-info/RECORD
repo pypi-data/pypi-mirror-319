@@ -1,0 +1,15 @@
+alifTools/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+alifTools/filters/__init__.py,sha256=QDY4UlWJpeJIDKfsnGTb6Dw2QcDmbJnFjRoCnabes0o,169
+alifTools/filters/clearPlaceholders.py,sha256=l1YnD7NkbGRhgZEyCrDJB5qiKPc7vgvEVnSBiOw1FDw,866
+alifTools/filters/fontVersion.py,sha256=l363mvnbKlh2wAZ_kHQ-2xUDhF3tHqWO39rLnBo-oM0,753
+alifTools/sample/__init__.py,sha256=oFJlV_3f4UNN0o3BFTb6Fm1mpXIAobFTEGrm9xmyH3U,14948
+alifTools/sample/__main__.py,sha256=bXt6QMjc_zmk0OCSoSkzBFl7l9Aa4aJsUwj0aZqqJVw,96
+alifTools/shaping/__init__.py,sha256=YGJzxU_x-5dRvJGEJNORY3lyytYqsBPWJjQwV3NndHA,8572
+alifTools/shaping/check.py,sha256=34es46WMC7Ow1RoqAkfDpB4foUhuqehVkPohXLOerW0,19729
+alifTools/shaping/update.py,sha256=wmTFXEdr1V7_QgL26HsTFsOAd9OohJSrF80dL8uC_10,5451
+AlifTools-0.1.0.dist-info/LICENSE.txt,sha256=sEyIUP32TRcjPwrL5OtjLwO9ZjCUIzyUm9vniIWLuEE,10851
+AlifTools-0.1.0.dist-info/METADATA,sha256=tMt8c8jKBU2lSM6JJM6x2d4GPDjBSRcjehL4_ge1Oco,13504
+AlifTools-0.1.0.dist-info/WHEEL,sha256=9Hm2OB-j1QcCUq9Jguht7ayGIIZBRTdOXD1qg9cCgPM,109
+AlifTools-0.1.0.dist-info/entry_points.txt,sha256=leHOwNKgdRV9JtUWFN0qtmN13Um4LJF26vCOgQh5UeU,152
+AlifTools-0.1.0.dist-info/top_level.txt,sha256=bPQ4UorGWDuqpKCyhz-Yvs1RpVNF1OuRE4id9lNXlDI,10
+AlifTools-0.1.0.dist-info/RECORD,,
