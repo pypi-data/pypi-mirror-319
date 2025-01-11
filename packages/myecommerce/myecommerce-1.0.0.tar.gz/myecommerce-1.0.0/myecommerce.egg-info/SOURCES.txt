@@ -1,0 +1,16 @@
+README.md
+setup.py
+ecommerce/__init__.py
+ecommerce/orders/__init__.py
+ecommerce/orders/order_manger.py
+ecommerce/orders/payment.py
+ecommerce/products/__init__.py
+ecommerce/products/inventory.py
+ecommerce/products/product_manager.py
+ecommerce/users/__init__.py
+ecommerce/users/authentication.py
+ecommerce/users/user_manager.py
+myecommerce.egg-info/PKG-INFO
+myecommerce.egg-info/SOURCES.txt
+myecommerce.egg-info/dependency_links.txt
+myecommerce.egg-info/top_level.txt
