@@ -1,0 +1,9 @@
+README.md
+setup.py
+geoassistant/__init__.py
+geoassistant.egg-info/PKG-INFO
+geoassistant.egg-info/SOURCES.txt
+geoassistant.egg-info/dependency_links.txt
+geoassistant.egg-info/requires.txt
+geoassistant.egg-info/top_level.txt
+tests/__init__.py
