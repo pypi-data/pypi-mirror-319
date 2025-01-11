@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FundaDeliverSample"
+version = "0.1.5"
+authors = [
+    {name = "Vons", email = "zb8cvonsdeliver@icloud.com"},
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"

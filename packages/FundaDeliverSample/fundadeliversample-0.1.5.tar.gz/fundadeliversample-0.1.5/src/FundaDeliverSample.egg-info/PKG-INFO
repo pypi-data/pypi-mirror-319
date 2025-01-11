@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: FundaDeliverSample
+Version: 0.1.5
+Summary: A small example package
+Author-email: Vons <zb8cvonsdeliver@icloud.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

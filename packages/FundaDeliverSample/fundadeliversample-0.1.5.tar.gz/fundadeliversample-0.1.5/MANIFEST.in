@@ -1,0 +1,3 @@
+include src/FundaDeliverSample/configs/*
+include src/FundaDeliverSample/pyarmor_runtime_000000/*
+global-exclude *.py[cod]

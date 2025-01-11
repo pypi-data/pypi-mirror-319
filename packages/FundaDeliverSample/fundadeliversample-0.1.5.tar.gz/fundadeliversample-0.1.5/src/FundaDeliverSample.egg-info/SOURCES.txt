@@ -1,0 +1,12 @@
+MANIFEST.in
+pyproject.toml
+setup.cfg
+src/FundaDeliverSample/__init__.py
+src/FundaDeliverSample/validator.py
+src/FundaDeliverSample.egg-info/PKG-INFO
+src/FundaDeliverSample.egg-info/SOURCES.txt
+src/FundaDeliverSample.egg-info/dependency_links.txt
+src/FundaDeliverSample.egg-info/top_level.txt
+src/FundaDeliverSample/configs/default.gin
+src/FundaDeliverSample/pyarmor_runtime_000000/__init__.py
+src/FundaDeliverSample/pyarmor_runtime_000000/pyarmor_runtime.so
