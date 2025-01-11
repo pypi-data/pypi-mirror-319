@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_winzy_taskloop.py
+winzy_taskloop/__init__.py
+winzy_taskloop.egg-info/PKG-INFO
+winzy_taskloop.egg-info/SOURCES.txt
+winzy_taskloop.egg-info/dependency_links.txt
+winzy_taskloop.egg-info/entry_points.txt
+winzy_taskloop.egg-info/requires.txt
+winzy_taskloop.egg-info/top_level.txt
