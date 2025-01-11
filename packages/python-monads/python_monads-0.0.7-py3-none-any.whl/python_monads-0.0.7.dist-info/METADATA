@@ -1,0 +1,173 @@
+Metadata-Version: 2.2
+Name: python-monads
+Version: 0.0.7
+Summary: Either and Maybe monads for Python
+Author-email: Pol Dellaiera <pol.dellaiera@protonmail.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2025 Pol Dellaiera
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of
+        this software and associated documentation files (the "Software"), to deal in
+        the Software without restriction, including without limitation the rights to
+        use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+        the Software, and to permit persons to whom the Software is furnished to do so,
+        subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+        FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+        COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+        IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+        CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/drupol/python-monads
+Project-URL: Repository, https://github.com/drupol/python-monads.git
+Project-URL: Issues, https://github.com/drupol/python-monads/issues
+Keywords: monad,functional-programmtion,complexity
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![GitHub Workflow Status][github workflow status]][github actions link]
+[![Donate!][donate github]][github sponsors link]
+
+# Python-Monads
+
+`python-monads` is a Python library that provides implementations for `Either`
+and `Maybe` monads. These functional programming constructs help simplify error
+handling, chaining computations, and dealing with optional values in a clean and
+expressive way.
+
+## Features
+
+- **`Either` Monad**: Represent computations that can return a result (`Right`)
+  or an error (`Left`).
+- **`Maybe` Monad**: Encapsulate optional values, eliminating the need for
+  `None` checks.
+- **Type-safe and Pythonic**: Leverages Python's type hints and idiomatic
+  programming style.
+- **Extensive Test Suite**: Ensure reliability with a high test coverage.
+
+## Installation
+
+### Using UV
+
+```bash
+uv add python-monads
+```
+
+## Quick Start
+
+### Using `Either`
+
+```python
+from python_monads.either import Either
+
+# Example with Right
+result = Either.from_right("Success")
+print(result)  # Output: Right(Success)
+
+# Example with Left
+error = Either.from_left("Error")
+print(error)  # Output: Left(Error)
+
+def process_value(value):
+    return Either.from_right(value.upper())
+
+# Chaining computations
+chained_result = result.bind(process_value)
+print(chained_result)  # Output: Right(SUCCESS)
+```
+
+### Using `Maybe`
+
+```python
+from python_monads.maybe import Maybe
+
+# Example with value
+value = Maybe.just(42)
+print(value)  # Output: 42
+
+# Example with None
+nothing = Maybe.nothing()
+print(nothing)  # Output: None
+
+# Transforming values
+result = value.map(lambda x: x * 2)
+print(result)  # Output: 84
+```
+
+## Development Setup
+
+This project uses **Nix** for reproducible development environments.
+
+### Prerequisites
+
+- [Nix](https://nixos.org/)
+
+### Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/drupol/python-monads.git
+   cd python-monads
+   ```
+
+2. Create a virtual environment and install dependencies:
+
+   ```bash
+   nix develop
+   ```
+
+## Testing
+
+Run the tests using `pytest`:
+
+```bash
+pytest
+```
+
+### Code Style
+
+We use [Ruff](https://github.com/astral-sh/ruff) for linting and formatting. Run
+the following command to ensure your code adheres to the style guide:
+
+```bash
+ruff check .
+ruff format .
+```
+
+## Contributing
+
+Feel free to contribute by sending pull requests. We are a usually very
+responsive team and we will help you going through your pull request from the
+beginning to the end, read more about it in the
+[documentation][contributing doc page].
+
+For some reasons, if you can't contribute to the code and willing to help,
+sponsoring is a good, sound and safe way to show us some gratitude for the hours
+we invested in this package.
+
+Sponsor me on [Github][github sponsors link] and/or any of [the
+contributors][the contributors].
+
+[github actions link]: https://github.com/drupol/python-monads/actions
+[github sponsors link]: https://github.com/sponsors/drupol
+[github workflow status]:
+  https://img.shields.io/github/actions/workflow/status/drupol/python-monads/tests.yml?branch=main&style=flat-square
+[donate github]:
+  https://img.shields.io/badge/Sponsor-Github-brightgreen.svg?style=flat-square
+[the contributors]: https://github.com/loophp/collection/graphs/contributors
