@@ -1,0 +1,17 @@
+LICENSE
+LICENSE.md
+README.md
+setup.py
+crl-browser/__init__.py
+crl-browser/about.py
+crl-browser/crl_browser.py
+crl-browser/privacy_app.py
+crl-browser/settings_manager.py
+crl-browser/sysmanager.py
+crl-browser/tor_proxy_app.py
+crl_advanced.egg-info/PKG-INFO
+crl_advanced.egg-info/SOURCES.txt
+crl_advanced.egg-info/dependency_links.txt
+crl_advanced.egg-info/entry_points.txt
+crl_advanced.egg-info/requires.txt
+crl_advanced.egg-info/top_level.txt
