@@ -1,0 +1,7 @@
+# Build and developer requirements
+setuptools>=41.0.1
+build
+pytest
+pytest-cov
+coverage
+flake8
