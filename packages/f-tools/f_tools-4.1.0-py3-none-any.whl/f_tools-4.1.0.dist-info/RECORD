@@ -1,0 +1,8 @@
+f_tools/aws/ecs_bash.py,sha256=ymMHoNOhCBSm2VRuL9N7we_e-HznxUtB8qWbMq5abFY,8880
+f_tools/aws/resources/db-integration.sh,sha256=EPAKUxQqGRVkDFbo_JobkJz_poMCTpL8u_K9Asu-Kzk,1352
+f_tools/aws/resources/db-rest.sh,sha256=Li_t5EfgXZFz8RkDRwTW4mndwGe1X4uPPMlRKNsoAbc,1210
+f_tools-4.1.0.dist-info/METADATA,sha256=vBzIoGcNiHztEWlk3FWGb-_IKRiqwlihvJpkK4KT584,660
+f_tools-4.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+f_tools-4.1.0.dist-info/entry_points.txt,sha256=O-jCOSBUfwYDicl6oir8SEOCkHpCgtc1ABOBcS3zW0k,57
+f_tools-4.1.0.dist-info/top_level.txt,sha256=-I_XPltOtJSyxJ7IDYNBaTqqN6VPPEzadT3S1FXC53w,8
+f_tools-4.1.0.dist-info/RECORD,,
