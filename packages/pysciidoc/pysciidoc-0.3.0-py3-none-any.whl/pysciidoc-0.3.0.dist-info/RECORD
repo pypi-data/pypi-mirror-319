@@ -1,0 +1,12 @@
+pysciidoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysciidoc/_functools.py,sha256=n9z1HBBvRx5r86uPRq46rm_etTeEeIcToC-9lI36F2o,773
+pysciidoc/_module_discovery.py,sha256=ykM_4RFX2x26tYzT91NoejebPogu1KjFfvIKGNaTNXA,253
+pysciidoc/generate.py,sha256=nk6Zc-LRXIxHcvW-haIPt2hO1bLKGLShGlJgja7AxNo,6557
+pysciidoc/main.py,sha256=tK_JMfmXDgryV6Z_hubkfjePGuu2mR6PDRE0qrc4Hkk,2758
+pysciidoc/objectdoc.py,sha256=uvuSoOQLfSSzFO6v2WCfeyB2QeonxjmMRkf2aLrXWw4,8324
+pysciidoc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysciidoc/python_type_formatters.py,sha256=fEXlrl-qoI0sSjTcZ9Ki7ZCzSUgyqKKh-_H40xBGf-w,1685
+pysciidoc-0.3.0.dist-info/METADATA,sha256=RtJERU2rNhxRPVN2ewQuNy25QO1gzfFBUbBnatWDi6Y,1365
+pysciidoc-0.3.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pysciidoc-0.3.0.dist-info/entry_points.txt,sha256=XhMXpyTAdlOX0U-1rUM1xueeKex-xJ1ineEsFz5WPTY,50
+pysciidoc-0.3.0.dist-info/RECORD,,
