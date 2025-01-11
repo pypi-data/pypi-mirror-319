@@ -1,0 +1,153 @@
+Description
+=====
+This library adds the new *data format*: sequence. Sequences has 2 attributes: **Name**, **Count**. **Name** - Name of the sequence element. **Count** - Count of elements.
+Sequence presented in matrix format. One element of the sequence looks how:
+```
+[name = "Apple", count = 2].
+```
+
+Methods
+=====
+## __init__(seq=None) - Class constructor.
+* _seq_ receives the matrix in the form below.
+```
+[[_first element_], [_second element_], ..., [_n element_]]
+```
+> [!CAUTION]
+> Don't use any data type except integer in **count** attribute!
+
+## append(name=None, count=0) - Element append function.
+* _name_ receives name of the element.
+* _count_ receives the count of current element.
+```
+> seq = Sequence([["Autumn", 1]])
+> seq.append("Element", 2)
+> print(seq.get())
+
+[["Autumn", 1], ["Element", 2]]
+```
+> [!CAUTION]
+> Don't use any data type except integer in **count** attribute!
+
+## insert(name=None, count=0, index=0) - Inserts the element by index.
+* _name_ receives name of the element.
+* _count_ receives the count of current element.
+* _index_ receives the insert index.
+```
+> seq = Sequence([["Autumn", 1]])
+> seq.insert("Element", 2)
+> seq.insert("Spring", 5, 2)
+> print(seq.get())
+
+[["Element", 2], ["Autumn", 1], ["Spring", 5]]
+```
+> [!CAUTION]
+> Don't use any data type except integer in **count** and **index** attributes!
+
+## delete(index=0) - Deletes the single element by index.
+* _index_ receives the remove index.
+```
+> seq = Sequence([["Autumn", 1], ["Spring", 2]])
+> seq.delete(1)
+> print(seq.get())
+
+[["Autumn", 1]]
+```
+> [!CAUTION]
+> Don't use any data type except integer in **index** attribute!
+
+## clip(indexes=[-1, 0]) - Deletes the multiple elements in array range.
+* _indexes* receives the min and max index in list for cliping.
+```
+> seq = Sequence([["Autumn", 1], ["Spring", 2]])
+> seq.clip([0, 1])
+> print(seq.get())
+
+[]
+```
+> [!CAUTION]
+> Don't use any data type except integer in every element in **indexes** attribute! Use only from min to max sort!
+
+## get() - Return list of the elements in sequence.
+
+## scan(index=0) - Return single element from sequence array.
+* _index_ receives the element index.
+```
+> seq = Sequence([["Autumn", 1], ["Spring", 2]])
+> print(seq.scan(1))
+
+["Spring", 2]
+```
+> [!CAUTION]
+> Don't use any data type except integer in **index** attribute!
+
+## multiple_scan(indexes=[-1, 0]) - Return multiple elements from sequence array by range.
+How clip, but instead of deleting.
+> [!CAUTION]
+> Don't use any data type except integer in every element in **indexes** attribute! Use only from min to max sort!
+
+## scan_cbn(count=0) - Return list of the elements with define count.
+```
+> seq = Sequence([["Autumn", 1], ["Spring", 2]])
+> print(seq.scan_cbn(2))
+
+["Spring", 2]
+```
+> [!CAUTION]
+> Don't use any data type except integer in **count** attribute!
+
+## scan_nbc(name=None) - Return list of the elements with define name.
+How scan_cbn, but with name.
+
+## get_bwc(count=0) - Get matrix of elements (blocks) with define count.
+```
+> seq = Sequence([["Winter", 1], ["Spring", 2], ["Autumn", 1]])
+> print(seq.bwc(1))
+
+[["Winter", 1], ["Autumn", 1]]
+```
+> [!CAUTION]
+> Don't use any data type except integer in **count** attribute!
+
+## get_bwn(name=None) - Get matrix of elements (blocks) with define name.
+How get_bwc, but with name.
+
+## to_list() - Converts the sequence to array with order and count.
+```
+> seq = Sequence([["Winter", 1], ["Spring", 2], ["Autumn", 1]])
+> print(seq.to_list())
+
+["Winter", "Spring", "Spring", "Autumn"]
+```
+
+## len(sequence) - Return count of the elements in sequence.
+
+Usage
+=====
+You can free use this library in your projects for different reasons.
+
+***MIT LICENSE.***
+
+Downloading
+=====
+> [!WARNING]
+> Library only availble on Python 3.x.
+
+You can install this library by running the following command in your terminal:
+```
+pip install dtseqlib
+```
+You can use the library after installing.
+```
+from dtseqlib import Sequence
+```
+You can use the Sequence() class in your project. Example of project below.
+```
+seq = Sequence([["Spring", 2], ["Winter", 5]])
+seq.append("King", 4)
+print(seq.get())
+```
+
+Outro
+=====
+This is my first Python library, and I'm still learning. I will continue updating this project and adding new features.

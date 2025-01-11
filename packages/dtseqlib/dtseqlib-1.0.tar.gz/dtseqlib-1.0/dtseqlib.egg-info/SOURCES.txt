@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dtseqlib/__init__.py
+dtseqlib/sequence.py
+dtseqlib.egg-info/PKG-INFO
+dtseqlib.egg-info/SOURCES.txt
+dtseqlib.egg-info/dependency_links.txt
+dtseqlib.egg-info/top_level.txt
