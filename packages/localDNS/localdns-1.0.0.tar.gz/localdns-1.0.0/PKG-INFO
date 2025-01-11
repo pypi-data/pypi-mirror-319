@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: localDNS
+Version: 1.0.0
+Summary: A Python library for DNS service registration using Zeroconf
+Home-page: https://github.com/cld338/local-dns-service
+Author: Cld338
+Author-email: jihuno291@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: zeroconf>=0.39.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
