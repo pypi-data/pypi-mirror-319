@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/translatevideo/__init__.py
+src/translatevideo/concatsrtfiles.py
+src/translatevideo/genaisubtitles.py
+src/translatevideo/gensubtitles.py
+src/translatevideo/removeduplicatelinessrt.py
+src/translatevideo/scansubtitles.py
+src/translatevideo/translatesrt.py
+src/translatevideo/utilities.py
+src/translatevideo.egg-info/PKG-INFO
+src/translatevideo.egg-info/SOURCES.txt
+src/translatevideo.egg-info/dependency_links.txt
+src/translatevideo.egg-info/entry_points.txt
+src/translatevideo.egg-info/requires.txt
+src/translatevideo.egg-info/top_level.txt
