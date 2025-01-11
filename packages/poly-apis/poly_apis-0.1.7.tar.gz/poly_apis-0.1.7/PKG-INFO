@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: poly-apis
+Version: 0.1.7
+Summary: Extension of Polymarket/py-clob-api with the Data API and pydantic structs.
+Author-email: Razvan Gheorghe <razvan@gheorghe.me>
+Requires-Python: >=3.8
+Requires-Dist: eth-account>=0.13.0
+Requires-Dist: eth-utils>=4.1.1
+Requires-Dist: httpx
+Requires-Dist: poly-eip712-structs>=0.0.1
+Requires-Dist: py-order-utils>=0.3.2
+Requires-Dist: pydantic>=2.10.4
+Requires-Dist: python-dotenv
+Description-Content-Type: text/markdown
+
+# poly-apis
+
+Describe your project here.
