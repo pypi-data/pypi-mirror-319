@@ -1,0 +1,13 @@
+KeyisBClient/Clients.py,sha256=gLpuIMBXQPQjBSRnkuMLBIt5m8W-cC1c1Ax_Fp-T6dw,3262
+KeyisBClient/Exceptions.py,sha256=tS0WnzjtOuF_S_4iQcR0reKZKF8IkCQfv3B0majPSTc,3998
+KeyisBClient/__init__.py,sha256=hyqk6Z5gTzX1b7q_BDXewoXX9CnrxhBpxlxQRVb1KNs,2147
+KeyisBClient/core.py,sha256=B1aBvT80RJRJTjG9DcXtYjYhb70UvqTWfWg9TAEmZkM,4953
+KeyisBClient/dnsCore.py,sha256=-0lnqpI2I0U0_ifp9vZhP0FVkRtmWOD7Ij5YU5yFAMw,1857
+KeyisBClient/models.py,sha256=Y1No2X22mw7MhyDLDaZTc8oxoIZsEQwqpUQCUFmOtUY,12631
+KeyisBClient/gw_certs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+KeyisBClient/gw_certs/v0.0.1.crt,sha256=4SZKPldOi2FXuOl1Lv9JgjojA8-RL2dzn_mh4XVeuZs,1342
+KeyisBClient-1.4.0.1.31.dist-info/LICENSE,sha256=WH_t7dKZyWJ5Ld07eYIkUG4Tv6zZWXtAdsUqYAUesn0,1084
+KeyisBClient-1.4.0.1.31.dist-info/METADATA,sha256=iZEVer6eWryI_8-fvkCvQ7CTjC4UPWQYcysWcbMaG_A,568
+KeyisBClient-1.4.0.1.31.dist-info/WHEEL,sha256=A3WOREP4zgxI0fKrHUG8DC8013e3dK3n7a6HDbcEIwE,91
+KeyisBClient-1.4.0.1.31.dist-info/top_level.txt,sha256=if1Ngif2FPNnPQALfPOVpVepaakKR-pndLekBHjcryU,13
+KeyisBClient-1.4.0.1.31.dist-info/RECORD,,
