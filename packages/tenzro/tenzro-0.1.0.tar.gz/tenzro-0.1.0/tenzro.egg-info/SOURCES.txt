@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tenzro/__init__.py
+tenzro/jobs.py
+tenzro.egg-info/PKG-INFO
+tenzro.egg-info/SOURCES.txt
+tenzro.egg-info/dependency_links.txt
+tenzro.egg-info/requires.txt
+tenzro.egg-info/top_level.txt
