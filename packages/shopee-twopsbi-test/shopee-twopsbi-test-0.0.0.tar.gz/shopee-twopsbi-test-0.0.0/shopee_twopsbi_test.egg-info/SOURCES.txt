@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_twopsbi_test.egg-info/PKG-INFO
+shopee_twopsbi_test.egg-info/SOURCES.txt
+shopee_twopsbi_test.egg-info/dependency_links.txt
+shopee_twopsbi_test.egg-info/top_level.txt
