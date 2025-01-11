@@ -1,0 +1,5 @@
+# 核心依赖
+pywin32>=228
+setuptools>=42.0.0
+wheel>=0.37.0
+
