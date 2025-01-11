@@ -1,0 +1,8 @@
+cloudpickle
+joblib
+lightgbm
+numpy
+pandas
+scikit-learn==1.5.2
+scipy
+xgboost

@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.py
+simplyphi_valuation/__init__.py
+simplyphi_valuation/models.py
+simplyphi_valuation/pipeline.py
+simplyphi_valuation/transformers.py
+simplyphi_valuation.egg-info/PKG-INFO
+simplyphi_valuation.egg-info/SOURCES.txt
+simplyphi_valuation.egg-info/dependency_links.txt
+simplyphi_valuation.egg-info/requires.txt
+simplyphi_valuation.egg-info/top_level.txt
+simplyphi_valuation/data/ordinal_encoder.pkl
+simplyphi_valuation/data/training_grouped_data_for_meanandmedian.csv
+simplyphi_valuation/data/updated_model_jan3.pkl
