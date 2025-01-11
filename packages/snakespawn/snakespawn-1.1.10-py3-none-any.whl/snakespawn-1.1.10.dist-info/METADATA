@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: snakespawn
+Version: 1.1.10
+Summary: A tool for initializing python packages.
+Author: William L.
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cli-veripy
+
+# snakespawn
+
+`snakespawn` is a command line tool for initializing python packages.  Run `snakespawn` without any arguments to for usage details.
+
+```
+usage: snakespawn.exe  (package-directory(Path))  (package-name(str))
+
+---------------------------------------------------------
+
+A command line tool for initializing new python projects.
+
+---------------------------------------------------------
+
+Flags:
+
+    -docs                      -force-y                   -examples                  -no-requirements
+
+    -utils-folder              -git-ignore                -core-folder               -create-project-directory
+
+    -force-yes                 -no-deps                   -no-readme                 -tests
+
+    -testing                   -documentation             -manifest
+
+
+Keyword Arguments:
+
+    --author(Required str)        --version(VersionStr)         --build-tool(str)
+
+    --python-version(str)         --license(str)                --license-year(int)
+
+    --license-path(ExistingPath)  --sub-modules(ListStr)
+```
+
+This module using a command line argument verification package I wrote called [cli_veripy](https://pypi.org/project/cli-veripy/).
