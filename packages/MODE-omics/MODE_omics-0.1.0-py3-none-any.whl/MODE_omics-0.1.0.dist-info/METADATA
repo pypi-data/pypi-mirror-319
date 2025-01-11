@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: MODE-omics
+Version: 0.1.0
+Summary: a multimodal autoencoder framework for high-resolution multi-omic digital dissociation
+Home-page: https://github.com/jsuncompubio/MODE
+Author: Jiao Sun
+Author-email: jiao.sun@stjude.org
+License: GPL-3.0 License
+Platform: any
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: torch>=1.8.0
+Requires-Dist: numpy==1.22.4
+Requires-Dist: pandas==2.0.0
+Requires-Dist: anndata>=0.7.6
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn==1.2.2
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
