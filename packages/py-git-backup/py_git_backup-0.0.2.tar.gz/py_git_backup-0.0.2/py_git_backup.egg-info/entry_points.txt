@@ -1,0 +1,2 @@
+[console_scripts]
+pygitup = pygitup.main_pygitup:main_pygitup
