@@ -1,0 +1,98 @@
+[package]
+name = "utiles"
+version.workspace = true
+authors.workspace = true
+categories = ["science::geo"]
+edition.workspace = true
+homepage = "https://github.com/jessekrubin/utiles"
+keywords = ["map", "geo", "mercator", "tile", "webmap"]
+license.workspace = true
+readme = "README.md"
+repository = "https://github.com/jessekrubin/utiles"
+description = "Web map tile utils (aka utiles)"
+
+[lib]
+name = "utiles"
+path = "src/lib.rs"
+
+[[bin]]
+name = "utiles"
+path = "src/bin.rs"
+required-features = [
+    "cli",
+]
+
+[dependencies]
+ahash.workspace = true
+anyhow.workspace = true
+async-sqlite = { workspace = true, features = ["bundled", "functions", "trace", "blob"] }
+axum = { version = "0.8.1", features = ["tokio", "json", "macros"] }
+clap = { workspace = true, features = ["derive", "color", "wrap_help"], optional = true }
+geo-types.workspace = true
+geojson.workspace = true
+
+async-trait.workspace = true
+axum-extra.workspace = true
+fnv.workspace = true
+futures.workspace = true
+globset.workspace = true
+hex.workspace = true
+image.workspace = true
+imagesize.workspace = true
+indicatif.workspace = true
+indoc = { workspace = true }
+jiff.workspace = true
+json-patch.workspace = true
+md-5.workspace = true
+noncrypto-digests.workspace = true
+num_cpus.workspace = true
+owo-colors = { version = "4.1.0", features = ["supports-color"] }
+pmtiles = { version = "0.11.0", features = ["mmap-async-tokio", "tilejson"], optional = true }
+rusqlite = { workspace = true, features = ["bundled", "blob", "backup", "functions", "trace"] }
+serde.workspace = true
+serde_json = { workspace = true, features = ["preserve_order"] }
+size.workspace = true
+sqlite-hashes = { version = "0.7.8", default-features = false, features = ["hex", "window", "md5", "fnv", "xxhash"] }
+strum.workspace = true
+strum_macros.workspace = true
+thiserror.workspace = true
+tilejson.workspace = true
+tokio = { workspace = true, features = ["fs"] }
+tokio-stream.workspace = true
+tower = { version = "0.5.2", features = ["timeout"] }
+tower-http = { version = "0.6.1", features = ["trace", "timeout", "add-extension", "util", "request-id", "compression-gzip", "compression-zstd", "async-compression"] }
+tracing.workspace = true
+tracing-subscriber = { workspace = true, features = ["fmt", "json", "env-filter"] }
+utiles-core = { path = "../utiles-core", version = "0.7.0" }
+walkdir.workspace = true
+xxhash-rust = { workspace = true, features = ["const_xxh3", "const_xxh64", "const_xxh32", "xxh3", "xxh64", "xxh32"] }
+
+# was using for edge finding
+#ndarray = { version = "0.16.1", features = ["rayon"] }
+#rayon = "1.10.0"
+
+# deadpool = { version = "0.12.1", features = ["managed"], default-features = false }
+# deadpool-sync = { version = "0.1.4", features = ["tracing"] }
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "bench"
+harness = false
+
+[features]
+default = [
+    "cli",
+    "pmtiles",
+]
+all = [
+    "cli",
+    "pmtiles",
+]
+lager-reload = []
+python = [
+    "lager-reload"
+]
+cli = ["dep:clap", "dep:pmtiles"]
+pmtiles = ["dep:pmtiles"]
