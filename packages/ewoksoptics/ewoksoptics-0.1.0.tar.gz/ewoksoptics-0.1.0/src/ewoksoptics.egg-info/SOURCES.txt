@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ewoksoptics/__init__.py
+src/ewoksoptics.egg-info/PKG-INFO
+src/ewoksoptics.egg-info/SOURCES.txt
+src/ewoksoptics.egg-info/dependency_links.txt
+src/ewoksoptics.egg-info/entry_points.txt
+src/ewoksoptics.egg-info/requires.txt
+src/ewoksoptics.egg-info/top_level.txt
+src/ewoksoptics/tasks/__init__.py
+src/ewoksoptics/tasks/generate_ini_file.py
+src/ewoksoptics/tests/__init__.py
+src/ewoksoptics/tests/test_generate_ini_file.py
