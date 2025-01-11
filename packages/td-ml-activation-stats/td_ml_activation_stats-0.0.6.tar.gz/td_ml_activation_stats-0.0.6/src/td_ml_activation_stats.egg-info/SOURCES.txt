@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/td_ml_activation_stats/__init__.py
+src/td_ml_activation_stats/activation_stats.py
+src/td_ml_activation_stats.egg-info/PKG-INFO
+src/td_ml_activation_stats.egg-info/SOURCES.txt
+src/td_ml_activation_stats.egg-info/dependency_links.txt
+src/td_ml_activation_stats.egg-info/top_level.txt
