@@ -1,0 +1,409 @@
+# Demo uv tooling
+
+Demonstrates the modern Python tooling with uv.
+
+## Description
+
+Let's build a demo for the modern Python tooling of Astral uv.
+Let's use uv via Docker, `docker run ghcr.io/astral-sh/uv --help` for example.
+Call the project demo-uv-tooling.
+Use the most recent Python 3.12.
+Use anyIO for async I/O, as recommended by FastAPI.
+Use Pydantic for data validation.
+Use Pytest and Pytest-cov for coverage-aware execution of the test suite under /tests.
+Ruff for fast and comprehensive linting. Use type hints for optional type annotations.
+Use MyPy for type-checking tooling.
+Use FastAPI for a modern, high-performance, async web framework, so that we can run `uv run fastapi dev` on the development machines.
+Use Docker for containerization.
+Use uv run to run tooling like MyPy and Pytest locally.
+Use HTTPX as a modern HTTP Client to test the application.
+
+## Prerequisites
+
+- [Docker](https://www.docker.com/)
+- [git](https://git-scm.com/)
+- [Python3](https://www.python.org/)
+
+## Clone the repository
+
+```bash
+git clone demo-uv-tooling
+```
+
+## Go to clone
+
+```bash
+cd demo-uv-tooling
+```
+
+> Note: All following commands assume to run in this project's root directory.
+
+## (Re)create a virtual environment
+
+```bash
+rm -rf .venv | true && python3 -m venv .venv
+```
+
+## Upgrade pip
+
+```bash
+.venv/bin/python -m pip install --upgrade pip
+```
+
+```
+[...]
+Successfully installed pip-24.3.1
+```
+
+## Install uv
+
+```bash
+.venv/bin/python -m pip install uv
+```
+
+```
+[...]
+Successfully installed uv-0.5.15
+```
+
+## Install interpreter
+
+```bash
+.venv/bin/python -m uv python install 3.10 3.11 3.12
+```
+
+```
+Installed 3 versions [...]
+```
+
+## Get help on uv
+
+```bash
+.venv/bin/python -m uv --help
+```
+
+```
+[...]
+Use `uv help` for more details.
+```
+
+## Get uv version
+
+```bash
+.venv/bin/python -m uv version
+```
+
+```
+uv 0.5.15 (eb6ad9a4f 2025-01-06)
+```
+
+## Initialize an uv project
+
+```bash
+.venv/bin/python -m uv init .
+```
+
+```
+[...]Project is already initialized[...]
+```
+
+## Pin Python version
+
+```bash
+.venv/bin/python -m uv python pin 3.12
+```
+
+```
+Pinned `.python-version` to `3.12`
+```
+
+## Resolve dependencies
+
+Resolve the dependencies listed in the `pyproject.toml` to the `uv.lock`.
+
+```bash
+.venv/bin/python -m uv lock
+```
+
+```
+Resolved 53 packages in 0.30ms
+```
+
+## (Resolve &) install dependencies
+
+Ensure the virtual environment `.venv` contains the `uv.lock` dependencies.
+
+```bash
+.venv/bin/python -m uv sync
+```
+
+## Add dependencies
+
+```bash
+.venv/bin/python -m uv add accelerate 'fastapi[async,standard]' httpx pydantic torch transformers uvicorn "uv" pytest-asyncio "trio" "mypy[pytest]"
+```
+
+```
+Installed 34 packages in 256ms
+```
+
+## Review dependencies
+
+```bash
+.venv/bin/python -m uv tree
+```
+
+```
+[...]
+```
+
+## Remove dependencies
+
+```bash
+.venv/bin/python -m uv remove sentencepiece
+```
+
+```
+Resolved 52 packages in 568ms
+Uninstalled 1 package in 1ms
+ - sentencepiece==0.2.0
+```
+
+## Install Ruff
+
+```bash
+.venv/bin/python -m uv tool install ruff
+```
+```
+Installed 1 executable: ruff
+```
+
+## Run Ruff
+
+```bash
+.venv/bin/python -m uv tool run ruff check src tests
+```
+
+```
+All checks passed!
+```
+
+## Install MyPy
+
+```bash
+.venv/bin/python -m uv tool install mypy
+```
+
+```
+Installed 1 executable: mypy
+```
+
+## Run MyPy
+
+```bash
+.venv/bin/python -m uv tool run mypy --install-types src tests
+```
+
+```
+Success: no issues found [...]
+```
+
+## Install Pytest
+
+```bash
+.venv/bin/python -m uv tool install pytest
+```
+
+```
+Installed 1 executable: pytest
+```
+
+> TODO Install pytest-cov
+
+## Run Pytest
+
+```bash
+# .venv/bin/python -m uv tool run pytest tests
+.venv/bin/python -m pytest tests --cov=src --cov=tests
+```
+
+```
+============================= test session starts ==============================
+[...]
+```
+
+> TODO Run pytest-cov
+
+## List uv tools
+
+```bash
+.venv/bin/python -m uv tool list
+```
+
+```
+mypy v1.14.1
+- dmypy
+- mypy
+- mypyc
+- stubgen
+- stubtest
+pytest v8.3.4
+- py.test
+- pytest
+ruff v0.8.6
+- ruff
+```
+
+## Build the application
+
+```bash
+.venv/bin/python -m uv build
+```
+
+```
+Successfully built [...]
+```
+
+Source: <https://docs.astral.sh/uv/reference/cli/#uv-build>
+
+## Install the application
+
+```bash
+.venv/bin/python -m uv pip install dist/demo-uv-tooling-0.1.0-py3-none-any.whl
+```
+
+```
+[...]
+```
+
+## Run the application
+
+```bash
+.venv/bin/python src/text_generation.py
+```
+
+```
+Loading checkpoint shards: 100%|████████████████████████████████████████████████
+Explain quantum computing in simple terms:
+
+Quantum computing represents a significant shift from traditional computing.
+[...]
+```
+
+## Run FastAPI development server with reload
+
+```bash
+.venv/bin/python -m uv run fastapi dev --reload src/main.py
+```
+
+```
+FastAPI   Starting development server 🚀
+```
+
+## List completions
+
+<http://localhost:8000/completions>
+
+```
+[]
+```
+
+## Stop the server
+
+Press `Ctrl+C`.
+
+## Run production web server
+
+```bash
+.venv/bin/python -m uv run uvicorn src.main:app --reload
+```
+
+```
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+```
+
+## List completions
+
+<http://localhost:8000/completions>
+
+```
+[]
+```
+
+## Stop the server
+
+Press `Ctrl+C`.
+
+## Post a completion
+
+```bash
+curl -X POST "http://localhost:8000/completions/" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"prompt\":\"Explain quantum computing in simple terms:\"}"
+```
+
+```
+{
+    "prompt":"Explain quantum computing in simple terms:",
+    "response":"Quantum computing is a type of computing.",
+    "id":1
+}
+```
+
+## Install Docker
+
+```bash
+.venv/bin/python -m uv tool install docker
+```
+
+```
+[...]
+```
+
+## Build Docker image
+
+```bash
+.venv/bin/python -m uv tool run docker build -t demo-uv-tooling .
+```
+
+```
+[...]
+```
+
+## Run Docker container
+
+```bash
+.venv/bin/python -m uv tool run docker run -p 8000:8000 demo-uv-tooling
+```
+
+## Request completion
+
+```bash
+curl -X POST "http://localhost:8000/completions/" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"prompt\":\"Explain quantum computing in simple terms:\"}"
+```
+
+> Note: This takes a lot of time the first time as it downloads the model.
+
+```
+{
+    "prompt":"Explain quantum computing in simple terms:",
+    "response":"Quantum computing is a type of computing.",
+    "id":1
+}
+```
+
+## Stop the container
+
+```bash
+docker stop $(docker ps -q)
+```
+
+## Remove the container
+
+```bash
+docker rm $(docker ps -a -q)
+```
+
+## Remove the image
+
+```bash
+docker rmi demo-uv-tooling
+```
