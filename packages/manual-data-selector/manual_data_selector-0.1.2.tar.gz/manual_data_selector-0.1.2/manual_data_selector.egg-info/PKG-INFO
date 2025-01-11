@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: manual-data-selector
+Version: 0.1.2
+Summary: Python package to select data from scatter plots. The goal is to use specific selected data to train Machine Learning models.
+Home-page: https://github.com/WEILMAX/manual_data_selector
+Author: Maximillian Weil
+Author-email: maximillian.weil@vub.be
+License: MIT license
+Keywords: manual_data_selector
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=============
+data_selector
+=============
+
+
+.. image:: https://img.shields.io/pypi/v/data_selector.svg
+        :target: https://pypi.python.org/pypi/data_selector
+
+.. image:: https://img.shields.io/travis/WEILMAX/data_selector.svg
+        :target: https://travis-ci.com/WEILMAX/data_selector
+
+.. image:: https://readthedocs.org/projects/data-selector/badge/?version=latest
+        :target: https://data-selector.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Python package to select data from scatter plots. The goal is to use specific selected data to train Machine Learning models.
+
+
+* Free software: MIT license
+* Documentation: https://data-selector.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2023-11-23)
+------------------
+
+* First release on PyPI.

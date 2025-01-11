@@ -1,0 +1,2 @@
+[console_scripts]
+manual_data_selector = manual_data_selector.cli:main
