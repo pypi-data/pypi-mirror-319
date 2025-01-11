@@ -1,0 +1,12 @@
+spectrosense/__init__.py,sha256=OXwMGAKTOAHjYOiQnbkTsx9unbq6OM9o8InSNaUeVQM,182
+spectrosense/ai_integration.py,sha256=SgpZZinar8UZiB6ZG7h_LW1TovRML_sZeWgtctuy3v8,5472
+spectrosense/analyzer.py,sha256=XOFdC55gW8jnAqc9_OJy0lWEKgLOuIsj0y81DjgXNPg,889
+spectrosense/config.py,sha256=TSDnYETLfVebKWZqMpO35gFSllZnxZF_q_IYsquFo2Y,2962
+spectrosense/image_analysis.py,sha256=QOZXGRHDyL3hoGNY0ysQKhb_fgM69hnNAZ2mnXttbbk,4141
+spectrosense/processor.py,sha256=Ra9AxXqqvNceClYk8rKIndLhDNFuMXEVyKGimZuqXNM,1541
+spectrosense/visualizer.py,sha256=0Bql4RR7BJXyWYgRlmg4Yyb4J5XQ6Sas3aVV339uPFs,1168
+spectrosense-0.3.0.dist-info/LICENCE,sha256=5P8YnMO8aJ3d3jGy2gvVN-7Khl1qaAVW0cMfa-d6GCs,460
+spectrosense-0.3.0.dist-info/METADATA,sha256=NN4TWYS7YsnRvORiD1BioNEIEkKR3mdUIJB4t389S-w,3712
+spectrosense-0.3.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+spectrosense-0.3.0.dist-info/top_level.txt,sha256=XurkN3_i4WiFYeCMqc0f3vOOGGnWCC3U6GLy8ZD0gas,13
+spectrosense-0.3.0.dist-info/RECORD,,
