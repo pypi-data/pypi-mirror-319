@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: salesmanago-tools
+Version: 0.1.4
+Summary: Salesmanago Tools is a project designed to simplify working with the Salesmanago API. It provides a set of utilities and pre-built queries for seamless integration with the platform, enabling quick and efficient execution of tasks such as contact management, event tracking, marketing automation, and data analytics
+Home-page: https://github.com/Web-parsers/SalesmanagoTools
+Author: Kyrylo Pavlenko
+Author-email: pavlenkokirill120@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# salesmanago-tools
+
+Python Class for SalesManago integration.
+
+## Installation
+
+pip install salesmanago-tools
+
+## Third Party Libraries and Dependencies
+
+The following libraries will be installed when you install the client library:
+
+- requests
+- aiohttp
+- pandas
+
+# Class
+
+Start with import `from salesmanago_tools.utils import SalesmanagoDataClient`
+
+## Initialization
+
+```
+salesmanago_client = SalesmanagoDataClient(
+    clientId="YOUR CLIENT_ID",
+    apiKey="YOUR API_KEY",
+    sha="YOUR OWNER_EMAIL",
+    owner="YOUR SHA",
+    account_name="YOUR ACCOUNT_NAME"
+)
+```
+
+## Export data with example
+- Initiates the export process for specific data and returns the data as a CSV generator.
+- param value: The value associated with the export, such as an email or tag.
+- param addresseeType: The type of recipient (default is "tag").
+- return: A CSV generator containing the exported data.
+
+```
+async def export_data():
+    contacts = await salesmanago_client.export_data(value="TEST_TAG", addresseeType="tag")
+    return contacts
+
+
+asyncio.run(export_data())
+```
+This function will make a request to export contacts by tag TEST_TAG
+
+## Fetch all contacts from salesmanago
+
+- Fetches all contacts from SalesManago and returns them as a list.
+- param page_size: The number of contacts to retrieve per request (default is 1000).
+- param page: The page number to fetch (default is 1).
+- return: A list of contacts, with each contact formatted as a list of details.
+
+
+```
+async def fetch_all_contacts_from_salesmanago():
+    contacts = await salesmanago_client.fetch_all_contacts_from_salesmanago()
+    return contacts
+
+
+asyncio.run(fetch_all_contacts_from_salesmanago())
+```
+This function will make a request to export all contacts without any filters
+
+## Push people to salesmanago
+
+
