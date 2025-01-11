@@ -1,0 +1,10 @@
+pemja_core.cpython-39-darwin.so,sha256=qAr3iegKFTzye3MfUPGa6jNM1iR54WQRLXoGsTtvNcs,178048
+pemja_utils.cpython-39-darwin.so,sha256=cBTwYPCX9LGfP5DGHrXysJ7OKmmsCbrVKT4MTNwf1v0,50656
+pemja-0.4.2.dist-info/RECORD,,
+pemja-0.4.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pemja-0.4.2.dist-info/WHEEL,sha256=85_Toq4UI7EZ1s81waYR6RPNsVnN1NmCNASuSy37InE,108
+pemja-0.4.2.dist-info/top_level.txt,sha256=OOlNGh--QZB0yQIp1Kns0_9mkVZOXCITULMc3530trE,29
+pemja-0.4.2.dist-info/METADATA,sha256=vWv6SDFcJSqnVg03u8uxIZz2sjYR0-9gslu7mIK-lv4,3811
+pemja/version.py,sha256=7kpvhnI9ktLrKW5BIZJotDysa2fknUhsJIsotR25WpI,790
+pemja/redirect_stream.py,sha256=GD4-RISKn6Ry1wMCqXawPNL-XsXYeuXFf1Kr92axnxM,1381
+pemja/__init__.py,sha256=XLy6UfC3EJKoWs1UYOhwK6mWyiP30rgUKnWdmellg4I,826
