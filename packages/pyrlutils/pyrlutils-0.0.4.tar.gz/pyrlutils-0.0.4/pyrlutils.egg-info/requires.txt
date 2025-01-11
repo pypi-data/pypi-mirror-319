@@ -1,0 +1,7 @@
+numpy
+
+[openaigym]
+gymnasium
+
+[test]
+unittest
