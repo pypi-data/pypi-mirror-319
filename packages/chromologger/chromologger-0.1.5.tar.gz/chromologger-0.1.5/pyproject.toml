@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chromologger"
+version = "0.1.5"
+description = "Chromologger está diseñado para facilitar la creación de registros (logs) en aplicaciones desarrolladas con Python"
+readme = { file = "README.md", content-type = "text/markdown", charset = "utf-8" }
+license = { text = "MIT License" }
+authors = [
+    { name = "Tutos Rive Gamer", email = "chromologgersrmtrg@outlook.com" }
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "chromolog >=0.1.0, <=0.2.1"
+]
+classifiers=[
+    # Estado del desarrollo
+    "Development Status :: 4 - Beta",
+
+    # Audiencia del paquete
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+
+    # Propósito del software
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Debuggers",
+    "Topic :: System :: Monitoring",
+    "Topic :: Utilities",
+
+    # Compatibilidad de licencia
+    "License :: OSI Approved :: MIT License",
+
+    # Compatibilidad con Python
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+
+    # Características adicionales
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Environment :: Other Environment",
+]
+
+[tool.setuptools.packages]
+find = { include = ["chromologger"] }
+
+[project.urls]
+"Homepage" = "https://tutosrivegamerlq.github.io/chromologger/"
+"Repository" = "https://github.com/tutosrivegamerlq/chromologger/"
+"YouTube" = "https://www.youtube.com/@tutosrive"
