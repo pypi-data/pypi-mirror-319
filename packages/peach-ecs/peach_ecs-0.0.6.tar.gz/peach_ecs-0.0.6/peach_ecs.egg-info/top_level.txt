@@ -1,0 +1,4 @@
+dist
+pecs
+test
+venv
