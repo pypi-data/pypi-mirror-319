@@ -1,0 +1,129 @@
+README.md
+setup.py
+fudstop3/__init__.py
+fudstop3.egg-info/PKG-INFO
+fudstop3.egg-info/SOURCES.txt
+fudstop3.egg-info/dependency_links.txt
+fudstop3.egg-info/top_level.txt
+fudstop3/apis/__init__.py
+fudstop3/apis/all_helpers.py
+fudstop3/apis/helpers.py
+fudstop3/apis/blotter/__init__.py
+fudstop3/apis/blotter/blotter_sdk.py
+fudstop3/apis/blotter/models.py
+fudstop3/apis/markets/__init__.py
+fudstop3/apis/markets/webhook_dicts.py
+fudstop3/apis/markets/list_sets/__init__.py
+fudstop3/apis/markets/list_sets/dicts.py
+fudstop3/apis/markets/list_sets/saved_tickers.py
+fudstop3/apis/markets/list_sets/ticker_lists.py
+fudstop3/apis/markets/list_sets/webhook_dicts.py
+fudstop3/apis/polygonio/__init__.py
+fudstop3/apis/polygonio/async_polygon_sdk.py
+fudstop3/apis/polygonio/db_polygon.py
+fudstop3/apis/polygonio/mapping.py
+fudstop3/apis/polygonio/polygon_database.py
+fudstop3/apis/polygonio/polygon_helpers.py
+fudstop3/apis/polygonio/polygon_options.py
+fudstop3/apis/polygonio/polygon_sync.py
+fudstop3/apis/polygonio/technicals.py
+fudstop3/apis/polygonio/models/__init__.py
+fudstop3/apis/polygonio/models/aggregates.py
+fudstop3/apis/polygonio/models/company_info.py
+fudstop3/apis/polygonio/models/daily_open_close.py
+fudstop3/apis/polygonio/models/gainers_losers.py
+fudstop3/apis/polygonio/models/quotes.py
+fudstop3/apis/polygonio/models/technicals.py
+fudstop3/apis/polygonio/models/ticker_news.py
+fudstop3/apis/polygonio/models/ticker_snapshot.py
+fudstop3/apis/polygonio/models/trades.py
+fudstop3/apis/polygonio/models/option_models/__init__.py
+fudstop3/apis/polygonio/models/option_models/option_snapshot.py
+fudstop3/apis/polygonio/models/option_models/universal_option.py
+fudstop3/apis/polygonio/models/option_models/universal_snapshot.py
+fudstop3/apis/webull/__init__ - Copy.py
+fudstop3/apis/webull/__init__.py
+fudstop3/apis/webull/database_manager.py
+fudstop3/apis/webull/futures.py
+fudstop3/apis/webull/get_volume_analysis.py
+fudstop3/apis/webull/industry.py
+fudstop3/apis/webull/modal.py
+fudstop3/apis/webull/newmodels.py
+fudstop3/apis/webull/opt_modal.py
+fudstop3/apis/webull/option_data.py
+fudstop3/apis/webull/options.py
+fudstop3/apis/webull/paper_models.py
+fudstop3/apis/webull/screener_models.py
+fudstop3/apis/webull/toprank_models.py
+fudstop3/apis/webull/webull_helpers.py
+fudstop3/apis/webull/webull_markets.py
+fudstop3/apis/webull/webull_option_screener.py
+fudstop3/apis/webull/webull_paper_trader.py
+fudstop3/apis/webull/webull_parsing.py
+fudstop3/apis/webull/webull_ta.py
+fudstop3/apis/webull/webull_trader.py
+fudstop3/apis/webull/webull_trading.py
+fudstop3/apis/webull/trade_models/__init__ - Copy.py
+fudstop3/apis/webull/trade_models/__init__.py
+fudstop3/apis/webull/trade_models/analyst_ratings - Copy.py
+fudstop3/apis/webull/trade_models/analyst_ratings.py
+fudstop3/apis/webull/trade_models/capital_flow.py
+fudstop3/apis/webull/trade_models/company_brief - Copy.py
+fudstop3/apis/webull/trade_models/company_brief.py
+fudstop3/apis/webull/trade_models/cost_distribution - Copy.py
+fudstop3/apis/webull/trade_models/cost_distribution.py
+fudstop3/apis/webull/trade_models/deals - Copy.py
+fudstop3/apis/webull/trade_models/deals.py
+fudstop3/apis/webull/trade_models/econ_data.py
+fudstop3/apis/webull/trade_models/etf_holdings - Copy.py
+fudstop3/apis/webull/trade_models/etf_holdings.py
+fudstop3/apis/webull/trade_models/events - Copy.py
+fudstop3/apis/webull/trade_models/events.py
+fudstop3/apis/webull/trade_models/financials - Copy.py
+fudstop3/apis/webull/trade_models/financials.py
+fudstop3/apis/webull/trade_models/forecast_evaluator - Copy.py
+fudstop3/apis/webull/trade_models/forecast_evaluator.py
+fudstop3/apis/webull/trade_models/institutional_holdings - Copy.py
+fudstop3/apis/webull/trade_models/institutional_holdings.py
+fudstop3/apis/webull/trade_models/news - Copy.py
+fudstop3/apis/webull/trade_models/news.py
+fudstop3/apis/webull/trade_models/order_flow - Copy.py
+fudstop3/apis/webull/trade_models/order_flow.py
+fudstop3/apis/webull/trade_models/price_streamer - Copy.py
+fudstop3/apis/webull/trade_models/price_streamer.py
+fudstop3/apis/webull/trade_models/short_interest - Copy.py
+fudstop3/apis/webull/trade_models/short_interest.py
+fudstop3/apis/webull/trade_models/stock_quote - Copy.py
+fudstop3/apis/webull/trade_models/stock_quote.py
+fudstop3/apis/webull/trade_models/ticker_query - Copy.py
+fudstop3/apis/webull/trade_models/ticker_query.py
+fudstop3/apis/webull/trade_models/treasury_models - Copy.py
+fudstop3/apis/webull/trade_models/treasury_models.py
+fudstop3/apis/webull/trade_models/us_treasuries - Copy.py
+fudstop3/apis/webull/trade_models/us_treasuries.py
+fudstop3/apis/webull/trade_models/volume_analysis - Copy.py
+fudstop3/apis/webull/trade_models/volume_analysis.py
+fudstop3/apis/webull/trader_models/__init__.py
+fudstop3/apis/webull/trader_models/trader_models - Copy.py
+fudstop3/apis/webull/trader_models/trader_models.py
+fudstop3/apis/webull/webull_options/__init__ - Copy.py
+fudstop3/apis/webull/webull_options/__init__.py
+fudstop3/apis/webull/webull_options/helpers - Copy.py
+fudstop3/apis/webull/webull_options/helpers.py
+fudstop3/apis/webull/webull_options/webull_options - Copy.py
+fudstop3/apis/webull/webull_options/webull_options.py
+fudstop3/apis/webull/webull_options/webull_trader - Copy.py
+fudstop3/apis/webull/webull_options/webull_trader.py
+fudstop3/apis/webull/webull_options/models/__init__ - Copy.py
+fudstop3/apis/webull/webull_options/models/__init__.py
+fudstop3/apis/webull/webull_options/models/db_manager - Copy.py
+fudstop3/apis/webull/webull_options/models/db_manager.py
+fudstop3/apis/webull/webull_options/models/options_data - Copy.py
+fudstop3/apis/webull/webull_options/models/options_data.py
+fudstop3/scripts/TD9.py
+fudstop3/scripts/__init__.py
+fudstop3/scripts/imps.py
+tests/POLY.py
+tests/__init__.py
+tests/paginate.py
+tests/x.py
