@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: scraper-sanskrit
+Version: 0.2.0
+Summary: A web scraper for Sanskrit dictionary results using Selenium and BeautifulSoup
+Author: Jagruti
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+Requires-Dist: beautifulsoup4
+
+# Sanskrit Scraper
+
+`scraper_sanskrit` is a Python package for scraping results from the Sanskrit Dictionary website using Selenium and BeautifulSoup.
+
+## Installation
+
+```bash
+pip install scraper_sanskrit
