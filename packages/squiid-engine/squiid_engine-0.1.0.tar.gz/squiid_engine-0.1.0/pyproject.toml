@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "squiid-engine"
+version = "0.1.0"
+description = "Squiid Engine Python bindings"
+authors = ["TabulateJarl8 <tabulatejarl8@gmail.com>"]
+license = "GPLv3"
+readme = "README.md"
+include = [
+    { path = "squiid-engine-rust/Cargo.toml", format = [
+        "sdist",
+    ] },
+    { path = "squiid-engine-rust/src/**", format = [
+        "sdist",
+    ] },
+    { path = "squiid_engine/*.so", format = [
+        "wheel",
+    ] },
+    { path = "squiid_engine/*.dll", format = [
+        "wheel",
+    ] },
+    { path = "squiid_engine/*.dylib", format = [
+        "wheel",
+    ] },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.build]
+script = "build.py"
+generate-setup-file = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.cibuildwheel]
+skip = [
+    "cp36-*",
+    "cp37-*",
+    "cp38*",
+    "cp39*",
+    "pp*",
+    "*-manylinux_i686",
+    "*_ppc64le",
+    "*_s390x",
+    "*_universal2",
+    "*-musllinux_i686",
+]
+
+[tool.cibuildwheel.linux]
+before-all = ["curl -sSf https://sh.rustup.rs | sh -s -- -y", "make clean"]
+environment = "PATH=$HOME/.cargo/bin:$PATH"
+
+[tool.cibuildwheel.windows]
+before-all = ["rustup target add i686-pc-windows-msvc"]
