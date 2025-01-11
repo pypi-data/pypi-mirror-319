@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: streamix
+Version: 5.0
+Summary: Streamix: A tool for downloading YouTube videos and audio
+Home-page: https://github.com/itanishajain/StreamIX
+Author: Tanisha Jain
+Author-email: itanishajain@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: yt-dlp
+
+# SnapStream-
+Here, you can download any youtube video by just pasting the link and selecting the desired quality.
