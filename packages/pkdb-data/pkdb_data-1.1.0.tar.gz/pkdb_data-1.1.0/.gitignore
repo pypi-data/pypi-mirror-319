@@ -1,0 +1,33 @@
+# pycharm
+.idea
+.venv
+dist
+
+.eggs
+
+# temporary files
+*.xlsx#
+*.ppt#
+*.log
+.~lock*
+*.bib.bak
+*.bib.sav
+~$*
+__pycache__
+.ipynb_checkpoints
+pkdb_data.egg-info
+.DS_Store
+
+src/pkdb_data.egg-info/
+
+# environment variables
+.env
+.env.alpha
+.env.develop
+.env.production
+
+.tox
+.coverage
+coverage.xml
+studies/enalapril/Hockings1986/.Hockings1986_Tab4.tsv
+studies/enalapril/Ishizaki1988/Ishizaki1988.xlsx

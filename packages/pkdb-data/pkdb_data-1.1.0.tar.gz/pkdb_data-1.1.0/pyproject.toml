@@ -1,0 +1,82 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+     "/.github",
+     "/docs",
+     "/studies",
+     "/tests",
+]
+
+[project]
+name = "pkdb_data"
+dynamic = ["version"]
+description = "pkdb_data are python utilities for working with PK-DB."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+	{name="Matthias König", email="konigmatt@googlemail.com"},
+	{name="Jan Grzegorzewski", email="janekg89@hotmail.de"},
+]
+maintainers = [
+	{name="Matthias König", email="konigmatt@googlemail.com"}
+]
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Intended Audience :: Science/Research",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Topic :: Scientific/Engineering",
+	"Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+keywords = [
+	"pharmacokinetics",
+	"PK-DB",
+	"data"
+]
+dependencies = [
+	"pymetadata>=0.5.2",
+	"rich>=13.9.4",
+	"requests>=2.32.3",
+	"numpy>=2.1",
+    "PyArrow>=18.1.0",
+	"pandas>=2.2.3",
+	"pint>=0.24.4",
+	"openpyxl>=3.1.5",
+	"python-slugify>=8.0.4",
+	"biopython>=1.84",
+]
+
+[project.optional-dependencies]
+test = [
+	"ruff>=0.8.6",
+	"mypy>=1.9.0",
+    "tox>=4.14.2",
+    "pytest>=8.1.1",
+    "pytest-cov>=5.0.0",
+]
+
+[project.scripts]
+create_nodes = "pkdb_data.management.commands:create_info_nodes_command"
+upload_nodes = "pkdb_data.management.commands:upload_info_nodes_command"
+upload_study = "pkdb_data.management.commands:upload_study_command"
+delete_study = "pkdb_data.management.commands:delete_study_command"
+upload_studies = "pkdb_data.management.commands:upload_studies_command"
+
+
+[project_urls]
+Homepage = "https://github.com/matthiaskoenig/pkdb_data"
+Repository = "https://github.com/matthiaskoenig/pkdb_data"
+Documentation = "https://github.com/matthiaskoenig/pkdb_data"
+Issues = "https://github.com/matthiaskoenig/pkdb_data/issues"
+Download = "https://pypi.org/project/pkdb_data"
+
+[tool.hatch.version]
+path = "./src/pkdb_data/__init__.py"
