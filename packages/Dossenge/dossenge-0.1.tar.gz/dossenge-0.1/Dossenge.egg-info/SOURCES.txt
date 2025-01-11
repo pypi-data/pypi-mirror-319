@@ -1,0 +1,5 @@
+setup.py
+Dossenge.egg-info/PKG-INFO
+Dossenge.egg-info/SOURCES.txt
+Dossenge.egg-info/dependency_links.txt
+Dossenge.egg-info/top_level.txt
