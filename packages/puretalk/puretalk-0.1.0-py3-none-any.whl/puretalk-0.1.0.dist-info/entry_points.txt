@@ -1,0 +1,3 @@
+[console_scripts]
+puretalk-generate=main:generate
+
