@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pycounts_toy_az"
+version = "0.1.0"
+description = "A toy package for counting words in a text file. DSCI524 individual assignment"
+authors = ["Alix Zhou"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+matplotlib = ">=3.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+jupyter = "^1.1.1"
+myst-nb = {version = "^1.1.2", python = "^3.9"}
+sphinx-autoapi = "^3.4.0"
+sphinx-rtd-theme = "^3.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
