@@ -1,0 +1,10 @@
+store:
+  server_brand: oxigraph
+  server_url: http://localhost:7878
+repository_id: TEST
+graphs:
+  - name: beatles
+    url:
+      - https://raw.githubusercontent.com/stardog-union/stardog-tutorials/refs/heads/master/music/beatles.ttl
+
+
