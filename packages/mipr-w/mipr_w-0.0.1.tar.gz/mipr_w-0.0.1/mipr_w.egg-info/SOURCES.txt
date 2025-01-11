@@ -1,0 +1,7 @@
+setup.py
+mipr_w/__init__.py
+mipr_w/main.py
+mipr_w.egg-info/PKG-INFO
+mipr_w.egg-info/SOURCES.txt
+mipr_w.egg-info/dependency_links.txt
+mipr_w.egg-info/top_level.txt
