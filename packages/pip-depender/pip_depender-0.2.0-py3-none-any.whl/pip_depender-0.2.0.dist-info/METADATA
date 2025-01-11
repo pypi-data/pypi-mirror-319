@@ -1,0 +1,50 @@
+Metadata-Version: 2.3
+Name: pip-depender
+Version: 0.2.0
+Summary: Depender: Streamline your Python project dependencies with intelligent version management
+License: MIT
+Author: chyroc
+Author-email: chyroc@qq.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: packaging (>=23.2,<24.0)
+Description-Content-Type: text/markdown
+
+# pip_depender
+
+[![PyPI version](https://img.shields.io/pypi/v/pip-depender.svg)](https://pypi.org/project/pip-depender/)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pip-depender)
+
+Depender: Streamline your Python project dependencies with intelligent version management
+
+## Install
+
+```bash
+pip install pip-depender
+```
+
+## Usage
+
+```bash
+pip-depender <package_name>
+```
+
+## Example
+
+When you add some dependencies to your project, But this package is not compatible with your python version, you may got some error like this:
+
+![](./assets/dep-add-failed.png)
+
+You can use `pip-depender` to find the compatible version of the package.
+
+![](./assets/dep-find-versions.png)
+
