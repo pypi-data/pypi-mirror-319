@@ -1,0 +1,48 @@
+[project]
+name = "poetry102"
+version = "0.1.2"
+description = ""
+authors = [
+    {name = "hyw208",email = "hyw208@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard] (>=0.115.6,<0.116.0)",
+]
+
+[tool.poetry]
+packages = [
+    {include = "poetry102", from = "src"}, 
+    {include = "other_package", from = "src"} 
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+coverage = "^7.6.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["src"]
+command_line = "-m pytest"
+
+[tool.coverage.report]
+fail_under = 40
+include = ["src/*/*.py"]
+show_missing = true
+
+[tool.coverage.xml]
+output = "coverage.xml"
+
+[project.scripts]
+xyz = "poetry102.xyz:func"
+xyz2 = "poetry102.xyz:test_abc_func"
+abc = "other_package.abc:func"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
