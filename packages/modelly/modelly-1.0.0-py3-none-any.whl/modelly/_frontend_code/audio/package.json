@@ -1,0 +1,62 @@
+{
+	"name": "@modelly/audio",
+	"version": "0.15.0",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/button": "workspace:^",
+		"@modelly/client": "workspace:^",
+		"@modelly/icons": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/upload": "workspace:^",
+		"@modelly/utils": "workspace:^",
+		"@modelly/wasm": "workspace:^",
+		"@types/wavesurfer.js": "^6.0.10",
+		"extendable-media-recorder": "^9.0.0",
+		"extendable-media-recorder-wav-encoder": "^7.0.76",
+		"hls.js": "^1.5.13",
+		"resize-observer-polyfill": "^1.5.1",
+		"svelte-range-slider-pips": "^2.0.1",
+		"wavesurfer.js": "^7.4.2"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"main_changeset": true,
+	"main": "index.ts",
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"modelly": "./index.ts",
+			"svelte": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		},
+		"./example": {
+			"modelly": "./Example.svelte",
+			"svelte": "./dist/Example.svelte",
+			"types": "./dist/Example.svelte.d.ts"
+		},
+		"./shared": {
+			"modelly": "./shared/index.ts",
+			"svelte": "./dist/shared/index.js",
+			"types": "./dist/shared/index.d.ts"
+		},
+		"./base": {
+			"modelly": "./static/StaticAudio.svelte",
+			"svelte": "./dist/static/StaticAudio.svelte",
+			"types": "./dist/static/StaticAudio.svelte.d.ts"
+		}
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/audio"
+	}
+}

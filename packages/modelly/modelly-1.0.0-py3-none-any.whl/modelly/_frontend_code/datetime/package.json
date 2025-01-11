@@ -1,0 +1,41 @@
+{
+	"name": "@modelly/datetime",
+	"version": "0.3.2",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"main_changeset": true,
+	"main": "Index.svelte",
+	"exports": {
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		},
+		"./example": {
+			"modelly": "./Example.svelte",
+			"svelte": "./dist/Example.svelte",
+			"types": "./dist/Example.svelte.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/icons": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/utils": "workspace:^"
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/datetime"
+	}
+}

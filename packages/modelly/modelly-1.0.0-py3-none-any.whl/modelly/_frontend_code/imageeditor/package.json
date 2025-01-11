@@ -1,0 +1,48 @@
+{
+	"name": "@modelly/imageeditor",
+	"version": "0.12.1",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/client": "workspace:^",
+		"@modelly/icons": "workspace:^",
+		"@modelly/image": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/upload": "workspace:^",
+		"@modelly/utils": "workspace:^",
+		"@modelly/wasm": "workspace:^",
+		"@types/tinycolor2": "^1.4.6",
+		"pixi.js": "^7.3.2",
+		"tinycolor2": "^1.6.0"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"main_changeset": true,
+	"main": "./Index.svelte",
+	"exports": {
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		},
+		"./example": {
+			"modelly": "./Example.svelte",
+			"svelte": "./dist/Example.svelte",
+			"types": "./dist/Example.svelte.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/imageeditor"
+	}
+}

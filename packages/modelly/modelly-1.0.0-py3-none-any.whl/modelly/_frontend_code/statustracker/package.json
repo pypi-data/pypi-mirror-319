@@ -1,0 +1,36 @@
+{
+	"name": "@modelly/statustracker",
+	"version": "0.10.0",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"main": "./index.ts",
+	"author": "",
+	"license": "ISC",
+	"main_changeset": true,
+	"exports": {
+		".": {
+			"modelly": "./index.ts",
+			"svelte": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/icons": "workspace:^",
+		"@modelly/utils": "workspace:^",
+		"dompurify": "^3.0.3",
+		"@types/dompurify": "^3.0.2"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/statustracker"
+	}
+}

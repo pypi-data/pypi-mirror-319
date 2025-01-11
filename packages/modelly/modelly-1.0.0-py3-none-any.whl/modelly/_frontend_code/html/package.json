@@ -1,0 +1,45 @@
+{
+	"name": "@modelly/html",
+	"version": "0.6.1",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"main_changeset": true,
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/utils": "workspace:^",
+		"@modelly/icons": "workspace:^"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		},
+		"./example": {
+			"modelly": "./Example.svelte",
+			"svelte": "./dist/Example.svelte",
+			"types": "./dist/Example.svelte.d.ts"
+		},
+		"./base": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		}
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/html"
+	}
+}

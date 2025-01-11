@@ -1,0 +1,40 @@
+{
+	"name": "@modelly/fallback",
+	"version": "0.4.10",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"main_changeset": true,
+	"exports": {
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		},
+		"./example": {
+			"modelly": "./Example.svelte",
+			"svelte": "./dist/Example.svelte",
+			"types": "./dist/Example.svelte.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/utils": "workspace:^",
+		"@zerodevx/svelte-json-view": "^1.0.7"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/fallback"
+	}
+}

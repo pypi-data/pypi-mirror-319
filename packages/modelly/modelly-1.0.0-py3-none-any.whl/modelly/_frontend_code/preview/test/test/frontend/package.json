@@ -1,0 +1,22 @@
+{
+	"name": "modelly_test",
+	"version": "0.5.1",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": true,
+	"main_changeset": true,
+	"exports": {
+		".": "./Index.svelte",
+		"./example": "./Example.svelte",
+		"./package.json": "./package.json"
+	},
+	"dependencies": {},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/preview/test/test/frontend"
+	}
+}

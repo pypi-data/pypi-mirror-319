@@ -1,0 +1,35 @@
+{
+	"name": "@modelly/button",
+	"version": "0.4.0",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"dependencies": {
+		"@modelly/client": "workspace:^",
+		"@modelly/upload": "workspace:^",
+		"@modelly/utils": "workspace:^"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"main": "./Index.svelte",
+	"main_changeset": true,
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		}
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/button"
+	}
+}

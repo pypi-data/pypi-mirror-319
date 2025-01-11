@@ -1,0 +1,34 @@
+{
+	"name": "@modelly/atoms",
+	"version": "0.13.0",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"main": "src/index.ts",
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@modelly/icons": "workspace:^",
+		"@modelly/markdown-code": "workspace:^",
+		"@modelly/utils": "workspace:^"
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"exports": {
+		".": {
+			"modelly": "./src/index.ts",
+			"svelte": "./dist/src/index.js",
+			"types": "./dist/src/index.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"main_changeset": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/atoms"
+	},
+	"scripts": {
+		"sv-pkg": "svelte-package --input=. --cwd=../../.config/"
+	}
+}

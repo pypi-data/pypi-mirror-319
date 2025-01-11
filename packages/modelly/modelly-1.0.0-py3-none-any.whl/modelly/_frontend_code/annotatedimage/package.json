@@ -1,0 +1,38 @@
+{
+	"name": "@modelly/annotatedimage",
+	"version": "0.9.1",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"main_changeset": true,
+	"exports": {
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/icons": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/upload": "workspace:^",
+		"@modelly/utils": "workspace:^",
+		"@modelly/client": "workspace:^",
+		"@modelly/wasm": "workspace:^"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/annotatedimage"
+	}
+}

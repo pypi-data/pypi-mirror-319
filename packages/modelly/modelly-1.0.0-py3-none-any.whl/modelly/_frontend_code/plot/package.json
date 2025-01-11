@@ -1,0 +1,47 @@
+{
+	"name": "@modelly/plot",
+	"version": "0.9.5",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/icons": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/theme": "workspace:^",
+		"@modelly/utils": "workspace:^",
+		"@rollup/plugin-json": "^6.0.0",
+		"plotly.js-dist-min": "^2.10.1",
+		"vega": "^5.23.0",
+		"vega-embed": "^6.25.0",
+		"vega-lite": "^5.12.0"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"main": "./Index.svelte",
+	"main_changeset": true,
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		},
+		"./base": {
+			"modelly": "./shared/Plot.svelte",
+			"svelte": "./dist/shared/Plot.svelte",
+			"types": "./dist/shared/Plot.svelte.d.ts"
+		}
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/plot"
+	}
+}

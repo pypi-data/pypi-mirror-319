@@ -1,0 +1,35 @@
+<!doctype html>
+<!-- A demo HTML file to test the bundled JS and CSS files -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin="anonymous"
+		/>
+		<script type="module" crossorigin src="./dist/lite.js"></script>
+		<link rel="stylesheet" href="./dist/lite.css" />
+	</head>
+
+	<body style="padding: 10px; height: 100%; width: 100%">
+		<h1>Lorem Ipsum Dolor</h1>
+
+		<modelly-lite>
+			<modelly-requirements> transformers_js_py[audio] </modelly-requirements>
+
+			<modelly-file name="app.py" entrypoint>
+				import modelly as gr from transformers_js_py import pipeline pipe =
+				await pipeline('automatic-speech-recognition'); demo =
+				gr.Interface.from_pipeline(pipe) if __name__ == "__main__":
+				demo.launch()
+			</modelly-file>
+		</modelly-lite>
+	</body>
+</html>

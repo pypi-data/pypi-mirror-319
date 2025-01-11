@@ -1,0 +1,34 @@
+{
+	"name": "@modelly/accordion",
+	"version": "0.5.4",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"main_changeset": true,
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/column": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/utils": "workspace:^"
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"exports": {
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/accordion"
+	}
+}

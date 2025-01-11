@@ -1,0 +1,34 @@
+{
+	"name": "@modelly/lite",
+	"version": "5.10.0",
+	"description": "Serverless Modelly",
+	"type": "module",
+	"main": "dist/lite.js",
+	"author": "Modelly Team",
+	"license": "Apache-2.0",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"cssbuild": "python ../../scripts/generate_theme.py --outfile ./src/theme.css",
+		"pybuild:modelly": "cd ../../ && hatch build -t lite",
+		"pybuild:modelly-client": "cd ../../client/python && python -m build",
+		"pybuild": "run-p pybuild:*",
+		"build": "pnpm pybuild && pnpm cssbuild && pnpm --filter @modelly/client build && pnpm --filter @modelly/wasm build && vite build --mode production",
+		"build:frontend": "vite build --mode production",
+		"dev": "run-p dev:*",
+		"dev:self": "vite --port 9876 --mode development",
+		"dev:worker": "pnpm --filter @modelly/wasm dev",
+		"test:browser": "MODELLY_E2E_TEST_LITE=1 pnpm --filter @self/spa test:browser",
+		"test:browser:dev": "MODELLY_E2E_TEST_LITE=1 pnpm --filter @self/spa test:browser:dev"
+	},
+	"devDependencies": {
+		"modelly": "workspace:^",
+		"@modelly/atoms": "workspace:^",
+		"@self/build": "workspace:^",
+		"@modelly/core": "workspace:^",
+		"@self/spa": "workspace:^",
+		"@modelly/theme": "workspace:^",
+		"@modelly/wasm": "workspace:^"
+	}
+}

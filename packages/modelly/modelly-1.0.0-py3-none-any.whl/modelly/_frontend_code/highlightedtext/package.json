@@ -1,0 +1,37 @@
+{
+	"name": "@modelly/highlightedtext",
+	"version": "0.8.10",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"main_changeset": true,
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/icons": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/theme": "workspace:^",
+		"@modelly/utils": "workspace:^"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"main": "./Index.svelte",
+	"exports": {
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/highlightedtext"
+	}
+}

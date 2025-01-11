@@ -1,0 +1,52 @@
+{
+	"name": "@modelly/dataframe",
+	"version": "0.12.6",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"main_changeset": true,
+	"main": "./Index.svelte",
+	"dependencies": {
+		"@modelly/atoms": "workspace:^",
+		"@modelly/button": "workspace:^",
+		"@modelly/client": "workspace:^",
+		"@modelly/markdown-code": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/upload": "workspace:^",
+		"@modelly/utils": "workspace:^",
+		"@types/d3-dsv": "^3.0.0",
+		"@types/dompurify": "^3.0.2",
+		"@types/katex": "^0.16.0",
+		"d3-dsv": "^3.0.1",
+		"dequal": "^2.0.2",
+		"dompurify": "^3.0.3",
+		"katex": "^0.16.7",
+		"marked": "^12.0.0"
+	},
+	"exports": {
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		},
+		"./example": {
+			"modelly": "./Example.svelte",
+			"svelte": "./dist/Example.svelte",
+			"types": "./dist/Example.svelte.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/dataframe"
+	}
+}

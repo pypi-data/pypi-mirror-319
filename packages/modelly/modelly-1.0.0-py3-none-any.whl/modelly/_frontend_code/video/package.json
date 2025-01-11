@@ -1,0 +1,59 @@
+{
+	"name": "@modelly/video",
+	"version": "0.13.0",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"dependencies": {
+		"@ffmpeg/ffmpeg": "^0.12.7",
+		"@ffmpeg/util": "^0.12.1",
+		"@modelly/atoms": "workspace:^",
+		"@modelly/client": "workspace:^",
+		"@modelly/icons": "workspace:^",
+		"@modelly/image": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/upload": "workspace:^",
+		"@modelly/utils": "workspace:^",
+		"@modelly/wasm": "workspace:^",
+		"hls.js": "^1.5.13",
+		"mrmime": "^2.0.0"
+	},
+	"devDependencies": {
+		"@modelly/preview": "workspace:^"
+	},
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"modelly": "./index.ts",
+			"svelte": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		},
+		"./example": {
+			"modelly": "./Example.svelte",
+			"svelte": "./dist/Example.svelte",
+			"types": "./dist/Example.svelte.d.ts"
+		},
+		"./shared": {
+			"modelly": "./shared/index.ts",
+			"svelte": "./dist/shared/index.js",
+			"types": "./dist/shared/index.d.ts"
+		},
+		"./base": {
+			"modelly": "./shared/VideoPreview.svelte",
+			"svelte": "./dist/shared/VideoPreview.svelte",
+			"types": "./dist/shared/VideoPreview.svelte.d.ts"
+		}
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"main": "index.ts",
+	"main_changeset": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/video"
+	}
+}

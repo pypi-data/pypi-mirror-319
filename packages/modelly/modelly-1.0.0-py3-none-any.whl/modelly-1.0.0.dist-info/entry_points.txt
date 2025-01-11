@@ -1,0 +1,3 @@
+[console_scripts]
+modelly = modelly.cli:cli
+upload_theme = modelly.themes.upload_theme:main

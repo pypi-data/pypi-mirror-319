@@ -1,0 +1,31 @@
+{
+	"name": "@modelly/row",
+	"version": "0.2.0",
+	"description": "Modelly UI packages",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"private": false,
+	"main_changeset": true,
+	"devDependencies": {
+		"@modelly/preview": "workspace:^",
+		"@modelly/statustracker": "workspace:^",
+		"@modelly/utils": "workspace:^"
+	},
+	"exports": {
+		".": {
+			"modelly": "./Index.svelte",
+			"svelte": "./dist/Index.svelte",
+			"types": "./dist/Index.svelte.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/khulnasoft/modelly.git",
+		"directory": "js/row"
+	}
+}
