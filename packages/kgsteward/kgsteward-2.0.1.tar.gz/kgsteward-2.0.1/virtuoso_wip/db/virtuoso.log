@@ -1,0 +1,706 @@
+
+		Sun Sep 22 2024
+09:15:57 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+09:15:58   WikiV version 0.6 from OpenLink Software
+09:15:58   Support functions for WikiV collaboration tool
+09:15:58   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+09:15:58 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+09:15:58   MediaWiki version 0.1 from OpenLink Software
+09:15:58   Support functions for MediaWiki collaboration tool
+09:15:58   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+09:15:58 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+09:15:58   CreoleWiki version 0.1 from OpenLink Software
+09:15:58   Support functions for CreoleWiki collaboration tool
+09:15:58   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+09:15:58 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+09:15:58   ShapefileIO version 0.1virt71 from OpenLink Software
+09:15:58   Shapefile support based on Frank Warmerdam's Shapelib
+09:15:58   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+09:15:58 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+09:15:58   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+09:15:58   Support functions for GraphQL/SPARQL Bridge
+09:15:58   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+09:15:58 OpenLink Virtuoso Universal Server
+09:15:58 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+09:15:58 uses OpenSSL 3.0.14 4 Jun 2024
+09:15:58 uses parts of PCRE, Html Tidy
+09:15:58 SQL Optimizer enabled (max 1000 layouts)
+09:15:58 Compiler unit is timed at 0.000222 msec
+09:16:00 Checkpoint started
+09:16:00 Checkpoint finished.
+09:16:00 Roll forward started
+09:16:00 Roll forward complete
+09:16:01 PL LOG: Installing Virtuoso Conductor version 1.00.8869 (DAV)
+09:16:01 PL LOG: Installing with dependencies Virtuoso Conductor version 1.00.8869/2024-06-14 22:14 (DAV)
+09:16:01 Checkpoint started
+09:16:01 Checkpoint finished, log reused
+09:16:02 Checkpoint started
+09:16:02 Checkpoint finished, log reused
+09:16:02 PL LOG: Installation with dependencies complete
+09:16:02 Checkpoint started
+09:16:02 Checkpoint finished, log reused
+09:16:04 HTTP/WebDAV server online at 8890
+09:16:04 Server online at 1111 (pid 4210)
+09:16:36 Malformed data received from IP [127.0.0.1] : Bad incoming tag 71. Disconnecting the client
+09:16:38 Malformed data received from IP [127.0.0.1] : Bad incoming tag 71. Disconnecting the client
+09:16:43 Malformed data received from IP [127.0.0.1] : Bad incoming tag 71. Disconnecting the client
+09:17:26 Malformed data received from IP [127.0.0.1] : Bad incoming tag 71. Disconnecting the client
+09:17:27 Malformed data received from IP [127.0.0.1] : Bad incoming tag 71. Disconnecting the client
+09:17:32 Malformed data received from IP [127.0.0.1] : Bad incoming tag 71. Disconnecting the client
+09:18:02 Malformed data received from IP [127.0.0.1] : Bad incoming tag 71. Disconnecting the client
+10:16:05 Checkpoint started
+10:16:05 Checkpoint finished, log reused
+11:16:07 Checkpoint started
+11:16:07 Checkpoint finished, log reused
+12:16:09 Checkpoint started
+12:16:09 Checkpoint finished, log reused
+13:16:10 Checkpoint started
+13:16:10 Checkpoint finished, log reused
+14:24:18 Checkpoint started
+14:24:18 Checkpoint finished, log reused
+15:24:18 Checkpoint started
+15:24:19 Checkpoint finished, log reused
+16:28:46 Checkpoint started
+16:28:46 Checkpoint finished, log reused
+17:28:47 Checkpoint started
+17:28:47 Checkpoint finished, log reused
+18:29:04 Checkpoint started
+18:29:04 Checkpoint finished, log reused
+19:36:24 Checkpoint started
+19:36:24 Checkpoint finished, log reused
+20:36:25 Checkpoint started
+20:36:25 Checkpoint finished, log reused
+21:36:25 Checkpoint started
+21:36:25 Checkpoint finished, log reused
+22:40:28 Checkpoint started
+22:40:28 Checkpoint finished, log reused
+23:40:28 Checkpoint started
+23:40:29 Checkpoint finished, log reused
+
+		Mon Sep 23 2024
+00:51:54 Checkpoint started
+00:51:54 Checkpoint finished, log reused
+01:51:54 Checkpoint started
+01:51:54 Checkpoint finished, log reused
+03:01:23 Checkpoint started
+03:01:23 Checkpoint finished, log reused
+04:13:15 Checkpoint started
+04:13:15 Checkpoint finished, log reused
+05:13:15 Checkpoint started
+05:13:15 Checkpoint finished, log reused
+06:29:43 Checkpoint started
+06:29:43 Checkpoint finished, log reused
+07:38:02 Checkpoint started
+07:38:02 Checkpoint finished, log reused
+08:38:04 Checkpoint started
+08:38:04 Checkpoint finished, log reused
+09:38:05 Checkpoint started
+09:38:05 Checkpoint finished, log reused
+10:38:06 Checkpoint started
+10:38:06 Checkpoint finished, log reused
+11:53:03 Checkpoint started
+11:53:03 Checkpoint finished, log reused
+12:53:04 Checkpoint started
+12:53:04 Checkpoint finished, log reused
+14:04:40 Checkpoint started
+14:04:40 Checkpoint finished, log reused
+15:04:42 Checkpoint started
+15:04:42 Checkpoint finished, log reused
+16:04:42 Checkpoint started
+16:04:42 Checkpoint finished, log reused
+17:04:44 Checkpoint started
+17:04:44 Checkpoint finished, log reused
+18:04:44 Checkpoint started
+18:04:44 Checkpoint finished, log reused
+19:10:42 Checkpoint started
+19:10:42 Checkpoint finished, log reused
+20:10:44 Checkpoint started
+20:10:44 Checkpoint finished, log reused
+21:10:45 Checkpoint started
+21:10:45 Checkpoint finished, log reused
+22:24:09 Checkpoint started
+22:24:09 Checkpoint finished, log reused
+23:28:19 Checkpoint started
+23:28:19 Checkpoint finished, log reused
+
+		Tue Sep 24 2024
+00:36:56 Checkpoint started
+00:36:56 Checkpoint finished, log reused
+01:46:47 Checkpoint started
+01:46:47 Checkpoint finished, log reused
+02:51:27 Checkpoint started
+02:51:27 Checkpoint finished, log reused
+03:58:39 Checkpoint started
+03:58:39 Checkpoint finished, log reused
+05:09:54 Checkpoint started
+05:09:54 Checkpoint finished, log reused
+06:17:16 Checkpoint started
+06:17:16 Checkpoint finished, log reused
+07:21:28 Checkpoint started
+07:21:28 Checkpoint finished, log reused
+08:23:55 Checkpoint started
+08:23:55 Checkpoint finished, log reused
+09:23:57 Checkpoint started
+09:23:57 Checkpoint finished, log reused
+10:23:57 Checkpoint started
+10:23:57 Checkpoint finished, log reused
+11:23:57 Checkpoint started
+11:23:57 Checkpoint finished, log reused
+12:23:58 Checkpoint started
+12:23:58 Checkpoint finished, log reused
+13:24:00 Checkpoint started
+13:24:00 Checkpoint finished, log reused
+14:24:00 Checkpoint started
+14:24:00 Checkpoint finished, log reused
+15:24:01 Checkpoint started
+15:24:01 Checkpoint finished, log reused
+16:24:01 Checkpoint started
+16:24:01 Checkpoint finished, log reused
+17:24:03 Checkpoint started
+17:24:03 Checkpoint finished, log reused
+18:24:05 Checkpoint started
+18:24:05 Checkpoint finished, log reused
+19:26:25 Checkpoint started
+19:26:25 Checkpoint finished, log reused
+20:26:27 Checkpoint started
+20:26:27 Checkpoint finished, log reused
+21:26:27 Checkpoint started
+21:26:27 Checkpoint finished, log reused
+22:26:27 Checkpoint started
+22:26:27 Checkpoint finished, log reused
+23:36:41 Checkpoint started
+23:36:41 Checkpoint finished, log reused
+
+		Wed Sep 25 2024
+00:46:56 Checkpoint started
+00:46:56 Checkpoint finished, log reused
+01:55:11 Checkpoint started
+01:55:11 Checkpoint finished, log reused
+02:58:03 Checkpoint started
+02:58:03 Checkpoint finished, log reused
+04:11:01 Checkpoint started
+04:11:01 Checkpoint finished, log reused
+05:14:39 Checkpoint started
+05:14:39 Checkpoint finished, log reused
+06:16:30 Checkpoint started
+06:16:30 Checkpoint finished, log reused
+07:27:12 Checkpoint started
+07:27:12 Checkpoint finished, log reused
+08:27:13 Checkpoint started
+08:27:13 Checkpoint finished, log reused
+09:27:13 Checkpoint started
+09:27:13 Checkpoint finished, log reused
+09:44:15 Server received signal 2
+09:44:15 Initiating normal shutdown
+09:44:15 Checkpoint started
+09:44:15 Checkpoint finished, log reused
+09:44:15 Server shutdown complete
+
+		Tue Oct 01 2024
+15:45:32 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:45:32   WikiV version 0.6 from OpenLink Software
+15:45:32   Support functions for WikiV collaboration tool
+15:45:32   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+15:45:32 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:45:32   MediaWiki version 0.1 from OpenLink Software
+15:45:32   Support functions for MediaWiki collaboration tool
+15:45:32   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+15:45:32 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:45:32   CreoleWiki version 0.1 from OpenLink Software
+15:45:32   Support functions for CreoleWiki collaboration tool
+15:45:32   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+15:45:32 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:45:32   ShapefileIO version 0.1virt71 from OpenLink Software
+15:45:32   Shapefile support based on Frank Warmerdam's Shapelib
+15:45:32   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+15:45:32 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:45:32   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+15:45:32   Support functions for GraphQL/SPARQL Bridge
+15:45:32   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+15:45:32 OpenLink Virtuoso Universal Server
+15:45:32 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+15:45:32 uses OpenSSL 3.0.14 4 Jun 2024
+15:45:32 uses parts of PCRE, Html Tidy
+15:45:32 Database version 3126
+15:45:32 SQL Optimizer enabled (max 1000 layouts)
+15:45:33 Compiler unit is timed at 0.000079 msec
+15:45:34 Roll forward started
+15:45:34 Roll forward complete
+15:45:34 Checkpoint started
+15:45:34 Checkpoint finished, log reused
+15:45:36 HTTP/WebDAV server online at 8890
+15:45:36 Server online at 1111 (pid 26224)
+15:51:36 Server received signal 2
+15:51:36 Initiating normal shutdown
+15:51:36 Checkpoint started
+15:51:36 Checkpoint finished, log reused
+15:51:36 Server shutdown complete
+
+		Tue Oct 01 2024
+15:52:04 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:52:04   WikiV version 0.6 from OpenLink Software
+15:52:04   Support functions for WikiV collaboration tool
+15:52:04   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+15:52:04 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:52:04   MediaWiki version 0.1 from OpenLink Software
+15:52:04   Support functions for MediaWiki collaboration tool
+15:52:04   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+15:52:04 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:52:04   CreoleWiki version 0.1 from OpenLink Software
+15:52:04   Support functions for CreoleWiki collaboration tool
+15:52:04   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+15:52:04 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:52:04   ShapefileIO version 0.1virt71 from OpenLink Software
+15:52:04   Shapefile support based on Frank Warmerdam's Shapelib
+15:52:04   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+15:52:04 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:52:04   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+15:52:04   Support functions for GraphQL/SPARQL Bridge
+15:52:04   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+15:52:04 OpenLink Virtuoso Universal Server
+15:52:04 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+15:52:04 uses OpenSSL 3.0.14 4 Jun 2024
+15:52:04 uses parts of PCRE, Html Tidy
+15:52:04 Database version 3126
+15:52:04 SQL Optimizer enabled (max 1000 layouts)
+15:52:05 Compiler unit is timed at 0.000080 msec
+15:52:06 Roll forward started
+15:52:06 Roll forward complete
+15:52:06 Checkpoint started
+15:52:06 Checkpoint finished, log reused
+15:52:08 HTTP/WebDAV server online at 8890
+15:52:08 Server online at 1111 (pid 28809)
+16:21:29 Server received signal 2
+16:21:29 Initiating normal shutdown
+16:21:29 Checkpoint started
+16:21:29 Checkpoint finished, log reused
+16:21:29 Server shutdown complete
+
+		Tue Oct 01 2024
+17:06:12 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+17:06:12   WikiV version 0.6 from OpenLink Software
+17:06:12   Support functions for WikiV collaboration tool
+17:06:12   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+17:06:12 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+17:06:12   MediaWiki version 0.1 from OpenLink Software
+17:06:12   Support functions for MediaWiki collaboration tool
+17:06:12   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+17:06:12 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+17:06:12   CreoleWiki version 0.1 from OpenLink Software
+17:06:12   Support functions for CreoleWiki collaboration tool
+17:06:12   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+17:06:12 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+17:06:12   ShapefileIO version 0.1virt71 from OpenLink Software
+17:06:12   Shapefile support based on Frank Warmerdam's Shapelib
+17:06:12   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+17:06:12 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+17:06:12   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+17:06:12   Support functions for GraphQL/SPARQL Bridge
+17:06:12   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+17:06:12 OpenLink Virtuoso Universal Server
+17:06:12 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+17:06:12 uses OpenSSL 3.0.14 4 Jun 2024
+17:06:12 uses parts of PCRE, Html Tidy
+17:06:12 Database version 3126
+17:06:12 SQL Optimizer enabled (max 1000 layouts)
+17:06:13 Compiler unit is timed at 0.000078 msec
+17:06:13 Roll forward started
+17:06:13 Roll forward complete
+17:06:13 Checkpoint started
+17:06:13 Checkpoint finished, log reused
+17:06:16 HTTP/WebDAV server online at 8890
+17:06:16 Server online at 1111 (pid 57347)
+18:06:16 Checkpoint started
+18:06:16 Checkpoint finished, log reused
+18:53:15 Server received signal 2
+18:53:15 Initiating normal shutdown
+18:53:15 Checkpoint started
+18:53:15 Checkpoint finished, log reused
+18:53:15 Server shutdown complete
+
+		Tue Oct 01 2024
+20:18:20 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+20:18:20   WikiV version 0.6 from OpenLink Software
+20:18:20   Support functions for WikiV collaboration tool
+20:18:20   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+20:18:20 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+20:18:20   MediaWiki version 0.1 from OpenLink Software
+20:18:20   Support functions for MediaWiki collaboration tool
+20:18:20   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+20:18:20 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+20:18:20   CreoleWiki version 0.1 from OpenLink Software
+20:18:20   Support functions for CreoleWiki collaboration tool
+20:18:20   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+20:18:20 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+20:18:20   ShapefileIO version 0.1virt71 from OpenLink Software
+20:18:20   Shapefile support based on Frank Warmerdam's Shapelib
+20:18:20   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+20:18:20 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+20:18:20   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+20:18:20   Support functions for GraphQL/SPARQL Bridge
+20:18:20   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+20:18:20 OpenLink Virtuoso Universal Server
+20:18:20 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+20:18:20 uses OpenSSL 3.0.14 4 Jun 2024
+20:18:20 uses parts of PCRE, Html Tidy
+20:18:20 Database version 3126
+20:18:20 SQL Optimizer enabled (max 1000 layouts)
+20:18:21 Compiler unit is timed at 0.000078 msec
+20:18:21 Roll forward started
+20:18:21 Roll forward complete
+20:18:22 Checkpoint started
+20:18:22 Checkpoint finished, log reused
+20:18:24 HTTP/WebDAV server online at 8890
+20:18:24 Server online at 1111 (pid 2222)
+20:24:23 Server received signal 2
+20:24:23 Initiating normal shutdown
+20:24:23 Checkpoint started
+20:24:23 Checkpoint finished, log reused
+20:24:23 Server shutdown complete
+
+		Tue Oct 01 2024
+20:24:24 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+20:24:24   WikiV version 0.6 from OpenLink Software
+20:24:24   Support functions for WikiV collaboration tool
+20:24:24   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+20:24:24 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+20:24:24   MediaWiki version 0.1 from OpenLink Software
+20:24:24   Support functions for MediaWiki collaboration tool
+20:24:24   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+20:24:24 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+20:24:24   CreoleWiki version 0.1 from OpenLink Software
+20:24:24   Support functions for CreoleWiki collaboration tool
+20:24:24   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+20:24:24 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+20:24:24   ShapefileIO version 0.1virt71 from OpenLink Software
+20:24:24   Shapefile support based on Frank Warmerdam's Shapelib
+20:24:24   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+20:24:24 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+20:24:24   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+20:24:24   Support functions for GraphQL/SPARQL Bridge
+20:24:24   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+20:24:24 OpenLink Virtuoso Universal Server
+20:24:24 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+20:24:24 uses OpenSSL 3.0.14 4 Jun 2024
+20:24:24 uses parts of PCRE, Html Tidy
+20:24:24 Database version 3126
+20:24:24 SQL Optimizer enabled (max 1000 layouts)
+20:24:25 Compiler unit is timed at 0.000078 msec
+20:24:25 Roll forward started
+20:24:25 Roll forward complete
+20:24:25 Checkpoint started
+20:24:25 Checkpoint finished, log reused
+20:24:27 HTTP/WebDAV server online at 8890
+20:24:27 Server online at 1111 (pid 4615)
+21:22:26 Server received signal 2
+21:22:26 Initiating normal shutdown
+21:22:26 Checkpoint started
+21:22:26 Checkpoint finished, log reused
+21:22:26 Server shutdown complete
+
+		Tue Oct 01 2024
+21:22:26 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+21:22:26   WikiV version 0.6 from OpenLink Software
+21:22:26   Support functions for WikiV collaboration tool
+21:22:26   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+21:22:26 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+21:22:26   MediaWiki version 0.1 from OpenLink Software
+21:22:26   Support functions for MediaWiki collaboration tool
+21:22:26   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+21:22:26 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+21:22:27   CreoleWiki version 0.1 from OpenLink Software
+21:22:27   Support functions for CreoleWiki collaboration tool
+21:22:27   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+21:22:27 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+21:22:27   ShapefileIO version 0.1virt71 from OpenLink Software
+21:22:27   Shapefile support based on Frank Warmerdam's Shapelib
+21:22:27   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+21:22:27 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+21:22:27   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+21:22:27   Support functions for GraphQL/SPARQL Bridge
+21:22:27   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+21:22:27 OpenLink Virtuoso Universal Server
+21:22:27 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+21:22:27 uses OpenSSL 3.0.14 4 Jun 2024
+21:22:27 uses parts of PCRE, Html Tidy
+21:22:27 Database version 3126
+21:22:27 SQL Optimizer enabled (max 1000 layouts)
+21:22:28 Compiler unit is timed at 0.000078 msec
+21:22:28 Roll forward started
+21:22:28 Roll forward complete
+21:22:28 Checkpoint started
+21:22:28 Checkpoint finished, log reused
+21:22:30 HTTP/WebDAV server online at 8890
+21:22:30 Server online at 1111 (pid 27661)
+22:22:31 Checkpoint started
+22:22:31 Checkpoint finished, log reused
+23:22:33 Checkpoint started
+23:22:33 Checkpoint finished, log reused
+
+		Wed Oct 02 2024
+00:25:31 Checkpoint started
+00:25:31 Checkpoint finished, log reused
+01:30:20 Checkpoint started
+01:30:20 Checkpoint finished, log reused
+02:38:45 Checkpoint started
+02:38:45 Checkpoint finished, log reused
+03:44:40 Checkpoint started
+03:44:40 Checkpoint finished, log reused
+04:54:28 Checkpoint started
+04:54:28 Checkpoint finished, log reused
+05:55:28 Checkpoint started
+05:55:28 Checkpoint finished, log reused
+06:56:29 Checkpoint started
+06:56:29 Checkpoint finished, log reused
+07:57:29 Checkpoint started
+07:57:29 Checkpoint finished, log reused
+08:57:31 Checkpoint started
+08:57:31 Checkpoint finished, log reused
+08:58:03 Server received signal 2
+08:58:03 Initiating normal shutdown
+08:58:03 Checkpoint started
+08:58:03 Checkpoint finished, log reused
+08:58:03 Server shutdown complete
+
+		Wed Oct 02 2024
+09:31:17 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+09:31:17   WikiV version 0.6 from OpenLink Software
+09:31:17   Support functions for WikiV collaboration tool
+09:31:17   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+09:31:17 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+09:31:17   MediaWiki version 0.1 from OpenLink Software
+09:31:17   Support functions for MediaWiki collaboration tool
+09:31:17   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+09:31:17 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+09:31:17   CreoleWiki version 0.1 from OpenLink Software
+09:31:17   Support functions for CreoleWiki collaboration tool
+09:31:17   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+09:31:17 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+09:31:17   ShapefileIO version 0.1virt71 from OpenLink Software
+09:31:17   Shapefile support based on Frank Warmerdam's Shapelib
+09:31:17   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+09:31:17 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+09:31:17   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+09:31:17   Support functions for GraphQL/SPARQL Bridge
+09:31:17   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+09:31:17 OpenLink Virtuoso Universal Server
+09:31:17 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+09:31:17 uses OpenSSL 3.0.14 4 Jun 2024
+09:31:17 uses parts of PCRE, Html Tidy
+09:31:17 Database version 3126
+09:31:17 SQL Optimizer enabled (max 1000 layouts)
+09:31:18 Compiler unit is timed at 0.000079 msec
+09:31:18 Roll forward started
+09:31:18 Roll forward complete
+09:31:18 Checkpoint started
+09:31:18 Checkpoint finished, log reused
+09:31:20 HTTP/WebDAV server online at 8890
+09:31:20 Server online at 1111 (pid 3269)
+10:31:34 Checkpoint started
+10:31:34 Checkpoint finished, log reused
+11:31:35 Checkpoint started
+11:31:35 Checkpoint finished, log reused
+12:31:36 Checkpoint started
+12:31:36 Checkpoint finished, log reused
+13:31:37 Checkpoint started
+13:31:37 Checkpoint finished, log reused
+14:31:37 Checkpoint started
+14:31:37 Checkpoint finished, log reused
+15:17:00 Checkpoint started
+15:17:00 Checkpoint finished, log reused
+15:23:55 Checkpoint started
+15:23:55 Checkpoint finished, log reused
+15:23:55 Server shutdown complete
+
+		Wed Oct 02 2024
+15:24:04 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:24:04   WikiV version 0.6 from OpenLink Software
+15:24:04   Support functions for WikiV collaboration tool
+15:24:04   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+15:24:04 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:24:04   MediaWiki version 0.1 from OpenLink Software
+15:24:04   Support functions for MediaWiki collaboration tool
+15:24:04   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+15:24:04 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:24:04   CreoleWiki version 0.1 from OpenLink Software
+15:24:04   Support functions for CreoleWiki collaboration tool
+15:24:04   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+15:24:04 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:24:04   ShapefileIO version 0.1virt71 from OpenLink Software
+15:24:04   Shapefile support based on Frank Warmerdam's Shapelib
+15:24:04   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+15:24:04 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+15:24:04   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+15:24:04   Support functions for GraphQL/SPARQL Bridge
+15:24:04   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+15:24:04 OpenLink Virtuoso Universal Server
+15:24:04 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+15:24:04 uses OpenSSL 3.0.14 4 Jun 2024
+15:24:04 uses parts of PCRE, Html Tidy
+15:24:04 Database version 3126
+15:24:04 SQL Optimizer enabled (max 1000 layouts)
+15:24:05 Compiler unit is timed at 0.000080 msec
+15:24:05 Roll forward started
+15:24:05 Roll forward complete
+15:24:05 Checkpoint started
+15:24:05 Checkpoint finished, log reused
+15:24:07 HTTP/WebDAV server online at 8890
+15:24:07 Server online at 1111 (pid 17247)
+16:24:09 Checkpoint started
+16:24:09 Checkpoint finished, log reused
+17:24:09 Checkpoint started
+17:24:09 Checkpoint finished, log reused
+18:24:11 Checkpoint started
+18:24:11 Checkpoint finished, log reused
+19:34:10 Checkpoint started
+19:34:10 Checkpoint finished, log reused
+20:34:10 Checkpoint started
+20:34:10 Checkpoint finished, log reused
+21:34:10 Checkpoint started
+21:34:10 Checkpoint finished, log reused
+22:34:12 Checkpoint started
+22:34:12 Checkpoint finished, log reused
+23:37:46 Checkpoint started
+23:37:46 Checkpoint finished, log reused
+
+		Thu Oct 03 2024
+00:41:52 Checkpoint started
+00:41:52 Checkpoint finished, log reused
+01:55:57 Checkpoint started
+01:55:57 Checkpoint finished, log reused
+02:56:14 Checkpoint started
+02:56:14 Checkpoint finished, log reused
+03:56:41 Checkpoint started
+03:56:41 Checkpoint finished, log reused
+05:00:18 Checkpoint started
+05:00:18 Checkpoint finished, log reused
+06:09:30 Checkpoint started
+06:09:30 Checkpoint finished, log reused
+07:10:28 Checkpoint started
+07:10:28 Checkpoint finished, log reused
+08:11:30 Checkpoint started
+08:11:30 Checkpoint finished, log reused
+09:11:32 Checkpoint started
+09:11:32 Checkpoint finished, log reused
+10:11:33 Checkpoint started
+10:11:33 Checkpoint finished, log reused
+10:13:36 Server received signal 2
+10:13:36 Initiating normal shutdown
+10:13:36 Checkpoint started
+10:13:36 Checkpoint finished, log reused
+10:13:36 Server shutdown complete
+
+		Fri Oct 04 2024
+16:41:45 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:41:45   WikiV version 0.6 from OpenLink Software
+16:41:45   Support functions for WikiV collaboration tool
+16:41:45   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+16:41:45 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:41:45   MediaWiki version 0.1 from OpenLink Software
+16:41:45   Support functions for MediaWiki collaboration tool
+16:41:45   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+16:41:45 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:41:45   CreoleWiki version 0.1 from OpenLink Software
+16:41:45   Support functions for CreoleWiki collaboration tool
+16:41:45   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+16:41:45 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:41:45   ShapefileIO version 0.1virt71 from OpenLink Software
+16:41:45   Shapefile support based on Frank Warmerdam's Shapelib
+16:41:45   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+16:41:45 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:41:45   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+16:41:45   Support functions for GraphQL/SPARQL Bridge
+16:41:45   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+16:41:45 OpenLink Virtuoso Universal Server
+16:41:45 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+16:41:45 uses OpenSSL 3.0.14 4 Jun 2024
+16:41:45 uses parts of PCRE, Html Tidy
+16:41:45 Database version 3126
+16:41:45 SQL Optimizer enabled (max 1000 layouts)
+16:41:46 Compiler unit is timed at 0.000079 msec
+16:41:47 Roll forward started
+16:41:47 Roll forward complete
+16:41:47 Checkpoint started
+16:41:47 Checkpoint finished, log reused
+16:41:49 HTTP/WebDAV server online at 8890
+16:41:49 Server online at 1111 (pid 8768)
+
+		Fri Oct 04 2024
+16:42:46 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:42:46   WikiV version 0.6 from OpenLink Software
+16:42:46   Support functions for WikiV collaboration tool
+16:42:46   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+16:42:46 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:42:46   MediaWiki version 0.1 from OpenLink Software
+16:42:46   Support functions for MediaWiki collaboration tool
+16:42:46   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+16:42:46 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:42:46   CreoleWiki version 0.1 from OpenLink Software
+16:42:46   Support functions for CreoleWiki collaboration tool
+16:42:46   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+16:42:46 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:42:46   ShapefileIO version 0.1virt71 from OpenLink Software
+16:42:46   Shapefile support based on Frank Warmerdam's Shapelib
+16:42:46   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+16:42:46 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:42:46   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+16:42:46   Support functions for GraphQL/SPARQL Bridge
+16:42:46   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+16:42:46 Unable to lock file /Users/mpagni/github.com/kgsteward/virtuoso_wip/db/virtuoso.lck (Resource temporarily unavailable).
+16:42:46 Virtuoso is already running (pid 8768)
+16:42:46 This probably means you either do not have permission to start
+16:42:46 this server, or that virtuoso-t is already running.
+16:42:46 If you are absolutely sure that this is not the case, please try
+16:42:46 to remove the file /Users/mpagni/github.com/kgsteward/virtuoso_wip/db/virtuoso.lck and start again.
+16:43:12 Server received signal 15
+16:43:12 Initiating quick shutdown
+16:43:12 Server shutdown complete
+
+		Fri Oct 04 2024
+16:43:14 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:43:14   WikiV version 0.6 from OpenLink Software
+16:43:14   Support functions for WikiV collaboration tool
+16:43:14   SUCCESS plugin 1: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/wikiv.so }
+16:43:14 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:43:14   MediaWiki version 0.1 from OpenLink Software
+16:43:14   Support functions for MediaWiki collaboration tool
+16:43:14   SUCCESS plugin 2: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/mediawiki.so }
+16:43:14 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:43:14   CreoleWiki version 0.1 from OpenLink Software
+16:43:14   Support functions for CreoleWiki collaboration tool
+16:43:14   SUCCESS plugin 3: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/creolewiki.so }
+16:43:14 { Loading plugin 8: Type `plain', file `shapefileio' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:43:14   ShapefileIO version 0.1virt71 from OpenLink Software
+16:43:14   Shapefile support based on Frank Warmerdam's Shapelib
+16:43:14   SUCCESS plugin 8: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/shapefileio.so }
+16:43:14 { Loading plugin 9: Type `plain', file `graphql' in `/opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting'
+16:43:14   GraphQL/SPARQL Bridge version 0.9.3 (a1fd8195bf) from OpenLink Software
+16:43:14   Support functions for GraphQL/SPARQL Bridge
+16:43:14   SUCCESS plugin 9: loaded from /opt/homebrew/Cellar/virtuoso/7.2.13/lib/virtuoso/hosting/graphql.so }
+16:43:14 OpenLink Virtuoso Universal Server
+16:43:14 Version 07.20.3240-pthreads for Mac OS X (Apple Silicon) as of Jun 10 2024 (a1fd8195bf)
+16:43:14 uses OpenSSL 3.0.14 4 Jun 2024
+16:43:14 uses parts of PCRE, Html Tidy
+16:43:14 Database version 3126
+16:43:14 SQL Optimizer enabled (max 1000 layouts)
+16:43:15 Compiler unit is timed at 0.000079 msec
+16:43:15 Roll forward started
+16:43:15     3 transactions, 185 bytes replayed (100 %)
+16:43:15 Roll forward complete
+16:43:16 Checkpoint started
+16:43:16 Checkpoint finished, log reused
+16:43:18 HTTP/WebDAV server online at 8890
+16:43:18 Server online at 1111 (pid 9416)
+17:43:18 Checkpoint started
+17:43:18 Checkpoint finished, log reused
+18:43:18 Checkpoint started
+18:43:18 Checkpoint finished, log reused
+19:48:34 Checkpoint started
+19:48:34 Checkpoint finished, log reused
+20:58:33 Checkpoint started
+20:58:33 Checkpoint finished, log reused
+21:46:31 Server received signal 2
+21:46:31 Initiating normal shutdown
+21:46:31 Checkpoint started
+21:46:31 Checkpoint finished, log reused
+21:46:31 Server shutdown complete
