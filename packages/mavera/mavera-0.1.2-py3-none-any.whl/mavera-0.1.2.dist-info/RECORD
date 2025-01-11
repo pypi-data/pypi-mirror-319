@@ -1,0 +1,9 @@
+mavera/__init__.py,sha256=LJdZ2kpVYHewnx2L98Ws-3CmyseVFNVj5CqUMJacpz8,284
+mavera/client.py,sha256=Z8olmKvRVCon6USMu-tQ4kAOIn64nshRBIbY0mSFfQk,1574
+mavera/database.py,sha256=vSYnVAXlMUP9Z3_VQGU09t-s7t_BziQ_2nxFJWE_VUw,7071
+mavera/exceptions.py,sha256=GfVK4dd70aNk9k0RuJE1n8vY4INSgVQ4Hv298mcr3A0,297
+mavera/models.py,sha256=r83BEFMhUE7ZriMGwPgNY_gwRnFRPN7TCXC6zcwJ0tY,448
+mavera-0.1.2.dist-info/METADATA,sha256=Z9R5Ad1DPjZxLkSMvo_dZQS6QeTrVvjBbXoS-dxqddg,501
+mavera-0.1.2.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+mavera-0.1.2.dist-info/top_level.txt,sha256=jEp30sXWgTrqMBxu4SbCn2n2aaTZsR2JKpHhuVnDxaI,7
+mavera-0.1.2.dist-info/RECORD,,
