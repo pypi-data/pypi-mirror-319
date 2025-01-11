@@ -1,0 +1,2 @@
+[console_scripts]
+mooshak = mooshak:run

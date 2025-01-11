@@ -1,0 +1,14 @@
+MooshakLogo {
+    height: auto;
+    margin: 1;
+    width: auto;
+    padding: 1;
+}
+
+HomeScreen {
+    align: center middle;
+}
+
+.width-auto {
+    width: auto;
+}
