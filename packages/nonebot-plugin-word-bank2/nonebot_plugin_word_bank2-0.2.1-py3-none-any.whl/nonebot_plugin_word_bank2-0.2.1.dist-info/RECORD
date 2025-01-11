@@ -1,0 +1,10 @@
+nonebot_plugin_word_bank2-0.2.1.dist-info/METADATA,sha256=D0fS7Z3BCYVGe4TZihC8BWnqrjrBZASpug2GQFgbm9Y,4247
+nonebot_plugin_word_bank2-0.2.1.dist-info/WHEEL,sha256=thaaA2w1JzcGC48WYufAs8nrYZjJm8LqNfnXFOFyCC4,90
+nonebot_plugin_word_bank2-0.2.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+nonebot_plugin_word_bank2-0.2.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nonebot_plugin_word_bank2/__init__.py,sha256=9TPm1WoRVYFJ0B6TKEkOQMdXVmS13QPdqZ3xB4lL9cI,9651
+nonebot_plugin_word_bank2/data_source.py,sha256=AV03F4pMzCVnWMi5zLJw8oq6G0TjPfI1DydxaO5AWUc,9379
+nonebot_plugin_word_bank2/models.py,sha256=PueWzxO9rW2JwzQY9SmGdZ0y9MfyZqZx1UtMKv0_gEo,225
+nonebot_plugin_word_bank2/util.py,sha256=XyBVCvwVvSQq7iBBdJ9rtGasFVUhV7pOiW206f3L9oQ,4923
+nonebot_plugin_word_bank2/word_entry.py,sha256=jvbmbTjx6RP9twrKcUwHhvK95792s4Do-ESjfdQOk0M,2303
+nonebot_plugin_word_bank2-0.2.1.dist-info/RECORD,,
