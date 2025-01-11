@@ -1,0 +1,10 @@
+AUTHORS.md
+LICENSE
+README.md
+parsipy_setup.py
+setup.py
+parsipy/__init__.py
+parsipy.egg-info/PKG-INFO
+parsipy.egg-info/SOURCES.txt
+parsipy.egg-info/dependency_links.txt
+parsipy.egg-info/top_level.txt
