@@ -1,0 +1,16 @@
+ercaspay/__init__.py,sha256=6GxQgyHJl6dsm3IcpzwvCpHAMyDVZUqHAGA97Rz7ULk,3941
+ercaspay/admin.py,sha256=qYpibpiGF2FIZeuhpPOWoE8mfGO_yU0WvaVNjCFOSyE,2309
+ercaspay/apps.py,sha256=tg3Dt9RmbRbz-TKKZFuqmswGlKTOozKXsTJ9ptsr37Y,148
+ercaspay/django.py,sha256=s6LpWwAt-0G1kgxESonPMbMNBRJvzfyU7QTQnSX97qg,3278
+ercaspay/flask.py,sha256=DFN5Lq0ft5etfs5rdMnTq3HZk4hOua9NDoYuHRCn2Hc,7073
+ercaspay/main.py,sha256=ufAcmlMbTCq82OhGzU4GzWk1oRbuPGeScULceW7xxFQ,14435
+ercaspay/models.py,sha256=gG8V5Ezrs0FbT6A4mV_RpwTuopafta6tzfHCrdPaGfs,1059
+ercaspay/urls.py,sha256=XSGcCAS5efNVB_8OPVgtOc8H1y52EW82jvhODB5S4d4,337
+ercaspay/utility.py,sha256=wwgBXJXRhEu9t8n8_5bs4doZ4cuZDzODBwXyMXzFNiU,11252
+ercaspay/static/style.css,sha256=eDYZ6JVHmC8xpy__OrexSkQ7IHICLBAOl3ml0cGdQ24,138456
+ercaspay/templates/payment.html,sha256=qNzSvyhu2jOxL5czHDef7wRo_eO-ji8WDlbkDMrSfJ4,9149
+ercaspay-1.0.0.3.dist-info/METADATA,sha256=5OtHgFzK-TsaSAOvK6Bwpg8fLw2xBbi87XCx25s9nc4,11725
+ercaspay-1.0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ercaspay-1.0.0.3.dist-info/entry_points.txt,sha256=sQO3C-dMubOzOlYT-CGr3_QZFfN9yL60OMiwwQ_UiZ4,47
+ercaspay-1.0.0.3.dist-info/top_level.txt,sha256=pHDdJvqztl2Fe2u7Q2AoU2EZbJxPm61RbRE_y2YoJ98,9
+ercaspay-1.0.0.3.dist-info/RECORD,,
