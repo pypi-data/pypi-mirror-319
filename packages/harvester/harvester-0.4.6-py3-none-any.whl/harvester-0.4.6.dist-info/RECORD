@@ -1,0 +1,10 @@
+harvester/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+harvester/_version.py,sha256=zpZoWJd6Ckmo0bRYgkjKcEXS2EIwkKGRgif5PN8gs6Y,411
+harvester/models.py,sha256=QwMk0S5u6_z4ENuuSxrMHa3GejIjvkjvmniJYTbgaCE,32352
+harvester/user_agents.py,sha256=YVcB2b1DVTtvb_tCj8xuRP5TDNmO94DV87ODH9fAO3M,212887
+harvester/utils.py,sha256=qGp8kcgqQLPDQFaBnNamAASooWljvxps8uPIRx_5Hs4,2912
+harvester-0.4.6.dist-info/LICENSE,sha256=1i8GWDCqNznMAxFWuWkIBcey6BG0oXjItKzYcl1WHJQ,35142
+harvester-0.4.6.dist-info/METADATA,sha256=7GIZ5FW8iYQMTcho6i7Xgz61oz17gBjm63hLYjIbumI,3997
+harvester-0.4.6.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+harvester-0.4.6.dist-info/top_level.txt,sha256=9j0tZRmTTyDuCvtbXxuW-elICn7_TFuYv40MLkol9wc,10
+harvester-0.4.6.dist-info/RECORD,,
