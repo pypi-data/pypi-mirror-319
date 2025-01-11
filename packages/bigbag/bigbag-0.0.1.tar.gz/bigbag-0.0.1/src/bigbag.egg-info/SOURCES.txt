@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/bigbag/__init__.py
+src/bigbag.egg-info/PKG-INFO
+src/bigbag.egg-info/SOURCES.txt
+src/bigbag.egg-info/dependency_links.txt
+src/bigbag.egg-info/top_level.txt
