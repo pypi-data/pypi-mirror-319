@@ -1,0 +1,13 @@
+python-dotenv
+numpy
+pymatgen
+ase
+spglib
+variconfig
+
+[dev]
+sphinx
+sphinx_rtd_theme
+pytest
+setuptools
+setuptools_scm
