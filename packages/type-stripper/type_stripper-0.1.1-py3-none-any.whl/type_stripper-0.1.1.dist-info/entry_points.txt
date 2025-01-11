@@ -1,0 +1,2 @@
+[console_scripts]
+type-stripper = type_stripper:main
