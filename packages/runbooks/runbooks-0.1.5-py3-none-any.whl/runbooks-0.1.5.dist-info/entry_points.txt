@@ -1,0 +1,15 @@
+[console_scripts]
+create_s3_bucket = runbooks.aws.s3_create_bucket:create_bucket
+delete_s3_object = runbooks.aws.s3_object_operations:delete_object
+delete_unused_eips = runbooks.aws.ec2_unused_eips:delete_unused_eips
+delete_unused_volumes = runbooks.aws.ec2_unused_volumes:delete_unused_volumes
+dynamodb_batch_write = runbooks.aws.dynamodb_operations:batch_write_items
+dynamodb_delete_item = runbooks.aws.dynamodb_operations:delete_item
+dynamodb_put_item = runbooks.aws.dynamodb_operations:put_item
+list_ec2_instances = runbooks.aws.ec2_describe_instances:describe_instances
+list_s3_buckets = runbooks.aws.s3_list_buckets:list_s3_buckets
+put_s3_object = runbooks.aws.s3_object_operations:put_object
+run_ec2_instances = runbooks.aws.ec2_run_instances:run_instances
+start_ec2_instances = runbooks.aws.ec2_start_stop_instances:start_instances
+stop_ec2_instances = runbooks.aws.ec2_start_stop_instances:stop_instances
+terminate_ec2_instances = runbooks.aws.ec2_terminate_instances:terminate_instances
