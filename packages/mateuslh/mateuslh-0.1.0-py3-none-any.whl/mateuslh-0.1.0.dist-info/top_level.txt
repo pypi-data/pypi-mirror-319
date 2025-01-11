@@ -1,0 +1,3 @@
+gerenciar_senhas
+matar_processo
+set_dns
