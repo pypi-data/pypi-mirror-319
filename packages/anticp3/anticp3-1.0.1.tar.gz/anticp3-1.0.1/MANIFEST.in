@@ -1,0 +1,8 @@
+include requirements.txt
+include environment.yml
+include README.md
+recursive-include anticp3/blast *
+recursive-include anticp3/example *
+recursive-include anticp3/model *
+recursive-include anticp3/blast_binaries *
+recursive-include anticp3/possum *
