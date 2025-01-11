@@ -1,0 +1,2 @@
+include smartwordcloudgenerator/data/**
+exclude smartwordcloudgenerator/main.py
