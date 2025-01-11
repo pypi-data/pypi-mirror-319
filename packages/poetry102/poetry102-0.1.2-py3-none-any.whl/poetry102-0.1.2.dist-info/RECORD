@@ -1,0 +1,9 @@
+other_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+other_package/abc.py,sha256=K-HRBnCch57xtjTdf90nb-QOW7qKO0mJcrRtYtk0vVo,29
+poetry102/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry102/main.py,sha256=q3y4XLcCaThAbGoulUaVBOWdaPRSHLKH8fNuBKoB7FY,395
+poetry102/xyz.py,sha256=jfDvrNmYbJW04_naoalwrXfAZ3kQRzTU6lmCbdZcbiI,153
+poetry102-0.1.2.dist-info/METADATA,sha256=QPtoAd3M7Jrv80jK5yBSZCFAJ3H9QGJofhQyqyRybYA,2290
+poetry102-0.1.2.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+poetry102-0.1.2.dist-info/entry_points.txt,sha256=BrdofqnKjMkXJ7-FBM1vRQOSkYBiwV4MMsV-8FCbtNs,102
+poetry102-0.1.2.dist-info/RECORD,,
