@@ -1,0 +1,95 @@
+Metadata-Version: 2.2
+Name: neuralcore
+Version: 1.0.0
+Summary: A Python client for NeuralCore AI API
+Home-page: https://neuralcore.org
+Author: NeuralCore
+Author-email: neuralcoreorganization@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# NeuralCore Python Client
+
+Official Python client for the NeuralCore AI API platform.
+
+## Installation
+
+
+## Features
+
+- Chat completions with NeuralCore models
+- Vision analysis capabilities
+- Configurable parameters (temperature, max tokens)
+- Simple and intuitive API
+
+## Configuration
+
+The client can be configured with the following parameters:
+
+- `api_key` (required): Your NeuralCore API key
+- `base_url` (optional): Custom API endpoint
+- `default_temperature` (optional): Default temperature for generations
+- `default_tokens` (optional): Default maximum tokens for responses
+
+## Methods
+
+### Chat
+
+### Vision
+
+## Quick Start
+
+
+python
+from neuralcore import NeuralCore
+Initialize the client
+client = NeuralCore(api_key="your-api-key")
+Chat completion
+response = client.chat("Hello, how are you?")
+print(response)
+Vision analysis
+vision_response = client.vision(
+image_url="https://example.com/image.jpg",
+prompt="Describe this image"
+)
+print(vision_response)
+
+
+python
+client.vision(
+image_url="https://example.com/image.jpg",
+prompt="Describe this image",
+model="neura-vision-3.5",
+temperature=0.7,
+tokens=200  
+)
+
+python
+client.chat(
+messages="Your message",
+model="neura-3.5-aala",
+temperature=0.7,
+tokens=200
+)
+
+## Requirements
+
+- Python 3.6+
+- requests>=2.25.1
+
+## License
+
+This project is licensed under the MIT License.
