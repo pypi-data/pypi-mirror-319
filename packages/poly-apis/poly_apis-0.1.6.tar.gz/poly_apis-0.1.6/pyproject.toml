@@ -1,0 +1,34 @@
+[project]
+name = "poly-apis"
+version = "0.1.6"
+description = "Extension of Polymarket/py-clob-api with the Data API and pydantic structs."
+authors = [
+    { name = "Razvan Gheorghe", email = "razvan@gheorghe.me" }
+]
+dependencies = [
+    "eth-account>=0.13.0",
+    "eth-utils>=4.1.1",
+    "poly_eip712_structs>=0.0.1",
+    "py-order-utils>=0.3.2",
+    "python-dotenv",
+    "httpx",
+    "pydantic>=2.10.4",
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["hatchling==1.26.3"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "black>=24.10.0",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/poly_apis"]
