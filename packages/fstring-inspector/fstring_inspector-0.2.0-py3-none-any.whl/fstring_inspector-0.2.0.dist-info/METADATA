@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fstring_inspector
+Version: 0.2.0
+Summary: A tool to analyze and identify issues with f-strings in Python code, ensuring proper formatting, usage, and preventing errors.
+Home-page: https://github.com/uosyph/fstring-inspector
+Author: Yousef Saeed
+Author-email: uosyph@gmail.com
+Project-URL: Bug Tracker, https://github.com/uosyph/fstring-inspector/issues
+Project-URL: Documentation, https://github.com/uosyph/fstring-inspector/blob/main/README.md
+Project-URL: Source Code, https://github.com/uosyph/fstring-inspector
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fstring-inspector
