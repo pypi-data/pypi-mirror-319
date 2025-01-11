@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+just_test_framework.egg-info/PKG-INFO
+just_test_framework.egg-info/SOURCES.txt
+just_test_framework.egg-info/dependency_links.txt
+just_test_framework.egg-info/top_level.txt
+rest_framework/__init__.py
+rest_framework/views/__init__.py
