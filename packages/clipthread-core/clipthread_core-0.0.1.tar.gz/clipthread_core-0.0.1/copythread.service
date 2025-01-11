@@ -1,0 +1,16 @@
+[Unit]
+Description=CopyThread
+After=graphical.target
+
+[Service]
+Type=simple
+User=lcances
+Group=lcances
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/lcances/.Xauthority
+ExecStart=/home/lcances/Documents/Perso/python/clipthread/run_table_ui.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical.target
