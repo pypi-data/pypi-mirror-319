@@ -1,0 +1,51 @@
+Author: Jonas Malaco
+    readme: remove mention to latest version
+
+Author: Jonas Malaco
+    deploy: replace accidental hard-coded value with variable
+
+Author: Jonas Malaco
+    core: replace try-except block with single call to new _interop.as_array
+    
+    Optimize for the case where `data_or_wLength` is already a byte `array`,
+    as suggested by @kauwua in #527.
+    
+    Related: #528
+
+Author: Jonas Malaco
+    interop: prioritize no-op case but also accept length for a new array
+    
+    While discussing #527, @kauwua made the valid point that we could
+    optimize for the case where the user has passed in a byte `array`.
+    
+    In that spirit, prioritize the no-op conversion case, but also accept
+    the parameter to be a length for a new array in preparation for
+    replacing the conditional in `Device.ctrl_transfer`.
+    
+    Related: #528
+
+Author: Jonas Malaco
+    util: raise TypeError if create_buffer doesn't receive a length
+    
+    `Device.ctrl_transfer` depends on `create_buffer` raising a `TypeError`
+    if its parameter is not a valid length. In particular, if an array is
+    passed in, `create_buffer` must *not* return a copy of it.
+    
+    Commit 3ea79b01af08 accidentally broke this and, consequently, any calls
+    to `ctrl_transfer` passing in a buffer. Thanks @kauwua for reporting the
+    issue and discussing the potential solutions.
+    
+    Note that `length * b'\x00'` is actually faster than `bytes(length)`
+    (tested with Python 3.13 on x86_64).
+    
+    Fixes: #528
+    Fixes: 3ea79b01af08 ("util: remove left over python 2 compatibility workaround")
+
+Author: Jonas Malaco
+    tox: update envlist
+
+Author: Jonas Malaco
+    deploy: compute a B3SUMS file for the release
+
+Author: Jonas Malaco
+    deploy: don't try to upload no longer supported signatures to PyPI
