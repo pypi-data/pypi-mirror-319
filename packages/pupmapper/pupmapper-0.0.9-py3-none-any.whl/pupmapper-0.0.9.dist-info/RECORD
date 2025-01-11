@@ -1,0 +1,10 @@
+pupmapper/__init__.py,sha256=7MNb4vwiXRQ3sWeb562bG-zpuEGXy-9QZXKu88HOguc,15332
+pupmapper/_version.py,sha256=4XsHNcg8a0whBA5VveaE_-emMp5APAX6-j7uEGfRlvA,310
+pupmapper/genmap.py,sha256=RVOuCuy4HtRpGNF_Gg6pTba5_pF6WoJZ-pZXXkpHZf4,2424
+pupmapper/run_bigtools.py,sha256=TiSWDq2NnfsV8CPErmcYoqWnnSRlMWKBqNrAzIMbQ7Y,1209
+pupmapper/utils.py,sha256=2h-Frvp2Q_lQzxXuKM8FNTD0L1zdIM5UIo9zi3M9-Eo,10332
+pupmapper-0.0.9.dist-info/METADATA,sha256=XqFMUxBPob3royM7lrJl2GkBWWkkxrfTkDlFKvZFEuA,5737
+pupmapper-0.0.9.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+pupmapper-0.0.9.dist-info/entry_points.txt,sha256=nPa2GF2oodSz0-6OIghucJUdx1NFTgijXJBUqnkdTPc,54
+pupmapper-0.0.9.dist-info/licenses/LICENSE,sha256=hFcvj_BjfcVP4iEwBVMv1NKBSd3PZ9N9hGYaxQbp8D0,1074
+pupmapper-0.0.9.dist-info/RECORD,,
