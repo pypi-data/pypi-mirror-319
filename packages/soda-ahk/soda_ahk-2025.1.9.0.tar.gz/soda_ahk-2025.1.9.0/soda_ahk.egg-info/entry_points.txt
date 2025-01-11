@@ -1,0 +1,3 @@
+[console_scripts]
+soda-ahk = ahk.main:main
+soda-ahk-toggle-icons = ahk.toggle_icons:ToggleDesktopIcons

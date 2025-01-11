@@ -1,0 +1,32 @@
+[project]
+name = "soda-ahk"
+version = "2025.1.9.0"
+description = "my ahk scripts."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+# All the following settings are optional:
+where = ["."]                             # ["."] by default
+include = ["*"]                           # ["*"] by default
+exclude = ["test*", "scripts", ".vscode"] # empty by default
+
+[tool.setuptools.package-data]
+ahk_script_templates = ["*.ahk"]
+ahk_resources = ["*.ps1", "*.ico", "*.exe", "*.txt"]
+
+[dependency-groups]
+dev = [
+    "build>=1.2.2.post1",
+    "em-keyboard>=4.5.0",
+    "twine>=6.0.1",
+]
+
+[project.scripts]
+soda-ahk = "ahk.main:main"
+soda-ahk-toggle-icons = "ahk.toggle_icons:ToggleDesktopIcons"
