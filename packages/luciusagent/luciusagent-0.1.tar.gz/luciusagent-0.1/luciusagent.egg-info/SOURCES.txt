@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+luciusagent/__init__.py
+luciusagent/agent.py
+luciusagent/lucius_network.coa
+luciusagent/lucius_prompt.md
+luciusagent/nodes.py
+luciusagent.egg-info/PKG-INFO
+luciusagent.egg-info/SOURCES.txt
+luciusagent.egg-info/dependency_links.txt
+luciusagent.egg-info/requires.txt
+luciusagent.egg-info/top_level.txt
