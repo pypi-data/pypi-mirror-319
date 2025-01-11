@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: mooshak
+Version: 0.0.1
+Summary: Add your description here
+Author-email: yashlamba <yashlamba2000@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: textual==1.0.0
+Description-Content-Type: text/markdown
+
+# Mooshak
+
+Coming Soon!

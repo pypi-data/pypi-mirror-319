@@ -1,0 +1,15 @@
+[project]
+name = "mooshak"
+version = "0.0.1"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "yashlamba", email = "yashlamba2000@gmail.com" }]
+requires-python = ">=3.12"
+dependencies = ["textual==1.0.0"]
+
+[project.scripts]
+mooshak = "mooshak:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
