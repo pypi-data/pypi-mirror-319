@@ -1,0 +1,5 @@
+pandas_gbq
+pandas
+flask
+google-cloud-storage
+google-cloud-secret-manager

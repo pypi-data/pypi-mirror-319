@@ -1,0 +1,9 @@
+README.md
+setup.py
+stalse_functions/__init__.py
+stalse_functions/stalse_functions.py
+stalse_functions.egg-info/PKG-INFO
+stalse_functions.egg-info/SOURCES.txt
+stalse_functions.egg-info/dependency_links.txt
+stalse_functions.egg-info/requires.txt
+stalse_functions.egg-info/top_level.txt
