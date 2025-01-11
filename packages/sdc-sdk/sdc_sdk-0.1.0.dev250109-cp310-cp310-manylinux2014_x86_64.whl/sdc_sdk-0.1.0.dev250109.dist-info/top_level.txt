@@ -1,0 +1,3 @@
+sdc
+sdc/lib/libgeneration
+sdc/lib/libverification
