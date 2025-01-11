@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: apb_spatial_utils
+Version: 0.1.0
+Summary: Miscelanous spatial utils for python
+Home-page: https://github.com/portdebarcelona/PLANOL-generic_python_packages/tree/master/apb_spatial_utils_pckg
+Author: Ernesto Arredondo Martinez
+Author-email: ernestone@gmail.com
+Maintainer: Port de Barcelona
+Maintainer-email: planolport@portdebarcelona.cat
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: shapely
+Requires-Dist: pyproj
+Requires-Dist: apb_extra_utils
+
+##### Package <em>apb_spatial_utils</em>
+
+Modules to deal with spatial data using common used spatial libraries as `Shapely`, 
+`Topojsons` (requires `Nodejs` installed), ...
+
+To install:
+```shell
+pip install "git+https://github.com/portdebarcelona/PLANOL-generic_python_packages#egg=apb_spatial_utils&subdirectory=apb_spatial_utils_pckg"
+```
