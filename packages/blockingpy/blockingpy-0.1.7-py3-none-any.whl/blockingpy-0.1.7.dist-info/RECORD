@@ -1,0 +1,16 @@
+blockingpy/__init__.py,sha256=3bBAUBvUaBebibJuV9sQ4C33a8Cjxqa1H5SllbR4jek,340
+blockingpy/annoy_blocker.py,sha256=koTNuGjnEvfq3bZ4_-Yzlr7JpEA9SI1mbG3dKpb5EPo,8361
+blockingpy/base.py,sha256=i1D2yjxcK2EpT-ZuLuov5znAyrncy3M-AHc7N0o7iGE,2736
+blockingpy/blocker.py,sha256=ozO6sNGdWlofFhOVs_BaS8Vu7E1pl2pcVcw1PKEG5ls,19945
+blockingpy/blocking_result.py,sha256=h7EN7vxMLlSY0Krq4K7SXESOn1Z-swBxXzrIuP8O4NQ,7259
+blockingpy/controls.py,sha256=7Vj5-gwevNNHjomVT8fhnXPaoKms0-DhOGEDs6sk2Sw,6435
+blockingpy/faiss_blocker.py,sha256=Ib1fH2XkxKybcKGEwQJvD5v0BxZ3zgxwc83q5f98wi0,8522
+blockingpy/helper_functions.py,sha256=6J-XBA36m5AwVcvzKsfSeD6igoOx8QFkFlZFQY0jCTU,8344
+blockingpy/hnsw_blocker.py,sha256=C055gZ0NjMg_gG_NSWU1-Ke3vrtHIsPmUzhJOJCDxfM,7812
+blockingpy/mlpack_blocker.py,sha256=GfrKb2wPisj3X6D5JEOfG_pJjmTZ2SvdicxWoUdoZ9A,8455
+blockingpy/nnd_blocker.py,sha256=KWyOAgPsXn_Khivvu3yEN0YC0v0W4rUpNx2EALZn_7o,7735
+blockingpy/voyager_blocker.py,sha256=mUz4anWjTHU7YpcHYAUQNYKHetTsmhBAaWbp3dC_V0k,8417
+blockingpy-0.1.7.dist-info/LICENSE,sha256=H9zh1Gv5ee_c9BnCQ95wk6U2AbfQlmE0qrsGQ-wDsm4,1074
+blockingpy-0.1.7.dist-info/METADATA,sha256=xwIG8pm1yPsBfJX6Mt0lYw0764eB7nW4JFcw6y1D3fI,8441
+blockingpy-0.1.7.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+blockingpy-0.1.7.dist-info/RECORD,,
