@@ -1,0 +1,7 @@
+
+[dev]
+build
+nox
+pytest
+pylint
+twine

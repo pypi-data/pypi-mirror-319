@@ -1,0 +1,45 @@
+[project]
+name='str_joiner'
+description='String joiner library'
+authors=[{name='NTPro', email='info@ntprog.com'}]
+requires-python=">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version", ]
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.optional-dependencies]
+dev = [
+    'build',
+    'nox',
+    'pytest',
+    'pylint',
+    'twine',
+]
+
+[project.urls]
+repository = 'https://gitverse.ru/dmitry-vetrov/str_joiner'
+homepage = 'https://gitverse.ru/dmitry-vetrov/str_joiner'
+
+[build-system]
+requires = ['setuptools', ]
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.setuptools.dynamic]
+version = {attr = "str_joiner.version.version"}
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = """missing-module-docstring,
+    missing-function-docstring,
+    missing-class-docstring
+"""
+
+[tool.pytest.ini_options]
+python_files = ["tests.py", "*_tests.py"]
+addopts = """--doctest-modules"""
