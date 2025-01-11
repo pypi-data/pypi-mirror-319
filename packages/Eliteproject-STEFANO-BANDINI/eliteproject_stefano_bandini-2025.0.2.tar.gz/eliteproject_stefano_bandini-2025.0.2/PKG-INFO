@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Eliteproject-STEFANO-BANDINI
+Version: 2025.0.2
+Summary: OEC ELITE LOG PARSER
+Home-page: https://github.com/users/Egorroico/projects/1/views/1
+Author: Stefano Bandini
+Author-email: stefano.bandini@email.it
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Parse_a_compressed_log_file_from_OEC_ELITE
