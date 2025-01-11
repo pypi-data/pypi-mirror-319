@@ -1,0 +1,10 @@
+luciusagent/__init__.py,sha256=ztcdvZIB0NXRm31XiFglygLM6kOCEBopZ0VZqwb9ZPA,44
+luciusagent/agent.py,sha256=Wli-3Ppr4gjaVTZXeOxPjaC_6mR_tjOey2Z3C-lmbHo,1766
+luciusagent/lucius_network.coa,sha256=a-A_84eBp3LPGCgwaLm4vts21d_CiqgRNqIeJxak0qk,59464
+luciusagent/lucius_prompt.md,sha256=NJoPgKPk6D1X7fg4PeEEfSplacsI5eL3V1KLxa4DP1M,86
+luciusagent/nodes.py,sha256=K0_btX90ONbSZM7YxZlpCDJsd0ld-pofMV7Vy5q8FPI,4699
+luciusagent-0.1.dist-info/LICENSE,sha256=Ieq174Inu5VEMUCohJubnmYs-xo_BmjArbx7HozDw7w,1093
+luciusagent-0.1.dist-info/METADATA,sha256=tdRuJdyA2quzPVu5jueFd4mkN0NMJGcM63S8o6vjpCE,634
+luciusagent-0.1.dist-info/WHEEL,sha256=R06PA3UVYHThwHvxuRWMqaGcr-PuniXahwjmQRFMEkY,91
+luciusagent-0.1.dist-info/top_level.txt,sha256=0WabG-jyp1Lcm0n7cjikNz7QYlemsEp3APvdXESNI8M,12
+luciusagent-0.1.dist-info/RECORD,,

@@ -1,0 +1,407 @@
+{
+  "version": "1.1",
+  "nodes": [
+    {
+      "id": "CreateLuciusNode_1736386508009",
+      "type": "CreateLuciusNode",
+      "x": 339,
+      "y": 80,
+      "width": 200,
+      "height": 112,
+      "background_color": "#6D4B12",
+      "header_color": "#A57C21",
+      "title_alignment": "left",
+      "flowSockets": {
+        "inputs": [
+          {
+            "id": "CreateLuciusNode_1736386508009_flow_in",
+            "type": "flow",
+            "color": "#FF8C00",
+            "label": "Flow",
+            "center_text": false
+          }
+        ],
+        "outputs": [
+          {
+            "id": "CreateLuciusNode_1736386508009_flow_out",
+            "type": "flow",
+            "color": "#FF8C00",
+            "label": "Flow",
+            "center_text": false
+          }
+        ]
+      },
+      "inputSockets": [],
+      "outputSockets": [
+        {
+          "id": "CreateLuciusNode_1736386508009_out_0",
+          "type": "data",
+          "socket_class": "LuciusSocket",
+          "color": "#D69E21",
+          "label": "Lucius",
+          "name": "Lucius",
+          "include_socket": true,
+          "center_text": false,
+          "white_list": [
+            "LuciusSocket"
+          ],
+          "black_list": [],
+          "interface": {}
+        }
+      ]
+    },
+    {
+      "id": "MessageLuciusNode_1736386509102",
+      "type": "MessageLuciusNode",
+      "x": 601,
+      "y": 80,
+      "width": 200,
+      "height": 218,
+      "background_color": "#6D4B12",
+      "header_color": "#A57C21",
+      "title_alignment": "left",
+      "flowSockets": {
+        "inputs": [
+          {
+            "id": "MessageLuciusNode_1736386509102_flow_in",
+            "type": "flow",
+            "color": "#FF8C00",
+            "label": "Flow",
+            "center_text": false
+          }
+        ],
+        "outputs": [
+          {
+            "id": "MessageLuciusNode_1736386509102_flow_out",
+            "type": "flow",
+            "color": "#FF8C00",
+            "label": "Flow",
+            "center_text": false
+          }
+        ]
+      },
+      "inputSockets": [
+        {
+          "id": "MessageLuciusNode_1736386509102_in_0",
+          "type": "data",
+          "socket_class": "LuciusSocket",
+          "color": "#D69E21",
+          "label": "Lucius",
+          "name": "Lucius",
+          "include_socket": true,
+          "center_text": false,
+          "white_list": [
+            "LuciusSocket"
+          ],
+          "black_list": [],
+          "interface": {}
+        },
+        {
+          "id": "MessageLuciusNode_1736386509102_in_1",
+          "type": "data",
+          "socket_class": "TextSocket",
+          "color": "#6BB1E4",
+          "label": "Message",
+          "name": "Message",
+          "include_socket": true,
+          "center_text": false,
+          "white_list": [
+            "TextSocket"
+          ],
+          "black_list": [],
+          "interface": {
+            "height": 1,
+            "stored_values": {
+              "value": ""
+            },
+            "content": {
+              "html": "\n                    <div class=\"text-input\">\n                        <button class=\"text-button\">Edit Text</button>\n                    </div>\n                ",
+              "css": "\n                    .text-input {\n                        padding: 2px 8px;\n                        height: 20px;\n                        display: flex;\n                        align-items: center;\n                    }\n                    .text-input .text-button {\n                        height: 20px;\n                        width: 100%;\n                        text-align: center;\n                        padding: 0 4px;\n                        line-height: 20px;\n                        font-size: 12px;\n                        background-color: var(--node-header-color);\n                        border: 1px solid var(--node-header-color);\n                        border-radius: 4px;\n                        color: #ffffff;\n                        cursor: pointer;\n                        user-select: none;\n                    }\n                    .text-input .text-button:hover {\n                        background-color: #007acc;\n                        border-color: #007acc;\n                    }\n                    .text-editor {\n                        position: fixed;\n                        z-index: 10000;\n                        background: #1e1e1e;\n                        border: 1px solid #454545;\n                        border-radius: 4px;\n                        padding: 8px;\n                        display: none;\n                        box-shadow: 0 2px 8px rgba(0,0,0,0.3);\n                        min-width: 400px;\n                        min-height: 300px;\n                        flex-direction: column;\n                    }\n                    .text-editor.visible {\n                        display: flex;\n                    }\n                    .text-editor .editor-header {\n                        display: flex;\n                        justify-content: space-between;\n                        align-items: center;\n                        margin-bottom: 8px;\n                        user-select: none;\n                        cursor: move;\n                    }\n                    .text-editor .editor-title {\n                        color: #ffffff;\n                        font-size: 14px;\n                        font-weight: 600;\n                    }\n                    .text-editor textarea {\n                        width: 100%;\n                        min-height: 250px;\n                        margin-bottom: 8px;\n                        background-color: #252526;\n                        border: 1px solid #454545;\n                        border-radius: 4px;\n                        color: #ffffff;\n                        padding: 8px;\n                        font-family: monospace;\n                        font-size: 12px;\n                        resize: both;\n                    }\n                    .text-editor textarea:focus {\n                        outline: none;\n                        border-color: #007acc;\n                    }\n                    .text-editor .editor-buttons {\n                        display: flex;\n                        justify-content: flex-end;\n                        gap: 8px;\n                    }\n                    .text-editor button {\n                        padding: 4px 12px;\n                        border-radius: 4px;\n                        border: 1px solid #454545;\n                        background-color: #252526;\n                        color: #ffffff;\n                        cursor: pointer;\n                        font-size: 12px;\n                    }\n                    .text-editor button:hover {\n                        background-color: #2d2d2d;\n                        border-color: #007acc;\n                    }\n                    .text-editor button.primary {\n                        background-color: #007acc;\n                        border-color: #007acc;\n                    }\n                    .text-editor button.primary:hover {\n                        background-color: #0098ff;\n                    }\n                ",
+              "js": "\n                    const node = ChatOllamaAgentNodeAPI.getCurrentNode();\n                    const button = element.querySelector('.text-button');\n                    \n                    // Set CSS variables for node colors\n                    element.style.setProperty('--node-background-color', node.background_color);\n                    element.style.setProperty('--node-header-color', node.header_color);\n                    \n                    // Helper function to update button text with line and char counts\n                    function updateButtonText(text) {\n                        const lines = text.split('\\\\n').length;\n                        const chars = text.length;\n                        button.textContent = `Text (Ln ${lines}, Char ${chars})`;\n                    }\n                    \n                    let editor = null;\n                    let isDragging = false;\n                    let dragStartX = 0;\n                    let dragStartY = 0;\n                    let editorStartLeft = 0;\n                    let editorStartTop = 0;\n                    \n                    function createEditor() {\n                        // Remove any existing editor first\n                        if (editor) {\n                            editor.remove();\n                        }\n                        \n                        editor = document.createElement('div');\n                        editor.className = 'text-editor';\n                        editor.innerHTML = `\n                            <div class=\"editor-header\">\n                                <div class=\"editor-title\">Text Editor</div>\n                            </div>\n                            <textarea spellcheck=\"false\"></textarea>\n                            <div class=\"editor-buttons\">\n                                <button class=\"cancel-button\">Cancel</button>\n                                <button class=\"save-button primary\">Save</button>\n                            </div>\n                        `;\n                        \n                        const textarea = editor.querySelector('textarea');\n                        const header = editor.querySelector('.editor-header');\n                        \n                        // Set up drag handling\n                        header.addEventListener('mousedown', (e) => {\n                            if (e.target === header || header.contains(e.target)) {\n                                isDragging = true;\n                                dragStartX = e.clientX;\n                                dragStartY = e.clientY;\n                                const rect = editor.getBoundingClientRect();\n                                editorStartLeft = rect.left;\n                                editorStartTop = rect.top;\n                                e.preventDefault();\n                            }\n                        });\n                        \n                        // Stop propagation of clicks inside editor\n                        editor.addEventListener('mousedown', (e) => {\n                            e.stopPropagation();\n                        });\n                        \n                        // Handle save button\n                        editor.querySelector('.save-button').addEventListener('click', () => {\n                            ChatOllamaAgentNodeAPI.setValue(node.id, socket_id, 'value', textarea.value);\n                            updateButtonText(textarea.value);\n                            closeEditor();\n                        });\n                        \n                        // Handle cancel button\n                        editor.querySelector('.cancel-button').addEventListener('click', closeEditor);\n                        \n                        return editor;\n                    }\n                    \n                    function closeEditor() {\n                        if (editor) {\n                            editor.remove();\n                            editor = null;\n                        }\n                    }\n                    \n                    // Handle document-level events for dragging\n                    document.addEventListener('mousemove', (e) => {\n                        if (!isDragging || !editor) return;\n                        \n                        const deltaX = e.clientX - dragStartX;\n                        const deltaY = e.clientY - dragStartY;\n                        \n                        editor.style.left = `${editorStartLeft + deltaX}px`;\n                        editor.style.top = `${editorStartTop + deltaY}px`;\n                        e.preventDefault();\n                    });\n                    \n                    document.addEventListener('mouseup', () => {\n                        isDragging = false;\n                    });\n                    \n                    // Handle clicks outside editor\n                    document.addEventListener('mousedown', (e) => {\n                        if (editor && !isDragging && !editor.contains(e.target) && e.target !== button) {\n                            closeEditor();\n                        }\n                    });\n                    \n                    // Handle button click to show editor\n                    button.addEventListener('click', (e) => {\n                        e.preventDefault();\n                        e.stopPropagation();\n                        \n                        // Create and add the editor\n                        editor = createEditor();\n                        document.body.appendChild(editor);\n                        \n                        // Set the text value\n                        const textarea = editor.querySelector('textarea');\n                        textarea.value = ChatOllamaAgentNodeAPI.getValue(node.id, socket_id, 'value') || '';\n                        \n                        // Show and position the editor\n                        editor.classList.add('visible');\n                        \n                        // Center the editor\n                        const rect = editor.getBoundingClientRect();\n                        editor.style.left = `${(window.innerWidth - rect.width) / 2}px`;\n                        editor.style.top = `${(window.innerHeight - rect.height) / 2}px`;\n                        \n                        textarea.focus();\n                    });\n                    \n                    // Set initial button text\n                    const initialValue = ChatOllamaAgentNodeAPI.getValue(node.id, socket_id, 'value') || '';\n                    updateButtonText(initialValue);\n                    \n                    // Clean up when the socket is destroyed\n                    return () => {\n                        closeEditor();\n                    };\n                "
+            }
+          }
+        }
+      ],
+      "outputSockets": [
+        {
+          "id": "MessageLuciusNode_1736386509102_out_0",
+          "type": "data",
+          "socket_class": "LuciusSocket",
+          "color": "#D69E21",
+          "label": "Lucius",
+          "name": "Lucius",
+          "include_socket": true,
+          "center_text": false,
+          "white_list": [
+            "LuciusSocket"
+          ],
+          "black_list": [],
+          "interface": {}
+        },
+        {
+          "id": "MessageLuciusNode_1736386509102_out_1",
+          "type": "data",
+          "socket_class": "TextSocket",
+          "color": "#6BB1E4",
+          "label": "Response",
+          "name": "Response",
+          "include_socket": true,
+          "center_text": false,
+          "white_list": [
+            "TextSocket"
+          ],
+          "black_list": [],
+          "interface": {
+            "height": 1,
+            "stored_values": {
+              "value": ""
+            },
+            "content": {
+              "html": "\n                    <div class=\"text-input\">\n                        <button class=\"text-button\">Edit Text</button>\n                    </div>\n                ",
+              "css": "\n                    .text-input {\n                        padding: 2px 8px;\n                        height: 20px;\n                        display: flex;\n                        align-items: center;\n                    }\n                    .text-input .text-button {\n                        height: 20px;\n                        width: 100%;\n                        text-align: center;\n                        padding: 0 4px;\n                        line-height: 20px;\n                        font-size: 12px;\n                        background-color: var(--node-header-color);\n                        border: 1px solid var(--node-header-color);\n                        border-radius: 4px;\n                        color: #ffffff;\n                        cursor: pointer;\n                        user-select: none;\n                    }\n                    .text-input .text-button:hover {\n                        background-color: #007acc;\n                        border-color: #007acc;\n                    }\n                    .text-editor {\n                        position: fixed;\n                        z-index: 10000;\n                        background: #1e1e1e;\n                        border: 1px solid #454545;\n                        border-radius: 4px;\n                        padding: 8px;\n                        display: none;\n                        box-shadow: 0 2px 8px rgba(0,0,0,0.3);\n                        min-width: 400px;\n                        min-height: 300px;\n                        flex-direction: column;\n                    }\n                    .text-editor.visible {\n                        display: flex;\n                    }\n                    .text-editor .editor-header {\n                        display: flex;\n                        justify-content: space-between;\n                        align-items: center;\n                        margin-bottom: 8px;\n                        user-select: none;\n                        cursor: move;\n                    }\n                    .text-editor .editor-title {\n                        color: #ffffff;\n                        font-size: 14px;\n                        font-weight: 600;\n                    }\n                    .text-editor textarea {\n                        width: 100%;\n                        min-height: 250px;\n                        margin-bottom: 8px;\n                        background-color: #252526;\n                        border: 1px solid #454545;\n                        border-radius: 4px;\n                        color: #ffffff;\n                        padding: 8px;\n                        font-family: monospace;\n                        font-size: 12px;\n                        resize: both;\n                    }\n                    .text-editor textarea:focus {\n                        outline: none;\n                        border-color: #007acc;\n                    }\n                    .text-editor .editor-buttons {\n                        display: flex;\n                        justify-content: flex-end;\n                        gap: 8px;\n                    }\n                    .text-editor button {\n                        padding: 4px 12px;\n                        border-radius: 4px;\n                        border: 1px solid #454545;\n                        background-color: #252526;\n                        color: #ffffff;\n                        cursor: pointer;\n                        font-size: 12px;\n                    }\n                    .text-editor button:hover {\n                        background-color: #2d2d2d;\n                        border-color: #007acc;\n                    }\n                    .text-editor button.primary {\n                        background-color: #007acc;\n                        border-color: #007acc;\n                    }\n                    .text-editor button.primary:hover {\n                        background-color: #0098ff;\n                    }\n                ",
+              "js": "\n                    const node = ChatOllamaAgentNodeAPI.getCurrentNode();\n                    const button = element.querySelector('.text-button');\n                    \n                    // Set CSS variables for node colors\n                    element.style.setProperty('--node-background-color', node.background_color);\n                    element.style.setProperty('--node-header-color', node.header_color);\n                    \n                    // Helper function to update button text with line and char counts\n                    function updateButtonText(text) {\n                        const lines = text.split('\\\\n').length;\n                        const chars = text.length;\n                        button.textContent = `Text (Ln ${lines}, Char ${chars})`;\n                    }\n                    \n                    let editor = null;\n                    let isDragging = false;\n                    let dragStartX = 0;\n                    let dragStartY = 0;\n                    let editorStartLeft = 0;\n                    let editorStartTop = 0;\n                    \n                    function createEditor() {\n                        // Remove any existing editor first\n                        if (editor) {\n                            editor.remove();\n                        }\n                        \n                        editor = document.createElement('div');\n                        editor.className = 'text-editor';\n                        editor.innerHTML = `\n                            <div class=\"editor-header\">\n                                <div class=\"editor-title\">Text Editor</div>\n                            </div>\n                            <textarea spellcheck=\"false\"></textarea>\n                            <div class=\"editor-buttons\">\n                                <button class=\"cancel-button\">Cancel</button>\n                                <button class=\"save-button primary\">Save</button>\n                            </div>\n                        `;\n                        \n                        const textarea = editor.querySelector('textarea');\n                        const header = editor.querySelector('.editor-header');\n                        \n                        // Set up drag handling\n                        header.addEventListener('mousedown', (e) => {\n                            if (e.target === header || header.contains(e.target)) {\n                                isDragging = true;\n                                dragStartX = e.clientX;\n                                dragStartY = e.clientY;\n                                const rect = editor.getBoundingClientRect();\n                                editorStartLeft = rect.left;\n                                editorStartTop = rect.top;\n                                e.preventDefault();\n                            }\n                        });\n                        \n                        // Stop propagation of clicks inside editor\n                        editor.addEventListener('mousedown', (e) => {\n                            e.stopPropagation();\n                        });\n                        \n                        // Handle save button\n                        editor.querySelector('.save-button').addEventListener('click', () => {\n                            ChatOllamaAgentNodeAPI.setValue(node.id, socket_id, 'value', textarea.value);\n                            updateButtonText(textarea.value);\n                            closeEditor();\n                        });\n                        \n                        // Handle cancel button\n                        editor.querySelector('.cancel-button').addEventListener('click', closeEditor);\n                        \n                        return editor;\n                    }\n                    \n                    function closeEditor() {\n                        if (editor) {\n                            editor.remove();\n                            editor = null;\n                        }\n                    }\n                    \n                    // Handle document-level events for dragging\n                    document.addEventListener('mousemove', (e) => {\n                        if (!isDragging || !editor) return;\n                        \n                        const deltaX = e.clientX - dragStartX;\n                        const deltaY = e.clientY - dragStartY;\n                        \n                        editor.style.left = `${editorStartLeft + deltaX}px`;\n                        editor.style.top = `${editorStartTop + deltaY}px`;\n                        e.preventDefault();\n                    });\n                    \n                    document.addEventListener('mouseup', () => {\n                        isDragging = false;\n                    });\n                    \n                    // Handle clicks outside editor\n                    document.addEventListener('mousedown', (e) => {\n                        if (editor && !isDragging && !editor.contains(e.target) && e.target !== button) {\n                            closeEditor();\n                        }\n                    });\n                    \n                    // Handle button click to show editor\n                    button.addEventListener('click', (e) => {\n                        e.preventDefault();\n                        e.stopPropagation();\n                        \n                        // Create and add the editor\n                        editor = createEditor();\n                        document.body.appendChild(editor);\n                        \n                        // Set the text value\n                        const textarea = editor.querySelector('textarea');\n                        textarea.value = ChatOllamaAgentNodeAPI.getValue(node.id, socket_id, 'value') || '';\n                        \n                        // Show and position the editor\n                        editor.classList.add('visible');\n                        \n                        // Center the editor\n                        const rect = editor.getBoundingClientRect();\n                        editor.style.left = `${(window.innerWidth - rect.width) / 2}px`;\n                        editor.style.top = `${(window.innerHeight - rect.height) / 2}px`;\n                        \n                        textarea.focus();\n                    });\n                    \n                    // Set initial button text\n                    const initialValue = ChatOllamaAgentNodeAPI.getValue(node.id, socket_id, 'value') || '';\n                    updateButtonText(initialValue);\n                    \n                    // Clean up when the socket is destroyed\n                    return () => {\n                        closeEditor();\n                    };\n                "
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "StartNode_1736386649031",
+      "type": "StartNode",
+      "x": 73,
+      "y": 80,
+      "width": 200,
+      "height": 136,
+      "background_color": "#23571D",
+      "header_color": "#2e7d33",
+      "title_alignment": "left",
+      "flowSockets": {
+        "inputs": [
+          {
+            "id": "StartNode_1736386649031_flow_in",
+            "type": "flow",
+            "color": "#FF8C00",
+            "label": "Flow",
+            "center_text": false
+          }
+        ],
+        "outputs": [
+          {
+            "id": "StartNode_1736386649031_flow_out",
+            "type": "flow",
+            "color": "#FF8C00",
+            "label": "Flow",
+            "center_text": false
+          }
+        ]
+      },
+      "inputSockets": [
+        {
+          "id": "StartNode_1736386649031_in_0",
+          "type": "data",
+          "socket_class": "StringSocket",
+          "color": "#ADD8E6",
+          "label": "Name",
+          "name": "Name",
+          "include_socket": false,
+          "center_text": true,
+          "white_list": [
+            "StringSocket"
+          ],
+          "black_list": [],
+          "interface": {
+            "height": 1,
+            "stored_values": {
+              "value": ""
+            },
+            "content": {
+              "html": "\n                    <div class=\"string-input\">\n                        <input type=\"text\">\n                    </div>\n                ",
+              "css": "\n                    .string-input {\n                        padding: 2px 8px;\n                        height: 20px;\n                        display: flex;\n                        align-items: center;\n                    }\n                    .string-input input {\n                        height: 20px;\n                        width: 100%;\n                        text-align: left;\n                        padding: 0 4px;\n                        line-height: 20px;\n                        font-size: 12px;\n                        background-color: var(--node-background-color);\n                        border: 1px solid var(--node-header-color);\n                        border-radius: 4px;\n                        color: #ffffff;\n                        cursor: text;\n                        caret-color: #ffffff;\n                        user-select: text;\n                        -webkit-user-select: text;\n                    }\n                    .string-input input:focus {\n                        background-color: var(--node-header-color);\n                        border-color: #007acc;\n                        color: #ffffff;\n                        box-shadow: none;\n                        outline: none;\n                    }\n                ",
+              "js": "\n                    const node = ChatOllamaAgentNodeAPI.getCurrentNode();\n                    const input = element.querySelector('input');\n                    \n                    // Set CSS variables for node colors\n                    element.style.setProperty('--node-background-color', node.background_color);\n                    element.style.setProperty('--node-header-color', node.header_color);\n                    \n                    // Set initial value\n                    input.value = ChatOllamaAgentNodeAPI.getValue(node.id, socket_id, 'value') || '';\n                    \n                    // Handle changes\n                    input.onchange = (e) => {\n                        ChatOllamaAgentNodeAPI.setValue(node.id, socket_id, 'value', e.target.value);\n                    };\n                "
+            }
+          }
+        }
+      ],
+      "outputSockets": []
+    }
+  ],
+  "connections": [
+    {
+      "id": "conn_1736386651970",
+      "from": {
+        "nodeId": "StartNode_1736386649031",
+        "socketId": "StartNode_1736386649031_flow_out"
+      },
+      "to": {
+        "nodeId": "CreateLuciusNode_1736386508009",
+        "socketId": "CreateLuciusNode_1736386508009_flow_in"
+      }
+    },
+    {
+      "id": "conn_1736386702015",
+      "from": {
+        "nodeId": "CreateLuciusNode_1736386508009",
+        "socketId": "CreateLuciusNode_1736386508009_flow_out"
+      },
+      "to": {
+        "nodeId": "MessageLuciusNode_1736386509102",
+        "socketId": "MessageLuciusNode_1736386509102_flow_in"
+      }
+    },
+    {
+      "id": "conn_1736386702016",
+      "from": {
+        "nodeId": "CreateLuciusNode_1736386508009",
+        "socketId": "CreateLuciusNode_1736386508009_out_0"
+      },
+      "to": {
+        "nodeId": "MessageLuciusNode_1736386509102",
+        "socketId": "MessageLuciusNode_1736386509102_in_0"
+      }
+    }
+  ],
+  "definitions": {
+    "CreateLuciusNode": {
+      "title": "Create Lucius",
+      "category": "!Lucius",
+      "include_flow_input": true,
+      "include_flow_output": true,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "Lucius",
+          "direction": "output",
+          "socket_class": "LuciusSocket",
+          "color": "#D69E21",
+          "include_socket": true,
+          "center_text": false,
+          "white_list": [
+            "LuciusSocket"
+          ],
+          "black_list": [],
+          "interface": {}
+        }
+      ]
+    },
+    "MessageLuciusNode": {
+      "title": "Message Lucius",
+      "category": "!Lucius",
+      "include_flow_input": true,
+      "include_flow_output": true,
+      "inputs": [
+        {
+          "name": "Lucius",
+          "direction": "input",
+          "socket_class": "LuciusSocket",
+          "color": "#D69E21",
+          "include_socket": true,
+          "center_text": false,
+          "white_list": [
+            "LuciusSocket"
+          ],
+          "black_list": [],
+          "interface": {}
+        },
+        {
+          "name": "Message",
+          "direction": "input",
+          "socket_class": "TextSocket",
+          "color": "#6BB1E4",
+          "include_socket": true,
+          "center_text": false,
+          "white_list": [
+            "TextSocket"
+          ],
+          "black_list": [],
+          "interface": {
+            "height": 1,
+            "stored_values": {
+              "value": ""
+            },
+            "content": {
+              "html": "\n                    <div class=\"text-input\">\n                        <button class=\"text-button\">Edit Text</button>\n                    </div>\n                ",
+              "css": "\n                    .text-input {\n                        padding: 2px 8px;\n                        height: 20px;\n                        display: flex;\n                        align-items: center;\n                    }\n                    .text-input .text-button {\n                        height: 20px;\n                        width: 100%;\n                        text-align: center;\n                        padding: 0 4px;\n                        line-height: 20px;\n                        font-size: 12px;\n                        background-color: var(--node-header-color);\n                        border: 1px solid var(--node-header-color);\n                        border-radius: 4px;\n                        color: #ffffff;\n                        cursor: pointer;\n                        user-select: none;\n                    }\n                    .text-input .text-button:hover {\n                        background-color: #007acc;\n                        border-color: #007acc;\n                    }\n                    .text-editor {\n                        position: fixed;\n                        z-index: 10000;\n                        background: #1e1e1e;\n                        border: 1px solid #454545;\n                        border-radius: 4px;\n                        padding: 8px;\n                        display: none;\n                        box-shadow: 0 2px 8px rgba(0,0,0,0.3);\n                        min-width: 400px;\n                        min-height: 300px;\n                        flex-direction: column;\n                    }\n                    .text-editor.visible {\n                        display: flex;\n                    }\n                    .text-editor .editor-header {\n                        display: flex;\n                        justify-content: space-between;\n                        align-items: center;\n                        margin-bottom: 8px;\n                        user-select: none;\n                        cursor: move;\n                    }\n                    .text-editor .editor-title {\n                        color: #ffffff;\n                        font-size: 14px;\n                        font-weight: 600;\n                    }\n                    .text-editor textarea {\n                        width: 100%;\n                        min-height: 250px;\n                        margin-bottom: 8px;\n                        background-color: #252526;\n                        border: 1px solid #454545;\n                        border-radius: 4px;\n                        color: #ffffff;\n                        padding: 8px;\n                        font-family: monospace;\n                        font-size: 12px;\n                        resize: both;\n                    }\n                    .text-editor textarea:focus {\n                        outline: none;\n                        border-color: #007acc;\n                    }\n                    .text-editor .editor-buttons {\n                        display: flex;\n                        justify-content: flex-end;\n                        gap: 8px;\n                    }\n                    .text-editor button {\n                        padding: 4px 12px;\n                        border-radius: 4px;\n                        border: 1px solid #454545;\n                        background-color: #252526;\n                        color: #ffffff;\n                        cursor: pointer;\n                        font-size: 12px;\n                    }\n                    .text-editor button:hover {\n                        background-color: #2d2d2d;\n                        border-color: #007acc;\n                    }\n                    .text-editor button.primary {\n                        background-color: #007acc;\n                        border-color: #007acc;\n                    }\n                    .text-editor button.primary:hover {\n                        background-color: #0098ff;\n                    }\n                ",
+              "js": "\n                    const node = ChatOllamaAgentNodeAPI.getCurrentNode();\n                    const button = element.querySelector('.text-button');\n                    \n                    // Set CSS variables for node colors\n                    element.style.setProperty('--node-background-color', node.background_color);\n                    element.style.setProperty('--node-header-color', node.header_color);\n                    \n                    // Helper function to update button text with line and char counts\n                    function updateButtonText(text) {\n                        const lines = text.split('\\\\n').length;\n                        const chars = text.length;\n                        button.textContent = `Text (Ln ${lines}, Char ${chars})`;\n                    }\n                    \n                    let editor = null;\n                    let isDragging = false;\n                    let dragStartX = 0;\n                    let dragStartY = 0;\n                    let editorStartLeft = 0;\n                    let editorStartTop = 0;\n                    \n                    function createEditor() {\n                        // Remove any existing editor first\n                        if (editor) {\n                            editor.remove();\n                        }\n                        \n                        editor = document.createElement('div');\n                        editor.className = 'text-editor';\n                        editor.innerHTML = `\n                            <div class=\"editor-header\">\n                                <div class=\"editor-title\">Text Editor</div>\n                            </div>\n                            <textarea spellcheck=\"false\"></textarea>\n                            <div class=\"editor-buttons\">\n                                <button class=\"cancel-button\">Cancel</button>\n                                <button class=\"save-button primary\">Save</button>\n                            </div>\n                        `;\n                        \n                        const textarea = editor.querySelector('textarea');\n                        const header = editor.querySelector('.editor-header');\n                        \n                        // Set up drag handling\n                        header.addEventListener('mousedown', (e) => {\n                            if (e.target === header || header.contains(e.target)) {\n                                isDragging = true;\n                                dragStartX = e.clientX;\n                                dragStartY = e.clientY;\n                                const rect = editor.getBoundingClientRect();\n                                editorStartLeft = rect.left;\n                                editorStartTop = rect.top;\n                                e.preventDefault();\n                            }\n                        });\n                        \n                        // Stop propagation of clicks inside editor\n                        editor.addEventListener('mousedown', (e) => {\n                            e.stopPropagation();\n                        });\n                        \n                        // Handle save button\n                        editor.querySelector('.save-button').addEventListener('click', () => {\n                            ChatOllamaAgentNodeAPI.setValue(node.id, socket_id, 'value', textarea.value);\n                            updateButtonText(textarea.value);\n                            closeEditor();\n                        });\n                        \n                        // Handle cancel button\n                        editor.querySelector('.cancel-button').addEventListener('click', closeEditor);\n                        \n                        return editor;\n                    }\n                    \n                    function closeEditor() {\n                        if (editor) {\n                            editor.remove();\n                            editor = null;\n                        }\n                    }\n                    \n                    // Handle document-level events for dragging\n                    document.addEventListener('mousemove', (e) => {\n                        if (!isDragging || !editor) return;\n                        \n                        const deltaX = e.clientX - dragStartX;\n                        const deltaY = e.clientY - dragStartY;\n                        \n                        editor.style.left = `${editorStartLeft + deltaX}px`;\n                        editor.style.top = `${editorStartTop + deltaY}px`;\n                        e.preventDefault();\n                    });\n                    \n                    document.addEventListener('mouseup', () => {\n                        isDragging = false;\n                    });\n                    \n                    // Handle clicks outside editor\n                    document.addEventListener('mousedown', (e) => {\n                        if (editor && !isDragging && !editor.contains(e.target) && e.target !== button) {\n                            closeEditor();\n                        }\n                    });\n                    \n                    // Handle button click to show editor\n                    button.addEventListener('click', (e) => {\n                        e.preventDefault();\n                        e.stopPropagation();\n                        \n                        // Create and add the editor\n                        editor = createEditor();\n                        document.body.appendChild(editor);\n                        \n                        // Set the text value\n                        const textarea = editor.querySelector('textarea');\n                        textarea.value = ChatOllamaAgentNodeAPI.getValue(node.id, socket_id, 'value') || '';\n                        \n                        // Show and position the editor\n                        editor.classList.add('visible');\n                        \n                        // Center the editor\n                        const rect = editor.getBoundingClientRect();\n                        editor.style.left = `${(window.innerWidth - rect.width) / 2}px`;\n                        editor.style.top = `${(window.innerHeight - rect.height) / 2}px`;\n                        \n                        textarea.focus();\n                    });\n                    \n                    // Set initial button text\n                    const initialValue = ChatOllamaAgentNodeAPI.getValue(node.id, socket_id, 'value') || '';\n                    updateButtonText(initialValue);\n                    \n                    // Clean up when the socket is destroyed\n                    return () => {\n                        closeEditor();\n                    };\n                "
+            }
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Lucius",
+          "direction": "output",
+          "socket_class": "LuciusSocket",
+          "color": "#D69E21",
+          "include_socket": true,
+          "center_text": false,
+          "white_list": [
+            "LuciusSocket"
+          ],
+          "black_list": [],
+          "interface": {}
+        },
+        {
+          "name": "Response",
+          "direction": "output",
+          "socket_class": "TextSocket",
+          "color": "#6BB1E4",
+          "include_socket": true,
+          "center_text": false,
+          "white_list": [
+            "TextSocket"
+          ],
+          "black_list": [],
+          "interface": {
+            "height": 1,
+            "stored_values": {
+              "value": ""
+            },
+            "content": {
+              "html": "\n                    <div class=\"text-input\">\n                        <button class=\"text-button\">Edit Text</button>\n                    </div>\n                ",
+              "css": "\n                    .text-input {\n                        padding: 2px 8px;\n                        height: 20px;\n                        display: flex;\n                        align-items: center;\n                    }\n                    .text-input .text-button {\n                        height: 20px;\n                        width: 100%;\n                        text-align: center;\n                        padding: 0 4px;\n                        line-height: 20px;\n                        font-size: 12px;\n                        background-color: var(--node-header-color);\n                        border: 1px solid var(--node-header-color);\n                        border-radius: 4px;\n                        color: #ffffff;\n                        cursor: pointer;\n                        user-select: none;\n                    }\n                    .text-input .text-button:hover {\n                        background-color: #007acc;\n                        border-color: #007acc;\n                    }\n                    .text-editor {\n                        position: fixed;\n                        z-index: 10000;\n                        background: #1e1e1e;\n                        border: 1px solid #454545;\n                        border-radius: 4px;\n                        padding: 8px;\n                        display: none;\n                        box-shadow: 0 2px 8px rgba(0,0,0,0.3);\n                        min-width: 400px;\n                        min-height: 300px;\n                        flex-direction: column;\n                    }\n                    .text-editor.visible {\n                        display: flex;\n                    }\n                    .text-editor .editor-header {\n                        display: flex;\n                        justify-content: space-between;\n                        align-items: center;\n                        margin-bottom: 8px;\n                        user-select: none;\n                        cursor: move;\n                    }\n                    .text-editor .editor-title {\n                        color: #ffffff;\n                        font-size: 14px;\n                        font-weight: 600;\n                    }\n                    .text-editor textarea {\n                        width: 100%;\n                        min-height: 250px;\n                        margin-bottom: 8px;\n                        background-color: #252526;\n                        border: 1px solid #454545;\n                        border-radius: 4px;\n                        color: #ffffff;\n                        padding: 8px;\n                        font-family: monospace;\n                        font-size: 12px;\n                        resize: both;\n                    }\n                    .text-editor textarea:focus {\n                        outline: none;\n                        border-color: #007acc;\n                    }\n                    .text-editor .editor-buttons {\n                        display: flex;\n                        justify-content: flex-end;\n                        gap: 8px;\n                    }\n                    .text-editor button {\n                        padding: 4px 12px;\n                        border-radius: 4px;\n                        border: 1px solid #454545;\n                        background-color: #252526;\n                        color: #ffffff;\n                        cursor: pointer;\n                        font-size: 12px;\n                    }\n                    .text-editor button:hover {\n                        background-color: #2d2d2d;\n                        border-color: #007acc;\n                    }\n                    .text-editor button.primary {\n                        background-color: #007acc;\n                        border-color: #007acc;\n                    }\n                    .text-editor button.primary:hover {\n                        background-color: #0098ff;\n                    }\n                ",
+              "js": "\n                    const node = ChatOllamaAgentNodeAPI.getCurrentNode();\n                    const button = element.querySelector('.text-button');\n                    \n                    // Set CSS variables for node colors\n                    element.style.setProperty('--node-background-color', node.background_color);\n                    element.style.setProperty('--node-header-color', node.header_color);\n                    \n                    // Helper function to update button text with line and char counts\n                    function updateButtonText(text) {\n                        const lines = text.split('\\\\n').length;\n                        const chars = text.length;\n                        button.textContent = `Text (Ln ${lines}, Char ${chars})`;\n                    }\n                    \n                    let editor = null;\n                    let isDragging = false;\n                    let dragStartX = 0;\n                    let dragStartY = 0;\n                    let editorStartLeft = 0;\n                    let editorStartTop = 0;\n                    \n                    function createEditor() {\n                        // Remove any existing editor first\n                        if (editor) {\n                            editor.remove();\n                        }\n                        \n                        editor = document.createElement('div');\n                        editor.className = 'text-editor';\n                        editor.innerHTML = `\n                            <div class=\"editor-header\">\n                                <div class=\"editor-title\">Text Editor</div>\n                            </div>\n                            <textarea spellcheck=\"false\"></textarea>\n                            <div class=\"editor-buttons\">\n                                <button class=\"cancel-button\">Cancel</button>\n                                <button class=\"save-button primary\">Save</button>\n                            </div>\n                        `;\n                        \n                        const textarea = editor.querySelector('textarea');\n                        const header = editor.querySelector('.editor-header');\n                        \n                        // Set up drag handling\n                        header.addEventListener('mousedown', (e) => {\n                            if (e.target === header || header.contains(e.target)) {\n                                isDragging = true;\n                                dragStartX = e.clientX;\n                                dragStartY = e.clientY;\n                                const rect = editor.getBoundingClientRect();\n                                editorStartLeft = rect.left;\n                                editorStartTop = rect.top;\n                                e.preventDefault();\n                            }\n                        });\n                        \n                        // Stop propagation of clicks inside editor\n                        editor.addEventListener('mousedown', (e) => {\n                            e.stopPropagation();\n                        });\n                        \n                        // Handle save button\n                        editor.querySelector('.save-button').addEventListener('click', () => {\n                            ChatOllamaAgentNodeAPI.setValue(node.id, socket_id, 'value', textarea.value);\n                            updateButtonText(textarea.value);\n                            closeEditor();\n                        });\n                        \n                        // Handle cancel button\n                        editor.querySelector('.cancel-button').addEventListener('click', closeEditor);\n                        \n                        return editor;\n                    }\n                    \n                    function closeEditor() {\n                        if (editor) {\n                            editor.remove();\n                            editor = null;\n                        }\n                    }\n                    \n                    // Handle document-level events for dragging\n                    document.addEventListener('mousemove', (e) => {\n                        if (!isDragging || !editor) return;\n                        \n                        const deltaX = e.clientX - dragStartX;\n                        const deltaY = e.clientY - dragStartY;\n                        \n                        editor.style.left = `${editorStartLeft + deltaX}px`;\n                        editor.style.top = `${editorStartTop + deltaY}px`;\n                        e.preventDefault();\n                    });\n                    \n                    document.addEventListener('mouseup', () => {\n                        isDragging = false;\n                    });\n                    \n                    // Handle clicks outside editor\n                    document.addEventListener('mousedown', (e) => {\n                        if (editor && !isDragging && !editor.contains(e.target) && e.target !== button) {\n                            closeEditor();\n                        }\n                    });\n                    \n                    // Handle button click to show editor\n                    button.addEventListener('click', (e) => {\n                        e.preventDefault();\n                        e.stopPropagation();\n                        \n                        // Create and add the editor\n                        editor = createEditor();\n                        document.body.appendChild(editor);\n                        \n                        // Set the text value\n                        const textarea = editor.querySelector('textarea');\n                        textarea.value = ChatOllamaAgentNodeAPI.getValue(node.id, socket_id, 'value') || '';\n                        \n                        // Show and position the editor\n                        editor.classList.add('visible');\n                        \n                        // Center the editor\n                        const rect = editor.getBoundingClientRect();\n                        editor.style.left = `${(window.innerWidth - rect.width) / 2}px`;\n                        editor.style.top = `${(window.innerHeight - rect.height) / 2}px`;\n                        \n                        textarea.focus();\n                    });\n                    \n                    // Set initial button text\n                    const initialValue = ChatOllamaAgentNodeAPI.getValue(node.id, socket_id, 'value') || '';\n                    updateButtonText(initialValue);\n                    \n                    // Clean up when the socket is destroyed\n                    return () => {\n                        closeEditor();\n                    };\n                "
+            }
+          }
+        }
+      ]
+    },
+    "StartNode": {
+      "title": "Start",
+      "category": "Flow:3",
+      "include_flow_input": false,
+      "include_flow_output": true,
+      "inputs": [
+        {
+          "name": "Name",
+          "direction": "input",
+          "socket_class": "StringSocket",
+          "color": "#ADD8E6",
+          "include_socket": false,
+          "center_text": true,
+          "white_list": [
+            "StringSocket"
+          ],
+          "black_list": [],
+          "interface": {
+            "height": 1,
+            "stored_values": {
+              "value": ""
+            },
+            "content": {
+              "html": "\n                    <div class=\"string-input\">\n                        <input type=\"text\">\n                    </div>\n                ",
+              "css": "\n                    .string-input {\n                        padding: 2px 8px;\n                        height: 20px;\n                        display: flex;\n                        align-items: center;\n                    }\n                    .string-input input {\n                        height: 20px;\n                        width: 100%;\n                        text-align: left;\n                        padding: 0 4px;\n                        line-height: 20px;\n                        font-size: 12px;\n                        background-color: var(--node-background-color);\n                        border: 1px solid var(--node-header-color);\n                        border-radius: 4px;\n                        color: #ffffff;\n                        cursor: text;\n                        caret-color: #ffffff;\n                        user-select: text;\n                        -webkit-user-select: text;\n                    }\n                    .string-input input:focus {\n                        background-color: var(--node-header-color);\n                        border-color: #007acc;\n                        color: #ffffff;\n                        box-shadow: none;\n                        outline: none;\n                    }\n                ",
+              "js": "\n                    const node = ChatOllamaAgentNodeAPI.getCurrentNode();\n                    const input = element.querySelector('input');\n                    \n                    // Set CSS variables for node colors\n                    element.style.setProperty('--node-background-color', node.background_color);\n                    element.style.setProperty('--node-header-color', node.header_color);\n                    \n                    // Set initial value\n                    input.value = ChatOllamaAgentNodeAPI.getValue(node.id, socket_id, 'value') || '';\n                    \n                    // Handle changes\n                    input.onchange = (e) => {\n                        ChatOllamaAgentNodeAPI.setValue(node.id, socket_id, 'value', e.target.value);\n                    };\n                "
+            }
+          }
+        }
+      ],
+      "outputs": []
+    }
+  },
+  "storedValues": {
+    "MessageLuciusNode_1736386509102.MessageLuciusNode_1736386509102_in_1.value": "Hey how is it going?\n\nalso respond with:\n\n```\n<lucius:function_calls>\n</lucius:function_calls>\n```",
+    "MessageLuciusNode_1736386509102.MessageLuciusNode_1736386509102_out_0.value": "",
+    "StartNode_1736386649031.StartNode_1736386649031_in_0.value": "Main"
+  },
+  "reroutes": {}
+}
