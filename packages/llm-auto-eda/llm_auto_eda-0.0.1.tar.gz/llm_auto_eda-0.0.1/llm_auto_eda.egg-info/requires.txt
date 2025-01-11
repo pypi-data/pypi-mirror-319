@@ -1,0 +1,9 @@
+pandas
+numpy
+plotly
+jinja2
+openai
+ipython
+markdown2
+scipy
+pathlib
