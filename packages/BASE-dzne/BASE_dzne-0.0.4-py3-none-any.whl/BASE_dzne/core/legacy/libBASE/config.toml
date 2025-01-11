@@ -1,0 +1,13 @@
+[paths]
+
+# set local paths
+internal_data = "/ncbi-igblast-1.15.0/internal_data"
+auxiliary_data = "/ncbi-igblast-1.15.0/optional_file/human_gl.aux"
+db = "/data/db/human_gl_C.fasta"
+blastn = "blastn"
+igblastn = "/ncbi-igblast-1.15.0/bin/igblastn"
+
+# these germline db files are saved in the / directory
+germline_db_V = "/data/db/V_without_orphons"
+germline_db_J = "/data/db/J_without_orphons"
+germline_db_D = "/data/db/D_without_orphons"
