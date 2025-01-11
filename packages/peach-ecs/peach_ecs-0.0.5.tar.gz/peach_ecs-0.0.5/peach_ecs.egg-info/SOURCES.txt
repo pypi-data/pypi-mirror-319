@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+peach_ecs.egg-info/PKG-INFO
+peach_ecs.egg-info/SOURCES.txt
+peach_ecs.egg-info/dependency_links.txt
+peach_ecs.egg-info/top_level.txt
+pecs/__init__.py
+pecs/component.py
+pecs/entity.py
+pecs/system.py
+pecs/world.py
