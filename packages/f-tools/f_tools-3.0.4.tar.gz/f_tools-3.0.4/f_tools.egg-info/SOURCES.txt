@@ -1,0 +1,8 @@
+README.md
+setup.py
+f_tools.egg-info/PKG-INFO
+f_tools.egg-info/SOURCES.txt
+f_tools.egg-info/dependency_links.txt
+f_tools.egg-info/entry_points.txt
+f_tools.egg-info/requires.txt
+f_tools.egg-info/top_level.txt
