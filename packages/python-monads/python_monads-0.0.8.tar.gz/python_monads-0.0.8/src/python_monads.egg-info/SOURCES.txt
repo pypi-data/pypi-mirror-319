@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/python_monads/__init__.py
+src/python_monads/either.py
+src/python_monads/maybe.py
+src/python_monads.egg-info/PKG-INFO
+src/python_monads.egg-info/SOURCES.txt
+src/python_monads.egg-info/dependency_links.txt
+src/python_monads.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_either.py
+src/tests/test_maybe.py
