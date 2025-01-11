@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+docai_dev.egg-info/PKG-INFO
+docai_dev.egg-info/SOURCES.txt
+docai_dev.egg-info/dependency_links.txt
+docai_dev.egg-info/requires.txt
+docai_dev.egg-info/top_level.txt
