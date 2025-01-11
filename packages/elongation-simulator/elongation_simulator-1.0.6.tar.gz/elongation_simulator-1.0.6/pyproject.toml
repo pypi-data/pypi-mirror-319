@@ -1,0 +1,34 @@
+[project]
+name = "elongation_simulator"
+version = "v1.0.6"
+readme = "README.md"
+description="High-performance codon simulator and elongation simulator for eukaryotic organism"
+
+authors = [
+  {name = "Fabio Hedayioglu", email="fheday@gmail.com"}
+]
+
+maintainers = [
+  {name="Fabio Hedayioglu", email="fheday@gmail.com"}
+]
+license = {file="LICENSE"}
+requires-python = ">=3.9"
+
+[tool.cibuildwheel]
+skip = ["*musllinux*", "*pp*win*", "pp*manylinux*", "cp36*", "cp37*", "cp38*"]
+
+[build-system]
+requires = ["setuptools", "numpy", "pyqt5", "pybind11"]
+build-backend = "setuptools.build_meta"
+
+[tool.pylint.MASTER]
+extension-pkg-whitelist = "PyQt5"
+[tool.pylint.format]
+max-line-length = 120
+[tool.pylint.DESIGN]
+# Maximum number of statements in function / method body.
+max-statements = 60
+# Maximum number of branch for function / method body.
+max-branches = 31
+max-args = 6
+max-positional-arguments = 6

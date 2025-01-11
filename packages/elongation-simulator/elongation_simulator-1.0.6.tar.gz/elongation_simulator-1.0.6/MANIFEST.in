@@ -1,0 +1,15 @@
+exclude .gitmodules .travis.yml .appveyor.yml
+exclude Unit-Tests
+
+include LICENSE MANIFEST.in *.py *.rst *.txt
+include src/*.cpp src/*.h
+
+include *.rst
+
+graft src/eigen-3.3.7/*
+graft src/jsoncpp/*
+include concentrations/*.csv
+include elongation/simulationbuilder.py
+include elongation/utils.py
+include concentrations/concentrations_generator.py
+include concentrations/default_basepairing.json
