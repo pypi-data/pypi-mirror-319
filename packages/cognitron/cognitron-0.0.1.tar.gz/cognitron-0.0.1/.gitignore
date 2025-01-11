@@ -1,0 +1,25 @@
+__pycache__
+.ipynb_checkpoints
+
+# Ignore all .idea files by default
+.idea/
+
+# Allow specific files/folders to be committed
+!.idea/codeStyles/
+!.idea/dictionaries/
+!.idea/inspectionProfiles/
+!.idea/libraries/
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/runConfigurations/
+
+# Ignore workspace settings and user-specific configurations
+.idea/workspace.xml
+.idea/misc.xml
+.idea/dataSources/
+.idea/dataSources.local/
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/scopes/
+.idea/compiler.xml

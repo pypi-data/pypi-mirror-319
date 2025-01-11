@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cognitron"
+version = "0.0.1"
+authors = [
+    {name = "Bernhard Liebl", email = "liebl@informatik.uni-leipzig.de"}
+]
+description = "Easy-to-use model inference for the digital humanities"
+readme = "README.md"
+requires-python = ">=3.12, <3.13"
+license = {file = "LICENSE"}
+dependencies = [
+    "pydantic>=2.8.2",
+    "numpy>=2.2.1",
+    "pillow>=11.1.0",
+    "colour-science>=0.4.6",
+    "networkx>=3.4.2",
+    "matplotlib>=3.10",
+    "requests>=2.32.3",
+    "tqdm>=4.67.1"
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+]
+
+[project.optional-dependencies]
+cli = [
+    "rich",
+    "click",
+]
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
