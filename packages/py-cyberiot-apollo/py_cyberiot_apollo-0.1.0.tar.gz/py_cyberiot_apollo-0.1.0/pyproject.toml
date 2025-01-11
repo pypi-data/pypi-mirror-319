@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py_cyberiot_apollo"            # 包名
+version = "0.1.0"                     # 包版本
+description = "cyberiot apollo device data collection"
+readme = "README.md"                  # README 文件路径
+license = {text = "MIT"}              # 许可证类型
+authors = [
+    { name = "cyberiot", email = "service@eco-nest.net" }
+]
+dependencies = [
+    "aiohttp>=3.9.3"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/cyberiot-apollo/py_cyberiot_apollo"
+Issues = "https://github.com/cyberiot-apollo/py_cyberiot_apollo/issues"
