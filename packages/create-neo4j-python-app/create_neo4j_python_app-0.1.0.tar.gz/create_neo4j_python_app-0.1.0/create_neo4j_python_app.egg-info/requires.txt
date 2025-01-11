@@ -1,0 +1,13 @@
+requests
+inflect
+
+[dev]
+pytest
+pytest-cov
+pytest-mock
+requests-mock
+pre-commit
+black
+isort
+mypy
+types-requests

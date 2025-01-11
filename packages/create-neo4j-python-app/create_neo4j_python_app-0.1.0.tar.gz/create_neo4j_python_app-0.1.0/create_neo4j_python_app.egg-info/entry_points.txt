@@ -1,0 +1,2 @@
+[console_scripts]
+create-neo4j-python-app = create_neo4j_python_app.create_app:main
