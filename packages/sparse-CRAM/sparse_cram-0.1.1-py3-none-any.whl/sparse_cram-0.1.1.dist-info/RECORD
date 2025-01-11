@@ -1,0 +1,8 @@
+CRAM/__init__.py,sha256=cBrSn7ojoyQVH8kBkiuXWcZWk5ysNDDQCxILv7Ss3l8,222
+CRAM/core.py,sha256=YeHFMOxpZbwgV0wJZtzxuESZXLp62U2uXAMsayd73zQ,168
+CRAM/parser.py,sha256=D1aNDtNe74UZYXxBp7d25B5g9En9MMP_UgcWjdwpNk4,1653
+CRAM/test.py,sha256=vXY74CZvQ76IXNGqcUD-t2tca1EhMl0khRoaiGTG0vM,1642
+CRAM/writer.py,sha256=bPDlBbMIP7t7uEuMbWape3SBeSIL9J3jBuBxLSMuvBI,1760
+sparse_cram-0.1.1.dist-info/METADATA,sha256=ZJJ0cqNJAQlEu8LYYlKLT1aVjMfl3AKQA1l8HT58yP8,2476
+sparse_cram-0.1.1.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+sparse_cram-0.1.1.dist-info/RECORD,,
