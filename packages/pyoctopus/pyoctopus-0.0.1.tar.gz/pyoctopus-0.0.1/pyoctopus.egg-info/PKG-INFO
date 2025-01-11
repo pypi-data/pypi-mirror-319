@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyoctopus
+Version: 0.0.1
+Summary: A simple Python library for web crawler
+Home-page: https://github.com/yangsholai/pyoctopus
+Author: yangshoulai
+Author-email: shoulai.yang@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: jsonpath_ng
+Requires-Dist: lxml
+Requires-Dist: pycryptodome
+Requires-Dist: tornado
+
+# pyoctopus
+
+多线程 Python 爬虫框架

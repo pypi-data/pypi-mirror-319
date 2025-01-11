@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+jsonpath_ng
+lxml
+pycryptodome
+tornado
