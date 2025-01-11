@@ -1,0 +1,80 @@
+Metadata-Version: 2.3
+Name: async-client-lib
+Version: 0.1.7
+Summary: Asynchronous HTTP client
+License: MIT
+Author: Aleksey Matyunin
+Author-email: matyunin.as@mail.ru
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.8.4,<4.0.0)
+Requires-Dist: backoff (>=2.2.1,<3.0.0)
+Requires-Dist: pydantic (>=2.10.0,<3.0.0)
+Requires-Dist: pydantic_settings (>=2.5.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+Asynchronous HTTP client
+=======
+
+[![publish](https://github.com/mas-aleksey/async-client/workflows/Build/badge.svg)](https://github.com/mas-aleksey/async-client/actions?query=workflow%3A%22build%22)
+[![coverage](https://coveralls.io/repos/mas-aleksey/async-client/badge.svg)](https://coveralls.io/r/mas-aleksey/async-client?branch=python-3)
+[![codeql](https://github.com/mas-aleksey/async-client/workflows/CodeQL/badge.svg)](https://github.com/mas-aleksey/async-client/actions/workflows/codeql-analysis.yml)
+[![pypi](https://img.shields.io/pypi/v/async-client-lib.svg)](https://pypi.python.org/pypi/async-client-lib)
+[![license](https://img.shields.io/github/license/mas-aleksey/async-client)](https://github.com/mas-aleksey/async-client/blob/main/LICENSE)
+
+This module provides BaseClient class for building asynchronous HTTP clients,
+with methods for making requests, handling responses, and parsing data.
+
+Example
+========
+
+```python
+
+from typing import List, Dict
+from pydantic import BaseModel
+
+from async_client import BaseClient, ClientConfig
+
+
+class SlideShow(BaseModel):
+    title: str
+    author: str
+    date: str
+    slides: List[Dict]
+
+
+class SlideShowResponse(BaseModel):
+    slideshow: SlideShow
+
+
+class HttpBinClient(BaseClient):
+
+    async def get_json(self) -> SlideShow:
+        url = self.get_path("json")
+        resp = await self._perform_request("GET", url)
+        data = self.load_schema(resp.body, SlideShowResponse)
+        return data.slideshow
+
+
+async def main():
+    config = ClientConfig(
+        HOST="https://httpbin.org",
+        SSL_VERIFY=True,
+        CLIENT_TIMEOUT=30,
+    )
+    async with HttpBinClient(config) as client:
+        slideshow = await client.get_json()
+        print(slideshow)
+
+
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(main())
+
+```
