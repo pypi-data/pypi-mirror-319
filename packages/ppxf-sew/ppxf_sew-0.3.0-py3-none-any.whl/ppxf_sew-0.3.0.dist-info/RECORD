@@ -1,0 +1,11 @@
+ppxf_sew/__init__.py,sha256=GXglVY6eVJVqMu4TwLTNNatgFj9wiBOwfL4SKK2Y00Q,462
+ppxf_sew/ew_fit.py,sha256=YsKnNSR8yJ5UzpZlK3i2SUl1E9Bb7ZYIAQvKcJS1tRk,26940
+ppxf_sew/ew_util.py,sha256=dQmGMA_b4zA5VFAekvleKmzUs0SktbPJmtyli94LVLI,19222
+ppxf_sew/example/example.ipynb,sha256=RpeWVpwmvkrDGFmASu-RxodF8ewtRPCIAnB6OISD7Ag,28312
+ppxf_sew/example/sps_models/BC03_SSP_tpl_chab.fits,sha256=zoTM6Seimz5DNGjF4VA3MBdC_JqR1sRScB2nlWkDD2Y,4371840
+ppxf_sew/example/test_data/spSpec-54592-2974-262.fit,sha256=zAasFX3G1WDedni5T2rlRPNx-AkY8SmDtk-QQ53imjk,187200
+ppxf_sew-0.3.0.dist-info/LICENSE,sha256=yggPgf3xUZeZq_qBjAH880-oCtfi84Q7wh7LfRB4ynQ,375
+ppxf_sew-0.3.0.dist-info/METADATA,sha256=xaCuQi0aQSPJbgFHISMS4kQmnugVufJJZ1lnOrqVVIc,2603
+ppxf_sew-0.3.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+ppxf_sew-0.3.0.dist-info/top_level.txt,sha256=8_uWHIAq8I8xI3syaRx_SBCJB5pXmSARA46yTbUPO9w,9
+ppxf_sew-0.3.0.dist-info/RECORD,,
