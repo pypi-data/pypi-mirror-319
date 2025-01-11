@@ -1,0 +1,14 @@
+guara/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guara/it.py,sha256=99qKZzopPw4ZmZDgRNbtjw5nbch5sI7j1rZvP7m3-HE,571
+guara/setup.py,sha256=cBdVgt5-NmLVN0nuyzzZzhN-vQbZ-FZxGJAt253UEKE,1422
+guara/transaction.py,sha256=0MGEqjROB_hx2HZ_x-d1kevI-OlvvQJeZ5sBl5NroHE,1492
+guara/utils.py,sha256=pgi_Mk2WRJw7hcbv9rDwXmaHfKg1z07CEjBUfA2v9WU,157
+guara/asynchronous/README.md,sha256=MCfX-dLPJ6SI72x3FKbwh14W98gTZhEMqZ7FB48sXa8,1844
+guara/asynchronous/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guara/asynchronous/it.py,sha256=zvh9S1jKjkzE2AKJfqQJAWZGWF6qrJydAgJfAnT3-ik,748
+guara/asynchronous/setup.py,sha256=NK6vgQ5gv1fqLcD8vPbUHnihZlrsm_83aMxj0IkcX8k,1156
+guara/asynchronous/transaction.py,sha256=oL8YCTk_rS-lDgF9HpQ1w-LHc2y1IjNgM563ezBtc10,2205
+guara-0.0.6.dist-info/METADATA,sha256=_VTW6WRv9wIj6jmfI3-NjPBSaJiWkdi3CwbiQ6ScAoE,10472
+guara-0.0.6.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+guara-0.0.6.dist-info/licenses/LICENSE,sha256=3Q8_rwTTyPYprd9YbcCC2dCUD9t5J72Wp8hDeoO-WIs,1072
+guara-0.0.6.dist-info/RECORD,,
