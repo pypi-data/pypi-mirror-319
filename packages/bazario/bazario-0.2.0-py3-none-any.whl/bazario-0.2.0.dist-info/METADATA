@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: bazario
+Version: 0.2.0
+Summary: Lightweight handler routing library for modular apps.
+Author-email: Alim Abrekov <chessinmind17@yandex.ru>
+Project-URL: Source, https://github.com/chessenjoyer17/bazario
+Project-URL: Homepage, https://github.com/chessenjoyer17/bazario
+Project-URL: Bug Tracker, https://github.com/chessenjoyer17/bazario/issues
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Provides-Extra: lint
+Requires-Dist: ruff; extra == "lint"
+Requires-Dist: mypy; extra == "lint"
+
+## **Bazario** - lightweight handler routing library for modular apps.
+
+### Installation
+``` shell
+pip install bazario
+```
