@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: simple-stop-watch-utility
+Version: 2.0.1b1
+Summary: A simple timer utility for recording the run times for other processes.
+Author-email: Jon Hart <hartjc@gmail.com>
+Project-URL: Source Code, https://github.com/jc-hart/stop-watch
+Project-URL: Bug Tracker, https://github.com/jc-hart/stop-watch/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# stop-watch
+A simple timer utility for recording the run time of other processes.
