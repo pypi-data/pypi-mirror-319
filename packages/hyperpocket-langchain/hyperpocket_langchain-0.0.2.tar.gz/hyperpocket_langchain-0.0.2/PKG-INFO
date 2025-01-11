@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: hyperpocket-langchain
+Version: 0.0.2
+Summary: 
+Author: VESSL AI Devs
+Author-email: dev@vessl.ai
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: hyperpocket (>=0.0.3,<0.0.4)
+Requires-Dist: langchain (>=0.3.12,<0.4.0)
+Requires-Dist: langchain-core (>=0.3.22,<0.4.0)
+Requires-Dist: pydantic (>=2.10.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+## Langchain extensions
+
+### Biding Pocket Tools
+
+```python
+from langchain_openai import ChatOpenAI
+
+from hyperpocket.config.settings import settings
+from pocket_langchain import PocketLangchain
+
+pocket = PocketLangchain(tools=[
+    'https://github.com/vessl-ai/tool-calling/tree/main/examples/slack-get-message',
+    'https://github.com/vessl-ai/tool-calling/tree/main/examples/slack-post-message',
+])
+# get langchain compatible tools from pocket
+tools = pocket.get_tools()
+
+llm = ChatOpenAI(
+    model="gpt-4o",
+    api_key=settings["OPENAI_API_KEY"]
+)
+
+# bind tool with llm
+llm_with_tools = llm.bind_tools(tools)
+```
+
+### Agent Examples
+
+```python
+
+
+from langchain.agents import create_tool_calling_agent, AgentExecutor
+from langchain.memory import ConversationBufferMemory
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_openai import ChatOpenAI
+
+import hyperpocket as pk
+from pocket_langchain import PocketLangchain
+
+pocket = PocketLangchain(tools=[
+    *pk.curated_tools.SLACK,  # SLACK = [slack_get_message, slack_post_message, ..]
+    *pk.curated_tools.LINEAR,
+    "https://github.com/my-org/some-awesome-tool",
+])
+
+# get langchain compatible tools from pocket
+tools = pocket.get_tools()
+
+llm = ChatOpenAI()
+
+prompt = ChatPromptTemplate.from_messages(
+    [
+        ("placeholder", "{chat_history}"),
+        (
+            "system",
+            "You are very powerful linear assistant. You can help the user do something like commenting, get some issues",
+        ),
+        ("user", "{input}"),
+        MessagesPlaceholder(variable_name="agent_scratchpad"),
+    ]
+)
+
+memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+agent = create_tool_calling_agent(llm, tools, prompt)
+agent_executor = AgentExecutor(
+    agent=agent,
+    tools=tools,
+    memory=memory,
+    verbose=True,
+    handle_parsing_errors=True
+)
+```
+
