@@ -1,0 +1,30 @@
+Metadata-Version: 2.2
+Name: nonebot-adapter-heybox
+Version: 0.1.1
+Summary: heybox adapter for nonebot2
+Author-email: hzw223 <614867321@qq.com>
+Project-URL: Homepage, https://github.com/lclbm/adapter-heybox
+Project-URL: Issues, https://github.com/lclbm/adapter-heybox/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nonebot2>=2.0.0
+
+# NoneBot-Adapter-Heybox
+
+## 配置
+```dotenv
+HEYBOX_BOTS='[{"id": "xxxxx" ,"token": "xxxxx"}]'
+```
+
+## TODO
+目前仅实现了一些基本的文本/图片消息收发，还有些Api尚未完善
+
+## 感谢
+- [adapter-qq](https://github.com/nonebot/adapter-qq)
+- [nonebot-adapter-kaiheila](https://github.com/Tian-que/nonebot-adapter-kaiheila)
