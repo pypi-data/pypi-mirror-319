@@ -1,0 +1,12 @@
+dynare/__init__.py,sha256=IAY6GAK87sKrO00myf3a1YJQbbAVqNeL49QJTKovLF4,744
+dynare/distributions.py,sha256=ehdToL4cdbPogya6iv0gXEIl5kmS5B63WQOi_PQQQnE,5201
+dynare/dynare.py,sha256=qHrc20Y2EoPvAHKl6qsP3dQT4rkEqg1A1vIm3BzKvck,7602
+dynare/dynare_context.py,sha256=KMZbIT9JrslzZgy0-0kC-MNMUEvczKzI8C40Cpk_1e4,54370
+dynare/errors.py,sha256=ykKT3YCgpSN_ECYOseev4lVV2JWcAEfiS_gfsnoqWCs,479
+dynare/juliapkg.json,sha256=JytT1_nzam7OpkiZEClJ2M1Ra2SlE0t0sUX-R1QNx6g,561
+dynare/workspace.py,sha256=hOIohE7C3HXkpi_RPoejdZSDDy_wibyYbz8Gv4BsiWs,14146
+dynare_python-0.1.0.dist-info/LICENSE.md,sha256=zFRw_u1mGSOH8GrpOu0L1P765aX9fB5UpKz06mTxAos,34893
+dynare_python-0.1.0.dist-info/METADATA,sha256=hA0IU00PiG4ahqz7pRivyRJL8kn4tHompr2V5Z7hH2E,639
+dynare_python-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dynare_python-0.1.0.dist-info/top_level.txt,sha256=fkLx8ERB8iKaZ8d4czycWZaklUwXEXtULXC5Ha9ysTA,7
+dynare_python-0.1.0.dist-info/RECORD,,

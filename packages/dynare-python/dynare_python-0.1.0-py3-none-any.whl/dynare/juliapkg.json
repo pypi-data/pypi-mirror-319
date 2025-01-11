@@ -1,0 +1,21 @@
+{
+    "julia": "1.11",
+    "packages": {
+        "DataFrames": {
+            "uuid": "a93c6f00-e57d-5684-b7b6-d8193f3e46c0",
+            "version": "1.7.0"
+        },
+        "Dynare": {
+            "uuid": "5203de40-99df-439e-afbc-014de65cb9ef",
+            "version": "0.9.18"
+        },
+        "LinearRationalExpectations": {
+            "uuid": "45f42fbc-210c-4ecc-9452-59ec793b9bfd",
+            "version": "0.5.7"
+        },
+        "Tables": {
+            "uuid": "bd369af6-aec1-5ad0-b16a-f7cc5008161c",
+            "version": "1.12.0"
+        }
+    }
+}
