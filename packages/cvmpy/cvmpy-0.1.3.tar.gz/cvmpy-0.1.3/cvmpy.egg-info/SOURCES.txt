@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+cvmpy/__init__.py
+cvmpy/_base.py
+cvmpy/_grupos.py
+cvmpy/_utils.py
+cvmpy.egg-info/PKG-INFO
+cvmpy.egg-info/SOURCES.txt
+cvmpy.egg-info/dependency_links.txt
+cvmpy.egg-info/requires.txt
+cvmpy.egg-info/top_level.txt
