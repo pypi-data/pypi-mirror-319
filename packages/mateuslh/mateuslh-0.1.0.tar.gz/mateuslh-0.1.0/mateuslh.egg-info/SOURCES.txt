@@ -1,0 +1,12 @@
+README.md
+setup.py
+gerenciar_senhas/__init__.py
+gerenciar_senhas/gerenciar_senhas.py
+matar_processo/__init__.py
+matar_processo/matar_processo.py
+mateuslh.egg-info/PKG-INFO
+mateuslh.egg-info/SOURCES.txt
+mateuslh.egg-info/dependency_links.txt
+mateuslh.egg-info/top_level.txt
+set_dns/__init__.py
+set_dns/set_dns.py
