@@ -1,0 +1,10 @@
+taxonomyresolver/__init__.py,sha256=uvbU4VP3ioPT9s6LNqfN5uzlQAEmw_YxIcRQ6qHmZs0,322
+taxonomyresolver/cli.py,sha256=2pyrcHKu6bFDSaLOqs0ljxFM5GfnKnZ_aLLeeZdH5Q0,13399
+taxonomyresolver/library.py,sha256=wzVEIUmu2AJmZOStU_bLVaLX3hwnNapQdh7SSuRjK0Y,1792
+taxonomyresolver/tree.py,sha256=MF1-TzgPiQrTkQ4WCnAGvVqiKAs9K2NFq-YzRuKdMWs,12125
+taxonomyresolver/utils.py,sha256=RKQikSIcmhMh5W1zA-4Duo8SjuEOoYSmN_82dZdDq4g,8087
+taxonomy_resolver-1.1.0.dist-info/LICENSE,sha256=lZrqPrSnf_MtG68IUYnSbuDMHmA-JgFSIOEdr44P7ck,11367
+taxonomy_resolver-1.1.0.dist-info/METADATA,sha256=mjaf4BoCNWzgloLnjjOi8JfFH0YgU-fKXlImF-agqpg,16321
+taxonomy_resolver-1.1.0.dist-info/WHEEL,sha256=RaoafKOydTQ7I_I3JTrPCg6kUmTgtm4BornzOqyEfJ8,88
+taxonomy_resolver-1.1.0.dist-info/entry_points.txt,sha256=ZVrUauS99aKNBtmqu4XoDn0rjjFwefz0Wa8aZ1lTC8I,62
+taxonomy_resolver-1.1.0.dist-info/RECORD,,
