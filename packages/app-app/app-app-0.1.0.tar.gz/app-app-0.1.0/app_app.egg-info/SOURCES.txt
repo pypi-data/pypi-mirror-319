@@ -1,0 +1,9 @@
+README.md
+setup.py
+app_app.egg-info/PKG-INFO
+app_app.egg-info/SOURCES.txt
+app_app.egg-info/dependency_links.txt
+app_app.egg-info/requires.txt
+app_app.egg-info/top_level.txt
+jwt_authenticator/__init__.py
+jwt_authenticator/authenticator.py
