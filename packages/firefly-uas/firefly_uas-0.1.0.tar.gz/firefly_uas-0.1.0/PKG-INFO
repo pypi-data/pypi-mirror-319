@@ -1,0 +1,66 @@
+Metadata-Version: 2.2
+Name: firefly_uas
+Version: 0.1.0
+Summary: firefly_uas created by Sascha Zell
+Home-page: https://github.com/SaschaZell/firefly-uas/
+Author: SaschaZell
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: branca>=0.6.0
+Requires-Dist: emergency_rescue_sim>=0.1.0
+Requires-Dist: folium>=0.14.0
+Requires-Dist: geojson>=2.5.0
+Requires-Dist: geopandas>=0.13.2
+Requires-Dist: geopy>=2.4.0
+Requires-Dist: haversine>=2.8.0
+Requires-Dist: matplotlib>=3.6.2
+Requires-Dist: numpy>=1.24.1
+Requires-Dist: osmnx>=2.0.1
+Requires-Dist: overpass>=0.7
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: pdf2image>=1.17.0
+Requires-Dist: Pillow>=11.1.0
+Requires-Dist: Pyomo>=6.6.2
+Requires-Dist: pyproj>=3.5.0
+Requires-Dist: pytest>=7.4.3
+Requires-Dist: Requests>=2.32.3
+Requires-Dist: scipy>=1.15.0
+Requires-Dist: setuptools>=41.2.0
+Requires-Dist: Shapely>=2.0.6
+Requires-Dist: tkintermapview>=1.29
+Requires-Dist: ttkbootstrap>=1.10.1
+Requires-Dist: utm>=0.7.0
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: flake8; extra == "test"
+Requires-Dist: black; extra == "test"
+Requires-Dist: isort; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: mypy; extra == "test"
+Requires-Dist: gitchangelog; extra == "test"
+Requires-Dist: mkdocs; extra == "test"
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
+
+# firefly-uas
+Firefly-UAS is a Mixed-Integer Linear Programming (MILP) optimization framework developed for the location-allocation of  an Unmanned Aircraft System (UAS) consisting of drones and drone hangars to act as first responder after a reported wildfire providing real-time video streams that offer important initial insights for the control center.
+
+## Usage
+
+The usage of the packages is described in detail in the Jupyter Notebook `notebooks/Wildfire_UAS_Location_Optimization.ipynb`.
+
+## Install it from PyPI
+
+```bash
+pip install firefly_uas
+```
+
+## Further information
+
+This package was created while working on a paper named “Optimizing Autonomous Unmanned Aerial System Deployment Locations for Enhanced Wildfire Detection and Monitoring”.

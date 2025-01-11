@@ -1,0 +1,9 @@
+include LICENSE
+include HISTORY.md
+include Containerfile
+graft tests
+graft firefly_uas
+
+include README.md
+include LICENSE
+include requirements.txt
