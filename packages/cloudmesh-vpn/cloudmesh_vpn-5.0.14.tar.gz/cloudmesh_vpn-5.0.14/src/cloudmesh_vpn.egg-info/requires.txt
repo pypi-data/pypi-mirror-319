@@ -1,0 +1,10 @@
+cloudmesh-cmd5
+cloudmesh-sys
+cloudmesh-inventory
+cloudmesh-configuration
+keyring
+pexpect
+pytest
+
+[:platform_system != "Windows"]
+vpn-slice
