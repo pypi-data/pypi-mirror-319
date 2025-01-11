@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: f-tools
+Version: 3.0.2
+Summary: AWS tools including ECS bash execution
+Home-page: https://github.com/filipeandre/f-tools
+Author: Filipe Ferreira
+Author-email: code@filipeandre.com
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: inquirer
+
+# f-tools
+
+This package provides a set of AWS-related tools, including the `f-ecs-bash` command for running ECS bash scripts.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install f-tools
+```
+
+## Usage
+
+To execute the `f-ecs-bash` command:
+
+```bash
+f-ecs-bash
+```
+
+This command will run the script defined in the `ff_aws_tools.ecs_bash` Python file.
