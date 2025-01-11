@@ -1,0 +1,15 @@
+KSSDS/T5_encoder.py,sha256=Js32aFsYIwBswyuGbuIxdTJZbzBGj26T5jK5f6SGkMk,6554
+KSSDS/__init__.py,sha256=8i7fGJB7pHBwjk2J-Q9Jz_ntksvsQc7tbtuEnEQHw4g,29
+KSSDS/dataloader.py,sha256=6ddnI0J9hVW-8pL0rd7m5Ue149DTBLUeXmJ1fQaq4VM,4721
+KSSDS/dataset.py,sha256=HF_tS_qlYW7UAD6JBbm3pX7otdc_Y0ulBQ2yXfWSmk0,6681
+KSSDS/evaluate.py,sha256=MlZ5_7yjGJjx7AwUTsd7bMB53XJDVDiZ0fmVXjnYGiM,2689
+KSSDS/inference.py,sha256=fJ5Hmo71LdTO3Spx2BtlMY4dwBE4hQNWMfwi9EcpBm0,13008
+KSSDS/main.py,sha256=RZIZrNWmKgPKeyljyeSLWroCrKc6SFVl4oBtngj68PY,1538
+KSSDS/train.py,sha256=cOZzQffeBMm1s519uqxiFTJqiE7jbwIhcCogvuSSd-Q,4578
+KSSDS/trainer.py,sha256=IOlOcZ72w_Jr-ud60BGSBQkPovJ-AovyfnDL67hz-XU,2956
+KSSDS/util.py,sha256=mVTH5Q3Ka34gBsPGZQdQ3bTNvV13qGmM55h4-Za9Zr4,4767
+KSSDS-1.0.0.dist-info/LICENSE,sha256=dyK7ttk3ZjLlcSYWFo9P2iHDyuFtkklYQ_fgwLcpOUc,1064
+KSSDS-1.0.0.dist-info/METADATA,sha256=1SL9UmrAgKeSzsZEOwlI_TvgegDe1WZRy_GxEW5alP4,1133
+KSSDS-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+KSSDS-1.0.0.dist-info/top_level.txt,sha256=_A5eTYqkGfReRQ6dAoRRfJMZq5UHZKD4c9ri1XW6y08,6
+KSSDS-1.0.0.dist-info/RECORD,,
