@@ -1,0 +1,7 @@
+store:
+  server_brand:  graphdb
+  server_url:    http://localhost:7200
+  server_config: test_load_rdf_store-config.ttl
+repository_id:   test_load_rdf
+graphs:
+  - source: graphs.yaml
