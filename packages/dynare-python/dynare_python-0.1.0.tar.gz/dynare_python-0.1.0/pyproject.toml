@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dynare-python"
+version = "0.1.0"
+description = "A Python wrapper for the Dynare.jl Julia package"
+authors = [
+    { name = "Daniel Sali", email = "daniel.sali@alphacruncher.com" }
+]
+license = { text = "GPLv3" }
+dependencies = [
+    "juliacall",
+    "numpy",
+    "pandas",
+    "scipy",
+]
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://git.dynare.org/Dynare/dynare-python"
+Issues = "https://git.dynare.org/Dynare/dynare-python/-/issues"

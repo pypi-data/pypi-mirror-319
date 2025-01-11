@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: dynare-python
+Version: 0.1.0
+Summary: A Python wrapper for the Dynare.jl Julia package
+Author-email: Daniel Sali <daniel.sali@alphacruncher.com>
+License: GPLv3
+Project-URL: Homepage, https://git.dynare.org/Dynare/dynare-python
+Project-URL: Issues, https://git.dynare.org/Dynare/dynare-python/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+License-File: LICENSE.md
+Requires-Dist: juliacall
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
