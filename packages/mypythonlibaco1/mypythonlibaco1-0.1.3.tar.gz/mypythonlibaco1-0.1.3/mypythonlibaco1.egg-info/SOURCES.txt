@@ -1,0 +1,8 @@
+README.md
+setup.py
+mypythonlibaco1/__init__.py
+mypythonlibaco1/myfunctions.py
+mypythonlibaco1.egg-info/PKG-INFO
+mypythonlibaco1.egg-info/SOURCES.txt
+mypythonlibaco1.egg-info/dependency_links.txt
+mypythonlibaco1.egg-info/top_level.txt
