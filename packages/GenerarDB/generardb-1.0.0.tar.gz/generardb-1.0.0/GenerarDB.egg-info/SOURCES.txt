@@ -1,0 +1,7 @@
+GenerarDB.py
+setup.py
+./GenerarDB.py
+GenerarDB.egg-info/PKG-INFO
+GenerarDB.egg-info/SOURCES.txt
+GenerarDB.egg-info/dependency_links.txt
+GenerarDB.egg-info/top_level.txt
