@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+MODE/__init__.py
+MODE/deconvolution.py
+MODE/jnmf.py
+MODE/model.py
+MODE/simulation.py
+MODE/train.py
+MODE/utils.py
+MODE_omics.egg-info/PKG-INFO
+MODE_omics.egg-info/SOURCES.txt
+MODE_omics.egg-info/dependency_links.txt
+MODE_omics.egg-info/requires.txt
+MODE_omics.egg-info/top_level.txt
