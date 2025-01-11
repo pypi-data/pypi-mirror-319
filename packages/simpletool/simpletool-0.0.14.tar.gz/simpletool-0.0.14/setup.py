@@ -1,0 +1,61 @@
+from setuptools import setup
+import re
+import os
+
+
+def get_version():
+    # Read version from CHANGELOG.md
+    try:
+        with open('CHANGELOG.md', 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                match = re.search(r'# \[(\d+\.\d+\.\d+)\]', line)
+                if match:
+                    version = match.group(1)
+
+                    # Update version in __init__.py
+                    init_path = os.path.join('simpletool', '__init__.py')
+                    with open(init_path, 'r', encoding='utf-8') as init_file:
+                        init_content = init_file.read()
+
+                    # Replace version in the header
+                    updated_init_content = re.sub(
+                        r'(version:)\s*',
+                        r'\1 ' + version,
+                        init_content
+                    )
+
+                    with open(init_path, 'w', encoding='utf-8') as init_file:
+                        init_file.write(updated_init_content)
+
+                    return version
+        return '0.0.0'  # fallback version if not found
+    except FileNotFoundError:
+        print("CHANGELOG.md not found!")
+        return '0.0.0'
+
+
+setup(name='simpletool',
+      version=get_version(),
+      description='simpletool',
+      url='https://github.com/nchekwa/simpletool-python/tree/master',
+      author='Artur Zdolinski',
+      author_email='contact@nchekwa.com',
+      license='MIT',
+      packages=['simpletool'],
+      install_requires=['pydantic>=2.0.0', 'typing-extensions', 'pydantic>=2.10.4'],
+      long_description=open('README.md').read(),
+      long_description_content_type='text/markdown',
+      package_data={
+          'simpletool': ['CHANGELOG.md', 'LICENSE'],
+      },
+      include_package_data=True,
+      classifiers=[
+          'License :: OSI Approved :: MIT License',
+          'Programming Language :: Python :: 3',
+          'Programming Language :: Python :: 3.10',
+          'Programming Language :: Python :: 3.11',
+          'Programming Language :: Python :: 3.12',
+          'Programming Language :: Python :: 3.13',
+      ],
+      zip_safe=False)
