@@ -1,0 +1,28 @@
+[project]
+name = "pyopenbot"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+  {name = "Jason Scheffel", email = "contact@jasonscheffel.com"},
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.12"
+dependencies = [
+    "discord-py[voice]>=2.4.0",
+    "litellm>=1.57.4",
+    "pyyaml>=6.0.2",
+    "typer>=0.15.1",
+]
+
+[tool.uv.workspace]
+members = ["temp"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
