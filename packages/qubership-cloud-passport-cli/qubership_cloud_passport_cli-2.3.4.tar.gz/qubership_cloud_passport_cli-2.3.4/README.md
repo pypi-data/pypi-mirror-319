@@ -1,0 +1,1 @@
+# qubership-cloud-passport-cli
