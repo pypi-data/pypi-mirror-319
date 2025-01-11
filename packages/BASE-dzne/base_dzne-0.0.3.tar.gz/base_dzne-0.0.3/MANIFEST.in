@@ -1,0 +1,2 @@
+recursive-include src *.toml *.xlsx *.xlsm *.zip
+recursive-include src README
