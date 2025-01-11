@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AIHQ rating: AI-assisted rating</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .loader {
+            border: 6px solid #000000;
+            border-top: 6px solid #999999;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 2s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .hidden {
+            display: none;
+        }
+        .flashes {
+            list-style-type: none;
+            padding: 10px;
+            background-color: #f0f0f0; /* Changed from #f8d7da to gray */
+        }
+        .flashes li {
+            color: #000000; /* Black text */
+            font-size: 20px;
+            margin: 5px 0;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#upload-form').submit(function(e) {
+                e.preventDefault();
+                $('#spinner').removeClass('hidden');
+                var formData = new FormData(this);
+                $.ajax({
+                    type: 'POST',
+                    url: '/',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        $('#spinner').addClass('hidden');
+                        alert('File processed successfully. Check the downloads link.');
+                        window.location.href = response.downloadUrl; // Assuming response contains URL
+                    },
+                    error: function() {
+                        $('#spinner').addClass('hidden');
+                        alert('Failed to process file.');
+                    }
+                });
+            });
+
+            function toggleAPIKeyInput() {
+                var model = document.getElementById("model-choice").value;
+                var apiKeyDiv = document.getElementById("api-key-div");
+                apiKeyDiv.style.display = model == "gpt" ? "block" : "none";
+            }
+
+            $('#model-choice').change(toggleAPIKeyInput);
+            toggleAPIKeyInput(); // Call on page load if needed
+        });
+    </script>
+</head>
+<body>
+    <h1 style="color: #000000;font-size: 30px;">AIHQ rating: AI-assisted rating</h1>
+    <ul class="flashes">
+        {% with messages = get_flashed_messages() %}
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        {% endwith %}
+    </ul>
+
+    <!-- Instructions Section -->
+    <div id="instructions" style="margin-bottom: 20px;">
+        <p>Below are the instructions for using the AI-assisted rating tool. Please read carefully before proceeding:</p>
+        <table border="1" style="width:100%">
+            <tr>
+                <th>Step</th>
+                <th>What you should do</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Choose a Model</td>
+                <td>Choose either FLAN T5 (fine-tuned on AIHQ data) or GPT (GPT-3.5-turbo).</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Enter API Key (If you chose to use GPT)</td>
+                <td>Provide your GPT API key, should be in the form of xx-xxxxx without quotation marks</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Upload CSV File</td>
+                <td>Upload your AIHQ CSV file.</td>
+            </tr>
+        </table>
+        <p style="margin-top: 20px;"><strong>CSV File Requirements.</strong> The uploaded CSV file should adhere to the following format:</p>
+        <ul>
+            <li><strong>Header Row:</strong> Your CSV should contain a header row with the fields:
+                <ul>
+                    <li><em>'aihq_scene'</em>: The scene that the responses in this row correspond to.</li>
+                    <li><em>'a_reason'</em>: Subject's response for question <strong>a</strong> "What do you think was the real reason..." in the AIHQ.</li>
+                    <li><em>'e_reaction'</em>: Subject's response for question <strong>e</strong> "What would you do about it?" in the AIHQ.</li>
+                </ul>
+            </li>
+            <li><strong>Data Rows:</strong> Each subsequent row should contain data corresponding to each column in the header.</li>
+            <li><strong>Encoding:</strong> The file should be encoded in UTF-8 to prevent issues with non-ASCII characters.</li>
+            <li><strong>File Size:</strong> N.A. </li>
+        </ul>
+
+        <p style="margin-top: 20px;"><strong>GPT-3.5-turbo Cost.</strong> The cost associated with using the GPT-3.5-turbo model for processing is approximately $0.0005 per rating:</p>
+        <ul>
+            <li><strong>Total cost:</strong> To estimate your total cost, compute 0.0005 × (number of ratings in total)</li>
+            <li><strong>Transparency:</strong> There are no hidden fees associated with the usage of GPT-3.5-turbo, and all cost-related details are documented in the OpenAI API.</li>
+        </ul>
+    </div>
+
+    <!-- Form for Model Choice and File Upload -->
+    <form id="upload-form" enctype="multipart/form-data">
+        <!-- Form contents -->
+        <label for="model-choice">Choose a model:</label>
+        <select name="model-choice" id="model-choice" onchange="toggleAPIKeyInput()">
+            <option value="flant5">FLAN-T5-large</option>
+            <option value="gpt">GPT-3.5-turbo</option>
+        </select>
+        <br><br>
+        <div id="api-key-div" style="display: none;">
+            <label for="api-key">Enter GPT API Key:</label>
+            <input type="text" id="api-key" name="api-key">
+        </div>
+        <br>
+        <label for="csv-file">Upload a CSV file:</label>
+        <input type="file" id="csv-file" name="csv-file" accept=".csv">
+        <br><br>
+        <input type="submit" value="Submit">
+        <!-- Spinner Element -->
+        <div id="spinner" class="loader hidden"></div>
+    </form>
+</body>
+</html>
