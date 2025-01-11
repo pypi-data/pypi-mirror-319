@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/fl_operation_gm/__init__.py
+src/fl_operation_gm/example.py
+src/fl_operation_gm.egg-info/PKG-INFO
+src/fl_operation_gm.egg-info/SOURCES.txt
+src/fl_operation_gm.egg-info/dependency_links.txt
+src/fl_operation_gm.egg-info/top_level.txt

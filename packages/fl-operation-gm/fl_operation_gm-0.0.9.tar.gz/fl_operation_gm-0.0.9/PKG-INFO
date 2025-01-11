@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: fl_operation_gm
+Version: 0.0.9
+Summary: File operation handler CLI
+Author: Example Author
+Author-email: Dmitry Author <author@example.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: requires-python
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
