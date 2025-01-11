@@ -1,0 +1,51 @@
+Metadata-Version: 2.2
+Name: svlearn-bootcamp
+Version: 0.1.2
+Summary: Base dependency for all the llm bootcamp projects at SupportVectors AI Lab
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: crewai>=0.95.0
+Requires-Dist: crewai-tools>=0.0.1
+Requires-Dist: decorator>=5.1.1
+Requires-Dist: hyperopt>=0.2.7
+Requires-Dist: instructor>=1.7.2
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: ipywidgets>=8.1.5
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: markdown>=3.7
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: mkdocs>=1.6.1
+Requires-Dist: mkdocs-awesome-pages-plugin>=2.10.1
+Requires-Dist: mkdocs-include-markdown-plugin>=7.1.2
+Requires-Dist: mkdocs-material>=9.5.49
+Requires-Dist: mkdocs-material-extensions>=1.3.1
+Requires-Dist: mkdocs-mermaid2-plugin>=1.2.1
+Requires-Dist: mkdocstrings[python]>=0.27.0
+Requires-Dist: mknotebooks>=0.8.0
+Requires-Dist: mlflow>=2.19.0
+Requires-Dist: numpy>=2.2.1
+Requires-Dist: openai>=1.59.4
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: pathlib>=1.0.1
+Requires-Dist: plotly>=5.24.1
+Requires-Dist: pydantic>=2.10.4
+Requires-Dist: pykwalify>=1.8.0
+Requires-Dist: pytest>=8.3.4
+Requires-Dist: rich>=13.9.4
+Requires-Dist: ruamel-yaml>=0.18.10
+Requires-Dist: ruff>=0.8.6
+Requires-Dist: scikit-learn>=1.6.0
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: sentence-transformers>=3.3.1
+Requires-Dist: spacy>=3.8.3
+Requires-Dist: sqlalchemy>=2.0.36
+Requires-Dist: streamlit>=1.41.1
+Requires-Dist: torch>=2.5.1
+Requires-Dist: torchaudio>=2.5.1
+Requires-Dist: torchvision>=0.20.1
+Requires-Dist: transformers>=4.47.1
+
+# SVLEARN BOOTCAMP
+
+This is a base project with some utilities and basic dependencies needed for the LLM Projects Bootcamp activities.
+
