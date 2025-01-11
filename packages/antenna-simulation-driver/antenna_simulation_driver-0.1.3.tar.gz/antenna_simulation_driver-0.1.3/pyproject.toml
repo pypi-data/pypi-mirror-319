@@ -1,0 +1,38 @@
+# I find this documentation helpful when editing this file:
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+    {name = "Dr. Andreas Krüger, DJ3EI", email = "dj3ei@famsik.de"},
+]
+name = "antenna_simulation_driver"
+description = "Software to run antenna simulations, for parameter studies and optimizations."
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["ham", "amateur radio"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Topic :: Communications :: Ham Radio"
+]
+version = "0.1.3"
+dependencies = [
+  "numpy >= 2.1.3"
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/4ham/antenna_simulation_driver"
+Repository = "https://gitlab.com/4ham/antenna_simulation_driver"
+Issues = "https://gitlab.com/4ham/antenna_simulation_driver/-/issues"
+
+[tool.isort]
+profile = "black"
