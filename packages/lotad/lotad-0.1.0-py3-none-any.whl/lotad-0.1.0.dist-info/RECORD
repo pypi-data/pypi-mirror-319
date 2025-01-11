@@ -1,0 +1,15 @@
+lotad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lotad/cli.py,sha256=cB18a_dnfFJrcVnW_hEBiMK4BrlsA5DIWskBlkJOy0c,3250
+lotad/config.py,sha256=Q_BCb6MD6K5jHpKAjnxQdH8bhLWvWLNVEdqE4GoXlHM,4321
+lotad/config_wizard.py,sha256=pPFn-q2bve3OQS2umOVBmgrjbwkj7gXOIyHgEno6k-E,11325
+lotad/connection.py,sha256=4qlF5E2xzxNH--rEKFfq2pf9JRrv102ahXEGzAn0NLY,3167
+lotad/data_analysis.py,sha256=Xv4H8VvjGzfJPrqMlKE57ORVfEJLeJ30dxRVE8BWt9w,6347
+lotad/db_compare.py,sha256=8zl19NnxP8Th5a7QBrumd2leJtKiedqyOk1Ht4DgFtA,10473
+lotad/logger.py,sha256=zmFtOyWmp108lCDWKXAgIjewp26ki2pBnEkC66aIHrw,1684
+lotad/utils.py,sha256=LKul1DES_kg-KXShrvgsLCzdrjc7-9-UF-eFblNVjdQ,2708
+lotad-0.1.0.dist-info/LICENSE,sha256=rNc0wNPn4d4HHu6ZheJzeUaz_FbJ4rj2Dr2FjAivkNg,1064
+lotad-0.1.0.dist-info/METADATA,sha256=6RnpLvsOHbsjfYJZS3Ogk-LdpfB2Ej0zxXHOWoNqljE,2357
+lotad-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+lotad-0.1.0.dist-info/entry_points.txt,sha256=3QvgMcIaHUHBs725doFts_fMGIWYzi1BWtxA8e1wut8,40
+lotad-0.1.0.dist-info/top_level.txt,sha256=KEzgCRUFm-y6lRQA2_7BEKWQ2GnBLPejrrxrmnODSXY,6
+lotad-0.1.0.dist-info/RECORD,,
