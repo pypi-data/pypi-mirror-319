@@ -1,0 +1,7 @@
+
+[lint]
+ruff
+mypy
+
+[test]
+pytest
