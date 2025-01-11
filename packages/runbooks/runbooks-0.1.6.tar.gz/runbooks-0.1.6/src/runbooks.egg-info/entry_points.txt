@@ -1,0 +1,2 @@
+[console_scripts]
+runbooks = runbooks.aws:execute_script
