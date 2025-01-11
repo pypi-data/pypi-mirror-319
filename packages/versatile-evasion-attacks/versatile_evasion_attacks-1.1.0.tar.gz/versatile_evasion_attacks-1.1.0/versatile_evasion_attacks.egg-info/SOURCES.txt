@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+vea/__init__.py
+vea/config.py
+versatile_evasion_attacks.egg-info/PKG-INFO
+versatile_evasion_attacks.egg-info/SOURCES.txt
+versatile_evasion_attacks.egg-info/dependency_links.txt
+versatile_evasion_attacks.egg-info/requires.txt
+versatile_evasion_attacks.egg-info/top_level.txt
