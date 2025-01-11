@@ -1,0 +1,15 @@
+lasso_3d/__init__.py,sha256=7U7SxNnTJH033EJBy1aeFha3gJO03U1sav1cj1Lg-HM,85
+lasso_3d/_widget.py,sha256=TmRLD6zS4qobhPQN7ZUfKN8pltm0TNbaKbH5GH0xlnM,17291
+lasso_3d/lasso_add_slices.py,sha256=GUpoXgulMcbbnWfDSuE-h7MiQA1vEqWeb4qcDCP0f_w,4744
+lasso_3d/lasso_rotate_vol.py,sha256=SCmMHWiWd6n-iKY-5x0GraLP49jIeh3ajr7iSUjWbZ4,2588
+lasso_3d/lasso_utils.py,sha256=mQrxgDO76JfnFVYGYcpMXIrqx3a6Ynluq1DtEUsxGX0,11947
+lasso_3d/napari.yaml,sha256=5oA8Nhf0yQAzra_4JNS-mGuqeHzrJ6PnGlr4jBwLGOM,1412
+lasso_3d/shapes_overwrites.py,sha256=I1oN52EM_9L2fevYOwuSeCsSE8galzlcF-qVnD6xEvY,1468
+lasso_3d/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lasso_3d/_tests/test_widget.py,sha256=S8BUsWxU-Q57WCuQ8o-VDOhPP5K8obIQWl8qsCBd4aY,34
+lasso_3d-0.0.1.dist-info/LICENSE,sha256=6ICBLzlIbJoYvh-xw0_1qYUZDlPnJqzNqak-ZEc9DFU,1486
+lasso_3d-0.0.1.dist-info/METADATA,sha256=V_ZfMeQ81rumoQMp1BHQTPjTp90a9SLs5K0OqFP-CIk,7386
+lasso_3d-0.0.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+lasso_3d-0.0.1.dist-info/entry_points.txt,sha256=Bi0xNrxISXpc0CFwXp5mvQcaJYI0XibiTzcQ46_--xg,50
+lasso_3d-0.0.1.dist-info/top_level.txt,sha256=tmgyh2JUVeflnhLAgGrymXvVVGk_JetRSQKVqUQtWb4,9
+lasso_3d-0.0.1.dist-info/RECORD,,
