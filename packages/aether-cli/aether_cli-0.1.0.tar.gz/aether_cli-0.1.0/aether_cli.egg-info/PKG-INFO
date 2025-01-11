@@ -1,0 +1,38 @@
+Metadata-Version: 2.2
+Name: aether-cli
+Version: 0.1.0
+Summary: A command-line interface for interacting with various AI models.
+Home-page: https://github.com/AirTouch666/aether
+Author: AirTouch666
+Author-email: me@airtouch.top
+Project-URL: Bug Tracker, https://github.com/AirTouch666/aether/issues
+Keywords: ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0.0
+Requires-Dist: openai>=0.27.0
+Requires-Dist: google-generativeai>=0.3.0
+Requires-Dist: aiohttp>=3.8.0
+Requires-Dist: websockets>=10.0
+Requires-Dist: requests>=2.25.0
+Requires-Dist: halo>=0.0.31
+Requires-Dist: certifi>=2021.5.30
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# aether
+
+A command-line interface for interacting with various AI models.

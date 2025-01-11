@@ -1,0 +1,2 @@
+[console_scripts]
+ask = aether.cli:main
