@@ -1,0 +1,22 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+lexi_xray/__init__.py
+lexi_xray/__version__.py
+lexi_xray/lexi.py
+lexi_xray.egg-info/PKG-INFO
+lexi_xray.egg-info/SOURCES.txt
+lexi_xray.egg-info/dependency_links.txt
+lexi_xray.egg-info/requires.txt
+lexi_xray.egg-info/top_level.txt
+lexi_xray/.lexi_data/20241114_LEXIAngleData_20250302Landing_rad.csv
+lexi_xray/.lexi_data/GMP1_MEAS_CBI-data-2024-11-07 16_20_24.csv
+lexi_xray/.lexi_data/LEXI_RA_DEC_J2000_rad-data-2024-11-07 16_20_24.csv
+lexi_xray/.lexi_data/all_lexi_file_list.csv
+lexi_xray/.lexi_data/file_list.csv
+lexi_xray/.lexi_data/sample_lexi_pointing_ephem_edited.csv
+lexi_xray/.lexi_data/sample_xray_background.csv
+lexi_xray/tests/__init__.py
+lexi_xray/tests/test_lexi.py
