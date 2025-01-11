@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: text-transformer-example
+Version: 0.1.0
+Summary: A simple text transformer package
+Home-page: https://pypi.org/project/text_transformer_example/
+Author: YourName
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# text_transformer_example
+
+A simple Python package for text processing:  
+- Remove punctuation  
+- Convert case (uppercase & lowercase)  
+- Split sentences  
+- Compute word frequency  
+
+## Installation
+
+```bash
+pip install text_transformer_example
