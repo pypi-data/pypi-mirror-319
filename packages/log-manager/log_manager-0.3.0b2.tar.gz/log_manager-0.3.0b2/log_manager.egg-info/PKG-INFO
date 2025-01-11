@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: log-manager
+Version: 0.3.0b2
+Summary: A Python logging utility for reporting via screen, text file or SharePoint List
+Author-email: Jon Hart <hartjc@gmail.com>
+Project-URL: Source Code, https://github.com/jc-hart/log-manager
+Project-URL: Bug Tracker, https://github.com/jc-hart/log-manager/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# log-manager
+Python logging utility
