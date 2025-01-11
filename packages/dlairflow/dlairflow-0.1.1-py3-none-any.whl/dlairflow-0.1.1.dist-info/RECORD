@@ -1,0 +1,15 @@
+dlairflow/__init__.py,sha256=oaNfzjQDZE0-QDq0Ygf9_WK7xj57zYKjgVumnwgePyc,199
+dlairflow/load.py,sha256=ahd6YiIG_TEIeeYkMJ2l4dfpI2ZpMKJPqIfFO0TCOIw,1943
+dlairflow/postgresql.py,sha256=TqMTBjAzVlN7S8yY8nD05KsxG9K7o0kJuIy0WgkartE,3313
+dlairflow/util.py,sha256=ArMFiL3IElftRETXcADhfRf6GsWY3TyQUQQ3QOHlhNk,551
+dlairflow/test/__init__.py,sha256=ZRzPli8bE46NqmehDyRknpMvrD6F7vsLJNVj_D_hMas,192
+dlairflow/test/test_load.py,sha256=N6ivACN6_q3Q_mX43lXPEC61bs7pjxIaS5mkIKvIa3g,1421
+dlairflow/test/test_postgresql.py,sha256=YyDiFSKjTjmmOrLTxNnFPDKwEbbhp-2gu3Swo0ZVkAY,2232
+dlairflow/test/test_top_level.py,sha256=bXpKrSCzgSHqdqzaCUDePk-fwrBgkiQPvup0jo6ZLnQ,407
+dlairflow/test/test_util.py,sha256=gsXA1G5vvirYU6bFWpChVGEaQp21SNMuYPcd21Dw3vQ,301
+dlairflow-0.1.1.dist-info/LICENSE.md,sha256=80DihEP9USqzglZ3X3OWq7IqdO0cf1h8q4IK6t2_TUI,1499
+dlairflow-0.1.1.dist-info/METADATA,sha256=wNTGZl_v2PCh6hC8yGqJl7_eWpe_OirM6GosRnyF3SI,1767
+dlairflow-0.1.1.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+dlairflow-0.1.1.dist-info/top_level.txt,sha256=Wo0cV0SbJSHAXLVUnjxWTKQUnlNqaqh3DxiXg4TFkGA,10
+dlairflow-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dlairflow-0.1.1.dist-info/RECORD,,
