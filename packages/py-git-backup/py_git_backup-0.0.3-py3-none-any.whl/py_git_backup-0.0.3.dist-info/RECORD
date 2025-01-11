@@ -1,0 +1,11 @@
+pygitup/__init__.py,sha256=EWO7mA8JEp0jHQa8ML118DidQV8HbiFbqFG21VaJYeE,22
+pygitup/generic.py,sha256=1DsOv-UdbLVnqTdondGPUBKtETX_0IMnULtPAG82UOE,355
+pygitup/git_adapter.py,sha256=-TKMaVVL6BXfKW1uLNMUQKR4JPOnofNbvCEPKpPbrzQ,2993
+pygitup/main_pygitup.py,sha256=QEiUFdHkiAgvqQNxkzpTrd8OieyAHUSRWWwjy_hmSik,481
+pygitup/programs.py,sha256=L7Uf2srcRUgFRB9oPI29BOc2-4wLesJG0OWvH-WETiA,469
+pygitup/update.py,sha256=VPVY-jvPR30zYdIVhM2yd1zvgwjoNYBhjgxSJOBvGME,1511
+py_git_backup-0.0.3.dist-info/METADATA,sha256=K3osVhs3SomoF4ZCofGUKJTKp6ji4De2JmEwwfyKkfU,574
+py_git_backup-0.0.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+py_git_backup-0.0.3.dist-info/entry_points.txt,sha256=u7cNBfb2-YOAd2CeWxOQKkMAMvvqQ8jGkps2UYldUE0,62
+py_git_backup-0.0.3.dist-info/top_level.txt,sha256=GLDbCjamNDP_XEg8eQXD-s8CPz2SIJy-JaMMfEub7vw,8
+py_git_backup-0.0.3.dist-info/RECORD,,
