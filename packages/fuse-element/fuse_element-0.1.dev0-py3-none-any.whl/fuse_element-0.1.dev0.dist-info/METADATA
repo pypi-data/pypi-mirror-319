@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: fuse-element
+Version: 0.1.dev0
+Summary: a unified, serialisable representation of a Finite Element
+Author-email: India Marsden <marsden@maths.ox.ac.uk>
+Project-URL: Repository, https://github.com/indiamai/fuse.git
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: sympy
+Requires-Dist: sphinx
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"

@@ -1,0 +1,17 @@
+fuse/__init__.py,sha256=8t-BIedjJS8ds3BGdZfC7ahfHkLDmaWfTBiK7mgX0m8,722
+fuse/cells.py,sha256=qgD1Rs7QgF7Z1sjn0uvPYDBU1iqMZpgmgsYZIPHrijk,30490
+fuse/dof.py,sha256=hcfB0EYK71_YPDKARx5ZHpvaKsLgcQuM3ibKQl7Vlc4,12107
+fuse/groups.py,sha256=16aDwTph1j3r9YIg98vrJCBu_VaQQ0CVTLpOC3scx0Y,14211
+fuse/serialisation.py,sha256=auwJ1LqBMJ4-34vgg0cQ_WUpmbtioa5LPLbPyznuNoU,4459
+fuse/traces.py,sha256=HIGZ9CW84GcFSA7UvsGVMjtJbCXOpgmoc3SicZcsudI,6399
+fuse/triples.py,sha256=wbdmRJRJ6IObi-URu86kmQpMIzzqD6csUIahLwcS7ME,19530
+fuse/utils.py,sha256=_712EJa3xks6eV4arcqblHrpffEFB_dOb3GWcP7Ud9s,1746
+fuse/spaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuse/spaces/element_sobolev_spaces.py,sha256=GlN1YkrhxKwSDyCX6fX0hsttJQIX0fmXx66YhuNqHGI,1969
+fuse/spaces/interpolation_spaces.py,sha256=qaAhekgzFvTQtgn2w3QSAlG9gGCKXv95fccGagRBUI8,3929
+fuse/spaces/polynomial_spaces.py,sha256=PMV18Keg1jeJk-gtMYikKwa8bHrgpGWarQ9EgXMlF18,7891
+fuse_element-0.1.dev0.dist-info/LICENSE,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+fuse_element-0.1.dev0.dist-info/METADATA,sha256=YZMp1USyWEIMo_jDVp77P4y1Gz6jLkhDUOAFiPg_vio,606
+fuse_element-0.1.dev0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+fuse_element-0.1.dev0.dist-info/top_level.txt,sha256=xN18qyxC2dSZapqO_0TcXDX55MYLu0I6Xa5iaIsBknw,5
+fuse_element-0.1.dev0.dist-info/RECORD,,
