@@ -1,0 +1,38 @@
+[project]
+name = "flukit"
+version = "0.1.1"
+description = "Toolkit for influenza virus research"
+authors = [
+    { name = "william", email = "william_swl@163.com" },
+]
+dependencies = [
+    "biopython>=1.84",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ipykernel>=6.29.5",
+    "pytest>=8.3.4",
+    "pandas>=2.2.3",
+    "mkdocstrings[python]>=0.27.0",
+    "mkdocs-material>=9.5.49",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src",
+]
