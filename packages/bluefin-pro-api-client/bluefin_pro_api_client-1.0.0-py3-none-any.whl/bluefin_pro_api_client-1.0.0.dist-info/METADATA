@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bluefin-pro-api-client
+Version: 1.0.0
+Summary: Bluefin API
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,Bluefin API
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 <3.0.0,>=1.25.3
+Requires-Dist: python-dateutil >=2.8.2
+Requires-Dist: aiohttp >=3.8.4
+Requires-Dist: aiohttp-retry >=2.8.3
+Requires-Dist: pydantic >=2
+Requires-Dist: typing-extensions >=4.7.1
+
+    Bluefin API
+    
