@@ -1,0 +1,8 @@
+livy_uploads/__init__.py,sha256=oklfaV_M5bvHU9tWlv1O9c7sfWaYAf07dMBUHZ3wLHs,24
+livy_uploads/magics.py,sha256=IZdvpD6_QmbSbKGLmw_m4DeywxMmlmPgxfV-nHfo_pY,6101
+livy_uploads/uploader.py,sha256=EFw19uP6kYlce9YuntZNaobVBSBfw056hWzi5hczavQ,15397
+livy_uploads-0.1.0a1.dist-info/LICENSE,sha256=AtYGFpgfOGqckYHWgizqK1SDokITyg6Y42cT5dA4OdU,1075
+livy_uploads-0.1.0a1.dist-info/METADATA,sha256=YUDWSMi7pzC-te5_-V_W3pzaLQqoMIA8jnjfV7QsW_A,6561
+livy_uploads-0.1.0a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+livy_uploads-0.1.0a1.dist-info/top_level.txt,sha256=JwsWCcQ7zWTFAfihl8NQwPBd0BoplnLCKhNshpAO7KI,13
+livy_uploads-0.1.0a1.dist-info/RECORD,,
