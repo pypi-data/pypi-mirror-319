@@ -1,0 +1,1 @@
+import {StandaloneApp} from "./widgets/StandaloneApp.js";import {CanvasFamiliarity} from "./widgets/CanvasFamiliarity.js";const components = {CanvasFamiliarity: CanvasFamiliarity,};const app = new StandaloneApp({target: document.body,props: {components: components,},});export default app;
