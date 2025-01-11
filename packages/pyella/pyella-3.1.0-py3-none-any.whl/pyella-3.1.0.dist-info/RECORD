@@ -1,0 +1,10 @@
+LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+pyella/__init__.py,sha256=-x70kQqb6feYNRekP8y9cjmff6q3AZs0chC2N_L_14M,310
+pyella/either.py,sha256=HxgpTRtTwmUDnoqnV5YZWAb16sCrF_muhBU4_mGw4ao,14531
+pyella/maybe.py,sha256=n1q7_Ouh5x475tdSvZveKrtZpryZnZkglX0eigFKS58,8665
+pyella/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyella/shared.py,sha256=hOD3x0AYs7MYzc2O5ntPZvZ4KhtLy5jvFiYORM__zhA,526
+pyella-3.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+pyella-3.1.0.dist-info/METADATA,sha256=6W5eSQp6orcgXBvXI-IysEjO4b0PrpMFhDeGAjmcUfQ,9722
+pyella-3.1.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+pyella-3.1.0.dist-info/RECORD,,
