@@ -1,0 +1,7 @@
+sage/all__sagemath_topcom.py,sha256=HL2iD-gd1x0rCvOV7a1k2X6Kd2rzeGmduyRumGJ7dJc,89
+sage/libs/topcom.cpython-39-x86_64-linux-gnu.so,sha256=igUNdT2oYQbjqbCNKiSP4zUCbTrjMbn-S4pQCpdnZng,64664
+sage/libs/all__sagemath_topcom.py,sha256=BZZ0iQmrgxsQXT9tJSOyYwj7645zYZkoEfQJsyPuRWA,45
+passagemath_topcom-10.5.19.dist-info/METADATA,sha256=H9KbdYR2Y2J6663_8YNxfrdKE2DZ1cdhTiBkf5vfvg8,4690
+passagemath_topcom-10.5.19.dist-info/RECORD,,
+passagemath_topcom-10.5.19.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+passagemath_topcom-10.5.19.dist-info/WHEEL,sha256=8UayvovyrFi1LL91bT6QWZTD1z0M6FXrB-46bEuD8G0,110
