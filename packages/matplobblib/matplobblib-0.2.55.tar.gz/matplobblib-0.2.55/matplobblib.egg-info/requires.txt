@@ -1,0 +1,7 @@
+math
+numpy
+sympy
+pandas
+scipy
+itertools
+pyperclip
