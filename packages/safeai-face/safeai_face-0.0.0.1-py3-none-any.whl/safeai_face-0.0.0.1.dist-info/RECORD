@@ -1,0 +1,13 @@
+safevision_face/__init__.py,sha256=YwrnENqzWbss7Yxrh2buNXpANc48Pk9S2MqtH3errBM,114
+safevision_face/config.py,sha256=CMmxtNqlcGwymyXwcjyEBNvW4sj6p3GHmJbOAfnWIK8,366
+safevision_face/database.py,sha256=OySC_V_FQol0rGndr33fuTg6NcwCt7qdZZafP_kbIZ0,2418
+safevision_face/detection.py,sha256=GrT3XdZPeol72z90IUtEn7wt5Nh-uQxkqf3ptj3pIgM,1650
+safevision_face/extraction.py,sha256=1v8VchLut6ocMjWJaD1URZyGd4m2YmMm065UeXtTn68,501
+safevision_face/utils.py,sha256=hhfhnBh9hUbJKiLGNnNsvQMcNebDpbtga_doF7_uby8,238
+safevision_face/feature_extraction/__init__.py,sha256=tdfvbGJiDTrDHROIqzZp9s-FVgdI06eGZBhHdsV1QAM,105
+safevision_face/feature_extraction/edgeface_extractor.py,sha256=fFWcldf70Xwu3yBuG3OqrpGV2eYvUvEgcO-0WmVxqeM,3231
+safevision_face/feature_extraction/feature_extractor.py,sha256=5h0ni2FIDcqR1DkZQ_eAi_aN_qCDxDr-DdnAPzoFiUY,1620
+safeai_face-0.0.0.1.dist-info/METADATA,sha256=EppG0l1o5hE_5iXzrMQWOMeVxXmHXKkVJqB0v4k3i-w,714
+safeai_face-0.0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+safeai_face-0.0.0.1.dist-info/top_level.txt,sha256=JaMI5UbM4QXaAsiRZ_qiFgTe3ZUMs2SQgtucD5UO4p0,16
+safeai_face-0.0.0.1.dist-info/RECORD,,
