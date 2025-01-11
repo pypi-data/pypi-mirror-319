@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2023 Jose D. Montoya
+#
+# SPDX-License-Identifier: Unlicense
+
+version: 2
+
+build:
+  os: ubuntu-lts-latest
+  tools:
+    python: "3"
+
+python:
+  install:
+    - requirements: docs/requirements.txt
+    - requirements: requirements.txt
