@@ -1,0 +1,56 @@
+Metadata-Version: 2.4
+Name: dynamic-typer
+Version: 0.1.1
+Project-URL: Repository, https://github.com/rcmdnk/dynamic-typer
+Project-URL: Homepage, https://github.com/rcmdnk/dynamic-typer
+Author-email: rcmdnk <rcmdnk@gmail.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: arguments,automation,cli,command-line,dynamic,options,python,reusable,tools,typer
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: <4,>=3.9
+Requires-Dist: conf-finder>=0.3.1
+Requires-Dist: inflection>=0.5.1
+Requires-Dist: inherit-docstring>=0.1.4
+Requires-Dist: tomli>=2.0.1; python_version < '3.11'
+Requires-Dist: typer>=0.15.1
+Description-Content-Type: text/markdown
+
+# Dynamic Typer
+
+[![test](https://github.com/rcmdnk/dynamic-typer/actions/workflows/test.yml/badge.svg)](https://github.com/rcmdnk/dynamic-typer/actions/workflows/test.yml)
+[![test coverage](https://img.shields.io/badge/coverage-check%20here-blue.svg)](https://github.com/rcmdnk/dynamic-typer/tree/coverage)
+
+Dynamic Typer is a tool to generate argument annotated functions for [Typer](https://typer.tiangolo.com/) command.
+Useful for cases where your want to make commands which have common arguments.
+
+## Requirement
+
+- Python 3.13, 3.12, 3.11, 3.10, 3.9, 3.8, 3.7
+- [uv](https://docs.astral.sh/uv/) (for development)
+
+## Installation
+
+You can install `dynamic-typer` from [PyPI](https://pypi.org/):
+
+```bash
+pip install dynamic-typer
+```
+
+## Usage
+
+### Functions
+
+Based on [rcmdnk/python-template](https://github.com/rcmdnk/python-template), v0.1.2
