@@ -1,0 +1,2 @@
+[console_scripts]
+shakemyhand-walkthrough = shakemyhand_walkthrough.shakemyhand_walkthrough:main
