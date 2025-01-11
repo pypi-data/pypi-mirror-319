@@ -1,0 +1,21 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "FileFormatter"
+version = "0.0.1"
+authors = [
+    { name = "Kodjo Messie", email = "kodjomessie@gmail.com" },
+]
+description = "A program that clears long text files"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool]
