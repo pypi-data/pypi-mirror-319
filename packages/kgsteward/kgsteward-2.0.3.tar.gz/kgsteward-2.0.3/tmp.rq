@@ -1,0 +1,632 @@
+# ----------------------------------------------------------------------------
+#         TASK : Update dataset record: MetaNetX_MNet
+DROP SILENT GRAPH <http://example.org/context/MetaNetX_MNet>
+#         POST : http://localhost:8080/rdf4j-server/repositories/ReconXKG/statements
+# elapsed time : 1.476
+# Directory /Users/mpagni/gitlab.com/ReconXKG/data/model is exposed on http://localhost:8002
+LOAD <http://host.docker.internal:8002/bigg_e_coli_core.ttl> INTO GRAPH <http://example.org/context/MetaNetX_MNet>
+#         POST : http://localhost:8080/rdf4j-server/repositories/ReconXKG/statements
+127.0.0.1 - - [09/Jan/2025 11:25:23] "GET /bigg_e_coli_core.ttl HTTP/1.1" 200 -
+# elapsed time : 0.439
+PREFIX void: <http://rdfs.org/ns/void#>
+INSERT DATA {
+    GRAPH <http://example.org/context/MetaNetX_MNet> {
+        <http://example.org/context/MetaNetX_MNet> void:dataDump <file:///Users/mpagni/gitlab.com/ReconXKG/data/model/bigg_e_coli_core.ttl>
+    }
+}
+#         POST : http://localhost:8080/rdf4j-server/repositories/ReconXKG/statements
+# elapsed time : 0.016
+PREFIX reconx: <https://reconx.vital-it.ch/kg/>
+PREFIX mnx: <https://rdf.metanetx.org/schema/>
+
+INSERT{
+    GRAPH <http://example.org/context/MetaNetX_MNet> {
+		?reac reconx:equaMNX ?equa_new .
+		?equa_new reconx:part ?part_new .
+		?part_new reconx:coef ?coef     ;
+		          reconx:spec ?spec_new .
+		?spec_new reconx:chem ?chem_new ;
+		          reconx:comp ?comp_new .
+    }
+}
+WHERE{
+	{
+		SELECT
+	    	?reac
+			?equa_new
+			( UUID() AS ?part_new )
+			?coef
+			( UUID() AS ?spec_new )
+			( COALESCE( ?chem_ref, ?chem_old ) AS ?chem_new )
+	        ( COALESCE( ?comp_ref, ?comp_old ) AS ?comp_new )
+		WHERE{
+    		GRAPH <http://example.org/context/MetaNetX_MNet> {
+				SELECT 
+					?reac
+					?equa_old
+					( UUID() AS ?equa_new )
+				WHERE{
+					?reac reconx:equaSource ?equa_old
+				}
+			}
+			?equa_old reconx:part ?part_old .
+			?part_old reconx:coef ?coef     ;
+				      reconx:spec ?spec_old .
+			?spec_old reconx:chem ?chem_old ;
+			 	      reconx:comp ?comp_old .
+        	OPTIONAL{ ?mnxm mnx:chemXref ?chem_old ; mnx:chemRefer ?chem_ref }
+        	OPTIONAL{ ?mnxc mnx:compXref ?comp_old ; mnx:compRefer ?comp_ref }
+		}
+	}
+}
+
+#         POST : http://localhost:8080/rdf4j-server/repositories/ReconXKG/statements
+# elapsed time : 0.474
+PREFIX reconx: <https://reconx.vital-it.ch/kg/>
+PREFIX mnx: <https://rdf.metanetx.org/schema/>
+
+INSERT{
+    GRAPH <http://example.org/context/MetaNetX_MNet> {
+		?reac reconx:equaVMH ?equa_new .
+		?equa_new reconx:part ?part_new .
+		?part_new reconx:coef ?coef     ;
+		          reconx:spec ?spec_new .
+		?spec_new reconx:chem ?chem_new ;
+		          reconx:comp ?comp_new .
+    }
+}
+WHERE{
+	{
+		SELECT
+	    	?reac
+			?equa_new
+			( UUID() AS ?part_new )
+			?coef
+			( UUID() AS ?spec_new )
+			( COALESCE( ?chem_ref, ?chem_old ) AS ?chem_new )
+	        ( COALESCE( ?comp_ref, ?comp_old ) AS ?comp_new )
+		WHERE{
+    		GRAPH <http://example.org/context/MetaNetX_MNet> {
+				SELECT 
+					?reac
+					?equa_old
+					( UUID() AS ?equa_new )
+				WHERE{
+					?reac reconx:equaSource ?equa_old
+				}
+			}
+			?equa_old reconx:part ?part_old .
+			?part_old reconx:coef ?coef     ;
+				      reconx:spec ?spec_old .
+			?spec_old reconx:chem ?chem_old ;
+			 	      reconx:comp ?comp_old .
+        	OPTIONAL{ ?mnxm mnx:chemXref ?chem_old ; reconx:chemReferVMH ?chem_ref }
+        	OPTIONAL{ ?mnxc mnx:compXref ?comp_old ; reconx:compReferVMH ?comp_ref }
+		}
+	}
+}
+
+#         POST : http://localhost:8080/rdf4j-server/repositories/ReconXKG/statements
+# elapsed time : 0.862
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+PREFIX reconx: <https://reconx.vital-it.ch/kg/>
+PREFIX mnx:    <https://rdf.metanetx.org/schema/>
+
+DELETE{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+		?part_L_old reconx:coef ?coef_L_old .
+		?part_R_old reconx:coef ?coef_R_old .
+	}		
+}
+INSERT{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+		?equa       reconx:part ?part_L_new . # introduce PMF
+		?part_L_new reconx:coef ?coef_L_pmf ; # Part and spec identifiers are temporary and must be later normalized
+	    			reconx:spec ?spec_L_new .
+		?spec_L_new reconx:chem mnx:PMF     ;
+				    reconx:comp ?comp_L     .
+	    ?equa       reconx:part ?part_R_new .
+	    ?part_R_new reconx:coef ?coef_R_pmf ;
+		 			reconx:spec ?spec_R_new .
+		?spec_R_new reconx:chem mnx:PMF     ;
+				    reconx:comp ?comp_R     .
+		?part_L_old reconx:coef ?coef_L_new .
+	    ?part_R_old reconx:coef ?coef_R_new .				
+	}
+}
+WHERE{
+	{
+		SELECT
+        	?equa
+			?part_L_old
+			?part_R_old
+        	?comp_L
+        	?comp_R
+			( SUM( ?coef_L ) AS ?coef_L_old )
+			( SUM( ?coef_R ) AS ?coef_R_old )
+			( IF( 
+                ABS( SUM( ?coef_L )) <= ABS( SUM( ?coef_R )), 
+                ABS( SUM( ?coef_L )), 
+                ABS( SUM( ?coef_R ))
+                ) AS ?abs_pmf )
+		WHERE{
+            {   # to speed things up, find equations with two and only two compartments and 
+                # protons in each ones
+                SELECT
+                    ?equa
+                	( COUNT( DISTINCT ?comp ) AS ?comp_count )
+                WHERE{
+					?mnxm mnx:chemXref mnx:PROTON, ?proton .
+					GRAPH <http://example.org/context/MetaNetX_MNet> {
+						[] reconx:equaMNX|reconx:equaVMH ?equa .
+                		?equa reconx:part/reconx:spec ?spec .
+                    	?spec reconx:comp ?comp   ;
+                        	  reconx:chem ?proton .
+					}
+            	}
+                GROUP BY ?equa
+                HAVING( ?comp_count = 2)
+            }
+			?mnxm mnx:chemXref mnx:PROTON, ?proton .
+			GRAPH <http://example.org/context/MetaNetX_MNet> {
+            	?equa reconx:part ?part_L_old, ?part_R_old .
+        		?part_L_old reconx:coef ?coef_L ;
+         	    	        reconx:spec ?spec_L_old .
+            	?spec_L_old reconx:chem ?proton ;
+                		    reconx:comp ?comp_L    .
+        		?part_R_old reconx:coef ?coef_R ;
+         	    		    reconx:spec ?spec_R_old .
+            	?spec_R_old reconx:chem ?proton  ;
+                	  	    reconx:comp ?comp_R .
+            	FILTER( ?coef_L < 0 && ?coef_R > 0 )
+			}
+    	}
+        GROUP BY ?equa ?comp_L ?comp_R  ?part_L_old ?part_R_old
+	}
+    BIND( ?coef_L_old + ?abs_pmf AS ?coef_L_new  )
+    BIND( ?coef_R_old - ?abs_pmf AS ?coef_R_new  )
+    BIND( - ?abs_pmf AS ?coef_L_pmf  )
+    BIND(   ?abs_pmf AS ?coef_R_pmf  )
+	BIND( UUID() AS ?spec_L_new )
+	BIND( UUID() AS ?spec_R_new )
+	BIND( UUID() AS ?part_L_new )
+	BIND( UUID() AS ?part_R_new )
+}
+; 
+# delete all mnx:PROTON but mnx:PMF (which is not a mnx:PROTON)
+DELETE{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+		?equa reconx:part ?part .
+		?part reconx:coef ?coef ;
+			  reconx:spec ?spec .
+		?spec reconx:chem ?proton ;
+		      reconx:comp ?comp      .
+	}
+}
+WHERE{
+	?mnxm mnx:chemXref mnx:PROTON, ?proton .
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+		[] reconx:equaMNX|reconx:equaVMH ?equa .
+		?equa reconx:part ?part .
+		?part reconx:coef ?coef ;
+			  reconx:spec ?spec .
+		?spec reconx:chem ?proton ;
+		      reconx:comp ?comp   .
+	}
+}
+
+#         POST : http://localhost:8080/rdf4j-server/repositories/ReconXKG/statements
+# elapsed time : 36.373
+PREFIX reconx: <https://reconx.vital-it.ch/kg/>
+PREFIX mnx:    <https://rdf.metanetx.org/schema/>
+
+# Start with single compartment reactions
+INSERT{
+    GRAPH <http://example.org/context/MetaNetX_MNet> {
+		?reac ?reac2equa_new ?equa_new .
+		?equa_new reconx:part ?part_new .
+		?part_new reconx:coef ?coef     ;
+		          reconx:spec ?spec_new .
+		?spec_new reconx:chem ?chem ;
+		          reconx:comp mnx:MNXD1 .
+    }
+}
+WHERE{
+    {
+		SELECT
+	    	?reac
+			?reac2equa_new
+			?equa_new
+			( UUID() AS ?part_new )
+			?coef
+			( UUID() AS ?spec_new )
+			?chem
+		WHERE{
+			GRAPH <http://example.org/context/MetaNetX_MNet> {
+				SELECT 
+					?reac
+                    ?reac2equa_old
+                    ( IRI( CONCAT( STR( ?reac2equa_old ), "_dc" )) AS ?reac2equa_new )
+					?equa_old
+                    ( UUID() AS ?equa_new )
+                    ( COUNT( DISTINCT ?comp ) AS ?count )
+				WHERE{
+					VALUES ?reac2equa_old { reconx:equaMNX reconx:equaVMH }
+					?reac ?reac2equa_old ?equa_old .
+					?equa_old reconx:part ?part .
+					?part reconx:spec ?spec .
+					?spec reconx:comp ?comp .
+				}
+				GROUP BY ?reac ?reac2equa_old ?equa_old
+				HAVING( ?count = 1 )
+			}
+			?equa_old reconx:part ?part_old .
+			?part_old reconx:coef ?coef     ;
+			          reconx:spec ?spec_old .
+			?spec_old reconx:chem ?chem .
+		}
+		
+	}
+}
+;
+# Now attempt canonicalize compartments of transport reactions (only two compartments are considered)
+INSERT{
+    GRAPH <http://example.org/context/MetaNetX_MNet> {
+		?reac ?reac2equa_new ?equa_new .
+		?equa_new reconx:part ?part_new .
+		?part_new reconx:coef ?coef     ;
+		          reconx:spec ?spec_new .
+		?spec_new reconx:chem ?chem ;
+		          reconx:comp ?mnxd .
+    }
+}
+WHERE{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+		{
+			SELECT 
+				?reac 
+				?reac2equa_old
+				( IRI( CONCAT( STR( ?reac2equa_old ), "_dc" )) AS ?reac2equa_new )
+				?equa_old
+				( UUID() AS ?equa_new )
+				( IRI( REPLACE( IF( ?chem_str_A <= ?chem_str_B, ?comp_str_A, ?comp_str_B ), "(\\S+).+", "$1" )) AS ?mnxd1 )
+			WHERE{
+				{
+					SELECT
+						 ?reac 
+						 ?reac2equa_old 
+						 ?equa_old
+						( GROUP_CONCAT( ?chem_A ; SEPARATOR = " " ) AS ?chem_str_A )
+						( GROUP_CONCAT( ?comp_A ; SEPARATOR = " " ) AS ?comp_str_A )
+					WHERE{
+						{
+							SELECT ?reac ?reac2equa_old ?equa_old ?chem_A ?comp_A
+							WHERE{
+								{
+									SELECT ?reac ?reac2equa_old ?equa_old ( COUNT( DISTINCT ?comp ) AS ?count )
+									WHERE{
+										VALUES ?reac2equa_old { reconx:equaMNX reconx:equaVMH }
+										?reac ?reac2equa_old ?equa_old .
+										?equa_old reconx:part/reconx:spec/reconx:comp ?comp .
+									}
+									GROUP BY ?reac ?reac2equa_old ?equa_old
+									HAVING( ?count = 2 )
+								}
+								?equa_old reconx:part ?part_old .
+								?part_old reconx:coef ?coef     ;
+			  		  	        	  	  reconx:spec ?spec_old .
+		            			?spec_old reconx:chem ?chem_A ;
+			  	        	      		  reconx:comp ?comp_A .
+							}	
+							ORDER BY ?coef ?chem_A
+						}
+					}
+					GROUP BY ?reac ?reac2equa_old ?equa_old
+				}
+				{   # almost same code as above with very few alteration 
+					SELECT
+						?reac 
+						?reac2equa_old 
+						?equa_old
+						( GROUP_CONCAT( ?chem_B ; SEPARATOR = " " ) AS ?chem_str_B )
+						( GROUP_CONCAT( ?comp_B ; SEPARATOR = " " ) AS ?comp_str_B )
+					WHERE{
+						{
+							SELECT ?reac ?reac2equa_old ?equa_old ?chem_B ?comp_B
+							WHERE{
+								{
+									SELECT ?reac ?reac2equa_old ?equa_old ( COUNT( DISTINCT ?comp ) AS ?count )
+									WHERE{
+										VALUES ?reac2equa_old { reconx:equaMNX reconx:equaVMH }
+										?reac ?reac2equa_old ?equa_old .
+										?equa_old reconx:part/reconx:spec/reconx:comp ?comp .
+									}	
+									GROUP BY ?reac ?reac2equa_old ?equa_old
+									HAVING( ?count = 2 )
+								}
+								?equa_old reconx:part ?part_old .
+								?part_old reconx:coef ?coef     ;
+			  	  	    	    	  	  reconx:spec ?spec_old .
+		            			?spec_old reconx:chem ?chem_B ;
+			  	              			  reconx:comp ?comp_B .
+							}
+							ORDER BY DESC( ?coef ) ?chem_B # DESC() here is the main difference !
+						}
+					}
+					GROUP BY ?reac ?reac2equa_old ?equa_old
+				}
+			}
+		}
+		?equa_old reconx:part ?part_old .
+		?part_old reconx:coef ?coef ;
+	    	      reconx:spec ?spec_old .
+ 	   ?spec_old reconx:chem ?chem ;
+		          reconx:comp ?comp .
+  		BIND( UUID() AS ?part_new )
+  		BIND( UUID() AS ?spec_new )
+		BIND( IF( ?comp = ?mnxd1, mnx:MNXD1, mnx:MNXD2 ) AS ?mnxd )
+	}
+}
+
+#         POST : http://localhost:8080/rdf4j-server/repositories/ReconXKG/statements
+# elapsed time : 5.102
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reconx: <https://reconx.vital-it.ch/kg/>
+
+DELETE{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+		?equa reconx:part ?part_old .
+		?part_old reconx:coef ?coef_old ;
+				  reconx:spec ?spec 
+	}
+}
+INSERT{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+		?reac ?reac2flip ?flip .
+		?equa reconx:part ?part_new .
+		?part_new reconx:coef ?coef_new ;
+		          reconx:spec ?spec
+	}
+}
+WHERE{
+	?reac2equa rdfs:subPropertyOf reconx:equa
+   GRAPH <http://example.org/context/MetaNetX_MNet> {
+		{
+			SELECT
+				?reac
+				?reac2equa
+	  			?equa
+				( GROUP_CONCAT( ?term_left;  SEPARATOR = "" ) AS ?side_left )
+				( GROUP_CONCAT( ?term_right; SEPARATOR = "" ) AS ?side_right )
+			WHERE{
+    			{
+					SELECT
+						?equa 
+    					( IF( ?coef < 0, ?term, "" ) AS ?term_left )
+    					( IF( ?coef > 0, ?term, "" ) AS ?term_right )
+					WHERE{
+						?reac ?reac2equa ?equa .
+			    		?equa reconx:part ?part .
+						?part reconx:coef ?coef ;
+			      			  reconx:spec ?spec .
+						?spec reconx:chem ?chem ;
+	    		  			  reconx:comp ?comp .
+						BIND(
+							CONCAT( STR( ?chem ), " ", STR( ?comp ), " ", STR( ABS( ?coef )), "\n" )
+    	        		AS ?term )
+        			}
+	    			ORDER BY ?reac ?equa ?term_left ?term_right
+				}
+			}
+			GROUP BY ?reac ?reac2equa ?equa
+		}
+		?reac ?reac2equa ?equa .
+ 		?equa reconx:part ?part_old .
+		?part_old reconx:coef ?coef_old ;
+				  reconx:spec ?spec .
+		BIND( UUID() AS ?part_new ) # may de-merge part nodes as a side effect ;-))
+		BIND( IF( ?side_left > ?side_right, true, false ) AS ?flip )
+		BIND( IF( ?side_left > ?side_right, xsd:float( - ?coef_old ), xsd:float( ?coef_old )) AS ?coef_new )
+		BIND( IRI( REPLACE( STR(?reac2equa), "equa", "flip" )) AS ?reac2flip )
+	}
+}
+
+#         POST : http://localhost:8080/rdf4j-server/repositories/ReconXKG/statements
+# elapsed time : 2.493
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reconx: <https://reconx.vital-it.ch/kg/>
+PREFIX tmp:      <http://example.com/tmp/>
+
+DELETE{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+        ?spec_old ?p1 ?o1 .
+    	?s2 ?p2 ?spec_old .
+    }
+}
+INSERT{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+        ?spec_new ?p1 ?o1 .
+    	?s2 ?p2 ?spec_new .
+    }
+}
+WHERE{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+        SELECT DISTINCT ?spec_old ?spec_new
+        WHERE{
+			?spec_old reconx:chem ?chem ;
+	  	   	 	      reconx:comp ?comp 
+			BIND( IRI( CONCAT( "https://reconx.vital-it.ch/kg/species_", MD5( CONCAT( STR( ?chem ), " ", STR( ?comp ))))) AS ?spec_new )
+        }
+    }
+    ?spec_old ?p1 ?o1 .
+    ?s2 ?p2 ?spec_old .
+}
+;
+DELETE{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+        ?part_old ?p1 ?o1 .
+    	?s2 ?p2 ?part_old .
+    }
+}
+INSERT{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+        ?part_new ?p1 ?o1 .
+    	?s2 ?p2 ?part_new .
+    }
+}
+WHERE{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+        SELECT DISTINCT ?part_old ?part_new
+        WHERE{
+			?part_old reconx:spec ?spec ;
+			          reconx:coef ?coef
+			BIND( IRI( CONCAT( "https://reconx.vital-it.ch/kg/part_", MD5( CONCAT( STR( ?spec ), " ", STR( ?coef ))))) AS ?part_new )
+        }
+    }
+    ?part_old ?p1 ?o1 .
+    ?s2 ?p2 ?part_old .
+}
+;
+DELETE{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+        ?equa_old ?p1 ?o1 .
+    	?s2 ?p2 ?equa_old .
+    }
+}
+INSERT{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+        ?equa_new ?p1 ?o1 .
+    	?s2 ?p2 ?equa_new .
+    }
+}
+WHERE{
+	GRAPH <http://example.org/context/MetaNetX_MNet> {
+		{
+			SELECT
+				?equa_old 
+				( IRI( CONCAT( "https://reconx.vital-it.ch/kg/equa_", MD5( GROUP_CONCAT( STR( ?part ); separator = " " )))) AS ?equa_new )
+			WHERE{
+				{ 
+					SELECT DISTINCT ?equa_old ?part
+					WHERE{
+						?equa_old reconx:part ?part .
+					}
+					ORDER BY ?part
+				}
+			}
+			GROUP BY ?equa_old 
+		}
+    }
+    ?equa_old ?p1 ?o1 .
+    ?s2 ?p2 ?equa_old .
+}
+;
+DELETE{
+    GRAPH <http://example.org/context/MetaNetX_MNet> {
+        ?reac_old ?p1 ?o1 .
+        ?s2 ?p2 ?reac_old .
+    }
+}
+INSERT{
+    GRAPH <http://example.org/context/MetaNetX_MNet> {
+        ?reac_new ?p1 ?o1 .
+        ?s2 ?p2 ?reac_new .
+    }
+}
+WHERE{
+    {
+        SELECT
+            ?reac_old
+            ( IRI( CONCAT( 
+                "https://reconx.vital-it.ch/kg/reac_", 
+                MD5( 
+                    CONCAT( 
+                        STR( ?mnet ), 
+                        " ", 
+                        GROUP_CONCAT( STR( ?equa ); SEPARATOR = " " ),
+                        " ",
+                        GROUP_CONCAT( STR( ?label ); SEPARATOR = " " )
+                    )
+                )
+            )) AS ?reac_new )
+        WHERE{
+            {
+                SELECT DISTINCT ?mnet ?reac_old ?equa ?label
+                WHERE{
+                    ?reac2equa rdfs:subPropertyOf reconx:equa .
+                    GRAPH <http://example.org/context/MetaNetX_MNet> {
+                        ?mnet reconx:reac ?reac_old .
+                        ?reac_old ?reac2equa ?equa  ;
+                                  rdfs:label ?label .
+                    }
+                }
+                ORDER BY ?mnet ?reac_old ?reac2equa ?label
+            }
+        }
+        GROUP BY ?mnet ?reac_old 
+    }
+    ?reac_old ?p1 ?o1 .
+    ?s2 ?p2 ?reac_old .
+}
+
+#         POST : http://localhost:8080/rdf4j-server/repositories/ReconXKG/statements
+^CTraceback (most recent call last):
+  File "/Users/mpagni/github.com/kgsteward/./kgsteward", line 6, in <module>
+    kgsteward.main()
+    ~~~~~~~~~~~~~~^^
+  File "/Users/mpagni/github.com/kgsteward/src/kgsteward/kgsteward.py", line 488, in main
+    for key in sorted( replace.keys()):
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mpagni/github.com/kgsteward/src/kgsteward/rdf4j.py", line 75, in sparql_update
+    return super().sparql_update( sparql, { **self.headers, **headers }, status_code_ok, echo )
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mpagni/github.com/kgsteward/src/kgsteward/generic.py", line 78, in sparql_update
+    http_call(
+    ~~~~~~~~~^
+        {
+        ^
+    ...<8 lines>...
+        echo
+        ^^^^
+    )
+    ^
+  File "/Users/mpagni/github.com/kgsteward/src/kgsteward/common.py", line 76, in http_call
+    r = requests.request( **request_args )
+  File "/Users/mpagni/github.com/kgsteward/.venv/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mpagni/github.com/kgsteward/.venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/mpagni/github.com/kgsteward/.venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/mpagni/github.com/kgsteward/.venv/lib/python3.13/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Users/mpagni/github.com/kgsteward/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/mpagni/github.com/kgsteward/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/Users/mpagni/github.com/kgsteward/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+KeyboardInterrupt
+vit-dhcp38:kgsteward mpagni$ 

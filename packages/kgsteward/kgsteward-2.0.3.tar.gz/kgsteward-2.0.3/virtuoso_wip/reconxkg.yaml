@@ -1,0 +1,244 @@
+---
+server_brand     : virtuoso
+server_url       : http://localhost:8089
+username         : Mickey
+password         : Donald
+repository_id    : TEST
+# server_config    : ${RECONXKG_DIR}/config/ReconXKG-config.ttl
+dataset_base_IRI : http://example.org/context/
+use_file_server  : false
+graphs:
+  - dataset: ReconX_schema
+    file:
+      - ${RECONXKG_DIR}/config/ReconX_schema.ttl
+  - dataset: SwissProt_Human
+    stamp:
+      - https://ftp.uniprot.org/pub/databases/uniprot/current_release/relnotes.txt
+    system:
+      - curl --output ${RECONXKG_TMP}/swissprot_human.ttl.gz 'https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=ttl&query=%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29'
+    file:
+      - ${RECONXKG_TMP}/swissprot_human.ttl.gz
+  - dataset: SwissProt_vocab
+    parent: SwissProt_Human
+    system:
+      - curl --output ${RECONXKG_TMP}/enzyme.rdf.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/enzyme.rdf.xz
+      - curl --output ${RECONXKG_TMP}/enzyme-hierarchy.rdf.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/enzyme-hierarchy.rdf.xz
+      - curl --output ${RECONXKG_TMP}/diseases.rdf.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/diseases.rdf.xz
+      - curl --output ${RECONXKG_TMP}/pathways.rdf.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/pathways.rdf.xz
+      - curl --output ${RECONXKG_TMP}/pathways-hierarchy.rdf.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/pathways-hierarchy.rdf.xz
+      - curl --output ${RECONXKG_TMP}/locations.rdf.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/locations.rdf.xz
+      - curl --output ${RECONXKG_TMP}/locations-hierarchy.rdf.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/locations-hierarchy.rdf.xz
+      - curl --output ${RECONXKG_TMP}/keywords.rdf.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/keywords.rdf.xz
+      - curl --output ${RECONXKG_TMP}/keywords-hierarchy.rdf.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/keywords-hierarchy.rdf.xz
+      - curl --output ${RECONXKG_TMP}/go.owl.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/go.owl.xz
+      - curl --output ${RECONXKG_TMP}/go-hierarchy.owl.xz https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/go-hierarchy.owl.xz
+      - unxz -f ${RECONXKG_TMP}/enzyme.rdf.xz ${RECONXKG_TMP}/enzyme-hierarchy.rdf.xz
+      - unxz -f ${RECONXKG_TMP}/diseases.rdf.xz
+      - unxz -f ${RECONXKG_TMP}/pathways.rdf.xz ${RECONXKG_TMP}/pathways-hierarchy.rdf.xz
+      - unxz -f ${RECONXKG_TMP}/locations.rdf.xz ${RECONXKG_TMP}/locations-hierarchy.rdf.xz
+      - unxz -f ${RECONXKG_TMP}/keywords.rdf.xz ${RECONXKG_TMP}/keywords-hierarchy.rdf.xz
+      - unxz -f ${RECONXKG_TMP}/go.owl.xz ${RECONXKG_TMP}/go-hierarchy.owl.xz
+    file:
+      - ${RECONXKG_TMP}/enzyme.rdf.xz
+      - ${RECONXKG_TMP}/enzyme-hierarchy.rdf.xz
+      - ${RECONXKG_TMP}/diseases.rdf
+      - ${RECONXKG_TMP}/pathways.rdf
+      - ${RECONXKG_TMP}/pathways-hierarchy.rdf
+      - ${RECONXKG_TMP}/locations.rdf
+      - ${RECONXKG_TMP}/locations-hierarchy.rdf
+      - ${RECONXKG_TMP}/keywords.rdf
+      - ${RECONXKG_TMP}/keywords-hierarchy.rdf
+      - ${RECONXKG_TMP}/go.owl
+      - ${RECONXKG_TMP}/go-hierarchy.owl
+  - dataset: MetaNetX_MNXref
+    url:
+      - https://www.metanetx.org/ftp/beta/MNXref.ttl.gz
+  - dataset: MNXref_schema
+    url:
+      - https://www.metanetx.org/ftp/beta/MNXref_schema.ttl
+# FIXME: "growth" equations seems to miss BIOMASS term
+#  - dataset: MNet_from_SBML
+#    # see recipe in data/model/SBML/README.md
+#    parent: MNXref
+#    file:
+#      - ${RECONXKG_DIR}/data/model/SBML/Human-GEM_fixed.ttl
+#    update:
+#      - sparql_update_file:
+#          - ${RECONXKG_DIR}/sparql/update/convert_SBML_to_MNet_raw.sparql
+#          - ${RECONXKG_DIR}/sparql/update/fix_MNet_external_reaction.sparql
+#          - ${RECONXKG_DIR}/sparql/update/cleanup_SBML_to_MNet.sparql
+#          - ${RECONXKG_DIR}/sparql/update/prepare_from_source_to_mapped.sparql
+#          - ${RECONXKG_DIR}/sparql/update/introduce_PMF_in_MNet.sparql
+#          - ${RECONXKG_DIR}/sparql/update/prepare_from_mapped_to_decomp.sparql
+#          - ${RECONXKG_DIR}/sparql/update/canonicalize_coef_sign_in_MNet.sparql
+#          - ${RECONXKG_DIR}/sparql/update/canonicalize_internal_IRI_in_MNet.sparql
+#          - ${RECONXKG_DIR}/sparql/update/complete_type_and_label_in_MNet.sparql
+#        replace:
+#          - "?context" : "<${TARGET_GRAPH_CONTEXT}>" 
+  - dataset: MetaNetX_MNet
+    parent: MNXref,ReconX_schema
+# perl ${METANETX}/kitchen/perl/rdf/unmapped_to_reconx_rdf.pl -m biggM -r biggR -c biggC ~/gitlab.sib.swiss/MetaNetX/cooked/proteome/bact/ECOLI/model/bigg_e_coli_core/unmapped ${RECONXKG_DIR}/data/model/bigg_e_coli_core.ttl
+    file:
+      - ${RECONXKG_DIR}/data/model/bigg_e_coli_core.ttl
+    update:
+      - sparql_update_file:
+          - ${RECONXKG_DIR}/sparql/update/prepare_from_source_to_MNX.sparql
+          - ${RECONXKG_DIR}/sparql/update/prepare_from_source_to_VMH.sparql
+          - ${RECONXKG_DIR}/sparql/update/introduce_PMF_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/prepare_from_mapped_to_decomp.sparql
+          - ${RECONXKG_DIR}/sparql/update/canonicalize_coef_sign_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/canonicalize_internal_IRI_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/complete_type_and_label_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/enzy_from_source_to_UP_and_VMH.sparql
+          - ${RECONXKG_DIR}/sparql/update/canonicalize_enzymes_IRI.sparql
+          - ${RECONXKG_DIR}/sparql/update/complete_type_and_label_of_enzymes.sparql
+        replace:
+          - "?context" : "<${TARGET_GRAPH_CONTEXT}>"
+  - dataset: RHEA
+    url:
+      - https://ftp.expasy.org/databases/rhea/rdf/rhea.rdf.gz
+  - dataset: RHEA_MNet
+    parent: RHEA,MNXref,SwissProt_Human
+    update:
+      - sparql_update_file:
+          # - ${RECONXKG_DIR}/sparql/update/fix_RHEA_subClassOf.sparql
+          - ${RECONXKG_DIR}/sparql/update/convert_RHEA_to_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/prepare_from_source_to_MNX.sparql
+          - ${RECONXKG_DIR}/sparql/update/prepare_from_source_to_VMH.sparql
+          - ${RECONXKG_DIR}/sparql/update/introduce_PMF_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/prepare_from_mapped_to_decomp.sparql
+          - ${RECONXKG_DIR}/sparql/update/canonicalize_coef_sign_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/canonicalize_internal_IRI_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/complete_type_and_label_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/enzy_from_source_to_UP_and_VMH.sparql
+          - ${RECONXKG_DIR}/sparql/update/canonicalize_enzymes_IRI.sparql
+          - ${RECONXKG_DIR}/sparql/update/complete_type_and_label_of_enzymes.sparql
+        replace:
+          - "?context" : "<${TARGET_GRAPH_CONTEXT}>"
+  - dataset: VMH_MNet
+    parent: RHEA,MNXref,SwissProt_Human 
+    system:
+      - python3 ${RECONXKG_DIR}/python/download_vmh_make_ttl.py -c ${RECONXKG_TMP} ${RECONXKG_TMP}/vmh.ttl
+    file:
+      - ${RECONXKG_TMP}/vmh.ttl
+    update:
+      - sparql_update_file:
+          - ${RECONXKG_DIR}/sparql/update/prepare_from_source_to_MNX.sparql
+          - ${RECONXKG_DIR}/sparql/update/prepare_from_source_to_VMH.sparql
+          - ${RECONXKG_DIR}/sparql/update/introduce_PMF_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/prepare_from_mapped_to_decomp.sparql
+          - ${RECONXKG_DIR}/sparql/update/canonicalize_coef_sign_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/canonicalize_internal_IRI_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/complete_type_and_label_in_MNet.sparql
+          - ${RECONXKG_DIR}/sparql/update/enzy_from_source_to_UP_and_VMH.sparql
+          - ${RECONXKG_DIR}/sparql/update/canonicalize_enzymes_IRI.sparql
+          - ${RECONXKG_DIR}/sparql/update/complete_type_and_label_of_enzymes.sparql
+        replace:
+          - "?context" : "<${TARGET_GRAPH_CONTEXT}>"
+  - dataset: widoco_doc
+    parent: ReconX_schema,MNXref_schema
+    system:
+      - java -jar ${RECONXKG_DIR}/software/jar/widoco-1.4.24-jar-with-dependencies_JDK-17.jar
+        -ontFile ${RECONXKG_DIR}/config/ReconX_schema.ttl
+        -outFolder ${RECONXKG_DIR}/www/htdocs/widoco/ReconX_schema
+        -rewriteAll
+        -uniteSections
+        -webVowl
+#  - dataset: void
+    # system:
+    #  - export ENDPOINT=${RECONXKG_URL}/repositories/ReconXKG
+    #  - java -jar ~/github.com/void-generator/target/void-generator-*.jar --repository=${ENDPOINT} --void-file=${RECONXKG_TMP}/void.ttl --iri-of-void=${ENDPOINT}/.well-known/void
+#    target_graph_context: ${RECONXKG_URL}/repositories/ReconXKG/.well-known/void
+#    file: 
+#      - ${RECONXKG_TMP}/void.ttl
+#       - java -jar ${RECONXKG_DIR}/software/jar/widoco-1.4.24-jar-with-dependencies_JDK-17.jar
+#        -ontURI https://www.metanetx.org/ftp/beta/MNXref_schema.ttl
+#        -outFolder ${RECONXKG_DIR}/www/htdocs/widoco/MNXref_schema
+#        -rewriteAll
+#        -uniteSections
+#        -webVowl
+#        -saveConfig widoco.config  \
+#        -getOntologyMetadata  \
+#        -htaccess  \
+#        -doNotDisplaySerializations \
+#        -uniteSections
+#        -includeImportedOntologies \
+#        -rewriteBase $GRAPHDB_URL \
+#        > /dev/null
+#  - dataset: MNXstruct
+#    url:
+#      - https://www.metanetx.org/ftp/beta/bigg_struct.ttl.gz
+#      - https://www.metanetx.org/ftp/beta/chebi_struct.ttl.gz
+#      - https://www.metanetx.org/ftp/beta/envipath_struct.ttl.gz
+#      - https://www.metanetx.org/ftp/beta/hmdb_struct.ttl.gz
+#      - https://www.metanetx.org/ftp/beta/kegg_struct.ttl.gz
+#      - https://www.metanetx.org/ftp/beta/lipidmaps_struct.ttl.gz
+#      - https://www.metanetx.org/ftp/beta/metacyc_struct.ttl.gz
+#      - https://www.metanetx.org/ftp/beta/sabiork_struct.ttl.gz
+#      - https://www.metanetx.org/ftp/beta/seed_struct.ttl.gz
+#      - https://www.metanetx.org/ftp/beta/slm_struct.ttl.gz
+#      - https://www.metanetx.org/ftp/beta/vmh_struct.ttl.gz
+#  - dataset: MNXstruct_bigg
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/bigg/struct.ttl.gz
+#  - dataset: MNXstruct_chebi
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/chebi/struct.ttl.gz
+#  - dataset: MNXstruct_envipath
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/envipath/struct.ttl.gz
+#  - dataset: MNXstruct_hmdb
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/hmdb/struct.ttl.gz
+#  - dataset: MNXstruct_kegg
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/kegg/struct.ttl.gz
+#  - dataset: MNXstruct_lipidmaps
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/lipidmaps/struct.ttl.gz
+#  - dataset: MNXstruct_metacyc
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/metacyc/struct.ttl.gz
+#  - dataset: MNXstruct_sabiork
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/sabiork/struct.ttl.gz
+#  - dataset: MNXstruct_seed
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/seed/struct.ttl.gz
+#  - dataset: MNXstruct_slm
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/slm/struct.ttl.gz
+#  - dataset: MNXstruct_vmh
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/cooked/chemistry/vmh/struct.ttl.gz
+#  - dataset: STEREO_dag
+#    parent: MNXstruct_bigg,MNXstruct_chebi,MNXstruct_envipath,MNXstruct_hmdb,MNXstruct_kegg,MNXstruct_lipidmaps,MNXstruct_metacyc,MNXstruct_sabiork,MNXstruct_seed,MNXstruct_slm,MNXstruct_vmh
+#    update:
+#      - /Users/mpagni/gitlab.com/ReconXKG/config/add_stereo_dag.sparql
+#  - dataset: MNXstruct_schema
+#    file:
+#      - /Users/mpagni/gitlab.sib.swiss/MetaNetX/kitchen/perl/rdf/schema_mnx2.ttl
+#  - dataset: SLM
+#    update:
+#      - ${RECONXKG_DIR}/config/import_SwissLipids.sparql
+#      - ${RECONXKG_DIR}/config/fix_SLM_subClassof.sparql
+#  - dataset: SCHEMA
+#    file:
+#      -  ${RECONXKG_DIR}/config/SLM_schema.ttl
+#  - dataset: RHEA
+#    url:
+#      - https://ftp.expasy.org/databases/rhea/rdf/rhea.rdf.gz
+#    update:
+#      - ${RECONXKG_DIR}/config/fix_RHEA_subClassOf.sparql
+#  - dataset: ChEBI
+#    url:
+#      - https://ftp.expasy.org/databases/rhea/rdf/chebi.owl.gz
+#    update:
+#      - ${RECONXKG_DIR}/config/fix_ChEBI_subClassOf.sparql
+queries:
+  - ${RECONXKG_DIR}/sparql/query/*.sparql
+  - ${RECONXKG_DIR}/sparql/assert/*.rq
+prefixes:
+  - ${RECONXKG_DIR}/config/prefixes.ttl
+validations:
+  - ${RECONXKG_DIR}/sparql/validate/*.rq
