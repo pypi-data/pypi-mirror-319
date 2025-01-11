@@ -1,0 +1,13 @@
+apantias/__init__.py,sha256=pXxHdF51A3JgqNlpBwxXww-Xbq51E0m09jOc1Q81d2c,246
+apantias/analysis.py,sha256=ELeNJEdpYbpBUchO0x5-3rWMVLf4ytFKxduULwPJELI,6345
+apantias/display.py,sha256=KTzyRoFraA7IXIgrECfQS7pqbAZ9vALROgeQsvWoX5A,2846
+apantias/file_io.py,sha256=Jz6kyyNYglWRD80Z43dbgAqOu8RMgjSXDbnL0D02nkQ,18173
+apantias/fitting.py,sha256=RrqHPf7RFqTqnk61radTiVZBWuJLbnF1Yxa18MIytTE,8623
+apantias/logger.py,sha256=vC9pXUreu-USvFqRkquimPYRs-XSrTFWDEvRGkJUJN8,2255
+apantias/params.py,sha256=m76M3pBv6YhP5doPnnpiuU-oqaQyjo6-yoRBfvbD9jM,7346
+apantias/roan_steps.py,sha256=qlShoYiQbeTlnZB-1VwlJ1VVBGBOZdLnyi4akVXZcJg,28200
+apantias/utils.py,sha256=ykgx2gufix187MPvtHvT6VWJ3-FRiB5P8WDTLopHndc,23026
+apantias-1.1.4.dist-info/METADATA,sha256=QQRLjLEWHzjAbatUhmCsiwM6m6hrgQ6eOC_fU_4Hhdk,2556
+apantias-1.1.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+apantias-1.1.4.dist-info/licenses/LICENSE,sha256=kG1DFMwtYj-Vw0W9Lijrd54whyz0kWHGTqjTOX-cU8I,1076
+apantias-1.1.4.dist-info/RECORD,,
