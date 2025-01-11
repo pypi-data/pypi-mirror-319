@@ -1,0 +1,7 @@
+setup.py
+MIPR_WIN/__init__.py
+MIPR_WIN/main.py
+MIPR_WIN.egg-info/PKG-INFO
+MIPR_WIN.egg-info/SOURCES.txt
+MIPR_WIN.egg-info/dependency_links.txt
+MIPR_WIN.egg-info/top_level.txt
