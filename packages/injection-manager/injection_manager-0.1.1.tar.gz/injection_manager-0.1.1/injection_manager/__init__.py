@@ -1,0 +1,1 @@
+from injection_manager.typeclass.Injectable import Injectable
