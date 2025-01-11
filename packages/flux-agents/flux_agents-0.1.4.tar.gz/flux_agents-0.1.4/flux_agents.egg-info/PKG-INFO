@@ -1,0 +1,205 @@
+Metadata-Version: 2.2
+Name: flux_agents
+Version: 0.1.4
+Summary: A modern, async-first framework for building AI agents with integrated LLM capabilities and vector operations
+Home-page: https://github.com/tiger1def/flux
+Author: Christian de Frondeville, Arijit Nukala, Gubi Ganguly
+Author-email: christian@flux.ai
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: msgpack>=1.0.5
+Requires-Dist: zstandard
+Requires-Dist: pyarrow
+Requires-Dist: polars>=0.20.6
+Requires-Dist: numpy
+Requires-Dist: xmltodict>=0.13.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: google-generativeai
+Requires-Dist: hnswlib
+Requires-Dist: transformers
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp
+Requires-Dist: plotly
+Requires-Dist: langfuse
+Requires-Dist: diff-match-patch
+Requires-Dist: patience
+Requires-Dist: pandas
+Requires-Dist: tabulate
+Provides-Extra: torch
+Requires-Dist: torch; extra == "torch"
+Requires-Dist: sentence-transformers[torch]>=2.5.0; extra == "torch"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx>=7.1.2; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=1.3.0; extra == "docs"
+Requires-Dist: myst-parser>=2.0.0; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints>=1.25.2; extra == "docs"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Flux Agents
+
+A modern, async-first framework for building AI agents with integrated LLM capabilities and vector operations. Flux provides a clean, type-safe API for building complex AI agents with built-in support for async operations, vector embeddings, and comprehensive monitoring.
+
+## Key Features
+
+- 🚀 **Async-First**: Built on asyncio for high-performance, non-blocking operations
+- 🤖 **Multiple Agent Types**: ReAct, Planning, and Hierarchical agents for different use cases
+- 🔍 **Vector Operations**: Integrated embedding generation and similarity search
+- 📊 **Monitoring**: Built-in logging with LangFuse integration
+- 🔄 **Flexible LLM Support**: Easy integration with various LLM providers
+
+## Installation
+
+```bash
+# Basic installation
+pip install flux-agents
+
+# With local embedding support
+pip install flux-agents[torch]
+
+# With development tools
+pip install flux-agents[dev]
+```
+
+## Quick Start
+
+Here's a simple example showing how to create and use a ReAct agent:
+
+```python
+from flux_agents import (
+    LLM, ReActAgent, Message, AgentConfig,
+    EmbeddingModel, Tool, Logging
+)
+import asyncio
+
+# Initialize LLM
+llm = LLM(
+    inference_fn="<llm_inference_fn>",  # Your LLM inference function
+    model_name="<model_name>",          # e.g., "gemini-pro"
+    max_tokens=2000
+)
+
+# Initialize embedding model
+embeddings = EmbeddingModel(
+    model_fn="<embedding_fn>",          # Your embedding function
+    dimension=384
+)
+
+# Define a tool
+def search_tool(query: str) -> str:
+    """Search for information."""
+    return "<search_results>"
+
+tool = Tool(
+    function=search_tool,
+    name="search",
+    description="Search for information"
+)
+
+# Create agent
+agent = ReActAgent(
+    name="Assistant",
+    llm=llm,
+    embedding_function=embeddings,
+    config=AgentConfig(
+        logging=Logging.ENABLED,
+        search_context=True
+    )
+)
+
+# Add tool
+await agent.add_tool(tool)
+
+# Synchronous usage
+response = agent.sync_call(
+    "What is the capital of France?",
+    metadata={"context": "geography"}
+)
+print(f"Response: {response.content}")
+
+# Asynchronous usage
+async def process_queries():
+    queries = [
+        Message("What is Python?"),
+        Message("Explain asyncio")
+    ]
+    
+    # Process concurrently
+    responses = await asyncio.gather(*[
+        agent(query) for query in queries
+    ])
+    
+    for query, response in zip(queries, responses):
+        print(f"Q: {query.content}")
+        print(f"A: {response.content}\n")
+
+# Run async
+if __name__ == "__main__":
+    asyncio.run(process_queries())
+```
+
+## Advanced Usage
+
+Here's how to create a hierarchical agent for complex tasks:
+
+```python
+from flux_agents import HierarchicalAgent, HierarchicalConfig
+
+agent = HierarchicalAgent(
+    name="Project Manager",
+    llm=llm,
+    embedding_function=embeddings,
+    config=HierarchicalConfig(
+        worker_count=3,
+        worker_type="mixed",
+        logging=Logging.LANGFUSE
+    )
+)
+
+async def complex_task():
+    response = await agent(
+        Message(
+            content="Analyze and summarize these documents",
+            files=[doc1, doc2],
+            metadata={"priority": "high"}
+        )
+    )
+    return response
+
+result = asyncio.run(complex_task())
+```
+
+## Documentation
+
+For detailed documentation, visit our [Documentation](https://tiger1def.github.io/Flux/).
+
+## Contributing
+
+Contributions are welcome! Please see our [Contributing Guide](CONTRIBUTING.md).
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
