@@ -1,0 +1,113 @@
+# NeuralCore Python SDK
+
+The **NeuralCore Python SDK** provides an easy-to-use interface for interacting with the NeuralCore AI APIs, including chat and vision capabilities. This module enables seamless integration of NeuralCore’s powerful AI features into your applications.
+
+## Features
+
+- **Chat API**: Send messages and interact with NeuralCore's language models.
+- **Vision API**: Analyze images with advanced vision models.
+- **Custom Configuration**: Set default parameters like temperature and tokens to customize responses.
+
+---
+
+## Installation
+
+Clone or download this repository and ensure you have Python 3.7+ installed. Install the required dependencies:
+
+```bash
+pip install requests
+```
+
+---
+
+## Usage
+
+### Initialization
+
+To use the NeuralCore Python SDK, initialize the client with your API key:
+
+```python
+from neuralcore import NeuralCore
+
+api_key = "your_api_key_here"
+client = NeuralCore(api_key)
+```
+
+### Chat API
+
+Send a chat request to NeuralCore:
+
+```python
+response = client.chat(
+    messages="Hello, NeuralCore!",
+    model="neura-3.5-aala",
+    temperature=0.8,
+    tokens=150
+)
+print(response)
+```
+
+### Vision API
+
+Send an image analysis request to NeuralCore:
+
+```python
+response = client.vision(
+    image_url="https://example.com/image.jpg",
+    prompt="Describe the objects in the image.",
+    model="neura-vision-3.5",
+    temperature=0.7,
+    tokens=200
+)
+print(response)
+```
+
+---
+
+## Configuration
+
+You can customize the default settings during initialization:
+
+```python
+from neuralcore import NeuralCoreConfig, NeuralCore
+
+config = NeuralCoreConfig(
+    api_key="your_api_key_here",
+    base_url="https://neuralcore.org/api/n",
+    default_temperature=0.6,
+    default_tokens=250
+)
+client = NeuralCore(api_key=config.api_key)
+```
+
+---
+
+## Error Handling
+
+The SDK raises a `NeuralCoreError` for any issues with API requests. Example:
+
+```python
+try:
+    response = client.chat("What's the weather?")
+except NeuralCoreError as e:
+    print(f"Error: {e}")
+```
+
+---
+
+## Requirements
+
+- Python 3.7+
+- `requests` library
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Support
+
+For support, contact **NeuralCore Support** or open an issue in this repository.
