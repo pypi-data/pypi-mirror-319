@@ -1,0 +1,7 @@
+dist
+docs
+ec2_old_snapshots
+idle_instances
+stray_ebs
+stray_instances
+unattached_eips
