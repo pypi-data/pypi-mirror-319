@@ -1,0 +1,12 @@
+stickersbot/__init__.py,sha256=_IGQaC5DQyUERtt-fstZ0LHDcpXKdKp2X4UMuihN08o,169
+stickersbot/__main__.py,sha256=M7jcIQ0wYwLot7bzOqMQUEJv_190nXbdctI6hrTINbA,65
+stickersbot/_version.py,sha256=A-rnSdgKJkMaH0fY0iPpbO3cD9EONVFdns8ZfBGa9yI,411
+stickersbot/hooks.py,sha256=3sYW7Jgq1pLZPwcCzx5YHqmV2g0k0BExcDV4EozyADU,7056
+stickersbot/signal.py,sha256=JJcejqAXRwzd7uS9iQdrtvMsMJi18oCtCaemzxayDuA,5985
+stickersbot/util.py,sha256=5Yfhwq1biDvNgHebrWV35OQAUTRU9X9sbvTBtFWvU7I,1146
+stickersbot-4.1.3.dist-info/LICENSE,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+stickersbot-4.1.3.dist-info/METADATA,sha256=TwY5xx2f1QTikIwmvxpw7adKClDk6v_gPL4hlxWxFkI,2523
+stickersbot-4.1.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+stickersbot-4.1.3.dist-info/entry_points.txt,sha256=LQ1kVJo8QGLXInyyATpOO6Bs6zYLXBRMw6r74samAHQ,49
+stickersbot-4.1.3.dist-info/top_level.txt,sha256=gO_RBTapFkFO9mPp2NmUHASP8sgTDvpo0ohE2lvpvME,12
+stickersbot-4.1.3.dist-info/RECORD,,
