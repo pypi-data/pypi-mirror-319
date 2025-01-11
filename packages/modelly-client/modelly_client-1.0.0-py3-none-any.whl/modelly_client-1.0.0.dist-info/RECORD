@@ -1,0 +1,17 @@
+modelly_client/__init__.py,sha256=aild-EL4UUKkl98K1CFEcmpOeEAH8jEhVK-zT3FFmH4,249
+modelly_client/client.py,sha256=pGF7RzR7nukUwEcUP5ZLyjrnA9yVkQRompfnHTuvaIU,69751
+modelly_client/compatibility.py,sha256=TfM5s9fonApRdG_zLzboQc0AY7wqTDg5vFZh0AvSipo,13951
+modelly_client/data_classes.py,sha256=ntV6UUPVvei7NnGyrTYpKC_b2FPD_36eD0IS5vkq854,748
+modelly_client/documentation.py,sha256=cXRZlD7GTSxMan69Q7TubtqyMH1__wFnO0dI11hN_8g,14106
+modelly_client/exceptions.py,sha256=nawhNdHQ8brZyGa8DtVYXTMO7qcT5rydxZI78sWnpQI,429
+modelly_client/media_data.py,sha256=GQZQJbrbj3dE3_TIUcmDOFmp8DbuBkP7DQTxYT6NN3Y,722623
+modelly_client/package.json,sha256=gDjSHBdLii8ZCSFAVVJ0WfmvUQM6kJptuUuvKvECkIU,133
+modelly_client/serializing.py,sha256=JuPu2D7Ys66ayQG8grnnICb33nVduLo5qydj8FOyZbg,21052
+modelly_client/types.json,sha256=hTBJNs5ZyXC1-f-0UfzFezdhzNp3OnUhNs3Qv-muAQ0,4432
+modelly_client/utils.py,sha256=nd3FtEGQ_fPDDwy6M_5NpdPeKfgt5flylvphn5DBuIs,38450
+modelly_client/cli/__init__.py,sha256=CEIp4CIjhpgvs8sK4G66y3IvgaQ8ZAEJLblepNTrVec,76
+modelly_client/cli/deploy_discord.py,sha256=JV5mMav_t_fSFRo7PzWNhLkrjS4nBTRM1Pkv4OZ7Dd0,1347
+modelly_client/templates/discord_chat.py,sha256=8TYZvUj0DxiGij-dc6AmLmU0Pqht_oJu5suoMyci5Qg,5649
+modelly_client-1.0.0.dist-info/METADATA,sha256=JVnDV0tDkGQtUwHRfKELqEiip34vCsQefnI3fUdaI94,7167
+modelly_client-1.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+modelly_client-1.0.0.dist-info/RECORD,,
