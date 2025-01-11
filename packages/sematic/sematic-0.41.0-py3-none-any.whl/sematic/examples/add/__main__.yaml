@@ -1,0 +1,9 @@
+version: 1
+base_uri: "sematicai/sematic-worker-base:latest@sha256:ce9212acf0ca223c55d55cd91db1a11e1f971adca6817a068f00516264b3cc2b"
+build:
+  platform: "linux/amd64"
+  requirements: "requirements.txt"
+push:
+  registry: "us-central1-docker.pkg.dev/core-400321/main" # update this to your own registry
+  repository: airtrain-pipeline # update this to your own repository
+  tag_suffix: "main_example"
