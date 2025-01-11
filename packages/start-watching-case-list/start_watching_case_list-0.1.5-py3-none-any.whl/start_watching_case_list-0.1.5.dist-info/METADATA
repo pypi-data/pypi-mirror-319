@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: start-watching-case-list
+Version: 0.1.5
+Summary: Get data from case services
+Author: 6vi7ms
+Author-email: 6vi7ms@gmail.com
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+```sh
+start-watching-case-list -h
+```
