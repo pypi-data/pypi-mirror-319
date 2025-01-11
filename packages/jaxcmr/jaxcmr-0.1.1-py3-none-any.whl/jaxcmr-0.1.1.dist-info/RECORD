@@ -1,0 +1,12 @@
+jaxcmr/cmr.py,sha256=mhnr9YGGDNFaXTebUzKAKPI45npQCNqQvOTMnHlrEYo,9190
+jaxcmr/context.py,sha256=IB_aLquh039KPdviteWiAbypQhJjSh22bfBOz471F-s,2130
+jaxcmr/fitting.py,sha256=WKRqElpOXnYNMIsRosUjiJMRSjxbSsuY49uC3SwgA4s,7250
+jaxcmr/helpers.py,sha256=qH6KHfe-5x-LBxROGd5BBjfq12jLxat9AjodbP5WV40,57
+jaxcmr/likelihood.py,sha256=Ps8A0IjCKI8sGHtQW3CVtpubHIvDhn5am6LgyLKFU2g,7039
+jaxcmr/memory.py,sha256=EpvrT5FSSOuj4e3UWPjmSdNFACID1qen5iJClVoHAD0,4519
+jaxcmr/simulation.py,sha256=7ARWQsPSe1MhuHqArdvY-_E2bEHluJs4FJmmTNkMLug,7578
+jaxcmr/summarize.py,sha256=bzRJW-1siBXlJjJs-sFHlObcMb31pQXSmtqONteJ6os,4190
+jaxcmr/typing.py,sha256=eJ7ZHZonBCzNy1Eolz9zIzXQi0fpUq3txNfvHKpqQwQ,8348
+jaxcmr-0.1.1.dist-info/METADATA,sha256=eWF5ekDfLF9ZS9l6GZKrdzxEtJK3xNg2ShVKi5-6QO0,412
+jaxcmr-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+jaxcmr-0.1.1.dist-info/RECORD,,
