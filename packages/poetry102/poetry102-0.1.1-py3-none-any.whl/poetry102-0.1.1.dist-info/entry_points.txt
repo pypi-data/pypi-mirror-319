@@ -1,0 +1,5 @@
+[console_scripts]
+abc=other_package.abc:func
+xyz=poetry102.xyz:func
+xyz2=poetry102.xyz:test_abc_func
+
