@@ -1,0 +1,6 @@
+ipyvuetify
+ipywidgets
+traitlets
+matplotlib
+numpy
+jupyter
