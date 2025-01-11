@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools", "wheel", "oldest-supported-numpy", "setuptools-git-versioning"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "delta2"
+dynamic = ["version"]
+description = "Segments and tracks bacteria"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+keywords = [
+    "bacteria",
+    "fluorescence",
+    "microscopy",
+]
+authors = [
+    { name = "Jean-Baptiste Lugagne", email = "jean-baptiste.lugagne@eng.ox.ac.uk" },
+    { name = "Owen OConnor", email = "ooconnor@bu.edu" },
+    { name = "Virgile Andreani", email = "andreani@bu.edu" },
+]
+dependencies = [
+    "scikit-image >= 0.18",
+    "tifffile >= 2020",
+    "opencv-python >= 4.1",
+    "tensorflow >= 2.16",
+    "ffmpeg-python >= 0.2",
+    "requests >= 2.32",
+]
+
+[project.license]
+text = "MIT License"
+files = ["LICENSE"]
+
+[project.urls]
+repository = "https://gitlab.com/delta-microscopy/delta"
+documentation = "https://delta.readthedocs.io"
+
+[tool.setuptools]
+packages = ["delta"]
+
+[tool.setuptools-git-versioning]
+enabled = true
+dev_template = "{tag}+{branch}{ccount}.{sha}"
+dirty_template = "{tag}+{branch}{ccount}.{sha}.dirty"
