@@ -1,0 +1,3 @@
+ahk_cursor
+ahk_cursor_script
+dist
