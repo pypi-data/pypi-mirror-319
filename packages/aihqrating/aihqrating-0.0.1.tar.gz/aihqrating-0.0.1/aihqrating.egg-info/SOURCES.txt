@@ -1,0 +1,10 @@
+setup.py
+aihqrating/__init__.py
+aihqrating/flant5_rating.py
+aihqrating/install_packages.py
+aihqrating/main.py
+aihqrating.egg-info/PKG-INFO
+aihqrating.egg-info/SOURCES.txt
+aihqrating.egg-info/dependency_links.txt
+aihqrating.egg-info/requires.txt
+aihqrating.egg-info/top_level.txt

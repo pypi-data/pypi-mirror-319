@@ -1,0 +1,12 @@
+numpy
+matplotlib
+scipy
+pandas
+scikit-learn
+werkzeus
+Flask
+Flask-SocketIO
+sentencepiece
+torch
+transformers
+openai
