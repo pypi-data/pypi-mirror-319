@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: chronulus
+Version: 0.0.5.post13
+Summary: Chronulus AI Python SDK
+Author: Chronulus AI
+Author-email: jeremy@chronulus.com
+License: Apache
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+Requires-Dist: chronulus-core~=0.0.1
+Requires-Dist: pydantic~=2.9.2
+Requires-Dist: pydantic-settings~=2.6.0
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: pandas~=2.2.0
+
+<div align="left"></div>
+
+<div align="center">
+    <h1 align="center">Chronulus SDK for Python</h1>
+    <h3 align="center">AI Forecasting & Prediction Agents</h3>
+</div>
+
+
+
+## Install
+
+```bash
+pip install chronulus
+```
+
+
+## Example Usage
+
+### Import packages
+
+```python
+# python imports
+from typing import List
+from pydantic import BaseModel, Field
+from datetime import datetime
+
+# chronulus sdk imports
+from chronulus import Session
+from chronulus.estimator import NormalizedForecaster
+from chronulus_core.types.attribute import ImageFromUrl
+```
+
+
+### Describe the Use Case
+
+```python
+chronulus_session = Session(
+    name="ASIN Prediction",
+    situation="""Amazon is the largest ecommerce retailer with extensive forecasting capability, but it does not yet have
+    the ability to forecast demand for new products that lack a sufficient history of sales. 
+    """,
+    task="""We would like to forecast the demand for an ASIN, which is Amazon's name for a SKU. A unique ASIN is assigned
+    to individual products, to product variants, and to product bundles. We would like to predict seasonal demand for 
+    an ASIN in the US Marketplace. 
+    """,
+    env=dict(
+        CHRONULUS_API_KEY="<YOUR-CHRONULUS-API-KEY>",
+    )
+)
+```
+
+### Describe a prediction input
+
+
+```python
+class Item(BaseModel):
+    brand: str = Field(description="The brand of the product")
+    product_name: str = Field(description="The name of the product. This may include the brand and other descriptive info")
+    product_details: str = Field(description="A long form description of the product and its characteristics / features")
+    price: float = Field(description="The price of the ASIN in USD")
+    product_images: List[ImageFromUrl] = Field(default=[], description="A list of image urls associated with this product")
+```
+
+### Create a forecasting agent
+
+```python
+nf_agent = NormalizedForecaster(
+    session=chronulus_session,
+    input_type=Item
+)
+```
+
+
+
+
+
