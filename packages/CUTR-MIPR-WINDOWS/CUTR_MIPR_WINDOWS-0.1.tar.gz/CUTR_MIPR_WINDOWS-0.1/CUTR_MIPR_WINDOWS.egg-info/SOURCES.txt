@@ -1,0 +1,7 @@
+setup.py
+CUTR_MIPR_WINDOWS/__init__.py
+CUTR_MIPR_WINDOWS/main.py
+CUTR_MIPR_WINDOWS.egg-info/PKG-INFO
+CUTR_MIPR_WINDOWS.egg-info/SOURCES.txt
+CUTR_MIPR_WINDOWS.egg-info/dependency_links.txt
+CUTR_MIPR_WINDOWS.egg-info/top_level.txt
