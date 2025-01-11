@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: typeformtools
+Version: 0.1.4
+Summary: TypeForm helpers
+Author: Olaf
+Requires-Python: >=3.12
+Requires-Dist: annotated-types>=0.7.0
+Requires-Dist: more-itertools>=10.5.0
+Requires-Dist: typing-extensions
+Requires-Dist: useful-types>=0.2.1
+Description-Content-Type: text/markdown
+
+# `typeformtools` - Helpers for [PEP 747](https://peps.python.org/pep-0747/) `TypeForm`s
+
+## Usage
+
+    > pip install typeformtools
+	> pip uninstall -y typing-extensions
+	> pip install typing-extensions -U git+https://github.com/python/typing_extensions.git
+
+    > python
+    >>> import typeformtools
+    >>> typeformtools.non_optional(int | None)
+    # <class 'int'>
+
+## Contents
+
+| function          | effect                              |
+|:------------------|:------------------------------------|
+| `unaliased()`     | type A = T &rarr; T                 |
+| `unannotated()`   | Annotated[T, ...] &rarr; T          |
+| `undisguised()`   | type A = Annotated[T, ...] &rarr; T |
+| `non_optional()`  | T &vert; None &rarr; T &vert; Never | 
+ 
+## Status
+
+This is very much a *work in progress*:
+* it may fail, even for the limited supported scope
+* the scope of provided functions needs to be extended
+* more functions need to be provided
+* more documentation is required
+* there are still many `#TODO`s
