@@ -1,0 +1,17 @@
+numpy>=1.26
+matplotlib>=3.8
+netcdf4>=1.6.4
+pandas>=1.5
+pyproj>=3.6
+pyshp>=2.3
+scipy>=1.11
+more-itertools>=8.14
+rtree>=1.0
+tqdm>=4.62
+geopandas>=0.14
+
+[testing]
+pytest>=7.4
+coverage>=7.3
+sphinx>=7.2
+sphinxcontrib-bibtex>=2.6
