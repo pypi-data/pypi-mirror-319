@@ -1,0 +1,11 @@
+csv2bufr/__init__.py,sha256=fBqhQRPoiNLbdv9BEgMm11VyopTXfXIDQu054GGYiKg,40560
+csv2bufr/cli.py,sha256=Ha6ZQBaZguBU1Fjtsxr-TmVC6g3pUl2q9Undqcw1wxU,4795
+csv2bufr/pygeoapi_plugin.py,sha256=DoH41flunsD6q7EhhiXPIL12JOUJKGgu6tpguy9IfFQ,7899
+csv2bufr/templates/__init__.py,sha256=_xgdHqY2Qc39so4acavdf4sZH5_6VDDPXOWxWOC7uPE,7857
+csv2bufr/templates/resources/schema/csv2bufr-template-v2.json,sha256=dkIb_4RcoUH9S6YuoxWGptyxckhxejihPTR4BLhev0I,4937
+csv2bufr-0.8.5.dist-info/LICENSE,sha256=oALLnjxY-HXGwgQA4j2kzzurCYy5zDw4k3YyrRM-DGo,11376
+csv2bufr-0.8.5.dist-info/METADATA,sha256=s0XLCIahs02bCpusfZTDCk95nAtwPK7nmcaIkc70KBo,3043
+csv2bufr-0.8.5.dist-info/WHEEL,sha256=pxeNX5JdtCe58PUSYP9upmc7jdRPgvT0Gm9kb1SHlVw,109
+csv2bufr-0.8.5.dist-info/entry_points.txt,sha256=Oq7na91ZFT0dRxRCGQvpzwL8NvotY4d-KtG_F9_LGrc,46
+csv2bufr-0.8.5.dist-info/top_level.txt,sha256=t2HcLRbOfvyHJbcbIM0Y6U757TvW6ZiTRracH_ARUtQ,9
+csv2bufr-0.8.5.dist-info/RECORD,,
