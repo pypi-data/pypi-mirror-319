@@ -1,0 +1,33 @@
+# ItemQuantity
+
+Details of item quantity.
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**amount** | **int** | Amount of units shipped for a specific item at a shipment level. If the item is present only in certain cartons or pallets within the shipment, please provide this at the appropriate carton or pallet level. | 
+**unit_of_measure** | **str** | Unit of measure for the shipped quantity. | 
+**unit_size** | **int** | The case size, in the event that we ordered using cases. Otherwise, 1. | [optional] 
+**total_weight** | [**TotalWeight**](TotalWeight.md) |  | [optional] 
+
+## Example
+
+```python
+from py_sp_api.generated.vendorShipments.models.item_quantity import ItemQuantity
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ItemQuantity from a JSON string
+item_quantity_instance = ItemQuantity.from_json(json)
+# print the JSON string representation of the object
+print(ItemQuantity.to_json())
+
+# convert the object into a dict
+item_quantity_dict = item_quantity_instance.to_dict()
+# create an instance of ItemQuantity from a dict
+item_quantity_from_dict = ItemQuantity.from_dict(item_quantity_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

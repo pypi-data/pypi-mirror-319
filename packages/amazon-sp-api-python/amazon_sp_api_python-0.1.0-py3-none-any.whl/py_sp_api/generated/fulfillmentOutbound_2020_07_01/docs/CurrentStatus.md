@@ -1,0 +1,45 @@
+# CurrentStatus
+
+The current delivery status of the package.
+
+## Enum
+
+* `IN_TRANSIT` (value: `'IN_TRANSIT'`)
+
+* `DELIVERED` (value: `'DELIVERED'`)
+
+* `RETURNING` (value: `'RETURNING'`)
+
+* `RETURNED` (value: `'RETURNED'`)
+
+* `UNDELIVERABLE` (value: `'UNDELIVERABLE'`)
+
+* `DELAYED` (value: `'DELAYED'`)
+
+* `AVAILABLE_FOR_PICKUP` (value: `'AVAILABLE_FOR_PICKUP'`)
+
+* `CUSTOMER_ACTION` (value: `'CUSTOMER_ACTION'`)
+
+* `UNKNOWN` (value: `'UNKNOWN'`)
+
+* `OUT_FOR_DELIVERY` (value: `'OUT_FOR_DELIVERY'`)
+
+* `DELIVERY_ATTEMPTED` (value: `'DELIVERY_ATTEMPTED'`)
+
+* `PICKUP_SUCCESSFUL` (value: `'PICKUP_SUCCESSFUL'`)
+
+* `PICKUP_CANCELLED` (value: `'PICKUP_CANCELLED'`)
+
+* `PICKUP_ATTEMPTED` (value: `'PICKUP_ATTEMPTED'`)
+
+* `PICKUP_SCHEDULED` (value: `'PICKUP_SCHEDULED'`)
+
+* `RETURN_REQUEST_ACCEPTED` (value: `'RETURN_REQUEST_ACCEPTED'`)
+
+* `REFUND_ISSUED` (value: `'REFUND_ISSUED'`)
+
+* `RETURN_RECEIVED_IN_FC` (value: `'RETURN_RECEIVED_IN_FC'`)
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
