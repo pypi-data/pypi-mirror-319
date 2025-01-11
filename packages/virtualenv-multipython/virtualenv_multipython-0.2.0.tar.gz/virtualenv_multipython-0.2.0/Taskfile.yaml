@@ -1,0 +1,68 @@
+version: '3'
+
+tasks:
+
+  init:
+    desc: Init local dev environment.
+    cmds:
+      - uv lock
+      - uv sync
+
+  news:*:
+    desc: Create news item {added|breaking|changed|deprecated|docs|fixed|misc|removed|security}.
+    vars:
+      ISSUE: {sh: git rev-parse --abbrev-ref HEAD | cut -d- -f1}
+      SECTION: '{{index .MATCH 0}}'
+    cmds:
+      - uv run towncrier create -c '{{.CLI_ARGS}}' "{{.ISSUE}}.{{.SECTION}}.md"
+
+  lint:
+    desc: Run linters.
+    cmds:
+      - uv run mypy src
+      - uv run ruff check
+      - uv run ruff format --check
+
+  test:
+    desc: Run tests
+    env:
+      BUILDKIT_PROGRESS: plain
+    cmds:
+      - docker buildx bake -f tests/docker-bake.hcl
+
+  # ----------------
+  #  RELEASE PROCES
+  # ----------------
+  # $ task lint
+  # $ task test
+  # $ task release:version -- [patch|minor|major]
+  # $ task release:changelog
+  # (edit changelog)
+  # $ task release:build
+  # $ task release:publish
+
+  release:version:
+    desc: Bump release version.
+    cmds:
+      - uv run bump-my-version bump -- {{.CLI_ARGS}}
+      - uv lock
+
+  release:changelog:
+    desc: Collect changelog entries.
+    vars:
+      VERSION: {sh: uvx bump-my-version show current_version 2>/dev/null}
+    cmds:
+      - towncrier build --yes --version "{{.VERSION}}"
+
+  release:build:
+    desc: Build package.
+    cmds:
+      - uv lock
+      - rm -rf dist
+      - uv build
+
+  release:publish:
+    desc: Publish package on PyPI.
+    cmds:
+      - task: release:build
+      - uv publish
