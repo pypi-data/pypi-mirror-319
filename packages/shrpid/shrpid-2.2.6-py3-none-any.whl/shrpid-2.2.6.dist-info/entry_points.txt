@@ -1,0 +1,3 @@
+[console_scripts]
+shrpi = shrpi.__main__:cli
+shrpid = shrpi.__main__:daemon
