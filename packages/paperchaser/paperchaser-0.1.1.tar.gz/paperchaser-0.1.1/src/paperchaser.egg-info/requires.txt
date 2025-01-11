@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+click
+tabulate
+tqdm
+scholarly
+crossrefapi
+PyPDF2
+pdf-renamer

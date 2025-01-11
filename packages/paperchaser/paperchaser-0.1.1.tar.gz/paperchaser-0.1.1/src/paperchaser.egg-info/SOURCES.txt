@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/paperchaser/__init__.py
+src/paperchaser/cli.py
+src/paperchaser/core.py
+src/paperchaser.egg-info/PKG-INFO
+src/paperchaser.egg-info/SOURCES.txt
+src/paperchaser.egg-info/dependency_links.txt
+src/paperchaser.egg-info/entry_points.txt
+src/paperchaser.egg-info/requires.txt
+src/paperchaser.egg-info/top_level.txt
