@@ -1,0 +1,20 @@
+[project]
+name = "start-watching-case-list"
+version = "0.1.2"
+description = "Get data from case services"
+authors = [{ name = "6vi7ms", email = "6vi7ms@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+packages = [{ include = "*", from = "src" }]
+
+[tool.poetry.scripts]
+start-watching-case-list = "start_watching_case_list.main:main"
