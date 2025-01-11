@@ -1,0 +1,45 @@
+Metadata-Version: 2.2
+Name: pyamplipi
+Version: 0.4.12
+Summary: Python API for interacting with the AmpliPi Multizone Audio Controller
+Home-page: https://github.com/brianhealey/pyamplipi
+Download-URL: https://github.com/brianhealey/pyamplipi/archive/0.4.12.tar.gz
+Author: HeeHee Software
+Author-email: brian.healey@gmail.com
+License: GPL
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+Requires-Dist: setuptools>=60.5.0
+Requires-Dist: requests>=2.28.1
+Requires-Dist: urllib3>=1.26.7
+Requires-Dist: aiohttp>=3.8.1
+Requires-Dist: pydantic>=2.0
+Requires-Dist: argparse>=1.4.0
+Requires-Dist: python-dotenv>=0.21.0
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: tabulate>=0.9.0
+Requires-Dist: validators>=0.20.0
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: mypy>=0.991; extra == "dev"
+Requires-Dist: sphinx>=5.3.0; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=2.0.0; extra == "dev"
+Requires-Dist: myst-parser>=1.0.0; extra == "dev"
+Requires-Dist: types-PyYAML; extra == "dev"
+Requires-Dist: types-requests; extra == "dev"
+Requires-Dist: types-tabulate; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: license
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
