@@ -1,0 +1,10 @@
+sskit/__init__.py,sha256=FwzP6u2wpIQfqRqWiMA_jw4wOoGKNUABzePZC2T5HRg,327
+sskit/camera.py,sha256=xu_VgTRlBD8rsp68Pw0l0_toSVaOY5IVvcgBD99FSpU,4547
+sskit/coco.py,sha256=bYSPygGnX0_2pLOWqyQ5Z75ToqczPEsk7B7eT-jj64U,3994
+sskit/metric.py,sha256=wZCP-zyOlpMvSff89ABd7zM2ipGIpv1Fb993YZtkImw,517
+sskit/utils.py,sha256=H-D-jGC8MhboxxghHjTaQHEgnFjjqOO4TLitG7uD1gQ,2919
+sskit/version.py,sha256=T0Up__7AK2LjyS-tZBA1L7qtHhPUm2Z4t7Kua8nAR2E,86
+sskit-0.2.3.dist-info/METADATA,sha256=DOrJnOyLaZqK5PrJ7U7vBrnLWT0D9ISxi500wRqKJMM,405
+sskit-0.2.3.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+sskit-0.2.3.dist-info/top_level.txt,sha256=PUrOB0ZryBFJkiPVDZ6FELvmPU590GvSAL9boHGQsOk,6
+sskit-0.2.3.dist-info/RECORD,,
