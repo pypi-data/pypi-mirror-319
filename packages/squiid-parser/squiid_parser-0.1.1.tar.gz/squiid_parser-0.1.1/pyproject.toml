@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "squiid-parser"
+version = "0.1.1"
+description = "Squiid Parser Python bindings"
+authors = ["TabulateJarl8 <tabulatejarl8@gmail.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://gitlab.com/ImaginaryInfinity/squiid-calculator/squiid-bindings"
+include = [
+    { path = "squiid-parser-rust/Cargo.toml", format = [
+        "sdist",
+    ] },
+    { path = "squiid-parser-rust/src/**", format = [
+        "sdist",
+    ] },
+    { path = "squiid_parser/*.so", format = [
+        "wheel",
+    ] },
+    { path = "squiid_parser/*.dll", format = [
+        "wheel",
+    ] },
+    { path = "squiid_parser/*.dylib", format = [
+        "wheel",
+    ] },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.build]
+script = "build.py"
+generate-setup-file = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.cibuildwheel]
+skip = [
+    "cp36-*",
+    "cp37-*",
+    "cp38*",
+    "cp39*",
+    "pp*",
+    "*-manylinux_i686",
+    "*_ppc64le",
+    "*_s390x",
+    "*_universal2",
+    "*-musllinux_i686",
+]
+
+[tool.cibuildwheel.linux]
+before-all = ["curl -sSf https://sh.rustup.rs | sh -s -- -y", "make clean"]
+environment = "PATH=$HOME/.cargo/bin:$PATH"
+
+[tool.cibuildwheel.windows]
+before-all = ["rustup target add i686-pc-windows-msvc"]
