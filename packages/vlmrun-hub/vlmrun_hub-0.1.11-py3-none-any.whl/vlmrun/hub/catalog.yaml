@@ -1,0 +1,105 @@
+apiVersion: v1
+schemas:
+  # Document domains
+  - domain: document.invoice
+    schema: vlmrun.hub.schemas.document.invoice.Invoice
+    prompt: "You are a detail-oriented invoice analyst. Extract all the relevant information from the candidate's invoice as accurately as possible."
+    description: "Comprehensive invoice data extraction system that processes invoice images to extract structured information including invoice metadata, customer details, line items, and financial totals."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/document.invoice/invoice_1.jpg"
+    metadata:
+      supported_inputs: ["image", "document"]
+      tags: ["document", "finance"]
+
+  - domain: document.receipt
+    schema: vlmrun.hub.schemas.document.receipt.Receipt
+    prompt: "You are a detail-oriented receipt analyst. Extract all the relevant information from the receipt as accurately as possible."
+    description: "Receipt data extraction system that processes receipt images to extract structured information including transaction details, merchant information, and financial totals."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/document.receipt/sample_receipt.webp"
+    metadata:
+      supported_inputs: ["image", "document"]
+      tags: ["document", "finance"]
+
+  - domain: document.resume
+    schema: vlmrun.hub.schemas.document.resume.Resume
+    prompt: "You are a detail-oriented technical resume analyst. Extract all the relevant information from the candidate's resume as accurately as possible."
+    description: "Resume data extraction system that processes resume images to extract structured information including contact details, education, work experience, skills, and additional sections."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/document.resume/fake-resume.webp"
+    metadata:
+      supported_inputs: ["image", "document"]
+      tags: ["document", "resume"]
+
+  - domain: document.us-drivers-license
+    schema: vlmrun.hub.schemas.document.us_drivers_license.USDriversLicense
+    prompt: "You are a detail-oriented document analyst. Extract all the relevant information from the candidate's driver's license as accurately as possible."
+    description: "Driver's license information extraction system that processes driver's license images to extract structured information including name, address, date of birth, and license details."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/document.us-drivers-license/dl3.jpg"
+    metadata:
+      supported_inputs: ["image", "document"]
+      tags: ["document", "identity"]
+
+  - domain: document.utility-bill
+    schema: vlmrun.hub.schemas.document.utility_bill.UtilityBill
+    prompt: "You are a detail-oriented utility bill analyst. Extract all the relevant information from the utility bill as accurately as possible."
+    description: "Utility bill data extraction system that processes utility bill images to extract structured information including account details, billing period, charges, and payment information."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/document.utility-bill/utility-bill-example.webp"
+    metadata:
+      supported_inputs: ["image", "document"]
+      tags: ["document", "finance"]
+
+  - domain: document.bank-statement
+    schema: vlmrun.hub.schemas.document.bank_statement.BankStatement
+    prompt: "You are a diligent bank statement analyzer. Extract all the relevant information from the statement as accurately as possible."
+    description: "Bank statement data extraction system that processes bank statements to extract structured financial transaction information including account details, balances, and transaction history."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/document.bank-statement/lending_bankstatement.pdf"
+    metadata:
+      supported_inputs: ["image", "document"]
+      tags: ["document", "finance", "banking"]
+
+  # Industry-specific domains
+  # aerospace
+  - domain: aerospace.remote-sensing
+    schema: vlmrun.hub.schemas.aerospace.remote_sensing.RemoteSensing
+    prompt: "You are a detail-oriented remote sensing analyst. Analyze this satellite image to identify and categorize land features, infrastructure, and environmental elements. Note any significant objects and assess visibility conditions as accurately as possible."
+    description: "Satellite image analysis system for identifying and categorizing geographical features, infrastructure, and environmental elements from aerial imagery."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/aerospace.remote-sensing/planet_labs_port.jpg"
+    metadata:
+      supported_inputs: ["image", "video"]
+      tags: ["aerospace", "image"]
+
+  # healthcare
+  - domain: healthcare.medical-insurance-card
+    schema: vlmrun.hub.schemas.healthcare.medical_insurance_card.MedicalInsuranceCard
+    prompt: "You are a detail-oriented document analyst. Extract all the relevant information from the candidate's medical insurance card as accurately as possible."
+    description: "Medical insurance card information extraction system that processes insurance card images to extract comprehensive coverage details, member information, and provider data."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/healthcare.medical-insurance-card/blue_cross_example.jpg"
+    metadata:
+      supported_inputs: ["image", "document"]
+      tags: ["healthcare", "medical"]
+
+  # media
+  - domain: media.nfl_game_state
+    schema: vlmrun.hub.schemas.contrib.media.nfl_game_state.NFLGameState
+    prompt: "You are a detail-oriented NFL Game Analyst. Extract all the relevant game state information from the video feed or screenshot as accurately as possible."
+    description: "NFL game state extraction system that processes game footage or screenshots to extract structured information including teams, scores, game clock, possession, and other relevant game state details."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/media.nfl-game-state/packers_cardinals_screenshot.png"
+    metadata:
+      supported_inputs: ["image", "video"]
+      tags: ["media", "sports", "nfl"]
+
+  - domain: media.nba_game_state
+    schema: vlmrun.hub.schemas.contrib.media.nba_game_state.NBAGameState
+    prompt: "You are a detail-oriented NBA Game Analyst. Extract all the relevant game state information from the video feed or screenshot as accurately as possible."
+    description: "NBA game state extraction system that processes game footage or screenshots to extract structured information including teams, scores, game clock, shot clock, and other relevant game state details."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/media.nba-game-state/heats_spurs.png"
+    metadata:
+      supported_inputs: ["image", "video"]
+      tags: ["media", "sports", "nba"]
+
+  - domain: document.w2-form
+    schema: vlmrun.hub.schemas.contrib.document.w2_form.W2Form
+    prompt: "You are a detail-oriented tax document analyst. Extract all the relevant information from the W-2 form as accurately as possible."
+    description: "W-2 form data extraction system that processes Form W-2 (Wage and Tax Statement) to extract structured information including employee details, employer information, wages, and tax withholding data."
+    sample_data: "https://storage.googleapis.com/vlm-data-public-prod/hub/examples/document.w2-form/2020FormW-2.pdf"
+    metadata:
+      supported_inputs: ["image", "document"]
+      tags: ["document", "finance", "tax"]
