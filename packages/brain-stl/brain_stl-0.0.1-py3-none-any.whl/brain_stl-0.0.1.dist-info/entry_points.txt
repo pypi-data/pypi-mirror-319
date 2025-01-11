@@ -1,0 +1,3 @@
+[console_scripts]
+brain-stl=brain_stl.cli:run_cli
+
