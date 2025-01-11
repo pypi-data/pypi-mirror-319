@@ -1,0 +1,7 @@
+dagster==1.9.7
+sqlglot
+aiohttp
+
+[test]
+aioresponses
+aiohttp<3.11
