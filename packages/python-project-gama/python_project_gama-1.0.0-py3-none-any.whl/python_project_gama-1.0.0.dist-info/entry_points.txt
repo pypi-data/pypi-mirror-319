@@ -1,0 +1,3 @@
+[console_scripts]
+python-project-gama=python_project_gama.__main__:app
+
