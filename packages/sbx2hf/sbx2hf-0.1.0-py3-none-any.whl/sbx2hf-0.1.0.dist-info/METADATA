@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: sbx2hf
+Version: 0.1.0
+Summary: A tool to automatically upload a Språkbanken resource to the Hugging Face Hub.
+Author-email: Felix Morger <felix.morger@gu.se>
+License: The GNU General Public License v3.0
+License-File: LICENSE
+Requires-Python: >=3.11
+Requires-Dist: certifi~=2024.2.2
+Requires-Dist: charset-normalizer~=3.3.2
+Requires-Dist: filelock~=3.16.1
+Requires-Dist: fsspec~=2024.10.0
+Requires-Dist: huggingface-hub~=0.26.2
+Requires-Dist: idna~=3.6
+Requires-Dist: jinja2~=3.1.4
+Requires-Dist: markupsafe~=3.0.2
+Requires-Dist: numpy~=2.1.3
+Requires-Dist: packaging~=24.2
+Requires-Dist: pandas~=2.2.3
+Requires-Dist: python-dateutil~=2.9.0.post0
+Requires-Dist: pytz~=2024.2
+Requires-Dist: pyyaml~=6.0.2
+Requires-Dist: requests~=2.31.0
+Requires-Dist: six~=1.16.0
+Requires-Dist: tqdm~=4.67.0
+Requires-Dist: typing-extensions~=4.12.2
+Requires-Dist: tzdata~=2024.2
+Requires-Dist: urllib3~=2.2.1
+Description-Content-Type: text/markdown
+
+# Introduction
+
+This is a toolkit for automatically creating a Hugging Face repository for a Språkbanken resource. 
+
+# Usage
+
+sb2hf is a command-line tool which creates a Hugging Face repository from a Språkbanken resource url (found at https://spraakbanken.gu.se/resurser). For example, if an authenticated user of the ```sbx``` organization of the user runs this: 
+
+```
+python sbx2hf.py https://spraakbanken.gu.se/resurser/forarbeten1734 --push-to-hub
+```
+
+This dataset with the same resource name will be automatically uploaded: https://huggingface.co/datasets/sbx/forarbeten1734.
+
+To use this outside the Språkbanken Text organization, simply specify your own organization or user under the ``--hf-namespace`` argument.
