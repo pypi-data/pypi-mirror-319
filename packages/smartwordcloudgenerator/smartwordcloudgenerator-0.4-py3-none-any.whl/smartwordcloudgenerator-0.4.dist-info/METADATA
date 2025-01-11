@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: smartwordcloudgenerator
+Version: 0.4
+Summary: Generate smart word cloud.
+Home-page: https://github.com/Yewei-Liu/smart_word_cloud.git
+Author: 刘晔玮  Yewei Liu (Lewis)
+Author-email: liuyeweilewis@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: Pillow
+
