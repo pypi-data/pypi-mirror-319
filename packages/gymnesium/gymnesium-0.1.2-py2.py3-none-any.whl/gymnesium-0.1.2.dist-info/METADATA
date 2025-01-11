@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: gymnesium
+Version: 0.1.2
+Summary: An NES Gymnasium Environment
+Home-page: https://github.com/Hal609/GymNESium
+Author: Hal Kolb
+Author-email: hal@kolb.co.uk
+License: MIT
+Keywords: NES Emulator OpenAI-Gym Gymnasium Reinforcement-Learning-Environment
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Emulators
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy>=1.18.5
+Requires-Dist: cynes>=0.1.0
+Requires-Dist: gymnasium>=1.0.0
+
+# GymNESium
+
+GymNESium is a NES Gymnasium environment based on the [cynes](https://github.com/Youlixx/cynes) emulator.
+
+# Installation
+
+The preferred installation of `GymNESium` is from `pip`:
+
+```shell
+pip install gymnesium
+```
+
+# Usage
+
+Import the module
+```
+from gymnesium import NESEnv
+```
+The step function is stubbed and should be implemented in your environment. For an example of this see: [MTPO-RL]()
+
+# Disclaimer
+
+**This project is provided for educational purposes only. It is not
+affiliated with and has not been approved by Nintendo.**
