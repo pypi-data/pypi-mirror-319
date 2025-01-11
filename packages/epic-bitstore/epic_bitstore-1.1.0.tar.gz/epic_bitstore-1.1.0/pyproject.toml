@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "epic-bitstore"
+version = "1.1.0"
+description = "Multi-tiered cloud-backed blob storage system"
+authors = ["Yonatan Perry", "Uri Sternfeld", "Assaf Ben-David"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/epic-framework/epic-bitstore"
+packages = [{include = "epic"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+epic-common = "*"
+epic-logging = "*"
+boto3 = {version = "*", optional = true}
+requests = {version = "*", optional = true}
+google-auth = {version = "*", optional = true}
+google-cloud-storage = {version = "*", optional = true}
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+pytest-cov = "*"
+ultima = "*"
+
+[tool.poetry.extras]
+aws = ["boto3"]
+gcp = [
+    "requests",
+    "google-auth",
+    "google-cloud-storage",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
