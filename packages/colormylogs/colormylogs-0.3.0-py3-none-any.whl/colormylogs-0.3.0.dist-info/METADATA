@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: colormylogs
+Version: 0.3.0
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: rich>=13.9.4
+Requires-Dist: typer>=0.15.1
