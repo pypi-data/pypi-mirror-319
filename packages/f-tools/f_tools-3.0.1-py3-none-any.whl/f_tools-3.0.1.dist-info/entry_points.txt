@@ -1,0 +1,2 @@
+[console_scripts]
+f-ecs-bash = f_tools.ecs_bash:main
