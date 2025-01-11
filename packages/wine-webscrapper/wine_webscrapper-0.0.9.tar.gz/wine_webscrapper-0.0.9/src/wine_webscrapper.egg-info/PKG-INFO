@@ -1,0 +1,48 @@
+Metadata-Version: 2.2
+Name: wine_webscrapper
+Version: 0.0.9
+Summary: A web-scrapper that scraps wines from web.
+Author-email: Soham Jobanputra <sohamjobanputra7@gmail.com>
+Project-URL: Repository, https://github.com/Soham7777777/Imbiber.git
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: pydantic==2.9.2
+Requires-Dist: mypy==1.13.0
+Requires-Dist: SQLAlchemy==2.0.36
+Requires-Dist: email_validator==2.2.0
+Requires-Dist: selenium==4.27.1
+Requires-Dist: click==8.1.8
+
+# The wine scrapping tool
+---
+
+## Usage
+
+### Prerequisites
+It is recommended to create a virtual environment before installing and running the package to avoid dependency conflicts. You can set up a virtual environment using the following commands:
+
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+### Install and Run
+
+1. Install the package:
+   ```bash
+   pip install wine-webserver
+   ```
+
+2. Mock the data:
+   ```bash
+   imbiber run
+   ```
+
+Use `imbiber --help` to read the man page of `imbiber` command.

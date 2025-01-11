@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/app/__init__.py
+src/app/db.py
+src/app/utils.py
+src/wine_webscrapper.egg-info/PKG-INFO
+src/wine_webscrapper.egg-info/SOURCES.txt
+src/wine_webscrapper.egg-info/dependency_links.txt
+src/wine_webscrapper.egg-info/entry_points.txt
+src/wine_webscrapper.egg-info/requires.txt
+src/wine_webscrapper.egg-info/top_level.txt

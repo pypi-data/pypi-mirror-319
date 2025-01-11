@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wine_webscrapper"
+version = "0.0.9"
+requires-python = ">= 3.12"
+dependencies = [
+    "python-dotenv==1.0.1",
+    "pydantic==2.9.2",
+    "mypy==1.13.0",
+    "SQLAlchemy==2.0.36",
+    "email_validator==2.2.0",
+    "selenium==4.27.1",
+    "click==8.1.8"
+]
+authors = [
+  {name = "Soham Jobanputra", email = "sohamjobanputra7@gmail.com"},
+]
+description = "A web-scrapper that scraps wines from web."
+readme = "README.md"
+
+[project.urls]
+Repository = "https://github.com/Soham7777777/Imbiber.git"
+
+[project.scripts]
+imbiber = "app:cli"
