@@ -1,0 +1,10 @@
+bin/geos.dll,sha256=PxGAu1nkI2Z86qRilgffwDKFyiZ5C_CCvMcwLszCH6s,2784768
+lib/geos.lib,sha256=OubLTXyTCDU64WcYO4kj-ep4fIpV752mbOyYHRcH58U,3572768
+teqpflsh/__init__.py,sha256=JNwFuMOAQFiiwFczdxAitnIs0F8ZJLn16_EZsb3Hctc,81
+teqpflsh/_teqpflsh_impl.cp312-win_amd64.pyd,sha256=Decr_DilnO7cocS9Oefm92YEVEDkZlKi_w_10XziQCo,6889984
+teqpflsh/_teqpflsh_impl.pyi,sha256=_xFeksoww88btYCEC4yI0_Cple9oadNucFXXqnM2SmA,23346
+teqpflsh/geos.dll,sha256=PxGAu1nkI2Z86qRilgffwDKFyiZ5C_CCvMcwLszCH6s,2784768
+teqpflsh/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teqpflsh-0.0.3.dist-info/METADATA,sha256=xhiIvgNa1PEuGW_FcsKk_azrnW7L5iRG2MRdTyWc9BQ,995
+teqpflsh-0.0.3.dist-info/WHEEL,sha256=GgB_RydHGtp7zP9kXrVRu7kuGtdM7WtO3JhH95Vv87o,106
+teqpflsh-0.0.3.dist-info/RECORD,,
