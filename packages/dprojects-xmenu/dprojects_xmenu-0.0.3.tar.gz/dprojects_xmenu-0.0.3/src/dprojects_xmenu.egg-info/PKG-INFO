@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: dprojects_xmenu
+Version: 0.0.3
+Summary: A command line menu controller
+Author-email: Marc Delos <marcdp@dprojects.com>
+Project-URL: Homepage, https://github.com/marcdp/xmenu
+Project-URL: Issues, https://github.com/marcdp/xmenu/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xmenu
+A command line menu controller

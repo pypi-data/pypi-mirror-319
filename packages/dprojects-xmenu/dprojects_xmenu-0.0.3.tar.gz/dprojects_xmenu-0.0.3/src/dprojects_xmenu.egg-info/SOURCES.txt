@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/dprojects_xmenu/__init__.py
+src/dprojects_xmenu/module.py
+src/dprojects_xmenu.egg-info/PKG-INFO
+src/dprojects_xmenu.egg-info/SOURCES.txt
+src/dprojects_xmenu.egg-info/dependency_links.txt
+src/dprojects_xmenu.egg-info/top_level.txt
