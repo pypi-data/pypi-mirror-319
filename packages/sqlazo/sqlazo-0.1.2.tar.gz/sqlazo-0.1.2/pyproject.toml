@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlazo"
+version = "0.1.2"
+description = "Sqlazo para gestionar bases de datos SQLITE"
+readme = { file = "README.md", content-type = "text/markdown", charset = "utf-8" }
+license = { text = "MIT License" }
+authors = [
+    { name = "Tutos Rive Gamer", email = "sqlazosrmtrg@outlook.com" }
+]
+dependencies = [
+    "chromologger==0.1.5"
+]
+requires-python = ">=3.8"
+classifiers=[
+    # Estado del desarrollo
+    "Development Status :: 4 - Beta",
+
+    # Audiencia del paquete
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+
+    # Propósito del software
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Debuggers",
+    "Topic :: System :: Monitoring",
+    "Topic :: Utilities",
+
+    # Compatibilidad de licencia
+    "License :: OSI Approved :: MIT License",
+
+    # Compatibilidad con Python
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+
+    # Características adicionales
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Environment :: Other Environment",
+]
+
+
+[tool.setuptools.packages]
+find = { include = ["sqlazo"] }
+
+[project.urls]
+"Homepage" = "https://tutosrivegamerlq.github.io/sqlazo/"
+"Repository" = "https://github.com/tutosrivegamerlq/sqlazo/"
+"YouTube" = "https://www.youtube.com/@tutosrive"
