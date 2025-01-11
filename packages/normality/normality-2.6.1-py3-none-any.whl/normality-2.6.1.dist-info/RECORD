@@ -1,0 +1,15 @@
+normality/__init__.py,sha256=Plxz3pk5f8FMhmUIjE_K5OkB_ad_lbfxS_L4IrFRInY,3179
+normality/cleaning.py,sha256=OByMKX6KzjI2QSEfMOyflnZB3aPi1cEOJlYrPgabbMM,2883
+normality/constants.py,sha256=MQ0paKTioagOGirkv8xUzZmvVEkJ77IjhhwWMqdSBhQ,1623
+normality/encoding.py,sha256=cNKp9GdFvTdkNw0vHyW75y-LufkpRzYyM9KB9oVKr_s,3757
+normality/paths.py,sha256=_BEzosb1_JzU7A4r_azj3fVzAgRA6hjAn6eE_4nYu-w,1602
+normality/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+normality/scripts.py,sha256=Wu9TbOeWrDWLHlYMlmy-OSTUCSZ02RB0sETaW6_j6lw,21068
+normality/slugify.py,sha256=9Tne-0qfh79gjFFYHsYa5ZK6MklbEiySkEFEu5H5KPU,1066
+normality/stringify.py,sha256=ahSv4qMKcjdnnWuGvw_XvTnR0q8r7SjbNHB3idc-IKs,1610
+normality/transliteration.py,sha256=GBr76oiny1mIGp7ZLeNzJ3rQcFABzNFWWeCAfsTU4zI,2806
+normality/util.py,sha256=00mTv77cz_Iu-mW5FHEPgeBxa6fhGWBr4FNpvGznQlw,227
+normality-2.6.1.dist-info/METADATA,sha256=EpJW-JUDX3r33fzxTMtpb_f1nHPnt84TXKoP_UYJjB4,3811
+normality-2.6.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+normality-2.6.1.dist-info/licenses/LICENSE,sha256=n3yLSLvEdTX2yp_IyRKn8l55W1gR_jcfN0fzWGLekJo,1084
+normality-2.6.1.dist-info/RECORD,,
