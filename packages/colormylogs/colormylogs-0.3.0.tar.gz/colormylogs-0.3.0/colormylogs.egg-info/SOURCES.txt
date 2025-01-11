@@ -1,0 +1,8 @@
+pyproject.toml
+colormylogs/main.py
+colormylogs.egg-info/PKG-INFO
+colormylogs.egg-info/SOURCES.txt
+colormylogs.egg-info/dependency_links.txt
+colormylogs.egg-info/entry_points.txt
+colormylogs.egg-info/requires.txt
+colormylogs.egg-info/top_level.txt
