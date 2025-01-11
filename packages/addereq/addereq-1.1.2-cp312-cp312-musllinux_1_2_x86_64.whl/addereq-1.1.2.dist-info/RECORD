@@ -1,0 +1,10 @@
+addereq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addereq/fetching_mysql.cpython-312-x86_64-linux-musl.so,sha256=5x4q0pCIVSmTPc7GzD0JuCcrQE1ejlu0Ojx_s-9cBFE,1069048
+addereq/plotting.cpython-312-x86_64-linux-musl.so,sha256=C1uEkvNf2W7t0zbkbcQEK3XHohy9LeVj7hu-rcx6ZFw,2728288
+addereq/cleaning.cpython-312-x86_64-linux-musl.so,sha256=yzOnyUYTQklQSHloRAHRQJreHbIf_xMSpK6fXK8s2EE,460512
+addereq/fetching.cpython-312-x86_64-linux-musl.so,sha256=-Oc9NrnxiZFuV8G3lfrQ5eRVSEHps6j85nKuknuxTDU,1324080
+addereq-1.1.2.dist-info/top_level.txt,sha256=kTOP05dPDJJ_BcjbvtEfnk5o3vVaHkqY_JPbOoDhkUc,8
+addereq-1.1.2.dist-info/RECORD,,
+addereq-1.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+addereq-1.1.2.dist-info/METADATA,sha256=30Xl3LDFURxxbUN4E2y274vqjEgkpX47SS4QSO_Mvzg,870
+addereq-1.1.2.dist-info/WHEEL,sha256=De2b43m_7Kw6fbMgNWRPggas_gXFWfFfFIUUorxLsqY,112
