@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: groupcorr
+Version: 0.1.0
+Summary: Correlation Importance Among Different Groups
+Home-page: https://github.com/erensemih/groupcorr
+Author: Semih Eren
+Author-email: 19semiheren97@gmail.com
+Keywords: feature importance selection
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
+
+gruop correlation based feature importance

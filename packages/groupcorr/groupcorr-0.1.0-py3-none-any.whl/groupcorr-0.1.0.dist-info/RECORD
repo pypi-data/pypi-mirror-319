@@ -1,0 +1,8 @@
+groupcorr/__init__.py,sha256=3uKqEJn9j1YHRunrpW-a3YENTj6jeFv2K6BRafPhYN0,32
+groupcorr/exceptions.py,sha256=9njtmU1O7p38v3LE8iikz6iSoHuEtuXgG48_1b68utk,126
+groupcorr/groupcorr.py,sha256=9Z5FPkvhxPLk2WSrExD5UIgz2E6lbJTIxug3baD7x34,1156
+groupcorr/utils.py,sha256=irSUI5fFNqnEHCi60JQ894Pgsz1XaAwCXEDwNjCqUPI,1733
+groupcorr-0.1.0.dist-info/METADATA,sha256=kpGnedb9Q0gdgemF2ga1DkqBJ1L4530dD51GIB0SOKs,738
+groupcorr-0.1.0.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+groupcorr-0.1.0.dist-info/top_level.txt,sha256=M9GCernFyMrTk9CqGR5whOSzEDc-YxDeK3uda5NZr6g,10
+groupcorr-0.1.0.dist-info/RECORD,,
