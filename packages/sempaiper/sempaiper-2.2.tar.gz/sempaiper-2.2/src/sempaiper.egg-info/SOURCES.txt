@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/sempaiper.egg-info/PKG-INFO
+src/sempaiper.egg-info/SOURCES.txt
+src/sempaiper.egg-info/dependency_links.txt
+src/sempaiper.egg-info/not-zip-safe
+src/sempaiper.egg-info/top_level.txt
