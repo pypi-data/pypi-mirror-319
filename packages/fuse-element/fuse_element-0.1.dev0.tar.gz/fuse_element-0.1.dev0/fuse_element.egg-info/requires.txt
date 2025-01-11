@@ -1,0 +1,10 @@
+numpy
+networkx
+sympy
+sphinx
+
+[dev]
+pytest
+
+[doc]
+sphinx
