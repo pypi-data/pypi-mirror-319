@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+f_tools/aws/resources/f_tools.egg-info/PKG-INFO
+f_tools/aws/resources/f_tools.egg-info/SOURCES.txt
+f_tools/aws/resources/f_tools.egg-info/dependency_links.txt
+f_tools/aws/resources/f_tools.egg-info/entry_points.txt
+f_tools/aws/resources/f_tools.egg-info/requires.txt
+f_tools/aws/resources/f_tools.egg-info/top_level.txt
