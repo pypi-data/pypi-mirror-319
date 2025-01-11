@@ -1,0 +1,8 @@
+app/__init__.py,sha256=fVoU-03uB98qcFw9H4rHL9XSJy346QqsVtrl-b-gIVA,483
+app/db.py,sha256=C4uATWRasoc07AfEAkHaVW-Iz3ggAlvb7q4JPELvbCI,684
+app/utils.py,sha256=1tGFLW3H8Xtz_WXlgQ19hOewIyG74nY78RTsk8PuCps,516
+wine_webscrapper-0.0.9.dist-info/METADATA,sha256=lszeh53x5roxgIvnDo7zwzijE9drIjm3y1nCG0Tpa2s,1172
+wine_webscrapper-0.0.9.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+wine_webscrapper-0.0.9.dist-info/entry_points.txt,sha256=O5INUfIKNexmlxZSKvzf0zjZYz4VQjyaQMp75uA69oM,36
+wine_webscrapper-0.0.9.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+wine_webscrapper-0.0.9.dist-info/RECORD,,
