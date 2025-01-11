@@ -1,0 +1,11 @@
+aihqrating/__init__.py,sha256=7moj-bcWbzTnqMkkH9k43bv0nMDEswVC_wHQYMjqzQE,71
+aihqrating/flant5_rating.py,sha256=lwrP_LptANMOO0IX0ps5Eo9HWY2jSOcpAny-wMO2ziQ,3076
+aihqrating/install_packages.py,sha256=7RH9YAcg2eIHv3VS4H98x_kXx-v1TpWGiSN7tDlexfA,1737
+aihqrating/main.py,sha256=LL_-vFFGOsEcSlT4F8CwenD96zri3mc-AVZdyMubRsc,6934
+aihqrating/docs/Makefile,sha256=4zv3TVkTACm6JBaKgTES3ZI9cETXgM6ULbZkXZP1as8,638
+aihqrating/docs/make.bat,sha256=L4I5T7uDUIjwGyMRJ-y9FoT61sxIyCuaYuJyLt8c-nA,804
+aihqrating/templates/session.html,sha256=IPCP555YIpGmzeseOfhati6egAkSEXhDOcmFc9OSF1g,6221
+aihqrating-0.0.6.dist-info/METADATA,sha256=oSEdKHMFI25DZRhP58xRt0EkVMbdIf32ZuRen25xka0,818
+aihqrating-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aihqrating-0.0.6.dist-info/top_level.txt,sha256=OGwILSprioQjFlYUDLeLNMQu9XQhAAMe5KAM6hpPkzQ,11
+aihqrating-0.0.6.dist-info/RECORD,,
