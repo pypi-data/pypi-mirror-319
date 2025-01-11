@@ -1,0 +1,9 @@
+FundaDeliverSample/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FundaDeliverSample/validator.py,sha256=gc5uY7658-V9L0VopxCrFh_R0cZHt49VS81WHn7V6EE,16383
+FundaDeliverSample/configs/default.gin,sha256=xBJfAZzArcC20YhSXKdfPvq6GPSvnt2sZCJzNoVjP48,211
+FundaDeliverSample/pyarmor_runtime_000000/__init__.py,sha256=TkgG4QowxszN7CU2Crj5_k7GzAbF7Vrk1SrPEOXbVto,101
+FundaDeliverSample/pyarmor_runtime_000000/pyarmor_runtime.so,sha256=-RcigJ8HVQJaPGwV00cH7KJ1-lnKxQ3klFeC5BFIKfE,788264
+FundaDeliverSample-0.1.5.dist-info/METADATA,sha256=LQAZpjdNE9iM0nL6sMkFApk4Px1uDRr-zzEYLpsoyC8,206
+FundaDeliverSample-0.1.5.dist-info/WHEEL,sha256=In9FTNxeP60KnTkGw7wk6mJPYd_dQSjEZmXdBdMCI-8,91
+FundaDeliverSample-0.1.5.dist-info/top_level.txt,sha256=20oaNa67MFm6sE0C4FtNlaaNIk9GVukHkNVL53e5sWw,19
+FundaDeliverSample-0.1.5.dist-info/RECORD,,

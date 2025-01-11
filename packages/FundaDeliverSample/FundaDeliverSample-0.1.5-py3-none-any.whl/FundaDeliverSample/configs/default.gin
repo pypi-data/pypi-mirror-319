@@ -1,0 +1,10 @@
+# Configuration for validation settings
+ValidatorConfig:
+    threshold = 0.85
+    max_attempts = 3
+    timeout_seconds = 30
+
+ProcessingConfig:
+    batch_size = 64
+    num_workers = 4
+    device = 'cuda'
